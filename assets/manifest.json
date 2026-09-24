@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "description": "External checkpoint, cache, reset-bank, and data identities required by the packaged experiment families.",
+  "assets": []
+}
