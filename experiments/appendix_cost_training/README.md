@@ -11,7 +11,7 @@ This package covers Tables **8–10**, updated **Table11 RegMean α=.3 action ag
 | Table14 cost | CPU receipt extractor and historical extraction sources included | Missing wall/memory measurements remain null; no extrapolated compute claims |
 | Tables6/15 continued training | Six-arm design template and fail-closed protocol preflight | **BLOCKED:** no reviewed common training budget/configuration exists; no training launcher is invented |
 
-`PROVENANCE.json` binds every copied original source/config to its workspace-relative path, SHA256, byte count, source Git HEAD and acquisition date. The copied files are byte-preserved under `sources/`. Historical comments describe their original context; they are not new authorizations or current scientific claims. They may reference superseded runs.
+`PROVENANCE.json` binds copied sources/configs to their workspace-relative paths, SHA256 and byte counts. The original snapshot records its source Git HEAD and acquisition date; the five A∪B recovery additions are marked with their later creation date. Files under `sources/` are byte-preserved copies. Historical comments describe their original context; they are not new authorizations or current scientific claims. They may reference superseded runs.
 
 `ASSETS.json` lists external artifacts by logical ID and workspace-relative path, with known sizes/hashes. No `.pt`, `.safetensors`, dataset, video, or model archive is stored in regular Git. The parent release may merge these declarations into its root asset manifest.
 
@@ -37,6 +37,8 @@ python3 workflow.py plan --workspace-root /path/to/parameter-fusion \
 ```
 
 `stage` copies source bytes only and refuses to overwrite differing files. Frozen historical JSON/TeX snapshots stay in the release package for provenance; do not overwrite live plans with them. External calibration pools, expert checkpoints, native PI0.5 source/environment, tokenizer, fixed ridge reference and reset bank must be supplied from `ASSETS.json`.
+
+The one-pass A∪B v8 solver completed its model but omitted the top-level `fixed_ridge_reference` manifest field, so the strict artifact gate correctly rejected that build. Its original source, checkpoint, manifest and failed receipt are preserved. For a fresh build, `run_union_v9.py` uses `materialize_union_v9.py`, which fixes only that metadata field, followed by `run_union_eval_fresh_v9.py`. On the original host, `recover_union_metadata_v9.py` independently checks the existing model SHA, all 418 ridge values and the frozen input hashes without changing the checkpoint; `run_union_eval_v9.py` uses that recovery receipt to run the original 400-episode formal protocol. The recovery scripts require the exact original failed build and cannot be used as a general shortcut around a failed solve.
 
 `workflow.py run ... --execute` invokes the original runner; without `--execute` it only prints its command. Original hash, host, no-retry, output-directory and GPU-lease contracts remain enforced. These are reconstruction entrypoints for the original workspace layout, **not a claim that old frozen plans are automatically portable**. For exact replay, mount assets at their recorded layout (`/mnt/workspace/Wilson/parameter-fusion`); migration of embedded absolute paths or a different host needs newly reviewed/frozen plans, rather than bypassing checks. No GPU build or formal evaluation was launched to validate this release.
 

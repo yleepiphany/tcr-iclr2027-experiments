@@ -33,8 +33,10 @@
       "status": "UNFINISHED_EXPERIMENT"
     },
     "table9-one-pass-union": {
-      "build": "run_union_v8.py",
-      "evaluate": "run_union_eval_v8.py",
+      "build": "run_union_v9.py",
+      "evaluate": "run_union_eval_fresh_v9.py",
+      "artifact_recovery": "recover_union_metadata_v9.py",
+      "recovered_evaluation": "run_union_eval_v9.py",
       "arms": [
         "A_union_B"
       ],

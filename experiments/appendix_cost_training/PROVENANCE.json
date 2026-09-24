@@ -1000,6 +1000,46 @@
       "workspace_relative_path": "vla-merge/src/vla_merge/libero_procedural_bank.py",
       "bytes": 17380,
       "sha256": "9753f4ced7e0237a9bf82b836834dcad745a9bf4ee0146af292b70d0aa9072b5"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/materialize_union_v9.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/materialize_union_v9.py",
+      "bytes": 124118,
+      "sha256": "7ae360473bba74fed96c1ae799612c21d56d9f3fa50abbe67f9c59649bba721d",
+      "created_date": "2026-09-25",
+      "origin": "A_union_B_metadata_recovery"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/recover_union_metadata_v9.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/recover_union_metadata_v9.py",
+      "bytes": 6548,
+      "sha256": "de4b11e1391d83d30ce3aa3cab186e64c3727c61cf6aedb64eb34b3abdb0528a",
+      "created_date": "2026-09-25",
+      "origin": "A_union_B_metadata_recovery"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_union_v9.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_union_v9.py",
+      "bytes": 18023,
+      "sha256": "ac78d02e8aa8254b9047fb5932ea68e3cb1155c4d27dfb0b570cc798489fe033",
+      "created_date": "2026-09-25",
+      "origin": "A_union_B_metadata_recovery"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_union_eval_fresh_v9.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_union_eval_fresh_v9.py",
+      "bytes": 19652,
+      "sha256": "f5f599c37e302e86235cb190933498d69e0c48852ddabba4212d2c3a35a353e7",
+      "created_date": "2026-09-25",
+      "origin": "A_union_B_metadata_recovery"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_union_eval_v9.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_union_eval_v9.py",
+      "bytes": 20362,
+      "sha256": "e73bc8ab0b5fc347af33f3532517c6cf75dcb53bdcb3e160e903353e68b6d1fa",
+      "created_date": "2026-09-25",
+      "origin": "A_union_B_metadata_recovery"
     }
   ],
   "external_import_roots": [
