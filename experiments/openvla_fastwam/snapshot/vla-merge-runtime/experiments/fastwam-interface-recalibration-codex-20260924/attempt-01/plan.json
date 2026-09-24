@@ -1,0 +1,109 @@
+{
+  "allocator_cap_mib": 40960,
+  "blocks_per_pass": 62,
+  "calibration_requests_not_heldout": true,
+  "candidate": "Soup backbone + six Spatial interface tensors throughout native swaps and A/B",
+  "created_at": "2026-09-24T06:43:11.679147+00:00",
+  "environment_episodes": 0,
+  "fixed_tensors": 6,
+  "floor_free_mib": 16384,
+  "formal_priority_admission_order": [
+    4,
+    5
+  ],
+  "gpu_scope": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "gpu_uuids": {
+    "4": "GPU-792667d7-f14a-995e-fc18-c341be95c007",
+    "5": "GPU-059c0ed7-bcd0-3a71-69c1-2282316cddc8",
+    "6": "GPU-caceb295-b851-2bbf-c127-670161969774",
+    "7": "GPU-e027de95-4c80-d8ec-d650-30da9b6eb135"
+  },
+  "host": "dsw-967394-56ffd4897d-42wft",
+  "linears_per_pass": 610,
+  "max_gpu_children": 1,
+  "min_free_mib": 61440,
+  "native_action_shape": [
+    32,
+    7
+  ],
+  "no_retry": true,
+  "not_original_complete_tcr": true,
+  "one_request_smoke": true,
+  "prior_result_sha256": "5287e0456bd30d6bed8e518bb4830a53ea8eb1eddd15c789f21d46a2689addc7",
+  "replan_steps": 10,
+  "schema": "fastwam_fixed_spatial_interface_offline_build_v1",
+  "sources": [
+    {
+      "mtime_ns": 1790231778332743380,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fastwam-interface-recalibration-codex-20260924/build_fixed_interface.py",
+      "sha256": "48a7301120404cd0e66efd3f0f4c0fded8d0ecf73e1636bf0ee8131baea8fe62",
+      "size": 4184
+    },
+    {
+      "mtime_ns": 1790232080040050556,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fastwam-interface-recalibration-codex-20260924/build_two_pass_fixed.py",
+      "sha256": "75e1863149c13585d98cb1b1a67a9b7b2bf4f28e96357816cbeaeddbbd30054f",
+      "size": 16422
+    },
+    {
+      "mtime_ns": 1790232175458640957,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fastwam-interface-recalibration-codex-20260924/run_fixed_build.py",
+      "sha256": "eb76e60d9e9b4da4cfce1f909eb95d0747db0efb8dd2d62505f985edf386c25e",
+      "size": 10354
+    },
+    {
+      "mtime_ns": 1790232113410138816,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fastwam-interface-recalibration-codex-20260924/smoke_fixed_interface.py",
+      "sha256": "a737e89f4b093c6fd81f3c72fd7d8dfdc37e065855f1a2c8745814135e75a12a",
+      "size": 4901
+    },
+    {
+      "mtime_ns": 1790221413291244020,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fastwam-local-diagnosis-20260924/pi05_solver_bridge.py",
+      "sha256": "c29c73c0aedc9c1a90a3ac1f335f07c932fdaee5896cb8226233d51a237e64ae",
+      "size": 4186
+    },
+    {
+      "mtime_ns": 1789546665815120816,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/materialize_pi05_tcr_e_peft_safe.py",
+      "sha256": "f2b2b1c1373343f00b4238bd349f06185ee08a59153503bf31dc54924eb1f740",
+      "size": 115309
+    },
+    {
+      "mtime_ns": 1790181638832005292,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-fastwam-tcr-20260923/calibration-acceptance-v1.json",
+      "sha256": "76dc8888734eb34394f9cf925b179439374ea4469b71d13d29bdd9d1f0a1490e",
+      "size": 217845
+    },
+    {
+      "mtime_ns": 1790176393892218484,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-fastwam-tcr-20260923/block-plan-v1.json",
+      "sha256": "4452717fd3d3eaba81994bb0392d9a9b1f6dbeb9c4e27f0eff0afc484fc2b0fa",
+      "size": 165580
+    },
+    {
+      "mtime_ns": 1790189786973189336,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-fastwam-tcr-20260923/real-prefix-parity-v5.json",
+      "sha256": "b408e762f71966e1745614a418d1206e8ed492ac2b72dcacac2934f3a009a2ca",
+      "size": 969
+    },
+    {
+      "mtime_ns": 1790172549976200680,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/openvla-fastwam-diagnostics-20260923/fastwam-soup/manifest.json",
+      "sha256": "d1a735bd4796af284ca2559442946a52c911b3a146eb84262d76ac449bd5b004",
+      "size": 3335
+    },
+    {
+      "mtime_ns": 1790230758967207473,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fastwam-local-diagnosis-20260924/interface-offline-attempt-03/result.json",
+      "sha256": "5287e0456bd30d6bed8e518bb4830a53ea8eb1eddd15c789f21d46a2689addc7",
+      "size": 464123
+    }
+  ],
+  "training": false
+}

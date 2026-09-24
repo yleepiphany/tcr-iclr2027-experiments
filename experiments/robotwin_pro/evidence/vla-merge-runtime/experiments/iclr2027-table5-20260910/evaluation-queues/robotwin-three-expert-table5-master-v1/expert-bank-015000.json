@@ -1,0 +1,217 @@
+{
+  "base_model": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+  "base_model_file": {
+    "bytes": 9354050784,
+    "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model/model.safetensors",
+    "sha256": "f2165fad32a4b431ca1488a5b886f6738be9e8b480298ecc9e0b55d87d26f365"
+  },
+  "created_at": "2026-09-20T08:05:08.080778Z",
+  "experts": [
+    {
+      "adapter": {
+        "bytes": 572620000,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000/pretrained_model/adapter_model.safetensors",
+        "sha256": "bcf1190c984c24c56add5573668a7938cfc02b3686a4ba51b3760b0225245708"
+      },
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000",
+      "group": "precision",
+      "required_state": [
+        {
+          "bytes": 1114738120,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000/training_state/optimizer_state.safetensors",
+          "sha256": "efa64b2918b3e7caaf85d062bd135335fc707324107aad467212b82d006845e8"
+        },
+        {
+          "bytes": 28988,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000/training_state/optimizer_param_groups.json",
+          "sha256": "a6e56c87ef6c4931806d4059a785aaf4f276feddabf22d5a53d9ee1650b5179b"
+        },
+        {
+          "bytes": 215,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000/training_state/scheduler_state.json",
+          "sha256": "782df67cebe796231a8776c1a864e42669bd07b0753bd10dd4c0017bb81663ed"
+        },
+        {
+          "bytes": 15708,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000/training_state/rng_state.safetensors",
+          "sha256": "72c9d827c919e48a42579033d7aa7dc9e3356a9ea2a7daad44db1247a543de6d"
+        },
+        {
+          "bytes": 15708,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000/training_state/rng_state_rank0.safetensors",
+          "sha256": "72c9d827c919e48a42579033d7aa7dc9e3356a9ea2a7daad44db1247a543de6d"
+        },
+        {
+          "bytes": 15708,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000/training_state/rng_state_rank1.safetensors",
+          "sha256": "72c9d827c919e48a42579033d7aa7dc9e3356a9ea2a7daad44db1247a543de6d"
+        },
+        {
+          "bytes": 15708,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000/training_state/rng_state_rank2.safetensors",
+          "sha256": "72c9d827c919e48a42579033d7aa7dc9e3356a9ea2a7daad44db1247a543de6d"
+        },
+        {
+          "bytes": 15708,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000/training_state/rng_state_rank3.safetensors",
+          "sha256": "72c9d827c919e48a42579033d7aa7dc9e3356a9ea2a7daad44db1247a543de6d"
+        }
+      ],
+      "step": 15000,
+      "topology": {
+        "batch_size": 32,
+        "dp_world_size": 4,
+        "grad_accum_steps": 1,
+        "parallelism": {
+          "dp_replicate": 4,
+          "dp_shard": 1,
+          "ring_degree": 1,
+          "ulysses_degree": 1
+        },
+        "step": 15000
+      },
+      "training_step": {
+        "bytes": 226,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000/training_state/training_step.json",
+        "sha256": "8ba4b39644ca2cf750fbd421ce8899ccbb20a60372d80eb0ebdfeacc3f0275f2"
+      }
+    },
+    {
+      "adapter": {
+        "bytes": 572620000,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model/adapter_model.safetensors",
+        "sha256": "8baab5546f4a8ddb621846d5e94d6571b7c37926e2c7b6924f67847e960a51bb"
+      },
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000",
+      "group": "receptacle",
+      "required_state": [
+        {
+          "bytes": 1114738120,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/training_state/optimizer_state.safetensors",
+          "sha256": "2793a27bb45c77b18b529ea5fe4636f5fc350e191ce88928b6ddaee9d1e78dcb"
+        },
+        {
+          "bytes": 28988,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/training_state/optimizer_param_groups.json",
+          "sha256": "a6e56c87ef6c4931806d4059a785aaf4f276feddabf22d5a53d9ee1650b5179b"
+        },
+        {
+          "bytes": 215,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/training_state/scheduler_state.json",
+          "sha256": "782df67cebe796231a8776c1a864e42669bd07b0753bd10dd4c0017bb81663ed"
+        },
+        {
+          "bytes": 15708,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/training_state/rng_state.safetensors",
+          "sha256": "f02e857aa778b09f627ae2eb3a958e27005b3fb911de870c3c1266aed4ad915f"
+        },
+        {
+          "bytes": 15708,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/training_state/rng_state_rank0.safetensors",
+          "sha256": "f02e857aa778b09f627ae2eb3a958e27005b3fb911de870c3c1266aed4ad915f"
+        },
+        {
+          "bytes": 15708,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/training_state/rng_state_rank1.safetensors",
+          "sha256": "f02e857aa778b09f627ae2eb3a958e27005b3fb911de870c3c1266aed4ad915f"
+        },
+        {
+          "bytes": 15708,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/training_state/rng_state_rank2.safetensors",
+          "sha256": "f02e857aa778b09f627ae2eb3a958e27005b3fb911de870c3c1266aed4ad915f"
+        }
+      ],
+      "step": 15000,
+      "topology": {
+        "batch_size": 43,
+        "dp_world_size": 3,
+        "grad_accum_steps": 1,
+        "parallelism": {
+          "dp_replicate": 3,
+          "dp_shard": 1,
+          "ring_degree": 1,
+          "ulysses_degree": 1
+        },
+        "step": 15000
+      },
+      "training_step": {
+        "bytes": 226,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/training_state/training_step.json",
+        "sha256": "7092b5ba50681a9285759495d9d86ffd753b39af2b631fabd5bfc528e88b7a62"
+      }
+    },
+    {
+      "adapter": {
+        "bytes": 572620000,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000/pretrained_model/adapter_model.safetensors",
+        "sha256": "fc6babd4edb51e074cdc84c690d0b72af2d7df0246d590e09b990a5160d30297"
+      },
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000",
+      "group": "coordination",
+      "required_state": [
+        {
+          "bytes": 1114738120,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000/training_state/optimizer_state.safetensors",
+          "sha256": "d56887df6e0d054f59d4c05a04ba511ba810c7502b114b662a26463ba5e0f505"
+        },
+        {
+          "bytes": 28988,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000/training_state/optimizer_param_groups.json",
+          "sha256": "a6e56c87ef6c4931806d4059a785aaf4f276feddabf22d5a53d9ee1650b5179b"
+        },
+        {
+          "bytes": 215,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000/training_state/scheduler_state.json",
+          "sha256": "782df67cebe796231a8776c1a864e42669bd07b0753bd10dd4c0017bb81663ed"
+        },
+        {
+          "bytes": 15708,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000/training_state/rng_state.safetensors",
+          "sha256": "53d716f60424613e0c5a414c52df13e9b711681dbb771215ec61b3be584f97d7"
+        },
+        {
+          "bytes": 15708,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000/training_state/rng_state_rank0.safetensors",
+          "sha256": "53d716f60424613e0c5a414c52df13e9b711681dbb771215ec61b3be584f97d7"
+        },
+        {
+          "bytes": 15708,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000/training_state/rng_state_rank1.safetensors",
+          "sha256": "53d716f60424613e0c5a414c52df13e9b711681dbb771215ec61b3be584f97d7"
+        },
+        {
+          "bytes": 15708,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000/training_state/rng_state_rank2.safetensors",
+          "sha256": "53d716f60424613e0c5a414c52df13e9b711681dbb771215ec61b3be584f97d7"
+        }
+      ],
+      "step": 15000,
+      "topology": {
+        "batch_size": 43,
+        "dp_world_size": 3,
+        "grad_accum_steps": 1,
+        "parallelism": {
+          "dp_replicate": 3,
+          "dp_shard": 1,
+          "ring_degree": 1,
+          "ulysses_degree": 1
+        },
+        "step": 15000
+      },
+      "training_step": {
+        "bytes": 226,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000/training_state/training_step.json",
+        "sha256": "7092b5ba50681a9285759495d9d86ffd753b39af2b631fabd5bfc528e88b7a62"
+      }
+    }
+  ],
+  "formal_reporting_authorized": false,
+  "groups": [
+    "precision",
+    "receptacle",
+    "coordination"
+  ],
+  "schema_version": 1,
+  "source_task_count": 30,
+  "status": "robotwin_three_expert_015000_bank_frozen_for_development"
+}

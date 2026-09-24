@@ -1,0 +1,122 @@
+{
+  "action_mode": "joint",
+  "aggregation": "task success within repeat; macro over 30 tasks; mean and sample std over three repeats",
+  "condition": "demo_clean",
+  "created_at": "2026-09-20T12:35:53.614588Z",
+  "episodes_per_group_per_repeat": 60,
+  "episodes_per_task_per_repeat": 6,
+  "episodes_total": 540,
+  "formal_result": true,
+  "full_native_horizon": true,
+  "groups": [
+    "coordination",
+    "receptacle",
+    "precision"
+  ],
+  "historical_collision_audit": {
+    "bytes": 291,
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/seed-collision-audit.json",
+    "sha256": "bda30b19b8514169abaf1e079226ea3f3f882cdab0d3f35fcfdd34eb59570ec6"
+  },
+  "jobs": [
+    {
+      "bytes": 3507,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/coordination/repeat-01.json",
+      "sha256": "7dace55b5035ade2e7fe0666c9bdc704b06af9e7a8d5279d205dd10174428107"
+    },
+    {
+      "bytes": 3528,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/receptacle/repeat-01.json",
+      "sha256": "be770ba348a18b11bd62356738e7fc093541660e7f01dee4a7c754fbaa13511c"
+    },
+    {
+      "bytes": 3475,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/precision/repeat-01.json",
+      "sha256": "c8bef1cbdb4018561607cc3ee146ddad63c2a3df9ed0a7819f9e67c04ea345c7"
+    },
+    {
+      "bytes": 3502,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/coordination/repeat-02.json",
+      "sha256": "e3750fc0208bafd97cdbfbb21eb77986bfb4469ba07e07543fdfb748e60d40aa"
+    },
+    {
+      "bytes": 3633,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/receptacle/repeat-02.json",
+      "sha256": "4139c511138ae115e99fd2d27d6f059fec6583720a3dbdbb3adca500b46f463c"
+    },
+    {
+      "bytes": 3477,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/precision/repeat-02.json",
+      "sha256": "146f5b86c5219fdab01c50a0cb55ed8b6940a69d467cbdb63b284b5710d6bcb0"
+    },
+    {
+      "bytes": 3505,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/coordination/repeat-03.json",
+      "sha256": "fcf217f74bd1b190b33e2d545897046df92cb8899bd76ceed972cc16a58318b8"
+    },
+    {
+      "bytes": 3526,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/receptacle/repeat-03.json",
+      "sha256": "ad69f3992856b54703286b81cbaac995612e3c30c2a0ef60b1d81e3863135cf5"
+    },
+    {
+      "bytes": 3473,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/precision/repeat-03.json",
+      "sha256": "6a1d918109e5eff9121d70fc507608bcc794b3ede72ba1b5e1a362e8cbaf7838"
+    }
+  ],
+  "method": "Experts",
+  "parent_manifests": {
+    "coordination": {
+      "bytes": 16027,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-three-expert-15k-sequence-v1/coordination/evaluation-015000/parent.json",
+      "sha256": "ca92c96de997fa190bb204e690e6cac21ba98ebd60264b9ce089b6f9bcb84c84"
+    },
+    "precision": {
+      "bytes": 19610,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-precision-015000-quick20-v1/parent.json",
+      "sha256": "e4040791d6cb0ceae798ae27aa88604dcd982625f6bc50b82690ece43fd564e1"
+    },
+    "receptacle": {
+      "bytes": 16042,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-three-expert-15k-sequence-v1/receptacle/evaluation-015000/parent.json",
+      "sha256": "83489ed53a52225f66bf03012b6548d040b8c73e02dca6273488eea903f50838"
+    }
+  },
+  "repeats": 3,
+  "reset_banks": [
+    {
+      "bytes": 38088,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-01.json",
+      "sha256": "519e56cac00e7326706dc8c2934791c394643b3eec94052554b5d5815d87d2a7"
+    },
+    {
+      "bytes": 38079,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-02.json",
+      "sha256": "451925ba55b3812dcb5f57a6acb24d94cb596b21b5d659b0a45a67a4e6aaf793"
+    },
+    {
+      "bytes": 38082,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-03.json",
+      "sha256": "88bdb45ef28e43292cf0fdf823f4a66b825c5e2313175f1959f41dce5f948ea2"
+    }
+  ],
+  "protocol_amendments": [
+    {
+      "amendment": 1,
+      "reason": "place_container_plate seed 437698954 deterministically failed simulator initialization in three preserved attempts before policy inference",
+      "group": "receptacle",
+      "repeat": 2,
+      "task_index": 27,
+      "old_seed": 437698954,
+      "new_seed": 877886121,
+      "new_seed_derivation": "next unused episode slot 6 under the frozen v2 SHA namespace",
+      "selection_rule": "simulator validity only; no policy output or success was observed for the replaced seed"
+    }
+  ],
+  "schema_version": 1,
+  "seed_derivation": "uint31(SHA256(namespace\\0repeat\\0task_index\\0episode_index)[:8])",
+  "seed_namespace": "iclr2027-table5-robotwin-formal-reset-v2",
+  "status": "robotwin_three_expert_formal_protocol_frozen_amendment1",
+  "tasks_per_group": 10
+}

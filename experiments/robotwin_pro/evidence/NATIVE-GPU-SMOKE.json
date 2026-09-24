@@ -1,0 +1,121 @@
+{
+  "schema": "robotwin_pro_release_smoke_v1",
+  "status": "PASS",
+  "scope": "Package integrity and CPU/native CLI smoke; not a completed evaluation",
+  "package_files_verified": 88,
+  "methods": [
+    {
+      "method": "libero_pro/model_soups",
+      "status": "UNFINISHED",
+      "current_checkpoint_sha256": "a92aacc43146dc41663c0057f2999bd90252fb3fb316ef963f165be67e1be01a",
+      "selection_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-soup-codex-20260924/selection-v1/manifest.json",
+      "selection_checkpoint_sha256": "a92aacc43146dc41663c0057f2999bd90252fb3fb316ef963f165be67e1be01a",
+      "selection_manifest_sha256": "ef24aefb638317a7820409eac535b707b3af506c435d0628deaab388d39128e3"
+    },
+    {
+      "method": "libero_pro/ties",
+      "status": "UNFINISHED",
+      "current_checkpoint_sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+      "selection_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/ties_merging/selection-v1/manifest.json",
+      "selection_checkpoint_sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+      "selection_manifest_sha256": "e451b150756e302201a1cce736eb04e5abaf20d228561ca70119922262807e5e"
+    },
+    {
+      "method": "libero_pro/regmean_pp",
+      "status": "BLOCKED_STALE_SELECTION",
+      "current_checkpoint_sha256": "fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2",
+      "reason": "Stale or missing checkpoint binding: expected fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2, observed 38745ba812c2f4ac4327ab40719e0ce8da017873c0a1765608f65dd926cd4ab3",
+      "selection_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/regmean_pp/selection-v1/manifest.json",
+      "next_step": "Create a NEW current-model manifest and runner, validate all reset/task/config bindings, then review the catalog status; never edit a running historical selection in place."
+    },
+    {
+      "method": "libero_pro/featcal",
+      "status": "BLOCKED_STALE_SELECTION",
+      "current_checkpoint_sha256": "b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114",
+      "reason": "Stale or missing checkpoint binding: expected b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114, observed e43de109844431c02e316e57f701d7c06a9a3c8feaa3c41c9f391281f8197efa",
+      "selection_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/featcal/selection-v1/manifest.json",
+      "next_step": "Create a NEW current-model manifest and runner, validate all reset/task/config bindings, then review the catalog status; never edit a running historical selection in place."
+    },
+    {
+      "method": "robotwin/ties",
+      "status": "UNFINISHED",
+      "current_checkpoint_sha256": null
+    },
+    {
+      "method": "robotwin/tcr",
+      "status": "UNFINISHED",
+      "current_checkpoint_sha256": null
+    },
+    {
+      "method": "robotwin/regmean_pp",
+      "status": "BLOCKED_MISSING_NATIVE_ADAPTER",
+      "current_checkpoint_sha256": null,
+      "reason": "No accepted RoboTwin-specific activation cache, solver adapter, dense checkpoint, or 540-episode evaluation binding found. LIBERO checkpoints are invalid substitutes."
+    },
+    {
+      "method": "robotwin/featcal",
+      "status": "BLOCKED_MISSING_NATIVE_ADAPTER",
+      "current_checkpoint_sha256": null,
+      "reason": "No accepted RoboTwin-specific activation cache, solver adapter, dense checkpoint, or 540-episode evaluation binding found. LIBERO checkpoints are invalid substitutes."
+    }
+  ],
+  "gpu_tasks_started": 1,
+  "other_processes_signalled": 0,
+  "native_gpu_smoke": {
+    "status": "PASS",
+    "scope": "One native RoboTwin coordination-expert episode, fixed first task/seed, full native horizon; not a merging-method performance test",
+    "gpu_tasks_started": 1,
+    "other_processes_signalled": 0,
+    "resource_admission": {
+      "gpu": 5,
+      "uuid": "GPU-4ed28198-b742-ee3c-2acb-4183dc944c81",
+      "used_mib": 1.0,
+      "free_mib": 81153.0,
+      "utilization": 0.0,
+      "compute_pids": []
+    },
+    "host": "dsw-824375-57c745db88-n6tv9",
+    "lease": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/resource-leases/release-smoke-dsw-824375-57c745db88-n6tv9-GPU-4ed28198-b742-ee3c-2acb-4183dc944c81.lock",
+    "command": [
+      "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/envs/iclr2027-robotwin2-py312-mplib-curobo-v3/bin/python",
+      "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_iclr2027_robotwin_checkpoint_development.py",
+      "run",
+      "--manifest",
+      "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-three-expert-15k-sequence-v1/coordination/evaluation-015000/parent.json",
+      "--group",
+      "coordination",
+      "--step",
+      "15000",
+      "--mode",
+      "simulator",
+      "--smoke",
+      "--gpu",
+      "5",
+      "--output",
+      "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/release-robotwin-oneepisode-20260924-attempt02"
+    ],
+    "parent_sha256": "ca92c96de997fa190bb204e690e6cac21ba98ebd60264b9ce089b6f9bcb84c84",
+    "source_sha256": "d156e3d9f3553131e46d88ea35885708d1fb6c0c5d501b219c4ded0ff5b86a15",
+    "exit_code": 0,
+    "seconds": 667.0597043037415,
+    "output_tail": "step: \u001b[92m701 / 800\u001b[0m\nstep: \u001b[92m702 / 800\u001b[0m\nstep: \u001b[92m703 / 800\u001b[0m\nstep: \u001b[92m704 / 800\u001b[0m\nstep: \u001b[92m705 / 800\u001b[0m\nstep: \u001b[92m706 / 800\u001b[0m\nstep: \u001b[92m707 / 800\u001b[0m\nstep: \u001b[92m708 / 800\u001b[0m\nstep: \u001b[92m709 / 800\u001b[0m\nstep: \u001b[92m710 / 800\u001b[0m\nstep: \u001b[92m711 / 800\u001b[0m\nstep: \u001b[92m712 / 800\u001b[0m\nstep: \u001b[92m713 / 800\u001b[0m\nstep: \u001b[92m714 / 800\u001b[0m\nstep: \u001b[92m715 / 800\u001b[0m\nstep: \u001b[92m716 / 800\u001b[0m\nstep: \u001b[92m717 / 800\u001b[0m\nstep: \u001b[92m718 / 800\u001b[0m\nstep: \u001b[92m719 / 800\u001b[0m\nstep: \u001b[92m720 / 800\u001b[0m\nstep: \u001b[92m721 / 800\u001b[0m\nstep: \u001b[92m722 / 800\u001b[0m\nstep: \u001b[92m723 / 800\u001b[0m\nstep: \u001b[92m724 / 800\u001b[0m\nstep: \u001b[92m725 / 800\u001b[0m\nstep: \u001b[92m726 / 800\u001b[0m\nstep: \u001b[92m727 / 800\u001b[0m\nstep: \u001b[92m728 / 800\u001b[0m\nstep: \u001b[92m729 / 800\u001b[0m\nstep: \u001b[92m730 / 800\u001b[0m\nstep: \u001b[92m731 / 800\u001b[0m\nstep: \u001b[92m732 / 800\u001b[0m\nstep: \u001b[92m733 / 800\u001b[0m\nstep: \u001b[92m734 / 800\u001b[0m\nstep: \u001b[92m735 / 800\u001b[0m\nstep: \u001b[92m736 / 800\u001b[0m\nstep: \u001b[92m737 / 800\u001b[0m\nstep: \u001b[92m738 / 800\u001b[0m\nstep: \u001b[92m739 / 800\u001b[0m\nstep: \u001b[92m740 / 800\u001b[0m\nstep: \u001b[92m741 / 800\u001b[0m\nstep: \u001b[92m742 / 800\u001b[0m\nstep: \u001b[92m743 / 800\u001b[0m\nstep: \u001b[92m744 / 800\u001b[0m\nstep: \u001b[92m745 / 800\u001b[0m\nstep: \u001b[92m746 / 800\u001b[0m\nstep: \u001b[92m747 / 800\u001b[0m\nstep: \u001b[92m748 / 800\u001b[0m\nstep: \u001b[92m749 / 800\u001b[0m\nstep: \u001b[92m750 / 800\u001b[0m\nstep: \u001b[92m751 / 800\u001b[0m\nstep: \u001b[92m752 / 800\u001b[0m\nstep: \u001b[92m753 / 800\u001b[0m\nstep: \u001b[92m754 / 800\u001b[0m\nstep: \u001b[92m755 / 800\u001b[0m\nstep: \u001b[92m756 / 800\u001b[0m\nstep: \u001b[92m757 / 800\u001b[0m\nstep: \u001b[92m758 / 800\u001b[0m\nstep: \u001b[92m759 / 800\u001b[0m\nstep: \u001b[92m760 / 800\u001b[0m\nstep: \u001b[92m761 / 800\u001b[0m\nstep: \u001b[92m762 / 800\u001b[0m\nstep: \u001b[92m763 / 800\u001b[0m\nstep: \u001b[92m764 / 800\u001b[0m\nstep: \u001b[92m765 / 800\u001b[0m\nstep: \u001b[92m766 / 800\u001b[0m\nstep: \u001b[92m767 / 800\u001b[0m\nstep: \u001b[92m768 / 800\u001b[0m\nstep: \u001b[92m769 / 800\u001b[0m\nstep: \u001b[92m770 / 800\u001b[0m\nstep: \u001b[92m771 / 800\u001b[0m\nstep: \u001b[92m772 / 800\u001b[0m\nstep: \u001b[92m773 / 800\u001b[0m\nstep: \u001b[92m774 / 800\u001b[0m\nstep: \u001b[92m775 / 800\u001b[0m\nstep: \u001b[92m776 / 800\u001b[0m\nstep: \u001b[92m777 / 800\u001b[0m\nstep: \u001b[92m778 / 800\u001b[0m\nstep: \u001b[92m779 / 800\u001b[0m\nstep: \u001b[92m780 / 800\u001b[0m\nstep: \u001b[92m781 / 800\u001b[0m\nstep: \u001b[92m782 / 800\u001b[0m\nstep: \u001b[92m783 / 800\u001b[0m\nstep: \u001b[92m784 / 800\u001b[0m\nstep: \u001b[92m785 / 800\u001b[0m\nstep: \u001b[92m786 / 800\u001b[0m\nstep: \u001b[92m787 / 800\u001b[0m\nstep: \u001b[92m788 / 800\u001b[0m\nstep: \u001b[92m789 / 800\u001b[0m\nstep: \u001b[92m790 / 800\u001b[0m\nstep: \u001b[92m791 / 800\u001b[0m\nstep: \u001b[92m792 / 800\u001b[0m\nstep: \u001b[92m793 / 800\u001b[0m\nstep: \u001b[92m794 / 800\u001b[0m\nstep: \u001b[92m795 / 800\u001b[0m\nstep: \u001b[92m796 / 800\u001b[0m\nstep: \u001b[92m797 / 800\u001b[0m\nstep: \u001b[92m798 / 800\u001b[0m\nstep: \u001b[92m799 / 800\u001b[0m\nstep: \u001b[92m800 / 800\u001b[0m\n",
+    "native_output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/release-robotwin-oneepisode-20260924-attempt02",
+    "native_result": {
+      "formal_result": false,
+      "manifest_sha256": "ca92c96de997fa190bb204e690e6cac21ba98ebd60264b9ce089b6f9bcb84c84",
+      "peak_cuda_memory_mib": 11096.21435546875,
+      "result": {
+        "episodes": 1,
+        "macro_success": 0.0,
+        "plateau_eligible": false,
+        "status": "smoke_complete",
+        "task_success": {
+          "handover_block": 0.0
+        }
+      },
+      "seconds": 658.9617364518344
+    },
+    "receipt_sha256": "77b2919a8227ee8209cd2304c2e992f7bd632d9e6c786e736442a3adfff6ea97",
+    "performance_claim": false
+  }
+}

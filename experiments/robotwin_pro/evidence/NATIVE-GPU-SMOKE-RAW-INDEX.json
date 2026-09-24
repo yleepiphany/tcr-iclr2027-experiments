@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "raw_files": [
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/release-robotwin-oneepisode-20260924-attempt02/started.json",
+      "bytes": 519,
+      "sha256": "7e656447772171babc237791f455ca41568097cdea1248aa84df8d116e1db763"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/release-robotwin-oneepisode-20260924-attempt02/complete.json",
+      "bytes": 378,
+      "sha256": "77b2919a8227ee8209cd2304c2e992f7bd632d9e6c786e736442a3adfff6ea97"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/release-robotwin-oneepisode-20260924-attempt02/simulator.json",
+      "bytes": 154,
+      "sha256": "efd6bce682769f2f5d90539657e7a6bbd5ba19b3cebd938c4bd051e4a0e677c2"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/release-robotwin-oneepisode-20260924-attempt02/handover_block-1786481984.json",
+      "bytes": 259,
+      "sha256": "3582c15f004621db2d3d290db0e68ebec45d72a2f1529bc0e5cada4d7703c283"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/release-robotwin-oneepisode-20260924-attempt02/handover_block-1786481984.jsonl",
+      "bytes": 2155620,
+      "sha256": "eed5fe342dcf14836e7e2b8bcc8b7ef79f72535c26510a92323822513d34b881"
+    }
+  ],
+  "scope": "one native expert/simulator smoke episode, not formal evaluation"
+}

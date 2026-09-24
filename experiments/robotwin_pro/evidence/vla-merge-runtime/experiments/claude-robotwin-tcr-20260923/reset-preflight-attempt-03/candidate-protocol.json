@@ -1,0 +1,1506 @@
+{
+  "ab_disjoint_from_formal_and_historical_by_task_seed": true,
+  "amended_from_source_protocol": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v1/protocol.json",
+  "created_at": "2026-09-23T11:23:15.032226+00:00",
+  "episodes": 180,
+  "flow_indices": [
+    0,
+    5,
+    9
+  ],
+  "flow_rows": 2700,
+  "formal_protocol": {
+    "bytes": 6444,
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/protocol.json",
+    "sha256": "ed47fc5340cfb53a4a1c497a08ef3aca984c0ad50182748ac3df3ca7e060d0de"
+  },
+  "formal_result": false,
+  "groups": [
+    "coordination",
+    "receptacle",
+    "precision"
+  ],
+  "historical_and_formal_keys_checked": 711,
+  "jobs": [
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000",
+      "episodes": 10,
+      "flow_rows": 150,
+      "flow_seed": 1129679400,
+      "group": "coordination",
+      "id": "r01-A-coordination",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r01-A-coordination",
+      "parent": {
+        "bytes": 16027,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-three-expert-15k-sequence-v1/coordination/evaluation-015000/parent.json",
+        "sha256": "ca92c96de997fa190bb204e690e6cac21ba98ebd60264b9ce089b6f9bcb84c84"
+      },
+      "pool": "A",
+      "repeat": 1,
+      "requests": 50,
+      "tasks": [
+        {
+          "derivation_counter": 0,
+          "seed": 1281653391,
+          "task": "handover_block",
+          "task_index": 8
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1573974394,
+          "task": "handover_mic",
+          "task_index": 9
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1719211975,
+          "task": "pick_dual_bottles",
+          "task_index": 19
+        },
+        {
+          "derivation_counter": 2,
+          "seed": 83513349,
+          "task": "place_dual_shoes",
+          "task_index": 28
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 739173613,
+          "task": "stack_blocks_two",
+          "task_index": 45
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1602164951,
+          "task": "stack_blocks_three",
+          "task_index": 44
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 591080027,
+          "task": "stack_bowls_two",
+          "task_index": 47
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 856041698,
+          "task": "stack_bowls_three",
+          "task_index": 46
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1788427397,
+          "task": "blocks_ranking_rgb",
+          "task_index": 2
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1518857318,
+          "task": "blocks_ranking_size",
+          "task_index": 3
+        }
+      ]
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000",
+      "episodes": 10,
+      "flow_rows": 150,
+      "flow_seed": 1129679400,
+      "group": "receptacle",
+      "id": "r01-A-receptacle",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r01-A-receptacle",
+      "parent": {
+        "bytes": 16042,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-three-expert-15k-sequence-v1/receptacle/evaluation-015000/parent.json",
+        "sha256": "83489ed53a52225f66bf03012b6548d040b8c73e02dca6273488eea903f50838"
+      },
+      "pool": "A",
+      "repeat": 1,
+      "requests": 50,
+      "tasks": [
+        {
+          "derivation_counter": 0,
+          "seed": 130194693,
+          "task": "place_bread_basket",
+          "task_index": 22
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 928702139,
+          "task": "place_can_basket",
+          "task_index": 25
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1372558328,
+          "task": "place_cans_plasticbox",
+          "task_index": 26
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1335814046,
+          "task": "place_container_plate",
+          "task_index": 27
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1806727519,
+          "task": "place_object_basket",
+          "task_index": 32
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1666652050,
+          "task": "put_bottles_dustbin",
+          "task_index": 38
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 2124903637,
+          "task": "put_object_cabinet",
+          "task_index": 39
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 189150146,
+          "task": "place_empty_cup",
+          "task_index": 29
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 372905561,
+          "task": "place_bread_skillet",
+          "task_index": 23
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 13765278,
+          "task": "place_burger_fries",
+          "task_index": 24
+        }
+      ]
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000",
+      "episodes": 10,
+      "flow_rows": 150,
+      "flow_seed": 1129679400,
+      "group": "precision",
+      "id": "r01-A-precision",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r01-A-precision",
+      "parent": {
+        "bytes": 19610,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-precision-015000-quick20-v1/parent.json",
+        "sha256": "e4040791d6cb0ceae798ae27aa88604dcd982625f6bc50b82690ece43fd564e1"
+      },
+      "pool": "A",
+      "repeat": 1,
+      "requests": 50,
+      "tasks": [
+        {
+          "derivation_counter": 0,
+          "seed": 1197970122,
+          "task": "place_a2b_left",
+          "task_index": 20
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 21923709,
+          "task": "place_a2b_right",
+          "task_index": 21
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 282034233,
+          "task": "move_can_pot",
+          "task_index": 12
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 677555670,
+          "task": "move_stapler_pad",
+          "task_index": 15
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 751154121,
+          "task": "move_pillbottle_pad",
+          "task_index": 13
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 988817702,
+          "task": "place_mouse_pad",
+          "task_index": 31
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1198954493,
+          "task": "place_object_scale",
+          "task_index": 33
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 526453064,
+          "task": "place_object_stand",
+          "task_index": 34
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1328170153,
+          "task": "place_phone_stand",
+          "task_index": 35
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 628786932,
+          "task": "place_fan",
+          "task_index": 30
+        }
+      ]
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000",
+      "episodes": 10,
+      "flow_rows": 150,
+      "flow_seed": 369695656,
+      "group": "coordination",
+      "id": "r01-B-coordination",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r01-B-coordination",
+      "parent": {
+        "bytes": 16027,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-three-expert-15k-sequence-v1/coordination/evaluation-015000/parent.json",
+        "sha256": "ca92c96de997fa190bb204e690e6cac21ba98ebd60264b9ce089b6f9bcb84c84"
+      },
+      "pool": "B",
+      "repeat": 1,
+      "requests": 50,
+      "tasks": [
+        {
+          "derivation_counter": 0,
+          "seed": 1578844418,
+          "task": "handover_block",
+          "task_index": 8
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 571002003,
+          "task": "handover_mic",
+          "task_index": 9
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 311355857,
+          "task": "pick_dual_bottles",
+          "task_index": 19
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 950009324,
+          "task": "place_dual_shoes",
+          "task_index": 28
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 80464121,
+          "task": "stack_blocks_two",
+          "task_index": 45
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1767124415,
+          "task": "stack_blocks_three",
+          "task_index": 44
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1763309710,
+          "task": "stack_bowls_two",
+          "task_index": 47
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 2061377805,
+          "task": "stack_bowls_three",
+          "task_index": 46
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 607417025,
+          "task": "blocks_ranking_rgb",
+          "task_index": 2
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 737221887,
+          "task": "blocks_ranking_size",
+          "task_index": 3
+        }
+      ]
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000",
+      "episodes": 10,
+      "flow_rows": 150,
+      "flow_seed": 369695656,
+      "group": "receptacle",
+      "id": "r01-B-receptacle",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r01-B-receptacle",
+      "parent": {
+        "bytes": 16042,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-three-expert-15k-sequence-v1/receptacle/evaluation-015000/parent.json",
+        "sha256": "83489ed53a52225f66bf03012b6548d040b8c73e02dca6273488eea903f50838"
+      },
+      "pool": "B",
+      "repeat": 1,
+      "requests": 50,
+      "tasks": [
+        {
+          "derivation_counter": 0,
+          "seed": 384938792,
+          "task": "place_bread_basket",
+          "task_index": 22
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 11305100,
+          "task": "place_can_basket",
+          "task_index": 25
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1527370859,
+          "task": "place_cans_plasticbox",
+          "task_index": 26
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1014091546,
+          "task": "place_container_plate",
+          "task_index": 27
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 784384809,
+          "task": "place_object_basket",
+          "task_index": 32
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 815114176,
+          "task": "put_bottles_dustbin",
+          "task_index": 38
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 61948468,
+          "task": "put_object_cabinet",
+          "task_index": 39
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1882754942,
+          "task": "place_empty_cup",
+          "task_index": 29
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 448090957,
+          "task": "place_bread_skillet",
+          "task_index": 23
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 561551289,
+          "task": "place_burger_fries",
+          "task_index": 24
+        }
+      ]
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000",
+      "episodes": 10,
+      "flow_rows": 150,
+      "flow_seed": 369695656,
+      "group": "precision",
+      "id": "r01-B-precision",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r01-B-precision",
+      "parent": {
+        "bytes": 19610,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-precision-015000-quick20-v1/parent.json",
+        "sha256": "e4040791d6cb0ceae798ae27aa88604dcd982625f6bc50b82690ece43fd564e1"
+      },
+      "pool": "B",
+      "repeat": 1,
+      "requests": 50,
+      "tasks": [
+        {
+          "derivation_counter": 0,
+          "seed": 38110353,
+          "task": "place_a2b_left",
+          "task_index": 20
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1915093082,
+          "task": "place_a2b_right",
+          "task_index": 21
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 116208060,
+          "task": "move_can_pot",
+          "task_index": 12
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1041007014,
+          "task": "move_stapler_pad",
+          "task_index": 15
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 758446838,
+          "task": "move_pillbottle_pad",
+          "task_index": 13
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 789451015,
+          "task": "place_mouse_pad",
+          "task_index": 31
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1849130577,
+          "task": "place_object_scale",
+          "task_index": 33
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1171592259,
+          "task": "place_object_stand",
+          "task_index": 34
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1069307858,
+          "task": "place_phone_stand",
+          "task_index": 35
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 60436127,
+          "task": "place_fan",
+          "task_index": 30
+        }
+      ]
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000",
+      "episodes": 10,
+      "flow_rows": 150,
+      "flow_seed": 891516750,
+      "group": "coordination",
+      "id": "r02-A-coordination",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r02-A-coordination",
+      "parent": {
+        "bytes": 16027,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-three-expert-15k-sequence-v1/coordination/evaluation-015000/parent.json",
+        "sha256": "ca92c96de997fa190bb204e690e6cac21ba98ebd60264b9ce089b6f9bcb84c84"
+      },
+      "pool": "A",
+      "repeat": 2,
+      "requests": 50,
+      "tasks": [
+        {
+          "derivation_counter": 0,
+          "seed": 1410999860,
+          "task": "handover_block",
+          "task_index": 8
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 826312940,
+          "task": "handover_mic",
+          "task_index": 9
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1058700900,
+          "task": "pick_dual_bottles",
+          "task_index": 19
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 487727645,
+          "task": "place_dual_shoes",
+          "task_index": 28
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 437844064,
+          "task": "stack_blocks_two",
+          "task_index": 45
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 714116699,
+          "task": "stack_blocks_three",
+          "task_index": 44
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 803102191,
+          "task": "stack_bowls_two",
+          "task_index": 47
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 106636339,
+          "task": "stack_bowls_three",
+          "task_index": 46
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1367624373,
+          "task": "blocks_ranking_rgb",
+          "task_index": 2
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 542251868,
+          "task": "blocks_ranking_size",
+          "task_index": 3
+        }
+      ]
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000",
+      "episodes": 10,
+      "flow_rows": 150,
+      "flow_seed": 891516750,
+      "group": "receptacle",
+      "id": "r02-A-receptacle",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r02-A-receptacle",
+      "parent": {
+        "bytes": 16042,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-three-expert-15k-sequence-v1/receptacle/evaluation-015000/parent.json",
+        "sha256": "83489ed53a52225f66bf03012b6548d040b8c73e02dca6273488eea903f50838"
+      },
+      "pool": "A",
+      "repeat": 2,
+      "requests": 50,
+      "tasks": [
+        {
+          "derivation_counter": 0,
+          "seed": 76440086,
+          "task": "place_bread_basket",
+          "task_index": 22
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 217533473,
+          "task": "place_can_basket",
+          "task_index": 25
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1111950816,
+          "task": "place_cans_plasticbox",
+          "task_index": 26
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 863627811,
+          "task": "place_container_plate",
+          "task_index": 27
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1267115334,
+          "task": "place_object_basket",
+          "task_index": 32
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 399476494,
+          "task": "put_bottles_dustbin",
+          "task_index": 38
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 220235506,
+          "task": "put_object_cabinet",
+          "task_index": 39
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 306036650,
+          "task": "place_empty_cup",
+          "task_index": 29
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 702316340,
+          "task": "place_bread_skillet",
+          "task_index": 23
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1425688547,
+          "task": "place_burger_fries",
+          "task_index": 24
+        }
+      ]
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000",
+      "episodes": 10,
+      "flow_rows": 150,
+      "flow_seed": 891516750,
+      "group": "precision",
+      "id": "r02-A-precision",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r02-A-precision",
+      "parent": {
+        "bytes": 19610,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-precision-015000-quick20-v1/parent.json",
+        "sha256": "e4040791d6cb0ceae798ae27aa88604dcd982625f6bc50b82690ece43fd564e1"
+      },
+      "pool": "A",
+      "repeat": 2,
+      "requests": 50,
+      "tasks": [
+        {
+          "derivation_counter": 0,
+          "seed": 934467844,
+          "task": "place_a2b_left",
+          "task_index": 20
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1357152574,
+          "task": "place_a2b_right",
+          "task_index": 21
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 2080687080,
+          "task": "move_can_pot",
+          "task_index": 12
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 889215160,
+          "task": "move_stapler_pad",
+          "task_index": 15
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1048953034,
+          "task": "move_pillbottle_pad",
+          "task_index": 13
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 270478370,
+          "task": "place_mouse_pad",
+          "task_index": 31
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 2128511090,
+          "task": "place_object_scale",
+          "task_index": 33
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1372795530,
+          "task": "place_object_stand",
+          "task_index": 34
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 2052012849,
+          "task": "place_phone_stand",
+          "task_index": 35
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1574996001,
+          "task": "place_fan",
+          "task_index": 30
+        }
+      ]
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000",
+      "episodes": 10,
+      "flow_rows": 150,
+      "flow_seed": 369650692,
+      "group": "coordination",
+      "id": "r02-B-coordination",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r02-B-coordination",
+      "parent": {
+        "bytes": 16027,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-three-expert-15k-sequence-v1/coordination/evaluation-015000/parent.json",
+        "sha256": "ca92c96de997fa190bb204e690e6cac21ba98ebd60264b9ce089b6f9bcb84c84"
+      },
+      "pool": "B",
+      "repeat": 2,
+      "requests": 50,
+      "tasks": [
+        {
+          "derivation_counter": 0,
+          "seed": 930521038,
+          "task": "handover_block",
+          "task_index": 8
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1326505197,
+          "task": "handover_mic",
+          "task_index": 9
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 2053829181,
+          "task": "pick_dual_bottles",
+          "task_index": 19
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 2007337637,
+          "task": "place_dual_shoes",
+          "task_index": 28
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 898587029,
+          "task": "stack_blocks_two",
+          "task_index": 45
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 349724180,
+          "task": "stack_blocks_three",
+          "task_index": 44
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 992920665,
+          "task": "stack_bowls_two",
+          "task_index": 47
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 661284809,
+          "task": "stack_bowls_three",
+          "task_index": 46
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 440044924,
+          "task": "blocks_ranking_rgb",
+          "task_index": 2
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 672053074,
+          "task": "blocks_ranking_size",
+          "task_index": 3
+        }
+      ]
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000",
+      "episodes": 10,
+      "flow_rows": 150,
+      "flow_seed": 369650692,
+      "group": "receptacle",
+      "id": "r02-B-receptacle",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r02-B-receptacle",
+      "parent": {
+        "bytes": 16042,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-three-expert-15k-sequence-v1/receptacle/evaluation-015000/parent.json",
+        "sha256": "83489ed53a52225f66bf03012b6548d040b8c73e02dca6273488eea903f50838"
+      },
+      "pool": "B",
+      "repeat": 2,
+      "requests": 50,
+      "tasks": [
+        {
+          "derivation_counter": 0,
+          "seed": 107402875,
+          "task": "place_bread_basket",
+          "task_index": 22
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 2035049690,
+          "task": "place_can_basket",
+          "task_index": 25
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 745239940,
+          "task": "place_cans_plasticbox",
+          "task_index": 26
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 562802363,
+          "task": "place_container_plate",
+          "task_index": 27
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 95240139,
+          "task": "place_object_basket",
+          "task_index": 32
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1033551641,
+          "task": "put_bottles_dustbin",
+          "task_index": 38
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 26202583,
+          "task": "put_object_cabinet",
+          "task_index": 39
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 390975478,
+          "task": "place_empty_cup",
+          "task_index": 29
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 601561986,
+          "task": "place_bread_skillet",
+          "task_index": 23
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 594034522,
+          "task": "place_burger_fries",
+          "task_index": 24
+        }
+      ]
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000",
+      "episodes": 10,
+      "flow_rows": 150,
+      "flow_seed": 369650692,
+      "group": "precision",
+      "id": "r02-B-precision",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r02-B-precision",
+      "parent": {
+        "bytes": 19610,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-precision-015000-quick20-v1/parent.json",
+        "sha256": "e4040791d6cb0ceae798ae27aa88604dcd982625f6bc50b82690ece43fd564e1"
+      },
+      "pool": "B",
+      "repeat": 2,
+      "requests": 50,
+      "tasks": [
+        {
+          "derivation_counter": 0,
+          "seed": 1502225544,
+          "task": "place_a2b_left",
+          "task_index": 20
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1555063659,
+          "task": "place_a2b_right",
+          "task_index": 21
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 790087866,
+          "task": "move_can_pot",
+          "task_index": 12
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1824561337,
+          "task": "move_stapler_pad",
+          "task_index": 15
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1833414284,
+          "task": "move_pillbottle_pad",
+          "task_index": 13
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 387213570,
+          "task": "place_mouse_pad",
+          "task_index": 31
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 2066979263,
+          "task": "place_object_scale",
+          "task_index": 33
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1635520725,
+          "task": "place_object_stand",
+          "task_index": 34
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 458919017,
+          "task": "place_phone_stand",
+          "task_index": 35
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1645689755,
+          "task": "place_fan",
+          "task_index": 30
+        }
+      ]
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000",
+      "episodes": 10,
+      "flow_rows": 150,
+      "flow_seed": 1627516572,
+      "group": "coordination",
+      "id": "r03-A-coordination",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r03-A-coordination",
+      "parent": {
+        "bytes": 16027,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-three-expert-15k-sequence-v1/coordination/evaluation-015000/parent.json",
+        "sha256": "ca92c96de997fa190bb204e690e6cac21ba98ebd60264b9ce089b6f9bcb84c84"
+      },
+      "pool": "A",
+      "repeat": 3,
+      "requests": 50,
+      "tasks": [
+        {
+          "derivation_counter": 0,
+          "seed": 1579907172,
+          "task": "handover_block",
+          "task_index": 8
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1527122793,
+          "task": "handover_mic",
+          "task_index": 9
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 996840062,
+          "task": "pick_dual_bottles",
+          "task_index": 19
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 760924248,
+          "task": "place_dual_shoes",
+          "task_index": 28
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 2085785931,
+          "task": "stack_blocks_two",
+          "task_index": 45
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1654677039,
+          "task": "stack_blocks_three",
+          "task_index": 44
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1570394391,
+          "task": "stack_bowls_two",
+          "task_index": 47
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 988908492,
+          "task": "stack_bowls_three",
+          "task_index": 46
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 740991227,
+          "task": "blocks_ranking_rgb",
+          "task_index": 2
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1752277162,
+          "task": "blocks_ranking_size",
+          "task_index": 3
+        }
+      ]
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000",
+      "episodes": 10,
+      "flow_rows": 150,
+      "flow_seed": 1627516572,
+      "group": "receptacle",
+      "id": "r03-A-receptacle",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r03-A-receptacle",
+      "parent": {
+        "bytes": 16042,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-three-expert-15k-sequence-v1/receptacle/evaluation-015000/parent.json",
+        "sha256": "83489ed53a52225f66bf03012b6548d040b8c73e02dca6273488eea903f50838"
+      },
+      "pool": "A",
+      "repeat": 3,
+      "requests": 50,
+      "tasks": [
+        {
+          "derivation_counter": 0,
+          "seed": 1675603651,
+          "task": "place_bread_basket",
+          "task_index": 22
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 107615529,
+          "task": "place_can_basket",
+          "task_index": 25
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1067799874,
+          "task": "place_cans_plasticbox",
+          "task_index": 26
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 870645471,
+          "task": "place_container_plate",
+          "task_index": 27
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 461844017,
+          "task": "place_object_basket",
+          "task_index": 32
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 582260171,
+          "task": "put_bottles_dustbin",
+          "task_index": 38
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 856409105,
+          "task": "put_object_cabinet",
+          "task_index": 39
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1346485621,
+          "task": "place_empty_cup",
+          "task_index": 29
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1048398932,
+          "task": "place_bread_skillet",
+          "task_index": 23
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 325497775,
+          "task": "place_burger_fries",
+          "task_index": 24
+        }
+      ]
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000",
+      "episodes": 10,
+      "flow_rows": 150,
+      "flow_seed": 1627516572,
+      "group": "precision",
+      "id": "r03-A-precision",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r03-A-precision",
+      "parent": {
+        "bytes": 19610,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-precision-015000-quick20-v1/parent.json",
+        "sha256": "e4040791d6cb0ceae798ae27aa88604dcd982625f6bc50b82690ece43fd564e1"
+      },
+      "pool": "A",
+      "repeat": 3,
+      "requests": 50,
+      "tasks": [
+        {
+          "derivation_counter": 0,
+          "seed": 412501093,
+          "task": "place_a2b_left",
+          "task_index": 20
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 2116506155,
+          "task": "place_a2b_right",
+          "task_index": 21
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 584336284,
+          "task": "move_can_pot",
+          "task_index": 12
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 637475454,
+          "task": "move_stapler_pad",
+          "task_index": 15
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 391228255,
+          "task": "move_pillbottle_pad",
+          "task_index": 13
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1719626829,
+          "task": "place_mouse_pad",
+          "task_index": 31
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1946341543,
+          "task": "place_object_scale",
+          "task_index": 33
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 3389751,
+          "task": "place_object_stand",
+          "task_index": 34
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 49388101,
+          "task": "place_phone_stand",
+          "task_index": 35
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 523354523,
+          "task": "place_fan",
+          "task_index": 30
+        }
+      ]
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000",
+      "episodes": 10,
+      "flow_rows": 150,
+      "flow_seed": 1600098052,
+      "group": "coordination",
+      "id": "r03-B-coordination",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r03-B-coordination",
+      "parent": {
+        "bytes": 16027,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-three-expert-15k-sequence-v1/coordination/evaluation-015000/parent.json",
+        "sha256": "ca92c96de997fa190bb204e690e6cac21ba98ebd60264b9ce089b6f9bcb84c84"
+      },
+      "pool": "B",
+      "repeat": 3,
+      "requests": 50,
+      "tasks": [
+        {
+          "derivation_counter": 0,
+          "seed": 237744004,
+          "task": "handover_block",
+          "task_index": 8
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 2122420592,
+          "task": "handover_mic",
+          "task_index": 9
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1711413150,
+          "task": "pick_dual_bottles",
+          "task_index": 19
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 803022398,
+          "task": "place_dual_shoes",
+          "task_index": 28
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 918316521,
+          "task": "stack_blocks_two",
+          "task_index": 45
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1336953395,
+          "task": "stack_blocks_three",
+          "task_index": 44
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 943165807,
+          "task": "stack_bowls_two",
+          "task_index": 47
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1960841608,
+          "task": "stack_bowls_three",
+          "task_index": 46
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 67651066,
+          "task": "blocks_ranking_rgb",
+          "task_index": 2
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 317630972,
+          "task": "blocks_ranking_size",
+          "task_index": 3
+        }
+      ]
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000",
+      "episodes": 10,
+      "flow_rows": 150,
+      "flow_seed": 1600098052,
+      "group": "receptacle",
+      "id": "r03-B-receptacle",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r03-B-receptacle",
+      "parent": {
+        "bytes": 16042,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-three-expert-15k-sequence-v1/receptacle/evaluation-015000/parent.json",
+        "sha256": "83489ed53a52225f66bf03012b6548d040b8c73e02dca6273488eea903f50838"
+      },
+      "pool": "B",
+      "repeat": 3,
+      "requests": 50,
+      "tasks": [
+        {
+          "derivation_counter": 0,
+          "seed": 1261340018,
+          "task": "place_bread_basket",
+          "task_index": 22
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 349886471,
+          "task": "place_can_basket",
+          "task_index": 25
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 867421628,
+          "task": "place_cans_plasticbox",
+          "task_index": 26
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 882970278,
+          "task": "place_container_plate",
+          "task_index": 27
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 367496777,
+          "task": "place_object_basket",
+          "task_index": 32
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 882946758,
+          "task": "put_bottles_dustbin",
+          "task_index": 38
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1843433002,
+          "task": "put_object_cabinet",
+          "task_index": 39
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 804243001,
+          "task": "place_empty_cup",
+          "task_index": 29
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1440111315,
+          "task": "place_bread_skillet",
+          "task_index": 23
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 88782247,
+          "task": "place_burger_fries",
+          "task_index": 24
+        }
+      ]
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000",
+      "episodes": 10,
+      "flow_rows": 150,
+      "flow_seed": 1600098052,
+      "group": "precision",
+      "id": "r03-B-precision",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r03-B-precision",
+      "parent": {
+        "bytes": 19610,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-precision-015000-quick20-v1/parent.json",
+        "sha256": "e4040791d6cb0ceae798ae27aa88604dcd982625f6bc50b82690ece43fd564e1"
+      },
+      "pool": "B",
+      "repeat": 3,
+      "requests": 50,
+      "tasks": [
+        {
+          "derivation_counter": 0,
+          "seed": 2125637773,
+          "task": "place_a2b_left",
+          "task_index": 20
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 120015481,
+          "task": "place_a2b_right",
+          "task_index": 21
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 736755688,
+          "task": "move_can_pot",
+          "task_index": 12
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 531363349,
+          "task": "move_stapler_pad",
+          "task_index": 15
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 1785613541,
+          "task": "move_pillbottle_pad",
+          "task_index": 13
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 68405301,
+          "task": "place_mouse_pad",
+          "task_index": 31
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 2039583327,
+          "task": "place_object_scale",
+          "task_index": 33
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 344109501,
+          "task": "place_object_stand",
+          "task_index": 34
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 905395490,
+          "task": "place_phone_stand",
+          "task_index": 35
+        },
+        {
+          "derivation_counter": 0,
+          "seed": 419435830,
+          "task": "place_fan",
+          "task_index": 30
+        }
+      ]
+    }
+  ],
+  "no_score_based_scheduling_or_stopping": true,
+  "parents": {
+    "coordination": {
+      "bytes": 16027,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-three-expert-15k-sequence-v1/coordination/evaluation-015000/parent.json",
+      "sha256": "ca92c96de997fa190bb204e690e6cac21ba98ebd60264b9ce089b6f9bcb84c84"
+    },
+    "precision": {
+      "bytes": 19610,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-precision-015000-quick20-v1/parent.json",
+      "sha256": "e4040791d6cb0ceae798ae27aa88604dcd982625f6bc50b82690ece43fd564e1"
+    },
+    "receptacle": {
+      "bytes": 16042,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-three-expert-15k-sequence-v1/receptacle/evaluation-015000/parent.json",
+      "sha256": "83489ed53a52225f66bf03012b6548d040b8c73e02dca6273488eea903f50838"
+    }
+  },
+  "pools": [
+    "A",
+    "B"
+  ],
+  "purpose": "three-expert-native-execution-calibration-only",
+  "repeats": [
+    1,
+    2,
+    3
+  ],
+  "request_selection": "full-trajectory quantiles 0,25,50,75,100 percent",
+  "requests": 900,
+  "requests_per_task": 5,
+  "reset_preflight": {
+    "instruction_contract": {
+      "bytes": 1177,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/reset-preflight-attempt-03/instruction-contract.json",
+      "sha256": "39c8a29595dea684d180665dfaf8e00d5eeaa0f06658473fd954167f14c7cf96"
+    },
+    "policy_inference": false,
+    "probe_receipts": {
+      "bytes": 60683,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/reset-preflight-attempt-03/reset-probes.jsonl",
+      "sha256": "7fb2f5d85e883af441b8b00096dc81f381abde84380ebe8c268b34cf106613d5"
+    },
+    "replacement_count": 1,
+    "selection_uses_only_reset_validity": true,
+    "source_protocol": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v1/protocol.json",
+    "source_protocol_sha256": "27729d4ab349753a05f33764a19a2e14cfd720e92a15a629d695c27a170c3a65",
+    "status": "all_180_simulator_resets_valid_before_policy_inference",
+    "success_values_read": false,
+    "timeout_confirmed_candidates": 0,
+    "timeout_seconds": 900
+  },
+  "reset_selection_uses_only_simulator_validity": true,
+  "schema": "robotwin_tcr_native_ab_capture_v1",
+  "seed_namespace": "iclr2027-table5-robotwin-tcr-calibration-v1",
+  "seed_selection_uses_only_identity_collision": true,
+  "success_filtering": false,
+  "tasks_per_group_pool_repeat": 10
+}

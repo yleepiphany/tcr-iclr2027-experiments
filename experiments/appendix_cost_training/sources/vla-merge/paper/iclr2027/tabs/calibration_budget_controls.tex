@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Row-budget comparisons. $R_1=4{,}441{,}200$ and $R_2=1{,}331{,}600$ are the reference pass budgets. Fractions denote target allocations; actual per-module counts are recorded. A$\to$B reuses the reference from Table~\ref{tab:cache_sequence_controls}, not a separate evaluation. Each row uses the same 400 episodes. Dashes indicate evaluations not yet complete.}
+\label{tab:calibration_budget_controls}
+\resulttable
+\begin{tabularx}{\linewidth}{Xrrr}
+\toprule
+Configuration & First-pass rows & Second-pass rows & Success (\%) $\uparrow$ \\
+\midrule
+A$\to$B, fewer rows & $R_1$ & $0.5R_2$ & \tbd \\
+\rowcolor{TCRTableBlue}
+A$\to$B, reference & $R_1$ & $R_2$ & 75.50 \\
+A$\to$B, more rows & $R_1$ & $1.5R_2$ & \tbd \\
+\midrule
+One pass on A$\cup$B & $R_1+R_2$ & --- & \tbd \\
+\bottomrule
+\end{tabularx}
+\end{table}

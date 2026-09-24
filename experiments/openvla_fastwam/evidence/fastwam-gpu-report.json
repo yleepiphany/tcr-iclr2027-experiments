@@ -1,0 +1,73 @@
+{
+  "status": "pass",
+  "mode": "gpu",
+  "scope": "Table4 OpenVLA-OFT/Fast-WAM",
+  "checks": [
+    {
+      "status": "PASS",
+      "check": "snapshot SHA256 + Python syntax + JSON parse",
+      "files": 164,
+      "gpu_used": false,
+      "weights_in_git": false
+    },
+    {
+      "backend": "fastwam",
+      "suite": "spatial",
+      "mode": "one-native-request-only",
+      "evaluation_episodes": 0,
+      "training": false,
+      "resource_before": {
+        "gpu": 5,
+        "uuid": "GPU-4ed28198-b742-ee3c-2acb-4183dc944c81",
+        "used_mib": 1,
+        "free_mib": 81153,
+        "compute_pids": []
+      },
+      "command": [
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/envs/mergevla/bin/python",
+        "/tmp/tcr-table4-release-20260924/worker.py",
+        "--backend",
+        "fastwam",
+        "--host-root",
+        "/mnt/workspace/Wilson/parameter-fusion",
+        "--suite",
+        "spatial",
+        "--output",
+        "/tmp/tcr-table4-release-evidence-fastwam-gpu-20260924/fastwam/result"
+      ],
+      "package_provenance_sha256": "639d3bd7688fdd9ba67d9675d50bdb1d17a13cbb24e737f5ff602cfc70efb41a",
+      "full_checkpoint_hash_preflight": {
+        "status": "PASS",
+        "backend": "fastwam",
+        "suite": "spatial",
+        "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/spatial/checkpoints/weights/step_012000.pt",
+        "missing": [],
+        "verified_sha256_files": [
+          "vla-merge_table4/Fast-WAM/weights/spatial/dataset_stats.json",
+          "vla-merge_table4/Fast-WAM/weights/spatial/checkpoints/weights/step_012000.pt"
+        ],
+        "full_weight_hashes_verified": true,
+        "gpu_used": false
+      },
+      "status": "PASS",
+      "returncode": 0,
+      "native_result": {
+        "status": "PASS",
+        "backend": "fastwam",
+        "native_action_shape": [
+          32,
+          7
+        ],
+        "finite": true,
+        "native_requests": 1,
+        "evaluation_episodes": 0,
+        "is_success_evaluation": false,
+        "request_sha256": "aca1c947ba955da3cc6cdc40cb9620e93fe6e2cea5e48c8eec7354fc422fca00",
+        "checkpoint_sha256": "540249aee838c87fc57ae6f93fb320092a8d7aeaed1ebe4004455eee479cbaf8",
+        "inference_seconds": 12.872257867828012,
+        "max_allocated_mib": 23949.96923828125
+      }
+    }
+  ],
+  "output": "/tmp/tcr-table4-release-evidence-fastwam-gpu-20260924"
+}

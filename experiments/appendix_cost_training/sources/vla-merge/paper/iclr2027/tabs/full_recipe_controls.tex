@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Supplementary choices within the two-pass TCR recipe. All rows use the matching A$\to$B reference from Table~\ref{tab:cache_sequence_controls} and the same 400 episodes. Each variant changes its named rule; scope restrictions reduce the total regression budget. Dashes indicate evaluations not yet complete.}
+\label{tab:full_recipe_controls}
+\resulttable
+\begin{tabularx}{\linewidth}{lXr}
+\toprule
+Configuration & Change from reference & Success (\%) $\uparrow$ \\
+\midrule
+\rowcolor{TCRTableBlue}
+Full & None; shared A$\to$B reference & \textbf{75.50} \\
+Early requests only & Earliest requests, unchanged request count & 68.00 \\
+Uniform first-pass weights & Equal expert masses also in pass one & 72.25 \\
+Action modules only & Other adapted parameters remain at Soup & \tbd \\
+Conditioning + action & Other adapted parameters remain at Soup & \tbd \\
+\bottomrule
+\end{tabularx}
+\end{table}

@@ -45,6 +45,8 @@ def main() -> int:
                 row["sha256_ok"] = file_hash(source) == entry["sha256"]
         rows.append(row)
     blocked = [row["id"] for row in rows if not row["exists"] or row.get("error") or row.get("sha256_ok") is False]
+    if not rows:
+        blocked.append("manifest_has_no_assets")
     print(json.dumps({"status": "PASS" if not blocked else "BLOCKED", "checked": len(rows), "blocked": blocked, "assets": rows}, ensure_ascii=False))
     return 0 if not blocked else 2
 

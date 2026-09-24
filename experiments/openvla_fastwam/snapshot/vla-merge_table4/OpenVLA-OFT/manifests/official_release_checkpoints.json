@@ -1,0 +1,29 @@
+{
+  "policy": "official Release checkpoints; no local retraining",
+  "experts": {
+    "spatial": {
+      "suite": "libero_spatial",
+      "source": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+      "release_checkpoint": "150000_chkpt",
+      "local_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt"
+    },
+    "object": {
+      "suite": "libero_object",
+      "source": "moojink/openvla-7b-oft-finetuned-libero-object",
+      "release_checkpoint": "150000_chkpt",
+      "local_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt"
+    },
+    "goal": {
+      "suite": "libero_goal",
+      "source": "moojink/openvla-7b-oft-finetuned-libero-goal",
+      "release_checkpoint": "50000_chkpt",
+      "local_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt"
+    },
+    "long": {
+      "suite": "libero_10",
+      "source": "moojink/openvla-7b-oft-finetuned-libero-10",
+      "release_checkpoint": "150000_chkpt",
+      "local_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt"
+    }
+  }
+}

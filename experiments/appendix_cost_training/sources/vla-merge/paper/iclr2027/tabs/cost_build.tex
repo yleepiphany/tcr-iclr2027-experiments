@@ -1,0 +1,27 @@
+\begin{table}[h]
+\centering
+\caption{\pizerofive{} construction accounting for the main comparison. States counts request--flow inputs; Demo. counts supervised states; Val. counts selection episodes. The 480/720 episode counts are planned selection budgets, not completed measurements. Rows, time, and memory require receipts for the reported checkpoints.}
+\label{tab:cost_build}
+\footnotesize
+\renewcommand{\arraystretch}{1.12}
+\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\linewidth}{Xrrrrrrr}
+\toprule
+Method & States & Rows & Demo. & Val. eps. & Grad. steps & Merge (h) & Peak GB \\
+\midrule
+Model Soups & 0 & 0 & 0 & 0 & 0 & \tbd & \tbd \\
+Task Arithmetic (val.) & 0 & 0 & 0 & 480 & 0 & \tbd & \tbd \\
+TIES-Merging (val.) & 0 & 0 & 0 & 720 & 0 & \tbd & \tbd \\
+WUDI-Merging & 0 & 0 & 0 & \tbd & 0 & \tbd & \tbd \\
+KnOTS-TIES & 0 & 0 & 0 & \tbd & 0 & \tbd & \tbd \\
+RegMean & \tbd & \tbd & 0 & \tbd & 0 & \tbd & \tbd \\
+RegMean++ & \tbd & \tbd & 0 & \tbd & 0 & \tbd & \tbd \\
+FeatCal & \tbd & $4.44$M & 0 & \tbd & 0 & \tbd & \tbd \\
+\midrule
+\rowcolor{TCRTableBlue}
+\textbf{\methodshort{} (ours)} & \tbd & $5.77$M & 0 & \tbd & 0 & \tbd & \tbd \\
+\bottomrule
+\end{tabularx}
+\par\smallskip
+\footnotesize Rows for FeatCal and \methodshort{} are the rounded regression-row totals reported with Table~\ref{tab:main_baselines}.
+\end{table}

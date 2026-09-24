@@ -1,0 +1,228 @@
+{
+  "schema": "robotwin_pro_release_catalog_v1",
+  "snapshot_date": "2026-09-24",
+  "source_workspace": "/mnt/workspace/Wilson/parameter-fusion",
+  "scope": "Unfinished experiment entrypoints and provenance; no weights, no real-robot experiments.",
+  "methods": {
+    "libero_pro/model_soups": {
+      "benchmark": "LIBERO-PRO",
+      "method": "model_soups",
+      "current_checkpoint_sha256": "a92aacc43146dc41663c0057f2999bd90252fb3fb316ef963f165be67e1be01a",
+      "stale_checkpoint_sha256": null,
+      "status": "UNFINISHED",
+      "selection_manifest": "vla-merge-runtime/experiments/pi05-pro-soup-codex-20260924/selection-v1/manifest.json",
+      "native_prepare": "experiments/pi05-pro-baselines-codex-20260924/prepare_soup.py",
+      "native_evaluate": "experiments/pi05-pro-baselines-codex-20260924/run_soup_formal.py",
+      "native_low_level": "scripts/run_pi05_libero_pro_evaluation.py",
+      "native_python": "vla-merge-runtime/envs/iclr2027-libero-pro-py312-v1/bin/python",
+      "matrix": {
+        "repeats": 3,
+        "dimensions": [
+          "object",
+          "swap",
+          "semantic",
+          "task"
+        ],
+        "suites": [
+          "libero_spatial",
+          "libero_object",
+          "libero_goal",
+          "libero_10"
+        ],
+        "jobs": 480,
+        "episodes": 4800
+      },
+      "block_reason": null
+    },
+    "libero_pro/ties": {
+      "benchmark": "LIBERO-PRO",
+      "method": "ties",
+      "current_checkpoint_sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+      "stale_checkpoint_sha256": null,
+      "status": "UNFINISHED",
+      "selection_manifest": "vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/ties_merging/selection-v1/manifest.json",
+      "native_prepare": "experiments/pi05-pro-baselines-codex-20260924/prepare_pro_baseline_selection_v1.py",
+      "native_evaluate": "experiments/pi05-pro-baselines-codex-20260924/run_baseline_formal.py",
+      "native_low_level": "scripts/run_pi05_libero_pro_evaluation.py",
+      "native_python": "vla-merge-runtime/envs/iclr2027-libero-pro-py312-v1/bin/python",
+      "matrix": {
+        "repeats": 3,
+        "dimensions": [
+          "object",
+          "swap",
+          "semantic",
+          "task"
+        ],
+        "suites": [
+          "libero_spatial",
+          "libero_object",
+          "libero_goal",
+          "libero_10"
+        ],
+        "jobs": 480,
+        "episodes": 4800
+      },
+      "block_reason": null
+    },
+    "libero_pro/regmean_pp": {
+      "benchmark": "LIBERO-PRO",
+      "method": "regmean_pp",
+      "current_checkpoint_sha256": "fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2",
+      "stale_checkpoint_sha256": "38745ba812c2f4ac4327ab40719e0ce8da017873c0a1765608f65dd926cd4ab3",
+      "status": "BLOCKED_STALE_SELECTION",
+      "selection_manifest": "vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/regmean_pp/selection-v1/manifest.json",
+      "native_prepare": "experiments/pi05-pro-baselines-codex-20260924/prepare_pro_baseline_selection_v1.py",
+      "native_evaluate": "experiments/pi05-pro-baselines-codex-20260924/run_baseline_formal.py",
+      "native_low_level": "scripts/run_pi05_libero_pro_evaluation.py",
+      "native_python": "vla-merge-runtime/envs/iclr2027-libero-pro-py312-v1/bin/python",
+      "matrix": {
+        "repeats": 3,
+        "dimensions": [
+          "object",
+          "swap",
+          "semantic",
+          "task"
+        ],
+        "suites": [
+          "libero_spatial",
+          "libero_object",
+          "libero_goal",
+          "libero_10"
+        ],
+        "jobs": 480,
+        "episodes": 4800
+      },
+      "block_reason": "Regenerate immutable current-model selections and source/reset parity audit before evaluation; archived run_baseline_formal.py is stale."
+    },
+    "libero_pro/featcal": {
+      "benchmark": "LIBERO-PRO",
+      "method": "featcal",
+      "current_checkpoint_sha256": "b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114",
+      "stale_checkpoint_sha256": "e43de109844431c02e316e57f701d7c06a9a3c8feaa3c41c9f391281f8197efa",
+      "status": "BLOCKED_STALE_SELECTION",
+      "selection_manifest": "vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/featcal/selection-v1/manifest.json",
+      "native_prepare": "experiments/pi05-pro-baselines-codex-20260924/prepare_pro_baseline_selection_v1.py",
+      "native_evaluate": "experiments/pi05-pro-baselines-codex-20260924/run_baseline_formal.py",
+      "native_low_level": "scripts/run_pi05_libero_pro_evaluation.py",
+      "native_python": "vla-merge-runtime/envs/iclr2027-libero-pro-py312-v1/bin/python",
+      "matrix": {
+        "repeats": 3,
+        "dimensions": [
+          "object",
+          "swap",
+          "semantic",
+          "task"
+        ],
+        "suites": [
+          "libero_spatial",
+          "libero_object",
+          "libero_goal",
+          "libero_10"
+        ],
+        "jobs": 480,
+        "episodes": 4800
+      },
+      "block_reason": "Regenerate immutable current-model selections and source/reset parity audit before evaluation; archived run_baseline_formal.py is stale."
+    },
+    "robotwin/ties": {
+      "benchmark": "RoboTwin",
+      "method": "ties",
+      "status": "UNFINISHED",
+      "matrix": {
+        "groups": [
+          "coordination",
+          "receptacle",
+          "precision"
+        ],
+        "tasks": 30,
+        "repeats": 3,
+        "episodes": 540
+      },
+      "native_python": "vla-merge-runtime/envs/iclr2027-robotwin2-py312-mplib-curobo-v3/bin/python",
+      "native_build": "scripts/materialize_robotwin_three_expert_ties_formal_v1.py",
+      "native_evaluate": "scripts/watch_robotwin_model_soups_formal_v1.py",
+      "environment": {
+        "ROBOTWIN_FORMAL_MERGE_METHOD": "ties"
+      },
+      "recipe": {
+        "density": 0.3,
+        "alpha": 0.9,
+        "expert_step": 15000
+      },
+      "checkpoint_manifest": "vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/materialized/ties/pretrained_model/parameter_baseline_manifest.json",
+      "current_checkpoint_sha256": "1ce6509f169944ef01ab3efcc0976c885691e89732ff651507359de7813fefbc"
+    },
+    "robotwin/tcr": {
+      "benchmark": "RoboTwin",
+      "method": "tcr",
+      "status": "UNFINISHED",
+      "matrix": {
+        "groups": [
+          "coordination",
+          "receptacle",
+          "precision"
+        ],
+        "tasks": 30,
+        "repeats": 3,
+        "episodes": 540
+      },
+      "native_python": "vla-merge-runtime/envs/iclr2027-robotwin2-py312-mplib-curobo-v3/bin/python",
+      "native_build": "experiments/robotwin-tcr-local-codex-20260924/run_tcr_builds_local_v4.py",
+      "native_evaluate": "experiments/robotwin-tcr-local-codex-20260924/run_tcr_formal_local_v4.py",
+      "native_materializer": "experiments/robotwin-tcr-local-codex-20260924/run_materializer_local_v4.py",
+      "recipe": {
+        "pass_A_rows": 3330900,
+        "pass_B_rows": 5328900,
+        "independent_checkpoints": 3
+      },
+      "checkpoints": {
+        "r01-passB": {
+          "model_sha256": "efe45a3510e189cfe50468b7a76e68819eee9e5c1a3eb73ff02c23e2b7db5a6f",
+          "manifest_sha256": "3a3aa8fe96bc18ff4f2f5252215c8d0b0564eaf9261826134944146089e32520"
+        },
+        "r02-passB": {
+          "model_sha256": "1eaab2cf5affbd794cddba5d87ad765f0179b2db459866aedd245cf2147195be",
+          "manifest_sha256": "34292fa0deb0f9ebe5370191b9e30363dbb5e87af835e9723a1f200dedb66b94"
+        },
+        "r03-passB": {
+          "model_sha256": "a2a128ff7e6e170923833c33254224912ba3dcb372f98d617decef3cb489173e",
+          "manifest_sha256": "b124a2a91433c986b50779a630eeb7af635e95218fcb1037a7c8ff5246978074"
+        }
+      }
+    },
+    "robotwin/regmean_pp": {
+      "benchmark": "RoboTwin",
+      "method": "regmean_pp",
+      "status": "BLOCKED_MISSING_NATIVE_ADAPTER",
+      "matrix": {
+        "groups": [
+          "coordination",
+          "receptacle",
+          "precision"
+        ],
+        "tasks": 30,
+        "repeats": 3,
+        "episodes": 540
+      },
+      "native_python": "vla-merge-runtime/envs/iclr2027-robotwin2-py312-mplib-curobo-v3/bin/python",
+      "block_reason": "No accepted RoboTwin-specific activation cache, solver adapter, dense checkpoint, or 540-episode evaluation binding found. LIBERO checkpoints are invalid substitutes."
+    },
+    "robotwin/featcal": {
+      "benchmark": "RoboTwin",
+      "method": "featcal",
+      "status": "BLOCKED_MISSING_NATIVE_ADAPTER",
+      "matrix": {
+        "groups": [
+          "coordination",
+          "receptacle",
+          "precision"
+        ],
+        "tasks": 30,
+        "repeats": 3,
+        "episodes": 540
+      },
+      "native_python": "vla-merge-runtime/envs/iclr2027-robotwin2-py312-mplib-curobo-v3/bin/python",
+      "block_reason": "No accepted RoboTwin-specific activation cache, solver adapter, dense checkpoint, or 540-episode evaluation binding found. LIBERO checkpoints are invalid substitutes."
+    }
+  }
+}

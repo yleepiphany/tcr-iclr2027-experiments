@@ -1,0 +1,419 @@
+{
+  "schema": 1,
+  "assets": [
+    {
+      "id": "pro-model_soups-weights",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/model-soups/repeat-shared/merge/attempt-02-peft-safe-v2/pretrained_model/model.safetensors",
+      "kind": "file",
+      "required": true,
+      "role": "Current LIBERO main-table model for PRO; RegMean++/FeatCal selection regeneration is still blocked",
+      "sha256": "a92aacc43146dc41663c0057f2999bd90252fb3fb316ef963f165be67e1be01a",
+      "exists_at_snapshot": true,
+      "bytes": 9354050784
+    },
+    {
+      "id": "pro-model_soups-support",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/model-soups/repeat-shared/merge/attempt-02-peft-safe-v2/pretrained_model",
+      "kind": "directory",
+      "required": true,
+      "role": "Policy config, tokenizer and normalization sidecars; model entry above carries weight identity",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "pro-ties-weights",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/candidates/ties_density_0p3_alpha_0p9/pretrained_model/model.safetensors",
+      "kind": "file",
+      "required": true,
+      "role": "Current LIBERO main-table model for PRO; RegMean++/FeatCal selection regeneration is still blocked",
+      "sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+      "exists_at_snapshot": true,
+      "bytes": 9354050784
+    },
+    {
+      "id": "pro-ties-support",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/candidates/ties_density_0p3_alpha_0p9/pretrained_model",
+      "kind": "directory",
+      "required": true,
+      "role": "Policy config, tokenizer and normalization sidecars; model entry above carries weight identity",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "pro-regmean_pp-weights",
+      "workspace_relative_path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/attempt-01/checkpoint/model.safetensors",
+      "kind": "file",
+      "required": true,
+      "role": "Current LIBERO main-table model for PRO; RegMean++/FeatCal selection regeneration is still blocked",
+      "sha256": "fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2",
+      "exists_at_snapshot": true,
+      "bytes": 9354050784
+    },
+    {
+      "id": "pro-regmean_pp-support",
+      "workspace_relative_path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/attempt-01/checkpoint",
+      "kind": "directory",
+      "required": true,
+      "role": "Policy config, tokenizer and normalization sidecars; model entry above carries weight identity",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "pro-featcal-weights",
+      "workspace_relative_path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/checkpoint/pretrained_model/model.safetensors",
+      "kind": "file",
+      "required": true,
+      "role": "Current LIBERO main-table model for PRO; RegMean++/FeatCal selection regeneration is still blocked",
+      "sha256": "b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114",
+      "exists_at_snapshot": true,
+      "bytes": 9354050784
+    },
+    {
+      "id": "pro-featcal-support",
+      "workspace_relative_path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/checkpoint/pretrained_model",
+      "kind": "directory",
+      "required": true,
+      "role": "Policy config, tokenizer and normalization sidecars; model entry above carries weight identity",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "robotwin-tcr-r01-passB",
+      "workspace_relative_path": "vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r01-passB/pretrained_model/model.safetensors",
+      "kind": "file",
+      "required": true,
+      "role": "Native RoboTwin TCR pass-B model for this independent build",
+      "sha256": "efe45a3510e189cfe50468b7a76e68819eee9e5c1a3eb73ff02c23e2b7db5a6f",
+      "exists_at_snapshot": true,
+      "bytes": 9354050784
+    },
+    {
+      "id": "robotwin-tcr-r01-passB-support",
+      "workspace_relative_path": "vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r01-passB/pretrained_model",
+      "kind": "directory",
+      "required": true,
+      "role": "Native RoboTwin TCR policy preprocessing and normalization sidecars",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "robotwin-tcr-r02-passB",
+      "workspace_relative_path": "vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r02-passB/pretrained_model/model.safetensors",
+      "kind": "file",
+      "required": true,
+      "role": "Native RoboTwin TCR pass-B model for this independent build",
+      "sha256": "1eaab2cf5affbd794cddba5d87ad765f0179b2db459866aedd245cf2147195be",
+      "exists_at_snapshot": true,
+      "bytes": 9354050784
+    },
+    {
+      "id": "robotwin-tcr-r02-passB-support",
+      "workspace_relative_path": "vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r02-passB/pretrained_model",
+      "kind": "directory",
+      "required": true,
+      "role": "Native RoboTwin TCR policy preprocessing and normalization sidecars",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "robotwin-tcr-r03-passB",
+      "workspace_relative_path": "vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r03-passB/pretrained_model/model.safetensors",
+      "kind": "file",
+      "required": true,
+      "role": "Native RoboTwin TCR pass-B model for this independent build",
+      "sha256": "a2a128ff7e6e170923833c33254224912ba3dcb372f98d617decef3cb489173e",
+      "exists_at_snapshot": true,
+      "bytes": 9354050784
+    },
+    {
+      "id": "robotwin-tcr-r03-passB-support",
+      "workspace_relative_path": "vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r03-passB/pretrained_model",
+      "kind": "directory",
+      "required": true,
+      "role": "Native RoboTwin TCR policy preprocessing and normalization sidecars",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "robotwin-ties-weights",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/materialized/ties/pretrained_model/model.safetensors",
+      "kind": "file",
+      "required": true,
+      "role": "Native three-expert 15k TIES model",
+      "sha256": "1ce6509f169944ef01ab3efcc0976c885691e89732ff651507359de7813fefbc",
+      "exists_at_snapshot": true,
+      "bytes": 9354050784
+    },
+    {
+      "id": "robotwin-ties-support",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/materialized/ties/pretrained_model",
+      "kind": "directory",
+      "required": true,
+      "role": "Native RoboTwin TIES preprocessing/normalization sidecars",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "pi05-common-base",
+      "workspace_relative_path": "pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model/model.safetensors",
+      "kind": "file",
+      "required": true,
+      "role": "Shared PI0.5 base used to materialize native experts",
+      "sha256": "f2165fad32a4b431ca1488a5b886f6738be9e8b480298ecc9e0b55d87d26f365",
+      "exists_at_snapshot": true,
+      "bytes": 9354050784
+    },
+    {
+      "id": "robotwin-expert-coordination",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model/model.safetensors",
+      "kind": "file",
+      "required": true,
+      "role": "Frozen native RoboTwin 15k dense expert",
+      "sha256": "ba9c0929d04dbe1e984b3fa0ed59ba8a18ac840ed6e237a77d20bf930fa75a1e",
+      "exists_at_snapshot": true,
+      "bytes": 9354050784
+    },
+    {
+      "id": "robotwin-expert-coordination-support",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model",
+      "kind": "directory",
+      "required": true,
+      "role": "Expert policy config and normalization/tokenizer sidecars",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "robotwin-adapter-coordination",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000/pretrained_model/adapter_model.safetensors",
+      "kind": "file",
+      "required": true,
+      "role": "Frozen 15k adapter for TIES reconstruction and expert lineage",
+      "sha256": "fc6babd4edb51e074cdc84c690d0b72af2d7df0246d590e09b990a5160d30297",
+      "exists_at_snapshot": true,
+      "bytes": 572620000
+    },
+    {
+      "id": "robotwin-expert-receptacle",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/receptacle/pretrained_model/model.safetensors",
+      "kind": "file",
+      "required": true,
+      "role": "Frozen native RoboTwin 15k dense expert",
+      "sha256": "8124c718630727d8b1a34e6ea41876c340f417082d11c295af302ec1d2d8cfef",
+      "exists_at_snapshot": true,
+      "bytes": 9354050784
+    },
+    {
+      "id": "robotwin-expert-receptacle-support",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/receptacle/pretrained_model",
+      "kind": "directory",
+      "required": true,
+      "role": "Expert policy config and normalization/tokenizer sidecars",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "robotwin-adapter-receptacle",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model/adapter_model.safetensors",
+      "kind": "file",
+      "required": true,
+      "role": "Frozen 15k adapter for TIES reconstruction and expert lineage",
+      "sha256": "8baab5546f4a8ddb621846d5e94d6571b7c37926e2c7b6924f67847e960a51bb",
+      "exists_at_snapshot": true,
+      "bytes": 572620000
+    },
+    {
+      "id": "robotwin-expert-precision",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/precision/pretrained_model/model.safetensors",
+      "kind": "file",
+      "required": true,
+      "role": "Frozen native RoboTwin 15k dense expert",
+      "sha256": "316a913d065e43f995a63f80cdcf17d48d3a790f30dd571c67f8a25285f44adc",
+      "exists_at_snapshot": true,
+      "bytes": 9354050784
+    },
+    {
+      "id": "robotwin-expert-precision-support",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/precision/pretrained_model",
+      "kind": "directory",
+      "required": true,
+      "role": "Expert policy config and normalization/tokenizer sidecars",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "robotwin-adapter-precision",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000/pretrained_model/adapter_model.safetensors",
+      "kind": "file",
+      "required": true,
+      "role": "Frozen 15k adapter for TIES reconstruction and expert lineage",
+      "sha256": "bcf1190c984c24c56add5573668a7938cfc02b3686a4ba51b3760b0225245708",
+      "exists_at_snapshot": true,
+      "bytes": 572620000
+    },
+    {
+      "id": "robotwin-reset-repeat-1",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-01.json",
+      "kind": "file",
+      "required": true,
+      "role": "Formal six-reset-per-task RoboTwin bank",
+      "sha256": "519e56cac00e7326706dc8c2934791c394643b3eec94052554b5d5815d87d2a7",
+      "exists_at_snapshot": true,
+      "bytes": 38088
+    },
+    {
+      "id": "robotwin-reset-repeat-2",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-02.json",
+      "kind": "file",
+      "required": true,
+      "role": "Formal six-reset-per-task RoboTwin bank",
+      "sha256": "451925ba55b3812dcb5f57a6acb24d94cb596b21b5d659b0a45a67a4e6aaf793",
+      "exists_at_snapshot": true,
+      "bytes": 38079
+    },
+    {
+      "id": "robotwin-reset-repeat-3",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-03.json",
+      "kind": "file",
+      "required": true,
+      "role": "Formal six-reset-per-task RoboTwin bank",
+      "sha256": "88bdb45ef28e43292cf0fdf823f4a66b825c5e2313175f1959f41dce5f948ea2",
+      "exists_at_snapshot": true,
+      "bytes": 38082
+    },
+    {
+      "id": "pro-model_soups-selection",
+      "workspace_relative_path": "vla-merge-runtime/experiments/pi05-pro-soup-codex-20260924/selection-v1",
+      "kind": "directory",
+      "required": true,
+      "role": "PRO three-repeat reset/task selections; old RegMean++/FeatCal bindings are archival and MUST be regenerated",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "pro-ties-selection",
+      "workspace_relative_path": "vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/ties_merging/selection-v1",
+      "kind": "directory",
+      "required": true,
+      "role": "PRO three-repeat reset/task selections; old RegMean++/FeatCal bindings are archival and MUST be regenerated",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "pro-regmean_pp-selection",
+      "workspace_relative_path": "vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/regmean_pp/selection-v1",
+      "kind": "directory",
+      "required": false,
+      "role": "PRO three-repeat reset/task selections; old RegMean++/FeatCal bindings are archival and MUST be regenerated",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "pro-featcal-selection",
+      "workspace_relative_path": "vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/featcal/selection-v1",
+      "kind": "directory",
+      "required": false,
+      "role": "PRO three-repeat reset/task selections; old RegMean++/FeatCal bindings are archival and MUST be regenerated",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "pro-source-reset-selections",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1",
+      "kind": "directory",
+      "required": true,
+      "role": "Source 480-job PRO reset panel for parity-preserving current-model regeneration",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "robotwin-capture-protocol",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/reset-preflight-attempt-03/candidate-protocol.json",
+      "kind": "file",
+      "required": true,
+      "role": "Frozen A/B native calibration reset protocol",
+      "sha256": "65be22e1e3cbd2598f7dbd06402547de541c7315f837977913ea32dc3ec2d807",
+      "exists_at_snapshot": true,
+      "bytes": 47249
+    },
+    {
+      "id": "robotwin-native-simulator",
+      "workspace_relative_path": "vla-merge-runtime/environments/robotwin2-0aee-open3d-optional-v2",
+      "kind": "directory",
+      "required": true,
+      "role": "RoboTwin2 simulator checkout and task/robot scene resources; source commit 0aeea2d669c0f8516f4d5785f0aa33ba812c14b4",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "pro-repo",
+      "workspace_relative_path": ".datasets/LIBERO/20260919/pro/repo",
+      "kind": "directory",
+      "required": true,
+      "role": "LIBERO-PRO simulator/source checkout; commit eafdb809426b13153aa1e4c42d6601844217dfec",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "pro-assets",
+      "workspace_relative_path": ".datasets/LIBERO/20260919/pro/assets",
+      "kind": "directory",
+      "required": true,
+      "role": "LIBERO-PRO scene assets; audited tree digest ad5a423f687bb6260d0a01d2f38e2aa97923ee8cceaf27869e1d9e9fd4260114 is NOT a file SHA",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "pro-config",
+      "workspace_relative_path": ".datasets/LIBERO/20260919/pro/config",
+      "kind": "directory",
+      "required": true,
+      "role": "LIBERO-PRO runtime configuration directory",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "pro-config-file",
+      "workspace_relative_path": ".datasets/LIBERO/20260919/pro/config/config.yaml",
+      "kind": "file",
+      "required": true,
+      "role": "Frozen PRO simulator compatibility config",
+      "sha256": "14698eb437e74b99b0e5594b5bb911b89a8eaf39c0544ae98423a529f22fa1fe",
+      "exists_at_snapshot": true,
+      "bytes": 500
+    },
+    {
+      "id": "pi05-tokenizer",
+      "workspace_relative_path": "pi05_lora_finetune_v2_20260826/assets/paligemma-3b-pt-224-tokenizer",
+      "kind": "directory",
+      "required": true,
+      "role": "Shared local tokenizer used by native evaluation",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "robotwin-normalizer-preprocessor",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors",
+      "kind": "file",
+      "required": true,
+      "role": "Required native RoboTwin input/output normalization tensors",
+      "exists_at_snapshot": true,
+      "bytes": 7748,
+      "sha256": "792f8ad0cba252068cc6f2acaaa2a6d7fa0494a29a08426ffff3ad61c7a56b81"
+    },
+    {
+      "id": "robotwin-normalizer-postprocessor",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+      "kind": "file",
+      "required": true,
+      "role": "Required native RoboTwin input/output normalization tensors",
+      "exists_at_snapshot": true,
+      "bytes": 7804,
+      "sha256": "b8ba9b84423b717d05abcbc2999e0b2ff89f8b1c82d2232a37d1f37c14253948"
+    },
+    {
+      "id": "environment-iclr2027-robotwin2-py312-mplib-curobo-v3",
+      "workspace_relative_path": "vla-merge-runtime/envs/iclr2027-robotwin2-py312-mplib-curobo-v3",
+      "kind": "directory",
+      "required": true,
+      "role": "Native Python dependency environment; reproducible environment packaging must respect upstream distribution licences",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "environment-iclr2027-libero-pro-py312-v1",
+      "workspace_relative_path": "vla-merge-runtime/envs/iclr2027-libero-pro-py312-v1",
+      "kind": "directory",
+      "required": true,
+      "role": "Native Python dependency environment; reproducible environment packaging must respect upstream distribution licences",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "robotwin-coordination15k-native-smoke-parent",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-three-expert-15k-sequence-v1/coordination/evaluation-015000/parent.json",
+      "kind": "file",
+      "required": true,
+      "role": "Exact development parent for the existing one-episode native --smoke; native validate passed without CUDA",
+      "sha256": "ca92c96de997fa190bb204e690e6cac21ba98ebd60264b9ce089b6f9bcb84c84",
+      "bytes": 16027,
+      "exists_at_snapshot": true
+    }
+  ]
+}

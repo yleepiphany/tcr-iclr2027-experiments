@@ -1,0 +1,15 @@
+{
+  "formal_result": false,
+  "manifest_sha256": "ca92c96de997fa190bb204e690e6cac21ba98ebd60264b9ce089b6f9bcb84c84",
+  "peak_cuda_memory_mib": 11096.21435546875,
+  "result": {
+    "episodes": 1,
+    "macro_success": 0.0,
+    "plateau_eligible": false,
+    "status": "smoke_complete",
+    "task_success": {
+      "handover_block": 0.0
+    }
+  },
+  "seconds": 658.9617364518344
+}

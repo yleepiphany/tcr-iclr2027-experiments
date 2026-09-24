@@ -1,0 +1,33 @@
+{
+  "A_first_pass_rows": 4441200,
+  "B_realized_ratio_to_base": {
+    "base": 1.0,
+    "high": 1.49984980474617,
+    "low": 0.50015019525383
+  },
+  "B_second_pass_rows": {
+    "base": 1331600,
+    "high": 1997200,
+    "low": 666000
+  },
+  "created_at": "2026-09-23T17:47:54.900329+00:00",
+  "experts": 4,
+  "flow_indices": [
+    0,
+    5,
+    9
+  ],
+  "input_content_audit": "/mnt/workspace/Wilson/parameter-fusion/coordination/2026-09-23/appendix-abc-pools-content-audit.json",
+  "input_content_audit_sha256": "19eb510e37564d2a41e9b731f21a96bcaf227109f3482c0e8ad976b31db11e2e",
+  "module_count": 418,
+  "module_scope_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/tcr-e/repeat-01/merge/attempt-01-peft-safe-v1/block_regmeanpp_manifest.json",
+  "module_scope_manifest_sha256": "260cea965d7539569a37f031ca670d9a5cd57bd1753d59fa12a60aaac5b1f1d8",
+  "requests_per_expert_pool": 50,
+  "row_identity_rule": "low subset of frozen cap16, high superset of frozen cap16; time modules unchanged",
+  "schema": "pi05_fixed_appendix_row_budget_v1",
+  "scope_limit": "time projections have one unique row/request; realized B total differs by 200 rows from exact 0.5x or 1.5x",
+  "single_A_union_B_rows": 5772800,
+  "status": "cpu_budget_contract_only_no_model_or_evaluation",
+  "time_module_count": 2,
+  "vision_module_count": 162
+}

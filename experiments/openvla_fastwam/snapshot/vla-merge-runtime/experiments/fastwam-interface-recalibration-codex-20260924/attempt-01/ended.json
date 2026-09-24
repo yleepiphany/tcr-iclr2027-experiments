@@ -1,0 +1,10 @@
+{
+  "checkpoint": {
+    "exact_readback": true,
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fastwam-interface-recalibration-codex-20260924/attempt-01/build/pass-B/checkpoint.pt",
+    "sha256": "7c8c4a0db70a93de8148d5ac4e81fdda61b02c55334c27e90cf9bdcec5865fe1",
+    "size_bytes": 12041968973
+  },
+  "complete": true,
+  "time": "2026-09-24T07:57:13.834534+00:00"
+}

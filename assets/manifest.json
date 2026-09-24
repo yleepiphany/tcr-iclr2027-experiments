@@ -1,5 +1,3011 @@
 {
-  "schema_version": 1,
-  "description": "External checkpoint, cache, reset-bank, and data identities required by the packaged experiment families.",
-  "assets": []
+  "assets": [
+    {
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0001",
+      "kind": "directory",
+      "path": ".datasets/FastWAM/models",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ]
+    },
+    {
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0002",
+      "kind": "directory",
+      "path": ".datasets/FastWAM/text_embeds_cache",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ]
+    },
+    {
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0003",
+      "kind": "directory",
+      "path": ".datasets/LIBERO",
+      "required": true,
+      "roles": [
+        "source multi-task demonstration datasets; mixture not frozen"
+      ]
+    },
+    {
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0004",
+      "kind": "directory",
+      "path": ".datasets/LIBERO/20260919/config-standard",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ]
+    },
+    {
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0005",
+      "kind": "directory",
+      "path": ".datasets/LIBERO/20260919/pro/assets",
+      "required": true,
+      "roles": [
+        "LIBERO-PRO scene assets; audited tree digest ad5a423f687bb6260d0a01d2f38e2aa97923ee8cceaf27869e1d9e9fd4260114 is NOT a file SHA"
+      ]
+    },
+    {
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0006",
+      "kind": "directory",
+      "path": ".datasets/LIBERO/20260919/pro/config",
+      "required": true,
+      "roles": [
+        "LIBERO-PRO runtime configuration directory"
+      ]
+    },
+    {
+      "bytes": 500,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0007",
+      "kind": "file",
+      "path": ".datasets/LIBERO/20260919/pro/config/config.yaml",
+      "required": true,
+      "roles": [
+        "Frozen PRO simulator compatibility config"
+      ],
+      "sha256": "14698eb437e74b99b0e5594b5bb911b89a8eaf39c0544ae98423a529f22fa1fe"
+    },
+    {
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0008",
+      "kind": "directory",
+      "path": ".datasets/LIBERO/20260919/pro/repo",
+      "required": true,
+      "roles": [
+        "LIBERO-PRO simulator/source checkout; commit eafdb809426b13153aa1e4c42d6601844217dfec"
+      ]
+    },
+    {
+      "bytes": 1912,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0009",
+      "kind": "file",
+      "path": "coordination/2026-09-21/c146-teacher-actions-audit.json",
+      "required": true,
+      "roles": [
+        "teacher identity and coverage audit"
+      ],
+      "sha256": "87493e09c4f5c8a4504fd3b34d5f0c2cb74a622e4c4b7d371a29a6b6c604f835"
+    },
+    {
+      "bytes": 8019136,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0010",
+      "kind": "file",
+      "path": "pi05_lora_finetune_v2_20260826/.venv/bin/python",
+      "required": true,
+      "roles": [
+        "original Python runtime (not copied)"
+      ]
+    },
+    {
+      "experiments": [
+        "appendix_cost_training",
+        "robotwin_pro"
+      ],
+      "id": "asset-0011",
+      "kind": "directory",
+      "path": "pi05_lora_finetune_v2_20260826/assets/paligemma-3b-pt-224-tokenizer",
+      "required": true,
+      "roles": [
+        "local tokenizer",
+        "Shared local tokenizer used by native evaluation"
+      ]
+    },
+    {
+      "bytes": 572620000,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0012",
+      "kind": "file",
+      "path": "pi05_lora_finetune_v2_20260826/ckpt/experts/goal_lora_s0/checkpoints/010000/pretrained_model/adapter_model.safetensors",
+      "required": true,
+      "roles": [
+        "adapter scope/provenance required by historical materializers"
+      ]
+    },
+    {
+      "bytes": 572620000,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0013",
+      "kind": "file",
+      "path": "pi05_lora_finetune_v2_20260826/ckpt/experts/long10_lora_s0/checkpoints/010000/pretrained_model/adapter_model.safetensors",
+      "required": true,
+      "roles": [
+        "adapter scope/provenance required by historical materializers"
+      ]
+    },
+    {
+      "bytes": 572620000,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0014",
+      "kind": "file",
+      "path": "pi05_lora_finetune_v2_20260826/ckpt/experts/object_lora_s0/checkpoints/010000/pretrained_model/adapter_model.safetensors",
+      "required": true,
+      "roles": [
+        "adapter scope/provenance required by historical materializers"
+      ]
+    },
+    {
+      "bytes": 572620000,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0015",
+      "kind": "file",
+      "path": "pi05_lora_finetune_v2_20260826/ckpt/experts/spatial_lora_s0/checkpoints/010000/pretrained_model/adapter_model.safetensors",
+      "required": true,
+      "roles": [
+        "adapter scope/provenance required by historical materializers"
+      ]
+    },
+    {
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0016",
+      "kind": "directory",
+      "path": "pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+      "required": true,
+      "roles": [
+        "common base checkpoint and processors"
+      ]
+    },
+    {
+      "bytes": 9354050784,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0017",
+      "kind": "file",
+      "path": "pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model/model.safetensors",
+      "required": true,
+      "roles": [
+        "Shared PI0.5 base used to materialize native experts"
+      ],
+      "sha256": "f2165fad32a4b431ca1488a5b886f6738be9e8b480298ecc9e0b55d87d26f365"
+    },
+    {
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0018",
+      "kind": "directory",
+      "path": "pi05_lora_finetune_v2_20260826/lerobot",
+      "required": true,
+      "roles": [
+        "native PI0.5 framework, external source/runtime"
+      ]
+    },
+    {
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0019",
+      "kind": "directory",
+      "path": "vla-merge-runtime/environments/robotwin2-0aee-open3d-optional-v2",
+      "required": true,
+      "roles": [
+        "RoboTwin2 simulator checkout and task/robot scene resources; source commit 0aeea2d669c0f8516f4d5785f0aa33ba812c14b4"
+      ]
+    },
+    {
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0020",
+      "kind": "directory",
+      "path": "vla-merge-runtime/envs/iclr2027-libero-pro-py312-v1",
+      "required": true,
+      "roles": [
+        "Native Python dependency environment; reproducible environment packaging must respect upstream distribution licences"
+      ]
+    },
+    {
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0021",
+      "kind": "directory",
+      "path": "vla-merge-runtime/envs/iclr2027-robotwin2-py312-mplib-curobo-v3",
+      "required": true,
+      "roles": [
+        "Native Python dependency environment; reproducible environment packaging must respect upstream distribution licences"
+      ]
+    },
+    {
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0022",
+      "kind": "directory",
+      "path": "vla-merge-runtime/envs/mergevla",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ]
+    },
+    {
+      "bytes": 101486,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0023",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/goal/across/replay.json",
+      "required": true,
+      "roles": [
+        "calibration manifest"
+      ],
+      "sha256": "4f5e78ecf5fe3c0a1b0db4209599d6ae2a72360c9b3cc475e23e264e3df12cc1"
+    },
+    {
+      "bytes": 4414199704,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0024",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/goal/across/replay.safetensors",
+      "required": true,
+      "roles": [
+        "calibration tensors"
+      ]
+    },
+    {
+      "bytes": 115434,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0025",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/long/across/replay.json",
+      "required": true,
+      "roles": [
+        "calibration manifest"
+      ],
+      "sha256": "0d662e7829706883273f89b82f8501436fb617b378e3073f8c536b2ee387f0c6"
+    },
+    {
+      "bytes": 4414199704,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0026",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/long/across/replay.safetensors",
+      "required": true,
+      "roles": [
+        "calibration tensors"
+      ]
+    },
+    {
+      "bytes": 106022,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0027",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/object/across/replay.json",
+      "required": true,
+      "roles": [
+        "calibration manifest"
+      ],
+      "sha256": "2d333455d37026b5735985f3fa769e795fd4527b44a9d013346b118e9e290acd"
+    },
+    {
+      "bytes": 4414199704,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0028",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/object/across/replay.safetensors",
+      "required": true,
+      "roles": [
+        "calibration tensors"
+      ]
+    },
+    {
+      "bytes": 102625,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0029",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/spatial/across/replay.json",
+      "required": true,
+      "roles": [
+        "calibration manifest"
+      ],
+      "sha256": "4b904038b38b87c8c303993d967cfa96f09aa83c7970830463123b437474247a"
+    },
+    {
+      "bytes": 4414199704,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0030",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/spatial/across/replay.safetensors",
+      "required": true,
+      "roles": [
+        "calibration tensors"
+      ]
+    },
+    {
+      "bytes": 101631,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0031",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/goal/across/replay.json",
+      "required": true,
+      "roles": [
+        "calibration manifest"
+      ],
+      "sha256": "17bbdacda1200b971a8af8eeeccc033a8b8be18c7889d042473e731caf774939"
+    },
+    {
+      "bytes": 4414199704,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0032",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/goal/across/replay.safetensors",
+      "required": true,
+      "roles": [
+        "calibration tensors"
+      ]
+    },
+    {
+      "bytes": 113260,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0033",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/long/across/replay.json",
+      "required": true,
+      "roles": [
+        "calibration manifest"
+      ],
+      "sha256": "f94357a62ee42fd1ea9c5c98c40ff532f3343078629791035342c69e209d04f4"
+    },
+    {
+      "bytes": 4414199704,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0034",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/long/across/replay.safetensors",
+      "required": true,
+      "roles": [
+        "calibration tensors"
+      ]
+    },
+    {
+      "bytes": 104654,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0035",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/object/across/replay.json",
+      "required": true,
+      "roles": [
+        "calibration manifest"
+      ],
+      "sha256": "eced96db2bae1c24f5ceefc45d0c53b9b1d4f7c2f9245d56b9dbe8dfe40c3f00"
+    },
+    {
+      "bytes": 4414199704,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0036",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/object/across/replay.safetensors",
+      "required": true,
+      "roles": [
+        "calibration tensors"
+      ]
+    },
+    {
+      "bytes": 102698,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0037",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/spatial/across/replay.json",
+      "required": true,
+      "roles": [
+        "calibration manifest"
+      ],
+      "sha256": "f8d4078c8d4e26367c9bc37238e550b8453a75248fcfc8604b410af79537a307"
+    },
+    {
+      "bytes": 4414199704,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0038",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/spatial/across/replay.safetensors",
+      "required": true,
+      "roles": [
+        "calibration tensors"
+      ]
+    },
+    {
+      "bytes": 103416,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0039",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/C_new/inputs/goal/across/replay.json",
+      "required": true,
+      "roles": [
+        "calibration manifest"
+      ],
+      "sha256": "e2178870e1fa1b1aaf3ec71922ccc93276ed76642c13a8822fa0e13a85001230"
+    },
+    {
+      "bytes": 4414199704,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0040",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/C_new/inputs/goal/across/replay.safetensors",
+      "required": true,
+      "roles": [
+        "calibration tensors"
+      ]
+    },
+    {
+      "bytes": 113483,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0041",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/C_new/inputs/long/across/replay.json",
+      "required": true,
+      "roles": [
+        "calibration manifest"
+      ],
+      "sha256": "88bc62a034952a939fcedd4b0d6217e1c888cf7fe1318623f34260858643b21d"
+    },
+    {
+      "bytes": 4414199704,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0042",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/C_new/inputs/long/across/replay.safetensors",
+      "required": true,
+      "roles": [
+        "calibration tensors"
+      ]
+    },
+    {
+      "bytes": 103878,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0043",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/C_new/inputs/object/across/replay.json",
+      "required": true,
+      "roles": [
+        "calibration manifest"
+      ],
+      "sha256": "bc86de5030c192d47d071e6ecfc6fdc0857f22c10b0471f919482b87ebacd2a3"
+    },
+    {
+      "bytes": 4414199704,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0044",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/C_new/inputs/object/across/replay.safetensors",
+      "required": true,
+      "roles": [
+        "calibration tensors"
+      ]
+    },
+    {
+      "bytes": 104252,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0045",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/C_new/inputs/spatial/across/replay.json",
+      "required": true,
+      "roles": [
+        "calibration manifest"
+      ],
+      "sha256": "007d6cf2babe9e9f4e2c01eb8ab7d30edd1660aafcfe453eec929f74dcb8ccee"
+    },
+    {
+      "bytes": 4414199704,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0046",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/C_new/inputs/spatial/across/replay.safetensors",
+      "required": true,
+      "roles": [
+        "calibration tensors"
+      ]
+    },
+    {
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0047",
+      "kind": "directory",
+      "path": "vla-merge-runtime/experiments/claude-fastwam-tcr-20260923/calibration-v1",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ]
+    },
+    {
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0048",
+      "kind": "directory",
+      "path": "vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ]
+    },
+    {
+      "bytes": 302241590,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0049",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/action_head--tcr_checkpoint.pt",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "b36d5790c334bafcf928b081c9a2aba43139a8a3507e67a30cfd646798685178"
+    },
+    {
+      "bytes": 21,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0050",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/added_tokens.json",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "ab43123267b190cb7990bc9f2ae4ad32dcb7ed029fb0fccb1b4e062c6f54a2a1"
+    },
+    {
+      "bytes": 60711,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0051",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/config.json",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "bcb688a66f3e94a42311b77d37b7e1484886701f7b2aa8e36d165dfccac92ae6"
+    },
+    {
+      "bytes": 11871,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0052",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/dataset_statistics.json",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "58a8190c3f8bcf582b473446cda19abd2188583bdf12a570f279bd1a1defc62d"
+    },
+    {
+      "bytes": 136,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0053",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/generation_config.json",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "67fbe17b12e8beb5be98eb911483971cc78589e51a37ac0cce9cd499d06a8bf1"
+    },
+    {
+      "bytes": 4925122448,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0054",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/model-00001-of-00004.safetensors",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "8c8e16d8f07c21edbac5e3f2be7f6fd0cd17fa7c89c9cbf6c1b59ed422285d34"
+    },
+    {
+      "bytes": 4947392496,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0055",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/model-00002-of-00004.safetensors",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "74038fdc18fdb39e490601a78e5c202095f93ff7ff844ba2764da4193687ffb0"
+    },
+    {
+      "bytes": 4947417456,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0056",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/model-00003-of-00004.safetensors",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "270b64b163f63c6d2add23b24f5c9497db2ecdcbfddc6d842ba3cade8c2f6a7f"
+    },
+    {
+      "bytes": 262668432,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0057",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/model-00004-of-00004.safetensors",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "a877e3fece1feafb80f59f91585ce04379ee39e2bf9a25cb7b4acf237e896e60"
+    },
+    {
+      "bytes": 94763,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0058",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/model.safetensors.index.json",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "d5a6f93d83ea03d8fe80fd90ba8477d411a1dcde811ebbc3afbb987231718c2c"
+    },
+    {
+      "bytes": 1650,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0059",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/preprocessor_config.json",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "bd024783fb785cbdfe35b710b621c5e8678d4c157a9ba625675e67d40d1757da"
+    },
+    {
+      "bytes": 33638624,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0060",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/proprio_projector--tcr_checkpoint.pt",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "5cd43a3573290ef5605ad605ea7e15467fd8d6b9a19a2a6da3af735f4364efb0"
+    },
+    {
+      "bytes": 552,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0061",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/special_tokens_map.json",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "cb90ee5cf5793aa444039af9795b00db59d3fef8942e7eca9cf1990bab370d61"
+    },
+    {
+      "bytes": 1842976,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0062",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/tokenizer.json",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "8f5e2869e1807b8bb3c7717a294539c37e9de5d728ad60e31ef57e83cc5ea527"
+    },
+    {
+      "bytes": 499723,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0063",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/tokenizer.model",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347"
+    },
+    {
+      "bytes": 1192,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0064",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/tokenizer_config.json",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "f5f1d3ed015ebb71cf11686ff00bc8e0c25957bbf3952f95312cecc9b168fbea"
+    },
+    {
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0065",
+      "kind": "directory",
+      "path": "vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1",
+      "required": true,
+      "roles": [
+        "Source 480-job PRO reset panel for parity-preserving current-model regeneration"
+      ]
+    },
+    {
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0066",
+      "kind": "directory",
+      "path": "vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model",
+      "required": true,
+      "roles": [
+        "Expert policy config and normalization/tokenizer sidecars"
+      ]
+    },
+    {
+      "bytes": 9354050784,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0067",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model/model.safetensors",
+      "required": true,
+      "roles": [
+        "Frozen native RoboTwin 15k dense expert"
+      ],
+      "sha256": "ba9c0929d04dbe1e984b3fa0ed59ba8a18ac840ed6e237a77d20bf930fa75a1e"
+    },
+    {
+      "bytes": 7804,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0068",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+      "required": true,
+      "roles": [
+        "Required native RoboTwin input/output normalization tensors"
+      ],
+      "sha256": "b8ba9b84423b717d05abcbc2999e0b2ff89f8b1c82d2232a37d1f37c14253948"
+    },
+    {
+      "bytes": 7748,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0069",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors",
+      "required": true,
+      "roles": [
+        "Required native RoboTwin input/output normalization tensors"
+      ],
+      "sha256": "792f8ad0cba252068cc6f2acaaa2a6d7fa0494a29a08426ffff3ad61c7a56b81"
+    },
+    {
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0070",
+      "kind": "directory",
+      "path": "vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/precision/pretrained_model",
+      "required": true,
+      "roles": [
+        "Expert policy config and normalization/tokenizer sidecars"
+      ]
+    },
+    {
+      "bytes": 9354050784,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0071",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/precision/pretrained_model/model.safetensors",
+      "required": true,
+      "roles": [
+        "Frozen native RoboTwin 15k dense expert"
+      ],
+      "sha256": "316a913d065e43f995a63f80cdcf17d48d3a790f30dd571c67f8a25285f44adc"
+    },
+    {
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0072",
+      "kind": "directory",
+      "path": "vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/receptacle/pretrained_model",
+      "required": true,
+      "roles": [
+        "Expert policy config and normalization/tokenizer sidecars"
+      ]
+    },
+    {
+      "bytes": 9354050784,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0073",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/receptacle/pretrained_model/model.safetensors",
+      "required": true,
+      "roles": [
+        "Frozen native RoboTwin 15k dense expert"
+      ],
+      "sha256": "8124c718630727d8b1a34e6ea41876c340f417082d11c295af302ec1d2d8cfef"
+    },
+    {
+      "bytes": 47249,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0074",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/reset-preflight-attempt-03/candidate-protocol.json",
+      "required": true,
+      "roles": [
+        "Frozen A/B native calibration reset protocol"
+      ],
+      "sha256": "65be22e1e3cbd2598f7dbd06402547de541c7315f837977913ea32dc3ec2d807"
+    },
+    {
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0075",
+      "kind": "directory",
+      "path": "vla-merge-runtime/experiments/fastwam-interface-recalibration-codex-20260924/attempt-01/build",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ]
+    },
+    {
+      "bytes": 7945,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0076",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/expert-dense-bank-peft-v2.json",
+      "required": true,
+      "roles": [
+        "frozen expert metadata"
+      ],
+      "sha256": "d61a5f9e56bb0f76d8186a33dc26fe283cf8cfab220e903a460f92e4507f209b"
+    },
+    {
+      "experiments": [
+        "appendix_cost_training",
+        "robotwin_pro"
+      ],
+      "id": "asset-0077",
+      "kind": "directory",
+      "path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/model-soups/repeat-shared/merge/attempt-02-peft-safe-v2/pretrained_model",
+      "required": true,
+      "roles": [
+        "shared uniform Soup checkpoint",
+        "Policy config, tokenizer and normalization sidecars; model entry above carries weight identity"
+      ]
+    },
+    {
+      "bytes": 9354050784,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0078",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/model-soups/repeat-shared/merge/attempt-02-peft-safe-v2/pretrained_model/model.safetensors",
+      "required": true,
+      "roles": [
+        "Current LIBERO main-table model for PRO; RegMean++/FeatCal selection regeneration is still blocked"
+      ],
+      "sha256": "a92aacc43146dc41663c0057f2999bd90252fb3fb316ef963f165be67e1be01a"
+    },
+    {
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0079",
+      "kind": "directory",
+      "path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/candidates/ties_density_0p3_alpha_0p9/pretrained_model",
+      "required": true,
+      "roles": [
+        "Policy config, tokenizer and normalization sidecars; model entry above carries weight identity"
+      ]
+    },
+    {
+      "bytes": 9354050784,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0080",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/candidates/ties_density_0p3_alpha_0p9/pretrained_model/model.safetensors",
+      "required": true,
+      "roles": [
+        "Current LIBERO main-table model for PRO; RegMean++/FeatCal selection regeneration is still blocked"
+      ],
+      "sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847"
+    },
+    {
+      "bytes": 1153136,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0081",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/tcr-e/repeat-01/merge/attempt-01-peft-safe-v1/block_regmeanpp_manifest.json",
+      "required": true,
+      "roles": [
+        "fixed 418 positive numeric ridge values"
+      ],
+      "sha256": "260cea965d7539569a37f031ca670d9a5cd57bd1753d59fa12a60aaac5b1f1d8"
+    },
+    {
+      "bytes": 9354050784,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0082",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/pretrained_model/model.safetensors",
+      "required": true,
+      "roles": [
+        "PEFT-safe dense expert weights"
+      ],
+      "sha256": "af9e258354d759710d04f13d40ac6e2e4377d5063f56fa8e0ef574f8c96e2732"
+    },
+    {
+      "bytes": 9354050784,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0083",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/long-10k-full-dense-peft-v2/pretrained_model/model.safetensors",
+      "required": true,
+      "roles": [
+        "PEFT-safe dense expert weights"
+      ],
+      "sha256": "85ad87a5d9fbdcdee5d6ff9270a59355326b376f0d50fbc27ae606cbc9b7f8fc"
+    },
+    {
+      "bytes": 9354050784,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0084",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/pretrained_model/model.safetensors",
+      "required": true,
+      "roles": [
+        "PEFT-safe dense expert weights"
+      ],
+      "sha256": "a74c9349a78e122ecf9799e404ad748ffebba0b814b95e3dae4a7b32837f1510"
+    },
+    {
+      "bytes": 9354050784,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0085",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/pretrained_model/model.safetensors",
+      "required": true,
+      "roles": [
+        "PEFT-safe dense expert weights"
+      ],
+      "sha256": "008cb4a76898edbb70edb83bd54cb472722ba49b2760acfde24381e6d14fc75f"
+    },
+    {
+      "experiments": [
+        "appendix_cost_training",
+        "openvla_fastwam"
+      ],
+      "id": "asset-0086",
+      "kind": "directory",
+      "path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+      "required": true,
+      "roles": [
+        "frozen procedural reset bank",
+        "external_artifact"
+      ]
+    },
+    {
+      "bytes": 38088,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0087",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-01.json",
+      "required": true,
+      "roles": [
+        "Formal six-reset-per-task RoboTwin bank"
+      ],
+      "sha256": "519e56cac00e7326706dc8c2934791c394643b3eec94052554b5d5815d87d2a7"
+    },
+    {
+      "bytes": 38079,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0088",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-02.json",
+      "required": true,
+      "roles": [
+        "Formal six-reset-per-task RoboTwin bank"
+      ],
+      "sha256": "451925ba55b3812dcb5f57a6acb24d94cb596b21b5d659b0a45a67a4e6aaf793"
+    },
+    {
+      "bytes": 38082,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0089",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-03.json",
+      "required": true,
+      "roles": [
+        "Formal six-reset-per-task RoboTwin bank"
+      ],
+      "sha256": "88bdb45ef28e43292cf0fdf823f4a66b825c5e2313175f1959f41dce5f948ea2"
+    },
+    {
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0090",
+      "kind": "directory",
+      "path": "vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/materialized/ties/pretrained_model",
+      "required": true,
+      "roles": [
+        "Native RoboTwin TIES preprocessing/normalization sidecars"
+      ]
+    },
+    {
+      "bytes": 9354050784,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0091",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/materialized/ties/pretrained_model/model.safetensors",
+      "required": true,
+      "roles": [
+        "Native three-expert 15k TIES model"
+      ],
+      "sha256": "1ce6509f169944ef01ab3efcc0976c885691e89732ff651507359de7813fefbc"
+    },
+    {
+      "bytes": 572620000,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0092",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000/pretrained_model/adapter_model.safetensors",
+      "required": true,
+      "roles": [
+        "Frozen 15k adapter for TIES reconstruction and expert lineage"
+      ],
+      "sha256": "fc6babd4edb51e074cdc84c690d0b72af2d7df0246d590e09b990a5160d30297"
+    },
+    {
+      "bytes": 572620000,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0093",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model/adapter_model.safetensors",
+      "required": true,
+      "roles": [
+        "Frozen 15k adapter for TIES reconstruction and expert lineage"
+      ],
+      "sha256": "8baab5546f4a8ddb621846d5e94d6571b7c37926e2c7b6924f67847e960a51bb"
+    },
+    {
+      "bytes": 16027,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0094",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-three-expert-15k-sequence-v1/coordination/evaluation-015000/parent.json",
+      "required": true,
+      "roles": [
+        "Exact development parent for the existing one-episode native --smoke; native validate passed without CUDA"
+      ],
+      "sha256": "ca92c96de997fa190bb204e690e6cac21ba98ebd60264b9ce089b6f9bcb84c84"
+    },
+    {
+      "bytes": 572620000,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0095",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000/pretrained_model/adapter_model.safetensors",
+      "required": true,
+      "roles": [
+        "Frozen 15k adapter for TIES reconstruction and expert lineage"
+      ],
+      "sha256": "bcf1190c984c24c56add5573668a7938cfc02b3686a4ba51b3760b0225245708"
+    },
+    {
+      "bytes": 668203,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0096",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/heldout-raw-attempt-02/bank-index.json",
+      "required": true,
+      "roles": [
+        "400 held-out request bank"
+      ],
+      "sha256": "474c428d6271427ac8ff51cbc39b6a172b27f9738d297846bd0017a9c74c1571"
+    },
+    {
+      "bytes": 91096358,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0097",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/heldout-raw-attempt-02/heldout-D1/inputs/goal/raw-heldout/requests.safetensors",
+      "required": true,
+      "roles": [
+        "held-out input/noise tensors"
+      ],
+      "sha256": "147fa056f3b8751ac74bff32980cb7df89e844c267971557bd75c7fa7768f63a"
+    },
+    {
+      "bytes": 91096358,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0098",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/heldout-raw-attempt-02/heldout-D1/inputs/long/raw-heldout/requests.safetensors",
+      "required": true,
+      "roles": [
+        "held-out input/noise tensors"
+      ],
+      "sha256": "14bb8d2e6f1a2766644754a6ab7f80878d9c4f194ac4ad742b625bdd9ec113f1"
+    },
+    {
+      "bytes": 91096358,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0099",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/heldout-raw-attempt-02/heldout-D1/inputs/object/raw-heldout/requests.safetensors",
+      "required": true,
+      "roles": [
+        "held-out input/noise tensors"
+      ],
+      "sha256": "010821e7315ac5a62a713bad5d888c36e9ed9db643e35e622b9788c0f99ef5f5"
+    },
+    {
+      "bytes": 91096358,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0100",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/heldout-raw-attempt-02/heldout-D1/inputs/spatial/raw-heldout/requests.safetensors",
+      "required": true,
+      "roles": [
+        "held-out input/noise tensors"
+      ],
+      "sha256": "f130a7a7b2c2bba5d0bbd31758262e98b592bc86ebd6de76bfe5dcce836ebc90"
+    },
+    {
+      "bytes": 91096358,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0101",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/heldout-raw-attempt-02/heldout-D2/inputs/goal/raw-heldout/requests.safetensors",
+      "required": true,
+      "roles": [
+        "held-out input/noise tensors"
+      ],
+      "sha256": "aef496a3882228e1e8ed513eead377d275bf7a38a2d5b52f5993046febdfb7a3"
+    },
+    {
+      "bytes": 91096358,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0102",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/heldout-raw-attempt-02/heldout-D2/inputs/long/raw-heldout/requests.safetensors",
+      "required": true,
+      "roles": [
+        "held-out input/noise tensors"
+      ],
+      "sha256": "65c63d6314957ec9f0bfd0ec5dc14de9263d09426de34bc5665c7a062479c4d5"
+    },
+    {
+      "bytes": 91096358,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0103",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/heldout-raw-attempt-02/heldout-D2/inputs/object/raw-heldout/requests.safetensors",
+      "required": true,
+      "roles": [
+        "held-out input/noise tensors"
+      ],
+      "sha256": "a968c80c0290940b09214c496051fcf96115052d8d1e56d03667e796d59c3fa1"
+    },
+    {
+      "bytes": 91096358,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0104",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/heldout-raw-attempt-02/heldout-D2/inputs/spatial/raw-heldout/requests.safetensors",
+      "required": true,
+      "roles": [
+        "held-out input/noise tensors"
+      ],
+      "sha256": "a68ae90e93ea81e92e905a65cd41e483884235c2a9c2f2a7c3337fcc8bebef87"
+    },
+    {
+      "bytes": 649008,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0105",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/teacher-actions-attempt-06/teachers/goal/actions.safetensors",
+      "required": true,
+      "roles": [
+        "teacher action tensor bank"
+      ],
+      "sha256": "bba065c7418e85ed4a8c7abf3becb15a7d689326d2eaa598ea482d330bb2a4ca"
+    },
+    {
+      "bytes": 35119,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0106",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/teacher-actions-attempt-06/teachers/goal/manifest.json",
+      "required": true,
+      "roles": [
+        "frozen native teacher actions"
+      ],
+      "sha256": "148a420d261ba12ee406a7bcda942f4227d7e1cc0ed891adc867266c9460b958"
+    },
+    {
+      "bytes": 649008,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0107",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/teacher-actions-attempt-06/teachers/long/actions.safetensors",
+      "required": true,
+      "roles": [
+        "teacher action tensor bank"
+      ],
+      "sha256": "df50e0e622f681fce0563ba4dbf55824ff4313685070a4be59c62341a8f2870e"
+    },
+    {
+      "bytes": 35118,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0108",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/teacher-actions-attempt-06/teachers/long/manifest.json",
+      "required": true,
+      "roles": [
+        "frozen native teacher actions"
+      ],
+      "sha256": "97619f3eba5c24d92337791ca0d8e67e3bff89b65508e902584fe7977c7160f5"
+    },
+    {
+      "bytes": 649208,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0109",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/teacher-actions-attempt-06/teachers/object/actions.safetensors",
+      "required": true,
+      "roles": [
+        "teacher action tensor bank"
+      ],
+      "sha256": "71de07163903b2789de17a0f4563c12d4172059c2ec855bfae5ddcd7f2517f9f"
+    },
+    {
+      "bytes": 35324,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0110",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/teacher-actions-attempt-06/teachers/object/manifest.json",
+      "required": true,
+      "roles": [
+        "frozen native teacher actions"
+      ],
+      "sha256": "2b901c7ca91f2f24e60d75c8ec1e7d7668915b3b07fd3df997956c7c3f42a172"
+    },
+    {
+      "bytes": 649304,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0111",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/teacher-actions-attempt-06/teachers/spatial/actions.safetensors",
+      "required": true,
+      "roles": [
+        "teacher action tensor bank"
+      ],
+      "sha256": "0b84c2e91131fe06d447701259be67ed69b8d1b6408fb8c9c57683516e53220b"
+    },
+    {
+      "bytes": 35428,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0112",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/teacher-actions-attempt-06/teachers/spatial/manifest.json",
+      "required": true,
+      "roles": [
+        "frozen native teacher actions"
+      ],
+      "sha256": "132c523bc25bb638f1871f1e7d0f46f92a01271a104bda6e81f4b5d97a3439b5"
+    },
+    {
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0113",
+      "kind": "directory",
+      "path": "vla-merge-runtime/experiments/openvla-fastwam-diagnostics-20260923/fastwam-soup",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ]
+    },
+    {
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0114",
+      "kind": "directory",
+      "path": "vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/featcal/selection-v1",
+      "required": false,
+      "roles": [
+        "PRO three-repeat reset/task selections; old RegMean++/FeatCal bindings are archival and MUST be regenerated"
+      ]
+    },
+    {
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0115",
+      "kind": "directory",
+      "path": "vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/regmean_pp/selection-v1",
+      "required": false,
+      "roles": [
+        "PRO three-repeat reset/task selections; old RegMean++/FeatCal bindings are archival and MUST be regenerated"
+      ]
+    },
+    {
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0116",
+      "kind": "directory",
+      "path": "vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/ties_merging/selection-v1",
+      "required": true,
+      "roles": [
+        "PRO three-repeat reset/task selections; old RegMean++/FeatCal bindings are archival and MUST be regenerated"
+      ]
+    },
+    {
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0117",
+      "kind": "directory",
+      "path": "vla-merge-runtime/experiments/pi05-pro-soup-codex-20260924/selection-v1",
+      "required": true,
+      "roles": [
+        "PRO three-repeat reset/task selections; old RegMean++/FeatCal bindings are archival and MUST be regenerated"
+      ]
+    },
+    {
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0118",
+      "kind": "directory",
+      "path": "vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r01-passB/pretrained_model",
+      "required": true,
+      "roles": [
+        "Native RoboTwin TCR policy preprocessing and normalization sidecars"
+      ]
+    },
+    {
+      "bytes": 9354050784,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0119",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r01-passB/pretrained_model/model.safetensors",
+      "required": true,
+      "roles": [
+        "Native RoboTwin TCR pass-B model for this independent build"
+      ],
+      "sha256": "efe45a3510e189cfe50468b7a76e68819eee9e5c1a3eb73ff02c23e2b7db5a6f"
+    },
+    {
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0120",
+      "kind": "directory",
+      "path": "vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r02-passB/pretrained_model",
+      "required": true,
+      "roles": [
+        "Native RoboTwin TCR policy preprocessing and normalization sidecars"
+      ]
+    },
+    {
+      "bytes": 9354050784,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0121",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r02-passB/pretrained_model/model.safetensors",
+      "required": true,
+      "roles": [
+        "Native RoboTwin TCR pass-B model for this independent build"
+      ],
+      "sha256": "1eaab2cf5affbd794cddba5d87ad765f0179b2db459866aedd245cf2147195be"
+    },
+    {
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0122",
+      "kind": "directory",
+      "path": "vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r03-passB/pretrained_model",
+      "required": true,
+      "roles": [
+        "Native RoboTwin TCR policy preprocessing and normalization sidecars"
+      ]
+    },
+    {
+      "bytes": 9354050784,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0123",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r03-passB/pretrained_model/model.safetensors",
+      "required": true,
+      "roles": [
+        "Native RoboTwin TCR pass-B model for this independent build"
+      ],
+      "sha256": "a2a128ff7e6e170923833c33254224912ba3dcb372f98d617decef3cb489173e"
+    },
+    {
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0124",
+      "kind": "directory",
+      "path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/checkpoint/pretrained_model",
+      "required": true,
+      "roles": [
+        "Policy config, tokenizer and normalization sidecars; model entry above carries weight identity"
+      ]
+    },
+    {
+      "bytes": 9354050784,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0125",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/checkpoint/pretrained_model/model.safetensors",
+      "required": true,
+      "roles": [
+        "Current LIBERO main-table model for PRO; RegMean++/FeatCal selection regeneration is still blocked"
+      ],
+      "sha256": "b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114"
+    },
+    {
+      "bytes": 1382286,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0126",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/regmean_spectral_smoothing_a03/attempt-01/checkpoint/block_regmeanpp_manifest.json",
+      "required": true,
+      "roles": [
+        "Table11 checkpoint identity"
+      ],
+      "sha256": "de675557062cc0e7cfaf6982d80dd2636fac310854653e6bebea65db1e1fe741"
+    },
+    {
+      "bytes": 9354050784,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "asset-0127",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/regmean_spectral_smoothing_a03/attempt-01/checkpoint/model.safetensors",
+      "required": true,
+      "roles": [
+        "Table11 candidate; ordinary RegMean alpha .3 spectral smoothing"
+      ],
+      "sha256": "2d7acd682ec0d242eaa8726338125b65fea282787c508c60073135dcea11f54b"
+    },
+    {
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0128",
+      "kind": "directory",
+      "path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/attempt-01/checkpoint",
+      "required": true,
+      "roles": [
+        "Policy config, tokenizer and normalization sidecars; model entry above carries weight identity"
+      ]
+    },
+    {
+      "bytes": 9354050784,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "asset-0129",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/attempt-01/checkpoint/model.safetensors",
+      "required": true,
+      "roles": [
+        "Current LIBERO main-table model for PRO; RegMean++/FeatCal selection regeneration is still blocked"
+      ],
+      "sha256": "fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2"
+    },
+    {
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0130",
+      "kind": "directory",
+      "path": "vla-merge-runtime/references/LIBERO-MergeVLA",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ]
+    },
+    {
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0131",
+      "kind": "directory",
+      "path": "vla-merge-runtime/references/dlimp-openvla",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ]
+    },
+    {
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0132",
+      "kind": "directory",
+      "path": "vla-merge_table4/DreamZero/run/libero_config",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ]
+    },
+    {
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0133",
+      "kind": "directory",
+      "path": "vla-merge_table4/Fast-WAM/.python-packages",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ]
+    },
+    {
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0134",
+      "kind": "directory",
+      "path": "vla-merge_table4/Fast-WAM/source",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ]
+    },
+    {
+      "bytes": 12041735341,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0135",
+      "kind": "file",
+      "path": "vla-merge_table4/Fast-WAM/weights/goal/checkpoints/weights/step_010000.pt",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "54300af0b76d4dc7695e73ee1d0ecb7db141f272d621682078b461cac2f0b031"
+    },
+    {
+      "bytes": 40933,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0136",
+      "kind": "file",
+      "path": "vla-merge_table4/Fast-WAM/weights/goal/dataset_stats.json",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "e8223ec7446ed6f6c75e9f144b8cd74e4a22be6a3fb8e409ea2e596fe32313f6"
+    },
+    {
+      "bytes": 12041735341,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0137",
+      "kind": "file",
+      "path": "vla-merge_table4/Fast-WAM/weights/long/checkpoints/weights/step_009000.pt",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "35e756825e3b0ae5311309d0894ec4f88da9ce42aabdd14f7b157ac208d40cf5"
+    },
+    {
+      "bytes": 42699,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0138",
+      "kind": "file",
+      "path": "vla-merge_table4/Fast-WAM/weights/long/dataset_stats.json",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "dcce0d97aaad225043af0855817f09d405b47e7858de7e34ecac83155ca5d28f"
+    },
+    {
+      "bytes": 12041735341,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0139",
+      "kind": "file",
+      "path": "vla-merge_table4/Fast-WAM/weights/object/checkpoints/weights/step_010000.pt",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "2365f01161db4c6788c62b9cc6a0ce8f508e067112d9ed038cf0b0930e7540b7"
+    },
+    {
+      "bytes": 45879,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0140",
+      "kind": "file",
+      "path": "vla-merge_table4/Fast-WAM/weights/object/dataset_stats.json",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "c8666963556486b50c58d91091caaa28024c9570558fd2a07049bba4906f98ac"
+    },
+    {
+      "bytes": 12041735341,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0141",
+      "kind": "file",
+      "path": "vla-merge_table4/Fast-WAM/weights/spatial/checkpoints/weights/step_012000.pt",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "540249aee838c87fc57ae6f93fb320092a8d7aeaed1ebe4004455eee479cbaf8"
+    },
+    {
+      "bytes": 43150,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0142",
+      "kind": "file",
+      "path": "vla-merge_table4/Fast-WAM/weights/spatial/dataset_stats.json",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "32681386eaa332d204e6faf2a36a391234029af7ce7a60654fd6c39e397c4242"
+    },
+    {
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0143",
+      "kind": "directory",
+      "path": "vla-merge_table4/OpenVLA-OFT/dependencies",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ]
+    },
+    {
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0144",
+      "kind": "directory",
+      "path": "vla-merge_table4/OpenVLA-OFT/python_overlay",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ]
+    },
+    {
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0145",
+      "kind": "directory",
+      "path": "vla-merge_table4/OpenVLA-OFT/source",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ]
+    },
+    {
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0146",
+      "kind": "directory",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-goal",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ]
+    },
+    {
+      "bytes": 302242654,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0147",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/action_head--50000_checkpoint.pt",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-goal",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "b97c2e8939ede32d8a1b29e9565d70f22040ba9e54925665e81989a0cc13ccff"
+    },
+    {
+      "bytes": 21,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0148",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/added_tokens.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-goal",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "ab43123267b190cb7990bc9f2ae4ad32dcb7ed029fb0fccb1b4e062c6f54a2a1"
+    },
+    {
+      "bytes": 60712,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0149",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/config.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-goal",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "edd5c5cf6d7927e07465cf086ebe41f7b3ec8f3b128a51f71d6db14dad7ad8b1"
+    },
+    {
+      "bytes": 2923,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0150",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/dataset_statistics.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-goal",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "22e0549a346b2ec8a109904d017a57c50f12769b91653939aefb72b119725d47"
+    },
+    {
+      "bytes": 136,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0151",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/generation_config.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-goal",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "67fbe17b12e8beb5be98eb911483971cc78589e51a37ac0cce9cd499d06a8bf1"
+    },
+    {
+      "bytes": 4925122448,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0152",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/model-00001-of-00004.safetensors",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-goal",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "aae1b9bfffacaf15e209bc8296ffa9bd07baa41d673ab005696a82525b880b2f"
+    },
+    {
+      "bytes": 4947392496,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0153",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/model-00002-of-00004.safetensors",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-goal",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "4cd51d327e1891f24f75d033017ed3824cc5fb9009e38498efd2dca6f89ee01d"
+    },
+    {
+      "bytes": 4947417456,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0154",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/model-00003-of-00004.safetensors",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-goal",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "f1c361c4cbd78b60ccea81538ca1626e00e54baba70528af8c08577771768329"
+    },
+    {
+      "bytes": 262668432,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0155",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/model-00004-of-00004.safetensors",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-goal",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "a877e3fece1feafb80f59f91585ce04379ee39e2bf9a25cb7b4acf237e896e60"
+    },
+    {
+      "bytes": 94764,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0156",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/model.safetensors.index.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-goal",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "ca8b53fed8133ee2afcd2fc483de8febf7f5bb0f6bcb09f91189772e59e8f659"
+    },
+    {
+      "bytes": 1650,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0157",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/preprocessor_config.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-goal",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "bd024783fb785cbdfe35b710b621c5e8678d4c157a9ba625675e67d40d1757da"
+    },
+    {
+      "bytes": 130,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0158",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/processor_config.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-goal",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "167e026d8121f6cb0bf5c18310b97ba8139152f970822bb3824213bd37dc7a76"
+    },
+    {
+      "bytes": 67275184,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0159",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/proprio_projector--50000_checkpoint.pt",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-goal",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "780595e9cca5292348697686f9ccc83d39d9d3d303e860d62c6d4609952dfff1"
+    },
+    {
+      "bytes": 552,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0160",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/special_tokens_map.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-goal",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "cb90ee5cf5793aa444039af9795b00db59d3fef8942e7eca9cf1990bab370d61"
+    },
+    {
+      "bytes": 1842976,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0161",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/tokenizer.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-goal",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "8f5e2869e1807b8bb3c7717a294539c37e9de5d728ad60e31ef57e83cc5ea527"
+    },
+    {
+      "bytes": 499723,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0162",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/tokenizer.model",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-goal",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347"
+    },
+    {
+      "bytes": 1192,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0163",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/tokenizer_config.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-goal",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "f5f1d3ed015ebb71cf11686ff00bc8e0c25957bbf3952f95312cecc9b168fbea"
+    },
+    {
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0164",
+      "kind": "directory",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-10",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ]
+    },
+    {
+      "bytes": 302242674,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0165",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/action_head--150000_checkpoint.pt",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-10",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "f0135fd1b8f9e3b40c00ee8564c2a76af2fe291a79597885100996b98a70e4bd"
+    },
+    {
+      "bytes": 21,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0166",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/added_tokens.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-10",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "ab43123267b190cb7990bc9f2ae4ad32dcb7ed029fb0fccb1b4e062c6f54a2a1"
+    },
+    {
+      "bytes": 60712,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0167",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/config.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-10",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "edd5c5cf6d7927e07465cf086ebe41f7b3ec8f3b128a51f71d6db14dad7ad8b1"
+    },
+    {
+      "bytes": 2975,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0168",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/dataset_statistics.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-10",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "dbe516987e8124416af39c32d3f39ce2137ccb4e282adc590bb4bcede09fb5e1"
+    },
+    {
+      "bytes": 136,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0169",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/generation_config.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-10",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "67fbe17b12e8beb5be98eb911483971cc78589e51a37ac0cce9cd499d06a8bf1"
+    },
+    {
+      "bytes": 4925122448,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0170",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/model-00001-of-00004.safetensors",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-10",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "099772b16c1ba077c5bcff25a62e35595d2704b66f2f680af4dcf21cea03e9d4"
+    },
+    {
+      "bytes": 4947392496,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0171",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/model-00002-of-00004.safetensors",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-10",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "31540314f94a71c9388b4b6b6c9d64162932174e2f3b92ea666bb73560891354"
+    },
+    {
+      "bytes": 4947417456,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0172",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/model-00003-of-00004.safetensors",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-10",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "d5d817a597b121e25f7f77ac0743fed3e49e627d039e5df57af6102064f3e9a9"
+    },
+    {
+      "bytes": 262668432,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0173",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/model-00004-of-00004.safetensors",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-10",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "a877e3fece1feafb80f59f91585ce04379ee39e2bf9a25cb7b4acf237e896e60"
+    },
+    {
+      "bytes": 94764,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0174",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/model.safetensors.index.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-10",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "ca8b53fed8133ee2afcd2fc483de8febf7f5bb0f6bcb09f91189772e59e8f659"
+    },
+    {
+      "bytes": 1650,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0175",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/preprocessor_config.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-10",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "bd024783fb785cbdfe35b710b621c5e8678d4c157a9ba625675e67d40d1757da"
+    },
+    {
+      "bytes": 130,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0176",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/processor_config.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-10",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "167e026d8121f6cb0bf5c18310b97ba8139152f970822bb3824213bd37dc7a76"
+    },
+    {
+      "bytes": 67275256,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0177",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/proprio_projector--150000_checkpoint.pt",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-10",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "7ea18c370d8aa1625cc6c10f0d95c4bc101805a8cc843690022fd675e89296c3"
+    },
+    {
+      "bytes": 552,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0178",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/special_tokens_map.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-10",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "cb90ee5cf5793aa444039af9795b00db59d3fef8942e7eca9cf1990bab370d61"
+    },
+    {
+      "bytes": 1842976,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0179",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/tokenizer.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-10",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "8f5e2869e1807b8bb3c7717a294539c37e9de5d728ad60e31ef57e83cc5ea527"
+    },
+    {
+      "bytes": 499723,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0180",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/tokenizer.model",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-10",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347"
+    },
+    {
+      "bytes": 1192,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0181",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/tokenizer_config.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-10",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "f5f1d3ed015ebb71cf11686ff00bc8e0c25957bbf3952f95312cecc9b168fbea"
+    },
+    {
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0182",
+      "kind": "directory",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-object",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ]
+    },
+    {
+      "bytes": 302242674,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0183",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/action_head--150000_checkpoint.pt",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-object",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "8465509d85b063f3c90359de0c1876c34ce3f162cc9baafbe9e75e170146e4c7"
+    },
+    {
+      "bytes": 21,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0184",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/added_tokens.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-object",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "ab43123267b190cb7990bc9f2ae4ad32dcb7ed029fb0fccb1b4e062c6f54a2a1"
+    },
+    {
+      "bytes": 60712,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0185",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/config.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-object",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "edd5c5cf6d7927e07465cf086ebe41f7b3ec8f3b128a51f71d6db14dad7ad8b1"
+    },
+    {
+      "bytes": 3022,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0186",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/dataset_statistics.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-object",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "2bff9cb26fea5d50522fc327f71362dda38252dfc9003aae444259ff96371aa7"
+    },
+    {
+      "bytes": 136,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0187",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/generation_config.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-object",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "67fbe17b12e8beb5be98eb911483971cc78589e51a37ac0cce9cd499d06a8bf1"
+    },
+    {
+      "bytes": 4925122448,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0188",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/model-00001-of-00004.safetensors",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-object",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "fedf457ad486f5e4ce28579a85e7b3ae1448d01884a674e9baaf7fc47125401c"
+    },
+    {
+      "bytes": 4947392496,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0189",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/model-00002-of-00004.safetensors",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-object",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "cb9e4eb3991dfdb7d111e332d7d565543cabc3bc63bfc8ebba83695ad05dcaf3"
+    },
+    {
+      "bytes": 4947417456,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0190",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/model-00003-of-00004.safetensors",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-object",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "f28ce17430e501109e4f512373bea70bc77d4cfe66c17a1a120a04a5a5623f8d"
+    },
+    {
+      "bytes": 262668432,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0191",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/model-00004-of-00004.safetensors",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-object",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "a877e3fece1feafb80f59f91585ce04379ee39e2bf9a25cb7b4acf237e896e60"
+    },
+    {
+      "bytes": 94764,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0192",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/model.safetensors.index.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-object",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "ca8b53fed8133ee2afcd2fc483de8febf7f5bb0f6bcb09f91189772e59e8f659"
+    },
+    {
+      "bytes": 1650,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0193",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/preprocessor_config.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-object",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "bd024783fb785cbdfe35b710b621c5e8678d4c157a9ba625675e67d40d1757da"
+    },
+    {
+      "bytes": 130,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0194",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/processor_config.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-object",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "167e026d8121f6cb0bf5c18310b97ba8139152f970822bb3824213bd37dc7a76"
+    },
+    {
+      "bytes": 67275256,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0195",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/proprio_projector--150000_checkpoint.pt",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-object",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "4ae5121c2740a57f5747061e938246f9e3994bbdbfb97676ffef795221e6f8d9"
+    },
+    {
+      "bytes": 552,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0196",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/special_tokens_map.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-object",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "cb90ee5cf5793aa444039af9795b00db59d3fef8942e7eca9cf1990bab370d61"
+    },
+    {
+      "bytes": 1842976,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0197",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/tokenizer.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-object",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "8f5e2869e1807b8bb3c7717a294539c37e9de5d728ad60e31ef57e83cc5ea527"
+    },
+    {
+      "bytes": 499723,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0198",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/tokenizer.model",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-object",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347"
+    },
+    {
+      "bytes": 1192,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0199",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/tokenizer_config.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-object",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "f5f1d3ed015ebb71cf11686ff00bc8e0c25957bbf3952f95312cecc9b168fbea"
+    },
+    {
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0200",
+      "kind": "directory",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ]
+    },
+    {
+      "bytes": 302242674,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0201",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/action_head--150000_checkpoint.pt",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "809858636cf0a65009dd567d2f4e116249442790f02b8fe31f24500ea6118908"
+    },
+    {
+      "bytes": 21,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0202",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/added_tokens.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "ab43123267b190cb7990bc9f2ae4ad32dcb7ed029fb0fccb1b4e062c6f54a2a1"
+    },
+    {
+      "bytes": 60711,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0203",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/config.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "bcb688a66f3e94a42311b77d37b7e1484886701f7b2aa8e36d165dfccac92ae6"
+    },
+    {
+      "bytes": 2957,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0204",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/dataset_statistics.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "3f8b7854c8634ea6ccfd6ef6b8f983e3b30b067c2cdaf690b152c0899d5d9282"
+    },
+    {
+      "bytes": 136,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0205",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/generation_config.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "67fbe17b12e8beb5be98eb911483971cc78589e51a37ac0cce9cd499d06a8bf1"
+    },
+    {
+      "bytes": 4925122448,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0206",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/model-00001-of-00004.safetensors",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "2809bd7be9422315c5ecbe91eea612f5b02925f37e0051728ad45bc993c79251"
+    },
+    {
+      "bytes": 4947392496,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0207",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/model-00002-of-00004.safetensors",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "a00a7c5f2b6586ccfc89c693a9c36f3552ff455ff2b1bfea3e92642e4cd2b6d3"
+    },
+    {
+      "bytes": 4947417456,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0208",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/model-00003-of-00004.safetensors",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "a894b7230a08b471af55c57dd7385fd3b51fae2c4d9307a36a8017ef57abf22a"
+    },
+    {
+      "bytes": 262668432,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0209",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/model-00004-of-00004.safetensors",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "a877e3fece1feafb80f59f91585ce04379ee39e2bf9a25cb7b4acf237e896e60"
+    },
+    {
+      "bytes": 94764,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0210",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/model.safetensors.index.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "ca8b53fed8133ee2afcd2fc483de8febf7f5bb0f6bcb09f91189772e59e8f659"
+    },
+    {
+      "bytes": 1650,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0211",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/preprocessor_config.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "bd024783fb785cbdfe35b710b621c5e8678d4c157a9ba625675e67d40d1757da"
+    },
+    {
+      "bytes": 130,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0212",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/processor_config.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "167e026d8121f6cb0bf5c18310b97ba8139152f970822bb3824213bd37dc7a76"
+    },
+    {
+      "bytes": 67275256,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0213",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/proprio_projector--150000_checkpoint.pt",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "438d28e81e125166d0771762424aaf017de3a8daaebde06a5cb71157e62b3bf3"
+    },
+    {
+      "bytes": 552,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0214",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/special_tokens_map.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "cb90ee5cf5793aa444039af9795b00db59d3fef8942e7eca9cf1990bab370d61"
+    },
+    {
+      "bytes": 1842976,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0215",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/tokenizer.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "8f5e2869e1807b8bb3c7717a294539c37e9de5d728ad60e31ef57e83cc5ea527"
+    },
+    {
+      "bytes": 499723,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0216",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/tokenizer.model",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347"
+    },
+    {
+      "bytes": 1192,
+      "experiments": [
+        "openvla_fastwam"
+      ],
+      "id": "asset-0217",
+      "kind": "file",
+      "path": "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/tokenizer_config.json",
+      "public_source": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+      "required": true,
+      "roles": [
+        "external_artifact"
+      ],
+      "sha256": "f5f1d3ed015ebb71cf11686ff00bc8e0c25957bbf3952f95312cecc9b168fbea"
+    }
+  ],
+  "description": "External checkpoints, calibration caches, reset banks and data sets required by unfinished non-real-robot experiments.",
+  "schema_version": 1
 }

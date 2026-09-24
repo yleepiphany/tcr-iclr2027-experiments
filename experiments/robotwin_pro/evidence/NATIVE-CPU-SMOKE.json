@@ -1,0 +1,111 @@
+{
+  "schema": "robotwin_pro_release_smoke_v1",
+  "status": "PASS",
+  "scope": "Package integrity and CPU/native CLI smoke; not a completed evaluation",
+  "package_files_verified": 88,
+  "methods": [
+    {
+      "method": "libero_pro/model_soups",
+      "status": "UNFINISHED",
+      "current_checkpoint_sha256": "a92aacc43146dc41663c0057f2999bd90252fb3fb316ef963f165be67e1be01a",
+      "selection_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-soup-codex-20260924/selection-v1/manifest.json",
+      "selection_checkpoint_sha256": "a92aacc43146dc41663c0057f2999bd90252fb3fb316ef963f165be67e1be01a",
+      "selection_manifest_sha256": "ef24aefb638317a7820409eac535b707b3af506c435d0628deaab388d39128e3"
+    },
+    {
+      "method": "libero_pro/ties",
+      "status": "UNFINISHED",
+      "current_checkpoint_sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+      "selection_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/ties_merging/selection-v1/manifest.json",
+      "selection_checkpoint_sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+      "selection_manifest_sha256": "e451b150756e302201a1cce736eb04e5abaf20d228561ca70119922262807e5e"
+    },
+    {
+      "method": "libero_pro/regmean_pp",
+      "status": "BLOCKED_STALE_SELECTION",
+      "current_checkpoint_sha256": "fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2",
+      "reason": "Stale or missing checkpoint binding: expected fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2, observed 38745ba812c2f4ac4327ab40719e0ce8da017873c0a1765608f65dd926cd4ab3",
+      "selection_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/regmean_pp/selection-v1/manifest.json",
+      "next_step": "Create a NEW current-model manifest and runner, validate all reset/task/config bindings, then review the catalog status; never edit a running historical selection in place."
+    },
+    {
+      "method": "libero_pro/featcal",
+      "status": "BLOCKED_STALE_SELECTION",
+      "current_checkpoint_sha256": "b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114",
+      "reason": "Stale or missing checkpoint binding: expected b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114, observed e43de109844431c02e316e57f701d7c06a9a3c8feaa3c41c9f391281f8197efa",
+      "selection_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/featcal/selection-v1/manifest.json",
+      "next_step": "Create a NEW current-model manifest and runner, validate all reset/task/config bindings, then review the catalog status; never edit a running historical selection in place."
+    },
+    {
+      "method": "robotwin/ties",
+      "status": "UNFINISHED",
+      "current_checkpoint_sha256": null
+    },
+    {
+      "method": "robotwin/tcr",
+      "status": "UNFINISHED",
+      "current_checkpoint_sha256": null
+    },
+    {
+      "method": "robotwin/regmean_pp",
+      "status": "BLOCKED_MISSING_NATIVE_ADAPTER",
+      "current_checkpoint_sha256": null,
+      "reason": "No accepted RoboTwin-specific activation cache, solver adapter, dense checkpoint, or 540-episode evaluation binding found. LIBERO checkpoints are invalid substitutes."
+    },
+    {
+      "method": "robotwin/featcal",
+      "status": "BLOCKED_MISSING_NATIVE_ADAPTER",
+      "current_checkpoint_sha256": null,
+      "reason": "No accepted RoboTwin-specific activation cache, solver adapter, dense checkpoint, or 540-episode evaluation binding found. LIBERO checkpoints are invalid substitutes."
+    }
+  ],
+  "gpu_tasks_started": 0,
+  "other_processes_signalled": 0,
+  "native_smoke": {
+    "status": "PASS",
+    "checks": [
+      {
+        "name": "libero_pro",
+        "command": [
+          "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/envs/iclr2027-libero-pro-py312-v1/bin/python",
+          "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_pi05_libero_pro_evaluation.py",
+          "--help"
+        ],
+        "scope": "Native imports and CLI only; no model, simulator episode, or CUDA request",
+        "status": "PASS",
+        "exit_code": 0,
+        "seconds": 3.876880085095763,
+        "output_sha256": "cf92d133144ea5ea9ecd82a022a36cbeda91669af0233345e9ed394d6e128190",
+        "output_tail": "              POLICY_SHA256 --method-id METHOD_ID\n                                         --repeat-id\n                                         {repeat-01,repeat-02,repeat-03}\n                                         --selection SELECTION\n                                         [--source-suite {libero_spatial,libero_object,libero_goal,libero_10}]\n                                         --dimension\n                                         {object,swap,semantic,task,environment}\n                                         --output-root OUTPUT_ROOT [--gpu GPU]\n                                         [--launch] [--resume-existing]\n\nPlan or run manifest-bound PI0.5 evaluation on static LIBERO-PRO suites. Every\npolicy, method, repeat, perturbation dimension, task, reset state, and output\ndirectory is explicit. The runner never moves, replaces, or silently reuses an\nincomplete output.\n\noptions:\n  -h, --help            show this help message and exit\n  --policy POLICY\n  --policy-sha256 POLICY_SHA256\n  --method-id METHOD_ID\n  --repeat-id {repeat-01,repeat-02,repeat-03}\n  --selection SELECTION\n  --source-suite {libero_spatial,libero_object,libero_goal,libero_10}\n                        Route a suite-specific expert only to its own source\n                        suite.\n  --dimension {object,swap,semantic,task,environment}\n  --output-root OUTPUT_ROOT\n  --gpu GPU\n  --launch\n  --resume-existing     Resume a hash-identical plan and skip only verified\n                        completed jobs.\n"
+      },
+      {
+        "name": "robotwin_ties",
+        "command": [
+          "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/envs/iclr2027-robotwin2-py312-mplib-curobo-v3/bin/python",
+          "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/watch_robotwin_model_soups_formal_v1.py",
+          "--help"
+        ],
+        "scope": "Native imports and CLI only; no model, simulator episode, or CUDA request",
+        "status": "PASS",
+        "exit_code": 0,
+        "seconds": 0.07808300014585257,
+        "output_sha256": "99b08ea2121212a2229865b10afecbc53ed563b42b82f651a47b4666d59622b8",
+        "output_tail": "usage: watch_robotwin_model_soups_formal_v1.py [-h]\n                                               [--group {coordination,receptacle,precision}]\n                                               [--repeat {1,2,3}]\n                                               [--poll-seconds POLL_SECONDS]\n                                               {build,validate,run}\n\nRun frozen RoboTwin Model Soups or TIES on the Experts formal-v2 reset bank.\n\npositional arguments:\n  {build,validate,run}\n\noptions:\n  -h, --help            show this help message and exit\n  --group {coordination,receptacle,precision}\n  --repeat {1,2,3}\n  --poll-seconds POLL_SECONDS\n"
+      },
+      {
+        "name": "robotwin_tcr",
+        "command": [
+          "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/envs/iclr2027-robotwin2-py312-mplib-curobo-v3/bin/python",
+          "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/run_tcr_formal_local_v4.py",
+          "--help"
+        ],
+        "scope": "Native imports and CLI only; no model, simulator episode, or CUDA request",
+        "status": "PASS",
+        "exit_code": 0,
+        "seconds": 0.10464359354227781,
+        "output_sha256": "371984b53d20091f2344f4d932897aa04bdcee4a04ff7ca2d614c165a40dea8e",
+        "output_tail": "usage: run_tcr_formal_local_v4.py [-h] [--job-id JOB_ID] {prepare,run,worker}\n\npositional arguments:\n  {prepare,run,worker}\n\noptions:\n  -h, --help            show this help message and exit\n  --job-id JOB_ID\n"
+      }
+    ]
+  }
+}

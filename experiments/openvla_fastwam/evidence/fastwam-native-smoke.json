@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "backend": "fastwam",
+  "native_action_shape": [
+    32,
+    7
+  ],
+  "finite": true,
+  "native_requests": 1,
+  "evaluation_episodes": 0,
+  "is_success_evaluation": false,
+  "request_sha256": "aca1c947ba955da3cc6cdc40cb9620e93fe6e2cea5e48c8eec7354fc422fca00",
+  "checkpoint_sha256": "540249aee838c87fc57ae6f93fb320092a8d7aeaed1ebe4004455eee479cbaf8",
+  "inference_seconds": 12.872257867828012,
+  "max_allocated_mib": 23949.96923828125
+}

@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Calibration passes and cache reuse. A, B, and C are distinct expert execution caches; each arrow is one pass. All rows use the same 400 evaluation episodes. A$\to$B is the shared reference for the supplementary recipe and budget studies. Dashes indicate evaluations not yet complete.}
+\label{tab:cache_sequence_controls}
+\resulttable
+\begin{tabularx}{\linewidth}{lXr}
+\toprule
+Calibration & Purpose & Success (\%) $\uparrow$ \\
+\midrule
+A & One pass & 64.75 \\
+A$\to$A & Repeat the first cache & 72.75 \\
+\rowcolor{TCRTableBlue}
+A$\to$B & Two-pass reference with fresh data & 75.50 \\
+A$\to$C & Check a second fresh cache & \textbf{78.50} \\
+\midrule
+A$\to$B$\to$B & Third pass, reuse B & \tbd \\
+A$\to$B$\to$C & Third pass, fresh C & \tbd \\
+\bottomrule
+\end{tabularx}
+\end{table}

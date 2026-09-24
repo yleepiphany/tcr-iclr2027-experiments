@@ -1,0 +1,21 @@
+{
+  "arm": "AB",
+  "dense_expert_bank_sha256": "d61a5f9e56bb0f76d8186a33dc26fe283cf8cfab220e903a460f92e4507f209b",
+  "evaluation_repeat": 1,
+  "expected_realized_rows": 1331600,
+  "expert_loss_normalization": "none",
+  "historical_table1_full": false,
+  "mass_rule": "uniform_quarter",
+  "module_count": 418,
+  "parent_A_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/checkpoints-v8/A/block_regmeanpp_manifest.json",
+  "pass_index": 2,
+  "pool": "B_new",
+  "replay_prefix": "merged",
+  "ridge_source_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/tcr-e/repeat-01/merge/attempt-01-peft-safe-v1/block_regmeanpp_manifest.json",
+  "ridge_source_sha256": "260cea965d7539569a37f031ca670d9a5cd57bd1753d59fa12a60aaac5b1f1d8",
+  "row_cap_per_request_module": 16,
+  "schema": "pi05_fixed_appendix_ab_reference_v1",
+  "start_point": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/checkpoints-v8/A",
+  "start_point_sha256": "1a727477413e3fd22eb06bf43f9c833dc587f71c02e0ed435d6d679e189f17e5",
+  "variant": "full"
+}

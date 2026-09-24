@@ -1,0 +1,550 @@
+{
+  "complete": true,
+  "experts": {
+    "goal": {
+      "local_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt",
+      "release_checkpoint": "50000_chkpt",
+      "source": "moojink/openvla-7b-oft-finetuned-libero-goal",
+      "suite": "libero_goal"
+    },
+    "long": {
+      "local_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt",
+      "release_checkpoint": "150000_chkpt",
+      "source": "moojink/openvla-7b-oft-finetuned-libero-10",
+      "suite": "libero_10"
+    },
+    "object": {
+      "local_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt",
+      "release_checkpoint": "150000_chkpt",
+      "source": "moojink/openvla-7b-oft-finetuned-libero-object",
+      "suite": "libero_object"
+    },
+    "spatial": {
+      "local_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt",
+      "release_checkpoint": "150000_chkpt",
+      "source": "moojink/openvla-7b-oft-finetuned-libero-spatial",
+      "suite": "libero_spatial"
+    }
+  },
+  "files": {
+    "/mnt/workspace/Wilson/parameter-fusion/.datasets/LIBERO/20260919/config-standard/config.yaml": {
+      "mtime_ns": 1789756238704124125,
+      "sha256": "e731e8b8209015252f3bf77b0e65c983c9a41b2821cf02479a2fb0d9f4574ac3",
+      "size": 485
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/coordination/2026-09-23/openvla-expert-spatial-r02-salvage.json": {
+      "mtime_ns": 1790157695660666816,
+      "sha256": "3fe035f1ab30b9ade4ab0a0bf5174b0cd003e21905b538e999c3970a796a9059",
+      "size": 1156
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/manifest.json": {
+      "mtime_ns": 1789046424875487982,
+      "sha256": "16fb4a0331b552c211bcb92ed3c81c7f4232c4eec88330d52056131e26d04be8",
+      "size": 1191035
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json": {
+      "mtime_ns": 1789046424895495229,
+      "sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0",
+      "size": 5054
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json": {
+      "mtime_ns": 1789046424901539596,
+      "sha256": "401ec2256ce5edc17391d4d2d5e27a56c431a7249b9d04d01fc31b22a78f8533",
+      "size": 5454
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json": {
+      "mtime_ns": 1789046424907634504,
+      "sha256": "3d2963b6a5452460a9c0a0393d10a30c4d088eb9dc29831b81567b1a38820600",
+      "size": 5454
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/openvla-tcr-20260921/local-expert-dynamic-01/eval/queue-ended.json": {
+      "mtime_ns": 1790020483564133318,
+      "sha256": "caed704c67128ab677ddbdd3e06f5c3d6084598d49014be09725ae8a328f0cd5",
+      "size": 8743
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/openvla-tcr-20260921/local-expert-dynamic-01/identities.json": {
+      "mtime_ns": 1790007774390342465,
+      "sha256": "d5bc98bdcda0ed99545741bf7af205ac4a91bdc6e518fc3a2c122407bc7ae2b8",
+      "size": 30074
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-final-ab-20260920/run_final_ab.py": {
+      "mtime_ns": 1789934649371216059,
+      "sha256": "d7a91540b8d1170a6d3e14d9d8fd2b0d15a0b7f5eaa2ec06c2d73eccee015361",
+      "size": 18535
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-openvla-tcr-repair-20260922/prepare_expert_formal_complement7.py": {
+      "mtime_ns": 1790157664646769968,
+      "sha256": "8eb49ae110b4ba1169d06f2d577edbbf89613f8c5da33cd001eb72891adee21a",
+      "size": 4058
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-openvla-tcr-repair-20260922/run_expert_formal_repeats23.py": {
+      "mtime_ns": 1790154005211356788,
+      "sha256": "b20ee445b60b3d42c5a465c3fbdc50d65ba57e16df43039c97abe08078da15e3",
+      "size": 11242
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/openvla-tcr-20260921/evaluate.py": {
+      "mtime_ns": 1790006501947108051,
+      "sha256": "e799cbd9666e881bd798a37a34ca0cc1bf29717c285d99128f391415712a5d36",
+      "size": 8810
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/openvla-tcr-20260921/native_oft.py": {
+      "mtime_ns": 1790006825122740135,
+      "sha256": "a8a3c7dfe564fb968a733b51f31c0e49f1e4df6c285b4cc24ec8c5c41dfd1521",
+      "size": 5339
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/openvla-tcr-20260921/run_dynamic.py": {
+      "mtime_ns": 1790007745609229283,
+      "sha256": "5ff0d8be8ceaa85cdb82201804132cba1fa1985524df337a7405026e14bc8de0",
+      "size": 5797
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/openvla-tcr-20260921/run_local.py": {
+      "mtime_ns": 1790007127872685017,
+      "sha256": "09f456d885e70d2a2c37ce5ef914139b3746a98c99241845bc674c52dfbc8e7c",
+      "size": 12860
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/manifests/official_release_checkpoints.json": {
+      "mtime_ns": 1789915841397083247,
+      "sha256": "cec033938fe07d712398682f07dd6951be1ec1b2e7f49a61a4e2da53a2e798bb",
+      "size": 1356
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/source/experiments/robot/aloha/aloha_utils.py": {
+      "mtime_ns": 1785836377770565899,
+      "sha256": "b9cc26f51b83441f7bb98b1c141de473a1ee5ef24de4c30d2b3b6b39b2ef1a69",
+      "size": 3059
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/source/experiments/robot/aloha/constants.py": {
+      "mtime_ns": 1785836377776322143,
+      "sha256": "cd349eb28ec6b784f811e2e47d37c0f23d3c3fe1cef94d4a72e3898fb13c643d",
+      "size": 5252
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/source/experiments/robot/aloha/preprocess_split_aloha_data.py": {
+      "mtime_ns": 1785836377783034431,
+      "sha256": "edebb17e0784c5dfe911e50714417e98c3a317cd62e7e68670daa61cdbf6026e",
+      "size": 10698
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/source/experiments/robot/aloha/real_env.py": {
+      "mtime_ns": 1785836377794536158,
+      "sha256": "32f4f8677337c0421eb605fafa4b18a23fb4421a320bde3c765c80acbc156d08",
+      "size": 9975
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/source/experiments/robot/aloha/robot_utils.py": {
+      "mtime_ns": 1785836377804799976,
+      "sha256": "d0d93ca3672ab851bbb32d7d655f0470c9c862b145d85127d7aac6d7df4e6d54",
+      "size": 7523
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/source/experiments/robot/aloha/run_aloha_eval.py": {
+      "mtime_ns": 1785836377815729260,
+      "sha256": "89700d699135ad247a9beb6e9997bba32cdbfe0f115166df5a0a7f2157f4f8ce",
+      "size": 13255
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/source/experiments/robot/libero/libero_utils.py": {
+      "mtime_ns": 1789313255115476980,
+      "sha256": "ba2f16f463e8827fcc51f6257bcb2e5b78587a284e43b19a11638e5cb9f02acf",
+      "size": 3205
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/source/experiments/robot/libero/regenerate_libero_dataset.py": {
+      "mtime_ns": 1785836377832753078,
+      "sha256": "f17dd49e61659b515ccd691c0ee57d20fb57909af3b8b53ef7e7e6bee55ceb49",
+      "size": 11225
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/source/experiments/robot/libero/run_libero_eval.py": {
+      "mtime_ns": 1789713969541383037,
+      "sha256": "6f46f494b9e13cccf349f0a65849e1226a8790f603e262455c5bbf9159a03568",
+      "size": 22869
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/source/experiments/robot/openvla_utils.py": {
+      "mtime_ns": 1789358780497004602,
+      "sha256": "822a76254397e41e5f3ed42b5aef8bbf3d3f7f685065771c23f5032275527e09",
+      "size": 30510
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/source/experiments/robot/robot_utils.py": {
+      "mtime_ns": 1785836377865938439,
+      "sha256": "93541b01edd4de49fcc9a1d9249e11fea008b9502fd755096503aaec93773da0",
+      "size": 6102
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/source/prismatic/extern/hf/__init__.py": {
+      "mtime_ns": 1785836377919031000,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/source/prismatic/extern/hf/configuration_prismatic.py": {
+      "mtime_ns": 1785836377923825722,
+      "sha256": "68cc5ae34f1b46af3168d8d479cb81bb776965653453fd904aa8eefb6c8f9f68",
+      "size": 5865
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/source/prismatic/extern/hf/modeling_prismatic.py": {
+      "mtime_ns": 1785836377930543081,
+      "sha256": "b5431a074c0025a12e46dc954a5e18d1d73477babb5ae42e3a12ab4b907f33a6",
+      "size": 48906
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/source/prismatic/extern/hf/processing_prismatic.py": {
+      "mtime_ns": 1785836377940212904,
+      "sha256": "2474a5c3fdd4ff15234924636dc0ead6419c89f49699193be47dbb87510a5425",
+      "size": 12713
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/source/prismatic/models/action_heads.py": {
+      "mtime_ns": 1785836377956996042,
+      "sha256": "8e42df65d6407d64d47457286d9be05466d25d8a0f094aa9dfb90de84a9aa7cc",
+      "size": 9053
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/source/prismatic/models/projectors.py": {
+      "mtime_ns": 1785836378096138118,
+      "sha256": "3ac1ef82215b30792bdaf9c980cf8b93046dec1b220597cfc0f536bfe5ebdf42",
+      "size": 1873
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/source/prismatic/vla/constants.py": {
+      "mtime_ns": 1785836378506632654,
+      "sha256": "5b53c3a07cf1ed27bf94a88da9929e82818792d6fdc32343d133afea1a0acf3d",
+      "size": 2712
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/action_head--50000_checkpoint.pt": {
+      "mtime_ns": 1789705001187400287,
+      "sha256": "b97c2e8939ede32d8a1b29e9565d70f22040ba9e54925665e81989a0cc13ccff",
+      "size": 302242654
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/added_tokens.json": {
+      "mtime_ns": 1789705010560121939,
+      "sha256": "ab43123267b190cb7990bc9f2ae4ad32dcb7ed029fb0fccb1b4e062c6f54a2a1",
+      "size": 21
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/config.json": {
+      "mtime_ns": 1789704743436627288,
+      "sha256": "edd5c5cf6d7927e07465cf086ebe41f7b3ec8f3b128a51f71d6db14dad7ad8b1",
+      "size": 60712
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/dataset_statistics.json": {
+      "mtime_ns": 1789704990796322096,
+      "sha256": "22e0549a346b2ec8a109904d017a57c50f12769b91653939aefb72b119725d47",
+      "size": 2923
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/generation_config.json": {
+      "mtime_ns": 1789704964453595931,
+      "sha256": "67fbe17b12e8beb5be98eb911483971cc78589e51a37ac0cce9cd499d06a8bf1",
+      "size": 136
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/model-00001-of-00004.safetensors": {
+      "mtime_ns": 1789704813450806813,
+      "sha256": "aae1b9bfffacaf15e209bc8296ffa9bd07baa41d673ab005696a82525b880b2f",
+      "size": 4925122448
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/model-00002-of-00004.safetensors": {
+      "mtime_ns": 1789704874874609496,
+      "sha256": "4cd51d327e1891f24f75d033017ed3824cc5fb9009e38498efd2dca6f89ee01d",
+      "size": 4947392496
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/model-00003-of-00004.safetensors": {
+      "mtime_ns": 1789704945429558828,
+      "sha256": "f1c361c4cbd78b60ccea81538ca1626e00e54baba70528af8c08577771768329",
+      "size": 4947417456
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/model-00004-of-00004.safetensors": {
+      "mtime_ns": 1789704959719574651,
+      "sha256": "a877e3fece1feafb80f59f91585ce04379ee39e2bf9a25cb7b4acf237e896e60",
+      "size": 262668432
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/model.safetensors.index.json": {
+      "mtime_ns": 1789704746833910760,
+      "sha256": "ca8b53fed8133ee2afcd2fc483de8febf7f5bb0f6bcb09f91189772e59e8f659",
+      "size": 94764
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/preprocessor_config.json": {
+      "mtime_ns": 1789705005583157669,
+      "sha256": "bd024783fb785cbdfe35b710b621c5e8678d4c157a9ba625675e67d40d1757da",
+      "size": 1650
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/processor_config.json": {
+      "mtime_ns": 1789705002938327550,
+      "sha256": "167e026d8121f6cb0bf5c18310b97ba8139152f970822bb3824213bd37dc7a76",
+      "size": 130
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/proprio_projector--50000_checkpoint.pt": {
+      "mtime_ns": 1789704994912261513,
+      "sha256": "780595e9cca5292348697686f9ccc83d39d9d3d303e860d62c6d4609952dfff1",
+      "size": 67275184
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/special_tokens_map.json": {
+      "mtime_ns": 1789705011513968183,
+      "sha256": "cb90ee5cf5793aa444039af9795b00db59d3fef8942e7eca9cf1990bab370d61",
+      "size": 552
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/tokenizer.json": {
+      "mtime_ns": 1789705009483017560,
+      "sha256": "8f5e2869e1807b8bb3c7717a294539c37e9de5d728ad60e31ef57e83cc5ea527",
+      "size": 1842976
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/tokenizer.model": {
+      "mtime_ns": 1789705008423300861,
+      "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+      "size": 499723
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/goal/openvla-7b-oft-finetuned-libero-goal--50000_chkpt/tokenizer_config.json": {
+      "mtime_ns": 1789705006943362697,
+      "sha256": "f5f1d3ed015ebb71cf11686ff00bc8e0c25957bbf3952f95312cecc9b168fbea",
+      "size": 1192
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/action_head--150000_checkpoint.pt": {
+      "mtime_ns": 1789705010296457508,
+      "sha256": "f0135fd1b8f9e3b40c00ee8564c2a76af2fe291a79597885100996b98a70e4bd",
+      "size": 302242674
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/added_tokens.json": {
+      "mtime_ns": 1789705019784676363,
+      "sha256": "ab43123267b190cb7990bc9f2ae4ad32dcb7ed029fb0fccb1b4e062c6f54a2a1",
+      "size": 21
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/config.json": {
+      "mtime_ns": 1789704743727324902,
+      "sha256": "edd5c5cf6d7927e07465cf086ebe41f7b3ec8f3b128a51f71d6db14dad7ad8b1",
+      "size": 60712
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/dataset_statistics.json": {
+      "mtime_ns": 1789704999714454587,
+      "sha256": "dbe516987e8124416af39c32d3f39ce2137ccb4e282adc590bb4bcede09fb5e1",
+      "size": 2975
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/generation_config.json": {
+      "mtime_ns": 1789704972869688607,
+      "sha256": "67fbe17b12e8beb5be98eb911483971cc78589e51a37ac0cce9cd499d06a8bf1",
+      "size": 136
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/model-00001-of-00004.safetensors": {
+      "mtime_ns": 1789704815492081716,
+      "sha256": "099772b16c1ba077c5bcff25a62e35595d2704b66f2f680af4dcf21cea03e9d4",
+      "size": 4925122448
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/model-00002-of-00004.safetensors": {
+      "mtime_ns": 1789704903486752597,
+      "sha256": "31540314f94a71c9388b4b6b6c9d64162932174e2f3b92ea666bb73560891354",
+      "size": 4947392496
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/model-00003-of-00004.safetensors": {
+      "mtime_ns": 1789704962814988152,
+      "sha256": "d5d817a597b121e25f7f77ac0743fed3e49e627d039e5df57af6102064f3e9a9",
+      "size": 4947417456
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/model-00004-of-00004.safetensors": {
+      "mtime_ns": 1789704967678213374,
+      "sha256": "a877e3fece1feafb80f59f91585ce04379ee39e2bf9a25cb7b4acf237e896e60",
+      "size": 262668432
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/model.safetensors.index.json": {
+      "mtime_ns": 1789704747321472039,
+      "sha256": "ca8b53fed8133ee2afcd2fc483de8febf7f5bb0f6bcb09f91189772e59e8f659",
+      "size": 94764
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/preprocessor_config.json": {
+      "mtime_ns": 1789705014776360746,
+      "sha256": "bd024783fb785cbdfe35b710b621c5e8678d4c157a9ba625675e67d40d1757da",
+      "size": 1650
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/processor_config.json": {
+      "mtime_ns": 1789705012048140460,
+      "sha256": "167e026d8121f6cb0bf5c18310b97ba8139152f970822bb3824213bd37dc7a76",
+      "size": 130
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/proprio_projector--150000_checkpoint.pt": {
+      "mtime_ns": 1789705003392219049,
+      "sha256": "7ea18c370d8aa1625cc6c10f0d95c4bc101805a8cc843690022fd675e89296c3",
+      "size": 67275256
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/special_tokens_map.json": {
+      "mtime_ns": 1789705020700517360,
+      "sha256": "cb90ee5cf5793aa444039af9795b00db59d3fef8942e7eca9cf1990bab370d61",
+      "size": 552
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/tokenizer.json": {
+      "mtime_ns": 1789705018781525267,
+      "sha256": "8f5e2869e1807b8bb3c7717a294539c37e9de5d728ad60e31ef57e83cc5ea527",
+      "size": 1842976
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/tokenizer.model": {
+      "mtime_ns": 1789705017747723415,
+      "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+      "size": 499723
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/long/openvla-7b-oft-finetuned-libero-10--150000_chkpt/tokenizer_config.json": {
+      "mtime_ns": 1789705016214799368,
+      "sha256": "f5f1d3ed015ebb71cf11686ff00bc8e0c25957bbf3952f95312cecc9b168fbea",
+      "size": 1192
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/action_head--150000_checkpoint.pt": {
+      "mtime_ns": 1789704992926845515,
+      "sha256": "8465509d85b063f3c90359de0c1876c34ce3f162cc9baafbe9e75e170146e4c7",
+      "size": 302242674
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/added_tokens.json": {
+      "mtime_ns": 1789705001581035772,
+      "sha256": "ab43123267b190cb7990bc9f2ae4ad32dcb7ed029fb0fccb1b4e062c6f54a2a1",
+      "size": 21
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/config.json": {
+      "mtime_ns": 1789704743349790914,
+      "sha256": "edd5c5cf6d7927e07465cf086ebe41f7b3ec8f3b128a51f71d6db14dad7ad8b1",
+      "size": 60712
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/dataset_statistics.json": {
+      "mtime_ns": 1789704983649007625,
+      "sha256": "2bff9cb26fea5d50522fc327f71362dda38252dfc9003aae444259ff96371aa7",
+      "size": 3022
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/generation_config.json": {
+      "mtime_ns": 1789704957002483096,
+      "sha256": "67fbe17b12e8beb5be98eb911483971cc78589e51a37ac0cce9cd499d06a8bf1",
+      "size": 136
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/model-00001-of-00004.safetensors": {
+      "mtime_ns": 1789704814725640735,
+      "sha256": "fedf457ad486f5e4ce28579a85e7b3ae1448d01884a674e9baaf7fc47125401c",
+      "size": 4925122448
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/model-00002-of-00004.safetensors": {
+      "mtime_ns": 1789704877513682271,
+      "sha256": "cb9e4eb3991dfdb7d111e332d7d565543cabc3bc63bfc8ebba83695ad05dcaf3",
+      "size": 4947392496
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/model-00003-of-00004.safetensors": {
+      "mtime_ns": 1789704944745053630,
+      "sha256": "f28ce17430e501109e4f512373bea70bc77d4cfe66c17a1a120a04a5a5623f8d",
+      "size": 4947417456
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/model-00004-of-00004.safetensors": {
+      "mtime_ns": 1789704951994098208,
+      "sha256": "a877e3fece1feafb80f59f91585ce04379ee39e2bf9a25cb7b4acf237e896e60",
+      "size": 262668432
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/model.safetensors.index.json": {
+      "mtime_ns": 1789704747058758316,
+      "sha256": "ca8b53fed8133ee2afcd2fc483de8febf7f5bb0f6bcb09f91189772e59e8f659",
+      "size": 94764
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/preprocessor_config.json": {
+      "mtime_ns": 1789704996828315400,
+      "sha256": "bd024783fb785cbdfe35b710b621c5e8678d4c157a9ba625675e67d40d1757da",
+      "size": 1650
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/processor_config.json": {
+      "mtime_ns": 1789704994458764730,
+      "sha256": "167e026d8121f6cb0bf5c18310b97ba8139152f970822bb3824213bd37dc7a76",
+      "size": 130
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/proprio_projector--150000_checkpoint.pt": {
+      "mtime_ns": 1789704987404103403,
+      "sha256": "4ae5121c2740a57f5747061e938246f9e3994bbdbfb97676ffef795221e6f8d9",
+      "size": 67275256
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/special_tokens_map.json": {
+      "mtime_ns": 1789705002462798747,
+      "sha256": "cb90ee5cf5793aa444039af9795b00db59d3fef8942e7eca9cf1990bab370d61",
+      "size": 552
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/tokenizer.json": {
+      "mtime_ns": 1789705000696808601,
+      "sha256": "8f5e2869e1807b8bb3c7717a294539c37e9de5d728ad60e31ef57e83cc5ea527",
+      "size": 1842976
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/tokenizer.model": {
+      "mtime_ns": 1789704999663186949,
+      "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+      "size": 499723
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/object/openvla-7b-oft-finetuned-libero-object--150000_chkpt/tokenizer_config.json": {
+      "mtime_ns": 1789704998168995432,
+      "sha256": "f5f1d3ed015ebb71cf11686ff00bc8e0c25957bbf3952f95312cecc9b168fbea",
+      "size": 1192
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/action_head--150000_checkpoint.pt": {
+      "mtime_ns": 1789704999163347321,
+      "sha256": "809858636cf0a65009dd567d2f4e116249442790f02b8fe31f24500ea6118908",
+      "size": 302242674
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/added_tokens.json": {
+      "mtime_ns": 1789705007711448636,
+      "sha256": "ab43123267b190cb7990bc9f2ae4ad32dcb7ed029fb0fccb1b4e062c6f54a2a1",
+      "size": 21
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/config.json": {
+      "mtime_ns": 1789704744607854736,
+      "sha256": "bcb688a66f3e94a42311b77d37b7e1484886701f7b2aa8e36d165dfccac92ae6",
+      "size": 60711
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/dataset_statistics.json": {
+      "mtime_ns": 1789704990389849815,
+      "sha256": "3f8b7854c8634ea6ccfd6ef6b8f983e3b30b067c2cdaf690b152c0899d5d9282",
+      "size": 2957
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/generation_config.json": {
+      "mtime_ns": 1789704964014467247,
+      "sha256": "67fbe17b12e8beb5be98eb911483971cc78589e51a37ac0cce9cd499d06a8bf1",
+      "size": 136
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/model-00001-of-00004.safetensors": {
+      "mtime_ns": 1789704814972229880,
+      "sha256": "2809bd7be9422315c5ecbe91eea612f5b02925f37e0051728ad45bc993c79251",
+      "size": 4925122448
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/model-00002-of-00004.safetensors": {
+      "mtime_ns": 1789704910184935954,
+      "sha256": "a00a7c5f2b6586ccfc89c693a9c36f3552ff455ff2b1bfea3e92642e4cd2b6d3",
+      "size": 4947392496
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/model-00003-of-00004.safetensors": {
+      "mtime_ns": 1789704954516720467,
+      "sha256": "a894b7230a08b471af55c57dd7385fd3b51fae2c4d9307a36a8017ef57abf22a",
+      "size": 4947417456
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/model-00004-of-00004.safetensors": {
+      "mtime_ns": 1789704959295725804,
+      "sha256": "a877e3fece1feafb80f59f91585ce04379ee39e2bf9a25cb7b4acf237e896e60",
+      "size": 262668432
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/model.safetensors.index.json": {
+      "mtime_ns": 1789704748020580504,
+      "sha256": "ca8b53fed8133ee2afcd2fc483de8febf7f5bb0f6bcb09f91189772e59e8f659",
+      "size": 94764
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/preprocessor_config.json": {
+      "mtime_ns": 1789705002950018097,
+      "sha256": "bd024783fb785cbdfe35b710b621c5e8678d4c157a9ba625675e67d40d1757da",
+      "size": 1650
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/processor_config.json": {
+      "mtime_ns": 1789705000478327896,
+      "sha256": "167e026d8121f6cb0bf5c18310b97ba8139152f970822bb3824213bd37dc7a76",
+      "size": 130
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/proprio_projector--150000_checkpoint.pt": {
+      "mtime_ns": 1789704994175131698,
+      "sha256": "438d28e81e125166d0771762424aaf017de3a8daaebde06a5cb71157e62b3bf3",
+      "size": 67275256
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/special_tokens_map.json": {
+      "mtime_ns": 1789705008541824708,
+      "sha256": "cb90ee5cf5793aa444039af9795b00db59d3fef8942e7eca9cf1990bab370d61",
+      "size": 552
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/tokenizer.json": {
+      "mtime_ns": 1789705006940330083,
+      "sha256": "8f5e2869e1807b8bb3c7717a294539c37e9de5d728ad60e31ef57e83cc5ea527",
+      "size": 1842976
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/tokenizer.model": {
+      "mtime_ns": 1789705005969912012,
+      "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+      "size": 499723
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/tokenizer_config.json": {
+      "mtime_ns": 1789705004434966189,
+      "sha256": "f5f1d3ed015ebb71cf11686ff00bc8e0c25957bbf3952f95312cecc9b168fbea",
+      "size": 1192
+    }
+  },
+  "new_episodes": 700,
+  "new_repeats": [
+    2,
+    3
+  ],
+  "prior_repeat1": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/openvla-tcr-20260921/local-expert-dynamic-01/eval",
+  "prior_repeat1_episodes": 400,
+  "salvaged_repeat2_spatial": "/mnt/workspace/Wilson/parameter-fusion/coordination/2026-09-23/openvla-expert-spatial-r02-salvage.json",
+  "selection_uses_success_values": false
+}

@@ -1,0 +1,23 @@
+{
+  "accepted": {},
+  "active": {
+    "r01-coordination": {
+      "gpu": 6,
+      "pid": 3167434
+    }
+  },
+  "failed": {},
+  "pending": [
+    "r01-receptacle",
+    "r01-precision",
+    "r02-coordination",
+    "r02-receptacle",
+    "r02-precision",
+    "r03-coordination",
+    "r03-receptacle",
+    "r03-precision"
+  ],
+  "skipped": {},
+  "stopped": false,
+  "updated_at": "2026-09-24T08:04:35.908548+00:00"
+}

@@ -1,0 +1,284 @@
+{
+  "bank": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/manifest.json",
+  "bank_sha256": "16fb4a0331b552c211bcb92ed3c81c7f4232c4eec88330d52056131e26d04be8",
+  "episode_seed_formula": "eval_seed + ordinal_in_task; ordinal=0..9",
+  "evaluator": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fastwam-formal-20260924/fastwam_experts_formal_v2.py",
+  "evaluator_sha256": "c7cbd0361f908471ede9c9c635d63e9a13eb02290a140eb88efa12030075bfe2",
+  "expected_episodes": 1200,
+  "expected_jobs": 12,
+  "jobs": [
+    {
+      "checkpoint": {
+        "mtime_ns": 1790101394828906271,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/spatial/checkpoints/weights/step_012000.pt",
+        "sha256": "540249aee838c87fc57ae6f93fb320092a8d7aeaed1ebe4004455eee479cbaf8",
+        "size": 12041735341
+      },
+      "episodes": 100,
+      "expert": "spatial",
+      "id": "experts-spatial-repeat-01",
+      "normalizer": {
+        "mtime_ns": 1790164709875177440,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/spatial/dataset_stats.json",
+        "sha256": "32681386eaa332d204e6faf2a36a391234029af7ce7a60654fd6c39e397c4242",
+        "size": 43150
+      },
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "selection_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+      "selection_sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0",
+      "suite": "libero_spatial"
+    },
+    {
+      "checkpoint": {
+        "mtime_ns": 1790075494839984892,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/object/checkpoints/weights/step_010000.pt",
+        "sha256": "2365f01161db4c6788c62b9cc6a0ce8f508e067112d9ed038cf0b0930e7540b7",
+        "size": 12041735341
+      },
+      "episodes": 100,
+      "expert": "object",
+      "id": "experts-object-repeat-01",
+      "normalizer": {
+        "mtime_ns": 1790075653894284033,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/object/dataset_stats.json",
+        "sha256": "c8666963556486b50c58d91091caaa28024c9570558fd2a07049bba4906f98ac",
+        "size": 45879
+      },
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "selection_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+      "selection_sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0",
+      "suite": "libero_object"
+    },
+    {
+      "checkpoint": {
+        "mtime_ns": 1790038439854846395,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/goal/checkpoints/weights/step_010000.pt",
+        "sha256": "54300af0b76d4dc7695e73ee1d0ecb7db141f272d621682078b461cac2f0b031",
+        "size": 12041735341
+      },
+      "episodes": 100,
+      "expert": "goal",
+      "id": "experts-goal-repeat-01",
+      "normalizer": {
+        "mtime_ns": 1790112914328155319,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/goal/dataset_stats.json",
+        "sha256": "e8223ec7446ed6f6c75e9f144b8cd74e4a22be6a3fb8e409ea2e596fe32313f6",
+        "size": 40933
+      },
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "selection_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+      "selection_sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0",
+      "suite": "libero_goal"
+    },
+    {
+      "checkpoint": {
+        "mtime_ns": 1789852360553177617,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/long/checkpoints/weights/step_009000.pt",
+        "sha256": "35e756825e3b0ae5311309d0894ec4f88da9ce42aabdd14f7b157ac208d40cf5",
+        "size": 12041735341
+      },
+      "episodes": 100,
+      "expert": "long",
+      "id": "experts-long-repeat-01",
+      "normalizer": {
+        "mtime_ns": 1789899039964583180,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/long/dataset_stats.json",
+        "sha256": "dcce0d97aaad225043af0855817f09d405b47e7858de7e34ecac83155ca5d28f",
+        "size": 42699
+      },
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "selection_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+      "selection_sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0",
+      "suite": "libero_10"
+    },
+    {
+      "checkpoint": {
+        "mtime_ns": 1790101394828906271,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/spatial/checkpoints/weights/step_012000.pt",
+        "sha256": "540249aee838c87fc57ae6f93fb320092a8d7aeaed1ebe4004455eee479cbaf8",
+        "size": 12041735341
+      },
+      "episodes": 100,
+      "expert": "spatial",
+      "id": "experts-spatial-repeat-02",
+      "normalizer": {
+        "mtime_ns": 1790164709875177440,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/spatial/dataset_stats.json",
+        "sha256": "32681386eaa332d204e6faf2a36a391234029af7ce7a60654fd6c39e397c4242",
+        "size": 43150
+      },
+      "repeat": "repeat-02",
+      "seed": 274002,
+      "selection_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+      "selection_sha256": "401ec2256ce5edc17391d4d2d5e27a56c431a7249b9d04d01fc31b22a78f8533",
+      "suite": "libero_spatial"
+    },
+    {
+      "checkpoint": {
+        "mtime_ns": 1790075494839984892,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/object/checkpoints/weights/step_010000.pt",
+        "sha256": "2365f01161db4c6788c62b9cc6a0ce8f508e067112d9ed038cf0b0930e7540b7",
+        "size": 12041735341
+      },
+      "episodes": 100,
+      "expert": "object",
+      "id": "experts-object-repeat-02",
+      "normalizer": {
+        "mtime_ns": 1790075653894284033,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/object/dataset_stats.json",
+        "sha256": "c8666963556486b50c58d91091caaa28024c9570558fd2a07049bba4906f98ac",
+        "size": 45879
+      },
+      "repeat": "repeat-02",
+      "seed": 274002,
+      "selection_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+      "selection_sha256": "401ec2256ce5edc17391d4d2d5e27a56c431a7249b9d04d01fc31b22a78f8533",
+      "suite": "libero_object"
+    },
+    {
+      "checkpoint": {
+        "mtime_ns": 1790038439854846395,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/goal/checkpoints/weights/step_010000.pt",
+        "sha256": "54300af0b76d4dc7695e73ee1d0ecb7db141f272d621682078b461cac2f0b031",
+        "size": 12041735341
+      },
+      "episodes": 100,
+      "expert": "goal",
+      "id": "experts-goal-repeat-02",
+      "normalizer": {
+        "mtime_ns": 1790112914328155319,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/goal/dataset_stats.json",
+        "sha256": "e8223ec7446ed6f6c75e9f144b8cd74e4a22be6a3fb8e409ea2e596fe32313f6",
+        "size": 40933
+      },
+      "repeat": "repeat-02",
+      "seed": 274002,
+      "selection_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+      "selection_sha256": "401ec2256ce5edc17391d4d2d5e27a56c431a7249b9d04d01fc31b22a78f8533",
+      "suite": "libero_goal"
+    },
+    {
+      "checkpoint": {
+        "mtime_ns": 1789852360553177617,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/long/checkpoints/weights/step_009000.pt",
+        "sha256": "35e756825e3b0ae5311309d0894ec4f88da9ce42aabdd14f7b157ac208d40cf5",
+        "size": 12041735341
+      },
+      "episodes": 100,
+      "expert": "long",
+      "id": "experts-long-repeat-02",
+      "normalizer": {
+        "mtime_ns": 1789899039964583180,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/long/dataset_stats.json",
+        "sha256": "dcce0d97aaad225043af0855817f09d405b47e7858de7e34ecac83155ca5d28f",
+        "size": 42699
+      },
+      "repeat": "repeat-02",
+      "seed": 274002,
+      "selection_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+      "selection_sha256": "401ec2256ce5edc17391d4d2d5e27a56c431a7249b9d04d01fc31b22a78f8533",
+      "suite": "libero_10"
+    },
+    {
+      "checkpoint": {
+        "mtime_ns": 1790101394828906271,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/spatial/checkpoints/weights/step_012000.pt",
+        "sha256": "540249aee838c87fc57ae6f93fb320092a8d7aeaed1ebe4004455eee479cbaf8",
+        "size": 12041735341
+      },
+      "episodes": 100,
+      "expert": "spatial",
+      "id": "experts-spatial-repeat-03",
+      "normalizer": {
+        "mtime_ns": 1790164709875177440,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/spatial/dataset_stats.json",
+        "sha256": "32681386eaa332d204e6faf2a36a391234029af7ce7a60654fd6c39e397c4242",
+        "size": 43150
+      },
+      "repeat": "repeat-03",
+      "seed": 274003,
+      "selection_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+      "selection_sha256": "3d2963b6a5452460a9c0a0393d10a30c4d088eb9dc29831b81567b1a38820600",
+      "suite": "libero_spatial"
+    },
+    {
+      "checkpoint": {
+        "mtime_ns": 1790075494839984892,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/object/checkpoints/weights/step_010000.pt",
+        "sha256": "2365f01161db4c6788c62b9cc6a0ce8f508e067112d9ed038cf0b0930e7540b7",
+        "size": 12041735341
+      },
+      "episodes": 100,
+      "expert": "object",
+      "id": "experts-object-repeat-03",
+      "normalizer": {
+        "mtime_ns": 1790075653894284033,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/object/dataset_stats.json",
+        "sha256": "c8666963556486b50c58d91091caaa28024c9570558fd2a07049bba4906f98ac",
+        "size": 45879
+      },
+      "repeat": "repeat-03",
+      "seed": 274003,
+      "selection_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+      "selection_sha256": "3d2963b6a5452460a9c0a0393d10a30c4d088eb9dc29831b81567b1a38820600",
+      "suite": "libero_object"
+    },
+    {
+      "checkpoint": {
+        "mtime_ns": 1790038439854846395,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/goal/checkpoints/weights/step_010000.pt",
+        "sha256": "54300af0b76d4dc7695e73ee1d0ecb7db141f272d621682078b461cac2f0b031",
+        "size": 12041735341
+      },
+      "episodes": 100,
+      "expert": "goal",
+      "id": "experts-goal-repeat-03",
+      "normalizer": {
+        "mtime_ns": 1790112914328155319,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/goal/dataset_stats.json",
+        "sha256": "e8223ec7446ed6f6c75e9f144b8cd74e4a22be6a3fb8e409ea2e596fe32313f6",
+        "size": 40933
+      },
+      "repeat": "repeat-03",
+      "seed": 274003,
+      "selection_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+      "selection_sha256": "3d2963b6a5452460a9c0a0393d10a30c4d088eb9dc29831b81567b1a38820600",
+      "suite": "libero_goal"
+    },
+    {
+      "checkpoint": {
+        "mtime_ns": 1789852360553177617,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/long/checkpoints/weights/step_009000.pt",
+        "sha256": "35e756825e3b0ae5311309d0894ec4f88da9ce42aabdd14f7b157ac208d40cf5",
+        "size": 12041735341
+      },
+      "episodes": 100,
+      "expert": "long",
+      "id": "experts-long-repeat-03",
+      "normalizer": {
+        "mtime_ns": 1789899039964583180,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/long/dataset_stats.json",
+        "sha256": "dcce0d97aaad225043af0855817f09d405b47e7858de7e34ecac83155ca5d28f",
+        "size": 42699
+      },
+      "repeat": "repeat-03",
+      "seed": 274003,
+      "selection_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+      "selection_sha256": "3d2963b6a5452460a9c0a0393d10a30c4d088eb9dc29831b81567b1a38820600",
+      "suite": "libero_10"
+    }
+  ],
+  "method": "Experts",
+  "native_config": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/source/configs/sim_libero.yaml",
+  "native_config_sha256": "c5b60228495987739fd222d620e9a643d9d527d44e2e63c0832c403041931df3",
+  "native_evaluator": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/source/experiments/libero/eval_libero_single.py",
+  "native_evaluator_sha256": "32f21b40f2647cb93a8a337911f4e87b88cab7be8953e824a33503b75c07caee",
+  "note": "No stock-reset development or seed1000 checkpoint sweep episodes are reused.",
+  "schema": "fastwam_experts_procedural_formal_v2",
+  "source_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/openvla-fastwam-diagnostics-20260923/fastwam-soup/manifest.json",
+  "source_manifest_sha256": "d1a735bd4796af284ca2559442946a52c911b3a146eb84262d76ac449bd5b004"
+}

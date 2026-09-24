@@ -1,0 +1,83 @@
+{
+  "benchmark": "LIBERO-PRO",
+  "checkpoint_contract": "pi05-libero-main10k-matched-v1",
+  "created_at": "2026-09-24T03:10:22.754025+00:00",
+  "dimensions": [
+    "object",
+    "swap",
+    "semantic",
+    "task"
+  ],
+  "episodes": 4800,
+  "gpu_launched": false,
+  "jobs": 480,
+  "method": "featcal",
+  "model": {
+    "checkpoint_manifest": {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-formal-full-v1/checkpoint/pretrained_model/featcal_formal_manifest.json",
+      "sha256": "dd0d26525934629ce410cedcbba1a4400884f5c5d20b37d30adb10425a60d7d3"
+    },
+    "checkpoint_verification": {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-formal-full-v1/execution-receipt.json",
+      "sha256": "f4494891e686c081bd57f2caae8719b76a09d1347d5de7b4934d98c9677ede15"
+    },
+    "clean_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/manifest-clean-fastlane-v3.json",
+    "clean_manifest_sha256": "67309bf9ae7907c6b807dac272ef1933b8f82220123ea7df09cd711f61e87b1e",
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-formal-full-v1/checkpoint/pretrained_model",
+    "sha256": "e43de109844431c02e316e57f701d7c06a9a3c8feaa3c41c9f391281f8197efa"
+  },
+  "no_score_based_selection": true,
+  "no_training": true,
+  "paper_target": "tab:libero_pro_robustness",
+  "repeats": [
+    "repeat-01",
+    "repeat-02",
+    "repeat-03"
+  ],
+  "schema": "pi05_pro_main_baseline_selection_v1",
+  "selection_index": {
+    "repeat-01": {
+      "episodes": 1600,
+      "eval_seed": 274001,
+      "jobs": 160,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/featcal/selection-v1/selections/repeat-01.json",
+      "sha256": "52de0ab936925248634e492c016226ac6b3581def456bc36eafa1a5f3b69d6bb",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/selections/TCR-Full/repeat-01.json",
+      "source_sha256": "518281f2f1fd6d30413104f8d5de5bc596df1ad6810a3392f11950925a70fd6a"
+    },
+    "repeat-02": {
+      "episodes": 1600,
+      "eval_seed": 274002,
+      "jobs": 160,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/featcal/selection-v1/selections/repeat-02.json",
+      "sha256": "19f7f73bfe1df389d813006a5b0d7f63ff66e7373217fa62845c54924c3af3de",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/selections/TCR-Full/repeat-02.json",
+      "source_sha256": "7d1c27f3dc9100e107d3f7b688c3801610db169032a91f64f583002deec7b799"
+    },
+    "repeat-03": {
+      "episodes": 1600,
+      "eval_seed": 274003,
+      "jobs": 160,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/featcal/selection-v1/selections/repeat-03.json",
+      "sha256": "ac5b04d9d93eb33b860fea6c27ff4f30b5a63a00377bf009265dcdfbe3a92b94",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/selections/TCR-Full/repeat-03.json",
+      "source_sha256": "dbb07887505daa61ef870e93e3ca8d3761b3e9b8328bd8770693c4017a24a6c0"
+    }
+  },
+  "source_identity": {
+    "assets_tree_sha256": "ad5a423f687bb6260d0a01d2f38e2aa97923ee8cceaf27869e1d9e9fd4260114",
+    "config_path": "/mnt/workspace/Wilson/parameter-fusion/.datasets/LIBERO/20260919/pro/config/config.yaml",
+    "config_sha256": "14698eb437e74b99b0e5594b5bb911b89a8eaf39c0544ae98423a529f22fa1fe",
+    "data_root": "/mnt/workspace/Wilson/parameter-fusion/.datasets/LIBERO/20260919",
+    "repo_commit": "eafdb809426b13153aa1e4c42d6601844217dfec"
+  },
+  "source_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/manifest.json",
+  "source_manifest_sha256": "a0fa026982b70139c9fc52e88705947c26d818ddca2abe5a657df88714533614",
+  "status": "prepared_unclaimed_no_gpu",
+  "suites": [
+    "libero_spatial",
+    "libero_object",
+    "libero_goal",
+    "libero_10"
+  ]
+}

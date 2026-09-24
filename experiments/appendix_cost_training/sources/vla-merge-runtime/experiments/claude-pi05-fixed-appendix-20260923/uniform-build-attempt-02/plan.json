@@ -1,0 +1,165 @@
+{
+  "contract_sha256": "e072d066000e7ff18228776f9d84a06546745ddd59bc1a57b56f0474dfd786ef",
+  "created_at": "2026-09-23T19:33:58.425243+00:00",
+  "dense_bank_sha256": "d61a5f9e56bb0f76d8186a33dc26fe283cf8cfab220e903a460f92e4507f209b",
+  "formal_evaluation_episodes": 0,
+  "host": "dsw-824375-57c745db88-n6tv9",
+  "jobs": [
+    {
+      "command": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/materialize_uniform_v8.py",
+        "--ablation-config=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/uniform-build-attempt-02/configs/pass-1.json",
+        "--dense-expert-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/expert-dense-bank-peft-v2.json",
+        "--base-model=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+        "--prior-model=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/model-soups/repeat-shared/merge/attempt-02-peft-safe-v2/pretrained_model",
+        "--output=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/checkpoints-v9/uniform_A",
+        "--ridge-ratio=.05",
+        "--ridge-scale=feature_energy",
+        "--max-correction-ratio=3",
+        "--max-rows-per-sample=10",
+        "--device=cuda",
+        "--allow-mixed-calibration-policies",
+        "--allow-prior-calibration-mismatch",
+        "--expert-loss-normalization=none",
+        "--replay-prefix=merged",
+        "--expert=spatial=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/spatial_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=spatial=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/spatial/across/replay.safetensors",
+        "--manifest=spatial=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/spatial/across/replay.json",
+        "--expert=object=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/object_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=object=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/object/across/replay.safetensors",
+        "--manifest=object=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/object/across/replay.json",
+        "--expert=goal=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/goal_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=goal=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/goal/across/replay.safetensors",
+        "--manifest=goal=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/goal/across/replay.json",
+        "--expert=long=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/long10_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=long=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/long/across/replay.safetensors",
+        "--manifest=long=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/long/across/replay.json"
+      ],
+      "config": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/uniform-build-attempt-02/configs/pass-1.json",
+      "id": "uniform_A",
+      "needs": [],
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/checkpoints-v9/uniform_A",
+      "pass_index": 1
+    },
+    {
+      "command": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/materialize_uniform_v8.py",
+        "--ablation-config=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/uniform-build-attempt-02/configs/pass-2.json",
+        "--dense-expert-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/expert-dense-bank-peft-v2.json",
+        "--base-model=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+        "--prior-model=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/checkpoints-v9/uniform_A",
+        "--output=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/checkpoints-v9/uniform_AB",
+        "--ridge-ratio=.05",
+        "--ridge-scale=feature_energy",
+        "--max-correction-ratio=3",
+        "--max-rows-per-sample=16",
+        "--device=cuda",
+        "--allow-mixed-calibration-policies",
+        "--allow-prior-calibration-mismatch",
+        "--expert-loss-normalization=none",
+        "--replay-prefix=merged",
+        "--expert=spatial=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/spatial_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=spatial=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/spatial/across/replay.safetensors",
+        "--manifest=spatial=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/spatial/across/replay.json",
+        "--expert=object=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/object_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=object=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/object/across/replay.safetensors",
+        "--manifest=object=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/object/across/replay.json",
+        "--expert=goal=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/goal_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=goal=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/goal/across/replay.safetensors",
+        "--manifest=goal=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/goal/across/replay.json",
+        "--expert=long=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/long10_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=long=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/long/across/replay.safetensors",
+        "--manifest=long=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/long/across/replay.json"
+      ],
+      "config": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/uniform-build-attempt-02/configs/pass-2.json",
+      "id": "uniform_AB",
+      "needs": [
+        "uniform_A"
+      ],
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/checkpoints-v9/uniform_AB",
+      "pass_index": 2
+    }
+  ],
+  "max_active": 1,
+  "min_free_mib": 71000,
+  "no_retry": true,
+  "paper_scope": "uniform expert masses only in A_new first pass; B_new second pass unchanged uniform; one final checkpoint with 400 formal episodes after artifact acceptance",
+  "permitted_gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "row_budget_sha256": "6ceeb43b445bbc2c735397cdce56a10601988e051f82e434362003e1606d67d0",
+  "runtime_floor_mib": 8192,
+  "schema": "pi05_fixed_appendix_uniform_build_v4",
+  "solver_sha256": "c6891ed0c6f03fba5d45296d1b62006751054109567bf29cbf78f2e12c0d3271",
+  "source_audit_sha256": "19eb510e37564d2a41e9b731f21a96bcaf227109f3482c0e8ad976b31db11e2e",
+  "trace_bindings": {
+    "A_new/goal": {
+      "dense_model_sha256": "af9e258354d759710d04f13d40ac6e2e4377d5063f56fa8e0ef574f8c96e2732",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/goal/across/replay.json",
+      "manifest_sha256": "4f5e78ecf5fe3c0a1b0db4209599d6ae2a72360c9b3cc475e23e264e3df12cc1",
+      "replay": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/goal/across/replay.safetensors",
+      "replay_sha256": "48f4fb18b87d59793a46fe3b91b27bd0ce448d16aa97cc6676402926f971d9de"
+    },
+    "A_new/long": {
+      "dense_model_sha256": "85ad87a5d9fbdcdee5d6ff9270a59355326b376f0d50fbc27ae606cbc9b7f8fc",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/long/across/replay.json",
+      "manifest_sha256": "0d662e7829706883273f89b82f8501436fb617b378e3073f8c536b2ee387f0c6",
+      "replay": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/long/across/replay.safetensors",
+      "replay_sha256": "43fd3c5019ffb46e4e3a160482952549c9ea9f7e0c2c8c2ae787f996abc79eaa"
+    },
+    "A_new/object": {
+      "dense_model_sha256": "a74c9349a78e122ecf9799e404ad748ffebba0b814b95e3dae4a7b32837f1510",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/object/across/replay.json",
+      "manifest_sha256": "2d333455d37026b5735985f3fa769e795fd4527b44a9d013346b118e9e290acd",
+      "replay": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/object/across/replay.safetensors",
+      "replay_sha256": "d60fefb31e6bc3aa14c4ce1fba408b1668b51fbee052aee68562c312db9cc8b2"
+    },
+    "A_new/spatial": {
+      "dense_model_sha256": "008cb4a76898edbb70edb83bd54cb472722ba49b2760acfde24381e6d14fc75f",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/spatial/across/replay.json",
+      "manifest_sha256": "4b904038b38b87c8c303993d967cfa96f09aa83c7970830463123b437474247a",
+      "replay": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/spatial/across/replay.safetensors",
+      "replay_sha256": "50c5c6457cfb382f977671b69bb367c2902a95820929ba8e1f8f252cc60459c1"
+    },
+    "B_new/goal": {
+      "dense_model_sha256": "af9e258354d759710d04f13d40ac6e2e4377d5063f56fa8e0ef574f8c96e2732",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/goal/across/replay.json",
+      "manifest_sha256": "17bbdacda1200b971a8af8eeeccc033a8b8be18c7889d042473e731caf774939",
+      "replay": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/goal/across/replay.safetensors",
+      "replay_sha256": "e05462f4e56f5414120503c008311ae7c57bfc16d6bfd159c6b546ee1e68df61"
+    },
+    "B_new/long": {
+      "dense_model_sha256": "85ad87a5d9fbdcdee5d6ff9270a59355326b376f0d50fbc27ae606cbc9b7f8fc",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/long/across/replay.json",
+      "manifest_sha256": "f94357a62ee42fd1ea9c5c98c40ff532f3343078629791035342c69e209d04f4",
+      "replay": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/long/across/replay.safetensors",
+      "replay_sha256": "e82fef20346cb32e5be092121f714a890c9c681ccfb8562c9e315ac7a74b47e1"
+    },
+    "B_new/object": {
+      "dense_model_sha256": "a74c9349a78e122ecf9799e404ad748ffebba0b814b95e3dae4a7b32837f1510",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/object/across/replay.json",
+      "manifest_sha256": "eced96db2bae1c24f5ceefc45d0c53b9b1d4f7c2f9245d56b9dbe8dfe40c3f00",
+      "replay": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/object/across/replay.safetensors",
+      "replay_sha256": "c9b5e68c70e796bd633aaaef17ee121504e0d4660424f8c7abe4de1c858297aa"
+    },
+    "B_new/spatial": {
+      "dense_model_sha256": "008cb4a76898edbb70edb83bd54cb472722ba49b2760acfde24381e6d14fc75f",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/spatial/across/replay.json",
+      "manifest_sha256": "f8d4078c8d4e26367c9bc37238e550b8453a75248fcfc8604b410af79537a307",
+      "replay": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/spatial/across/replay.safetensors",
+      "replay_sha256": "0bd4dae19afa9865aaefcd2ad4c009fa03fb69a4aa8a72e67f9894e79bbd47a5"
+    }
+  },
+  "training": false
+}

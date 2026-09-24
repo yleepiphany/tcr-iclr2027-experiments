@@ -1,0 +1,3496 @@
+{
+  "schema": "appendix_abc_pool_content_audit_v1",
+  "accepted": true,
+  "jobs": 12,
+  "samples": 1800,
+  "accepted_jobs": [
+    {
+      "id": "collect-A_new-spatial",
+      "pool": "A_new",
+      "repeat": 1,
+      "suite": "spatial",
+      "manifest_sha256": "4b904038b38b87c8c303993d967cfa96f09aa83c7970830463123b437474247a",
+      "tensor_sha256": "50c5c6457cfb382f977671b69bb367c2902a95820929ba8e1f8f252cc60459c1",
+      "layout": {
+        "tensor_count": 7350,
+        "sample_count": 150,
+        "tensors_per_sample": 49,
+        "sample_000_shapes": {
+          "action_input": [
+            1,
+            50,
+            32
+          ],
+          "attention_mask": [
+            1,
+            1,
+            50,
+            1018
+          ],
+          "cond_mean": [
+            1,
+            1024
+          ],
+          "hidden_mean": [
+            1,
+            50,
+            1024
+          ],
+          "language_attention_mask": [
+            1,
+            1,
+            968,
+            968
+          ],
+          "language_hidden_mean": [
+            1,
+            968,
+            2048
+          ],
+          "language_position_ids": [
+            1,
+            968
+          ],
+          "position_ids": [
+            1,
+            50
+          ],
+          "prefix_key_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "time_input": [
+            1,
+            1024
+          ],
+          "vision_00.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_01.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_02.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_count": []
+        }
+      }
+    },
+    {
+      "id": "collect-A_new-object",
+      "pool": "A_new",
+      "repeat": 1,
+      "suite": "object",
+      "manifest_sha256": "2d333455d37026b5735985f3fa769e795fd4527b44a9d013346b118e9e290acd",
+      "tensor_sha256": "d60fefb31e6bc3aa14c4ce1fba408b1668b51fbee052aee68562c312db9cc8b2",
+      "layout": {
+        "tensor_count": 7350,
+        "sample_count": 150,
+        "tensors_per_sample": 49,
+        "sample_000_shapes": {
+          "action_input": [
+            1,
+            50,
+            32
+          ],
+          "attention_mask": [
+            1,
+            1,
+            50,
+            1018
+          ],
+          "cond_mean": [
+            1,
+            1024
+          ],
+          "hidden_mean": [
+            1,
+            50,
+            1024
+          ],
+          "language_attention_mask": [
+            1,
+            1,
+            968,
+            968
+          ],
+          "language_hidden_mean": [
+            1,
+            968,
+            2048
+          ],
+          "language_position_ids": [
+            1,
+            968
+          ],
+          "position_ids": [
+            1,
+            50
+          ],
+          "prefix_key_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "time_input": [
+            1,
+            1024
+          ],
+          "vision_00.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_01.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_02.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_count": []
+        }
+      }
+    },
+    {
+      "id": "collect-A_new-goal",
+      "pool": "A_new",
+      "repeat": 1,
+      "suite": "goal",
+      "manifest_sha256": "4f5e78ecf5fe3c0a1b0db4209599d6ae2a72360c9b3cc475e23e264e3df12cc1",
+      "tensor_sha256": "48f4fb18b87d59793a46fe3b91b27bd0ce448d16aa97cc6676402926f971d9de",
+      "layout": {
+        "tensor_count": 7350,
+        "sample_count": 150,
+        "tensors_per_sample": 49,
+        "sample_000_shapes": {
+          "action_input": [
+            1,
+            50,
+            32
+          ],
+          "attention_mask": [
+            1,
+            1,
+            50,
+            1018
+          ],
+          "cond_mean": [
+            1,
+            1024
+          ],
+          "hidden_mean": [
+            1,
+            50,
+            1024
+          ],
+          "language_attention_mask": [
+            1,
+            1,
+            968,
+            968
+          ],
+          "language_hidden_mean": [
+            1,
+            968,
+            2048
+          ],
+          "language_position_ids": [
+            1,
+            968
+          ],
+          "position_ids": [
+            1,
+            50
+          ],
+          "prefix_key_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "time_input": [
+            1,
+            1024
+          ],
+          "vision_00.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_01.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_02.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_count": []
+        }
+      }
+    },
+    {
+      "id": "collect-A_new-long",
+      "pool": "A_new",
+      "repeat": 1,
+      "suite": "long",
+      "manifest_sha256": "0d662e7829706883273f89b82f8501436fb617b378e3073f8c536b2ee387f0c6",
+      "tensor_sha256": "43fd3c5019ffb46e4e3a160482952549c9ea9f7e0c2c8c2ae787f996abc79eaa",
+      "layout": {
+        "tensor_count": 7350,
+        "sample_count": 150,
+        "tensors_per_sample": 49,
+        "sample_000_shapes": {
+          "action_input": [
+            1,
+            50,
+            32
+          ],
+          "attention_mask": [
+            1,
+            1,
+            50,
+            1018
+          ],
+          "cond_mean": [
+            1,
+            1024
+          ],
+          "hidden_mean": [
+            1,
+            50,
+            1024
+          ],
+          "language_attention_mask": [
+            1,
+            1,
+            968,
+            968
+          ],
+          "language_hidden_mean": [
+            1,
+            968,
+            2048
+          ],
+          "language_position_ids": [
+            1,
+            968
+          ],
+          "position_ids": [
+            1,
+            50
+          ],
+          "prefix_key_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "time_input": [
+            1,
+            1024
+          ],
+          "vision_00.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_01.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_02.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_count": []
+        }
+      }
+    },
+    {
+      "id": "collect-B_new-spatial",
+      "pool": "B_new",
+      "repeat": 2,
+      "suite": "spatial",
+      "manifest_sha256": "f8d4078c8d4e26367c9bc37238e550b8453a75248fcfc8604b410af79537a307",
+      "tensor_sha256": "0bd4dae19afa9865aaefcd2ad4c009fa03fb69a4aa8a72e67f9894e79bbd47a5",
+      "layout": {
+        "tensor_count": 7350,
+        "sample_count": 150,
+        "tensors_per_sample": 49,
+        "sample_000_shapes": {
+          "action_input": [
+            1,
+            50,
+            32
+          ],
+          "attention_mask": [
+            1,
+            1,
+            50,
+            1018
+          ],
+          "cond_mean": [
+            1,
+            1024
+          ],
+          "hidden_mean": [
+            1,
+            50,
+            1024
+          ],
+          "language_attention_mask": [
+            1,
+            1,
+            968,
+            968
+          ],
+          "language_hidden_mean": [
+            1,
+            968,
+            2048
+          ],
+          "language_position_ids": [
+            1,
+            968
+          ],
+          "position_ids": [
+            1,
+            50
+          ],
+          "prefix_key_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "time_input": [
+            1,
+            1024
+          ],
+          "vision_00.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_01.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_02.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_count": []
+        }
+      }
+    },
+    {
+      "id": "collect-B_new-object",
+      "pool": "B_new",
+      "repeat": 2,
+      "suite": "object",
+      "manifest_sha256": "eced96db2bae1c24f5ceefc45d0c53b9b1d4f7c2f9245d56b9dbe8dfe40c3f00",
+      "tensor_sha256": "c9b5e68c70e796bd633aaaef17ee121504e0d4660424f8c7abe4de1c858297aa",
+      "layout": {
+        "tensor_count": 7350,
+        "sample_count": 150,
+        "tensors_per_sample": 49,
+        "sample_000_shapes": {
+          "action_input": [
+            1,
+            50,
+            32
+          ],
+          "attention_mask": [
+            1,
+            1,
+            50,
+            1018
+          ],
+          "cond_mean": [
+            1,
+            1024
+          ],
+          "hidden_mean": [
+            1,
+            50,
+            1024
+          ],
+          "language_attention_mask": [
+            1,
+            1,
+            968,
+            968
+          ],
+          "language_hidden_mean": [
+            1,
+            968,
+            2048
+          ],
+          "language_position_ids": [
+            1,
+            968
+          ],
+          "position_ids": [
+            1,
+            50
+          ],
+          "prefix_key_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "time_input": [
+            1,
+            1024
+          ],
+          "vision_00.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_01.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_02.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_count": []
+        }
+      }
+    },
+    {
+      "id": "collect-B_new-goal",
+      "pool": "B_new",
+      "repeat": 2,
+      "suite": "goal",
+      "manifest_sha256": "17bbdacda1200b971a8af8eeeccc033a8b8be18c7889d042473e731caf774939",
+      "tensor_sha256": "e05462f4e56f5414120503c008311ae7c57bfc16d6bfd159c6b546ee1e68df61",
+      "layout": {
+        "tensor_count": 7350,
+        "sample_count": 150,
+        "tensors_per_sample": 49,
+        "sample_000_shapes": {
+          "action_input": [
+            1,
+            50,
+            32
+          ],
+          "attention_mask": [
+            1,
+            1,
+            50,
+            1018
+          ],
+          "cond_mean": [
+            1,
+            1024
+          ],
+          "hidden_mean": [
+            1,
+            50,
+            1024
+          ],
+          "language_attention_mask": [
+            1,
+            1,
+            968,
+            968
+          ],
+          "language_hidden_mean": [
+            1,
+            968,
+            2048
+          ],
+          "language_position_ids": [
+            1,
+            968
+          ],
+          "position_ids": [
+            1,
+            50
+          ],
+          "prefix_key_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "time_input": [
+            1,
+            1024
+          ],
+          "vision_00.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_01.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_02.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_count": []
+        }
+      }
+    },
+    {
+      "id": "collect-B_new-long",
+      "pool": "B_new",
+      "repeat": 2,
+      "suite": "long",
+      "manifest_sha256": "f94357a62ee42fd1ea9c5c98c40ff532f3343078629791035342c69e209d04f4",
+      "tensor_sha256": "e82fef20346cb32e5be092121f714a890c9c681ccfb8562c9e315ac7a74b47e1",
+      "layout": {
+        "tensor_count": 7350,
+        "sample_count": 150,
+        "tensors_per_sample": 49,
+        "sample_000_shapes": {
+          "action_input": [
+            1,
+            50,
+            32
+          ],
+          "attention_mask": [
+            1,
+            1,
+            50,
+            1018
+          ],
+          "cond_mean": [
+            1,
+            1024
+          ],
+          "hidden_mean": [
+            1,
+            50,
+            1024
+          ],
+          "language_attention_mask": [
+            1,
+            1,
+            968,
+            968
+          ],
+          "language_hidden_mean": [
+            1,
+            968,
+            2048
+          ],
+          "language_position_ids": [
+            1,
+            968
+          ],
+          "position_ids": [
+            1,
+            50
+          ],
+          "prefix_key_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "time_input": [
+            1,
+            1024
+          ],
+          "vision_00.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_01.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_02.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_count": []
+        }
+      }
+    },
+    {
+      "id": "collect-C_new-spatial",
+      "pool": "C_new",
+      "repeat": 3,
+      "suite": "spatial",
+      "manifest_sha256": "007d6cf2babe9e9f4e2c01eb8ab7d30edd1660aafcfe453eec929f74dcb8ccee",
+      "tensor_sha256": "77598d5e3054662abfddc4ff4703de2c8e7f3bb3a9ff481c45fc32f3288e42d1",
+      "layout": {
+        "tensor_count": 7350,
+        "sample_count": 150,
+        "tensors_per_sample": 49,
+        "sample_000_shapes": {
+          "action_input": [
+            1,
+            50,
+            32
+          ],
+          "attention_mask": [
+            1,
+            1,
+            50,
+            1018
+          ],
+          "cond_mean": [
+            1,
+            1024
+          ],
+          "hidden_mean": [
+            1,
+            50,
+            1024
+          ],
+          "language_attention_mask": [
+            1,
+            1,
+            968,
+            968
+          ],
+          "language_hidden_mean": [
+            1,
+            968,
+            2048
+          ],
+          "language_position_ids": [
+            1,
+            968
+          ],
+          "position_ids": [
+            1,
+            50
+          ],
+          "prefix_key_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "time_input": [
+            1,
+            1024
+          ],
+          "vision_00.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_01.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_02.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_count": []
+        }
+      }
+    },
+    {
+      "id": "collect-C_new-object",
+      "pool": "C_new",
+      "repeat": 3,
+      "suite": "object",
+      "manifest_sha256": "bc86de5030c192d47d071e6ecfc6fdc0857f22c10b0471f919482b87ebacd2a3",
+      "tensor_sha256": "47d301048e865d084e37627d9fdbf765c13d5a166f195d46afa1ad0cf6b33754",
+      "layout": {
+        "tensor_count": 7350,
+        "sample_count": 150,
+        "tensors_per_sample": 49,
+        "sample_000_shapes": {
+          "action_input": [
+            1,
+            50,
+            32
+          ],
+          "attention_mask": [
+            1,
+            1,
+            50,
+            1018
+          ],
+          "cond_mean": [
+            1,
+            1024
+          ],
+          "hidden_mean": [
+            1,
+            50,
+            1024
+          ],
+          "language_attention_mask": [
+            1,
+            1,
+            968,
+            968
+          ],
+          "language_hidden_mean": [
+            1,
+            968,
+            2048
+          ],
+          "language_position_ids": [
+            1,
+            968
+          ],
+          "position_ids": [
+            1,
+            50
+          ],
+          "prefix_key_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "time_input": [
+            1,
+            1024
+          ],
+          "vision_00.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_01.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_02.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_count": []
+        }
+      }
+    },
+    {
+      "id": "collect-C_new-goal",
+      "pool": "C_new",
+      "repeat": 3,
+      "suite": "goal",
+      "manifest_sha256": "e2178870e1fa1b1aaf3ec71922ccc93276ed76642c13a8822fa0e13a85001230",
+      "tensor_sha256": "813b419e6b193e5bcafb6a3de6f752b56107926cb9217163d9532a38184b975b",
+      "layout": {
+        "tensor_count": 7350,
+        "sample_count": 150,
+        "tensors_per_sample": 49,
+        "sample_000_shapes": {
+          "action_input": [
+            1,
+            50,
+            32
+          ],
+          "attention_mask": [
+            1,
+            1,
+            50,
+            1018
+          ],
+          "cond_mean": [
+            1,
+            1024
+          ],
+          "hidden_mean": [
+            1,
+            50,
+            1024
+          ],
+          "language_attention_mask": [
+            1,
+            1,
+            968,
+            968
+          ],
+          "language_hidden_mean": [
+            1,
+            968,
+            2048
+          ],
+          "language_position_ids": [
+            1,
+            968
+          ],
+          "position_ids": [
+            1,
+            50
+          ],
+          "prefix_key_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "time_input": [
+            1,
+            1024
+          ],
+          "vision_00.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_01.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_02.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_count": []
+        }
+      }
+    },
+    {
+      "id": "collect-C_new-long",
+      "pool": "C_new",
+      "repeat": 3,
+      "suite": "long",
+      "manifest_sha256": "88bc62a034952a939fcedd4b0d6217e1c888cf7fe1318623f34260858643b21d",
+      "tensor_sha256": "20a225b5682189efb96818132232e3fd605ef6ad2928ee21b98e0db98b24b69a",
+      "layout": {
+        "tensor_count": 7350,
+        "sample_count": 150,
+        "tensors_per_sample": 49,
+        "sample_000_shapes": {
+          "action_input": [
+            1,
+            50,
+            32
+          ],
+          "attention_mask": [
+            1,
+            1,
+            50,
+            1018
+          ],
+          "cond_mean": [
+            1,
+            1024
+          ],
+          "hidden_mean": [
+            1,
+            50,
+            1024
+          ],
+          "language_attention_mask": [
+            1,
+            1,
+            968,
+            968
+          ],
+          "language_hidden_mean": [
+            1,
+            968,
+            2048
+          ],
+          "language_position_ids": [
+            1,
+            968
+          ],
+          "position_ids": [
+            1,
+            50
+          ],
+          "prefix_key_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_key_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_00": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_01": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_02": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_03": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_04": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_05": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_06": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_07": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_08": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_09": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_10": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_11": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_12": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_13": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_14": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_15": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_16": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "prefix_value_17": [
+            1,
+            1,
+            968,
+            256
+          ],
+          "time_input": [
+            1,
+            1024
+          ],
+          "vision_00.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_01.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_02.hidden": [
+            1,
+            256,
+            1152
+          ],
+          "vision_count": []
+        }
+      }
+    }
+  ],
+  "plan_sha256": "5bc77a36bec05a232bbdb51388ff4b9147d3171bc8e789863931d2fb5db6f4db",
+  "terminal_sha256": "9369ca9716d73f421e44992c55906b2d66a0000065722941a371eeee012f1c1c",
+  "heldout_disjoint": true,
+  "calibration_state_indices": [
+    30,
+    31,
+    32
+  ]
+}

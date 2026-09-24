@@ -1,0 +1,589 @@
+{
+  "schema": "exact_source_snapshot_v1",
+  "retrieved_at_utc": "2026-09-24T08:06:15.292868+00:00",
+  "source_transport": "authenticated read-only SSH; exact bytes, no rewritten native source",
+  "files": [
+    {
+      "path": "native_sources/experiments/claude-20260917/materialize_second_round_v3.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-20260917/materialize_second_round_v3.py",
+      "sha256": "81cdad5db559d02267fa0553d5c260c5ff2b45313f988d5210b759c1b8333837",
+      "bytes": 123824
+    },
+    {
+      "path": "native_sources/experiments/claude-firstpass-cause-20260920/card_flock.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-firstpass-cause-20260920/card_flock.py",
+      "sha256": "50c150a929abf5ccbbba29e2ac650f5bab207e23a2f19667206819b195538da9",
+      "bytes": 5708
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/audit_capture.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/audit_capture.py",
+      "sha256": "b4dad891b5574ef2953869184e3c6ee6bb2bf01f0d80b09d3b3264146a5855a0",
+      "bytes": 16254
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/build_dense_experts.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/build_dense_experts.py",
+      "sha256": "e37e2b1e9a5690faa2de6e72058f73436f1c4809e1d49b2b002edf42ac68531c",
+      "bytes": 7354
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/build_dense_soup.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/build_dense_soup.py",
+      "sha256": "5c9995f4e4b95112be87d82bf6df5461e6793dd499269ef8b7b3272476ec8dcb",
+      "bytes": 5216
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/capture_contract.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/capture_contract.py",
+      "sha256": "403b94f7e3b69a6e51c660dbe89d5f2c37e4decee78d8e2471c070b55fcf214b",
+      "bytes": 8807
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/fast_official_instruction.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/fast_official_instruction.py",
+      "sha256": "033ea48c8a401807c3edeb38d5953af868cb136958c4c3a76008833c3590ae9a",
+      "bytes": 3759
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/finalize_dense_experts.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/finalize_dense_experts.py",
+      "sha256": "0352267eea8a63c95ad053d9dc0fcfb94014be76612d01f283014e93de8cb271",
+      "bytes": 7634
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/preflight_reset_bank.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/preflight_reset_bank.py",
+      "sha256": "e0d1194be039fc063e5cdc9cfc15c0a919e60c8641c974d3c34e9fe9bcacc513",
+      "bytes": 11228
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/preflight_reset_bank_v2.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/preflight_reset_bank_v2.py",
+      "sha256": "6ec988e889b1f2e712c1ad0604bf3839693890b9e725540cc831c684f2b0167d",
+      "bytes": 9839
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/preflight_reset_bank_v3.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/preflight_reset_bank_v3.py",
+      "sha256": "5a7217070cf0760d1d9e98f003ea483b39b6aee0f2adda4e79e87c4c9437e709",
+      "bytes": 9237
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/robotwin_solver_contract.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/robotwin_solver_contract.py",
+      "sha256": "0035c3877b3c587d4a9e8fbe9b157a7493c9983cd9b64da1cf099e42546f4431",
+      "bytes": 7866
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/run_capture.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/run_capture.py",
+      "sha256": "26ad76a066d52dcab1660f7012e68845c7f28bf77b99b40036d84399c6d33364",
+      "bytes": 19493
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/run_capture_queue.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/run_capture_queue.py",
+      "sha256": "b21ac6a56c13d965ba15ec87b9f2ad2af3105647b6685764e5c79ee9fe5b52f0",
+      "bytes": 20150
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/run_capture_recovery_v3.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/run_capture_recovery_v3.py",
+      "sha256": "00310f6bac18b54608689fa3e96e043aa5a8e0b7eaa45a425aa1a943a925e333",
+      "bytes": 6805
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/run_capture_v3.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/run_capture_v3.py",
+      "sha256": "19ebce273a7b118522b3fed2ea6b16456e53bad93c50578328f8b65fb42b6adf",
+      "bytes": 19493
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/run_materializer.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/run_materializer.py",
+      "sha256": "7acec969d633691afaa9fb37038d12694e375a993071339598f1981d6a30b2a0",
+      "bytes": 1577
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/run_tcr_builds_v1.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/run_tcr_builds_v1.py",
+      "sha256": "72a0acaa842ee9d178880eed930ec0c5374bdade9be73fefa169a809a6c16fdd",
+      "bytes": 18550
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/run_tcr_formal_v1.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/run_tcr_formal_v1.py",
+      "sha256": "d88f6485539eb70358098112c12ebfefbebf830ad50af330fc0a0c5b56b68a46",
+      "bytes": 21553
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/run_tcr_formal_v2.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/run_tcr_formal_v2.py",
+      "sha256": "267a9da7b3ff5d5452cfcee1b23a9d31f574b48b00dd02d64d35f54e2343ce6b",
+      "bytes": 21615
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/test_audit_amended_bank.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/test_audit_amended_bank.py",
+      "sha256": "1808d4a00636eac5174a378ae88f682d9037ca52b365117ecbea511ecb10ac49",
+      "bytes": 2823
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/test_capture_contract.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/test_capture_contract.py",
+      "sha256": "f2b143d3a9547ae73befa0f457045cc6ebc06107bc5179b56bcf2269296cc4cc",
+      "bytes": 3352
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/test_fast_official_instruction.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/test_fast_official_instruction.py",
+      "sha256": "388c19951050a538d339c18e882ad7fbce29dbbd1874422238591702ba4f654c",
+      "bytes": 2481
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/test_preflight_reset_bank.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/test_preflight_reset_bank.py",
+      "sha256": "8570c801d88c04cd0a6417e2d91ae7520b45224baa318110262af03c0824d9de",
+      "bytes": 2589
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/test_queue_amended_protocol.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/test_queue_amended_protocol.py",
+      "sha256": "5a9ee40e91c969f97ce65bd91185f235893b5888368191f8105d09199c93a78b",
+      "bytes": 7267
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/test_solver_contract.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/test_solver_contract.py",
+      "sha256": "20c502b206bd179ef26c9c937eeec2df8df968f18ce60db0af3bf77c647f62a3",
+      "bytes": 2854
+    },
+    {
+      "path": "native_sources/experiments/claude-robotwin-tcr-20260923/test_tcr_formal_bank.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/test_tcr_formal_bank.py",
+      "sha256": "3c1e1edad3a7d5277af7aae8343396a7d59c2729b3f0c7d0a171525ad2d5d0a1",
+      "bytes": 1305
+    },
+    {
+      "path": "native_sources/experiments/pi05-pro-baselines-codex-20260924/audit_baseline_formal.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/pi05-pro-baselines-codex-20260924/audit_baseline_formal.py",
+      "sha256": "456646093e257c834d154e7125bccd3bdd6b1a4206d719005f67a3ab04506631",
+      "bytes": 13999
+    },
+    {
+      "path": "native_sources/experiments/pi05-pro-baselines-codex-20260924/audit_clean_soup_reference.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/pi05-pro-baselines-codex-20260924/audit_clean_soup_reference.py",
+      "sha256": "e7791bee0cc48928dcf1f40ae4dd6f392709bfc158c71c5fc15bb9cc9d8cf62b",
+      "bytes": 6169
+    },
+    {
+      "path": "native_sources/experiments/pi05-pro-baselines-codex-20260924/audit_soup_formal.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/pi05-pro-baselines-codex-20260924/audit_soup_formal.py",
+      "sha256": "b2327cd4a17da64c43eedf71f47a131e557dca12191168489776e0b758a1c24c",
+      "bytes": 12363
+    },
+    {
+      "path": "native_sources/experiments/pi05-pro-baselines-codex-20260924/derive_soup_four_average.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/pi05-pro-baselines-codex-20260924/derive_soup_four_average.py",
+      "sha256": "f7be12cfdd320c94fd4f31d18efe88980270f300b31bb1f106d40505d9ae8c26",
+      "bytes": 4700
+    },
+    {
+      "path": "native_sources/experiments/pi05-pro-baselines-codex-20260924/prepare_pro_baseline_selection_v1.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/pi05-pro-baselines-codex-20260924/prepare_pro_baseline_selection_v1.py",
+      "sha256": "9c285135b0c6f10dacd2dca723f719782f0c209493bdfacc77eb16656b78da89",
+      "bytes": 8868
+    },
+    {
+      "path": "native_sources/experiments/pi05-pro-baselines-codex-20260924/prepare_soup.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/pi05-pro-baselines-codex-20260924/prepare_soup.py",
+      "sha256": "9ad669275620bd3fd9b7e9598a23df0afa521eddc0e10b68fb84043b39718dea",
+      "bytes": 6373
+    },
+    {
+      "path": "native_sources/experiments/pi05-pro-baselines-codex-20260924/resume_matched_pro.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/pi05-pro-baselines-codex-20260924/resume_matched_pro.py",
+      "sha256": "a9811d45f8ed04c8f827367997817eb7d0259a81114b3ebdaddd2107a3811a42",
+      "bytes": 16613
+    },
+    {
+      "path": "native_sources/experiments/pi05-pro-baselines-codex-20260924/run_baseline_followups.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/pi05-pro-baselines-codex-20260924/run_baseline_followups.py",
+      "sha256": "d1fb475d6758fce0303a19e7331d01506c339e1d252634f6ffd55e30b85aa8a3",
+      "bytes": 5936
+    },
+    {
+      "path": "native_sources/experiments/pi05-pro-baselines-codex-20260924/run_baseline_formal.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/pi05-pro-baselines-codex-20260924/run_baseline_formal.py",
+      "sha256": "d2ed668b5780eb0c428e9a59cbf040a04962189a8429edbfe8aa114d7f126381",
+      "bytes": 17561
+    },
+    {
+      "path": "native_sources/experiments/pi05-pro-baselines-codex-20260924/run_soup_formal.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/pi05-pro-baselines-codex-20260924/run_soup_formal.py",
+      "sha256": "d9c1e83bed4034a8cd24ae58e75309081a69db9cf62241a35d81600d9c938249",
+      "bytes": 16297
+    },
+    {
+      "path": "native_sources/experiments/pi05-pro-baselines-codex-20260924/wait_baseline_audits.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/pi05-pro-baselines-codex-20260924/wait_baseline_audits.py",
+      "sha256": "a0290c22e7fa46a49104f0af2342e8526389955f6b625d12452721193b86cd13",
+      "bytes": 4084
+    },
+    {
+      "path": "native_sources/experiments/pi05-pro-baselines-codex-20260924/wait_soup_audit.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/pi05-pro-baselines-codex-20260924/wait_soup_audit.py",
+      "sha256": "fac1e03652c52052e354534e1e7cc8f2509852009955da1565cd42cf54c02a8c",
+      "bytes": 4915
+    },
+    {
+      "path": "native_sources/experiments/robotwin-tcr-local-codex-20260924/run_materializer_local_v1.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/run_materializer_local_v1.py",
+      "sha256": "07a6c9e94c3eb042a9f82b73b64b0cef44d43d357f8cac73eeef9188bb59599b",
+      "bytes": 1886
+    },
+    {
+      "path": "native_sources/experiments/robotwin-tcr-local-codex-20260924/run_materializer_local_v2.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/run_materializer_local_v2.py",
+      "sha256": "198f40d26f06405ecca36b07a267d9a8ce55e7001c8027cd242069c94044b832",
+      "bytes": 4650
+    },
+    {
+      "path": "native_sources/experiments/robotwin-tcr-local-codex-20260924/run_materializer_local_v3.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/run_materializer_local_v3.py",
+      "sha256": "b50f7bc225155acf31191f023574e6f3c780d46a78e9cebb62f60573fab01b76",
+      "bytes": 5891
+    },
+    {
+      "path": "native_sources/experiments/robotwin-tcr-local-codex-20260924/run_materializer_local_v4.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/run_materializer_local_v4.py",
+      "sha256": "f7e4e0fbb5be1626c3c0a1c9d6fad7cb4ef847012d8aa1f493a1f3ee1f7e5a84",
+      "bytes": 6884
+    },
+    {
+      "path": "native_sources/experiments/robotwin-tcr-local-codex-20260924/run_tcr_builds_local_v1.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/run_tcr_builds_local_v1.py",
+      "sha256": "1018e57fe594868611d4ddc0ac0618f315c6ffa4875174dccc1e8758bf31eba0",
+      "bytes": 21718
+    },
+    {
+      "path": "native_sources/experiments/robotwin-tcr-local-codex-20260924/run_tcr_builds_local_v2.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/run_tcr_builds_local_v2.py",
+      "sha256": "0f3877606722b8a427c142afde4dee574b62154c4ac36a4c2ab227e4f400cf3a",
+      "bytes": 23275
+    },
+    {
+      "path": "native_sources/experiments/robotwin-tcr-local-codex-20260924/run_tcr_builds_local_v3.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/run_tcr_builds_local_v3.py",
+      "sha256": "4cba4bdfef957f1bad595ffaab537ead191b5c98c06c61482be9e9561693b83e",
+      "bytes": 26267
+    },
+    {
+      "path": "native_sources/experiments/robotwin-tcr-local-codex-20260924/run_tcr_builds_local_v4.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/run_tcr_builds_local_v4.py",
+      "sha256": "743be6ec4676a9a06069532dd5e69099067ee7bf633ce0cedc5bc50991a4d6e1",
+      "bytes": 27194
+    },
+    {
+      "path": "native_sources/experiments/robotwin-tcr-local-codex-20260924/run_tcr_formal_local_v1.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/run_tcr_formal_local_v1.py",
+      "sha256": "fe3f90c0bbe51982e450f3e0ecaa4ed68ef028551122a6f176e0c6f6e6d6b730",
+      "bytes": 22228
+    },
+    {
+      "path": "native_sources/experiments/robotwin-tcr-local-codex-20260924/run_tcr_formal_local_v2.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/run_tcr_formal_local_v2.py",
+      "sha256": "e3ccc7d9600fc1ee49d6daa250a0dc53f5eb3c05a46434f44540ce292c74df2f",
+      "bytes": 22866
+    },
+    {
+      "path": "native_sources/experiments/robotwin-tcr-local-codex-20260924/run_tcr_formal_local_v3.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/run_tcr_formal_local_v3.py",
+      "sha256": "6fd49137dbffff0d3867f2b55ff862f2a72f84d504b95ac569489d806ffe1986",
+      "bytes": 22865
+    },
+    {
+      "path": "native_sources/experiments/robotwin-tcr-local-codex-20260924/run_tcr_formal_local_v4.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/run_tcr_formal_local_v4.py",
+      "sha256": "6ad441da4f60fc8d90e83dd37631121938e78bafbebb99b90e2fbeacde6db9ce",
+      "bytes": 22859
+    },
+    {
+      "path": "native_sources/experiments/robotwin-tcr-local-codex-20260924/wait_independent_audit_v1.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/wait_independent_audit_v1.py",
+      "sha256": "9dbce6b02e335b3528337aa91d8bf7d9e86ea4387715b79b58ef8352ea1b4370",
+      "bytes": 5564
+    },
+    {
+      "path": "native_sources/experiments/robotwin-tcr-local-codex-20260924/wait_independent_audit_v2.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/wait_independent_audit_v2.py",
+      "sha256": "a37c7d57dd64c4ec9eab505f50c9444d6b276438d4019398b6846861d0d201b2",
+      "bytes": 5569
+    },
+    {
+      "path": "native_sources/experiments/robotwin-tcr-local-codex-20260924/wait_independent_audit_v3.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/wait_independent_audit_v3.py",
+      "sha256": "361c568217740bfcc4d18fda95d4007123718ca5d33a144895ee405fb7b17fa2",
+      "bytes": 5563
+    },
+    {
+      "path": "native_sources/experiments/robotwin-tcr-local-codex-20260924/wait_independent_audit_v4.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/wait_independent_audit_v4.py",
+      "sha256": "7925cfe8cabfc6bcd30132036fec2f690f51cef184f52c97692e4740bd4cb4e5",
+      "bytes": 5563
+    },
+    {
+      "path": "native_sources/scripts/eval_pi05_policy_with_extension_selection.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_pi05_policy_with_extension_selection.py",
+      "sha256": "1afe786c5cbd12000b088a7be364a99084cc41a5f90345f2efcb9c065e4f44a4",
+      "bytes": 10115
+    },
+    {
+      "path": "native_sources/scripts/materialize_pi05_block_regmeanpp.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/materialize_pi05_block_regmeanpp.py",
+      "sha256": "22449eafe9afa5ca0b35a40c1b105e088e5bb777bf60e19bfd5c9626b73754aa",
+      "bytes": 52911
+    },
+    {
+      "path": "native_sources/scripts/materialize_pi05_multiexpert_parameter_baseline.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/materialize_pi05_multiexpert_parameter_baseline.py",
+      "sha256": "ff9308b5e7391ed05915253155f2f06f9a2c46b198681bf7e23d399d2e9a1d60",
+      "bytes": 18775
+    },
+    {
+      "path": "native_sources/scripts/materialize_robotwin_three_expert_ties_formal_v1.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/materialize_robotwin_three_expert_ties_formal_v1.py",
+      "sha256": "d94cf73f31cc734c682aa87a189a2559cb441b7d6e7e81682e01ca3d7ed78862",
+      "bytes": 5826
+    },
+    {
+      "path": "native_sources/scripts/pi05_replay_prefix.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/pi05_replay_prefix.py",
+      "sha256": "fcfc11854c866ecda4f0b22b0a3f0d0e5b912db01f1b0a9239c37a1296d46a3a",
+      "bytes": 863
+    },
+    {
+      "path": "native_sources/scripts/pi05_table3_contract.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/pi05_table3_contract.py",
+      "sha256": "40fda11cdf07ec7f69fa8e1b6216066d90ace3e39d7ae0f4067fada174abd359",
+      "bytes": 4205
+    },
+    {
+      "path": "native_sources/scripts/run_iclr2027_robotwin_checkpoint_development.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_iclr2027_robotwin_checkpoint_development.py",
+      "sha256": "d156e3d9f3553131e46d88ea35885708d1fb6c0c5d501b219c4ded0ff5b86a15",
+      "bytes": 21733
+    },
+    {
+      "path": "native_sources/scripts/run_iclr2027_robotwin_development_slices.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_iclr2027_robotwin_development_slices.py",
+      "sha256": "7e9004dc2280437a39ad5fa980e2b0115d51971c76c1ea9a0d81b2c9745f9d98",
+      "bytes": 11899
+    },
+    {
+      "path": "native_sources/scripts/run_iclr2027_robotwin_native_pi05_smoke_v2.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_iclr2027_robotwin_native_pi05_smoke_v2.py",
+      "sha256": "4a46efa92776f0ad0caa3fd664be4cb582dd6e5ed9a4504b18c665d17c908971",
+      "bytes": 27268
+    },
+    {
+      "path": "native_sources/scripts/run_pi05_libero_pro_evaluation.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_pi05_libero_pro_evaluation.py",
+      "sha256": "35665c212ed2e84ae159003b6ca2642a695e4dcf45bd1c02064183526ac2ffef",
+      "bytes": 14954
+    },
+    {
+      "path": "native_sources/scripts/run_robotwin_shared_eval_slice.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_robotwin_shared_eval_slice.py",
+      "sha256": "67fad4aab89cce0d51d5216dbd0ff20dc3961a13ec9595812aff002f7a1d8727",
+      "bytes": 8900
+    },
+    {
+      "path": "native_sources/scripts/watch_robotwin_experts_formal_v2.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/watch_robotwin_experts_formal_v2.py",
+      "sha256": "14256564bb43931c8eb9005d15446eeeda332223401a8634aba4647918c7109d",
+      "bytes": 25560
+    },
+    {
+      "path": "native_sources/scripts/watch_robotwin_model_soups_formal_v1.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/watch_robotwin_model_soups_formal_v1.py",
+      "sha256": "8ee3f25682565ca101f7b9869155cf03a8de5781716ab75bd56be0a13b3d559a",
+      "bytes": 9973
+    },
+    {
+      "path": "native_sources/src/vla_merge/libero_extension.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/libero_extension.py",
+      "sha256": "0cc191fe2cb9fd257229d7f8f559fd89b332e3289f51f37a422d8aece9f83034",
+      "bytes": 9981
+    },
+    {
+      "path": "native_sources/src/vla_merge/libero_procedural_bank.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/libero_procedural_bank.py",
+      "sha256": "9753f4ced7e0237a9bf82b836834dcad745a9bf4ee0146af292b70d0aa9072b5",
+      "bytes": 17380
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/manifest.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/manifest.json",
+      "sha256": "a0fa026982b70139c9fc52e88705947c26d818ddca2abe5a657df88714533614",
+      "bytes": 13830
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v2/expert-dense-bank.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v2/expert-dense-bank.json",
+      "sha256": "4bcccaa5e914f684c740338b8b99065b45e27f2ac5dea8461ec1fe17dd5981af",
+      "bytes": 5276
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/reset-preflight-attempt-03/candidate-protocol.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/reset-preflight-attempt-03/candidate-protocol.json",
+      "sha256": "65be22e1e3cbd2598f7dbd06402547de541c7315f837977913ea32dc3ec2d807",
+      "bytes": 47249
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/protocol.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/protocol.json",
+      "sha256": "ed47fc5340cfb53a4a1c497a08ef3aca984c0ad50182748ac3df3ca7e060d0de",
+      "bytes": 6444
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/materialized/ties/pretrained_model/parameter_baseline_manifest.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/materialized/ties/pretrained_model/parameter_baseline_manifest.json",
+      "sha256": "88d9012a92fa31dd47cad89cb05eb752f750c455a448e0590bd1745d1650b62b",
+      "bytes": 106970
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-master-v1/expert-bank-015000.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-master-v1/expert-bank-015000.json",
+      "sha256": "a69322b7d4e83f92716b2c01fa6640dcd068b96f60048a90926fa5e92808be10",
+      "bytes": 12833
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/featcal/selection-v1/manifest.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/featcal/selection-v1/manifest.json",
+      "sha256": "cbd455255be21186db59117cc24eec2672e0fa598e6d147407a07a347600d1b0",
+      "bytes": 4351
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/followup-chain-v1/state.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/followup-chain-v1/state.json",
+      "sha256": "3c2b403980e7a18a92ac1468f3505a605b127dbad42c8f0aabff4de14891af5a",
+      "bytes": 181
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/regmean_pp/selection-v1/manifest.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/regmean_pp/selection-v1/manifest.json",
+      "sha256": "61490ca165af7ad60ba33e6f3ab1b569a681db7ebb12b4c5f29e492cfc9c33b2",
+      "bytes": 4441
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/ties_merging/formal-v1/queue-ended.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/ties_merging/formal-v1/queue-ended.json",
+      "sha256": "5a660ed361e8b1474c4b2ef63e9a3bea481d7c21dd27f968ae5bf78c5e3b1046",
+      "bytes": 322
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/ties_merging/selection-v1/manifest.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/ties_merging/selection-v1/manifest.json",
+      "sha256": "e451b150756e302201a1cce736eb04e5abaf20d228561ca70119922262807e5e",
+      "bytes": 4430
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/pi05-pro-soup-codex-20260924/formal-v1/queue-ended.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-soup-codex-20260924/formal-v1/queue-ended.json",
+      "sha256": "c7156fd03c6fe9a1e7d120d7b8bf69d00d7446854bbfe82e851ce32f240ef971",
+      "bytes": 236
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/pi05-pro-soup-codex-20260924/selection-v1/manifest.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-soup-codex-20260924/selection-v1/manifest.json",
+      "sha256": "ef24aefb638317a7820409eac535b707b3af506c435d0628deaab388d39128e3",
+      "bytes": 3820
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-build-attempt-04/queue-ended.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-build-attempt-04/queue-ended.json",
+      "sha256": "ba6656c13c3c9c49651aaacde84ec5c6cf9ba98e63cd1143c7573fa9c4bf6892",
+      "bytes": 3928
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-formal-attempt-05/state.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-formal-attempt-05/state.json",
+      "sha256": "6b7b5f4e71f9451e6842806b2d9aad1b960238e7a4751ed524a27f1d1a8342d4",
+      "bytes": 410
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/transfer-accept.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/transfer-accept.json",
+      "sha256": "dd08384998a2a0f58dde8dd584bad7109af1e49a3ea55ff1fa19e40d91776074",
+      "bytes": 1405
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal-summary.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal-summary.json",
+      "sha256": "a2b07251bda7b5673909ef465977f6782572ecdbcdf918696e052621320cc5e2",
+      "bytes": 31205
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal-summary.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal-summary.json",
+      "sha256": "e4fba54cdbe1d1f503e099dac7df98c0f461410b67687e5514cf7f5444f3e3ac",
+      "bytes": 32884
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/featcal/formal-v1/plan.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/featcal/formal-v1/plan.json",
+      "sha256": "25f04c5076c3195efb0bb73b3eb11beb0a3785c5f59c55ae0b9b080460b18b24",
+      "bytes": 1564678
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/regmean_pp/formal-v1/plan.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/regmean_pp/formal-v1/plan.json",
+      "sha256": "697ed9707b6fb6d73657d0abcaab8cd59b923a1bcb5cd4398360cab52a9d39db",
+      "bytes": 1584841
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/ties_merging/formal-v1/plan.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/ties_merging/formal-v1/plan.json",
+      "sha256": "eec53167c4204960155b903bea8f564f44ee79387bef1212ab3f3191576107cf",
+      "bytes": 1589163
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/pi05-pro-soup-codex-20260924/formal-v1/plan.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-soup-codex-20260924/formal-v1/plan.json",
+      "sha256": "6ba9c3450d4f09a15eda940ea6c8398445dad3ef08a0606c58160a2ff426b7a0",
+      "bytes": 1560838
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-build-attempt-04/configs/r01-passB.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-build-attempt-04/configs/r01-passB.json",
+      "sha256": "0ce1a4d3324f097d174b7fa74c5db2b2ac0882349e97312780030239b799f4b2",
+      "bytes": 642
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-build-attempt-04/configs/r02-passB.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-build-attempt-04/configs/r02-passB.json",
+      "sha256": "d21f3d8f1520d09f71250b732f9f42871416e6e0a0739188eb215a5f1de18a0a",
+      "bytes": 642
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-build-attempt-04/configs/r03-passB.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-build-attempt-04/configs/r03-passB.json",
+      "sha256": "af61d40822e7e25a5e30f9db352b28a79978b4100f445af378bd433cfaf67125",
+      "bytes": 642
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-build-attempt-04/plan.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-build-attempt-04/plan.json",
+      "sha256": "2255ee5043f0c1e839fb517b23470370e6bd239ea5210db0dea844d56790b1ca",
+      "bytes": 36012
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-formal-attempt-05/plan.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-formal-attempt-05/plan.json",
+      "sha256": "a9bbd2fc28571ce26f2b83019106ad3b87ed025a50b07eed50d8b0b6b5799bd3",
+      "bytes": 14385
+    }
+  ]
+}

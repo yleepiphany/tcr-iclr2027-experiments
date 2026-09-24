@@ -1,0 +1,162 @@
+{
+  "status": "PASS",
+  "mode": "cpu",
+  "checks": [
+    {
+      "name": "actual_source_and_config_hashes",
+      "pass": true,
+      "files": 166
+    },
+    {
+      "name": "real_contract_imports_and_nested_row_budgets",
+      "pass": true,
+      "module_count": 418,
+      "second_pass_rows": {
+        "low": 666000,
+        "base": 1331600,
+        "high": 1997200
+      }
+    },
+    {
+      "name": "appendix_entrypoints_present",
+      "pass": true,
+      "workflows": 7
+    },
+    {
+      "name": "cost_null_semantics_units_and_duplicate_guard",
+      "pass": true
+    }
+  ],
+  "gpu_started": false,
+  "training_started": false,
+  "source_repository_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098",
+  "workspace_root": "/private/tmp/tcr-release-no-assets",
+  "external_asset_presence": {
+    "required": 61,
+    "missing": [
+      "appendix.dense_bank",
+      "appendix.expert.spatial",
+      "appendix.adapter.spatial",
+      "appendix.expert.object",
+      "appendix.adapter.object",
+      "appendix.expert.goal",
+      "appendix.adapter.goal",
+      "appendix.expert.long",
+      "appendix.adapter.long",
+      "appendix.pool.A_new.spatial.manifest",
+      "appendix.pool.A_new.spatial.tensors",
+      "appendix.pool.A_new.object.manifest",
+      "appendix.pool.A_new.object.tensors",
+      "appendix.pool.A_new.goal.manifest",
+      "appendix.pool.A_new.goal.tensors",
+      "appendix.pool.A_new.long.manifest",
+      "appendix.pool.A_new.long.tensors",
+      "appendix.pool.B_new.spatial.manifest",
+      "appendix.pool.B_new.spatial.tensors",
+      "appendix.pool.B_new.object.manifest",
+      "appendix.pool.B_new.object.tensors",
+      "appendix.pool.B_new.goal.manifest",
+      "appendix.pool.B_new.goal.tensors",
+      "appendix.pool.B_new.long.manifest",
+      "appendix.pool.B_new.long.tensors",
+      "appendix.pool.C_new.spatial.manifest",
+      "appendix.pool.C_new.spatial.tensors",
+      "appendix.pool.C_new.object.manifest",
+      "appendix.pool.C_new.object.tensors",
+      "appendix.pool.C_new.goal.manifest",
+      "appendix.pool.C_new.goal.tensors",
+      "appendix.pool.C_new.long.manifest",
+      "appendix.pool.C_new.long.tensors",
+      "appendix.action.raw_bank",
+      "appendix.action.raw.raw-heldout.d4cd57b1a9",
+      "appendix.action.raw.raw-heldout.a7b2c9294b",
+      "appendix.action.raw.raw-heldout.b8c3ccb000",
+      "appendix.action.raw.raw-heldout.b412ff3eed",
+      "appendix.action.raw.raw-heldout.81b735fa0d",
+      "appendix.action.raw.raw-heldout.6e3eac074c",
+      "appendix.action.raw.raw-heldout.0984d3e27d",
+      "appendix.action.raw.raw-heldout.85e236ddba",
+      "appendix.action.teacher.spatial.manifest",
+      "appendix.action.teacher.spatial.tensor",
+      "appendix.action.teacher.object.manifest",
+      "appendix.action.teacher.object.tensor",
+      "appendix.action.teacher.goal.manifest",
+      "appendix.action.teacher.goal.tensor",
+      "appendix.action.teacher.long.manifest",
+      "appendix.action.teacher.long.tensor",
+      "appendix.action.teacher_audit",
+      "appendix.action.regmean_a03",
+      "appendix.action.regmean_a03_manifest",
+      "appendix.native.pi05_source",
+      "appendix.native.python",
+      "appendix.native.tokenizer",
+      "appendix.common_base",
+      "appendix.uniform_soup",
+      "appendix.ridge_reference",
+      "appendix.formal_bank",
+      "appendix.training.source_dataset"
+    ],
+    "large_asset_hashes_recomputed": false
+  },
+  "continued_training": {
+    "status": "BLOCKED",
+    "tables": [
+      6,
+      15
+    ],
+    "missing_protocol_fields": [
+      "budget_updates_B",
+      "source_dataset_revision_and_mixture",
+      "trainable_parameter_scope",
+      "optimizer_and_scheduler",
+      "global_batch_and_accumulation",
+      "random_seeds",
+      "evaluation_update_schedule",
+      "shared_success_threshold_tau",
+      "initialization_checkpoint_bindings",
+      "single_expert_development_selection_rule",
+      "restart_and_optimizer_state_semantics"
+    ],
+    "frozen_reviewed_protocol_exists": false,
+    "training_started": false,
+    "reason": "The paper contains an unfilled six-arm design; no reviewed shared training budget/configuration was found. A generic expert-training script is not a matched six-arm protocol.",
+    "required_next_step": "Freeze and independently review the missing scientific/training choices before implementing an executable trainer. Filling this template alone is not approval or validation."
+  },
+  "table11_regmean_a03": {
+    "status": "BLOCKED",
+    "model_name": "regmean_spectral_smoothing_a03",
+    "model_path": "/private/tmp/tcr-release-no-assets/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmean_spectral_smoothing_a03/attempt-01/checkpoint",
+    "model_sha256": "2d7acd682ec0d242eaa8726338125b65fea282787c508c60073135dcea11f54b",
+    "run": "/private/tmp/tcr-release-no-assets/release-output/table11-regmean-a03",
+    "missing_assets": [
+      "/private/tmp/tcr-release-no-assets/vla-merge/experiments/main-action-fidelity-20260921/run_candidate_actions.py",
+      "/private/tmp/tcr-release-no-assets/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmean_spectral_smoothing_a03/attempt-01/checkpoint/model.safetensors",
+      "/private/tmp/tcr-release-no-assets/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmean_spectral_smoothing_a03/attempt-01/checkpoint/block_regmeanpp_manifest.json",
+      "/private/tmp/tcr-release-no-assets/vla-merge-runtime/experiments/main-action-fidelity-20260921/heldout-raw-attempt-02/bank-index.json",
+      "/private/tmp/tcr-release-no-assets/coordination/2026-09-21/c146-teacher-actions-audit.json"
+    ],
+    "heldout_requests": 400,
+    "native_denoising_steps": 10,
+    "executed_action_steps": 10,
+    "continuous_dimensions": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "coordinate_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "aggregation": "40-task macro, ten requests/task; report cosine coverage",
+    "success_episodes": 0,
+    "gpu_validation_performed_by_release": false
+  },
+  "claim_boundary": "PASS means packaged source/contracts and CPU extraction smoke passed. It does not claim GPU experiments, missing measurements or continued training have been completed."
+}

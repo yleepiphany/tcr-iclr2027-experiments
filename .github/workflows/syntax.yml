@@ -11,3 +11,4 @@ jobs:
         with:
           python-version: '3.12'
       - run: python3 tools/doctor.py --code-only
+      - run: python3 -m unittest discover -s tests -p 'test_*.py'

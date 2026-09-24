@@ -1,0 +1,556 @@
+{
+  "schema": 1,
+  "workspace_root_semantics": "Paths are relative to the original parameter-fusion workspace root. Model/tensor files are external, never regular Git.",
+  "snapshot_date": "2026-09-24",
+  "assets": [
+    {
+      "id": "appendix.dense_bank",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/expert-dense-bank-peft-v2.json",
+      "role": "frozen expert metadata",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 7945,
+      "sha256": "d61a5f9e56bb0f76d8186a33dc26fe283cf8cfab220e903a460f92e4507f209b"
+    },
+    {
+      "id": "appendix.expert.spatial",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/pretrained_model/model.safetensors",
+      "role": "PEFT-safe dense expert weights",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 9354050784,
+      "sha256": "008cb4a76898edbb70edb83bd54cb472722ba49b2760acfde24381e6d14fc75f"
+    },
+    {
+      "id": "appendix.adapter.spatial",
+      "workspace_relative_path": "pi05_lora_finetune_v2_20260826/ckpt/experts/spatial_lora_s0/checkpoints/010000/pretrained_model/adapter_model.safetensors",
+      "role": "adapter scope/provenance required by historical materializers",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 572620000,
+      "sha256": null
+    },
+    {
+      "id": "appendix.expert.object",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/pretrained_model/model.safetensors",
+      "role": "PEFT-safe dense expert weights",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 9354050784,
+      "sha256": "a74c9349a78e122ecf9799e404ad748ffebba0b814b95e3dae4a7b32837f1510"
+    },
+    {
+      "id": "appendix.adapter.object",
+      "workspace_relative_path": "pi05_lora_finetune_v2_20260826/ckpt/experts/object_lora_s0/checkpoints/010000/pretrained_model/adapter_model.safetensors",
+      "role": "adapter scope/provenance required by historical materializers",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 572620000,
+      "sha256": null
+    },
+    {
+      "id": "appendix.expert.goal",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/pretrained_model/model.safetensors",
+      "role": "PEFT-safe dense expert weights",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 9354050784,
+      "sha256": "af9e258354d759710d04f13d40ac6e2e4377d5063f56fa8e0ef574f8c96e2732"
+    },
+    {
+      "id": "appendix.adapter.goal",
+      "workspace_relative_path": "pi05_lora_finetune_v2_20260826/ckpt/experts/goal_lora_s0/checkpoints/010000/pretrained_model/adapter_model.safetensors",
+      "role": "adapter scope/provenance required by historical materializers",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 572620000,
+      "sha256": null
+    },
+    {
+      "id": "appendix.expert.long",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/long-10k-full-dense-peft-v2/pretrained_model/model.safetensors",
+      "role": "PEFT-safe dense expert weights",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 9354050784,
+      "sha256": "85ad87a5d9fbdcdee5d6ff9270a59355326b376f0d50fbc27ae606cbc9b7f8fc"
+    },
+    {
+      "id": "appendix.adapter.long",
+      "workspace_relative_path": "pi05_lora_finetune_v2_20260826/ckpt/experts/long10_lora_s0/checkpoints/010000/pretrained_model/adapter_model.safetensors",
+      "role": "adapter scope/provenance required by historical materializers",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 572620000,
+      "sha256": null
+    },
+    {
+      "id": "appendix.pool.A_new.spatial.manifest",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/spatial/across/replay.json",
+      "role": "calibration manifest",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 102625,
+      "sha256": "4b904038b38b87c8c303993d967cfa96f09aa83c7970830463123b437474247a"
+    },
+    {
+      "id": "appendix.pool.A_new.spatial.tensors",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/spatial/across/replay.safetensors",
+      "role": "calibration tensors",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 4414199704,
+      "sha256": null
+    },
+    {
+      "id": "appendix.pool.A_new.object.manifest",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/object/across/replay.json",
+      "role": "calibration manifest",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 106022,
+      "sha256": "2d333455d37026b5735985f3fa769e795fd4527b44a9d013346b118e9e290acd"
+    },
+    {
+      "id": "appendix.pool.A_new.object.tensors",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/object/across/replay.safetensors",
+      "role": "calibration tensors",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 4414199704,
+      "sha256": null
+    },
+    {
+      "id": "appendix.pool.A_new.goal.manifest",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/goal/across/replay.json",
+      "role": "calibration manifest",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 101486,
+      "sha256": "4f5e78ecf5fe3c0a1b0db4209599d6ae2a72360c9b3cc475e23e264e3df12cc1"
+    },
+    {
+      "id": "appendix.pool.A_new.goal.tensors",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/goal/across/replay.safetensors",
+      "role": "calibration tensors",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 4414199704,
+      "sha256": null
+    },
+    {
+      "id": "appendix.pool.A_new.long.manifest",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/long/across/replay.json",
+      "role": "calibration manifest",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 115434,
+      "sha256": "0d662e7829706883273f89b82f8501436fb617b378e3073f8c536b2ee387f0c6"
+    },
+    {
+      "id": "appendix.pool.A_new.long.tensors",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/A_new/inputs/long/across/replay.safetensors",
+      "role": "calibration tensors",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 4414199704,
+      "sha256": null
+    },
+    {
+      "id": "appendix.pool.B_new.spatial.manifest",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/spatial/across/replay.json",
+      "role": "calibration manifest",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 102698,
+      "sha256": "f8d4078c8d4e26367c9bc37238e550b8453a75248fcfc8604b410af79537a307"
+    },
+    {
+      "id": "appendix.pool.B_new.spatial.tensors",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/spatial/across/replay.safetensors",
+      "role": "calibration tensors",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 4414199704,
+      "sha256": null
+    },
+    {
+      "id": "appendix.pool.B_new.object.manifest",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/object/across/replay.json",
+      "role": "calibration manifest",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 104654,
+      "sha256": "eced96db2bae1c24f5ceefc45d0c53b9b1d4f7c2f9245d56b9dbe8dfe40c3f00"
+    },
+    {
+      "id": "appendix.pool.B_new.object.tensors",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/object/across/replay.safetensors",
+      "role": "calibration tensors",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 4414199704,
+      "sha256": null
+    },
+    {
+      "id": "appendix.pool.B_new.goal.manifest",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/goal/across/replay.json",
+      "role": "calibration manifest",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 101631,
+      "sha256": "17bbdacda1200b971a8af8eeeccc033a8b8be18c7889d042473e731caf774939"
+    },
+    {
+      "id": "appendix.pool.B_new.goal.tensors",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/goal/across/replay.safetensors",
+      "role": "calibration tensors",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 4414199704,
+      "sha256": null
+    },
+    {
+      "id": "appendix.pool.B_new.long.manifest",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/long/across/replay.json",
+      "role": "calibration manifest",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 113260,
+      "sha256": "f94357a62ee42fd1ea9c5c98c40ff532f3343078629791035342c69e209d04f4"
+    },
+    {
+      "id": "appendix.pool.B_new.long.tensors",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/B_new/inputs/long/across/replay.safetensors",
+      "role": "calibration tensors",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 4414199704,
+      "sha256": null
+    },
+    {
+      "id": "appendix.pool.C_new.spatial.manifest",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/C_new/inputs/spatial/across/replay.json",
+      "role": "calibration manifest",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 104252,
+      "sha256": "007d6cf2babe9e9f4e2c01eb8ab7d30edd1660aafcfe453eec929f74dcb8ccee"
+    },
+    {
+      "id": "appendix.pool.C_new.spatial.tensors",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/C_new/inputs/spatial/across/replay.safetensors",
+      "role": "calibration tensors",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 4414199704,
+      "sha256": null
+    },
+    {
+      "id": "appendix.pool.C_new.object.manifest",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/C_new/inputs/object/across/replay.json",
+      "role": "calibration manifest",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 103878,
+      "sha256": "bc86de5030c192d47d071e6ecfc6fdc0857f22c10b0471f919482b87ebacd2a3"
+    },
+    {
+      "id": "appendix.pool.C_new.object.tensors",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/C_new/inputs/object/across/replay.safetensors",
+      "role": "calibration tensors",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 4414199704,
+      "sha256": null
+    },
+    {
+      "id": "appendix.pool.C_new.goal.manifest",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/C_new/inputs/goal/across/replay.json",
+      "role": "calibration manifest",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 103416,
+      "sha256": "e2178870e1fa1b1aaf3ec71922ccc93276ed76642c13a8822fa0e13a85001230"
+    },
+    {
+      "id": "appendix.pool.C_new.goal.tensors",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/C_new/inputs/goal/across/replay.safetensors",
+      "role": "calibration tensors",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 4414199704,
+      "sha256": null
+    },
+    {
+      "id": "appendix.pool.C_new.long.manifest",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/C_new/inputs/long/across/replay.json",
+      "role": "calibration manifest",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 113483,
+      "sha256": "88bc62a034952a939fcedd4b0d6217e1c888cf7fe1318623f34260858643b21d"
+    },
+    {
+      "id": "appendix.pool.C_new.long.tensors",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-cache-sequence-budget-20260921/pools-attempt-01/C_new/inputs/long/across/replay.safetensors",
+      "role": "calibration tensors",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 4414199704,
+      "sha256": null
+    },
+    {
+      "id": "appendix.action.raw_bank",
+      "workspace_relative_path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/heldout-raw-attempt-02/bank-index.json",
+      "role": "400 held-out request bank",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 668203,
+      "sha256": "474c428d6271427ac8ff51cbc39b6a172b27f9738d297846bd0017a9c74c1571"
+    },
+    {
+      "id": "appendix.action.raw.raw-heldout.d4cd57b1a9",
+      "workspace_relative_path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/heldout-raw-attempt-02/heldout-D1/inputs/goal/raw-heldout/requests.safetensors",
+      "role": "held-out input/noise tensors",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 91096358,
+      "sha256": "147fa056f3b8751ac74bff32980cb7df89e844c267971557bd75c7fa7768f63a"
+    },
+    {
+      "id": "appendix.action.raw.raw-heldout.a7b2c9294b",
+      "workspace_relative_path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/heldout-raw-attempt-02/heldout-D2/inputs/goal/raw-heldout/requests.safetensors",
+      "role": "held-out input/noise tensors",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 91096358,
+      "sha256": "aef496a3882228e1e8ed513eead377d275bf7a38a2d5b52f5993046febdfb7a3"
+    },
+    {
+      "id": "appendix.action.raw.raw-heldout.b8c3ccb000",
+      "workspace_relative_path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/heldout-raw-attempt-02/heldout-D1/inputs/long/raw-heldout/requests.safetensors",
+      "role": "held-out input/noise tensors",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 91096358,
+      "sha256": "14bb8d2e6f1a2766644754a6ab7f80878d9c4f194ac4ad742b625bdd9ec113f1"
+    },
+    {
+      "id": "appendix.action.raw.raw-heldout.b412ff3eed",
+      "workspace_relative_path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/heldout-raw-attempt-02/heldout-D2/inputs/long/raw-heldout/requests.safetensors",
+      "role": "held-out input/noise tensors",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 91096358,
+      "sha256": "65c63d6314957ec9f0bfd0ec5dc14de9263d09426de34bc5665c7a062479c4d5"
+    },
+    {
+      "id": "appendix.action.raw.raw-heldout.81b735fa0d",
+      "workspace_relative_path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/heldout-raw-attempt-02/heldout-D1/inputs/object/raw-heldout/requests.safetensors",
+      "role": "held-out input/noise tensors",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 91096358,
+      "sha256": "010821e7315ac5a62a713bad5d888c36e9ed9db643e35e622b9788c0f99ef5f5"
+    },
+    {
+      "id": "appendix.action.raw.raw-heldout.6e3eac074c",
+      "workspace_relative_path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/heldout-raw-attempt-02/heldout-D2/inputs/object/raw-heldout/requests.safetensors",
+      "role": "held-out input/noise tensors",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 91096358,
+      "sha256": "a968c80c0290940b09214c496051fcf96115052d8d1e56d03667e796d59c3fa1"
+    },
+    {
+      "id": "appendix.action.raw.raw-heldout.0984d3e27d",
+      "workspace_relative_path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/heldout-raw-attempt-02/heldout-D1/inputs/spatial/raw-heldout/requests.safetensors",
+      "role": "held-out input/noise tensors",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 91096358,
+      "sha256": "f130a7a7b2c2bba5d0bbd31758262e98b592bc86ebd6de76bfe5dcce836ebc90"
+    },
+    {
+      "id": "appendix.action.raw.raw-heldout.85e236ddba",
+      "workspace_relative_path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/heldout-raw-attempt-02/heldout-D2/inputs/spatial/raw-heldout/requests.safetensors",
+      "role": "held-out input/noise tensors",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 91096358,
+      "sha256": "a68ae90e93ea81e92e905a65cd41e483884235c2a9c2f2a7c3337fcc8bebef87"
+    },
+    {
+      "id": "appendix.action.teacher.spatial.manifest",
+      "workspace_relative_path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/teacher-actions-attempt-06/teachers/spatial/manifest.json",
+      "role": "frozen native teacher actions",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 35428,
+      "sha256": "132c523bc25bb638f1871f1e7d0f46f92a01271a104bda6e81f4b5d97a3439b5"
+    },
+    {
+      "id": "appendix.action.teacher.spatial.tensor",
+      "workspace_relative_path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/teacher-actions-attempt-06/teachers/spatial/actions.safetensors",
+      "role": "teacher action tensor bank",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 649304,
+      "sha256": "0b84c2e91131fe06d447701259be67ed69b8d1b6408fb8c9c57683516e53220b"
+    },
+    {
+      "id": "appendix.action.teacher.object.manifest",
+      "workspace_relative_path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/teacher-actions-attempt-06/teachers/object/manifest.json",
+      "role": "frozen native teacher actions",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 35324,
+      "sha256": "2b901c7ca91f2f24e60d75c8ec1e7d7668915b3b07fd3df997956c7c3f42a172"
+    },
+    {
+      "id": "appendix.action.teacher.object.tensor",
+      "workspace_relative_path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/teacher-actions-attempt-06/teachers/object/actions.safetensors",
+      "role": "teacher action tensor bank",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 649208,
+      "sha256": "71de07163903b2789de17a0f4563c12d4172059c2ec855bfae5ddcd7f2517f9f"
+    },
+    {
+      "id": "appendix.action.teacher.goal.manifest",
+      "workspace_relative_path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/teacher-actions-attempt-06/teachers/goal/manifest.json",
+      "role": "frozen native teacher actions",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 35119,
+      "sha256": "148a420d261ba12ee406a7bcda942f4227d7e1cc0ed891adc867266c9460b958"
+    },
+    {
+      "id": "appendix.action.teacher.goal.tensor",
+      "workspace_relative_path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/teacher-actions-attempt-06/teachers/goal/actions.safetensors",
+      "role": "teacher action tensor bank",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 649008,
+      "sha256": "bba065c7418e85ed4a8c7abf3becb15a7d689326d2eaa598ea482d330bb2a4ca"
+    },
+    {
+      "id": "appendix.action.teacher.long.manifest",
+      "workspace_relative_path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/teacher-actions-attempt-06/teachers/long/manifest.json",
+      "role": "frozen native teacher actions",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 35118,
+      "sha256": "97619f3eba5c24d92337791ca0d8e67e3bff89b65508e902584fe7977c7160f5"
+    },
+    {
+      "id": "appendix.action.teacher.long.tensor",
+      "workspace_relative_path": "vla-merge-runtime/experiments/main-action-fidelity-20260921/teacher-actions-attempt-06/teachers/long/actions.safetensors",
+      "role": "teacher action tensor bank",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 649008,
+      "sha256": "df50e0e622f681fce0563ba4dbf55824ff4313685070a4be59c62341a8f2870e"
+    },
+    {
+      "id": "appendix.action.teacher_audit",
+      "workspace_relative_path": "coordination/2026-09-21/c146-teacher-actions-audit.json",
+      "role": "teacher identity and coverage audit",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 1912,
+      "sha256": "87493e09c4f5c8a4504fd3b34d5f0c2cb74a622e4c4b7d371a29a6b6c604f835"
+    },
+    {
+      "id": "appendix.action.regmean_a03",
+      "workspace_relative_path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/regmean_spectral_smoothing_a03/attempt-01/checkpoint/model.safetensors",
+      "role": "Table11 candidate; ordinary RegMean alpha .3 spectral smoothing",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 9354050784,
+      "sha256": "2d7acd682ec0d242eaa8726338125b65fea282787c508c60073135dcea11f54b"
+    },
+    {
+      "id": "appendix.action.regmean_a03_manifest",
+      "workspace_relative_path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/regmean_spectral_smoothing_a03/attempt-01/checkpoint/block_regmeanpp_manifest.json",
+      "role": "Table11 checkpoint identity",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 1382286,
+      "sha256": "de675557062cc0e7cfaf6982d80dd2636fac310854653e6bebea65db1e1fe741"
+    },
+    {
+      "id": "appendix.native.pi05_source",
+      "workspace_relative_path": "pi05_lora_finetune_v2_20260826/lerobot",
+      "role": "native PI0.5 framework, external source/runtime",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": null,
+      "sha256": null
+    },
+    {
+      "id": "appendix.native.python",
+      "workspace_relative_path": "pi05_lora_finetune_v2_20260826/.venv/bin/python",
+      "role": "original Python runtime (not copied)",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 8019136,
+      "sha256": null
+    },
+    {
+      "id": "appendix.native.tokenizer",
+      "workspace_relative_path": "pi05_lora_finetune_v2_20260826/assets/paligemma-3b-pt-224-tokenizer",
+      "role": "local tokenizer",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": null,
+      "sha256": null
+    },
+    {
+      "id": "appendix.common_base",
+      "workspace_relative_path": "pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+      "role": "common base checkpoint and processors",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": null,
+      "sha256": null
+    },
+    {
+      "id": "appendix.uniform_soup",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/model-soups/repeat-shared/merge/attempt-02-peft-safe-v2/pretrained_model",
+      "role": "shared uniform Soup checkpoint",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": null,
+      "sha256": null
+    },
+    {
+      "id": "appendix.ridge_reference",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/tcr-e/repeat-01/merge/attempt-01-peft-safe-v1/block_regmeanpp_manifest.json",
+      "role": "fixed 418 positive numeric ridge values",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": 1153136,
+      "sha256": "260cea965d7539569a37f031ca670d9a5cd57bd1753d59fa12a60aaac5b1f1d8"
+    },
+    {
+      "id": "appendix.formal_bank",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+      "role": "frozen procedural reset bank",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": null,
+      "sha256": null
+    },
+    {
+      "id": "appendix.training.source_dataset",
+      "workspace_relative_path": ".datasets/LIBERO",
+      "role": "source multi-task demonstration datasets; mixture not frozen",
+      "required": true,
+      "exists_at_snapshot": true,
+      "bytes": null,
+      "sha256": null
+    }
+  ]
+}

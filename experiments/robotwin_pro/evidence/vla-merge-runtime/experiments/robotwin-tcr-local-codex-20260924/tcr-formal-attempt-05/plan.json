@@ -1,0 +1,184 @@
+{
+  "base_evaluator_sha256": "d156e3d9f3553131e46d88ea35885708d1fb6c0c5d501b219c4ded0ff5b86a15",
+  "build_plan_sha256": "2255ee5043f0c1e839fb517b23470370e6bd239ea5210db0dea844d56790b1ca",
+  "created_at": "2026-09-24T05:27:26.841495+00:00",
+  "episodes": 540,
+  "experts_protocol_sha256": "ed47fc5340cfb53a4a1c497a08ef3aca984c0ad50182748ac3df3ca7e060d0de",
+  "formal": true,
+  "host": "dsw-967394-56ffd4897d-42wft",
+  "jobs": [
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r01-passB/pretrained_model",
+      "episodes": 60,
+      "expert_reference": {
+        "receipt_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/runs/coordination/repeat-01/attempt-01/complete.json",
+        "receipt_sha256": "5628a70dfee421f81b09de90fd52905da381d0da4f3395fb9b237b0987d97d8c",
+        "terminal_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/runs/coordination/repeat-01/complete.json",
+        "terminal_sha256": "bf5f3d34c62d435ac1ab3fba7a6fffd2098417f7a10be43b3020abaad1b1b3fd"
+      },
+      "group": "coordination",
+      "id": "r01-coordination",
+      "model_job": "r01-passB",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-formal-attempt-05/jobs/r01-coordination",
+      "repeat": 1,
+      "source_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/coordination/repeat-01.json",
+      "source_manifest_sha256": "7dace55b5035ade2e7fe0666c9bdc704b06af9e7a8d5279d205dd10174428107"
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r01-passB/pretrained_model",
+      "episodes": 60,
+      "expert_reference": {
+        "receipt_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/runs/receptacle/repeat-01/attempt-02/complete.json",
+        "receipt_sha256": "29012a7d0d49aba2d4bbac0ab4c5c0721a34526708342bd02f7bdc6fd2eadbd0",
+        "terminal_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/runs/receptacle/repeat-01/complete.json",
+        "terminal_sha256": "f1fc36550c0428245d1447c8e09c403df1400b1532188fa9f2267bd5d83220b1"
+      },
+      "group": "receptacle",
+      "id": "r01-receptacle",
+      "model_job": "r01-passB",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-formal-attempt-05/jobs/r01-receptacle",
+      "repeat": 1,
+      "source_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/receptacle/repeat-01.json",
+      "source_manifest_sha256": "be770ba348a18b11bd62356738e7fc093541660e7f01dee4a7c754fbaa13511c"
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r01-passB/pretrained_model",
+      "episodes": 60,
+      "expert_reference": {
+        "receipt_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/runs/precision/repeat-01/attempt-02/complete.json",
+        "receipt_sha256": "8af5dd92e697864f92bdc2b3437af2fdd8ec1c81eb995a798ae781adc435d396",
+        "terminal_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/runs/precision/repeat-01/complete.json",
+        "terminal_sha256": "322e31ffe8edf29cddd1b8cde561061e8b2e784ff100b32ee90518cdba0a0e5b"
+      },
+      "group": "precision",
+      "id": "r01-precision",
+      "model_job": "r01-passB",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-formal-attempt-05/jobs/r01-precision",
+      "repeat": 1,
+      "source_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/precision/repeat-01.json",
+      "source_manifest_sha256": "c8bef1cbdb4018561607cc3ee146ddad63c2a3df9ed0a7819f9e67c04ea345c7"
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r02-passB/pretrained_model",
+      "episodes": 60,
+      "expert_reference": {
+        "receipt_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/runs/coordination/repeat-02/attempt-01/complete.json",
+        "receipt_sha256": "f34931bf29c64a66e4a50d79b39424f4130a95d2d8d4997f4c6c10c7810772c4",
+        "terminal_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/runs/coordination/repeat-02/complete.json",
+        "terminal_sha256": "d0848207fdfeaaeef2344f7919b1f597285da4141c92751425a9e2aadb2ce7e5"
+      },
+      "group": "coordination",
+      "id": "r02-coordination",
+      "model_job": "r02-passB",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-formal-attempt-05/jobs/r02-coordination",
+      "repeat": 2,
+      "source_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/coordination/repeat-02.json",
+      "source_manifest_sha256": "e3750fc0208bafd97cdbfbb21eb77986bfb4469ba07e07543fdfb748e60d40aa"
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r02-passB/pretrained_model",
+      "episodes": 60,
+      "expert_reference": {
+        "receipt_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/runs/receptacle/repeat-02/attempt-15/complete.json",
+        "receipt_sha256": "b1fe32336b1076fc1112ffd0f7d0dd0390464c07496dd217f1080e6fe23ea4b0",
+        "terminal_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/runs/receptacle/repeat-02/complete.json",
+        "terminal_sha256": "43b933eb4ed28b5bd485416f7a39901cbbe0ac9f353163fc449ec8e006ba27c9"
+      },
+      "group": "receptacle",
+      "id": "r02-receptacle",
+      "model_job": "r02-passB",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-formal-attempt-05/jobs/r02-receptacle",
+      "repeat": 2,
+      "source_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/receptacle/repeat-02.json",
+      "source_manifest_sha256": "4139c511138ae115e99fd2d27d6f059fec6583720a3dbdbb3adca500b46f463c"
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r02-passB/pretrained_model",
+      "episodes": 60,
+      "expert_reference": {
+        "receipt_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/runs/precision/repeat-02/attempt-02/complete.json",
+        "receipt_sha256": "1233b3312bb6b46e57f31008d523247e86a6eaa30aaf91a89c4dbbfeaec73ca9",
+        "terminal_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/runs/precision/repeat-02/complete.json",
+        "terminal_sha256": "eeac531a5192bf16b27fab7bfc7b6339baf6c97c3b1400e28067ab71bb56b362"
+      },
+      "group": "precision",
+      "id": "r02-precision",
+      "model_job": "r02-passB",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-formal-attempt-05/jobs/r02-precision",
+      "repeat": 2,
+      "source_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/precision/repeat-02.json",
+      "source_manifest_sha256": "146f5b86c5219fdab01c50a0cb55ed8b6940a69d467cbdb63b284b5710d6bcb0"
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r03-passB/pretrained_model",
+      "episodes": 60,
+      "expert_reference": {
+        "receipt_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/runs/coordination/repeat-03/attempt-01/complete.json",
+        "receipt_sha256": "9eae586395c272b675a3a7d32ad2872a080147e847f465ab24baa4fce6001a69",
+        "terminal_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/runs/coordination/repeat-03/complete.json",
+        "terminal_sha256": "9139132e5c6313695c8477713b18e1b3bba47afdeae23aec3c33b9a1af2cbef3"
+      },
+      "group": "coordination",
+      "id": "r03-coordination",
+      "model_job": "r03-passB",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-formal-attempt-05/jobs/r03-coordination",
+      "repeat": 3,
+      "source_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/coordination/repeat-03.json",
+      "source_manifest_sha256": "fcf217f74bd1b190b33e2d545897046df92cb8899bd76ceed972cc16a58318b8"
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r03-passB/pretrained_model",
+      "episodes": 60,
+      "expert_reference": {
+        "receipt_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/runs/receptacle/repeat-03/attempt-02/complete.json",
+        "receipt_sha256": "72446bd675d5850e7363d4c103ff33bf8bd294fb5d1aaf0ab277e9f1425b0398",
+        "terminal_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/runs/receptacle/repeat-03/complete.json",
+        "terminal_sha256": "9bea2f9fedff7c58a20e7950ad7ece22545ceeb13b79c1e59d0969f08d2c5655"
+      },
+      "group": "receptacle",
+      "id": "r03-receptacle",
+      "model_job": "r03-passB",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-formal-attempt-05/jobs/r03-receptacle",
+      "repeat": 3,
+      "source_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/receptacle/repeat-03.json",
+      "source_manifest_sha256": "ad69f3992856b54703286b81cbaac995612e3c30c2a0ef60b1d81e3863135cf5"
+    },
+    {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r03-passB/pretrained_model",
+      "episodes": 60,
+      "expert_reference": {
+        "receipt_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/runs/precision/repeat-03/attempt-02/complete.json",
+        "receipt_sha256": "cf10327ac35babd30f927a3682ee863ff8080c3441dd6c83417078928552b586",
+        "terminal_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/runs/precision/repeat-03/complete.json",
+        "terminal_sha256": "4eebb70f54aa7499f10f004125ca77d1b0ded7ff6fb2d37f2f9d1470e745c960"
+      },
+      "group": "precision",
+      "id": "r03-precision",
+      "model_job": "r03-passB",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-formal-attempt-05/jobs/r03-precision",
+      "repeat": 3,
+      "source_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/precision/repeat-03.json",
+      "source_manifest_sha256": "6a1d918109e5eff9121d70fc507608bcc794b3ede72ba1b5e1a362e8cbaf7838"
+    }
+  ],
+  "max_active": 1,
+  "min_free_mib": 40000,
+  "native_evaluator_sha256": "14256564bb43931c8eb9005d15446eeeda332223401a8634aba4647918c7109d",
+  "native_loop_sha256": "4a46efa92776f0ad0caa3fd664be4cb582dd6e5ed9a4504b18c665d17c908971",
+  "no_retry": true,
+  "no_score_based_scheduling_or_stopping": true,
+  "paper_cell": "RoboTwin Table5 TCR; mean and sample std over three repeats",
+  "permitted_gpus": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "previous_formal_terminal_sha256": "22fd9cfc7d2514b4c45b3f5d5cc2315709ad2b4f2527e0008e335f509c67064e",
+  "runtime_floor_mib": 12288,
+  "schema": "robotwin_tcr_three_repeat_formal_v2",
+  "slicer_sha256": "7e9004dc2280437a39ad5fa980e2b0115d51971c76c1ea9a0d81b2c9745f9d98",
+  "source_sha256": "6ad441da4f60fc8d90e83dd37631121938e78bafbebb99b90e2fbeacde6db9ce",
+  "training": false,
+  "transfer_accept_sha256": "dd08384998a2a0f58dde8dd584bad7109af1e49a3ea55ff1fa19e40d91776074"
+}

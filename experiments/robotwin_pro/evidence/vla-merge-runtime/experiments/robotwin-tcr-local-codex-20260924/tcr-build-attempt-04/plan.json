@@ -1,0 +1,461 @@
+{
+  "capture_audit_sha256": "f8bbd8642a45e6f0134e8a3b3f494cc0a2f739366b20173908ff8aa65945c99b",
+  "capture_bindings": {
+    "r01-A-coordination": {
+      "attempt": "02",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r01-A-coordination/replay.json",
+      "manifest_sha256": "9936788b2d4b303087bb2573b9ed28b180f79791feb4163d8d519bb2a0e7448d",
+      "tensor": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r01-A-coordination/replay.safetensors",
+      "tensor_sha256": "c369cb2ecabdf50cf12403155590ed043e31c2dfa55a2e8926047fa4bbb833b3"
+    },
+    "r01-A-precision": {
+      "attempt": "02",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r01-A-precision/replay.json",
+      "manifest_sha256": "2f3fa8e57df6a6adc54cca47216593d37ca993ab82a81988f961364dc34ffc75",
+      "tensor": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r01-A-precision/replay.safetensors",
+      "tensor_sha256": "3a7573720077145dcce07b4b7fff949767a67ef87b3bf0550b1d397b11716c12"
+    },
+    "r01-A-receptacle": {
+      "attempt": "02",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r01-A-receptacle/replay.json",
+      "manifest_sha256": "6c075575ad626dded118fd603a9a0c2a0f1c4b8838def370e371b767b46cf727",
+      "tensor": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r01-A-receptacle/replay.safetensors",
+      "tensor_sha256": "246ddbe369e752ad65e1da5de6de0e8d537496af4a5d4ae6d1f1633a088b36e8"
+    },
+    "r01-B-coordination": {
+      "attempt": "02",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r01-B-coordination/replay.json",
+      "manifest_sha256": "043e4816ec6de809de16150bc91760756a3db2d7646e3769a90d34792422b654",
+      "tensor": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r01-B-coordination/replay.safetensors",
+      "tensor_sha256": "70158709a327d58c099cd4d185f2c52ae77ff6682cf26653aea0211e50218988"
+    },
+    "r01-B-precision": {
+      "attempt": "03",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r01-B-precision/replay.json",
+      "manifest_sha256": "d16b2023de1d56a3c5e0403f5b23efefff95bbecc48f76e17ed47cb195e58336",
+      "tensor": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r01-B-precision/replay.safetensors",
+      "tensor_sha256": "b9c43aabd47c29621b67308d0e24b278f34c1f8241fdfa358ff259a87f17d338"
+    },
+    "r01-B-receptacle": {
+      "attempt": "03",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r01-B-receptacle/replay.json",
+      "manifest_sha256": "185d2f19f7e99d08ad0618bdae0497ae7fdc37a9f24d2118b31941a39f70db93",
+      "tensor": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r01-B-receptacle/replay.safetensors",
+      "tensor_sha256": "ab187d5fbcd0c729fa8fc5f00925da887ae4f53e7fc0bda536b4dff2ec213dbd"
+    },
+    "r02-A-coordination": {
+      "attempt": "03",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-A-coordination/replay.json",
+      "manifest_sha256": "c11a2e52db07f727821d1218d03cad8c828d49d0d43bd048511315205dedb50b",
+      "tensor": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-A-coordination/replay.safetensors",
+      "tensor_sha256": "03c00198a40991fd1db38dfec765b54513f6869303872dbae2ce385b4daffe7c"
+    },
+    "r02-A-precision": {
+      "attempt": "03",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-A-precision/replay.json",
+      "manifest_sha256": "1f08c6530068ae66a2ffec413bdbe9617989f6c82c34c60b5bb90a9314504516",
+      "tensor": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-A-precision/replay.safetensors",
+      "tensor_sha256": "80306c33cd02b457f0aec446948aebf1c24e3bcba369a3a9c2778a00a976ee9a"
+    },
+    "r02-A-receptacle": {
+      "attempt": "03",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-A-receptacle/replay.json",
+      "manifest_sha256": "a17d2b8a1f2c0b66fe7d36c8b05f5c2e5b380ce4f2626721a0a11ac6ed250764",
+      "tensor": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-A-receptacle/replay.safetensors",
+      "tensor_sha256": "cb113bfd1c840253163f5aa952645e459e5f5b2d6b60a759fde6a26a1b1880b2"
+    },
+    "r02-B-coordination": {
+      "attempt": "03",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-B-coordination/replay.json",
+      "manifest_sha256": "b52f37a384f3bc927953af093b2c830a46e0cab10c3c036735a2b98aeadccc69",
+      "tensor": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-B-coordination/replay.safetensors",
+      "tensor_sha256": "ef6104a3cd8345efba07c08145c6ae9ad5fcdf00c259d0174a7a9addebeef871"
+    },
+    "r02-B-precision": {
+      "attempt": "03",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-B-precision/replay.json",
+      "manifest_sha256": "66eff3b972a0c11a53c445614e980c264e5b6ec91686cf213fa68bac8c6c27e4",
+      "tensor": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-B-precision/replay.safetensors",
+      "tensor_sha256": "746ea76a7aad530961255c1da818ce0a180b51f82470f6baba10776a2b4179d4"
+    },
+    "r02-B-receptacle": {
+      "attempt": "03",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-B-receptacle/replay.json",
+      "manifest_sha256": "7b5897dbf2212f60907313e74af72cd1bf567f589599de4d07dd46bfba56fd03",
+      "tensor": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-B-receptacle/replay.safetensors",
+      "tensor_sha256": "68d54d48a76fcd6c4d83555736a2c38c59b1815b9143e54b39a97f51e43413f5"
+    },
+    "r03-A-coordination": {
+      "attempt": "03",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-A-coordination/replay.json",
+      "manifest_sha256": "ad5d8e22f7ffeff39e5a1c48664c74e8aebf9b12cb2bc4369aa895f780852103",
+      "tensor": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-A-coordination/replay.safetensors",
+      "tensor_sha256": "78389b88df337d6e567fe36728bebdf642be24a59a269619468c7e8c5eb5462e"
+    },
+    "r03-A-precision": {
+      "attempt": "03",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-A-precision/replay.json",
+      "manifest_sha256": "6b514b146bd6f37c0ec7f5678b67dc2997ffbe41a5d771265fa8848aa8897f09",
+      "tensor": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-A-precision/replay.safetensors",
+      "tensor_sha256": "9a997ee072a75462eb83870539e2ffa6e5ec24b8274a121363876031f3eda9ab"
+    },
+    "r03-A-receptacle": {
+      "attempt": "03",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-A-receptacle/replay.json",
+      "manifest_sha256": "c270276e3fa7058e1dc192c793fdde58fe744f648b430f32da3293e36702b51b",
+      "tensor": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-A-receptacle/replay.safetensors",
+      "tensor_sha256": "50f908b34585f305cc5e4cc47c5ce237cb59ca45eeeab30d858f79ed68fe64c8"
+    },
+    "r03-B-coordination": {
+      "attempt": "03",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-B-coordination/replay.json",
+      "manifest_sha256": "35550eeddf1b9243286b1040e51213634e4eca6ed36a6aaf60c33679d82f05ce",
+      "tensor": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-B-coordination/replay.safetensors",
+      "tensor_sha256": "49326221be1bb92a9637f7946858ce3f7329222e109b67ade57ca110fce114d7"
+    },
+    "r03-B-precision": {
+      "attempt": "03",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-B-precision/replay.json",
+      "manifest_sha256": "f53b4ff289190e93d7c3b84c8818eb80ae03468be5163ac54ae938798d553358",
+      "tensor": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-B-precision/replay.safetensors",
+      "tensor_sha256": "177c475be080b4dae4b7b85dd29075bf80796514ce583c7cc95c14eec5249993"
+    },
+    "r03-B-receptacle": {
+      "attempt": "03",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-B-receptacle/replay.json",
+      "manifest_sha256": "c5d703ec0210e85c077de4d9782a824875f5ef4c26a753333d495c96f2cfea8e",
+      "tensor": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-B-receptacle/replay.safetensors",
+      "tensor_sha256": "0aeacbc2c2212840e5383ab540647e67d6aabe4effe13352c75c623e60c3f13d"
+    }
+  },
+  "created_at": "2026-09-24T05:26:29.833150+00:00",
+  "dense_bank_sha256": "4bcccaa5e914f684c740338b8b99065b45e27f2ac5dea8461ec1fe17dd5981af",
+  "evaluation_episodes": 0,
+  "failed_attempt_terminal_sha256": "f2f6545dcf89cd00e698b2dc423c0535ce700e557d61783eb06d2d314cd67ae4",
+  "host": "dsw-967394-56ffd4897d-42wft",
+  "jobs": [
+    {
+      "capture_jobs": [
+        "r01-A-coordination",
+        "r01-A-receptacle",
+        "r01-A-precision"
+      ],
+      "command": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/run_materializer_local_v4.py",
+        "--dense-expert-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v2/expert-dense-bank.json",
+        "--base-model=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+        "--prior-model=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-soup-v1/pretrained_model",
+        "--output=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r01-passA/pretrained_model",
+        "--ridge-ratio=.05",
+        "--ridge-scale=feature_energy",
+        "--max-correction-ratio=3",
+        "--max-rows-per-sample=10",
+        "--expert-loss-normalization=prior",
+        "--replay-prefix=merged",
+        "--allow-mixed-calibration-policies",
+        "--allow-prior-calibration-mismatch",
+        "--device=cuda",
+        "--expert=coordination=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000/pretrained_model",
+        "--calibration=coordination=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r01-A-coordination/replay.safetensors",
+        "--manifest=coordination=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r01-A-coordination/replay.json",
+        "--expert=receptacle=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model",
+        "--calibration=receptacle=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r01-A-receptacle/replay.safetensors",
+        "--manifest=receptacle=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r01-A-receptacle/replay.json",
+        "--expert=precision=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000/pretrained_model",
+        "--calibration=precision=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r01-A-precision/replay.safetensors",
+        "--manifest=precision=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r01-A-precision/replay.json"
+      ],
+      "expected_rows": 3330900,
+      "id": "r01-passA",
+      "module_count": 418,
+      "needs": [],
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r01-passA/pretrained_model",
+      "pass": "A",
+      "repeat": 1
+    },
+    {
+      "capture_jobs": [
+        "r01-B-coordination",
+        "r01-B-receptacle",
+        "r01-B-precision"
+      ],
+      "command": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/run_materializer_local_v4.py",
+        "--dense-expert-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v2/expert-dense-bank.json",
+        "--base-model=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+        "--prior-model=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r01-passA/pretrained_model",
+        "--output=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r01-passB/pretrained_model",
+        "--ridge-ratio=.05",
+        "--ridge-scale=feature_energy",
+        "--max-correction-ratio=3",
+        "--max-rows-per-sample=16",
+        "--expert-loss-normalization=none",
+        "--replay-prefix=merged",
+        "--allow-mixed-calibration-policies",
+        "--allow-prior-calibration-mismatch",
+        "--device=cuda",
+        "--ablation-config=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-build-attempt-04/configs/r01-passB.json",
+        "--expert=coordination=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000/pretrained_model",
+        "--calibration=coordination=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r01-B-coordination/replay.safetensors",
+        "--manifest=coordination=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v2/jobs/r01-B-coordination/replay.json",
+        "--expert=receptacle=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model",
+        "--calibration=receptacle=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r01-B-receptacle/replay.safetensors",
+        "--manifest=receptacle=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r01-B-receptacle/replay.json",
+        "--expert=precision=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000/pretrained_model",
+        "--calibration=precision=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r01-B-precision/replay.safetensors",
+        "--manifest=precision=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r01-B-precision/replay.json"
+      ],
+      "expected_rows": 5328900,
+      "id": "r01-passB",
+      "module_count": 418,
+      "needs": [
+        "r01-passA"
+      ],
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r01-passB/pretrained_model",
+      "pass": "B",
+      "repeat": 1
+    },
+    {
+      "capture_jobs": [
+        "r02-A-coordination",
+        "r02-A-receptacle",
+        "r02-A-precision"
+      ],
+      "command": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/run_materializer_local_v4.py",
+        "--dense-expert-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v2/expert-dense-bank.json",
+        "--base-model=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+        "--prior-model=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-soup-v1/pretrained_model",
+        "--output=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r02-passA/pretrained_model",
+        "--ridge-ratio=.05",
+        "--ridge-scale=feature_energy",
+        "--max-correction-ratio=3",
+        "--max-rows-per-sample=10",
+        "--expert-loss-normalization=prior",
+        "--replay-prefix=merged",
+        "--allow-mixed-calibration-policies",
+        "--allow-prior-calibration-mismatch",
+        "--device=cuda",
+        "--expert=coordination=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000/pretrained_model",
+        "--calibration=coordination=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-A-coordination/replay.safetensors",
+        "--manifest=coordination=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-A-coordination/replay.json",
+        "--expert=receptacle=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model",
+        "--calibration=receptacle=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-A-receptacle/replay.safetensors",
+        "--manifest=receptacle=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-A-receptacle/replay.json",
+        "--expert=precision=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000/pretrained_model",
+        "--calibration=precision=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-A-precision/replay.safetensors",
+        "--manifest=precision=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-A-precision/replay.json"
+      ],
+      "expected_rows": 3330900,
+      "id": "r02-passA",
+      "module_count": 418,
+      "needs": [],
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r02-passA/pretrained_model",
+      "pass": "A",
+      "repeat": 2
+    },
+    {
+      "capture_jobs": [
+        "r02-B-coordination",
+        "r02-B-receptacle",
+        "r02-B-precision"
+      ],
+      "command": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/run_materializer_local_v4.py",
+        "--dense-expert-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v2/expert-dense-bank.json",
+        "--base-model=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+        "--prior-model=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r02-passA/pretrained_model",
+        "--output=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r02-passB/pretrained_model",
+        "--ridge-ratio=.05",
+        "--ridge-scale=feature_energy",
+        "--max-correction-ratio=3",
+        "--max-rows-per-sample=16",
+        "--expert-loss-normalization=none",
+        "--replay-prefix=merged",
+        "--allow-mixed-calibration-policies",
+        "--allow-prior-calibration-mismatch",
+        "--device=cuda",
+        "--ablation-config=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-build-attempt-04/configs/r02-passB.json",
+        "--expert=coordination=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000/pretrained_model",
+        "--calibration=coordination=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-B-coordination/replay.safetensors",
+        "--manifest=coordination=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-B-coordination/replay.json",
+        "--expert=receptacle=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model",
+        "--calibration=receptacle=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-B-receptacle/replay.safetensors",
+        "--manifest=receptacle=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-B-receptacle/replay.json",
+        "--expert=precision=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000/pretrained_model",
+        "--calibration=precision=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-B-precision/replay.safetensors",
+        "--manifest=precision=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r02-B-precision/replay.json"
+      ],
+      "expected_rows": 5328900,
+      "id": "r02-passB",
+      "module_count": 418,
+      "needs": [
+        "r02-passA"
+      ],
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r02-passB/pretrained_model",
+      "pass": "B",
+      "repeat": 2
+    },
+    {
+      "capture_jobs": [
+        "r03-A-coordination",
+        "r03-A-receptacle",
+        "r03-A-precision"
+      ],
+      "command": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/run_materializer_local_v4.py",
+        "--dense-expert-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v2/expert-dense-bank.json",
+        "--base-model=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+        "--prior-model=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-soup-v1/pretrained_model",
+        "--output=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r03-passA/pretrained_model",
+        "--ridge-ratio=.05",
+        "--ridge-scale=feature_energy",
+        "--max-correction-ratio=3",
+        "--max-rows-per-sample=10",
+        "--expert-loss-normalization=prior",
+        "--replay-prefix=merged",
+        "--allow-mixed-calibration-policies",
+        "--allow-prior-calibration-mismatch",
+        "--device=cuda",
+        "--expert=coordination=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000/pretrained_model",
+        "--calibration=coordination=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-A-coordination/replay.safetensors",
+        "--manifest=coordination=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-A-coordination/replay.json",
+        "--expert=receptacle=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model",
+        "--calibration=receptacle=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-A-receptacle/replay.safetensors",
+        "--manifest=receptacle=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-A-receptacle/replay.json",
+        "--expert=precision=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000/pretrained_model",
+        "--calibration=precision=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-A-precision/replay.safetensors",
+        "--manifest=precision=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-A-precision/replay.json"
+      ],
+      "expected_rows": 3330900,
+      "id": "r03-passA",
+      "module_count": 418,
+      "needs": [],
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r03-passA/pretrained_model",
+      "pass": "A",
+      "repeat": 3
+    },
+    {
+      "capture_jobs": [
+        "r03-B-coordination",
+        "r03-B-receptacle",
+        "r03-B-precision"
+      ],
+      "command": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/run_materializer_local_v4.py",
+        "--dense-expert-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v2/expert-dense-bank.json",
+        "--base-model=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+        "--prior-model=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r03-passA/pretrained_model",
+        "--output=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r03-passB/pretrained_model",
+        "--ridge-ratio=.05",
+        "--ridge-scale=feature_energy",
+        "--max-correction-ratio=3",
+        "--max-rows-per-sample=16",
+        "--expert-loss-normalization=none",
+        "--replay-prefix=merged",
+        "--allow-mixed-calibration-policies",
+        "--allow-prior-calibration-mismatch",
+        "--device=cuda",
+        "--ablation-config=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-build-attempt-04/configs/r03-passB.json",
+        "--expert=coordination=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000/pretrained_model",
+        "--calibration=coordination=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-B-coordination/replay.safetensors",
+        "--manifest=coordination=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-B-coordination/replay.json",
+        "--expert=receptacle=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model",
+        "--calibration=receptacle=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-B-receptacle/replay.safetensors",
+        "--manifest=receptacle=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-B-receptacle/replay.json",
+        "--expert=precision=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000/pretrained_model",
+        "--calibration=precision=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-B-precision/replay.safetensors",
+        "--manifest=precision=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v3/jobs/r03-B-precision/replay.json"
+      ],
+      "expected_rows": 5328900,
+      "id": "r03-passB",
+      "module_count": 418,
+      "needs": [
+        "r03-passA"
+      ],
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r03-passB/pretrained_model",
+      "pass": "B",
+      "repeat": 3
+    }
+  ],
+  "max_active": 1,
+  "min_free_mib": 71000,
+  "no_retry": true,
+  "paper_scope": "three independent repeat A/B builds; full 418-module RoboTwin M=3 TCR",
+  "permitted_gpus": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "protocol_sha256": "65be22e1e3cbd2598f7dbd06402547de541c7315f837977913ea32dc3ec2d807",
+  "recovered_A": {
+    "r01-passA": {
+      "id": "r01-passA",
+      "manifest_sha256": "c21c65a945beca7b8efe3697d69fb7660cd1cbdccf2fb84ed4da6eb41683c281",
+      "model_sha256": "b794d9bf829dd62ef1a5420b00ce0e6dbca408754cc3cf42a6e69378253e3cbb",
+      "modules": 418,
+      "pass": "A",
+      "peak_telemetry": "missing_in_attempt_02",
+      "repeat": 1,
+      "rows": 3330900,
+      "source_board_samples_sha256": "26f1db8942457baf304daf135ee5b0fea579e5279643370a5222c2034637962e",
+      "source_exit_sha256": "1c437a52173aee3e3f36a95da648d59a66ac7fa8f4e7d8a2616836b912b2fbfc",
+      "source_launch_sha256": "25dcd898260f6cc26fb350b9b077e4dd4ca24d4386033cb085d87d2cef210a6a"
+    },
+    "r02-passA": {
+      "id": "r02-passA",
+      "manifest_sha256": "ca9b60b9a8feff8855025bf0075c5bc7ddeb637874eeebce6fd5dc2e49b92c99",
+      "model_sha256": "a283fe71daf64dfe94371361e30e280a53abbb257fa92748a5cf47b3607e2d95",
+      "modules": 418,
+      "pass": "A",
+      "peak_telemetry": "missing_in_attempt_02",
+      "repeat": 2,
+      "rows": 3330900,
+      "source_board_samples_sha256": "d527fef2a3c69fbc796916010c080f470f7823a1be87561c00d04d9da121f69e",
+      "source_exit_sha256": "0406cb2e2c8bbb626a2c248273c0a2e7e0937ad2fcf1d2f3e37d3c224272ef7b",
+      "source_launch_sha256": "1c0e2ae41470ddd1ac110e8ebd810f1ef37bf17459f283114f026491ebbf3b63"
+    },
+    "r03-passA": {
+      "id": "r03-passA",
+      "manifest_sha256": "9c394171d4ff90e0bab9a05b25f38e4a52d1a5f9915ba271d716306b4715a0a4",
+      "model_sha256": "eb93bfe0fdf3d5a2cb2ebcc39530fd99db90981c4b00fa011016ae0a7695101d",
+      "modules": 418,
+      "pass": "A",
+      "peak_telemetry": "missing_in_attempt_02",
+      "repeat": 3,
+      "rows": 3330900,
+      "source_board_samples_sha256": "ec6150335e7fb70157a1ecc7f2722871fe084cfa8eca34480abedef123ec8dbc",
+      "source_exit_sha256": "f4f0975a49a5d2e6fe8f8cd123ed4a147896058bec6ca9dbedfd409d04ea558d",
+      "source_launch_sha256": "8f70ad1a2529a2af52a69c2521a656ede64b567f478c0e19e335236ee7f8c934"
+    }
+  },
+  "row_policy": "pass_B_16_rows_per_replay_state_matching_frozen_5328900_rows",
+  "runtime_floor_mib": 8192,
+  "schema": "robotwin_three_expert_two_pass_build_v1",
+  "soup_complete_sha256": "d4f66c8714a8e8c6f9da45eb3af6a12fb89cb54e3712201249d013a6371f9373",
+  "source_build_plan_sha256": "92ed112a401b815603441ffd98c35dd42921e42d1f32f697356ad58dcc621eb5",
+  "source_formal_plan_sha256": "4f05a9ee317cb5776288833c4dfcec6fe2fe98f8dc60cf196dcf4d6044ae9f6f",
+  "source_sha256": {
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-20260917/materialize_second_round_v3.py": "81cdad5db559d02267fa0553d5c260c5ff2b45313f988d5210b759c1b8333837",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/robotwin_solver_contract.py": "0035c3877b3c587d4a9e8fbe9b157a7493c9983cd9b64da1cf099e42546f4431",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-robotwin-tcr-20260923/run_materializer.py": "7acec969d633691afaa9fb37038d12694e375a993071339598f1981d6a30b2a0",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/run_materializer_local_v4.py": "f7e4e0fbb5be1626c3c0a1c9d6fad7cb4ef847012d8aa1f493a1f3ee1f7e5a84",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/run_tcr_builds_local_v4.py": "743be6ec4676a9a06069532dd5e69099067ee7bf633ce0cedc5bc50991a4d6e1"
+  },
+  "support_policy": "retain_exact_prior_soup_normalizer_and_deployment_support",
+  "training": false,
+  "transfer_accept_sha256": "dd08384998a2a0f58dde8dd584bad7109af1e49a3ea55ff1fa19e40d91776074"
+}

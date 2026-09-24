@@ -1,0 +1,73 @@
+{
+  "benchmark": "LIBERO-PRO",
+  "checkpoint_contract": "pi05-libero-main10k-matched-v1",
+  "created_at": "2026-09-24T02:06:30.162239+00:00",
+  "dimensions": [
+    "object",
+    "swap",
+    "semantic",
+    "task"
+  ],
+  "episodes": 4800,
+  "gpu_launched": false,
+  "jobs": 480,
+  "method": "uniform_soup",
+  "model": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/model-soups/repeat-shared/merge/attempt-02-peft-safe-v2/pretrained_model",
+  "model_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/model-soups/repeat-shared/merge/attempt-02-peft-safe-v2/pretrained_model/parameter_baseline_manifest.json",
+  "model_manifest_sha256": "625400e9ec730ba16cbb123b0a2a7d03371c46467d2aaefdb9c4ffa8cb5c0bb4",
+  "model_sha256": "a92aacc43146dc41663c0057f2999bd90252fb3fb316ef963f165be67e1be01a",
+  "no_score_based_selection": true,
+  "no_training": true,
+  "paper_target": "tab:libero_pro_robustness / pi0.5 Model Soups",
+  "repeats": [
+    "repeat-01",
+    "repeat-02",
+    "repeat-03"
+  ],
+  "schema": "pi05_pro_soup_main10k_selection_v1",
+  "selection_index": {
+    "repeat-01": {
+      "episodes": 1600,
+      "eval_seed": 274001,
+      "jobs": 160,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-soup-codex-20260924/selection-v1/selections/repeat-01.json",
+      "sha256": "b84a0dc02aad6da4ff3f2967441551df9c810e63fadb1bea68e60d227aadd6e5",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/selections/TCR-Full/repeat-01.json",
+      "source_sha256": "518281f2f1fd6d30413104f8d5de5bc596df1ad6810a3392f11950925a70fd6a"
+    },
+    "repeat-02": {
+      "episodes": 1600,
+      "eval_seed": 274002,
+      "jobs": 160,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-soup-codex-20260924/selection-v1/selections/repeat-02.json",
+      "sha256": "a87b72c3134758aa3e4d16bfcb7c2e35db97185640bdd101c640c5d56dd5d117",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/selections/TCR-Full/repeat-02.json",
+      "source_sha256": "7d1c27f3dc9100e107d3f7b688c3801610db169032a91f64f583002deec7b799"
+    },
+    "repeat-03": {
+      "episodes": 1600,
+      "eval_seed": 274003,
+      "jobs": 160,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-soup-codex-20260924/selection-v1/selections/repeat-03.json",
+      "sha256": "9bb9e3f8f46e74c89cf7b815740c7e78c8f500d2b1f4fb6d973af9de4b9c80d0",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/selections/TCR-Full/repeat-03.json",
+      "source_sha256": "dbb07887505daa61ef870e93e3ca8d3761b3e9b8328bd8770693c4017a24a6c0"
+    }
+  },
+  "source_identity": {
+    "assets_tree_sha256": "ad5a423f687bb6260d0a01d2f38e2aa97923ee8cceaf27869e1d9e9fd4260114",
+    "config_path": "/mnt/workspace/Wilson/parameter-fusion/.datasets/LIBERO/20260919/pro/config/config.yaml",
+    "config_sha256": "14698eb437e74b99b0e5594b5bb911b89a8eaf39c0544ae98423a529f22fa1fe",
+    "data_root": "/mnt/workspace/Wilson/parameter-fusion/.datasets/LIBERO/20260919",
+    "repo_commit": "eafdb809426b13153aa1e4c42d6601844217dfec"
+  },
+  "source_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/manifest.json",
+  "source_manifest_sha256": "a0fa026982b70139c9fc52e88705947c26d818ddca2abe5a657df88714533614",
+  "status": "prepared_unclaimed_owner_check_no_gpu",
+  "suites": [
+    "libero_spatial",
+    "libero_object",
+    "libero_goal",
+    "libero_10"
+  ]
+}

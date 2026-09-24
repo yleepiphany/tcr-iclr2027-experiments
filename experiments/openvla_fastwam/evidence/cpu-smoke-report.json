@@ -1,0 +1,53 @@
+{
+  "status": "pass",
+  "mode": "cpu",
+  "scope": "Table4 OpenVLA-OFT/Fast-WAM",
+  "checks": [
+    {
+      "status": "PASS",
+      "check": "snapshot SHA256 + Python syntax + JSON parse",
+      "files": 144,
+      "gpu_used": false,
+      "weights_in_git": false
+    },
+    {
+      "status": "PASS",
+      "backend": "openvla",
+      "suite": "spatial",
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt",
+      "missing": [],
+      "verified_sha256_files": [
+        "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/added_tokens.json",
+        "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/config.json",
+        "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/dataset_statistics.json",
+        "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/generation_config.json",
+        "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/model.safetensors.index.json",
+        "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/preprocessor_config.json",
+        "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/processor_config.json",
+        "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/special_tokens_map.json",
+        "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/tokenizer.json",
+        "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/tokenizer.model",
+        "vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/tokenizer_config.json"
+      ],
+      "full_weight_hashes_verified": false,
+      "gpu_used": false,
+      "native_cpu_returncode": 0,
+      "native_cpu_log": "/tmp/tcr-table4-release-evidence-cpu-v2-20260924/openvla-cpu.log"
+    },
+    {
+      "status": "PASS",
+      "backend": "fastwam",
+      "suite": "spatial",
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/spatial/checkpoints/weights/step_012000.pt",
+      "missing": [],
+      "verified_sha256_files": [
+        "vla-merge_table4/Fast-WAM/weights/spatial/dataset_stats.json"
+      ],
+      "full_weight_hashes_verified": false,
+      "gpu_used": false,
+      "native_cpu_returncode": 0,
+      "native_cpu_log": "/tmp/tcr-table4-release-evidence-cpu-v2-20260924/fastwam-cpu.log"
+    }
+  ],
+  "output": "/tmp/tcr-table4-release-evidence-cpu-v2-20260924"
+}

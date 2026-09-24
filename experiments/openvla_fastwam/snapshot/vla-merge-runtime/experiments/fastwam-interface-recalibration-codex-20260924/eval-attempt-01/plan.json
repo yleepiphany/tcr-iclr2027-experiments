@@ -1,0 +1,79 @@
+{
+  "allocator_cap_mib": 28672,
+  "baseline_arms": [
+    "corrected_B",
+    "soup_fixed_spatial_interfaces"
+  ],
+  "build_plan_sha256": "ad487f63783c033ccb48a4fb7f2cfdc82c592e9e9401f5aef028dcf9764825e9",
+  "calibration_requests_not_heldout": true,
+  "created_at": "2026-09-24T06:45:35.467752+00:00",
+  "environment_episodes": 0,
+  "floor_free_mib": 16384,
+  "formal_priority_admission_order": [
+    4,
+    5
+  ],
+  "gpu_scope": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "host": "dsw-967394-56ffd4897d-42wft",
+  "max_gpu_children": 1,
+  "min_free_mib": 49152,
+  "no_retry": true,
+  "request_count": 12,
+  "schema": "fastwam_fixed_spatial_interface_offline_eval_v1",
+  "sources": [
+    {
+      "mtime_ns": 1790232282781083935,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fastwam-interface-recalibration-codex-20260924/evaluate_fixed.py",
+      "sha256": "c9de93566c5aa7a62fb8a6e12cb609eab8c6d934cfb6fa4f95f56413668e284b",
+      "size": 5878
+    },
+    {
+      "mtime_ns": 1790232326031341238,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fastwam-interface-recalibration-codex-20260924/run_fixed_eval.py",
+      "sha256": "a6965eaa043a0188df6bc53a84889694c3708adcd5a7eb6e77ee5fad310c9881",
+      "size": 8812
+    },
+    {
+      "mtime_ns": 1790230495270665918,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fastwam-local-diagnosis-20260924/run_interface_ablation_v3.py",
+      "sha256": "1af7799a24a5693782c95f4b1ef51de72779b2bd75c71fa4f9153fa41aef8aec",
+      "size": 15254
+    },
+    {
+      "mtime_ns": 1790220932736611825,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fastwam-local-diagnosis-20260924/run_diagnosis.py",
+      "sha256": "99acbf8ed2adfc27188cf8730b640ffe6cd07d8ecddc01f1857e93a710b4d0e7",
+      "size": 14764
+    },
+    {
+      "mtime_ns": 1790232080040050556,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fastwam-interface-recalibration-codex-20260924/build_two_pass_fixed.py",
+      "sha256": "75e1863149c13585d98cb1b1a67a9b7b2bf4f28e96357816cbeaeddbbd30054f",
+      "size": 16422
+    },
+    {
+      "mtime_ns": 1790230503103595558,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fastwam-local-diagnosis-20260924/interface-offline-attempt-03/plan.json",
+      "sha256": "66833b79d6dfdc561e23e848c9041837427bd72f1e363a6259546c42df37100b",
+      "size": 38403
+    },
+    {
+      "mtime_ns": 1790230758967207473,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fastwam-local-diagnosis-20260924/interface-offline-attempt-03/result.json",
+      "sha256": "5287e0456bd30d6bed8e518bb4830a53ea8eb1eddd15c789f21d46a2689addc7",
+      "size": 464123
+    },
+    {
+      "mtime_ns": 1790232191766722067,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fastwam-interface-recalibration-codex-20260924/attempt-01/plan.json",
+      "sha256": "ad487f63783c033ccb48a4fb7f2cfdc82c592e9e9401f5aef028dcf9764825e9",
+      "size": 4415
+    }
+  ],
+  "training": false
+}

@@ -1,0 +1,279 @@
+{
+  "bank_manifest_sha256": "16fb4a0331b552c211bcb92ed3c81c7f4232c4eec88330d52056131e26d04be8",
+  "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt",
+  "created_at": "2026-09-24T08:18:15.343264+00:00",
+  "entrypoint_sha256": "e799cbd9666e881bd798a37a34ca0cc1bf29717c285d99128f391415712a5d36",
+  "eval_seed": 274001,
+  "execute_actions": 8,
+  "hard_reset": true,
+  "horizon": 220,
+  "mode": "smoke",
+  "native_adapter_sha256": "a8a3c7dfe564fb968a733b51f31c0e49f1e4df6c285b4cc24ec8c5c41dfd1521",
+  "native_chunk": 8,
+  "num_steps_wait": 10,
+  "repeat_id": "repeat-01",
+  "selection_sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0",
+  "suite": "libero_spatial",
+  "tasks": {
+    "libero_spatial/00": {
+      "hashes": [
+        "8653c23883d773a0d0fe4681bb17be219003c61f5ab19700ad988a6bfd2e9256",
+        "a1015637c91465012b5072973c221ac218e33f8fb31f0894b34c67fff2591e54",
+        "760fe79b51d9e1bb2b2c493149f1863950eae0a5fa902578d56379209c58ff8e",
+        "e1dcfaa79907a2e0681984c06f90d793790d0154a81b05bb5192a91523c1ad2e",
+        "0040f71dd4a6ecac1ba94a10ca0cea6bdedfa3252fe19615a47c29ef228d6a47",
+        "b16c02f2be431512236e2847cb86c0c1cc7178d96059396c21bf2cbd5a35c45e",
+        "4639a2d6c8297d33e9bc97c69d43042e25e747dfd65e2d888acc1d7494f05369",
+        "b3ef9154198d4c8f41f83bd89154d72d3770ad64aec57b50fc8943c0015b9625",
+        "a016e214c375fb1ce615702e0a803828bddda483ea42c7a9b60fe8c7cc6cd5f3",
+        "46557f1695aa8fbdbd1b591027960288dbe73d95235df33e9db2dc2f9ae1bf4b"
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "libero_spatial/01": {
+      "hashes": [
+        "1204e963d3dc74ca5c5ae4301e180f5c4fd4b48d2e3f3f32427be5aedbbd1181",
+        "0d53cdc87a86c65a424841a02f596b4bd745f7dda1041d3517d097db8e3b8949",
+        "a372071d43dc5afe28d267918d67de784f666929d2f846035da323a1c4d4c07d",
+        "cb40551c6797310d465b93b3e667e479aa095d46eb62699529e4df9381b8d768",
+        "e11ead4d4f7a5d051b8583641248e05397f67d3cefefb415a8855660c998e683",
+        "6e5a61acf109cf41349a0a1386401579fff57b6d919517d10de86f2f2d0447ba",
+        "55968e500d03c8c6e5868efc53113899c2177106cdee4c932306f3269de0af22",
+        "e27f12964c4ac239373807901b0e958d4b21ddcb7245c729712c25eaebb1a56e",
+        "9cb276c77d47e9af9c9592f8f90501f1ac9282cb820eb33e2e388798a899cbcb",
+        "6f4e225d05d10aece047ae9421898cf8766c62ce1e47113d72ff2d8ab65a506f"
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "libero_spatial/02": {
+      "hashes": [
+        "26f66edf03f7a31f18d2b37e75f305d4d9dcc683224fa51887a2a72ff8a51db5",
+        "f18b343ac408f52479d9b8ddf057b369990015f1f0d2efa6fcaa5fff7668e8c9",
+        "357284c3a42e639d3ed7d49ee54270b87bbde784fef0885fb13667695d5b9afa",
+        "2b3887b3313fc6964cfb5f2e479d6f95aec61b81cceacfd698fab08b81cdb462",
+        "c02d0cb60f5e549bca18ece1441752fe693284c6929a5664178ffd468aa48dde",
+        "1c4983f2f5e7e6fe69d7a2f110c127b874182d326e55847ba6995ef6ca09ba3e",
+        "2532e014d37bfa7f9e40ad7239513dbea05f47c731b8eef32c32ba6032cfcb0d",
+        "bddd2a52591a2afe8e4d0c3fe8e93d064d44f51682b9cc778837e255df9cfd9a",
+        "2dc6d68d5200b45bd0efe844205ae58f4728e4fbe84a6b1cefcb7b46db809973",
+        "ae1627c0e8c36cf9312f4964e26dbd4acbc181efe3b4fc5fafc65461ced57fcc"
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "libero_spatial/03": {
+      "hashes": [
+        "c5e7c47cb2b26735698ecf54afaca3dfc999f166760cd7f7f0c0affb7e8ddd5a",
+        "1aedebbce1956be8c31b144fdb0472b8d64995ca0a8264ff62d5a0e8f85c87e5",
+        "1af3ddb301ee0bf13d9a0e53104159986f8659453199184a66cefd768880bc0b",
+        "9d02bd1ee4542d5d9d9dbdda641ff4a66748c35baf0b32b5398d8ff2954f6c89",
+        "366509726e17ea20158ec708aa45e720abd04d9cec960fae277194279e5f5fee",
+        "6f17a5e2d9efadd7da785d7d370d6ee6dc6d7f7d4f86c4e14547ba83fb26b8ed",
+        "a209284cbdf21b5aadf30a1d6ef6bcb582e2aad25f65570185dfcf51c03d5bf1",
+        "57d5c45f711a2a1a65433970ff38186069e776316e116054b55a3c269811f31a",
+        "605df423c81acb39c247d44cd542d66abc79c40c022cd6205351a99326a4e916",
+        "0e963dc2d8547cb6b383ac2202a2bc6933f34d53e8eeed7da97f234c2d3e5e99"
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "libero_spatial/04": {
+      "hashes": [
+        "98f1c4fab49220344ca2defabc5f86e31c3589c286b3be4524f57b22d790743a",
+        "7b20172a098c2e298f31f00525fc36f25dd95733450f901c2bce917bcd6c09a2",
+        "32dac38f79fd15b36a6c89abf962cc58f67416a79a39f2e41af1f34d7abd2837",
+        "7afc5df3ced927f4a72a9f330d715143c3f213d8bc6d6e0df61a7fce27e0be9f",
+        "c6b762dc9482ee3d2512c01530aa0fd95d694499faa85aa7da45380e919e9415",
+        "2112a84315cd2791a2c8b915b185abb2a56b516efe1d385933fa1b079a52fd81",
+        "c4e7ed7b9e710c07441e9206d714ee4a74fa7936e33f00b2d00af5ea27fbc89e",
+        "5e54934d242a3d6dd03d18282bcb4bf321215a9b79ad5136da5e476bdda4dff0",
+        "e92230936beca9998d5b4228ff6e7bf30d2a087f8b859709b16d3f258510489a",
+        "ccb62c2b8ac5b1fcb503f834f4d42a84c8082c28717ef7985b84fd5d7e1f5b40"
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "libero_spatial/05": {
+      "hashes": [
+        "79c94d94fe032771f294ebad548a05aa9dc51935e28fd9371295927978faef7f",
+        "05ba06f4ab73e2da55cd3aee35ad778c7662c7a825f3415c436e2efd7bc137a1",
+        "1f28fc6c2c846a15f4b5ede1c0e7f498ba5f91e8a893836393b73348e4d81d8a",
+        "2dda34e842a5624a6e569582ddc774cd069ef6528d7de4dd334527b50819c200",
+        "e616b2e22f98d04942cc90462a7f030f6889e152a046b950e97985a04e169bfb",
+        "3da20b884cfc45ae22ee3227dc40578bb053d43d885b241fd0d0163c2eb4a522",
+        "11f2dd3ffe1e4cebcbb96b3178f18423ac1bdb1d537a03c25254386819ea0525",
+        "675e0f540ee42e8ab54ad1399fbfeea89a18b67e5ee26ec9c8a10281cf7e2bff",
+        "c94363bb7d564b68f9319098540ac678f353221823dfcbc5e93ec1e39744bda7",
+        "5604ddb316ee22bd1782afb5df620b86e0e90b92607cfb0998287ac9a5b2b68a"
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "libero_spatial/06": {
+      "hashes": [
+        "ee38168c8d7d66aec31c01bde6c73d7689963c5051394bae867b49316c00818b",
+        "17ddaf49673d8fec9f1a65f591da1c7a492d00f2300651c65cf142e10bc4e0e3",
+        "be2ab72e16b9639d9c339eca98d74a98dad3e611ca47c8a4d5346c1469b8a7a9",
+        "ca4c782fb0ac2bdedb9b0e1d93aa62c445b85f3023c2a42b8c7aab4f1cbcc567",
+        "a9686a4c94b612421616070ea5615acb0223cea5e9891cce25f4925b1a6e2251",
+        "8e41e1cb68c4298b93bcadd1376c8afe16aaac7d62748d6866dfdaaafbd272a7",
+        "d1fb522ef830b3fcd281719afa36511e7c88a151b047345687317405a4c30005",
+        "12381f3e1485cb0cbf552febcc16f965461ca84f3d6d5952df73f722fcfde937",
+        "af8e56178ada9d4638e05125becacbba52b3eb012be8794415066b470e4e4d28",
+        "1610b9a6244ecaf4d8742dfe7f650e376b98f4514dc8aad4f467b2100b91c9be"
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "libero_spatial/07": {
+      "hashes": [
+        "3a6e999f1e16aa165bbe4120473b621611f14b23e039c8919d30fe429a632284",
+        "983ca88e9a89f0d99fd5d8c58711f2067530fdbb4e5edb3c677074856adf1817",
+        "a155c5790666a640ea7cb049ba243ff79f8fcae4536018eb09a76005fcc10448",
+        "5330964208ff3452a55b1f1e7aa8e4970f8186c441da6b7146b61df2388e20cd",
+        "41b00caa245fb6187bba562904fa71e717c9ee1f68f23ed86e2fe0fea8e2c77b",
+        "6a2873443de70a4c6ee5b7e3230b6721c4007c647645cc59b5d7036c8914b9d4",
+        "050bd4940204c099e3643dd1687a025ace9482574dba78151b6ffd981978cfff",
+        "b75c3614e8077cbe488145b153b985ae51d71efabbb2b17ae5b0c1566168964a",
+        "fec34a68a866173040b30041eeb3ee4d59ba9b09beff59d58a51c9bc37caec80",
+        "4d81803b70860bd5ad21acbf6b6337ac5c497a786b6341a423c2e394390056fa"
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "libero_spatial/08": {
+      "hashes": [
+        "a8aaa9f60b112f733f7a42ce28422e60c9b23396490c25d88189caaed796369d",
+        "f24ee5c32d9462362d8a8c7e958eccdfca6c1d4345d56e98c6cd181460533a7d",
+        "4a50c609e17699f91aee9afdcdc2043086470767377bcf156004cbaf80badce6",
+        "b5e4dfd426335cbfc4bf1b49367435338f64292d6b5e6313565871bb5c5f3d63",
+        "181aa4974b866d450a7137ff7c32622d82fb8126976d3c176223cf94390b8f66",
+        "0a3ea22916bd7afe055bf78731eb6b496813953e6869a50f533fcb4ba86a6286",
+        "8f8c28e852dfd2ef9771f0a196dce037f1fb495c4e8cbe8655884903a390de1f",
+        "124363a32a70209a863a3c813e398b0223b960c0b768132f708c17144988c66b",
+        "98eed09d3e9434720407869847a5b874be582578b2186ae5872567f3a251585f",
+        "3461ae07a4616aa042d21709b101b9db0661ab355f550c9d237aa2b93ff13326"
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "libero_spatial/09": {
+      "hashes": [
+        "367c388a2456328636dc3451c4f405a4ad7cb4952321d1c683c4bc26b3376d10",
+        "8977dbffb001f56f3332f1397d54414e0b8c9bbc84f33bcf03530fbd2845b35f",
+        "0da8b31286a73d4309c51dd2a1d33c78b7a45897628276070555e8f4b18e9f3f",
+        "76d9b168f6a988aeda91a84b7c795b917b7063f10fed14c703a5564df579cf94",
+        "4422f2c125dac12835e386b302495ff03ba9d6b008bc0f97ce022b99995a49a9",
+        "11711ded92d75e31ba38e2227eaf25674b81e217852cb23f7a316208b8cf04c5",
+        "6780c2508abb6338420e0fcca0556bf5e6ce3f1619d0d57c14c7e5532cee8fcc",
+        "690f65b362a83318dec189f933a820111ee088b5d259cb3d56c440dfa82d6b73",
+        "7518c4b638523815f6f766c831f904673c5454862c8b6bd41416b129140c114c",
+        "ce24dc9dafcff03753323eae3e654b103420c70df8bd81f23c8d045e75907ebe"
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  }
+}

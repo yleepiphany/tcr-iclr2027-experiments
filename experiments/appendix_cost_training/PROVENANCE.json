@@ -1,0 +1,1052 @@
+{
+  "schema": 1,
+  "source_host": "A100-8-hz:1016",
+  "source_workspace": "/mnt/workspace/Wilson/parameter-fusion",
+  "source_repository_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098",
+  "acquired_date": "2026-09-24",
+  "files": [
+    {
+      "packaged_path": "sources/coordination/2026-09-23/appendix-abc-pools-content-audit.json",
+      "workspace_relative_path": "coordination/2026-09-23/appendix-abc-pools-content-audit.json",
+      "bytes": 64863,
+      "sha256": "19eb510e37564d2a41e9b731f21a96bcaf227109f3482c0e8ad976b31db11e2e"
+    },
+    {
+      "packaged_path": "sources/coordination/2026-09-23/appendix-row-budget-contract.json",
+      "workspace_relative_path": "coordination/2026-09-23/appendix-row-budget-contract.json",
+      "bytes": 1385,
+      "sha256": "6ceeb43b445bbc2c735397cdce56a10601988e051f82e434362003e1606d67d0"
+    },
+    {
+      "packaged_path": "sources/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/a-followons-build-attempt-02/configs/AA.json",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/a-followons-build-attempt-02/configs/AA.json",
+      "bytes": 1215,
+      "sha256": "738e0ff4510259cc4cc669eaf45788943ea3f3841ee235095f9c403a14750ea6"
+    },
+    {
+      "packaged_path": "sources/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/a-followons-build-attempt-02/plan.json",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/a-followons-build-attempt-02/plan.json",
+      "bytes": 18780,
+      "sha256": "5737cbfd8f32c290c6b35eb0d23c6f9c29f2bf76378c934e5883b46775709718"
+    },
+    {
+      "packaged_path": "sources/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/ab-reference-build-attempt-02/configs/pass-1.json",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/ab-reference-build-attempt-02/configs/pass-1.json",
+      "bytes": 1105,
+      "sha256": "1074c2628e147d19e341057367cbea472104777eca8776422f9a5d5c5038cc1b"
+    },
+    {
+      "packaged_path": "sources/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/ab-reference-build-attempt-02/configs/pass-2.json",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/ab-reference-build-attempt-02/configs/pass-2.json",
+      "bytes": 1197,
+      "sha256": "4af1ff9706ddb9f2222967b92e84fb4d0475061a710f3eb395f98268b762cc64"
+    },
+    {
+      "packaged_path": "sources/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/ab-reference-build-attempt-02/plan.json",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/ab-reference-build-attempt-02/plan.json",
+      "bytes": 14461,
+      "sha256": "37db900eb1d06684bb4d991b2a57ccc7b8aa49f6a6a0cc332596266d41328742"
+    },
+    {
+      "packaged_path": "sources/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/cache-followons-build-attempt-02/configs/ABB.json",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/cache-followons-build-attempt-02/configs/ABB.json",
+      "bytes": 1244,
+      "sha256": "32ed9504a8db7aee544da2cf82f94fa2d1ef591a9df4a9a0d8691c4441f176d6"
+    },
+    {
+      "packaged_path": "sources/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/cache-followons-build-attempt-02/configs/AC.json",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/cache-followons-build-attempt-02/configs/AC.json",
+      "bytes": 1240,
+      "sha256": "bdf2b9c3b71f396c4c3e9f0566e7e8b23e85445b92c32ce92349c0fd9d0a10e7"
+    },
+    {
+      "packaged_path": "sources/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/cache-followons-build-attempt-02/plan.json",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/cache-followons-build-attempt-02/plan.json",
+      "bytes": 18797,
+      "sha256": "d7cfcdaab03df5adfbea25a03f27513eea9968c44e5fb646f2ed6fc392e64fc2"
+    },
+    {
+      "packaged_path": "sources/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-build-attempt-02/configs/pass-1.json",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-build-attempt-02/configs/pass-1.json",
+      "bytes": 1180,
+      "sha256": "a7e960949e3242169fe5f770e7c45cc5cd6b12144963c94d1d759deb8cce876e"
+    },
+    {
+      "packaged_path": "sources/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-build-attempt-02/configs/pass-2.json",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-build-attempt-02/configs/pass-2.json",
+      "bytes": 1286,
+      "sha256": "f147e59e9829257aa48a100a76f73be8b262d956a438fea41424c33e90fb39d1"
+    },
+    {
+      "packaged_path": "sources/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-build-attempt-02/plan.json",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-build-attempt-02/plan.json",
+      "bytes": 14702,
+      "sha256": "5e29429f23a0bd52c5f4ba53be5a2ffce5a18524829273cfa615c0dfbc918f09"
+    },
+    {
+      "packaged_path": "sources/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/scope-build-attempt-02/configs/action_A.json",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/scope-build-attempt-02/configs/action_A.json",
+      "bytes": 1193,
+      "sha256": "94de2d40ae1f7efc6cf46807542f3431e26118ffb694b97e22896c02068a22ae"
+    },
+    {
+      "packaged_path": "sources/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/scope-build-attempt-02/plan.json",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/scope-build-attempt-02/plan.json",
+      "bytes": 22782,
+      "sha256": "8621ee7516564bc8fb191cd31beefef3f2a72869ca6ce6c9a5e80650be6ac3e7"
+    },
+    {
+      "packaged_path": "sources/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/uniform-build-attempt-02/configs/pass-1.json",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/uniform-build-attempt-02/configs/pass-1.json",
+      "bytes": 1130,
+      "sha256": "020acc4bda407b95084f2a1cb362091f40c2e4cd463b3b7534234802ecdf16d7"
+    },
+    {
+      "packaged_path": "sources/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/uniform-build-attempt-02/configs/pass-2.json",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/uniform-build-attempt-02/configs/pass-2.json",
+      "bytes": 1249,
+      "sha256": "3640fd4fb190a9c46171fef20e7260114fe048720f9ffa6824ba968283465c2c"
+    },
+    {
+      "packaged_path": "sources/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/uniform-build-attempt-02/plan.json",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/uniform-build-attempt-02/plan.json",
+      "bytes": 14537,
+      "sha256": "f171c245869a6afe34f440ac487430541970b71a4ee1f07e12bdce7e10e13032"
+    },
+    {
+      "packaged_path": "sources/vla-merge/docs/progress/iclr2027-experiment-brief-20260921.zh-CN.md",
+      "workspace_relative_path": "vla-merge/docs/progress/iclr2027-experiment-brief-20260921.zh-CN.md",
+      "bytes": 3337,
+      "sha256": "554f57c03c0e8a951097f0269cf255ecd93c7659d1216ab517d06118ce543bfe"
+    },
+    {
+      "packaged_path": "sources/vla-merge/docs/progress/iclr2027-full-table-status-20260924.zh-CN.md",
+      "workspace_relative_path": "vla-merge/docs/progress/iclr2027-full-table-status-20260924.zh-CN.md",
+      "bytes": 7042,
+      "sha256": "ad15afbcea698bb6888113cf4ecf49dc15fb09938e272d5272d02f813c1ae479"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-20260917/eval_pi05_expanded_development.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-20260917/eval_pi05_expanded_development.py",
+      "bytes": 6849,
+      "sha256": "7d6418d3addb6efb63f3b5a600416a11e56bee4db5cc50dd3f3aff241f987ac9"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-20260917/materialize_second_round_v3.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-20260917/materialize_second_round_v3.py",
+      "bytes": 123824,
+      "sha256": "81cdad5db559d02267fa0553d5c260c5ff2b45313f988d5210b759c1b8333837"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-balanced-pass2-20260919/batch_safety.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-balanced-pass2-20260919/batch_safety.py",
+      "bytes": 13989,
+      "sha256": "f11ab102e7bc9cb94c74904dea7f688a1a22924cde52ce0e5ee40a8bc1ccfeed"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-balanced-pass2-20260919/eval_pi05_expanded_development.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-balanced-pass2-20260919/eval_pi05_expanded_development.py",
+      "bytes": 8786,
+      "sha256": "fe85aa94df016e3710e46815905f2288ffd69edea8e80029b9081d0109767a35"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-balanced-pass2-20260919/guard_batch_v3.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-balanced-pass2-20260919/guard_batch_v3.py",
+      "bytes": 16740,
+      "sha256": "fe886c72b86cd18d4bf686c213920e1d39ee95518a8e1fec81097c732470eb62"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-balanced-pass2-20260919/materialize_covariance_alpha.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-balanced-pass2-20260919/materialize_covariance_alpha.py",
+      "bytes": 159538,
+      "sha256": "b4d251a6c9778c985eb8f4e3acc1488a6f1752643561e9ac03bf551b713d1c5e"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-cache-sequence-budget-20260921/run_pool_capture.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-cache-sequence-budget-20260921/run_pool_capture.py",
+      "bytes": 11651,
+      "sha256": "771413d255f7ce358ac105cf57f07fb0ddb47e05fb285a305d04c2617bbc6b28"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-covariance-20260919/covariance_split_solve.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-covariance-20260919/covariance_split_solve.py",
+      "bytes": 11842,
+      "sha256": "77ed351ede6bb0fcf3960a403107f4a8405986bcf900c9a98538979bfbdc7a58"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-covariance-20260919/eval_pi05_expanded_development.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-covariance-20260919/eval_pi05_expanded_development.py",
+      "bytes": 8786,
+      "sha256": "fe85aa94df016e3710e46815905f2288ffd69edea8e80029b9081d0109767a35"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-covariance-20260919/materialize_covariance_alpha.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-covariance-20260919/materialize_covariance_alpha.py",
+      "bytes": 157738,
+      "sha256": "92ea997ad2bc3dba9c20366b4b3ceef0c6f0922752b56a7dea5f62bdebab37f4"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-covariance-20260919/run_covariance_development.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-covariance-20260919/run_covariance_development.py",
+      "bytes": 20223,
+      "sha256": "a1758127927c20a1c4c6ae2bc194fd5705c7fb89d3cc9f8435e56fdca0a1c8fb"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-covariance-20260919/run_covariance_study.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-covariance-20260919/run_covariance_study.py",
+      "bytes": 18167,
+      "sha256": "74aaea5c8ed7bc493639689ce2b549526aa4d0353b279f31c61062e47277bc83"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-firstpass-cause-20260920/card_flock.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-firstpass-cause-20260920/card_flock.py",
+      "bytes": 5708,
+      "sha256": "50c150a929abf5ccbbba29e2ac650f5bab207e23a2f19667206819b195538da9"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-formal-mainline-20260919/formal_contract.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-formal-mainline-20260919/formal_contract.py",
+      "bytes": 16337,
+      "sha256": "742d2c89249203cdad0a2309079f21a40369456fc51490ec9c08f2ea42770514"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_cache_followon_contract.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_cache_followon_contract.py",
+      "bytes": 3081,
+      "sha256": "0b25ed58b2e755b5cf8036a6b416b1f124150d8bd96b6c1f2389e7d700ab64b9"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_cache_followon_contract_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_cache_followon_contract_v8.py",
+      "bytes": 3081,
+      "sha256": "fd65ef15912679f9a08d06517d7fc78e483504f6e0ac2a1e10ff3230e9027c6f"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_contract.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_contract.py",
+      "bytes": 6287,
+      "sha256": "49fe9963486d59977a0ff75a24e576f978bf4d0c076670b4ad8e245cafefefe1"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_early_contract.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_early_contract.py",
+      "bytes": 4484,
+      "sha256": "497270b87540cde19b865401e1a08af559e5a07fca49ea856370cbaad15f04b1"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_early_contract_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_early_contract_v8.py",
+      "bytes": 4485,
+      "sha256": "44a95cab49fe4f00c883109f029f5cd18f2aeeed9aa1b069618324584926aad1"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_followon_contract.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_followon_contract.py",
+      "bytes": 3822,
+      "sha256": "9f21be3c94ba6887e1d6e2554323c6bf6e3aee6ed3228ca8d5395ce4aab954bd"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_followon_contract_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_followon_contract_v8.py",
+      "bytes": 3822,
+      "sha256": "c49b2ad7b38373a4db5e831e5a20dd533dcfe447b700b7764b65fa8401801f2f"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_row_budget.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_row_budget.py",
+      "bytes": 4476,
+      "sha256": "3c0d3e889d2ec1213617c785963e274fd0fc247f8d2890571ba2a21e3b9a314a"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_scope_contract.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_scope_contract.py",
+      "bytes": 4794,
+      "sha256": "4cc169ccb4b66c70c214e4715218f1f69dbf1cf1b43f35fd5e1678fc73ef78bb"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_scope_contract_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_scope_contract_v8.py",
+      "bytes": 4795,
+      "sha256": "59daf1859ccdceac0071e38bbd3a91cf0f3d4a666f68ebb48ee007ceb6a3843c"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_uniform_contract.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_uniform_contract.py",
+      "bytes": 2908,
+      "sha256": "08cab92b758c4f163b0a8c56a1c280f3dfa6104b654fa8f81d7e024aae24df0a"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_uniform_contract_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_uniform_contract_v8.py",
+      "bytes": 2908,
+      "sha256": "e072d066000e7ff18228776f9d84a06546745ddd59bc1a57b56f0474dfd786ef"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_union_contract.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_union_contract.py",
+      "bytes": 5538,
+      "sha256": "4bd4e89e42773f8d58fd9212d7a2e942a1dcc3592e070438da85c3cd39338662"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/freeze_row_budget.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/freeze_row_budget.py",
+      "bytes": 3118,
+      "sha256": "956218e7d9e38d70c7c7c568b34139e02b6efd8bed936986cfe66fce318a891b"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/materialize_cache_followons_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/materialize_cache_followons_v8.py",
+      "bytes": 124469,
+      "sha256": "ac8ff6a1665c02f23d208b5c9419fd5baa65e6894e48dd770c2c544d02e619ab"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/materialize_early_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/materialize_early_v8.py",
+      "bytes": 122994,
+      "sha256": "a9fe6d76b9fb87bb152f0e98d32605c9ff7f8e05b195e14625b2434c53d18a1a"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/materialize_fixed_appendix_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/materialize_fixed_appendix_v8.py",
+      "bytes": 122990,
+      "sha256": "bb4bae6d0b207e492aeeae77e01284cf7bfb4033633fa91a5ea8bfb2748e46d8"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/materialize_followons_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/materialize_followons_v8.py",
+      "bytes": 124451,
+      "sha256": "0a651d7e5b6a8fa6fe7c9ce010606bb7e7879ecf75d77fbeeff673e30e3c55e3"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/materialize_scope_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/materialize_scope_v8.py",
+      "bytes": 123016,
+      "sha256": "f4328100cd37851ccedb407e8335f814f01ad549af02692c6b505dbd56359ff9"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/materialize_uniform_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/materialize_uniform_v8.py",
+      "bytes": 123001,
+      "sha256": "c6891ed0c6f03fba5d45296d1b62006751054109567bf29cbf78f2e12c0d3271"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/materialize_union_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/materialize_union_v8.py",
+      "bytes": 124104,
+      "sha256": "4243db468e0dd8c7259b9112bf23b37fd9db40b3e94b94b45b3496b625815079"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_a_followons_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_a_followons_v8.py",
+      "bytes": 19094,
+      "sha256": "d2586f0d7f624f71fe59bbeaa339a75f98cf3f0375260bf5678db6f4e447a834"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_a_reference_eval_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_a_reference_eval_v8.py",
+      "bytes": 18597,
+      "sha256": "1f1eab2e951cf0c2530afebc1d4bc8ad92710ef9aa3662e1c807fd000dfa8cda"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_ab_reference_eval_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_ab_reference_eval_v8.py",
+      "bytes": 18620,
+      "sha256": "f90fdf4d7ac4b1439f6633ab4f6c7ba9b321bbf66994b3f80cc9641257a6d168"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_ab_reference_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_ab_reference_v8.py",
+      "bytes": 18518,
+      "sha256": "635d2c4a2825b06ea34b67116a676deeab2662d0ad0ab080d4956681d01993b7"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_cache_followon_eval_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_cache_followon_eval_v8.py",
+      "bytes": 19196,
+      "sha256": "6634867f3cd13fb70096fdb9ea4dfc8e43d5687a5f0f77a1711b089cda5608b7"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_cache_followons_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_cache_followons_v8.py",
+      "bytes": 19334,
+      "sha256": "4e128ea35b81a53d53d2817980574fecbf645e0e7a21a71052809c8c80bd4205"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_early_build_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_early_build_v8.py",
+      "bytes": 19600,
+      "sha256": "f3a7a28dd035658e97cf7e687a71d279b50e6e85f13e6fe6a550da8e8ebb7a5b"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_early_capture_v4.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_early_capture_v4.py",
+      "bytes": 16364,
+      "sha256": "dfd6e05f240d68595e5063d339c96e98a13a6a265914681ac49c4c914b5fc4f8"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_early_eval_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_early_eval_v8.py",
+      "bytes": 19781,
+      "sha256": "396a888984d62d6861921708ed7e6532dcac14797ed858208952fdae288bad45"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_followon_eval_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_followon_eval_v8.py",
+      "bytes": 19042,
+      "sha256": "fc5717a1a1734db3c75deac67f8889f5f42183214641dd0a631e47b1cd2b45f6"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_scope_eval_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_scope_eval_v8.py",
+      "bytes": 18966,
+      "sha256": "0630f341e2d7461a2af697ae1d7678d3854e2ef1896a37ed94941aadc3afca78"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_scope_eval_v9.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_scope_eval_v9.py",
+      "bytes": 19600,
+      "sha256": "d2e425d6584657d169ccd71e98286d222ce4ede395669e1110dca201bc136028"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_scope_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_scope_v8.py",
+      "bytes": 19104,
+      "sha256": "17caecc5727859d9dd704dc7e71bb313afca4e127beacf75cd149e2bb240178e"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_uniform_eval_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_uniform_eval_v8.py",
+      "bytes": 18790,
+      "sha256": "61933fb66e571d4f2d611cb030a14f8b1465b701f2a3b89d646a721496d66cb8"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_uniform_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_uniform_v8.py",
+      "bytes": 18693,
+      "sha256": "34ae968cfbe763a38563a12396a9e9f7b41ab347078cfa89ec95c6bb147f3345"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_union_eval_v2.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_union_eval_v2.py",
+      "bytes": 19678,
+      "sha256": "e80e2a7c76badabff0353f89ac09b44268687349e8db50a2ba235b54980d5a14"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_union_eval_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_union_eval_v8.py",
+      "bytes": 19679,
+      "sha256": "b56a327ce5395332e849b6b542e997fe1eec9a43ab3d302341d88e3a1858209c"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_union_v8.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_union_v8.py",
+      "bytes": 18014,
+      "sha256": "7d66fc71911c67cf423758e8aa0995784b8dd46f7f94d567e18ccce6374dbac5"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/test_appendix_cache_followon.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/test_appendix_cache_followon.py",
+      "bytes": 1869,
+      "sha256": "374f95ea16b0242d8b4e3ac568352bd82fb527c2d2ee90a665ffa8ad9f360f40"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/test_appendix_contract.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/test_appendix_contract.py",
+      "bytes": 1754,
+      "sha256": "ba8ba29a0679dcd82c452e3d88c76a1e2aec961fc53b35b32e984c5a96ff6e6b"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/test_appendix_early.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/test_appendix_early.py",
+      "bytes": 2392,
+      "sha256": "79eca22e40adf7d0b93bc68dc485180603b8577d883746388730f9ebfbfa3cac"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/test_appendix_followon.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/test_appendix_followon.py",
+      "bytes": 1825,
+      "sha256": "82e4ab35b752e50bdcba9e9c645f359a4612847be4de1c1112ab5548691961d3"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/test_appendix_row_budget.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/test_appendix_row_budget.py",
+      "bytes": 2452,
+      "sha256": "7aff98e7e5907428d9382593bbce3acec1e7c88d668b177ed7b22c5ce3dcd597"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/test_appendix_scope.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/test_appendix_scope.py",
+      "bytes": 1798,
+      "sha256": "423d2797f22dfb9fe87ebf43bd0e724b3462ab4d3f3b81973bc63c40e7de7b5a"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/test_appendix_uniform.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/test_appendix_uniform.py",
+      "bytes": 1505,
+      "sha256": "cea16230a5b553d0a911b11d0bfefcd4829f14f0e3b1141d216d56456b02c750"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/test_appendix_union.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/test_appendix_union.py",
+      "bytes": 3460,
+      "sha256": "714ab27d6d7e1ebb67435535e45d716d609dd0feb139e42190408858ac10edb1"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/wait_early_capture_v2.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/wait_early_capture_v2.py",
+      "bytes": 4211,
+      "sha256": "b239298ef7d5b030b5ecd71342864d3917449beea83563e752607587c28cf807"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/wait_early_followons_v2.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/wait_early_followons_v2.py",
+      "bytes": 7175,
+      "sha256": "9c0a38576f88503088ad722b988bb64d1e3eedbe8ec69c1892679a9119e03160"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-three-level-main-20260921/matched_main_contract.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-three-level-main-20260921/matched_main_contract.py",
+      "bytes": 6088,
+      "sha256": "87a6b91ec0940160b8cf70ab4c606266f3d86700fbc157cca07c3d585bf61819"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-three-level-main-20260921/pi05_subset_contract.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-three-level-main-20260921/pi05_subset_contract.py",
+      "bytes": 6518,
+      "sha256": "07e65477761d78177217e434da8449774c5a0d31e70559f748b1ff60ad151f9e"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/claude-three-level-main-20260921/three_level_contract.py",
+      "workspace_relative_path": "vla-merge/experiments/claude-three-level-main-20260921/three_level_contract.py",
+      "bytes": 8542,
+      "sha256": "7aa1029143cbd407e827e686d90c70b9a5b9e54f34966e0ce272cc8cd9c7d63a"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/main-ablation-action-metrics-20260923/run_metrics.py",
+      "workspace_relative_path": "vla-merge/experiments/main-ablation-action-metrics-20260923/run_metrics.py",
+      "bytes": 12760,
+      "sha256": "5702b523eef1781c394e0133995616efad293b1e6fb0b16ff6a59b2a374801d6"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/main-ablation-action-metrics-20260923/test_runner.py",
+      "workspace_relative_path": "vla-merge/experiments/main-ablation-action-metrics-20260923/test_runner.py",
+      "bytes": 2019,
+      "sha256": "ce941ad1ec41d1316603f91ce744da0db5a9b39cf5e368304e0342686280b684"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/main-action-fidelity-20260921/audit_and_score.py",
+      "workspace_relative_path": "vla-merge/experiments/main-action-fidelity-20260921/audit_and_score.py",
+      "bytes": 7117,
+      "sha256": "2f3dcf1b8024adbb57e0caca1c148d750757d5eb2dc39e233ecc95a64aec72b4"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/main-action-fidelity-20260921/audit_regmeanpp_correction.py",
+      "workspace_relative_path": "vla-merge/experiments/main-action-fidelity-20260921/audit_regmeanpp_correction.py",
+      "bytes": 9213,
+      "sha256": "8a35e8063dba3178c5297878ac2bf9a7875869652604d79ad0b850e4ccd683e8"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/main-action-fidelity-20260921/build_heldout_index.py",
+      "workspace_relative_path": "vla-merge/experiments/main-action-fidelity-20260921/build_heldout_index.py",
+      "bytes": 8419,
+      "sha256": "716ac8f5867b694accc72f1d62efb496f99f3e2462d74bf63b15d7f4c17fc2ce"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/main-action-fidelity-20260921/collect_heldout_raw_requests.py",
+      "workspace_relative_path": "vla-merge/experiments/main-action-fidelity-20260921/collect_heldout_raw_requests.py",
+      "bytes": 6045,
+      "sha256": "ecc0a2d976b675cff8c4f60e7966e6ab2fbb7c9edd55e77e4475aa3d184ba3ed"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/main-action-fidelity-20260921/collect_heldout_requests.py",
+      "workspace_relative_path": "vla-merge/experiments/main-action-fidelity-20260921/collect_heldout_requests.py",
+      "bytes": 5612,
+      "sha256": "adb2f4b7ab2e260aa70a48e51bcbcffc1bc5e7a8a29ed44b4bb6d2fb5b62bcc3"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/main-action-fidelity-20260921/metrics.py",
+      "workspace_relative_path": "vla-merge/experiments/main-action-fidelity-20260921/metrics.py",
+      "bytes": 4716,
+      "sha256": "90eaa1029b1c9ce89dc7c4c033f7cf393eb94e897178adb790207971f88f8159"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/main-action-fidelity-20260921/reference_score.py",
+      "workspace_relative_path": "vla-merge/experiments/main-action-fidelity-20260921/reference_score.py",
+      "bytes": 4672,
+      "sha256": "b514c7774b9e3dc16107737aff4b5afb5d74beba8a377af1bcbed94e71d7962a"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/main-action-fidelity-20260921/run_candidate_actions.py",
+      "workspace_relative_path": "vla-merge/experiments/main-action-fidelity-20260921/run_candidate_actions.py",
+      "bytes": 23979,
+      "sha256": "0cbff4e99d96cba5c1cf9751740d0afcb32c5339326ab3ca008db5908ba3cd7e"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/main-action-fidelity-20260921/run_heldout_capture.py",
+      "workspace_relative_path": "vla-merge/experiments/main-action-fidelity-20260921/run_heldout_capture.py",
+      "bytes": 12593,
+      "sha256": "ff4c382137ec1ff9d07ba68b16b5ed9fb739659baa3a480e88ffe40736698f0a"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/main-action-fidelity-20260921/run_heldout_raw_capture.py",
+      "workspace_relative_path": "vla-merge/experiments/main-action-fidelity-20260921/run_heldout_raw_capture.py",
+      "bytes": 9310,
+      "sha256": "c8afa46382cb1fdc760f3c37767642ac3abfaf303a3ed7b984f31026437318ef"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/main-action-fidelity-20260921/run_regmeanpp_correction.py",
+      "workspace_relative_path": "vla-merge/experiments/main-action-fidelity-20260921/run_regmeanpp_correction.py",
+      "bytes": 8721,
+      "sha256": "8e6fae962ac4b64f72261a6a73eb51561f9f7ab62dba3290b50a96c55c22150a"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/main-action-fidelity-20260921/run_teacher_actions.py",
+      "workspace_relative_path": "vla-merge/experiments/main-action-fidelity-20260921/run_teacher_actions.py",
+      "bytes": 19050,
+      "sha256": "f35cf11aeb2c5cf23deb744d5faa8b6868bffa182490e82f383bab96c000bab7"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/main-action-fidelity-20260921/test_metrics.py",
+      "workspace_relative_path": "vla-merge/experiments/main-action-fidelity-20260921/test_metrics.py",
+      "bytes": 2473,
+      "sha256": "5d074db6cd94c773cb4f68187de02ea257a9df3ff571b4d700b7356dbc1b1b2b"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/tcr-mainline-local-20260919/audit_early_requests.py",
+      "workspace_relative_path": "vla-merge/experiments/tcr-mainline-local-20260919/audit_early_requests.py",
+      "bytes": 1759,
+      "sha256": "37f3f4f41b2fd1f80aadf35df7dd730196d85e96828f230d24c5edb11b76df94"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/tcr-mainline-local-20260919/collect_early_table3_execution.py",
+      "workspace_relative_path": "vla-merge/experiments/tcr-mainline-local-20260919/collect_early_table3_execution.py",
+      "bytes": 5665,
+      "sha256": "5c7d9f45d8c57e09193167a2b92d3274595f64447886cbc759b07a4c7b1bf1a4"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/tcr-mainline-local-20260919/collect_mainline_table3_execution.py",
+      "workspace_relative_path": "vla-merge/experiments/tcr-mainline-local-20260919/collect_mainline_table3_execution.py",
+      "bytes": 5706,
+      "sha256": "a804c4304453b530e830fe6f886715146b567f5f492222fee9d2cc42fa3871f4"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/tcr-mainline-local-20260919/early_capture_queue_v2.py",
+      "workspace_relative_path": "vla-merge/experiments/tcr-mainline-local-20260919/early_capture_queue_v2.py",
+      "bytes": 29214,
+      "sha256": "4c5181af3b3cc7338923565e694736c5a2ffbc547517abc45a6c0c4a923c90f1"
+    },
+    {
+      "packaged_path": "sources/vla-merge/experiments/tcr-mainline-local-20260919/mainline_capture.py",
+      "workspace_relative_path": "vla-merge/experiments/tcr-mainline-local-20260919/mainline_capture.py",
+      "bytes": 29273,
+      "sha256": "fea55696ea97a402f663e4ed8d148d1297052a31fb5422ffe210751834d98488"
+    },
+    {
+      "packaged_path": "sources/vla-merge/paper/iclr2027/tabs/cache_sequence_controls.tex",
+      "workspace_relative_path": "vla-merge/paper/iclr2027/tabs/cache_sequence_controls.tex",
+      "bytes": 819,
+      "sha256": "d83606102c704d17d62fe1183c66e08065e94d406675fe0d4c42c8be58750f91"
+    },
+    {
+      "packaged_path": "sources/vla-merge/paper/iclr2027/tabs/calibration_budget_controls.tex",
+      "workspace_relative_path": "vla-merge/paper/iclr2027/tabs/calibration_budget_controls.tex",
+      "bytes": 849,
+      "sha256": "247080d056abdd41a0384209d5c234a94a4e4655115babe54f47dbfd964cc549"
+    },
+    {
+      "packaged_path": "sources/vla-merge/paper/iclr2027/tabs/continued.tex",
+      "workspace_relative_path": "vla-merge/paper/iclr2027/tabs/continued.tex",
+      "bytes": 889,
+      "sha256": "2c8a871fda8a193e1847605d6074a63a757dbd9f8fcc573e867f0e6690490344"
+    },
+    {
+      "packaged_path": "sources/vla-merge/paper/iclr2027/tabs/continued_suites.tex",
+      "workspace_relative_path": "vla-merge/paper/iclr2027/tabs/continued_suites.tex",
+      "bytes": 796,
+      "sha256": "60ac02c0cf5b60301103c7b593ef824093273ea2feef1937d51dfedbac3eab0d"
+    },
+    {
+      "packaged_path": "sources/vla-merge/paper/iclr2027/tabs/cost_build.tex",
+      "workspace_relative_path": "vla-merge/paper/iclr2027/tabs/cost_build.tex",
+      "bytes": 1338,
+      "sha256": "70a3f4357f5f2f06f7d6e2cc5d9e02b8bf2dc975aac8d79abc6e30353ddc840e"
+    },
+    {
+      "packaged_path": "sources/vla-merge/paper/iclr2027/tabs/full_recipe_controls.tex",
+      "workspace_relative_path": "vla-merge/paper/iclr2027/tabs/full_recipe_controls.tex",
+      "bytes": 931,
+      "sha256": "170250238fa33087908a1913ebe910f11891c8ae9cafadb0f58cab5efa1acf47"
+    },
+    {
+      "packaged_path": "sources/vla-merge/paper/iclr2027/tabs/main_action_agreement.tex",
+      "workspace_relative_path": "vla-merge/paper/iclr2027/tabs/main_action_agreement.tex",
+      "bytes": 1340,
+      "sha256": "5a16c4ff73f0486eb91cc18cb51d59024905f239a2f9e1eb34c3dc507b38d821"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/audit_tcr_expanded_pairing.py",
+      "workspace_relative_path": "vla-merge/scripts/audit_tcr_expanded_pairing.py",
+      "bytes": 7040,
+      "sha256": "ac5859790fea91d525c9cb263f71e2380d0123b2700753c1ced5fcea9f3fb2f9"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/audit_tcr_pass2_composite_20260919.py",
+      "workspace_relative_path": "vla-merge/scripts/audit_tcr_pass2_composite_20260919.py",
+      "bytes": 5778,
+      "sha256": "953d09a05e3c209434b618d8287d4927ccd6b6042b0a59b54219262e2aaedba0"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/audit_tcr_remote_supplement_20260919.py",
+      "workspace_relative_path": "vla-merge/scripts/audit_tcr_remote_supplement_20260919.py",
+      "bytes": 6873,
+      "sha256": "de250b264aaef59cf64ea5c3c17bdd9c3644ccb3c229a5a4e21f116678a8b1a8"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/audit_tcr_request_quantiles_20260919.py",
+      "workspace_relative_path": "vla-merge/scripts/audit_tcr_request_quantiles_20260919.py",
+      "bytes": 3401,
+      "sha256": "4e19e575695f81d94df42a80a16530284c790138052a62950bd41bdbdb5c8da1"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/collect_pi05_block_regmeanpp_calibration.py",
+      "workspace_relative_path": "vla-merge/scripts/collect_pi05_block_regmeanpp_calibration.py",
+      "bytes": 34234,
+      "sha256": "e763d4a57e22fd1be09a3f2b14c18f4acf84a38c357e89582e5e6430bbc332fa"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/collect_pi05_featcal_execution_inputs.py",
+      "workspace_relative_path": "vla-merge/scripts/collect_pi05_featcal_execution_inputs.py",
+      "bytes": 7214,
+      "sha256": "7e603e92b4f0757a4ca31c16fcbc90843afd67906a78089cbc130035710b220a"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/collect_pi05_table3_demo.py",
+      "workspace_relative_path": "vla-merge/scripts/collect_pi05_table3_demo.py",
+      "bytes": 5207,
+      "sha256": "3d35a26bf9e62ec2939cf4adaa9143d608d9d2dd7a09e4a8e49ddc4c1ca8b723"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/collect_pi05_table3_execution.py",
+      "workspace_relative_path": "vla-merge/scripts/collect_pi05_table3_execution.py",
+      "bytes": 3149,
+      "sha256": "bb8375df1a526f612c99a049b2d8c46cad6aa2d20c3cfa824748ada59f7b6848"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/collect_pi05_tcr_e_dense_trace_v2.py",
+      "workspace_relative_path": "vla-merge/scripts/collect_pi05_tcr_e_dense_trace_v2.py",
+      "bytes": 1849,
+      "sha256": "28c54f2b7964fa26c2a80208aa79f85a4ea57c00283d00826b5248bf8abcaadf"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/collect_tcr_10k_occupancy.py",
+      "workspace_relative_path": "vla-merge/scripts/collect_tcr_10k_occupancy.py",
+      "bytes": 4095,
+      "sha256": "65b86ae5f2d48572380b6a36bb8228309515bc5b46612a7b573968fd239fe1d8"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/diagnose_featcal_execution_parity.py",
+      "workspace_relative_path": "vla-merge/scripts/diagnose_featcal_execution_parity.py",
+      "bytes": 5877,
+      "sha256": "2649cae85e761e837ffa6cefeeb5e16e3d53fe3079893b08743147eadaa4391b"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/eval_pi05_capped_development.py",
+      "workspace_relative_path": "vla-merge/scripts/eval_pi05_capped_development.py",
+      "bytes": 549,
+      "sha256": "a22ce0afca081251d7c68a13812fb7d9c88ecd7a6d6e0b127604863af6c6a4ee"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/eval_pi05_iteration_development.py",
+      "workspace_relative_path": "vla-merge/scripts/eval_pi05_iteration_development.py",
+      "bytes": 3333,
+      "sha256": "dd0a477f193c384d7366ddb82a90435cb789f6c9abc3079a1bcfc4e9eed42211"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/eval_pi05_libero_with_init_offset.py",
+      "workspace_relative_path": "vla-merge/scripts/eval_pi05_libero_with_init_offset.py",
+      "bytes": 4099,
+      "sha256": "109ef6c26f78911688e6941ae72e19a9ae3b6acfed4b58642dffc4f96349ed60"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/eval_pi05_policy_with_procedural_bank.py",
+      "workspace_relative_path": "vla-merge/scripts/eval_pi05_policy_with_procedural_bank.py",
+      "bytes": 8812,
+      "sha256": "0d725da47958f62c1dc8b6ad5841ee684b3468a2eb7a04eb3bee74a016fee24c"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+      "workspace_relative_path": "vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+      "bytes": 2093,
+      "sha256": "178417fee375e94b0fc7f1919d47dc1249a904ff62b3aa01e04ff5c046cd80b1"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/materialize_pi05_block_regmeanpp.py",
+      "workspace_relative_path": "vla-merge/scripts/materialize_pi05_block_regmeanpp.py",
+      "bytes": 52911,
+      "sha256": "22449eafe9afa5ca0b35a40c1b105e088e5bb777bf60e19bfd5c9626b73754aa"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/materialize_pi05_dense_regmean.py",
+      "workspace_relative_path": "vla-merge/scripts/materialize_pi05_dense_regmean.py",
+      "bytes": 16991,
+      "sha256": "1aa4bcb10fae3f88f1be44a8ac208a0a1ed211e004b72c4904f33dea45f37f36"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/materialize_pi05_tcr_e_peft_safe.py",
+      "workspace_relative_path": "vla-merge/scripts/materialize_pi05_tcr_e_peft_safe.py",
+      "bytes": 115309,
+      "sha256": "f2b2b1c1373343f00b4238bd349f06185ee08a59153503bf31dc54924eb1f740"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/materialize_tcr_night_uniform_20260919.py",
+      "workspace_relative_path": "vla-merge/scripts/materialize_tcr_night_uniform_20260919.py",
+      "bytes": 117245,
+      "sha256": "a0d07dc8dc6a8884668bc558382c6d39dbdb472743b99a57c8e1c92384251318"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/pi05_replay_prefix.py",
+      "workspace_relative_path": "vla-merge/scripts/pi05_replay_prefix.py",
+      "bytes": 863,
+      "sha256": "fcfc11854c866ecda4f0b22b0a3f0d0e5b912db01f1b0a9239c37a1296d46a3a"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/pi05_table3_contract.py",
+      "workspace_relative_path": "vla-merge/scripts/pi05_table3_contract.py",
+      "bytes": 4205,
+      "sha256": "40fda11cdf07ec7f69fa8e1b6216066d90ace3e39d7ae0f4067fada174abd359"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/pi05_tcr_e_dense_contract.py",
+      "workspace_relative_path": "vla-merge/scripts/pi05_tcr_e_dense_contract.py",
+      "bytes": 4778,
+      "sha256": "f1aea2b7122d8e9d886b0b06d864ac69c73d3df7828ae931a68997a4b35d451c"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/prepare_tcr_remote_supplement_20260919.py",
+      "workspace_relative_path": "vla-merge/scripts/prepare_tcr_remote_supplement_20260919.py",
+      "bytes": 7429,
+      "sha256": "51957fc63246b54e66aa552fedb7d07ceec626d216e380c0ccc02d587948cf3d"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/resume_tcr_half_step_development.py",
+      "workspace_relative_path": "vla-merge/scripts/resume_tcr_half_step_development.py",
+      "bytes": 8195,
+      "sha256": "1098d8ce82c548bec090d4f90ba9343a514ec49cb05881944a1672c60e403382"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/run_featcal_execution_pilot_lane_v2.py",
+      "workspace_relative_path": "vla-merge/scripts/run_featcal_execution_pilot_lane_v2.py",
+      "bytes": 10737,
+      "sha256": "f0b873fe056ac09d6ee385ec92a788e0b589a33f979111b472de5f46068b1400"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/run_iclr2027_table1_clean_fastlane.py",
+      "workspace_relative_path": "vla-merge/scripts/run_iclr2027_table1_clean_fastlane.py",
+      "bytes": 29906,
+      "sha256": "477c38987eec32be684836874ddf15d69c332f114592b10d32dcab9d851d7059"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/run_pi05_featcal_execution_pilot.py",
+      "workspace_relative_path": "vla-merge/scripts/run_pi05_featcal_execution_pilot.py",
+      "bytes": 19055,
+      "sha256": "270e77f6049a01454c1b95f0580ddb112fa219b9faceb0907a1b786fa70588e8"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/run_pi05_featcal_execution_pilot_v2.py",
+      "workspace_relative_path": "vla-merge/scripts/run_pi05_featcal_execution_pilot_v2.py",
+      "bytes": 21540,
+      "sha256": "fee67a8168e7522b6e6c94dca5336971826b140986032aabdd7cd677e2756d8c"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/run_pi05_generation_path_probe.py",
+      "workspace_relative_path": "vla-merge/scripts/run_pi05_generation_path_probe.py",
+      "bytes": 11254,
+      "sha256": "2a9f496b6080e8199aedaf179b81c73fb6b3423bd00b04cc440e5edbbfaec0e9"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/run_pi05_table3_queue.py",
+      "workspace_relative_path": "vla-merge/scripts/run_pi05_table3_queue.py",
+      "bytes": 16035,
+      "sha256": "7f3a510d6f4dd65fc9c8ed6389dfc0ac67a17dac52830b097f6b1d693eb923eb"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/run_pi05_table3_worker.py",
+      "workspace_relative_path": "vla-merge/scripts/run_pi05_table3_worker.py",
+      "bytes": 880,
+      "sha256": "da6e04fa33249b0e7dbe2abb18926239d0c3c2fbd585429d1223fc05ee77e1f3"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/run_regmeanpp_missing_20260919.py",
+      "workspace_relative_path": "vla-merge/scripts/run_regmeanpp_missing_20260919.py",
+      "bytes": 6571,
+      "sha256": "57baea48610b28849f1d94f77c7cd9fc46950b949ba81ceac5aa365a2437f580"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/run_tcr_e2_capture_20260919.py",
+      "workspace_relative_path": "vla-merge/scripts/run_tcr_e2_capture_20260919.py",
+      "bytes": 8354,
+      "sha256": "347f000694774dba900161fef40e8073b60ba1a03a21ffee47b8b30ce6feabf2"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/run_tcr_half_step_development.py",
+      "workspace_relative_path": "vla-merge/scripts/run_tcr_half_step_development.py",
+      "bytes": 15292,
+      "sha256": "ccbb99e03c2d1201ac5bc8f9a42fa8a017041ce5a8116757995631613061ee95"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/run_tcr_night_20260919.py",
+      "workspace_relative_path": "vla-merge/scripts/run_tcr_night_20260919.py",
+      "bytes": 25671,
+      "sha256": "b9f3fc2e9e59882d54324a32281671a989fabc3cb5d395d7b765de29184c72b0"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/run_tcr_offset32_gpu3_20260919.py",
+      "workspace_relative_path": "vla-merge/scripts/run_tcr_offset32_gpu3_20260919.py",
+      "bytes": 6226,
+      "sha256": "bfb5040c5d54b7b18f6684cd7b897d5a1d781400c3e2714a7759efe2ebffad00"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/run_tcr_pass2_controls_20260919.py",
+      "workspace_relative_path": "vla-merge/scripts/run_tcr_pass2_controls_20260919.py",
+      "bytes": 16447,
+      "sha256": "3289951ec7c7096c70eb8f2e3533caf0f92b40a131b3b2882342434a1af68a69"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/summarize_pi05_construction_cost.py",
+      "workspace_relative_path": "vla-merge/scripts/summarize_pi05_construction_cost.py",
+      "bytes": 4478,
+      "sha256": "465563d69492042df83b118865fb6ee534ab92df13878fc04e358994a8f33db8"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/summarize_tcr_night_20260919.py",
+      "workspace_relative_path": "vla-merge/scripts/summarize_tcr_night_20260919.py",
+      "bytes": 8781,
+      "sha256": "8782c7cd20eb20b8290e9e5c18ba63bf1a72d4f080755f4b8ea146798e420df2"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/summarize_tcr_pass2_costs_20260919.py",
+      "workspace_relative_path": "vla-merge/scripts/summarize_tcr_pass2_costs_20260919.py",
+      "bytes": 4663,
+      "sha256": "0dce7cbab9a302f6aca042420bf4d7ee18ab15b81782165793edd283fcdeeca1"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/tcr_e2_capture_worker_20260919.py",
+      "workspace_relative_path": "vla-merge/scripts/tcr_e2_capture_worker_20260919.py",
+      "bytes": 1930,
+      "sha256": "018135e3a10e042a953c4af1dc95b36d8b8659cb6687f29de58708cc38f08528"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/tcr_night_worker_20260919.py",
+      "workspace_relative_path": "vla-merge/scripts/tcr_night_worker_20260919.py",
+      "bytes": 4310,
+      "sha256": "6ef3bf66b60ff768828cca2abb626718e389182a93af349bda87595a89f11a2d"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/tcr_pass2_controls_contract_20260919.py",
+      "workspace_relative_path": "vla-merge/scripts/tcr_pass2_controls_contract_20260919.py",
+      "bytes": 3800,
+      "sha256": "5fd21ece97a474be30b4d5dde52577723668575894d5de8b66e66cd8b16030ad"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/tcr_pass2_controls_worker_20260919.py",
+      "workspace_relative_path": "vla-merge/scripts/tcr_pass2_controls_worker_20260919.py",
+      "bytes": 4505,
+      "sha256": "fff085de893c6114ab0856ca1dd5b9c07cf69214c6e34194837699911d918eca"
+    },
+    {
+      "packaged_path": "sources/vla-merge/scripts/verify_featcal_replay_identity.py",
+      "workspace_relative_path": "vla-merge/scripts/verify_featcal_replay_identity.py",
+      "bytes": 5212,
+      "sha256": "731101616bf80c0ec4a6d3126809780edb9d84ddc2bee35bd3e02a66d5aea18d"
+    },
+    {
+      "packaged_path": "sources/vla-merge/src/vla_merge/featcal_cache_plan.py",
+      "workspace_relative_path": "vla-merge/src/vla_merge/featcal_cache_plan.py",
+      "bytes": 39955,
+      "sha256": "4b5aa596dd39b857b5da60fdd3a4080233153ce32f04cab660cc844e42f67d13"
+    },
+    {
+      "packaged_path": "sources/vla-merge/src/vla_merge/featcal_execution.py",
+      "workspace_relative_path": "vla-merge/src/vla_merge/featcal_execution.py",
+      "bytes": 4202,
+      "sha256": "d50db5553d174c4e05bceaefceb14beb47a5558f955325d5a894f014bee82f73"
+    },
+    {
+      "packaged_path": "sources/vla-merge/src/vla_merge/featcal_execution_gate.py",
+      "workspace_relative_path": "vla-merge/src/vla_merge/featcal_execution_gate.py",
+      "bytes": 1078,
+      "sha256": "4abdd31f0214759c12096b3c8953490dc48d9bf08f9900bb054d50bacec045f3"
+    },
+    {
+      "packaged_path": "sources/vla-merge/src/vla_merge/featcal_forward_order.py",
+      "workspace_relative_path": "vla-merge/src/vla_merge/featcal_forward_order.py",
+      "bytes": 36158,
+      "sha256": "712282ed7d9fad08c20f55e4330b2b29545ac5180f41a80301c36279762c9ede"
+    },
+    {
+      "packaged_path": "sources/vla-merge/src/vla_merge/featcal_hybrid_solve.py",
+      "workspace_relative_path": "vla-merge/src/vla_merge/featcal_hybrid_solve.py",
+      "bytes": 22242,
+      "sha256": "d44597ad37397dbb7ffd752891943644297fdd8224e09f7f106ff7e3ce93863d"
+    },
+    {
+      "packaged_path": "sources/vla-merge/src/vla_merge/featcal_prefix_chain.py",
+      "workspace_relative_path": "vla-merge/src/vla_merge/featcal_prefix_chain.py",
+      "bytes": 26079,
+      "sha256": "7451aba3fd66e89b4c3b5c2318d54cd87fe7662eef7201acdc730910239af625"
+    },
+    {
+      "packaged_path": "sources/vla-merge/src/vla_merge/libero_procedural_bank.py",
+      "workspace_relative_path": "vla-merge/src/vla_merge/libero_procedural_bank.py",
+      "bytes": 17380,
+      "sha256": "9753f4ced7e0237a9bf82b836834dcad745a9bf4ee0146af292b70d0aa9072b5"
+    }
+  ],
+  "external_import_roots": [
+    "__future__",
+    "argparse",
+    "batch_safety",
+    "collections",
+    "concurrent",
+    "contextlib",
+    "copy",
+    "dataclasses",
+    "datetime",
+    "eval_with_local_tokenizer",
+    "fcntl",
+    "formal_contract",
+    "gc",
+    "hashlib",
+    "importlib",
+    "inspect",
+    "itertools",
+    "json",
+    "lerobot",
+    "libero",
+    "math",
+    "numpy",
+    "os",
+    "pathlib",
+    "pytest",
+    "re",
+    "safetensors",
+    "scripts",
+    "shutil",
+    "signal",
+    "socket",
+    "statistics",
+    "subprocess",
+    "sys",
+    "tempfile",
+    "threading",
+    "time",
+    "torch",
+    "traceback",
+    "transformers",
+    "types",
+    "typing",
+    "unittest",
+    "zlib"
+  ],
+  "scope": "Appendix8-10 sources, heldout action metrics, construction cost extraction and blocked continued-training protocol evidence; no realrobot assets or giant model weights."
+}

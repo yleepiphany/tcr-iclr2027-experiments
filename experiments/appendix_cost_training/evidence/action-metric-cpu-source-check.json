@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "mode": "cpu",
+  "tests_run": 6,
+  "failures": 0,
+  "errors": 0,
+  "cuda_initialized": false,
+  "source_sha256": "90eaa1029b1c9ce89dc7c4c033f7cf393eb94e897178adb790207971f88f8159",
+  "test_source_sha256": "5d074db6cd94c773cb4f68187de02ea257a9df3ff571b4d700b7356dbc1b1b2b",
+  "runtime_versions": {
+    "torch": "2.7.1+cu128",
+    "safetensors": "0.5.3",
+    "numpy": "2.2.6",
+    "transformers": "5.5.4"
+  },
+  "test_output": "test_aggregation_and_missing (release_original_metrics_test.ActionMetrics.test_aggregation_and_missing) ... ok\ntest_fail_closed (release_original_metrics_test.ActionMetrics.test_fail_closed) ... ok\ntest_fixed_scale (release_original_metrics_test.ActionMetrics.test_fixed_scale) ... ok\ntest_identity (release_original_metrics_test.ActionMetrics.test_identity) ... ok\ntest_unused_and_gripper_ignored (release_original_metrics_test.ActionMetrics.test_unused_and_gripper_ignored) ... ok\ntest_zero_kept_for_mse_not_cos (release_original_metrics_test.ActionMetrics.test_zero_kept_for_mse_not_cos) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.004s\n\nOK\n",
+  "note": "Original recorded metric implementation executed on CPU only; no model weights, simulation or new Table11 measurement."
+}

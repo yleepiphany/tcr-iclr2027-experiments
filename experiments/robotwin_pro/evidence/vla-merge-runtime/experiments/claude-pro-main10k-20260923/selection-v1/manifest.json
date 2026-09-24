@@ -1,0 +1,260 @@
+{
+  "benchmark": "LIBERO-PRO",
+  "checkpoint_step": 10000,
+  "contract": "pi05-libero-main10k-matched-v1",
+  "created_at": "2026-09-23T02:17:17.059560+00:00",
+  "dimensions": [
+    "object",
+    "swap",
+    "semantic",
+    "task"
+  ],
+  "experts": {
+    "libero_10": {
+      "dense_verification": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/long-10k-full-dense-peft-v2/dense-content-verification-peft-v2.json",
+        "sha256": "bfb9bb6fe384cf1ecd0daa3faf238d5093d4acc78b80dbc126c6c8bd31bbb633"
+      },
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/long-10k-full-dense-peft-v2/pretrained_model",
+      "primary_sha256": "85ad87a5d9fbdcdee5d6ff9270a59355326b376f0d50fbc27ae606cbc9b7f8fc",
+      "source_adapter": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/long10_lora_s0/checkpoints/010000/pretrained_model",
+        "role": "provenance_only",
+        "sha256": "862e1e14337fe2039b2402051dd81b15965d472052934d2d9cf0067bbd80e438"
+      }
+    },
+    "libero_goal": {
+      "dense_verification": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/dense-content-verification-peft-v2.json",
+        "sha256": "6a8da3d6c771b0ff19182526f64ca079d1df1491028f9166942f55962175b7a0"
+      },
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/pretrained_model",
+      "primary_sha256": "af9e258354d759710d04f13d40ac6e2e4377d5063f56fa8e0ef574f8c96e2732",
+      "source_adapter": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/goal_lora_s0/checkpoints/010000/pretrained_model",
+        "role": "provenance_only",
+        "sha256": "5541940979994997d1bc9bd28521f6689b84a91e9dbb8af0e0f8a120ee9f5bdc"
+      }
+    },
+    "libero_object": {
+      "dense_verification": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/dense-content-verification-peft-v2.json",
+        "sha256": "42342233b7076f8ce28a98bb3b626c0d21def2ca865d4a2f6c04d1c3fd20b1b9"
+      },
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/pretrained_model",
+      "primary_sha256": "a74c9349a78e122ecf9799e404ad748ffebba0b814b95e3dae4a7b32837f1510",
+      "source_adapter": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/object_lora_s0/checkpoints/010000/pretrained_model",
+        "role": "provenance_only",
+        "sha256": "4cb91287d099daf536af96de8eeda5767f9f575be6111c8dd841bbce9e9e130b"
+      }
+    },
+    "libero_spatial": {
+      "dense_verification": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/dense-content-verification-peft-v2.json",
+        "sha256": "4dc290bcb5e2506d21196787ee127b89c2e0826c740f161a03b42d6c7c1ae8c7"
+      },
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/pretrained_model",
+      "primary_sha256": "008cb4a76898edbb70edb83bd54cb472722ba49b2760acfde24381e6d14fc75f",
+      "source_adapter": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/spatial_lora_s0/checkpoints/010000/pretrained_model",
+        "role": "provenance_only",
+        "sha256": "c3e3abf25fc8c7331bbb1632369e572ad7b7bea788cbd4cdc763312b8c9292b6"
+      }
+    }
+  },
+  "historical_full": {
+    "repeat-01": {
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-tcr-new-methods-20260917/arms/checkpoints/r01/block_regmeanpp_manifest.json",
+      "manifest_sha256": "dc3776691c12ed865e31020c6a38889138ddb6638305546029a955f2898c2962",
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-tcr-new-methods-20260917/arms/checkpoints/r01",
+      "primary_sha256": "4562193825dc9b23e834eb32bfc57242501c7abc3f6c561eeaeee1b5b6f42da8"
+    },
+    "repeat-02": {
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-tcr-new-methods-20260917/arms/checkpoints/r02/block_regmeanpp_manifest.json",
+      "manifest_sha256": "099a42f980a167d7bc225c8066637f8163de3e4062961856c185987e33901393",
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-tcr-new-methods-20260917/arms/checkpoints/r02",
+      "primary_sha256": "cc3185acd526f9fd70a0640a9932991e21b0a3f32e0ff994a4fb3fc5c250602c"
+    },
+    "repeat-03": {
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-tcr-new-methods-20260917/arms/checkpoints/c_e/block_regmeanpp_manifest.json",
+      "manifest_sha256": "d578136da2fb2ce88d50dca1108b9f50a32b402187fc10f1f0ac97a7a6184214",
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-tcr-new-methods-20260917/arms/checkpoints/c_e",
+      "primary_sha256": "3e3a55ce0acd04b3ee1e180eda2a6109b0ef6d0ea4e717f6052a27829adfce95"
+    }
+  },
+  "main_expert_bank": {
+    "base": {
+      "model_sha256": "f2165fad32a4b431ca1488a5b886f6738be9e8b480298ecc9e0b55d87d26f365",
+      "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+      "tensor_count": 813
+    },
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/expert-dense-bank-peft-v2.json",
+    "sha256": "d61a5f9e56bb0f76d8186a33dc26fe283cf8cfab220e903a460f92e4507f209b"
+  },
+  "no_training_merge_calibration_or_tuning": true,
+  "repeats": {
+    "repeat-01": {
+      "eval_seed": 274001,
+      "state_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "repeat-02": {
+      "eval_seed": 274002,
+      "state_ids": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "repeat-03": {
+      "eval_seed": 274003,
+      "state_ids": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    }
+  },
+  "schema_version": 1,
+  "selection_index": {
+    "Experts-libero_10/repeat-01": {
+      "episodes": 400,
+      "jobs": 40,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/selections/Experts-libero_10/repeat-01.json",
+      "policy_primary_sha256": "85ad87a5d9fbdcdee5d6ff9270a59355326b376f0d50fbc27ae606cbc9b7f8fc",
+      "sha256": "ccb1fbdd335b0376d3bc74c3e86c2f0d6e9c70204dba32b43ba97157c0b7b772"
+    },
+    "Experts-libero_10/repeat-02": {
+      "episodes": 400,
+      "jobs": 40,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/selections/Experts-libero_10/repeat-02.json",
+      "policy_primary_sha256": "85ad87a5d9fbdcdee5d6ff9270a59355326b376f0d50fbc27ae606cbc9b7f8fc",
+      "sha256": "7aeb064689aeee3d57f6b8b12478ab9676da0b9bf056219ae3b397f72182be42"
+    },
+    "Experts-libero_10/repeat-03": {
+      "episodes": 400,
+      "jobs": 40,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/selections/Experts-libero_10/repeat-03.json",
+      "policy_primary_sha256": "85ad87a5d9fbdcdee5d6ff9270a59355326b376f0d50fbc27ae606cbc9b7f8fc",
+      "sha256": "8fd78b5b0d1d9d35f763132453ef8bb9035d5845b858ac53f0483fc2d512a48b"
+    },
+    "Experts-libero_goal/repeat-01": {
+      "episodes": 400,
+      "jobs": 40,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/selections/Experts-libero_goal/repeat-01.json",
+      "policy_primary_sha256": "af9e258354d759710d04f13d40ac6e2e4377d5063f56fa8e0ef574f8c96e2732",
+      "sha256": "cd456d01d6738a1cf9e24c495a14fe528d905b32a3eb7905262ae30f22731f4c"
+    },
+    "Experts-libero_goal/repeat-02": {
+      "episodes": 400,
+      "jobs": 40,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/selections/Experts-libero_goal/repeat-02.json",
+      "policy_primary_sha256": "af9e258354d759710d04f13d40ac6e2e4377d5063f56fa8e0ef574f8c96e2732",
+      "sha256": "117dbb39272de6102eea2f1dd6214a044535d38e3942f5a9e2e04d398293ae53"
+    },
+    "Experts-libero_goal/repeat-03": {
+      "episodes": 400,
+      "jobs": 40,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/selections/Experts-libero_goal/repeat-03.json",
+      "policy_primary_sha256": "af9e258354d759710d04f13d40ac6e2e4377d5063f56fa8e0ef574f8c96e2732",
+      "sha256": "0f48e7f3292114c83cece7af76629c2392250f0ed15b972523f7d782325f3c76"
+    },
+    "Experts-libero_object/repeat-01": {
+      "episodes": 400,
+      "jobs": 40,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/selections/Experts-libero_object/repeat-01.json",
+      "policy_primary_sha256": "a74c9349a78e122ecf9799e404ad748ffebba0b814b95e3dae4a7b32837f1510",
+      "sha256": "a19aee0d741ee4bddea6b3a466dfd0846d80c792f7e65408eb50864ca7ff36f2"
+    },
+    "Experts-libero_object/repeat-02": {
+      "episodes": 400,
+      "jobs": 40,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/selections/Experts-libero_object/repeat-02.json",
+      "policy_primary_sha256": "a74c9349a78e122ecf9799e404ad748ffebba0b814b95e3dae4a7b32837f1510",
+      "sha256": "d7fe011611c9eaa2354a39af4d015fce66ab2723bc5d6c79dfa4b62e66d65c4d"
+    },
+    "Experts-libero_object/repeat-03": {
+      "episodes": 400,
+      "jobs": 40,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/selections/Experts-libero_object/repeat-03.json",
+      "policy_primary_sha256": "a74c9349a78e122ecf9799e404ad748ffebba0b814b95e3dae4a7b32837f1510",
+      "sha256": "b6d1c21d411fa61dbc127e3f4299256296068221aae483aa75a7e5b8bc48159b"
+    },
+    "Experts-libero_spatial/repeat-01": {
+      "episodes": 400,
+      "jobs": 40,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/selections/Experts-libero_spatial/repeat-01.json",
+      "policy_primary_sha256": "008cb4a76898edbb70edb83bd54cb472722ba49b2760acfde24381e6d14fc75f",
+      "sha256": "3220e3fa0c30fc10dcc819f48926c59616530bf61a93e7c4c47b32d050e04461"
+    },
+    "Experts-libero_spatial/repeat-02": {
+      "episodes": 400,
+      "jobs": 40,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/selections/Experts-libero_spatial/repeat-02.json",
+      "policy_primary_sha256": "008cb4a76898edbb70edb83bd54cb472722ba49b2760acfde24381e6d14fc75f",
+      "sha256": "c37ab0e73080af5beb05b9ac601d0ea2409aec3445fdf4f0d543b6c47acedbe7"
+    },
+    "Experts-libero_spatial/repeat-03": {
+      "episodes": 400,
+      "jobs": 40,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/selections/Experts-libero_spatial/repeat-03.json",
+      "policy_primary_sha256": "008cb4a76898edbb70edb83bd54cb472722ba49b2760acfde24381e6d14fc75f",
+      "sha256": "0a43108c8e3c9e30cfae1b3f1bbf543e3078251135045daddf6e9472beeea631"
+    },
+    "TCR-Full/repeat-01": {
+      "episodes": 1600,
+      "jobs": 160,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/selections/TCR-Full/repeat-01.json",
+      "policy_primary_sha256": "4562193825dc9b23e834eb32bfc57242501c7abc3f6c561eeaeee1b5b6f42da8",
+      "sha256": "518281f2f1fd6d30413104f8d5de5bc596df1ad6810a3392f11950925a70fd6a"
+    },
+    "TCR-Full/repeat-02": {
+      "episodes": 1600,
+      "jobs": 160,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/selections/TCR-Full/repeat-02.json",
+      "policy_primary_sha256": "cc3185acd526f9fd70a0640a9932991e21b0a3f32e0ff994a4fb3fc5c250602c",
+      "sha256": "7d1c27f3dc9100e107d3f7b688c3801610db169032a91f64f583002deec7b799"
+    },
+    "TCR-Full/repeat-03": {
+      "episodes": 1600,
+      "jobs": 160,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pro-main10k-20260923/selection-v1/selections/TCR-Full/repeat-03.json",
+      "policy_primary_sha256": "3e3a55ce0acd04b3ee1e180eda2a6109b0ef6d0ea4e717f6052a27829adfce95",
+      "sha256": "dbb07887505daa61ef870e93e3ca8d3761b3e9b8328bd8770693c4017a24a6c0"
+    }
+  },
+  "source_identity": {
+    "assets_tree_sha256": "ad5a423f687bb6260d0a01d2f38e2aa97923ee8cceaf27869e1d9e9fd4260114",
+    "config_path": "/mnt/workspace/Wilson/parameter-fusion/.datasets/LIBERO/20260919/pro/config/config.yaml",
+    "config_sha256": "14698eb437e74b99b0e5594b5bb911b89a8eaf39c0544ae98423a529f22fa1fe",
+    "data_root": "/mnt/workspace/Wilson/parameter-fusion/.datasets/LIBERO/20260919",
+    "repo_commit": "eafdb809426b13153aa1e4c42d6601844217dfec"
+  },
+  "total_episodes": 9600,
+  "total_jobs": 960
+}

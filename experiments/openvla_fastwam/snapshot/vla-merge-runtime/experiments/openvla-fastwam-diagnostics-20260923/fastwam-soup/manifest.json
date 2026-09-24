@@ -1,0 +1,79 @@
+{
+  "complete": true,
+  "method": "uniform_model_soups",
+  "is_tcr": false,
+  "checkpoint": {
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/openvla-fastwam-diagnostics-20260923/fastwam-soup/model_soups.pt",
+    "size": 12041965151,
+    "mtime_ns": 1790172517428130168,
+    "sha256": "a6f1df4d2d1173262be9e6721ac5c87dd262c6b110850181bc9bccc754648045"
+  },
+  "sources": {
+    "spatial": {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/spatial/checkpoints/weights/step_012000.pt",
+      "size": 12041735341,
+      "mtime_ns": 1790101394828906271,
+      "sha256": "540249aee838c87fc57ae6f93fb320092a8d7aeaed1ebe4004455eee479cbaf8"
+    },
+    "object": {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/object/checkpoints/weights/step_010000.pt",
+      "size": 12041735341,
+      "mtime_ns": 1790075494839984892,
+      "sha256": "2365f01161db4c6788c62b9cc6a0ce8f508e067112d9ed038cf0b0930e7540b7"
+    },
+    "goal": {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/goal/checkpoints/weights/step_010000.pt",
+      "size": 12041735341,
+      "mtime_ns": 1790038439854846395,
+      "sha256": "54300af0b76d4dc7695e73ee1d0ecb7db141f272d621682078b461cac2f0b031"
+    },
+    "long": {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/long/checkpoints/weights/step_009000.pt",
+      "size": 12041735341,
+      "mtime_ns": 1789852360553177617,
+      "sha256": "35e756825e3b0ae5311309d0894ec4f88da9ce42aabdd14f7b157ac208d40cf5"
+    }
+  },
+  "source_steps": {
+    "spatial": 12000,
+    "object": 10000,
+    "goal": 10000,
+    "long": 9000
+  },
+  "suite_normalizers": {
+    "spatial": {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/spatial/dataset_stats.json",
+      "size": 43150,
+      "mtime_ns": 1790164709875177440,
+      "sha256": "32681386eaa332d204e6faf2a36a391234029af7ce7a60654fd6c39e397c4242"
+    },
+    "object": {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/object/dataset_stats.json",
+      "size": 45879,
+      "mtime_ns": 1790075653894284033,
+      "sha256": "c8666963556486b50c58d91091caaa28024c9570558fd2a07049bba4906f98ac"
+    },
+    "goal": {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/goal/dataset_stats.json",
+      "size": 40933,
+      "mtime_ns": 1790112914328155319,
+      "sha256": "e8223ec7446ed6f6c75e9f144b8cd74e4a22be6a3fb8e409ea2e596fe32313f6"
+    },
+    "long": {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/long/dataset_stats.json",
+      "size": 42699,
+      "mtime_ns": 1789899039964583180,
+      "sha256": "dcce0d97aaad225043af0855817f09d405b47e7858de7e34ecac83155ca5d28f"
+    }
+  },
+  "component_counts": {
+    "mot": 1649,
+    "proprio_encoder": 2
+  },
+  "reload_tensor_exact": true,
+  "gpu_validated": false,
+  "success_evaluated": false,
+  "script_sha256": "7451a2a9206a0f4f29f3f4f8d45ee395842ad88d02ecd7357bce3e8d6110f4d3",
+  "scope": "User-selected checkpoints; full MOT and proprio mean; frozen VAE/text base loaded by native evaluator",
+  "reported_long_score": "398/468, incomplete 500-episode denominator; not used as paired result"
+}

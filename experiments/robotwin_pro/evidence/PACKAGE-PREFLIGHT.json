@@ -1,0 +1,64 @@
+{
+  "schema": "robotwin_pro_release_smoke_v1",
+  "status": "PASS",
+  "scope": "Package integrity and CPU/native CLI smoke; not a completed evaluation",
+  "package_files_verified": 97,
+  "methods": [
+    {
+      "method": "libero_pro/model_soups",
+      "status": "UNFINISHED",
+      "current_checkpoint_sha256": "a92aacc43146dc41663c0057f2999bd90252fb3fb316ef963f165be67e1be01a",
+      "selection_manifest": "/Users/Zhuanz/Documents/ICLR2027_experiment_release_20260924/tcr-iclr2027-experiments/experiments/robotwin_pro/evidence/vla-merge-runtime/experiments/pi05-pro-soup-codex-20260924/selection-v1/manifest.json",
+      "selection_checkpoint_sha256": "a92aacc43146dc41663c0057f2999bd90252fb3fb316ef963f165be67e1be01a",
+      "selection_manifest_sha256": "ef24aefb638317a7820409eac535b707b3af506c435d0628deaab388d39128e3"
+    },
+    {
+      "method": "libero_pro/ties",
+      "status": "UNFINISHED",
+      "current_checkpoint_sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+      "selection_manifest": "/Users/Zhuanz/Documents/ICLR2027_experiment_release_20260924/tcr-iclr2027-experiments/experiments/robotwin_pro/evidence/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/ties_merging/selection-v1/manifest.json",
+      "selection_checkpoint_sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+      "selection_manifest_sha256": "e451b150756e302201a1cce736eb04e5abaf20d228561ca70119922262807e5e"
+    },
+    {
+      "method": "libero_pro/regmean_pp",
+      "status": "BLOCKED_STALE_SELECTION",
+      "current_checkpoint_sha256": "fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2",
+      "reason": "Stale or missing checkpoint binding: expected fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2, observed 38745ba812c2f4ac4327ab40719e0ce8da017873c0a1765608f65dd926cd4ab3",
+      "selection_manifest": "/Users/Zhuanz/Documents/ICLR2027_experiment_release_20260924/tcr-iclr2027-experiments/experiments/robotwin_pro/evidence/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/regmean_pp/selection-v1/manifest.json",
+      "next_step": "Create a NEW current-model manifest and runner, validate all reset/task/config bindings, then review the catalog status; never edit a running historical selection in place."
+    },
+    {
+      "method": "libero_pro/featcal",
+      "status": "BLOCKED_STALE_SELECTION",
+      "current_checkpoint_sha256": "b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114",
+      "reason": "Stale or missing checkpoint binding: expected b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114, observed e43de109844431c02e316e57f701d7c06a9a3c8feaa3c41c9f391281f8197efa",
+      "selection_manifest": "/Users/Zhuanz/Documents/ICLR2027_experiment_release_20260924/tcr-iclr2027-experiments/experiments/robotwin_pro/evidence/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/featcal/selection-v1/manifest.json",
+      "next_step": "Create a NEW current-model manifest and runner, validate all reset/task/config bindings, then review the catalog status; never edit a running historical selection in place."
+    },
+    {
+      "method": "robotwin/ties",
+      "status": "UNFINISHED",
+      "current_checkpoint_sha256": "1ce6509f169944ef01ab3efcc0976c885691e89732ff651507359de7813fefbc"
+    },
+    {
+      "method": "robotwin/tcr",
+      "status": "UNFINISHED",
+      "current_checkpoint_sha256": null
+    },
+    {
+      "method": "robotwin/regmean_pp",
+      "status": "BLOCKED_MISSING_NATIVE_ADAPTER",
+      "current_checkpoint_sha256": null,
+      "reason": "No accepted RoboTwin-specific activation cache, solver adapter, dense checkpoint, or 540-episode evaluation binding found. LIBERO checkpoints are invalid substitutes."
+    },
+    {
+      "method": "robotwin/featcal",
+      "status": "BLOCKED_MISSING_NATIVE_ADAPTER",
+      "current_checkpoint_sha256": null,
+      "reason": "No accepted RoboTwin-specific activation cache, solver adapter, dense checkpoint, or 540-episode evaluation binding found. LIBERO checkpoints are invalid substitutes."
+    }
+  ],
+  "gpu_tasks_started": 0,
+  "other_processes_signalled": 0
+}

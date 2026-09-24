@@ -41,10 +41,22 @@ def main() -> int:
             [sys.executable, str(entry), "--workspace-root", str(args.workspace_root), "--mode", args.mode],
             cwd=ROOT, text=True, capture_output=True, check=False,
         )
-        try:
-            payload = json.loads(completed.stdout.strip().splitlines()[-1])
-        except (IndexError, json.JSONDecodeError):
+        output = completed.stdout.strip()
+        payload = None
+        decoder = json.JSONDecoder()
+        for offset, character in enumerate(output):
+            if character != "{":
+                continue
+            try:
+                candidate, end = decoder.raw_decode(output[offset:])
+            except json.JSONDecodeError:
+                continue
+            if not output[offset + end:].strip() and isinstance(candidate, dict):
+                payload = candidate
+                break
+        if payload is None:
             payload = {"status": "FAIL", "reason": "Smoke did not emit JSON", "stderr": completed.stderr[-1000:]}
+        payload["status"] = str(payload.get("status", "FAIL")).upper()
         if completed.returncode and payload.get("status") == "PASS":
             payload = {"status": "FAIL", "reason": "Smoke exited nonzero despite PASS", "exit_code": completed.returncode}
         results[family] = payload

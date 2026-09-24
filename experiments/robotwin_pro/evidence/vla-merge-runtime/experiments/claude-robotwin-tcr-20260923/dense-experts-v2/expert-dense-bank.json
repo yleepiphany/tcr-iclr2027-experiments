@@ -1,0 +1,94 @@
+{
+  "base": {
+    "model_sha256": "f2165fad32a4b431ca1488a5b886f6738be9e8b480298ecc9e0b55d87d26f365",
+    "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+    "tensor_count": 813
+  },
+  "created_at": "2026-09-23T04:37:44.566695+00:00",
+  "deployment_policy": "dense_only_no_unmerged_adapter_fallback",
+  "expert_order": [
+    "coordination",
+    "receptacle",
+    "precision"
+  ],
+  "experts": [
+    {
+      "dense_checkpoint": {
+        "manifest": {
+          "bytes": 1992,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model/dense_equivalent_manifest.json",
+          "sha256": "52c3fcc3be1ba3a32e6df7ff62e395424cdee0b20c2492d5e0341f318ccade58"
+        },
+        "model_sha256": "ba9c0929d04dbe1e984b3fa0ed59ba8a18ac840ed6e237a77d20bf930fa75a1e",
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model",
+        "verification": {
+          "bytes": 3967,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v2/coordination-exact.json",
+          "sha256": "06fd8b7f4f960ef10e9ee5faab745aa5c3a169bdba16b9eaa582eee0a5943311"
+        }
+      },
+      "name": "coordination",
+      "source_adapter": {
+        "model_sha256": "fc6babd4edb51e074cdc84c690d0b72af2d7df0246d590e09b990a5160d30297",
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000/pretrained_model"
+      }
+    },
+    {
+      "dense_checkpoint": {
+        "manifest": {
+          "bytes": 1988,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/receptacle/pretrained_model/dense_equivalent_manifest.json",
+          "sha256": "35fa241cad2eafead4f7e339aa03ea77e735d653274a68f98ea6e60e08acee96"
+        },
+        "model_sha256": "8124c718630727d8b1a34e6ea41876c340f417082d11c295af302ec1d2d8cfef",
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/receptacle/pretrained_model",
+        "verification": {
+          "bytes": 3959,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v2/receptacle-exact.json",
+          "sha256": "78efad46669cba60642b0ebbf32579177e701998f747b96a2dee03c22134702b"
+        }
+      },
+      "name": "receptacle",
+      "source_adapter": {
+        "model_sha256": "8baab5546f4a8ddb621846d5e94d6571b7c37926e2c7b6924f67847e960a51bb",
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model"
+      }
+    },
+    {
+      "dense_checkpoint": {
+        "manifest": {
+          "bytes": 1998,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/precision/pretrained_model/dense_equivalent_manifest.json",
+          "sha256": "506a6f93ce5a5b4151a83922c1ca17a2c3fab6fea1cdefca28af5fe259b0e969"
+        },
+        "model_sha256": "316a913d065e43f995a63f80cdcf17d48d3a790f30dd571c67f8a25285f44adc",
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/precision/pretrained_model",
+        "verification": {
+          "bytes": 3967,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v2/precision-exact.json",
+          "sha256": "d1a61e4b6417f130b39018d9b1802c4f3c29d2aa881ea96f05f80cac802a11da"
+        }
+      },
+      "name": "precision",
+      "source_adapter": {
+        "model_sha256": "bcf1190c984c24c56add5573668a7938cfc02b3686a4ba51b3760b0225245708",
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000/pretrained_model"
+      }
+    }
+  ],
+  "kind": "robotwin_three_expert_peft_safe_dense_bank",
+  "packaging_parity": {
+    "bytes": 1521,
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v2/parity.json",
+    "sha256": "b28b2082ac93026a6d8c6b45f3999461e722b632c1fa91aa7351f73e521ddb11"
+  },
+  "protocol": {
+    "bytes": 45874,
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/capture-v1/protocol.json",
+    "sha256": "27729d4ab349753a05f33764a19a2e14cfd720e92a15a629d695c27a170c3a65"
+  },
+  "schema_version": 2,
+  "source_joint_preflight_failure_preserved": true,
+  "source_materialization_attempt": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1",
+  "status": "passed_parameter_exact"
+}

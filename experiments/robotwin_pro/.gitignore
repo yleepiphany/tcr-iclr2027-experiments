@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.hdf5
+*.mp4

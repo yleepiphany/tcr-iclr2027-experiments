@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "Existing native single-episode parent validation only; no CUDA",
+  "command": [
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/envs/iclr2027-robotwin2-py312-mplib-curobo-v3/bin/python",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_iclr2027_robotwin_checkpoint_development.py",
+    "validate",
+    "--manifest",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-three-expert-15k-sequence-v1/coordination/evaluation-015000/parent.json",
+    "--group",
+    "coordination",
+    "--step",
+    "15000"
+  ],
+  "exit_code": 0,
+  "stdout": "development manifest validated; no GPU allocated",
+  "gpu_tasks_started": 0,
+  "parent_sha256": "ca92c96de997fa190bb204e690e6cac21ba98ebd60264b9ce089b6f9bcb84c84",
+  "checked_date": "2026-09-24"
+}

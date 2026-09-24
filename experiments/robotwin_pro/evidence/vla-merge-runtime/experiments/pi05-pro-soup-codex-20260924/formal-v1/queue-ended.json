@@ -1,0 +1,11 @@
+{
+  "accepted_episodes": 120,
+  "accepted_jobs": 12,
+  "complete": false,
+  "ended_at": "2026-09-24T03:43:27.408919+00:00",
+  "expected_episodes": 4800,
+  "expected_jobs": 480,
+  "failed": {},
+  "pending_jobs": 468,
+  "stopped": true
+}

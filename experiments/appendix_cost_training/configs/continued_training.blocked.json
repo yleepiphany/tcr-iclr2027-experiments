@@ -1,0 +1,20 @@
+{
+  "schema": "continued_training_unfrozen_design_v1",
+  "status": "BLOCKED_PROTOCOL_NOT_FROZEN",
+  "tables": [6, 15],
+  "arms": ["common_base", "single_expert_dev_selected", "model_soups", "regmean_pp", "featcal", "tcr"],
+  "budget_updates_B": null,
+  "source_dataset_revision_and_mixture": null,
+  "trainable_parameter_scope": null,
+  "optimizer_and_scheduler": null,
+  "global_batch_and_accumulation": null,
+  "random_seeds": null,
+  "evaluation_update_schedule": null,
+  "shared_success_threshold_tau": null,
+  "initialization_checkpoint_bindings": null,
+  "single_expert_development_selection_rule": null,
+  "restart_and_optimizer_state_semantics": null,
+  "known_framework": "Native PI0.5 LeRobot source/environment is an external asset; existing expert training does not establish a matched continued-training protocol.",
+  "metrics_required_by_paper": ["S(0)", "S(B)", "normalized AUC", "T_tau", "per-suite start/end and signed change"],
+  "do_not_fill_from_unrelated_training": true
+}

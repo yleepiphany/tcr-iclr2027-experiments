@@ -1,0 +1,57 @@
+{
+  "schema": "robotwin_pro_external_assets_v1",
+  "note": "Root release controls uploads; this subdirectory does not download or include weights. Native environment, datasets, calibration captures, and reset assets also required; see source and evidence bindings.",
+  "models": [
+    {
+      "target": "libero_pro/model_soups",
+      "sha256": "a92aacc43146dc41663c0057f2999bd90252fb3fb316ef963f165be67e1be01a",
+      "kind": "dense model.safetensors",
+      "included_in_git": false
+    },
+    {
+      "target": "libero_pro/ties",
+      "sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+      "kind": "dense model.safetensors",
+      "included_in_git": false
+    },
+    {
+      "target": "libero_pro/regmean_pp",
+      "sha256": "fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2",
+      "kind": "dense model.safetensors",
+      "included_in_git": false
+    },
+    {
+      "target": "libero_pro/featcal",
+      "sha256": "b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114",
+      "kind": "dense model.safetensors",
+      "included_in_git": false
+    },
+    {
+      "target": "robotwin/ties",
+      "sha256": "1ce6509f169944ef01ab3efcc0976c885691e89732ff651507359de7813fefbc",
+      "kind": "dense model.safetensors",
+      "included_in_git": false
+    },
+    {
+      "target": "robotwin/tcr/r01-passB",
+      "model_sha256": "efe45a3510e189cfe50468b7a76e68819eee9e5c1a3eb73ff02c23e2b7db5a6f",
+      "manifest_sha256": "3a3aa8fe96bc18ff4f2f5252215c8d0b0564eaf9261826134944146089e32520",
+      "path": "vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r01-passB/pretrained_model/model.safetensors",
+      "included_in_git": false
+    },
+    {
+      "target": "robotwin/tcr/r02-passB",
+      "model_sha256": "1eaab2cf5affbd794cddba5d87ad765f0179b2db459866aedd245cf2147195be",
+      "manifest_sha256": "34292fa0deb0f9ebe5370191b9e30363dbb5e87af835e9723a1f200dedb66b94",
+      "path": "vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r02-passB/pretrained_model/model.safetensors",
+      "included_in_git": false
+    },
+    {
+      "target": "robotwin/tcr/r03-passB",
+      "model_sha256": "a2a128ff7e6e170923833c33254224912ba3dcb372f98d617decef3cb489173e",
+      "manifest_sha256": "b124a2a91433c986b50779a630eeb7af635e95218fcb1037a7c8ff5246978074",
+      "path": "vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r03-passB/pretrained_model/model.safetensors",
+      "included_in_git": false
+    }
+  ]
+}

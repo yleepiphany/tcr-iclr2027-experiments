@@ -1,0 +1,165 @@
+{
+  "contract_sha256": "44a95cab49fe4f00c883109f029f5cd18f2aeeed9aa1b069618324584926aad1",
+  "created_at": "2026-09-23T21:37:54.586198+00:00",
+  "dense_bank_sha256": "d61a5f9e56bb0f76d8186a33dc26fe283cf8cfab220e903a460f92e4507f209b",
+  "formal_evaluation_episodes": 0,
+  "host": "dsw-824375-57c745db88-n6tv9",
+  "jobs": [
+    {
+      "command": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/materialize_early_v8.py",
+        "--ablation-config=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-build-attempt-02/configs/pass-1.json",
+        "--dense-expert-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/expert-dense-bank-peft-v2.json",
+        "--base-model=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+        "--prior-model=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/model-soups/repeat-shared/merge/attempt-02-peft-safe-v2/pretrained_model",
+        "--output=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/checkpoints-v14/early_A",
+        "--ridge-ratio=.05",
+        "--ridge-scale=feature_energy",
+        "--max-correction-ratio=3",
+        "--max-rows-per-sample=10",
+        "--device=cuda",
+        "--allow-mixed-calibration-policies",
+        "--allow-prior-calibration-mismatch",
+        "--expert-loss-normalization=prior",
+        "--replay-prefix=merged",
+        "--expert=spatial=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/spatial_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=spatial=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/A_early/inputs/spatial/early/replay.safetensors",
+        "--manifest=spatial=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/A_early/inputs/spatial/early/replay.json",
+        "--expert=object=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/object_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=object=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/A_early/inputs/object/early/replay.safetensors",
+        "--manifest=object=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/A_early/inputs/object/early/replay.json",
+        "--expert=goal=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/goal_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=goal=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/A_early/inputs/goal/early/replay.safetensors",
+        "--manifest=goal=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/A_early/inputs/goal/early/replay.json",
+        "--expert=long=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/long10_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=long=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/A_early/inputs/long/early/replay.safetensors",
+        "--manifest=long=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/A_early/inputs/long/early/replay.json"
+      ],
+      "config": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-build-attempt-02/configs/pass-1.json",
+      "id": "early_A",
+      "needs": [],
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/checkpoints-v14/early_A",
+      "pass_index": 1
+    },
+    {
+      "command": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/materialize_early_v8.py",
+        "--ablation-config=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-build-attempt-02/configs/pass-2.json",
+        "--dense-expert-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/expert-dense-bank-peft-v2.json",
+        "--base-model=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+        "--prior-model=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/checkpoints-v14/early_A",
+        "--output=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/checkpoints-v14/early_AB",
+        "--ridge-ratio=.05",
+        "--ridge-scale=feature_energy",
+        "--max-correction-ratio=3",
+        "--max-rows-per-sample=16",
+        "--device=cuda",
+        "--allow-mixed-calibration-policies",
+        "--allow-prior-calibration-mismatch",
+        "--expert-loss-normalization=none",
+        "--replay-prefix=merged",
+        "--expert=spatial=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/spatial_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=spatial=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/B_early/inputs/spatial/early/replay.safetensors",
+        "--manifest=spatial=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/B_early/inputs/spatial/early/replay.json",
+        "--expert=object=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/object_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=object=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/B_early/inputs/object/early/replay.safetensors",
+        "--manifest=object=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/B_early/inputs/object/early/replay.json",
+        "--expert=goal=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/goal_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=goal=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/B_early/inputs/goal/early/replay.safetensors",
+        "--manifest=goal=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/B_early/inputs/goal/early/replay.json",
+        "--expert=long=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/long10_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=long=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/B_early/inputs/long/early/replay.safetensors",
+        "--manifest=long=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/B_early/inputs/long/early/replay.json"
+      ],
+      "config": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-build-attempt-02/configs/pass-2.json",
+      "id": "early_AB",
+      "needs": [
+        "early_A"
+      ],
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/checkpoints-v14/early_AB",
+      "pass_index": 2
+    }
+  ],
+  "max_active": 1,
+  "min_free_mib": 71000,
+  "no_retry": true,
+  "paper_scope": "early-request A->B fixed control, one build per pass, 400 formal episodes after artifact acceptance",
+  "permitted_gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "row_budget_sha256": "6ceeb43b445bbc2c735397cdce56a10601988e051f82e434362003e1606d67d0",
+  "runtime_floor_mib": 8192,
+  "schema": "pi05_fixed_appendix_early_build_queue_v1",
+  "solver_sha256": "a9fe6d76b9fb87bb152f0e98d32605c9ff7f8e05b195e14625b2434c53d18a1a",
+  "source_audit_sha256": "e5ef111dc815ea934a98689061fae020affaa17a5d0cb97796dd1915fa844b63",
+  "trace_bindings": {
+    "A_early/goal": {
+      "dense_model_sha256": "af9e258354d759710d04f13d40ac6e2e4377d5063f56fa8e0ef574f8c96e2732",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/A_early/inputs/goal/early/replay.json",
+      "manifest_sha256": "8e228578c1624b2974d5715a918236e5a20655f92c65d11350a55b6130dbf861",
+      "replay": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/A_early/inputs/goal/early/replay.safetensors",
+      "replay_sha256": "6d0c81cd3e3f9ad32358f85bbb3a8820c9dc652f04d494e65b789354efba7f65"
+    },
+    "A_early/long": {
+      "dense_model_sha256": "85ad87a5d9fbdcdee5d6ff9270a59355326b376f0d50fbc27ae606cbc9b7f8fc",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/A_early/inputs/long/early/replay.json",
+      "manifest_sha256": "85535e18407772991d0b1179d267ed315f09dd402aba8d7a626971289eb2b9cd",
+      "replay": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/A_early/inputs/long/early/replay.safetensors",
+      "replay_sha256": "b1a68145238f2cd728157d9da91d5950bbe32a68ac2566b25edfe7e809cbfc17"
+    },
+    "A_early/object": {
+      "dense_model_sha256": "a74c9349a78e122ecf9799e404ad748ffebba0b814b95e3dae4a7b32837f1510",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/A_early/inputs/object/early/replay.json",
+      "manifest_sha256": "be783abdd4d1c012c1d6b8f12fa1f7a7498165cf177e7c2f0e8cbab62fac8987",
+      "replay": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/A_early/inputs/object/early/replay.safetensors",
+      "replay_sha256": "a8bfa77b9d7af6bd15b5636dc43c8c6c721dc5e6ec0f5c6370b760015a907fe3"
+    },
+    "A_early/spatial": {
+      "dense_model_sha256": "008cb4a76898edbb70edb83bd54cb472722ba49b2760acfde24381e6d14fc75f",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/A_early/inputs/spatial/early/replay.json",
+      "manifest_sha256": "45b447e18b7749de715e7ba8f793fcaee51a0e79089dc1c2a293e280b6d9de98",
+      "replay": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/A_early/inputs/spatial/early/replay.safetensors",
+      "replay_sha256": "f3290af19971e5c3b9611279680f13b1b4e8a640b5b50885a4b357dd610aa006"
+    },
+    "B_early/goal": {
+      "dense_model_sha256": "af9e258354d759710d04f13d40ac6e2e4377d5063f56fa8e0ef574f8c96e2732",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/B_early/inputs/goal/early/replay.json",
+      "manifest_sha256": "24aae6054083ebcb9ac1ed3c2085a6c3063ed476b50b233d33a6662006a75227",
+      "replay": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/B_early/inputs/goal/early/replay.safetensors",
+      "replay_sha256": "a44e2abd9d743b5a75edde32d9f1ccff1279f75221c99693c3143417c6619b63"
+    },
+    "B_early/long": {
+      "dense_model_sha256": "85ad87a5d9fbdcdee5d6ff9270a59355326b376f0d50fbc27ae606cbc9b7f8fc",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/B_early/inputs/long/early/replay.json",
+      "manifest_sha256": "83a06f96ce8034acf918279dc1f1127a0abb4bc945818535d96d267b99bf979e",
+      "replay": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/B_early/inputs/long/early/replay.safetensors",
+      "replay_sha256": "dab451cd272a78580d571f9001036796fb5f56cd529b184e3dd6c9ea3936dab9"
+    },
+    "B_early/object": {
+      "dense_model_sha256": "a74c9349a78e122ecf9799e404ad748ffebba0b814b95e3dae4a7b32837f1510",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/B_early/inputs/object/early/replay.json",
+      "manifest_sha256": "b2d7470b682f6c449b150e010b722b8bc738b936b431c0d618fc377e035c5491",
+      "replay": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/B_early/inputs/object/early/replay.safetensors",
+      "replay_sha256": "01849c2cf5926726be027dad49a2bbe2b3a52e7126f2a619c1788a0423e39b4e"
+    },
+    "B_early/spatial": {
+      "dense_model_sha256": "008cb4a76898edbb70edb83bd54cb472722ba49b2760acfde24381e6d14fc75f",
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/B_early/inputs/spatial/early/replay.json",
+      "manifest_sha256": "51e324bf24034332ad7ad9a47168418b61253ce0eadf560fc24c4b62721cd22f",
+      "replay": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-fixed-appendix-20260923/early-capture-attempt-04/B_early/inputs/spatial/early/replay.safetensors",
+      "replay_sha256": "6cc567d3db2045602c189940763408d81581bfd543d37b3fbbf543c9e96cccdb"
+    }
+  },
+  "training": false
+}

@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "snapshot_date": "2026-09-24",
+  "appendix_source": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923",
+  "workflows": {
+    "table8-reference": {
+      "build": "run_ab_reference_v8.py",
+      "evaluate": "run_ab_reference_eval_v8.py",
+      "arms": [
+        "A",
+        "AB"
+      ],
+      "status": "SOURCE_PACKAGED"
+    },
+    "table8-cache-sequence": {
+      "build": "run_cache_followons_v8.py",
+      "evaluate": "run_cache_followon_eval_v8.py",
+      "arms": [
+        "AC",
+        "ABB",
+        "ABC"
+      ],
+      "status": "UNFINISHED_EXPERIMENT"
+    },
+    "table9-row-budget": {
+      "build": "run_a_followons_v8.py",
+      "evaluate": "run_followon_eval_v8.py",
+      "arms": [
+        "AA",
+        "AB_low",
+        "AB_high"
+      ],
+      "status": "UNFINISHED_EXPERIMENT"
+    },
+    "table9-one-pass-union": {
+      "build": "run_union_v8.py",
+      "evaluate": "run_union_eval_v8.py",
+      "arms": [
+        "A_union_B"
+      ],
+      "status": "UNFINISHED_EXPERIMENT"
+    },
+    "table10-uniform": {
+      "build": "run_uniform_v8.py",
+      "evaluate": "run_uniform_eval_v8.py",
+      "arms": [
+        "uniform_AB"
+      ],
+      "status": "SOURCE_PACKAGED"
+    },
+    "table10-early": {
+      "build": "run_early_build_v8.py",
+      "evaluate": "run_early_eval_v8.py",
+      "arms": [
+        "early_AB"
+      ],
+      "status": "SOURCE_PACKAGED"
+    },
+    "table10-scope": {
+      "build": "run_scope_v8.py",
+      "evaluate": "run_scope_eval_v9.py",
+      "arms": [
+        "action_AB",
+        "conditioning_AB"
+      ],
+      "status": "UNFINISHED_EXPERIMENT"
+    }
+  },
+  "note": "Arms and scripts are preserved from actual source. Historical score tables are provenance snapshots, not evidence that pending work is complete. Run names and host/resource contracts remain enforced by the original runners."
+}

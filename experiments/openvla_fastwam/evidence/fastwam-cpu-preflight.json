@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "backend": "fastwam",
+  "checkpoint_mmap_tensors": 1651,
+  "selected_states_verified": 100,
+  "native_request_sha256_verified": "aca1c947ba955da3cc6cdc40cb9620e93fe6e2cea5e48c8eec7354fc422fca00",
+  "gpu_used": false
+}

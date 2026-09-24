@@ -1,0 +1,829 @@
+{
+  "captured_on": "2026-09-24",
+  "source_root": "/mnt/workspace/Wilson/parameter-fusion",
+  "files": [
+    {
+      "path": "vla-merge-runtime/experiments/claude-fastwam-tcr-20260923/calibration-acceptance-v1.json",
+      "sha256": "76dc8888734eb34394f9cf925b179439374ea4469b71d13d29bdd9d1f0a1490e",
+      "bytes": 217845
+    },
+    {
+      "path": "vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/R2-formal1200-attempt-01/identities.json",
+      "sha256": "52e0dac967d2bd19c3af16fbe98c45d8e0b6eab27f2cf122084989633532765b",
+      "bytes": 10590
+    },
+    {
+      "path": "vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/R2-formal1200-attempt-01/plan.json",
+      "sha256": "82154d6d0d1e87f62c4a6f9ce1d637877e79669d6a6232d90631417bcfe2ee22",
+      "bytes": 24360
+    },
+    {
+      "path": "vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/final-manifest.json",
+      "sha256": "a6c4eafa26b74db4ab8bf505ef79fadcdebbfd16f47d9b87f2b8e98a72dcc0d5",
+      "bytes": 1174
+    },
+    {
+      "path": "vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/expert-formal-repeats23-attempt-03/identities.json",
+      "sha256": "b8ca14ffdef63c9f7de9aafb27bbc4ae6b789f9229558f33d8c699852457dd46",
+      "bytes": 32842
+    },
+    {
+      "path": "vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/expert-formal-repeats23-attempt-03/plan.json",
+      "sha256": "2fbce437f9235895804ce371f119875fe30030c09f0f17748d733033a70c7ccc",
+      "bytes": 15267
+    },
+    {
+      "path": "vla-merge-runtime/experiments/fastwam-interface-recalibration-codex-20260924/attempt-01/build/final-manifest.json",
+      "sha256": "582bb76a4ec8c666d5750fb5a4115345e9c3496accbe44387e2e9c612a03d02d",
+      "bytes": 2461
+    },
+    {
+      "path": "vla-merge-runtime/experiments/fastwam-interface-recalibration-codex-20260924/attempt-01/ended.json",
+      "sha256": "a453d29059974f293baddab1eadbde5febf5e051e47eba2dad66eb19d2956e09",
+      "bytes": 401
+    },
+    {
+      "path": "vla-merge-runtime/experiments/fastwam-interface-recalibration-codex-20260924/attempt-01/plan.json",
+      "sha256": "ad487f63783c033ccb48a4fb7f2cfdc82c592e9e9401f5aef028dcf9764825e9",
+      "bytes": 4415
+    },
+    {
+      "path": "vla-merge-runtime/experiments/fastwam-interface-recalibration-codex-20260924/eval-attempt-01/plan.json",
+      "sha256": "a9633b89c3533c3496a8d0335194c4568c088e99dffe30c031512855ff240cf2",
+      "bytes": 3121
+    },
+    {
+      "path": "vla-merge-runtime/experiments/iclr2027-fastwam-experts-formal-v2-20260924/contract.json",
+      "sha256": "69ce2120423f7f7c820c4e5f11b46eb41487855472ffe80b3bc09bada000f10e",
+      "bytes": 14407
+    },
+    {
+      "path": "vla-merge-runtime/experiments/openvla-fastwam-diagnostics-20260923/fastwam-soup/manifest.json",
+      "sha256": "d1a735bd4796af284ca2559442946a52c911b3a146eb84262d76ac449bd5b004",
+      "bytes": 3335
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/audit_ab_bank.py",
+      "sha256": "ea52aba3820a85af169144b4c7896e26ab11ced842d71fec0a613f48a65c3495",
+      "bytes": 3540
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/audit_capture.py",
+      "sha256": "db5ccb0270f61e16273096799c9fb1c068a6877d55e11a8a1c9df0fb65f29449",
+      "bytes": 7375
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/audit_eval_job.py",
+      "sha256": "14a8932bbb4592f1e66513f0d15a1a69eb52002250c68868ddfb1a383dc39224",
+      "bytes": 2607
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/block_calibration.py",
+      "sha256": "60dbc6a59883a4411e067844a8885cd7e74161658c0ab98ac01776cdc95bdd74",
+      "bytes": 10492
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/block_calibration_v2.py",
+      "sha256": "9d7b48ce5ec5acf2da2da7bf9b21c0e94348c35e7a0f26a12ccc746ad86bfdbd",
+      "bytes": 10694
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/block_calibration_v3.py",
+      "sha256": "d382d7e1e46d4641340082985049ec7dd349c836fdff4fe0ea5ac3406ba8f925",
+      "bytes": 11547
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/block_calibration_v4.py",
+      "sha256": "8c2220b5cd21283d5c39be9c0acdfb219023d93ee4b6040b572be8b716b04ad8",
+      "bytes": 11547
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/build_two_pass.py",
+      "sha256": "8d4a41537da2a40fb9d724b73f13564d7889dddd8a8e3b4bfaefef821584f016",
+      "bytes": 12836
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/build_two_pass_v2.py",
+      "sha256": "af968c0ce7b96eed785cdf0118124190a649343ad565525e97d6816a818ca431",
+      "bytes": 12851
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/build_two_pass_v3.py",
+      "sha256": "58e3012a0a56a1f8cbd759466238c77dd875b0b7b94b9de96b2303e3919583f7",
+      "bytes": 12854
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/build_two_pass_v4.py",
+      "sha256": "5c4d706332d64994427bc028b48b2220bec0374f55030182e85963e8569b65f9",
+      "bytes": 12854
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/build_two_pass_v5.py",
+      "sha256": "d75427c6e934b28861b88bfbcb175199a635fcad28b80c4695a09216d6cde5da",
+      "bytes": 12854
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/capture_closed_loop.py",
+      "sha256": "4954cf1cd3958a34c2e671434308fc4537ba9c7a96c7019f4def71354fb5acae",
+      "bytes": 7642
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/check_real_prefix_parity.py",
+      "sha256": "6ac99007d11ab455a092480b157f973aa2a490dd247a859e7ca9a890650d7c69",
+      "bytes": 6125
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/check_real_prefix_parity_v2.py",
+      "sha256": "6838f314db627e926fb9663acfaba19672613cac04f64d6fdcc1a3618cc0a723",
+      "bytes": 6128
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/freeze_bank.py",
+      "sha256": "612988090b871f40a9ece8b9c099e66039a757e441308044055be424c984cd14",
+      "bytes": 4700
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/freeze_block_plan.py",
+      "sha256": "d429b6067110198be0d169a460c3e6369eeb8d2c56801854c16f04ed3554b7ea",
+      "bytes": 5954
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/freeze_eval_bank.py",
+      "sha256": "56c75662f22a9405f974a10c0fcafe787fd1a84924a5009de2888b9dbe1f9627",
+      "bytes": 4313
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/native_trace.py",
+      "sha256": "d55f5c60b96944ee89bcf2b4f57e60f2ee18ad01d3ce11ef63c86392936bd8f8",
+      "bytes": 7669
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/replay_merged_prefix.py",
+      "sha256": "3d815cd09c2d0734f078508b126109aec12f4c51e862430916bb84497fb1572b",
+      "bytes": 6038
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/replay_native_trace.py",
+      "sha256": "79201c4b323c5f0c86ef842d9fd422a3fdd636ff46bff3483fd59902863a0d26",
+      "bytes": 4061
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/run_capture_episode.py",
+      "sha256": "069e6a6d446ae608b0092b26363ca64f20b23f2240df30e90ef9a7f1a147524f",
+      "bytes": 10619
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/run_capture_queue.py",
+      "sha256": "918d64d7fdaeb660eb5d27a81a4d1feaed98b5603fb9e7a9768268695c8f3f8f",
+      "bytes": 11604
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/run_eval_job.py",
+      "sha256": "37a48edcd5480f6fc55f9b835f661f6b4aaafd4241eb64033a43552f53b6deda",
+      "bytes": 7670
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/run_eval_job_v6.py",
+      "sha256": "8bac78914cc9611dda974fd2419a43db3d33d1d0ed04bdd148ddb666e1bb7637",
+      "bytes": 7670
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/run_eval_queue.py",
+      "sha256": "3e65689c6e878c3d0beb69d1814570928d10cf0fc8915975f81e54388ac7ebe9",
+      "bytes": 15161
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/run_eval_queue_v2.py",
+      "sha256": "b9370faa1df4ab8961ff7752fbfd3d34b5b519683cff97c140b00e522e860da4",
+      "bytes": 15164
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/run_eval_queue_v3.py",
+      "sha256": "32054e0c0b97b6bbbf86d1b5fed723077edc6f2f23872fafea926eab627e78f3",
+      "bytes": 15164
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/run_eval_queue_v4.py",
+      "sha256": "8eb7a5bf7f7e008a499626577dd4bb4a941628ac1afb3a9284dca79ca8460c82",
+      "bytes": 15164
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/run_eval_queue_v5.py",
+      "sha256": "1cceb04473f0e550ce35512f10bf48e162f74d8397a77c8117346953e03e1474",
+      "bytes": 15164
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/run_eval_queue_v6.py",
+      "sha256": "ecf9ce49531379d7d706b5bba529f32403d0a41aaae4457038d4efe82de6ecd8",
+      "bytes": 15307
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/run_tcr_pipeline.py",
+      "sha256": "2414f38b4b758b2ae78cdb579f489365baa0a82b8e98a5afdf1118666cb95a2d",
+      "bytes": 14053
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/run_tcr_pipeline_v2.py",
+      "sha256": "221b7f4aec615a355a7e334e8c118c479edfb3afe56956d40b6313f0f70f14f4",
+      "bytes": 14148
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/run_tcr_pipeline_v3.py",
+      "sha256": "3462374d820b8d793ba338c89f022b459cc0052fb6c20fb81167825aa9a9d47e",
+      "bytes": 14172
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/run_tcr_pipeline_v4.py",
+      "sha256": "df4e37a33331c718535375200984db771b4cb57e9671eff5ffff1e54db5b9690",
+      "bytes": 14171
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/run_tcr_pipeline_v5.py",
+      "sha256": "34654a8509f2f0c7d920a72dcde0606cc0590906f9b58a9f220a1db5fc0b4751",
+      "bytes": 14169
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/smoke_native.py",
+      "sha256": "d191ed5f46cf3328c26a6eeba86c87bb56370d02f4590b5b57ed2121a1ea67d0",
+      "bytes": 6737
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/test_block_calibration.py",
+      "sha256": "1cb49bf1db120ce95e92a89545b33880a36298e79fff46fdd1a23ef04e07ba35",
+      "bytes": 7608
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/test_block_calibration_v2.py",
+      "sha256": "50481ac0d549067fc26a3e5f36bb20c3b51095ab1f145f48001fd054d74e479f",
+      "bytes": 1441
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/test_block_calibration_v3.py",
+      "sha256": "fc82a588f2cec6317062887f14da9ae04ad4df07eac3cd89ff496297dafa9737",
+      "bytes": 1470
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/test_block_calibration_v4.py",
+      "sha256": "65aa2289620e9ede52b80cff4291e4f7f4b02339fd31e6c87b3199b4df374e36",
+      "bytes": 1253
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/test_closed_loop_capture.py",
+      "sha256": "3669c53aa58409d32c7d61c4c55d25663911866aacc4de468e95cde06efb160c",
+      "bytes": 3053
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/test_eval_bank.py",
+      "sha256": "02b60f8b77ee11b68a6ca3ef13f6114c2ecdb997c5b7d4cd217f02727dfc0f92",
+      "bytes": 2946
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/test_merged_prefix_replay.py",
+      "sha256": "500c4d2328e372823dc4f41ac3e7e5602d2ac6bbc38d4938019cf950f0bbc86a",
+      "bytes": 3685
+    },
+    {
+      "path": "vla-merge/experiments/claude-fastwam-tcr-20260923/test_native_trace.py",
+      "sha256": "02178ff58e8e018398da6248e652b627d455890fc4d0d66b068ebaba275e378e",
+      "bytes": 4815
+    },
+    {
+      "path": "vla-merge/experiments/claude-firstpass-cause-20260920/card_flock.py",
+      "sha256": "50c150a929abf5ccbbba29e2ac650f5bab207e23a2f19667206819b195538da9",
+      "bytes": 5708
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/audit_aux_parameter_sanity.py",
+      "sha256": "8f070b441dad609d9dadbd4d360946c08d1e245eaff8ed78066198ffc019d57a",
+      "bytes": 4018
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/audit_development.py",
+      "sha256": "101abcb8a301e4f69aba6fc257be93c950508e45723ade6647cded001c1399a4",
+      "bytes": 5973
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/block_calibration.py",
+      "sha256": "ec68ed62dfcc9c4659d9b6bbe6599c75d8ebd2abf6d825c74e2f23d4a33192ea",
+      "bytes": 5870
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/build_candidate.py",
+      "sha256": "fe3ef2fe397b2c6a008d4c9f7a48d2aff619946afea8dbfceb227002ac2005c7",
+      "bytes": 9421
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/build_ordered_candidate.py",
+      "sha256": "cc86e74138e575c16004d00c8e8c2bd7f5ff7f3d2a04929baef86d040f368ea1",
+      "bytes": 9430
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/dev_bank.py",
+      "sha256": "7682f3c54018f3bcbae95bc1c92f4db565face09881d0dc52097704e564e9a9e",
+      "bytes": 11817
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/diagnose_block_paths.py",
+      "sha256": "b3da2495e0510aa0b17d6ac9bc435a904442c6d79d24b12c9f8f4b6b1f90ee55",
+      "bytes": 3148
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/diagnose_proprio_all_requests_cpu.py",
+      "sha256": "6e8fe784b4e4273559012918f3fcfb77e2a97b6a7fbec557d96da6da7104ea2e",
+      "bytes": 8382
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/evaluate_development.py",
+      "sha256": "f0c122dac4eed5fad5b1896c0a21341c47669c4c6a90c9c42ca3e10d0334cb55",
+      "bytes": 9367
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/linear_calibration.py",
+      "sha256": "ffa882600217b2b5c30d545ae708a13ba0b573789af457dda554f1d3355d0874",
+      "bytes": 16541
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/pass_engine.py",
+      "sha256": "26eab1a4f8f5af0ae543c60b158a61e1d6f920aa64fd7998599bf7a086676099",
+      "bytes": 11733
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/pass_engine_ordered.py",
+      "sha256": "585f283f967d178a284ce4f4c23d73adaf3c6a08fff3556fc89d2a31ccf6de6c",
+      "bytes": 12011
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/prepare_expert_formal_complement7.py",
+      "sha256": "8eb49ae110b4ba1169d06f2d577edbbf89613f8c5da33cd001eb72891adee21a",
+      "bytes": 4058
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/refine_auxiliary_block.py",
+      "sha256": "44f8bbfb437723c4cf4efd2845a4122c9c6f8429bfe974d7ccdc552d3dd7382b",
+      "bytes": 8649
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/run_candidates.py",
+      "sha256": "3b2db049e0254a1e02a285045cc2a415386abc819ec385fc95262c149dff9b5d",
+      "bytes": 10097
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/run_development40.py",
+      "sha256": "925e994bc89487bf38359c981c07129a67dac9e441c2f4347078d5e8d31278e8",
+      "bytes": 13030
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/run_development400.py",
+      "sha256": "8da46fcb4a0771b6300ad2aa7be538bddb45ce20c4755730602d189a8eefd0c0",
+      "bytes": 9613
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/run_expert_development40_diagnostic.py",
+      "sha256": "7427f845f6113ce193384bfd1a3b84a71aa2998d390a7bbb5b6a7f064e663b1f",
+      "bytes": 6560
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/run_expert_formal_repeats23.py",
+      "sha256": "b20ee445b60b3d42c5a465c3fbdc50d65ba57e16df43039c97abe08078da15e3",
+      "bytes": 11242
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/run_ordered_candidate.py",
+      "sha256": "d3d235fe65728572b5be1429986c6cbb3fc64b98fde8a29f9d4e25c7c0aec633",
+      "bytes": 8679
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/run_ordered_development400.py",
+      "sha256": "963c7e6a2e1227f5c27a3bebd975a481cfbc630cdb9deb0d005efd8b376fbbf9",
+      "bytes": 8736
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/run_path_diagnosis_cpu.py",
+      "sha256": "dba6ebd168f35116aec94fa619ae840461e9e848399c1b94ab72d0540925e6b6",
+      "bytes": 5256
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/run_repair_formal1200.py",
+      "sha256": "a3f9b5fb314e49d80a68c2d8ccbaec209bfff1e548b06680bcc7813099086771",
+      "bytes": 11278
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/test_dev_bank.py",
+      "sha256": "69da767ddf530288294f6a5b0f3460515a9ba57675f3ec1f2040d23a8dd525ce",
+      "bytes": 1416
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/test_diagnose_block_paths.py",
+      "sha256": "5d0a24e672201344c34e005956e5785330c757ded88a0a9330c8f9b5e52d80d9",
+      "bytes": 2598
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/test_evaluate_development.py",
+      "sha256": "99e1aadf7fe7a24eb705a085a9e03580823c69b860281ee639a21e256cd93f2e",
+      "bytes": 1547
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/test_ordered_candidate_integration.py",
+      "sha256": "7da255a33806463c4eab80a4bb899bdfac7daa99d0f590143594cff95e87b864",
+      "bytes": 1729
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/test_refine_auxiliary_block.py",
+      "sha256": "05bb58f1879459c78574f3e302abae7b8f2fb8108319e6dee36a5e96f4141b3f",
+      "bytes": 5741
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/test_repair_linear.py",
+      "sha256": "1301f3a933967123cf1d2a337bc1c2ce43d540f3ff0a950d60b5ca68de2d2746",
+      "bytes": 5618
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/test_repair_pass_engine.py",
+      "sha256": "0f6dd12ded5c2e67f8a586f0f48f9575c6c178a2c4af8a1eb402e4f6423e7804",
+      "bytes": 5473
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/test_run_candidates.py",
+      "sha256": "f3dc41cbab019e36082f5471e7ef0bf3cf1aa54ac42fb58c8eb7fc249ea8802e",
+      "bytes": 1362
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/test_run_development40.py",
+      "sha256": "7f769c81fa7fbcb9acd38dfb140450b667188376f7975dba63f0ba0f2c1f72bb",
+      "bytes": 1194
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/test_run_development400.py",
+      "sha256": "25db6315a46384b2469d0a34bcf858fb6efebb79742e88bc8be272930b5b109f",
+      "bytes": 639
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/test_run_repair_formal1200.py",
+      "sha256": "c62851bda1333bc0c44b99ecbdfdb1887fba29babebb39de506a5bdc96b32619",
+      "bytes": 984
+    },
+    {
+      "path": "vla-merge/experiments/claude-openvla-tcr-repair-20260922/watch_ordered_pipeline.py",
+      "sha256": "42abc5fbf733b8fe298267dfba63931c2a60cf4ad77db199920e884c196bb522",
+      "bytes": 2721
+    },
+    {
+      "path": "vla-merge/experiments/fastwam-formal-20260924/fastwam_experts_formal_v2.py",
+      "sha256": "c7cbd0361f908471ede9c9c635d63e9a13eb02290a140eb88efa12030075bfe2",
+      "bytes": 22941
+    },
+    {
+      "path": "vla-merge/experiments/fastwam-interface-recalibration-codex-20260924/audit_fixed_build.py",
+      "sha256": "4885a88af8b066cc57c6277b95f3a61544b805594052672cd7468f179c7ad9cf",
+      "bytes": 6365
+    },
+    {
+      "path": "vla-merge/experiments/fastwam-interface-recalibration-codex-20260924/build_fixed_interface.py",
+      "sha256": "48a7301120404cd0e66efd3f0f4c0fded8d0ecf73e1636bf0ee8131baea8fe62",
+      "bytes": 4184
+    },
+    {
+      "path": "vla-merge/experiments/fastwam-interface-recalibration-codex-20260924/build_two_pass_fixed.py",
+      "sha256": "75e1863149c13585d98cb1b1a67a9b7b2bf4f28e96357816cbeaeddbbd30054f",
+      "bytes": 16422
+    },
+    {
+      "path": "vla-merge/experiments/fastwam-interface-recalibration-codex-20260924/evaluate_extra.py",
+      "sha256": "be7a54fa600d37729616c1be16a518959ae544ad2408f20660f2ad1f2cec01eb",
+      "bytes": 6840
+    },
+    {
+      "path": "vla-merge/experiments/fastwam-interface-recalibration-codex-20260924/evaluate_fixed.py",
+      "sha256": "c9de93566c5aa7a62fb8a6e12cb609eab8c6d934cfb6fa4f95f56413668e284b",
+      "bytes": 5878
+    },
+    {
+      "path": "vla-merge/experiments/fastwam-interface-recalibration-codex-20260924/prepare_extra_requests.py",
+      "sha256": "79bef14dee8efe6753a565b247e6b760c6f97d6051d5252b6fc6fa49d8a19bb6",
+      "bytes": 3364
+    },
+    {
+      "path": "vla-merge/experiments/fastwam-interface-recalibration-codex-20260924/run_extra_eval.py",
+      "sha256": "294008809cb6bfed8e21117127f49ff7e84e26cad71b14926300419d24f00876",
+      "bytes": 9071
+    },
+    {
+      "path": "vla-merge/experiments/fastwam-interface-recalibration-codex-20260924/run_fixed_build.py",
+      "sha256": "eb76e60d9e9b4da4cfce1f909eb95d0747db0efb8dd2d62505f985edf386c25e",
+      "bytes": 10354
+    },
+    {
+      "path": "vla-merge/experiments/fastwam-interface-recalibration-codex-20260924/run_fixed_eval.py",
+      "sha256": "a6965eaa043a0188df6bc53a84889694c3708adcd5a7eb6e77ee5fad310c9881",
+      "bytes": 8812
+    },
+    {
+      "path": "vla-merge/experiments/fastwam-interface-recalibration-codex-20260924/smoke_fixed_interface.py",
+      "sha256": "a737e89f4b093c6fd81f3c72fd7d8dfdc37e065855f1a2c8745814135e75a12a",
+      "bytes": 4901
+    },
+    {
+      "path": "vla-merge/experiments/fastwam-interface-recalibration-codex-20260924/wait_fixed_audit.py",
+      "sha256": "6f5723cddbaa458044d2d0866c4623b3b132a7e9eb8d72f8ade96847d810beb6",
+      "bytes": 2418
+    },
+    {
+      "path": "vla-merge/experiments/fastwam-local-diagnosis-20260924/audit_interface_conflict.py",
+      "sha256": "ee2db61d092cd61c0b6174ca0acb24b685af5cdb57337668a2824dddda819b16",
+      "bytes": 7260
+    },
+    {
+      "path": "vla-merge/experiments/fastwam-local-diagnosis-20260924/build_corrected.py",
+      "sha256": "f06946e0d335fb47a408f5f17c8b8824ec8a3a5b5cbf78670a15658926056f08",
+      "bytes": 4147
+    },
+    {
+      "path": "vla-merge/experiments/fastwam-local-diagnosis-20260924/evaluate_corrected.py",
+      "sha256": "180a933284976db095be68f7579de2d1ee758b3f58d7ac5ff5a07552630ca87e",
+      "bytes": 1360
+    },
+    {
+      "path": "vla-merge/experiments/fastwam-local-diagnosis-20260924/pi05_solver_bridge.py",
+      "sha256": "c29c73c0aedc9c1a90a3ac1f335f07c932fdaee5896cb8226233d51a237e64ae",
+      "bytes": 4186
+    },
+    {
+      "path": "vla-merge/experiments/fastwam-local-diagnosis-20260924/run_corrected_pipeline.py",
+      "sha256": "29fc3f745929ecff30f38dbda6cd65ed6fa20c740790e84b3c80afb0267c1dad",
+      "bytes": 12563
+    },
+    {
+      "path": "vla-merge/experiments/fastwam-local-diagnosis-20260924/run_diagnosis.py",
+      "sha256": "99acbf8ed2adfc27188cf8730b640ffe6cd07d8ecddc01f1857e93a710b4d0e7",
+      "bytes": 14764
+    },
+    {
+      "path": "vla-merge/experiments/fastwam-local-diagnosis-20260924/run_interface_ablation.py",
+      "sha256": "14442933a531836f113d7bf68af127743ef6a7bc85bda4d936d06e35f814669c",
+      "bytes": 13934
+    },
+    {
+      "path": "vla-merge/experiments/fastwam-local-diagnosis-20260924/run_interface_ablation_v2.py",
+      "sha256": "5a87a8a3d0fe167f67328cbd0f8c8621a8fa679e69930287898ca5acdac48f2c",
+      "bytes": 15245
+    },
+    {
+      "path": "vla-merge/experiments/fastwam-local-diagnosis-20260924/run_interface_ablation_v3.py",
+      "sha256": "1af7799a24a5693782c95f4b1ef51de72779b2bd75c71fa4f9153fa41aef8aec",
+      "bytes": 15254
+    },
+    {
+      "path": "vla-merge/experiments/fastwam-local-diagnosis-20260924/test_solver_bridge.py",
+      "sha256": "f0edaa3d7cb8c1b6714e776867ad37b252d945f86c04121d5e25437f0976e6f6",
+      "bytes": 2204
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/audit_native_scope.py",
+      "sha256": "89a14a43d21dd3369e80313abad8122a538f5cb245e59db7d6b62fa825119b00",
+      "bytes": 2745
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/audit_native_shapes.py",
+      "sha256": "7bdaece9bd2ba20e102c630655fad2a87c22235cf2892211827ae9b4f1e74f2a",
+      "bytes": 3650
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/block_calibration.py",
+      "sha256": "235d64843e49416831f257e3997b185fafb27726ce6b9d4042e0c60c0f1a2481",
+      "bytes": 5154
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/block_smoke.py",
+      "sha256": "7c699ecbe45be90fd8b35e7978399a33be522e1553fee3be28152a367df0098e",
+      "bytes": 5595
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/collect_experts.py",
+      "sha256": "9721abbe80ec3dab96defda92997e658a390407be33564ad02d30e8dda523f8b",
+      "bytes": 8244
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/evaluate.py",
+      "sha256": "e799cbd9666e881bd798a37a34ca0cc1bf29717c285d99128f391415712a5d36",
+      "bytes": 8810
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/expert_bank.py",
+      "sha256": "91b3df5649c26b77e3ee75921b684882676fb486b87e2dcdef3afbeab4dfe8da",
+      "bytes": 4842
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/export_native.py",
+      "sha256": "f74e6996cc4735a6fdaa7431f1675d67d59778f83570b26d5970bd55af91534e",
+      "bytes": 6455
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/linear_calibration.py",
+      "sha256": "a402f65ce204ab26f361fea7195e2d3cbc72dd145f2417ad5e318650f9bb4989",
+      "bytes": 10575
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/materialize_soup.py",
+      "sha256": "4b8ded47c2a1f7cb5210729df7ea59a667becc301d22d3d1cd727b0e10576077",
+      "bytes": 7952
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/native_block_plan.py",
+      "sha256": "68c96303d517ef498163fd5896648c124e519cc71b011f78a68224317a12cdfd",
+      "bytes": 4004
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/native_oft.py",
+      "sha256": "a8a3c7dfe564fb968a733b51f31c0e49f1e4df6c285b4cc24ec8c5c41dfd1521",
+      "bytes": 5339
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/native_scope_guard.py",
+      "sha256": "d4d61624ca135336c68d362f1d6a486b48b6a3f7dd4b3a0a39fd476aa2c6868e",
+      "bytes": 623
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/pass_engine.py",
+      "sha256": "c8d70c676443cb5a30ef2430ed99c4db98e1269b24a4a5dbce1c0bf06b0693e7",
+      "bytes": 8378
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/ridge.py",
+      "sha256": "ef2361dc4ea7d34a760aaf4494eb82070175eff32e110871c159e80300135f87",
+      "bytes": 2699
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/run_block_smoke.py",
+      "sha256": "4081ebc00bea58b3f690f217fe8ec7348b6b5fec2015bd6fef40ff9b94d80bc7",
+      "bytes": 4465
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/run_capture.py",
+      "sha256": "3fc7d6336089e2261d080ac0f9a074333020a1b5af3435196af15f3bb2a743c2",
+      "bytes": 7126
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/run_dynamic.py",
+      "sha256": "5ff0d8be8ceaa85cdb82201804132cba1fa1985524df337a7405026e14bc8de0",
+      "bytes": 5797
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/run_local.py",
+      "sha256": "09f456d885e70d2a2c37ce5ef914139b3746a98c99241845bc674c52dfbc8e7c",
+      "bytes": 12860
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/run_soup_smoke.py",
+      "sha256": "344a18a0ede8670f96ce1bfe221520cc15b479440c5a64d3eb516452c2bef63c",
+      "bytes": 3522
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/test_block_calibration.py",
+      "sha256": "56d73bcc1c422a77a58f3aa637a94eb0bb693a0602ae79554a2916fbdb3c67b5",
+      "bytes": 5326
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/test_collect_experts.py",
+      "sha256": "9a5c074154e221cbee01c26ac9394db4c58c3b6ef29532a5013670613e5f8bdf",
+      "bytes": 3601
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/test_dynamic.py",
+      "sha256": "7e16bde43e3d41e418de22d3a233598d44c50456e30cae54d4ead5b26dbd9262",
+      "bytes": 1132
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/test_evaluate.py",
+      "sha256": "0fd47758967f212c748d066e6687cf463da09ddbaf16759cee5e4bb859d2586c",
+      "bytes": 4516
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/test_expert_bank.py",
+      "sha256": "eb14b0e488a1fa104326b692b565e0043ec5414a9eb79d3904df9536effb8ab7",
+      "bytes": 4362
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/test_export_native.py",
+      "sha256": "b6dec9765aca7df3aa08cd970485088d0ef00bae742279c86afad7828cb7eb5e",
+      "bytes": 4747
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/test_linear_calibration.py",
+      "sha256": "1a1eefcdfd05fd727ecf7975cda01589fcc59adb9d14ab3672026c1e6e6e0061",
+      "bytes": 5605
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/test_materialize_soup.py",
+      "sha256": "fa4eda4bc855552b2052adaf6d97e346440f8e7235e4b34ff09e146100e4a50b",
+      "bytes": 2888
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/test_native_block_plan.py",
+      "sha256": "457e2be0b1f0e19e99e421e5796be16076ef2d85cf8413ae6cb5cfd8e420032c",
+      "bytes": 1052
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/test_native_scope_guard.py",
+      "sha256": "961f362e63cdd038c1a20daace53c5d0e09ab3a2f974d102eae48259d9af77a8",
+      "bytes": 816
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/test_pass_engine.py",
+      "sha256": "e1b8b64afe35de5810df9a38c198b1e3f9d04f956a0567b96d92589c41d4643e",
+      "bytes": 5051
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/test_ridge.py",
+      "sha256": "25368f1d4b9d4c62debe6e1ed5c0091ea74409e1433f93b79f93cec749993d91",
+      "bytes": 1718
+    },
+    {
+      "path": "vla-merge/experiments/openvla-tcr-20260921/test_runner.py",
+      "sha256": "38ff7ff4628a0587f409d97ce43e2939301b325506a2232546872926b32ad459",
+      "bytes": 1890
+    },
+    {
+      "path": "vla-merge/src/vla_merge/libero_procedural_bank.py",
+      "sha256": "9753f4ced7e0237a9bf82b836834dcad745a9bf4ee0146af292b70d0aa9072b5",
+      "bytes": 17380
+    },
+    {
+      "path": "vla-merge_table4/OpenVLA-OFT/manifests/official_release_checkpoints.json",
+      "sha256": "cec033938fe07d712398682f07dd6951be1ec1b2e7f49a61a4e2da53a2e798bb",
+      "bytes": 1356
+    }
+  ],
+  "external_upstream_files": [
+    {
+      "path": "vla-merge_table4/Fast-WAM/source/configs/data/libero_2cam.yaml",
+      "sha256": "4d40ad0cd31337e0ccd04232c548a1a292bf3a0672644db781af4155bedb9b7d",
+      "bytes": 2419
+    },
+    {
+      "path": "vla-merge_table4/Fast-WAM/source/configs/data/robotwin.yaml",
+      "sha256": "f1ba509fac21fc59d5a210d6f68bcf94640729ce00dce695b7ca6df24c7b5aa7",
+      "bytes": 4110
+    },
+    {
+      "path": "vla-merge_table4/Fast-WAM/source/configs/model/fastwam.yaml",
+      "sha256": "ab3c2ffde9933e7576c747fecce82bd7d28c9c6478c1b53fcac02b3012be416c",
+      "bytes": 1503
+    },
+    {
+      "path": "vla-merge_table4/Fast-WAM/source/configs/model/fastwam_idm.yaml",
+      "sha256": "e84d8299bf386564aec988afe8218fcebb1435d5fef8074b13fb5dd46afd142c",
+      "bytes": 1507
+    },
+    {
+      "path": "vla-merge_table4/Fast-WAM/source/configs/model/fastwam_joint.yaml",
+      "sha256": "86686a36f3e29f7ec6218c37a84272e3f89b185fb3c17bbd8069a122f9d4e1f9",
+      "bytes": 1509
+    },
+    {
+      "path": "vla-merge_table4/Fast-WAM/source/configs/sim_libero.yaml",
+      "sha256": "c5b60228495987739fd222d620e9a643d9d527d44e2e63c0832c403041931df3",
+      "bytes": 1076
+    },
+    {
+      "path": "vla-merge_table4/Fast-WAM/source/configs/sim_robotwin.yaml",
+      "sha256": "b96b579a8f243c935f1e17f8f3d6e9b7cb6bf2f2a6823272f626ecc33d68056f",
+      "bytes": 975
+    },
+    {
+      "path": "vla-merge_table4/Fast-WAM/source/configs/task/libero_idm_2cam224_1e-4.yaml",
+      "sha256": "5df6cf62843806b0d9d2fb48b873945865bbfa74d135c58032651d54d6992c4e",
+      "bytes": 409
+    },
+    {
+      "path": "vla-merge_table4/Fast-WAM/source/configs/task/libero_joint_2cam224_1e-4.yaml",
+      "sha256": "1c46f34058c9c5363bab6814a0b86eb13be3a0077e944db7d39cf151da07636e",
+      "bytes": 411
+    },
+    {
+      "path": "vla-merge_table4/Fast-WAM/source/configs/task/libero_uncond_2cam224_1e-4.yaml",
+      "sha256": "27bdc30545aa06bca81137690a241d469d5a67a433881976bd79da3d4171d1a0",
+      "bytes": 405
+    },
+    {
+      "path": "vla-merge_table4/Fast-WAM/source/configs/task/robotwin_idm_3cam_384_1e-4.yaml",
+      "sha256": "2e67c9f301105752962af825e57e5b46ef5e6ba4290e397e5efc7abb88652619",
+      "bytes": 405
+    },
+    {
+      "path": "vla-merge_table4/Fast-WAM/source/configs/task/robotwin_joint_3cam_384_1e-4.yaml",
+      "sha256": "daf4cb5246728ba60ae6903fbfd9d5e029d7172f30916b8143f81783450fa874",
+      "bytes": 407
+    },
+    {
+      "path": "vla-merge_table4/Fast-WAM/source/configs/task/robotwin_uncond_3cam_384_1e-4.yaml",
+      "sha256": "2f78a207415b452b05e0238f3e00eb9942d7960413076b5b3cdcf1ce09caef9f",
+      "bytes": 401
+    },
+    {
+      "path": "vla-merge_table4/Fast-WAM/source/configs/train.yaml",
+      "sha256": "42a60765bfdd842af01aacdde6066ce63be00698377fe7729110b795be684016",
+      "bytes": 697
+    }
+  ],
+  "external_upstream_note": "No Fast-WAM upstream source/config text redistributed; hashes identify the externally supplied runtime dependency."
+}

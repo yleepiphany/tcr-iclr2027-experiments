@@ -1,0 +1,13 @@
+{
+  "accepted_episodes": 40,
+  "accepted_jobs": 4,
+  "complete": false,
+  "ended_at": "2026-09-24T03:46:58.356069+00:00",
+  "expected_episodes": 4800,
+  "expected_jobs": 480,
+  "failed": {
+    "repeat-01-object-libero_spatial-task04": "child exit -15; resource_floor=False"
+  },
+  "pending_jobs": 475,
+  "stopped": true
+}

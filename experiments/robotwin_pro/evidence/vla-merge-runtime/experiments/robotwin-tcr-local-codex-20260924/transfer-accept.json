@@ -1,0 +1,42 @@
+{
+  "accepted": true,
+  "accepted_at": "2026-09-24T02:43:03.532083+00:00",
+  "host": "dsw-967394-56ffd4897d-42wft",
+  "old_build_terminal_sha256": "52b8cb64265911901350e22873326ceb76462a434174e2746cdc2bfd663507d2",
+  "old_formal_terminal_sha256": "e80452e31456736fb7af1eddad806a52b8396af7d47caffaf16f451cf6a51c7f",
+  "owner": "Codex",
+  "permitted_gpus": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "release_id": "ROBOTWIN-TRANSFER-201-RELEASE",
+  "release_path": "/mnt/workspace/Wilson/parameter-fusion/coordination/2026-09-23/robotwin-transfer-201-release.json",
+  "release_sha256": "c9baf7c418485a8aeef5e3ecd89b8079fa01650d7199d7668b1f6f59a0fbecac",
+  "released_build_jobs": [
+    "r01-passA",
+    "r01-passB",
+    "r02-passA",
+    "r02-passB",
+    "r03-passA",
+    "r03-passB"
+  ],
+  "released_formal_jobs": [
+    "r01-coordination",
+    "r01-precision",
+    "r01-receptacle",
+    "r02-coordination",
+    "r02-precision",
+    "r02-receptacle",
+    "r03-coordination",
+    "r03-precision",
+    "r03-receptacle"
+  ],
+  "schema": "robotwin_transfer_201_accept_v1",
+  "science_episodes": 540,
+  "source_build_plan_sha256": "92ed112a401b815603441ffd98c35dd42921e42d1f32f697356ad58dcc621eb5",
+  "source_capture_audit_sha256": "f8bbd8642a45e6f0134e8a3b3f494cc0a2f739366b20173908ff8aa65945c99b",
+  "source_formal_plan_sha256": "4f05a9ee317cb5776288833c4dfcec6fe2fe98f8dc60cf196dcf4d6044ae9f6f",
+  "training": false
+}

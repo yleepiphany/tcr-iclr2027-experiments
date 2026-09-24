@@ -1,0 +1,24 @@
+{
+  "snapshot_date": "2026-09-24",
+  "package_cpu_preflight": "PASS",
+  "source_hashes_and_syntax": "PASS",
+  "actual_appendix_contract_imports": "PASS",
+  "nested_row_budget_checks": "PASS",
+  "cost_receipt_extraction_smoke": "PASS",
+  "original_action_metric_cpu_tests": "PASS_6_TESTS",
+  "table8_table9_table10_gpu_execution_in_this_release": "NOT_RUN",
+  "table11_updated_regmean_a03_action_measurement": "NOT_RUN_NEW_WRAPPER_READY_WITH_EXTERNAL_ASSETS",
+  "table14_missing_telemetry": "REMAINS_NULL_NOT_ESTIMATED",
+  "table6_table15_continued_training": "BLOCKED_NO_FROZEN_MATCHED_SIX_ARM_PROTOCOL",
+  "training_started": false,
+  "gpu_jobs_started_or_stopped": false,
+  "real_robot_included": false,
+  "model_weights_in_regular_git": false,
+  "evidence": [
+    "evidence/cpu-smoke-local.json",
+    "evidence/action-metric-cpu-source-check.json",
+    "PROVENANCE.json",
+    "ASSETS.json",
+    "configs/continued_training.blocked.json"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "captured_on": "2026-09-24",
+  "files": [
+    {
+      "file": "openvla-gpu-report.json",
+      "sha256": "cfbcac832266aca339fae408dc9ea93007ee636d1577c9077b83d61f65f26b26",
+      "bytes": 188384,
+      "source_path": "/tmp/tcr-table4-release-evidence-openvla-gpu-v3-20260924/smoke-report.json"
+    },
+    {
+      "file": "openvla-native-smoke.json",
+      "sha256": "c3717a853f11a7669e89e7a6806f846b6126fc3036346d857207403917a4d07e",
+      "bytes": 137989,
+      "source_path": "/tmp/tcr-table4-release-evidence-openvla-gpu-v3-20260924/openvla/result/smoke.json"
+    },
+    {
+      "file": "openvla-gpu-contract.json",
+      "sha256": "d43bbdfc45d962b52f23b241a36a7916595f9680a1976b940c225e9da2219971",
+      "bytes": 10367,
+      "source_path": "/tmp/tcr-table4-release-evidence-openvla-gpu-v3-20260924/openvla/result/contract.json"
+    },
+    {
+      "file": "fastwam-gpu-report.json",
+      "sha256": "81eca8dabf182071534e4632751691560e2d422ed5382959c7ac9a2a0f4fc6a3",
+      "bytes": 2428,
+      "source_path": "/tmp/tcr-table4-release-evidence-fastwam-gpu-20260924/smoke-report.json"
+    },
+    {
+      "file": "fastwam-native-smoke.json",
+      "sha256": "5a0c18a674f430e6eca5f64361d974c9c64974798be3751896a946a26cf4e490",
+      "bytes": 461,
+      "source_path": "/tmp/tcr-table4-release-evidence-fastwam-gpu-20260924/fastwam/result/smoke.json"
+    },
+    {
+      "file": "executed-provenance.json",
+      "sha256": "639d3bd7688fdd9ba67d9675d50bdb1d17a13cbb24e737f5ff602cfc70efb41a",
+      "bytes": 34538,
+      "source_path": "/tmp/tcr-table4-release-20260924/provenance.json"
+    }
+  ],
+  "note": "Executed provenance included external Fast-WAM config hash records; upstream config texts have been removed from the public snapshot. No inference code changed for that removal."
+}

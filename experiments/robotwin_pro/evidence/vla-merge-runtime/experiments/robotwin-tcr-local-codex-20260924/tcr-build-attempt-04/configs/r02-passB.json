@@ -1,0 +1,11 @@
+{
+  "arm": "robotwin_b",
+  "expert_masses": "uniform_three",
+  "merged_slots": [],
+  "repeat": 2,
+  "row_cap_per_request_module": 16,
+  "schema": "claude_second_round_v1",
+  "start_point": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r02-passA/pretrained_model",
+  "start_point_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-checkpoints-v2/r02-passA/pretrained_model/block_regmeanpp_manifest.json",
+  "start_point_sha256": "a283fe71daf64dfe94371361e30e280a53abbb257fa92748a5cf47b3607e2d95"
+}

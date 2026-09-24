@@ -1,0 +1,26 @@
+{
+  "blocks_per_pass": 87,
+  "candidate": "R2",
+  "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint",
+  "complete": true,
+  "episodes": 0,
+  "is_tcr": true,
+  "modules_per_pass": 438,
+  "native_actions_reload_exact": true,
+  "native_reload_verified": true,
+  "pass_A_checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-A/export/checkpoint",
+  "pass_A_manifest_sha256": "4eba0f99f898d09779b0b805bfbb8c93b0ec3a3ab2f7f6554a9b5a402f726a6d",
+  "pass_A_ridge_map_sha256": "3665bef802c3cdc98f165e1fbd5fc801b75c4cf58f8d85a2c2750ad2fefb7f5a",
+  "pass_B_manifest_sha256": "b057daed5f2ceb93880ba84483630e038c8e6431ceb52719d8d683eb344fc438",
+  "pass_B_reuses_exact_pass_A_ridges": true,
+  "passes": [
+    "A",
+    "B"
+  ],
+  "process_peak_allocated_bytes": 23879332352,
+  "process_peak_reserved_bytes": 31713132544,
+  "row_mode": "llm_action_4_context_4",
+  "rows_per_pass": 698000,
+  "rows_total": 1396000,
+  "success_evaluation": false
+}

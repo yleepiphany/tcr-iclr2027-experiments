@@ -1,0 +1,167 @@
+{
+  "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint",
+  "complete": true,
+  "construction_terminal": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/queue-ended.json",
+  "development400_audit": "/mnt/workspace/Wilson/parameter-fusion/coordination/2026-09-22/openvla-repair-development400-audit.json",
+  "development_signal": {
+    "difference_pp": 5.75,
+    "losses": 5,
+    "ties": 367,
+    "wins": 28
+  },
+  "files": {
+    "/mnt/workspace/Wilson/parameter-fusion/coordination/2026-09-22/openvla-repair-development400-audit.json": {
+      "mtime_ns": 1790126953135120578,
+      "sha256": "63f7f0193f14505db6491ca998ee9b967e3afcef5926c4b9d2e6a4fd9754abee",
+      "size": 1452
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/final-manifest.json": {
+      "mtime_ns": 1790116146401771041,
+      "sha256": "a6c4eafa26b74db4ab8bf505ef79fadcdebbfd16f47d9b87f2b8e98a72dcc0d5",
+      "size": 1174
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/action_head--tcr_checkpoint.pt": {
+      "mtime_ns": 1790116095769332630,
+      "sha256": "b36d5790c334bafcf928b081c9a2aba43139a8a3507e67a30cfd646798685178",
+      "size": 302241590
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/added_tokens.json": {
+      "mtime_ns": 1790116095928378270,
+      "sha256": "ab43123267b190cb7990bc9f2ae4ad32dcb7ed029fb0fccb1b4e062c6f54a2a1",
+      "size": 21
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/config.json": {
+      "mtime_ns": 1790116095872689761,
+      "sha256": "bcb688a66f3e94a42311b77d37b7e1484886701f7b2aa8e36d165dfccac92ae6",
+      "size": 60711
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/dataset_statistics.json": {
+      "mtime_ns": 1790116095913343145,
+      "sha256": "58a8190c3f8bcf582b473446cda19abd2188583bdf12a570f279bd1a1defc62d",
+      "size": 11871
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/generation_config.json": {
+      "mtime_ns": 1790116095934025406,
+      "sha256": "67fbe17b12e8beb5be98eb911483971cc78589e51a37ac0cce9cd499d06a8bf1",
+      "size": 136
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/model-00001-of-00004.safetensors": {
+      "mtime_ns": 1790116072850601168,
+      "sha256": "8c8e16d8f07c21edbac5e3f2be7f6fd0cd17fa7c89c9cbf6c1b59ed422285d34",
+      "size": 4925122448
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/model-00002-of-00004.safetensors": {
+      "mtime_ns": 1790116082570750693,
+      "sha256": "74038fdc18fdb39e490601a78e5c202095f93ff7ff844ba2764da4193687ffb0",
+      "size": 4947392496
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/model-00003-of-00004.safetensors": {
+      "mtime_ns": 1790116092465186666,
+      "sha256": "270b64b163f63c6d2add23b24f5c9497db2ecdcbfddc6d842ba3cade8c2f6a7f",
+      "size": 4947417456
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/model-00004-of-00004.safetensors": {
+      "mtime_ns": 1790116093066209807,
+      "sha256": "a877e3fece1feafb80f59f91585ce04379ee39e2bf9a25cb7b4acf237e896e60",
+      "size": 262668432
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/model.safetensors.index.json": {
+      "mtime_ns": 1790116093107935886,
+      "sha256": "d5a6f93d83ea03d8fe80fd90ba8477d411a1dcde811ebbc3afbb987231718c2c",
+      "size": 94763
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/preprocessor_config.json": {
+      "mtime_ns": 1790116095880199286,
+      "sha256": "bd024783fb785cbdfe35b710b621c5e8678d4c157a9ba625675e67d40d1757da",
+      "size": 1650
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/proprio_projector--tcr_checkpoint.pt": {
+      "mtime_ns": 1790116095856822754,
+      "sha256": "5cd43a3573290ef5605ad605ea7e15467fd8d6b9a19a2a6da3af735f4364efb0",
+      "size": 33638624
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/special_tokens_map.json": {
+      "mtime_ns": 1790116095906811210,
+      "sha256": "cb90ee5cf5793aa444039af9795b00db59d3fef8942e7eca9cf1990bab370d61",
+      "size": 552
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/tokenizer.json": {
+      "mtime_ns": 1790116095894939687,
+      "sha256": "8f5e2869e1807b8bb3c7717a294539c37e9de5d728ad60e31ef57e83cc5ea527",
+      "size": 1842976
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/tokenizer.model": {
+      "mtime_ns": 1790116095919882105,
+      "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+      "size": 499723
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/checkpoint/tokenizer_config.json": {
+      "mtime_ns": 1790116095886611486,
+      "sha256": "f5f1d3ed015ebb71cf11686ff00bc8e0c25957bbf3952f95312cecc9b168fbea",
+      "size": 1192
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/jobs/R2/build/pass-B/export/manifest.json": {
+      "mtime_ns": 1790116134827255052,
+      "sha256": "9891c79e774546903ea22cf63a8c8990b0c0bc92f7d95244aefd100b0b11a856",
+      "size": 2744
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/candidate-build-attempt-02/queue-ended.json": {
+      "mtime_ns": 1790116161925944173,
+      "sha256": "735cf3016c75c4f8a64f17415ef9474c0bb7dff32488cb1272a9dfab6cd3f733",
+      "size": 7694
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/dev-bank-v1/manifest.json": {
+      "mtime_ns": 1790098438494597775,
+      "sha256": "411d1f6b014337207849185d20206cb354c0bca395011fc944db2ef94425d296",
+      "size": 80092
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-openvla-tcr-repair-20260922/development400-attempt-01/identities.json": {
+      "mtime_ns": 1790121880364018450,
+      "sha256": "9ac08f4ba2ae31f5fd903092df4221614901614138812532637c1b0c47080b36",
+      "size": 16435
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/manifest.json": {
+      "mtime_ns": 1789046424875487982,
+      "sha256": "16fb4a0331b552c211bcb92ed3c81c7f4232c4eec88330d52056131e26d04be8",
+      "size": 1191035
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json": {
+      "mtime_ns": 1789046424895495229,
+      "sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0",
+      "size": 5054
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json": {
+      "mtime_ns": 1789046424901539596,
+      "sha256": "401ec2256ce5edc17391d4d2d5e27a56c431a7249b9d04d01fc31b22a78f8533",
+      "size": 5454
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json": {
+      "mtime_ns": 1789046424907634504,
+      "sha256": "3d2963b6a5452460a9c0a0393d10a30c4d088eb9dc29831b81567b1a38820600",
+      "size": 5454
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-openvla-tcr-repair-20260922/run_development40.py": {
+      "mtime_ns": 1790119419457555683,
+      "sha256": "925e994bc89487bf38359c981c07129a67dac9e441c2f4347078d5e8d31278e8",
+      "size": 13030
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-openvla-tcr-repair-20260922/run_repair_formal1200.py": {
+      "mtime_ns": 1790127157766838037,
+      "sha256": "a3f9b5fb314e49d80a68c2d8ccbaec209bfff1e548b06680bcc7813099086771",
+      "size": 11278
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/openvla-tcr-20260921/evaluate.py": {
+      "mtime_ns": 1790006501947108051,
+      "sha256": "e799cbd9666e881bd798a37a34ca0cc1bf29717c285d99128f391415712a5d36",
+      "size": 8810
+    },
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/openvla-tcr-20260921/native_oft.py": {
+      "mtime_ns": 1790006825122740135,
+      "sha256": "a8a3c7dfe564fb968a733b51f31c0e49f1e4df6c285b4cc24ec8c5c41dfd1521",
+      "size": 5339
+    }
+  },
+  "formal_outcomes_read": false,
+  "model": "R2",
+  "scope": "one frozen R2 build across formal repeat-01/02/03"
+}

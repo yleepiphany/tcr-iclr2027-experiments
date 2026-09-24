@@ -1,0 +1,28 @@
+\begin{table}[t]
+\centering
+\caption{Action agreement for the main LIBERO methods on 400 shared held-out expert requests. Success is copied from Table~\ref{tab:main_baselines}; no additional success evaluation is used here. Each reported baseline action metric uses the checkpoint in the main table. TCR reports the mean and sample standard deviation across its three constructed checkpoints on the same request bank.}
+\label{tab:main_action_agreement}
+\resulttable
+\begin{tabularx}{\linewidth}{Xrrr}
+\toprule
+Method & Action MSE $\downarrow$ & Action cos $\uparrow$ & Success (\%) $\uparrow$ \\
+\midrule
+Model Soups & 0.1094 & 0.7547 & 44.83 \\
+Task Arithmetic & 0.1196 & 0.7516 & 46.00 \\
+TIES-Merging & 0.1169 & 0.7452 & 44.25 \\
+WUDI-Merging & 0.1218 & 0.7427 & 46.00 \\
+KnOTS-TIES & 0.0980 & 0.7661 & 47.50 \\
+RegMean & \tbd & \tbd & 53.67 \\
+RegMean++ & 0.0773 & 0.8080 & 58.17 \\
+FeatCal & 0.0678 & 0.8285 & 68.33 \\
+\midrule
+\rowcolor{TCRTableBlue}
+\textbf{TCR} & $\mathbf{0.0488}^{\scriptstyle\pm 0.0011}$ & $\mathbf{0.8620}^{\scriptstyle\pm 0.0017}$ & \textbf{77.83} \\
+\bottomrule
+\end{tabularx}
+\par\smallskip
+\begin{minipage}{\linewidth}
+\footnotesize
+Action agreement has not been measured for the updated RegMean $\alpha=0.3$ checkpoint; its success rate comes from Table~\ref{tab:main_baselines}.
+\end{minipage}
+\end{table}
