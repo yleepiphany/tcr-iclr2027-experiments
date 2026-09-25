@@ -1,0 +1,17 @@
+{
+  "updated_at": "2026-09-25T07:27:34.876685+00:00",
+  "pending": [
+    "coordination-repeat-01",
+    "receptacle-repeat-01",
+    "precision-repeat-01",
+    "coordination-repeat-02",
+    "receptacle-repeat-02",
+    "precision-repeat-02",
+    "coordination-repeat-03",
+    "receptacle-repeat-03",
+    "precision-repeat-03"
+  ],
+  "active": [],
+  "accepted": [],
+  "failed": {}
+}

@@ -1,0 +1,44 @@
+{
+  "applies_to": [
+    "smoke",
+    "teacher_capture",
+    "student_capture",
+    "solve",
+    "reload"
+  ],
+  "bank_reuse": "same immutable observation/noise inputs only; no v1 smoke, teacher, student, solved prefix, model or evaluation reused",
+  "core_plan": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/plan.json",
+  "core_plan_sha256": "987e95f0db4708079fbfab59e96e5147181619f6ebf9e337b9abb4c0e691495f",
+  "created_at": "2026-09-25T07:09:19.184991+00:00",
+  "formal_episodes": 0,
+  "gpu_started": false,
+  "no_score_based_selection": true,
+  "original_api": {
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1/featcal_m3.py",
+    "sha256": "c7258a4f1d9cb6d843207d932009700974b9d073481825ec8d1768fb35e3e9b9"
+  },
+  "original_api_unchanged": true,
+  "original_table1_plan": {
+    "backend": {
+      "tf32_override": "1"
+    },
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/plan.json",
+    "sha256": "89002c4ba14f26e1addccc2928c6a04d950e543f9ddc2cc51ae82430d69fb96d"
+  },
+  "predecessor": {
+    "complete": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/complete.json",
+    "complete_sha256": "269d10a3ec537f2953d9eee7504e81d2f339de8d59e7701fae380116c8cd588e",
+    "disposition": "preserve backend-unbound artifact; prohibited as paper or formal-evaluation checkpoint",
+    "model_sha256": "7b1598f577e6f5d6fc1d2ee75808957cdd8502925fe70dcc7cf33fb7ae5c6252",
+    "plan": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/plan.json",
+    "plan_sha256": "f9fbc255cf37f5bec14fc2ba36d1b7c147b2d7205e6999f3a6a007df331c7eb5"
+  },
+  "preparer_source_sha256": "84e9b77761f07cc23f0a5b75dd852bb94ff239761edda45ef0a72e939cb2acad",
+  "primary_backend_reference": "https://docs.pytorch.org/docs/2.7/cuda_environment_variables.html",
+  "required_environment": {
+    "NVIDIA_TF32_OVERRIDE": null,
+    "TORCH_ALLOW_TF32_CUBLAS_OVERRIDE": "1"
+  },
+  "required_torch_cuda_matmul_allow_tf32": true,
+  "schema": "robotwin_featcal_tf32_bound_construction_v2"
+}

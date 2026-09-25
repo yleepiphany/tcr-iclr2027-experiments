@@ -134,6 +134,7 @@ def main(argv=None):
         keys = list(catalog['methods']) if args.method == 'all' else [args.method]
         methods = [method_preflight(k, catalog['methods'][k], catalog, args.workspace_root) for k in keys]
         report = {'schema': 'robotwin_pro_release_smoke_v1', 'status': 'PASS', 'scope': 'Package integrity and explicitly selected smoke mode; not a formal benchmark evaluation', 'package_files_verified': len(provenance['files']), 'methods': methods, 'gpu_tasks_started': 0, 'other_processes_signalled': 0}
+        report['methods_catalog_snapshot'] = 'Archived 2026-09-24 bindings, retained for stale-run rejection; see README successor snapshots for later model acceptance and waiting queues.'
         if args.mode == 'gpu':
             if args.method != 'all':
                 report.update(status='BLOCKED', reason='GPU smoke is explicitly an expert/native-interface test, not any unfinished or stale method. Use the default all scope; method-specific execution remains blocked.')

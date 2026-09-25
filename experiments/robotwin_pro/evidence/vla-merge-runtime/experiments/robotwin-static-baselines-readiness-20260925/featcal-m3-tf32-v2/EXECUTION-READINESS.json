@@ -1,0 +1,65 @@
+{
+  "backend_contract": {
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/backend-contract.json",
+    "sha256": "c5d726340ee390118910e661cceb4f037316fe3ab0dca24334e886d8a3a64ada"
+  },
+  "construction_environment": {
+    "NVIDIA_TF32_OVERRIDE": null,
+    "TORCH_ALLOW_TF32_CUBLAS_OVERRIDE": "1"
+  },
+  "core_plan": {
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/plan.json",
+    "sha256": "987e95f0db4708079fbfab59e96e5147181619f6ebf9e337b9abb4c0e691495f"
+  },
+  "cpu_preflight": {
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/backend-bound-v2-source/cpu-preflight.json",
+    "sha256": "3283e07910deccb096009672a30caa8b265163da12db8e36931544024531bc76",
+    "status": "CPU_PREFLIGHT_PASS_NATIVE_GPU_NOT_RUN"
+  },
+  "cpu_tests": {
+    "count": 12,
+    "log": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/backend-bound-v2-source/cpu-tests.log",
+    "sha256": "5ddd12cfb9b332b5400f1cc5346e63753d1bfb353fdd9d4b09bd01c0c947e852",
+    "status": "PASS"
+  },
+  "formal_episodes": 0,
+  "formal_followup": {
+    "construction_override_cleared_during_formal": true,
+    "episodes_per_job": 60,
+    "episodes_total": 540,
+    "jobs": 9,
+    "protocol": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/protocol.json",
+    "protocol_sha256": "ed47fc5340cfb53a4a1c497a08ef3aca984c0ad50182748ac3df3ca7e060d0de",
+    "requires": "new v2 checkpoint full identity plus backend-stage receipts and reload before any formal evaluation"
+  },
+  "fresh_teacher_and_student_captures_required": true,
+  "gpu_launched": false,
+  "linear_weights": 418,
+  "new_native_smoke_required": true,
+  "noise_states": 450,
+  "observations": 150,
+  "old_integrity_audit": {
+    "disposition": "backend-unbound old artifact remains untouched; not paper/formal eligible",
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/backend-bound-v2-source/v1-integrity-audit.json",
+    "sha256": "cd5e27cd63a8d79069e316e4b1ea155c18e1177d81014c6b1dfcb331ca3fa7c6"
+  },
+  "old_stage_reuse": false,
+  "original_api_unchanged": true,
+  "prepared_at": "2026-09-25T07:14:29.643156+00:00",
+  "raw_input_bank_sha256": "4c04affedb0f85622df565f77e6b03f8d67259ffa1b0fa3f5822ec5e08fa3bf5",
+  "regression_rows": 3330900,
+  "runner": {
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/backend-bound-v2-source/safe_successor_v2.py",
+    "sha256": "fbe7672600866663f4f2a3caa828efb6f62658b9403f0d94fb0c553d3b771c33"
+  },
+  "same_original_models_parameters_kernel_and_raw_inputs": true,
+  "schema": "robotwin_featcal_tf32_v2_execution_readiness",
+  "source_files": {
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/backend-bound-v2-source/prepare_backend_v2.py": "84e9b77761f07cc23f0a5b75dd852bb94ff239761edda45ef0a72e939cb2acad",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/backend-bound-v2-source/safe_successor_v2.py": "fbe7672600866663f4f2a3caa828efb6f62658b9403f0d94fb0c553d3b771c33",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/backend-bound-v2-source/test_backend_cpu.py": "fefcb22ce5e62d6662ff4c4a87e592abe4d90d33757722407f49c3be9f774297",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/backend-bound-v2-source/test_resource_cpu.py": "e2219b0fe2c93c3d39b77044d66d0e845b8dddfab6838f24aab493aeac605d00"
+  },
+  "stages": 47,
+  "status": "CPU_READY_NO_GPU_AUTHORIZATION_CONSUMED"
+}

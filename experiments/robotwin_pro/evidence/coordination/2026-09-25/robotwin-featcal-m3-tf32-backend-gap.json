@@ -1,0 +1,19 @@
+{
+  "recorded_at_utc": "2026-09-25T07:03:14.841183+00:00",
+  "status": "SCIENTIFIC_BACKEND_IDENTITY_GAP_NO_FORMAL_EPISODES",
+  "reference_table1_plan": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/plan.json",
+  "reference_table1_tf32_override": "1",
+  "old_m3_plan": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/plan.json",
+  "old_m3_plan_sha256": "f9fbc255cf37f5bec14fc2ba36d1b7c147b2d7205e6999f3a6a007df331c7eb5",
+  "old_m3_backend_field": null,
+  "old_runner": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/safe-successor-v1/safe_successor.py",
+  "old_runner_sha256": "5bc9cd6c137d79f7716b9cf441e82f3c32f67802733d8167791ebbea20b63c1b",
+  "old_build_launch_receipt": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/gpu-successor-v1/build-wait-attempt-01/launch-receipt.json",
+  "old_complete_receipt": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/complete.json",
+  "old_model_sha256_declared": "7b1598f577e6f5d6fc1d2ee75808957cdd8502925fe70dcc7cf33fb7ae5c6252",
+  "old_model_formal_eligible": false,
+  "formal_episodes": 0,
+  "reason": "Original Table1 FeatCal supervisor explicitly set TORCH_ALLOW_TF32_CUBLAS_OVERRIDE=1; M3 plan/worker did not bind or enforce it. Numerical effect is not assumed zero.",
+  "next_step": "Isolated TF32-bound M3 reconstruction from same static bank and frozen algorithm; preserve old model/receipts, do not reuse teacher/solve outputs",
+  "training_or_other_project_modified": false
+}

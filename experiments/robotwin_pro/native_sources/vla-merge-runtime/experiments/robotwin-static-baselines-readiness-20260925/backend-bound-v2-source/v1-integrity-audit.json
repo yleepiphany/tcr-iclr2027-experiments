@@ -1,0 +1,278 @@
+{
+  "status": "ARTIFACT_INTEGRITY_PASS_BACKEND_UNBOUND_NOT_PAPER_READY",
+  "at": "2026-09-25T07:04:11.562450+00:00",
+  "model_sha256": "7b1598f577e6f5d6fc1d2ee75808957cdd8502925fe70dcc7cf33fb7ae5c6252",
+  "complete_sha256": "269d10a3ec537f2953d9eee7504e81d2f339de8d59e7701fae380116c8cd588e",
+  "plan_sha256": "f9fbc255cf37f5bec14fc2ba36d1b7c147b2d7205e6999f3a6a007df331c7eb5",
+  "stages": 47,
+  "solved_weights": 418,
+  "actual_solver_rows": 3330900,
+  "manifest_rows_per_role": {
+    "teacher": 3330900,
+    "student": 3330900
+  },
+  "manifest_headers_verified": 2820,
+  "cached_factor_full_bytes_rehashed": false,
+  "all_snapshot_full_sha_and_tensor_hashes_verified": true,
+  "exported_model_full_sha_verified": true,
+  "exported_tensors_finite": 813,
+  "unchanged_soup_tensors": 395,
+  "native_reload_bitwise_receipt": true,
+  "native_smoke_model_count": 4,
+  "max_relative_primal_residual": 9.80386781901312e-14,
+  "max_solver_workspace_bytes": 1340416640,
+  "three_teachers_complete": true,
+  "formal_episodes": 0,
+  "worker_returncode": 0,
+  "controller_and_child_absent": true,
+  "failed_files": [],
+  "interface_dtypes": {
+    "model.action_in_proj.weight": "F32",
+    "model.action_out_proj.weight": "F32",
+    "model.time_mlp_in.weight": "F32",
+    "model.time_mlp_out.weight": "F32"
+  },
+  "original_table1_tf32": {
+    "tf32_override": "1"
+  },
+  "m3_frozen_backend": null,
+  "backend_binding_gap": "v1 runner inherited parent environment; no TF32 value was frozen or recorded for smoke/build; preserve artifact but exclude from paper and all formal evaluation.",
+  "cuda_initialized": false,
+  "snapshot_receipts": [
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_00.safetensors",
+      "sha256": "10bce7b5b8f611fefed5a73d8de308b4e723d4a98455ef986a62c6c21b3504d9",
+      "receipt_sha256": "92f2ca9c9b61c593deb44da3d33148a43344183860bef3b2dd740aac61a016ac"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_01.safetensors",
+      "sha256": "fb4fa3bf71dfc90e1c55e9a222fa96f5ab7397968ae6d0b14eafcb6a18ce84f2",
+      "receipt_sha256": "ed04ca87058f5e9af553a7bb324df882e8619a008e59b95bf2be5f8c87043985"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_02.safetensors",
+      "sha256": "3c33004aa73a3b59a2d9c010eb526025874aa5a3c6788eedd281c21e0f93a62c",
+      "receipt_sha256": "56da4395f665c6b089786cbfff6b9a8b7ab9badd4c76fe82130ca9efe53cec8e"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_03.safetensors",
+      "sha256": "8291868e352565c9e6aa74e1e60c0ebca06f32742a56fb4e0e89e8ce247b8313",
+      "receipt_sha256": "b204c2e6f7653d9cdd40695787e2dd54e841298ebac17c01075e5926f221f080"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_04.safetensors",
+      "sha256": "794e9247e3bfa4822c66a238c24cc1374f11492492ccc409be27d20e64cd169f",
+      "receipt_sha256": "bad5666a133fee0573ec892a942aef8b68e61b5bc1ac233e266489f73ace1cf9"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_05.safetensors",
+      "sha256": "83ac3bbd740e2f0cc41dda2c71b84a3cad633e300e0ccbf2726a4d66b09debe1",
+      "receipt_sha256": "7f233cf71560d7d28399a18882f7203c43ddcd433ef2bd42218fc9cdbbd0f7cd"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_06.safetensors",
+      "sha256": "460b3e212d9c9036c7868cd1f9a5627908fa2cdb3fa8c268cf7605669930a5f5",
+      "receipt_sha256": "9b92e702bd6496c3ac6182a4b3bfe915e15c8bfabf0b6a49b9038c800e4838dd"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_07.safetensors",
+      "sha256": "0f274aa82c27a4869552c7204d4243fd8bd87fc0bc1393fc8385e881e3d2d563",
+      "receipt_sha256": "be7ee6d0ec5be7ac17207150c774bdf9e74615a47126e2695aaa94b23044bb3c"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_08.safetensors",
+      "sha256": "856ee5e5c4c1d76b4989886f414c4f55770b06a0d34afc4787e13ed0ef080607",
+      "receipt_sha256": "49daaa8d220aeea31dd41d522c3e910af7002b8e937cefe96d05f1ad4b006f5b"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_09.safetensors",
+      "sha256": "6139d28345ded89f1ae4bbdffe1cba956befb213d12a21f417c30d96aca4ce31",
+      "receipt_sha256": "416ddf0fd461f2062367857ed7061eaa687d97df11121e0cff936b844ae5a890"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_10.safetensors",
+      "sha256": "9de0a30da3b82eee5347f7661f8b941b1039b2976ff7eaaf7b001e67e65e28ed",
+      "receipt_sha256": "f7b132a54a3cbcf10739bb8bd223720804af554d6f41e361fe848b47320ee4ad"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_11.safetensors",
+      "sha256": "f9fcc57686242222f058c03d756599aef3710c3cbba25f2022598eb4bc007287",
+      "receipt_sha256": "e24e6ee1e4e6a582392cd33b5cce160aa875216d74168f6fcf4afff544bb2012"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_12.safetensors",
+      "sha256": "4695d46bacd6c2bbd13c3841dcd5e4a9f3784c97f6389d361af6b13af41f46d7",
+      "receipt_sha256": "545fe57c07c3e40ff50f3ecedb90c5d92b544b4cbc4ccf3d851997ca69114159"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_13.safetensors",
+      "sha256": "0751ebb363553a55ac6a8790e3a8330d8da89b4d5853b7effe4d12573136432f",
+      "receipt_sha256": "48c02d5d0849bd6eed2c0f411858bf10f8c31c99247b202a18b61b7293376458"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_14.safetensors",
+      "sha256": "4319ebc38d5b5d12f3c12706ab87b5224999359fdbe202f7aec2d1d64e52e22a",
+      "receipt_sha256": "1f20dc642c402796ceb789e7f77fc140f5058da86e8ea1e53849ea4b4e18fb22"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_15.safetensors",
+      "sha256": "b7b1efdc0023e40b0a81181a58b161cbd77a180305b998c403cca3e1ebcaab3a",
+      "receipt_sha256": "4c2ab37aebdbec55999e1ff8020212bf587d51531705dd496791b74ceeb95f3e"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_16.safetensors",
+      "sha256": "8fe40eea5b2134b66b475af149ba53fca1069d1470a7d72567f1e1cb60808f05",
+      "receipt_sha256": "efbe3e1ed6d0742a4e48d4509cfda9a79a68df37d4b932736bbded3a061fcb59"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_17.safetensors",
+      "sha256": "91d1d097d6eb3406da3568ddab6e70c201aacdf68df0677e7cc1cb2af965e235",
+      "receipt_sha256": "d7958eca1a7d9f4f77d1f83475c6f12d78b23171204ee98be2ef3c67101f42c0"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_18.safetensors",
+      "sha256": "3b79b3e96fd17ebb74b471b0f5d4e3cb69c3d50282669ceaf948ff71b2cae3a2",
+      "receipt_sha256": "178f41f669615c48182ffd56680b3ff8cb079b63cecb6c43da8b53f3fb43e708"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_19.safetensors",
+      "sha256": "b19b10c54ddfd08a089259d7f40c8dc82f79010d19a0957483bb0f30b2f2966e",
+      "receipt_sha256": "1f7c64316cea11078279d830d45cb8f58c4ade9630ab72edb0efaaa5efc00232"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_20.safetensors",
+      "sha256": "98eb133273d957ff5762bfc07af9f22efea556320e219a56afed959927ca28a0",
+      "receipt_sha256": "f0f91940660dc91ef95edf7746042e7e124d26935aa3bc862a1da5a792fc1e14"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_21.safetensors",
+      "sha256": "a945cc0effded284a2bf785dbc122a80b7f533c75740e513844217a7e2a1b69e",
+      "receipt_sha256": "4b96770913b228cb2817c636e5ad3399e67a2bfe9ef69d8b0670e6990fac2656"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_22.safetensors",
+      "sha256": "2dc54d00e6041c383895e68a5fab8492cbda3165ee470ca9d15439de2486daeb",
+      "receipt_sha256": "4dbd4e99d35b8207d74224c5cc4f2e547f1d61e7f41296f1f0b695037b99d59c"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_23.safetensors",
+      "sha256": "6579e450b717ff5678a50e73dd519b86bee4740525982a66456af0aca7757cd3",
+      "receipt_sha256": "546af267a19cf918cebe3ea2614af28dec2496354e8a3dabc7801b15645a3482"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_24.safetensors",
+      "sha256": "d89322cea45ad210e3040ffdb232d9033d6f299ad954062e6ace0adce69ac568",
+      "receipt_sha256": "5178a9b606e97b1a2cbf2750b62341ac06af731ccd4654b5eab6b111471c6e9a"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_25.safetensors",
+      "sha256": "5a1f62d86e87b1fc834292f63fdb1b4dff6a1a1e186c302cee5b1b3b9a9cb65a",
+      "receipt_sha256": "276eb33eb5603a102dd8be52cbf6a9294510e8d28c8fa858c58f11e407e0f349"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_26.safetensors",
+      "sha256": "956f9e26529a4844a5734d621e6f1d3bdd59e748a408d73b6ee40f8a464f0e5e",
+      "receipt_sha256": "18c4a7717448efc74a5edac4c5e9e2b7391865182bc16e008a96380f1a91639e"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_27.safetensors",
+      "sha256": "ff3f190f9e70748220fb1c1320a98db3b9e2e7bf54823d09d1097ba0c43a3b77",
+      "receipt_sha256": "0c5448e78e2548cf2f8f4f1d96cab1194f3b420d1303ea8d20202f5acb80240b"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_28.safetensors",
+      "sha256": "248c1b4c1747609714c8ba02258d0da1671131776d8cfc22c074078ae7b5c622",
+      "receipt_sha256": "00df7c3ec8eb571450fb01f8aca1f1a3044e668f6076e07e56461067e6992b07"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_29.safetensors",
+      "sha256": "3292df0195bca929c40d77097712a391cd65e46001998ed5d3797435dfb6f8a2",
+      "receipt_sha256": "a19e6309a35f3eb24ed8deaff5140556d92ca8ff6b2684b43977190ed558f4c3"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_30.safetensors",
+      "sha256": "24b7ae4591db29313f0bc03c906c1a0d0c8a90b3350f83d4523eea11c6ba8b67",
+      "receipt_sha256": "845d43e9c0c9587d832f622daa3a6749431b3d5d71642c3c40023a965c9f2325"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_31.safetensors",
+      "sha256": "326df87b55898cc463746cdd3b8675e07d0d8b77dcf44897ad537f10d3c01346",
+      "receipt_sha256": "20a96f50155012e4942ddb6cf511f5d0e26a6cfd13dcce1ec2209d8f4fcc2189"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_32.safetensors",
+      "sha256": "1e94663c22a2f8cdc98280010e71ded29c3bdd3d01c5f16f1204001468db5dc0",
+      "receipt_sha256": "09b1fd74ce9d45c7178c526cd17036fef133556282263cfe7a47b3c83132ee26"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_33.safetensors",
+      "sha256": "8e1fc6edaf54cde81501b4b9b293519794fce32591abe02ad0e8afb66e27b2f1",
+      "receipt_sha256": "c3aa0009a03efe2f60803f1ebd56dc94b73a4d84cf29382b500b54c6fb0acef0"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_34.safetensors",
+      "sha256": "17b6b11f6b8ef0d67806923e97275f0c65ccc49ad8c925fc1fff32601459911c",
+      "receipt_sha256": "0577390b8c3bf045bcf5d77d52ef984d15857c6171a8cafb4db04110364752bb"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_35.safetensors",
+      "sha256": "2ff8d66c386a3bb5ae5605357c5e7231ee4149cff42eefd2756f3849d1697c28",
+      "receipt_sha256": "a6e21849495c10a807354294d3b0ab46ed69f5828312e5086eb9f956db78a66e"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_36.safetensors",
+      "sha256": "a67063658b1217f18f7b54ecea8295e3ff4a056f6db4b9a266708a306369080e",
+      "receipt_sha256": "58be0a3871ec251fbfdaa27dc98148dd22f0f54e1c9b8d97dc71d3214485cc41"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_37.safetensors",
+      "sha256": "038e9707f63b4ae83fdbc19065ca9d41630e8baa593c1f990acfd0cfaf2bfbee",
+      "receipt_sha256": "5ef6962fc28546154540379415958598b7f45395c83ecab6086a94b0a7de133c"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_38.safetensors",
+      "sha256": "4d6b6504918fc6f9d365f7704995d599c4ddb83530e5a26cdcb345580b57b70e",
+      "receipt_sha256": "d46d7d67ea5baa2f584adf236a384a29c03f536e831e28c3730570e9a77ee8f4"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_39.safetensors",
+      "sha256": "8013146396f55c9e45f2f7087df93e9d100d0d5814e9ebd99885af6e7f9550b1",
+      "receipt_sha256": "4431bc688805e3fe6f8e8a231fc99471dab5c90f27728094fea28c8494f8f4ca"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_40.safetensors",
+      "sha256": "b4c8536da59614c62f3d490163a3979611855784a139fff6904f76fb109f5cb8",
+      "receipt_sha256": "34460df476bbd8ef662523d429c0ce4206071a5de7df78a15df7c2cef7db58de"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_41.safetensors",
+      "sha256": "8d5519d777fe8baf62cb8dde49993bed5c336a5d3d01a65f343454cee69c1dca",
+      "receipt_sha256": "6d609a87fa0e12e140dc7450a14517b2305c6d5810695dd46c4ef475552b16fe"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_42.safetensors",
+      "sha256": "147b56a0cefe7c4fa7ce26774fc9307e848dbbf691ecc70e557bdfe0e1faabed",
+      "receipt_sha256": "5a2e24142c471330daf37c51ee38cfdd03e5cd17c3aa34af56b7ff38e0a49f62"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_43.safetensors",
+      "sha256": "c3903f8c1ca39b872bcd91d70992e1756c6be328b8065fdd38068c71762e596b",
+      "receipt_sha256": "54248fa95e18b7bc8f4876e279aede62beb84c932738d5b904734c813124bb5c"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_44.safetensors",
+      "sha256": "c94dc46985230ca36f079334b07baeb91350fde202b6243cc87f115aa7425890",
+      "receipt_sha256": "990bfcd8b6c6ba3d99c61af6fd8b5f202dd9f291e0fb5acea5c1582c398a69fd"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_45.safetensors",
+      "sha256": "87ef43d7abf4a72268ccb70ce61cfe2c720e6b69fe505b5bc583a346d6f60599",
+      "receipt_sha256": "361cac5f10cc2f5d249b3f4d764783a4f2dced6f0937492922a8c3abc2dd0320"
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/cache/prefix-snapshots/step_46.safetensors",
+      "sha256": "910b38809cfa5744d7ac77dee64e63559526ec3377e3d8dd79a78a9a9403187f",
+      "receipt_sha256": "fd63112ee92041890f31e01974286da7aa2e86e083af36adee6daa306a87f292"
+    }
+  ]
+}

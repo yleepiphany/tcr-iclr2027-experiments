@@ -1,0 +1,15 @@
+{
+  "board": {
+    "compute_pids": [],
+    "free_mib": 81150,
+    "gpu": 6,
+    "used_mib": 5,
+    "utilization": 0,
+    "uuid": "GPU-da625da2-f504-7927-4025-907e876718aa"
+  },
+  "cuda_initialized_before_admission": false,
+  "inherited_leases_verified": 3,
+  "model_files_fully_hashed_under_same_leases": 4,
+  "pid": 3309948,
+  "status": "PASS"
+}

@@ -1,0 +1,109 @@
+{
+  "action_expert_variant": "gemma_300m",
+  "action_feature_names": [
+    "motors"
+  ],
+  "chunk_size": 50,
+  "compile_mode": "max-autotune",
+  "compile_model": false,
+  "device": "cuda",
+  "dtype": "bfloat16",
+  "empty_cameras": 0,
+  "freeze_vision_encoder": false,
+  "gradient_checkpointing": true,
+  "image_resolution": [
+    224,
+    224
+  ],
+  "input_features": {
+    "observation.images.cam_high": {
+      "shape": [
+        3,
+        480,
+        640
+      ],
+      "type": "VISUAL"
+    },
+    "observation.images.cam_left_wrist": {
+      "shape": [
+        3,
+        480,
+        640
+      ],
+      "type": "VISUAL"
+    },
+    "observation.images.cam_right_wrist": {
+      "shape": [
+        3,
+        480,
+        640
+      ],
+      "type": "VISUAL"
+    },
+    "observation.state": {
+      "shape": [
+        14
+      ],
+      "type": "STATE"
+    }
+  },
+  "license": null,
+  "max_action_dim": 32,
+  "max_period": 4.0,
+  "max_state_dim": 32,
+  "memory_frames": 6,
+  "memory_stride": 30,
+  "memory_temporal_attention_every": 4,
+  "min_period": 0.004,
+  "n_action_steps": 10,
+  "n_obs_steps": 1,
+  "normalization_mapping": {
+    "ACTION": "QUANTILES",
+    "STATE": "QUANTILES",
+    "VISUAL": "IDENTITY"
+  },
+  "num_inference_steps": 10,
+  "optimizer_betas": [
+    0.9,
+    0.95
+  ],
+  "optimizer_eps": 1e-08,
+  "optimizer_grad_clip_norm": 1.0,
+  "optimizer_lr": 0.0003,
+  "optimizer_weight_decay": 0.01,
+  "output_features": {
+    "action": {
+      "shape": [
+        14
+      ],
+      "type": "ACTION"
+    }
+  },
+  "paligemma_variant": "gemma_2b",
+  "pretrained_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/cpu-plan-v1/checkpoint",
+  "pretrained_revision": null,
+  "private": null,
+  "push_to_hub": false,
+  "relative_exclude_joints": [
+    "gripper"
+  ],
+  "repo_id": null,
+  "rtc_config": null,
+  "rtc_training_max_delay": 0,
+  "scheduler_decay_lr": 2.5e-06,
+  "scheduler_decay_steps": 15000,
+  "scheduler_warmup_steps": 500,
+  "tags": null,
+  "time_sampling_beta_alpha": 1.5,
+  "time_sampling_beta_beta": 1.0,
+  "time_sampling_offset": 0.001,
+  "time_sampling_scale": 0.999,
+  "tokenizer_max_length": 200,
+  "train_expert_only": false,
+  "type": "pi05",
+  "use_amp": false,
+  "use_peft": false,
+  "use_proprioceptive_memory": false,
+  "use_relative_actions": false,
+  "use_visual_memory": false
+}

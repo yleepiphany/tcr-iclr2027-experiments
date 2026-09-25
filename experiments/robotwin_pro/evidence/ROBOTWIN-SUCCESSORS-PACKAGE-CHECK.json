@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "at_utc": "2026-09-25T07:31:59.771183+00:00",
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "experiments/robotwin_pro/preflight.py",
+        "--mode",
+        "cpu",
+        "--json-output",
+        "experiments/robotwin_pro/evidence/ROBOTWIN-SUCCESSORS-PACKAGE-PREFLIGHT.json"
+      ],
+      "exit_code": 0,
+      "output_sha256": "a38da422f409ce8f529ae9792c1ad2c3fee385c797d5c70ff3c25d26978753f6",
+      "summary": {
+        "status": "PASS",
+        "package_files_verified": 246,
+        "gpu_tasks_started": 0,
+        "other_processes_signalled": 0
+      }
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "experiments/robotwin_pro/tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output_sha256": "ec406924961eddf0b44f11eed991984bf48ae67bc00b16518d0923204e2aa180",
+      "summary": "16 portable package tests passed"
+    },
+    {
+      "command": [
+        "python3",
+        "tools/doctor.py",
+        "--code-only"
+      ],
+      "exit_code": 0,
+      "output_sha256": "7711b236e7425b17c2209a45645ac5c08900f0f0d8484696712fef0d5ee0f8cc",
+      "summary": {
+        "status": "PASS",
+        "scope": "Python syntax and root manifest schema",
+        "packages": [
+          "openvla_fastwam",
+          "robotwin_pro",
+          "appendix_cost_training"
+        ]
+      }
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "summary": "No whitespace errors"
+    }
+  ],
+  "native_receipts_preserved": {
+    "regmeanpp_formal_tests": 15,
+    "featcal_backend_tests": 12
+  },
+  "original_featcal_resource_tests_rerun_locally": 7,
+  "original_featcal_resource_tests_result": "PASS; synthetic snapshots and real temporary flock subprocess only; no CUDA",
+  "exact_small_files_added": 62,
+  "exact_source_bytes_added": 1881688,
+  "all_source_logs_and_files_unignored": true,
+  "model_weights_included": false,
+  "gpu_tasks_started": 0,
+  "remote_mutations": false,
+  "native_training_or_simulator_rerun": false,
+  "scope": "Only experiments/robotwin_pro package updated; no push. Native 15/12 tests are original remote CPU evidence, not claimed to have been fully rerun locally."
+}

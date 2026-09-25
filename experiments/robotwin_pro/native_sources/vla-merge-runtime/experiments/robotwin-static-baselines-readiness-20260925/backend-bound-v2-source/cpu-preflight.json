@@ -1,0 +1,26 @@
+{
+  "status": "CPU_PREFLIGHT_PASS_NATIVE_GPU_NOT_RUN",
+  "plan": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/plan.json",
+  "plan_sha256": "987e95f0db4708079fbfab59e96e5147181619f6ebf9e337b9abb4c0e691495f",
+  "backend_contract_sha256": "c5d726340ee390118910e661cceb4f037316fe3ab0dca24334e886d8a3a64ada",
+  "source": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1",
+  "run": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2",
+  "bank": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/static-bank-v1/bank.json",
+  "groups": [
+    "coordination",
+    "receptacle",
+    "precision"
+  ],
+  "gpu_gate": {
+    "empty_compute_only": true,
+    "minimum_free_mib": 49152,
+    "allocator_fraction": 0.5,
+    "minimum_runtime_free_mib": 12288,
+    "minimum_disk_gib": 120,
+    "two_nonblocking_leases": true
+  },
+  "formal_evaluation_launched": false,
+  "runner_sha256": "fbe7672600866663f4f2a3caa828efb6f62658b9403f0d94fb0c553d3b771c33",
+  "selected_gpus": [],
+  "target": "smoke"
+}

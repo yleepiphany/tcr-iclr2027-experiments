@@ -1,0 +1,34 @@
+{
+  "allowed": false,
+  "episodes": 540,
+  "gpu_uuids": {
+    "1": "GPU-c18a3bf3-c47c-9a8a-75b0-5a0f37b33a65",
+    "4": "GPU-48baba1c-f0e7-93b7-4a30-b3c21d20e61a",
+    "5": "GPU-4ed28198-b742-ee3c-2acb-4183dc944c81",
+    "6": "GPU-da625da2-f504-7927-4025-907e876718aa"
+  },
+  "gpus": [
+    1,
+    4,
+    5,
+    6
+  ],
+  "host": "dsw-824375-57c745db88-n6tv9",
+  "jobs": [
+    "coordination-repeat-01",
+    "receptacle-repeat-01",
+    "precision-repeat-01",
+    "coordination-repeat-02",
+    "receptacle-repeat-02",
+    "precision-repeat-02",
+    "coordination-repeat-03",
+    "receptacle-repeat-03",
+    "precision-repeat-03"
+  ],
+  "maximum_attempts_per_job": 1,
+  "model_accepted_sha256": "ff00d95bbb372376dd1effe9d5bf0f43b33d018235006205c5936d1afe074f81",
+  "model_sha256": "87268d409201894aee6c903dc9ade71f9a5ac591654f7e55dc7d0da4c3b00b5e",
+  "plan_sha256": "b59c96eb520874e1083bc4bf30e6027773a8135e7b44075a6f7ad04281acd60d",
+  "run": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/formal-540-v1",
+  "schema": "robotwin_regmeanpp_m3_formal_execution_permit_v1"
+}

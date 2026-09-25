@@ -1,0 +1,11 @@
+{
+  "deployment_is_symlink_to_accepted_checkpoint": true,
+  "episodes": 540,
+  "gpu_used": false,
+  "jobs": 9,
+  "model_bytes_fully_hashed": 9354050752,
+  "model_sha256": "87268d409201894aee6c903dc9ade71f9a5ac591654f7e55dc7d0da4c3b00b5e",
+  "plan_sha256": "b59c96eb520874e1083bc4bf30e6027773a8135e7b44075a6f7ad04281acd60d",
+  "reset_fingerprints_frozen": 540,
+  "status": "PASS"
+}

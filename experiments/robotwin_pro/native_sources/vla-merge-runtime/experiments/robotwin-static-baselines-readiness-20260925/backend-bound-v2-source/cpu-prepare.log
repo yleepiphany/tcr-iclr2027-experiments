@@ -1,0 +1,9 @@
+{"at": "2026-09-25T07:09:19.173269+00:00", "event": "cpu_prepared", "stages": 47, "weights": 418, "calls": 450, "shards": 2820, "rows": 3330900, "plan_sha256": "987e95f0db4708079fbfab59e96e5147181619f6ebf9e337b9abb4c0e691495f"}
+{
+  "status": "CPU_PREPARED_GPU_NOT_STARTED",
+  "run": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2",
+  "core_plan_sha256": "987e95f0db4708079fbfab59e96e5147181619f6ebf9e337b9abb4c0e691495f",
+  "backend_contract_sha256": "c5d726340ee390118910e661cceb4f037316fe3ab0dca24334e886d8a3a64ada",
+  "original_api_unchanged": true,
+  "cuda_initialized": false
+}

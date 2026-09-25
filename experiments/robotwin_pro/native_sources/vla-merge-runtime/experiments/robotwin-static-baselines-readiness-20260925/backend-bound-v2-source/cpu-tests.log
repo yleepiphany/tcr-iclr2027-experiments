@@ -1,0 +1,17 @@
+test_child_keeps_inherited_leases_after_parent_closes (test_resource_cpu.Tests.test_child_keeps_inherited_leases_after_parent_closes) ... ok
+test_disk_shortage_does_not_admit (test_resource_cpu.Tests.test_disk_shortage_does_not_admit) ... ok
+test_memory_floor_and_new_process_race_reject (test_resource_cpu.Tests.test_memory_floor_and_new_process_race_reject) ... ok
+test_occupied_training_or_evaluator_never_enters (test_resource_cpu.Tests.test_occupied_training_or_evaluator_never_enters) ... ok
+test_real_lease_blocks_and_success_releases_both (test_resource_cpu.Tests.test_real_lease_blocks_and_success_releases_both) ... ok
+test_source_contains_no_process_signal_calls (test_resource_cpu.Tests.test_source_contains_no_process_signal_calls) ... ok
+test_stage_and_successor_duplicate_owner_rejected (test_resource_cpu.Tests.test_stage_and_successor_duplicate_owner_rejected) ... ok
+test_construction_environment_overrides_inheritance (test_backend_cpu.Tests.test_construction_environment_overrides_inheritance) ... ok
+test_disabled_torch_backend_cannot_be_certified (test_backend_cpu.Tests.test_disabled_torch_backend_cannot_be_certified) ... ok
+test_fresh_cpu_process_effective_tf32_and_negative_gates (test_backend_cpu.Tests.test_fresh_cpu_process_effective_tf32_and_negative_gates) ... ok
+test_new_plan_same_bank_parameters_api_and_no_old_stages (test_backend_cpu.Tests.test_new_plan_same_bank_parameters_api_and_no_old_stages) ... ok
+test_unbound_or_changed_native_stage_cannot_resume (test_backend_cpu.Tests.test_unbound_or_changed_native_stage_cannot_resume) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 11.534s
+
+OK

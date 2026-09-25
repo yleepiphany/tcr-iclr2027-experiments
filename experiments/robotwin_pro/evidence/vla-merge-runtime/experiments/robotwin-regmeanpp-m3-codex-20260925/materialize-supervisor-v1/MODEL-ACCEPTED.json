@@ -1,0 +1,64 @@
+{
+  "build_complete_sha256": "6c063e27801f39318d47629110efc70afc9885b652b830875ba702aed30ee4c7",
+  "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/cpu-plan-v1/checkpoint",
+  "core_plan_sha256": "bb25730b256669eecd1180026f1339cbb6b52d16342d9e65750e521e1b39ad0b",
+  "diagnostics": {
+    "max_original_centered_relative_residual_report_only": 0.22221778873126433,
+    "max_smooth_relative_residual": 6.759781348735148e-13,
+    "modules": 418,
+    "regression_rows": 1776300
+  },
+  "formal_episodes": 0,
+  "formal_performance_claim": false,
+  "model_manifest_sha256": "c3e25d6b74c6559385eb64c6606296383e7820858450206c87d2f63ea4eac7fb",
+  "model_sha256": "87268d409201894aee6c903dc9ade71f9a5ac591654f7e55dc7d0da4c3b00b5e",
+  "native_prebuild_smoke_sha256": "454a48b6e639020a0ec93604831cc2bb1d001cb076f29800c168197b2ca85e91",
+  "native_reload_reports": [
+    {
+      "finite": true,
+      "group": "coordination",
+      "max_abs_velocity": 3.534299850463867,
+      "observation": 0,
+      "physical_timestep": 1.0,
+      "replica": 0,
+      "velocity_sha256": "87221efa48c9cfe9f1da066036dde39d2e4a5529430923888b7d217b33f5a2b9",
+      "velocity_shape": [
+        1,
+        50,
+        32
+      ]
+    },
+    {
+      "finite": true,
+      "group": "receptacle",
+      "max_abs_velocity": 3.64840030670166,
+      "observation": 0,
+      "physical_timestep": 1.0,
+      "replica": 0,
+      "velocity_sha256": "a569be1f36115d79d2c89c82754b9a6d7b731a06fafb5850c8ad0c7adcdea353",
+      "velocity_shape": [
+        1,
+        50,
+        32
+      ]
+    },
+    {
+      "finite": true,
+      "group": "precision",
+      "max_abs_velocity": 3.2476816177368164,
+      "observation": 0,
+      "physical_timestep": 1.0,
+      "replica": 0,
+      "velocity_sha256": "6b294c28c1615529972a14c0e78e24f785b692fbd3d43672489d739ab17a60ef",
+      "velocity_shape": [
+        1,
+        50,
+        32
+      ]
+    }
+  ],
+  "peak_allocated_mib": 11579.2197265625,
+  "saved_and_loaded_tensors_bitwise": 813,
+  "status": "PASS",
+  "supervisor_plan_sha256": "aa0870c2be8d3a1fb662c2f697aeddfb076af7bff2d1359c015dac494c86d683"
+}

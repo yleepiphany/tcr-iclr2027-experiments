@@ -1,0 +1,44 @@
+{
+  "admission": {
+    "board": {
+      "compute_pids": [],
+      "free_mib": 81150,
+      "gpu": 6,
+      "used_mib": 5,
+      "utilization": 0,
+      "uuid": "GPU-da625da2-f504-7927-4025-907e876718aa"
+    },
+    "board_checks": 76,
+    "leases_retained": true,
+    "wait_seconds": 1118.115344257094
+  },
+  "core_plan_sha256": "bb25730b256669eecd1180026f1339cbb6b52d16342d9e65750e521e1b39ad0b",
+  "gpu": 6,
+  "host": "dsw-824375-57c745db88-n6tv9",
+  "leases": [
+    {
+      "device": 102,
+      "fd": 4,
+      "inode": 147704078,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-card-flocks/dsw-824375-57c745db88-n6tv9/gpu-6-GPU-da625da2-f504-7927-4025-907e876718aa.lock"
+    },
+    {
+      "device": 102,
+      "fd": 5,
+      "inode": 134772635,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/resource-leases/dsw-824375-57c745db88-n6tv9/gpu-6.lock"
+    },
+    {
+      "device": 102,
+      "fd": 6,
+      "inode": 147445681,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-card-flocks/dsw-824375-57c745db88-n6tv9/build-slot-0.lock"
+    }
+  ],
+  "native_smoke_sha256": "454a48b6e639020a0ec93604831cc2bb1d001cb076f29800c168197b2ca85e91",
+  "parent_pid": 3270866,
+  "permit_sha256": "52d14d0c9f3d87a25f6146f27b863ccd43c81dcdf04bc875c89b86291c784648",
+  "schema": "robotwin_m3_materialize_inherited_flock_handoff_v1",
+  "supervisor_plan_sha256": "aa0870c2be8d3a1fb662c2f697aeddfb076af7bff2d1359c015dac494c86d683",
+  "uuid": "GPU-da625da2-f504-7927-4025-907e876718aa"
+}

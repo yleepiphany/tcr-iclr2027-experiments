@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/materialize_supervisor_v1/child_guard.py",
+    "--supervisor-plan",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/materialize-supervisor-v1/plan.json",
+    "--permit",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/materialize-supervisor-v1/MATERIALIZE-EXECUTION-PERMIT.json",
+    "--grant",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/materialize-supervisor-v1/LEASE-HANDOFF.json",
+    "--grant-sha256",
+    "eb85d5b531bcc4cd19ce9547f44c869e7c0310a32734cfba97e4d7c0e217c8dd",
+    "--execute"
+  ],
+  "inherited_leases": 3,
+  "maximum_launches": 1,
+  "parent_retains_leases_until_child_exit": true,
+  "pid": 3309948,
+  "start_ticks": "490800826",
+  "started_at": "2026-09-25T05:32:06.258801+00:00"
+}

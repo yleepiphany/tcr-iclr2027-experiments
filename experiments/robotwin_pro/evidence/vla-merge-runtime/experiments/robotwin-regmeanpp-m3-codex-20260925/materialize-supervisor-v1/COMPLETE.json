@@ -1,0 +1,10 @@
+{
+  "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/cpu-plan-v1/checkpoint",
+  "completed_at": "2026-09-25T06:17:48.840893+00:00",
+  "formal_evaluation_started": false,
+  "model_accepted": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/materialize-supervisor-v1/MODEL-ACCEPTED.json",
+  "model_accepted_sha256": "ff00d95bbb372376dd1effe9d5bf0f43b33d018235006205c5936d1afe074f81",
+  "model_sha256": "87268d409201894aee6c903dc9ade71f9a5ac591654f7e55dc7d0da4c3b00b5e",
+  "signals_sent": 0,
+  "status": "PASS"
+}

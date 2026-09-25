@@ -1,0 +1,35 @@
+{
+  "pid": 3242947,
+  "kernel_starttime": 490596792,
+  "started_at_utc": "2026-09-25T04:58:05.918972+00:00",
+  "command": [
+    "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+    "-u",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/safe-successor-v1/safe_successor.py",
+    "--workspace-root",
+    "/mnt/workspace/Wilson/parameter-fusion",
+    "--queue-root",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/gpu-successor-v1/build-wait-attempt-01",
+    "--mode",
+    "wait",
+    "--gpus",
+    "1,4,5,6",
+    "--target",
+    "build",
+    "--authorize-gpu-run",
+    "--max-wait-hours",
+    "72",
+    "--poll-seconds",
+    "10"
+  ],
+  "runner_sha256": "5bc9cd6c137d79f7716b9cf441e82f3c32f67802733d8167791ebbea20b63c1b",
+  "plan_sha256": "f9fbc255cf37f5bec14fc2ba36d1b7c147b2d7205e6999f3a6a007df331c7eb5",
+  "smoke_receipt_sha256": "0fef02e8035016c8baf77d1e37e29aafd3f1eeaf3f0a2de28c70a385668153b4",
+  "target": "3 teacher groups + 47stage FeatCal M3 materialize/reload; 0 formal episodes",
+  "allowed_gpus": [
+    1,
+    4,
+    5,
+    6
+  ]
+}

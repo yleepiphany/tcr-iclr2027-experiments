@@ -414,6 +414,28 @@
       "sha256": "ca92c96de997fa190bb204e690e6cac21ba98ebd60264b9ce089b6f9bcb84c84",
       "bytes": 16027,
       "exists_at_snapshot": true
+    },
+    {
+      "id": "robotwin-regmeanpp-m3-accepted-weights",
+      "workspace_relative_path": "vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/cpu-plan-v1/checkpoint/model.safetensors",
+      "kind": "file",
+      "required": true,
+      "role": "Accepted RoboTwin RegMean++ M=3 model; formal 540 queue only, no results at snapshot",
+      "bytes": 9354050752,
+      "sha256": "87268d409201894aee6c903dc9ade71f9a5ac591654f7e55dc7d0da4c3b00b5e",
+      "sha256_verification": "frozen accepted-model/formal-plan binding; no new full weight read during packaging",
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "robotwin-featcal-tf32-v2-shard-index",
+      "workspace_relative_path": "vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/shard-index.json",
+      "kind": "file",
+      "required": true,
+      "role": "Frozen FeatCal TF32-bound M3 row-key schema; external metadata, not cache reuse",
+      "bytes": 16763306,
+      "sha256": "e6bfc510ed2188ce8e74dc7f62950b5cb2772b877e6049289a1e8c8b87ad0240",
+      "sha256_verification": "recomputed",
+      "exists_at_snapshot": true
     }
   ]
 }

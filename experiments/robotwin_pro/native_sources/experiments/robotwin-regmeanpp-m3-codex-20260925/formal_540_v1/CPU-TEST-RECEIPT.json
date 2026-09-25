@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "tests": 15,
+  "failures": 0,
+  "errors": 0,
+  "exit_code": 0,
+  "host": "1016 Linux",
+  "gpu_used": false,
+  "gpu_queries": false,
+  "native_jobs_started": 0,
+  "cuda_initialized": false,
+  "signals_sent": 0,
+  "command": "CUDA_VISIBLE_DEVICES='' PYTHONDONTWRITEBYTECODE=1 /mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/envs/iclr2027-robotwin2-py312-mplib-curobo-v3/bin/python /mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/formal_540_v1/test_formal_cpu.py",
+  "plan_sha256": "b59c96eb520874e1083bc4bf30e6027773a8135e7b44075a6f7ad04281acd60d",
+  "model_sha256": "87268d409201894aee6c903dc9ade71f9a5ac591654f7e55dc7d0da4c3b00b5e",
+  "model_accepted_sha256": "ff00d95bbb372376dd1effe9d5bf0f43b33d018235006205c5936d1afe074f81",
+  "source_sha256": {
+    "run_formal.py": "3a3a6f7f045274d4430f2b0c85ce779225f6e97daa6b43ab063bdfee9cdb6930",
+    "worker.py": "f14deead51db9c31f9770e1a15622f686b28e4bb0fa0d791e81ffb3e03b48232",
+    "contract.py": "c028c6cf46e1c0c06058bb329767222e1cab303f4a91e9c8734f5e853d248ea2",
+    "receipt.py": "631876af1ddbb117c6b59079a16c5d2bfa5f846d4b24b792b969caf96966ba6a",
+    "test_formal_cpu.py": "fd0ed30a0c444b5fd6b551fe573bce3b56999734ad4c29f310e05978461a5ffb"
+  },
+  "real_plan_validation": "PASS",
+  "model_bytes_hashed_during_prepare": 9354050752,
+  "jobs_frozen": 9,
+  "episodes_frozen": 540,
+  "expert_reset_fingerprints_frozen": 540,
+  "unauthorized_template_rejected": true,
+  "started": false,
+  "native_jobs_directory_exists": false,
+  "scope": "CPU preparation and receipt/resource tests only; no formal simulator episode started"
+}

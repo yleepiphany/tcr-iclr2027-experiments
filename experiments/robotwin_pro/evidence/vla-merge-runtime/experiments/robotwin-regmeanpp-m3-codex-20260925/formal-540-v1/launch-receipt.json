@@ -1,0 +1,29 @@
+{
+  "pid": 3506667,
+  "kernel_starttime": 491459937,
+  "started_at_utc": "2026-09-25T07:21:57.367567+00:00",
+  "command": [
+    "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+    "-u",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/formal_540_v1/run_formal.py",
+    "run",
+    "--plan",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/formal-540-v1/plan.json",
+    "--permit",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/formal-540-v1/FORMAL-EXECUTION-PERMIT.json",
+    "--execute"
+  ],
+  "runner_sha256": "3a3a6f7f045274d4430f2b0c85ce779225f6e97daa6b43ab063bdfee9cdb6930",
+  "plan_sha256": "b59c96eb520874e1083bc4bf30e6027773a8135e7b44075a6f7ad04281acd60d",
+  "permit_sha256": "50c0e49cab136af1d87b9f5058b522738ed30916cb84197c2cee650942a35cee",
+  "model_sha256": "87268d409201894aee6c903dc9ade71f9a5ac591654f7e55dc7d0da4c3b00b5e",
+  "jobs": 9,
+  "episodes": 540,
+  "gpus": [
+    1,
+    4,
+    5,
+    6
+  ],
+  "no_training": true
+}

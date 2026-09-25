@@ -1,4 +1,6 @@
 __pycache__/
+!native_sources/pi05_lora_finetune_v2_20260826/lerobot/src/lerobot/envs/
+!native_sources/pi05_lora_finetune_v2_20260826/lerobot/src/lerobot/envs/robotwin.py
 *.pyc
 *.safetensors
 *.pt
@@ -9,3 +11,6 @@ __pycache__/
 !evidence/ROBOTWIN-M3-CPU-FINAL-TESTS.log
 !evidence/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/native-smoke.log
 !evidence/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v2/native-smoke.log
+!evidence/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/gpu-successor-v2/build-wait-attempt-01/supervisor.log
+!native_sources/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/backend-bound-v2-source/cpu-prepare.log
+!native_sources/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/backend-bound-v2-source/cpu-tests.log

@@ -1,0 +1,8 @@
+{
+  "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/cpu-plan-v1/checkpoint",
+  "checkpoint_tensors_reopened": 813,
+  "formal_evaluation_authorized": false,
+  "model_class_reload_required_before_formal": true,
+  "model_sha256": "87268d409201894aee6c903dc9ade71f9a5ac591654f7e55dc7d0da4c3b00b5e",
+  "status": "PASS"
+}

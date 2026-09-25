@@ -1,0 +1,17 @@
+{
+  "expected_episodes": 540,
+  "expected_jobs": 9,
+  "gpus": [
+    1,
+    4,
+    5,
+    6
+  ],
+  "host": "dsw-824375-57c745db88-n6tv9",
+  "model_sha256": "87268d409201894aee6c903dc9ade71f9a5ac591654f7e55dc7d0da4c3b00b5e",
+  "permit_sha256": "50c0e49cab136af1d87b9f5058b522738ed30916cb84197c2cee650942a35cee",
+  "pid": 3506667,
+  "plan_sha256": "b59c96eb520874e1083bc4bf30e6027773a8135e7b44075a6f7ad04281acd60d",
+  "signals_sent": 0,
+  "started_at": "2026-09-25T07:22:07.105747+00:00"
+}
