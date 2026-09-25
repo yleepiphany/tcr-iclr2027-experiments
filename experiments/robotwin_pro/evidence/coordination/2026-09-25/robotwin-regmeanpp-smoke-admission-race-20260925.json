@@ -1,0 +1,23 @@
+{
+  "recorded_at_utc": "2026-09-25T03:57:49.395590+00:00",
+  "old_supervisor_failed": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/FAILED.json",
+  "old_child_started_at": "2026-09-25T03:40:57.278067+00:00",
+  "old_child_exit_code": 1,
+  "card_at_parent_probe": {
+    "compute_pids": [],
+    "free_mib": 81150,
+    "gpu": 4,
+    "used_mib": 4,
+    "utilization": 0,
+    "uuid": "GPU-48baba1c-f0e7-93b7-4a30-b3c21d20e61a"
+  },
+  "competing_legitimate_ties_launch_at": "2026-09-25T03:41:00.239521+00:00",
+  "competing_ties_pid": 3073381,
+  "child_failure": "BLOCKED_RESOURCE_NOT_EMPTY_OR_LOW_MEMORY before CUDA or model forward",
+  "core_smoke_consumed": false,
+  "native_smoke_result_exists": false,
+  "formal_episodes": 0,
+  "original_M3_plan_sha256": "bb25730b256669eecd1180026f1339cbb6b52d16342d9e65750e521e1b39ad0b",
+  "recovery_rule": "New isolated supervisor with continuous inherited lease handoff; preserve v1 failed terminal and no automatic retry",
+  "training_or_foreign_process_signalled": false
+}

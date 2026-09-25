@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-09-25T04:15:44.274630+00:00",
+  "scope": "Local public-package integrity and CPU-only resource guard tests; no model or simulator execution",
+  "package_files_verified": 154,
+  "package_unittest": {
+    "passed": 8,
+    "total": 8
+  },
+  "original_supervisor_cpu_tests": {
+    "passed": 13,
+    "total": 13,
+    "gpu_queries": false,
+    "native_smoke_children_launched": 0,
+    "signals_sent": 0,
+    "cpu_lock_inheritance_subprocesses": 1
+  },
+  "v2_source_sha256": {
+    "supervisor.py": "ed9425afd5ce3bd784be35de776df8c71f4f07f3e93eefdfbf8f0f8a4b0cd57b",
+    "child_guard.py": "4d78c39fea7553a16d99953258bc087425343c8e1e2331efdba905ad72601ad8",
+    "test_supervisor_cpu.py": "166ea10ffcf7bcf31de10edf7ba8952ed02619231b9fa20f8ba86cbe073e0200"
+  },
+  "v2_plan_sha256": "5273959bf35c2627bbde5a271841e31304757cf11fcae626da1afa04f1cdf42f",
+  "v1_failure": "pre-CUDA resource admission rejection, not a scored result",
+  "v2_snapshot": "started/waiting for approved empty GPU4; no native child or completion receipt at acquisition",
+  "doctor_code_only": "PASS",
+  "git_diff_check": "PASS",
+  "weights_added": false,
+  "remote_queue_modified": false,
+  "git_push": false
+}

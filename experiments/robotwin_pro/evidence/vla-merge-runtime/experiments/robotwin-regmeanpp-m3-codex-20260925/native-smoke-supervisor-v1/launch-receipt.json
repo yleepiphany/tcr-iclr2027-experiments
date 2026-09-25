@@ -1,0 +1,22 @@
+{
+  "pid": 2905398,
+  "kernel_starttime": 489618013,
+  "started_at_utc": "2026-09-25T02:14:58.129216+00:00",
+  "command": [
+    "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+    "-u",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v1/supervisor.py",
+    "run",
+    "--plan",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/plan.json",
+    "--permit",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/SMOKE-EXECUTION-PERMIT.json",
+    "--execute"
+  ],
+  "source_sha256": "95e84d136c8d94569b4e1f8910ae2f89f7c6f9b9bcaf7560e73bbeb200bc4986",
+  "plan_sha256": "99786198dac0e61cb594714c0854675b04cca03a3a2c6acf573cc08ef847538d",
+  "permit_sha256": "2e464be4358f9141f79820350818c9db4521a24e42e4be077e384f47eed980d9",
+  "target": "one native parity smoke",
+  "gpu": 4,
+  "formal_episodes": 0
+}

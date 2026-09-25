@@ -1,0 +1,22 @@
+{
+  "pid": 3129312,
+  "kernel_starttime": 490277756,
+  "started_at_utc": "2026-09-25T04:04:55.553803+00:00",
+  "command": [
+    "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+    "-u",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v2/supervisor.py",
+    "run",
+    "--plan",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v2/plan.json",
+    "--permit",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v2/SMOKE-EXECUTION-PERMIT.json",
+    "--execute"
+  ],
+  "source_sha256": "ed9425afd5ce3bd784be35de776df8c71f4f07f3e93eefdfbf8f0f8a4b0cd57b",
+  "plan_sha256": "5273959bf35c2627bbde5a271841e31304757cf11fcae626da1afa04f1cdf42f",
+  "permit_sha256": "4d95fd130ae705b208313ad0b6da1da5f063b26e3e93f930794ae2cf0b9eecec",
+  "target": "one native parity smoke under continuously inherited leases",
+  "gpu": 4,
+  "formal_episodes": 0
+}

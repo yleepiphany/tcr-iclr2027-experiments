@@ -1,0 +1,54 @@
+{
+  "allowed_gpus": {
+    "1": "GPU-c18a3bf3-c47c-9a8a-75b0-5a0f37b33a65",
+    "4": "GPU-48baba1c-f0e7-93b7-4a30-b3c21d20e61a",
+    "5": "GPU-4ed28198-b742-ee3c-2acb-4183dc944c81",
+    "6": "GPU-da625da2-f504-7927-4025-907e876718aa"
+  },
+  "automatic_retry": false,
+  "child_guard": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v2/child_guard.py",
+  "core_plan_sha256": "bb25730b256669eecd1180026f1339cbb6b52d16342d9e65750e521e1b39ad0b",
+  "core_run": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/cpu-plan-v1",
+  "created_at": "2026-09-25T04:02:14.278027+00:00",
+  "gpu_used": false,
+  "host": "dsw-824375-57c745db88-n6tv9",
+  "lease_transfer": "same open-file descriptions inherited with subprocess pass_fds; supervisor keeps all three until child exit",
+  "materialize": false,
+  "maximum_child_launches": 1,
+  "maximum_wait_seconds": 86400,
+  "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v2",
+  "permit_requires_supervisor_plan_sha256": true,
+  "poll_seconds": 15,
+  "prior_pre_cuda_failure_files_sha256": {
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/CHILD-EXIT.json": "f5df61889961ed6a88bc084ae26d471132f08727ba1752bb7ba35e765d8a1143",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/CHILD-STARTED.json": "ec48ac8fa805507acc373be6d1223d3a61d33adb2b0dfe34e312579c81574f20",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/FAILED.json": "0f36275afc06eaf3793cb339f99353f8e3228c475002160bb958a26432b0ffa0",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/STARTED.json": "284e40ee4fd901684d4b46875d0807dcd9c6833034eee4914a7559e50dbb8e93",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/native-smoke.log": "5f2aa0bbbcac78a79c0ed1e5a709f26957240dbf509e25168fb19498c8388c0a",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/plan.json": "99786198dac0e61cb594714c0854675b04cca03a3a2c6acf573cc08ef847538d"
+  },
+  "python": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+  "release_rule": "close own descriptors only, never LOCK_UN; inherited child descriptors preserve locks if supervisor disappears",
+  "resource_gate": {
+    "build_slot": true,
+    "compute_pids": [],
+    "full_model_hashes_and_fresh_card_check_under_held_leases": true,
+    "maximum_used_mib": 64,
+    "minimum_free_mib": 71680,
+    "utilization": 0,
+    "uuid_and_legacy_flocks": true
+  },
+  "retry_after_gpu_entry": false,
+  "schema": "robotwin_regmeanpp_m3_one_shot_smoke_inherited_leases_v2",
+  "signals_sent": 0,
+  "sources_sha256": {
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-firstpass-cause-20260920/card_flock.py": "50c150a929abf5ccbbba29e2ac650f5bab207e23a2f19667206819b195538da9",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v1/supervisor.py": "95e84d136c8d94569b4e1f8910ae2f89f7c6f9b9bcaf7560e73bbeb200bc4986",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v2/child_guard.py": "4d78c39fea7553a16d99953258bc087425343c8e1e2331efdba905ad72601ad8",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v2/supervisor.py": "ed9425afd5ce3bd784be35de776df8c71f4f07f3e93eefdfbf8f0f8a4b0cd57b",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v2/test_supervisor_cpu.py": "166ea10ffcf7bcf31de10edf7ba8952ed02619231b9fa20f8ba86cbe073e0200",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/run_regmeanpp_m3.py": "97e25742cd878d3b4dbabfc80bb71a8f094d7707d2b9fa35961a3c2aa4423926"
+  },
+  "stage": "smoke",
+  "status": "CPU_PREPARED_REQUIRES_NEW_EXTERNAL_PERMIT"
+}

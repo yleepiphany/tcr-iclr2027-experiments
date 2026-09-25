@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "tests": 13,
+  "failures": 0,
+  "errors": 0,
+  "exit_code": 0,
+  "test_host": "1016 Linux",
+  "gpu_used": false,
+  "gpu_queries": false,
+  "cpu_lock_inheritance_subprocesses": 1,
+  "native_smoke_children_launched": 0,
+  "signals_sent": 0,
+  "command": "PYTHONDONTWRITEBYTECODE=1 python /mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v2/test_supervisor_cpu.py",
+  "remote_frozen_plan_validation": "PASS",
+  "supervisor_sha256": "ed9425afd5ce3bd784be35de776df8c71f4f07f3e93eefdfbf8f0f8a4b0cd57b",
+  "child_guard_sha256": "4d78c39fea7553a16d99953258bc087425343c8e1e2331efdba905ad72601ad8",
+  "test_sha256": "166ea10ffcf7bcf31de10edf7ba8952ed02619231b9fa20f8ba86cbe073e0200",
+  "supervisor_plan_sha256": "5273959bf35c2627bbde5a271841e31304757cf11fcae626da1afa04f1cdf42f",
+  "original_plan_sha256": "bb25730b256669eecd1180026f1339cbb6b52d16342d9e65750e521e1b39ad0b",
+  "started": false,
+  "external_permit_created": false,
+  "prior_attempt": {"child_pid":3073204,"exit_code":1,"stage":"pre-CUDA resource admission rejection","core_smoke_markers_present":false}
+}

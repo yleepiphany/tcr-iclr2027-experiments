@@ -43,5 +43,31 @@ class PreflightTests(unittest.TestCase):
             with self.assertRaisesRegex(smoke.Blocked, 'No accepted checkpoint'):
                 smoke.validate_current_selection(key, {}, self.catalog)
 
+    def test_regmean_smoke_v2_binds_original_failure_and_sources(self):
+        records={x['source_path']:ROOT/x['path'] for x in smoke.package_preflight()['files']}
+        base=ROOT/'evidence/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925'
+        path=base/'native-smoke-supervisor-v2/plan.json'
+        plan=json.loads(path.read_text())
+        self.assertEqual(smoke.digest(records[plan['core_run']+'/plan.json']),plan['core_plan_sha256'])
+        for source,digest in {**plan['sources_sha256'],**plan['prior_pre_cuda_failure_files_sha256']}.items():
+            self.assertEqual(smoke.digest(records[source]),digest)
+        launch=json.loads((base/'native-smoke-supervisor-v2/launch-receipt.json').read_text())
+        started=json.loads((base/'native-smoke-supervisor-v2/STARTED.json').read_text())
+        self.assertEqual(launch['plan_sha256'],smoke.digest(path))
+        self.assertEqual(started['supervisor_plan_sha256'],smoke.digest(path))
+        self.assertEqual(launch['pid'],started['pid'])
+        self.assertEqual(launch['formal_episodes'],0)
+
+    def test_regmean_smoke_recovery_is_not_a_result_or_materializer(self):
+        base=ROOT/'evidence/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925'
+        plan=json.loads((base/'native-smoke-supervisor-v2/plan.json').read_text())
+        self.assertEqual((plan['stage'],plan['maximum_child_launches']),('smoke',1))
+        self.assertFalse(plan['materialize']);self.assertFalse(plan['automatic_retry'])
+        self.assertFalse(plan['retry_after_gpu_entry']);self.assertEqual(plan['signals_sent'],0)
+        race=json.loads((ROOT/'evidence/coordination/2026-09-25/robotwin-regmeanpp-smoke-admission-race-20260925.json').read_text())
+        self.assertFalse(race['core_smoke_consumed']);self.assertFalse(race['native_smoke_result_exists'])
+        self.assertEqual(race['formal_episodes'],0)
+        self.assertIn('before CUDA',race['child_failure'])
+
 if __name__ == '__main__':
     unittest.main()

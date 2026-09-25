@@ -1,0 +1,12 @@
+{
+  "core_plan_sha256": "bb25730b256669eecd1180026f1339cbb6b52d16342d9e65750e521e1b39ad0b",
+  "gpu": 4,
+  "host": "dsw-824375-57c745db88-n6tv9",
+  "permit_sha256": "2e464be4358f9141f79820350818c9db4521a24e42e4be077e384f47eed980d9",
+  "signals_sent": 0,
+  "stage": "waiting",
+  "started_at": "2026-09-25T02:14:58.250504+00:00",
+  "supervisor_pid": 2905398,
+  "supervisor_plan_sha256": "99786198dac0e61cb594714c0854675b04cca03a3a2c6acf573cc08ef847538d",
+  "uuid": "GPU-48baba1c-f0e7-93b7-4a30-b3c21d20e61a"
+}

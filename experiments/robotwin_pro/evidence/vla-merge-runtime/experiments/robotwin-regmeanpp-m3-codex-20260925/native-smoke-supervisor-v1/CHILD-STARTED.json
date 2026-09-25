@@ -1,0 +1,32 @@
+{
+  "admission": {
+    "board": {
+      "compute_pids": [],
+      "free_mib": 81150,
+      "gpu": 4,
+      "used_mib": 4,
+      "utilization": 0,
+      "uuid": "GPU-48baba1c-f0e7-93b7-4a30-b3c21d20e61a"
+    },
+    "board_checks": 344,
+    "wait_seconds": 5158.98954046797
+  },
+  "command": [
+    "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/run_regmeanpp_m3.py",
+    "--stage",
+    "smoke",
+    "--run",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/cpu-plan-v1",
+    "--gpu",
+    "4",
+    "--execute",
+    "--permit",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/SMOKE-EXECUTION-PERMIT.json"
+  ],
+  "maximum_launches": 1,
+  "pid": 3073204,
+  "retry_allowed": false,
+  "start_ticks": "490133928",
+  "started_at": "2026-09-25T03:40:57.278067+00:00"
+}

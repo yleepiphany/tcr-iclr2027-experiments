@@ -912,6 +912,118 @@
       "bytes": 181524,
       "added_utc": "2026-09-25",
       "origin": "RoboTwin_TIES_full_540_raw_episode_independent_audit"
+    },
+    {
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/coordination/2026-09-25/robotwin-regmeanpp-smoke-admission-race-20260925.json",
+      "bytes": 1097,
+      "sha256": "f3bd9481f2d701a399e9423f5533cd4e542ee4c4af6847bf1a9fb5d99056789c",
+      "path": "evidence/coordination/2026-09-25/robotwin-regmeanpp-smoke-admission-race-20260925.json",
+      "retrieved_at_utc": "2026-09-25T04:10:22.682697+00:00"
+    },
+    {
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v2/CPU-TEST-RECEIPT.json",
+      "bytes": 1157,
+      "sha256": "ad2c00d4a8a8e38c878c02fa39f01cd3bf2fa14168820d1b3cffae22ca11388b",
+      "path": "native_sources/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v2/CPU-TEST-RECEIPT.json",
+      "retrieved_at_utc": "2026-09-25T04:10:22.682697+00:00"
+    },
+    {
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v2/README.md",
+      "bytes": 5497,
+      "sha256": "f3655f36ab9c172262a5e441e3f7462fa255fa4b0936659a0499019f231e8bd1",
+      "path": "native_sources/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v2/README.md",
+      "retrieved_at_utc": "2026-09-25T04:10:22.682697+00:00"
+    },
+    {
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v2/child_guard.py",
+      "bytes": 4229,
+      "sha256": "4d78c39fea7553a16d99953258bc087425343c8e1e2331efdba905ad72601ad8",
+      "path": "native_sources/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v2/child_guard.py",
+      "retrieved_at_utc": "2026-09-25T04:10:22.682697+00:00"
+    },
+    {
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v2/supervisor.py",
+      "bytes": 12963,
+      "sha256": "ed9425afd5ce3bd784be35de776df8c71f4f07f3e93eefdfbf8f0f8a4b0cd57b",
+      "path": "native_sources/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v2/supervisor.py",
+      "retrieved_at_utc": "2026-09-25T04:10:22.682697+00:00"
+    },
+    {
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v2/test_supervisor_cpu.py",
+      "bytes": 8378,
+      "sha256": "166ea10ffcf7bcf31de10edf7ba8952ed02619231b9fa20f8ba86cbe073e0200",
+      "path": "native_sources/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v2/test_supervisor_cpu.py",
+      "retrieved_at_utc": "2026-09-25T04:10:22.682697+00:00"
+    },
+    {
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/CHILD-EXIT.json",
+      "bytes": 90,
+      "sha256": "f5df61889961ed6a88bc084ae26d471132f08727ba1752bb7ba35e765d8a1143",
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/CHILD-EXIT.json",
+      "retrieved_at_utc": "2026-09-25T04:10:22.682697+00:00"
+    },
+    {
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/CHILD-STARTED.json",
+      "bytes": 1056,
+      "sha256": "ec48ac8fa805507acc373be6d1223d3a61d33adb2b0dfe34e312579c81574f20",
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/CHILD-STARTED.json",
+      "retrieved_at_utc": "2026-09-25T04:10:22.682697+00:00"
+    },
+    {
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/FAILED.json",
+      "bytes": 196,
+      "sha256": "0f36275afc06eaf3793cb339f99353f8e3228c475002160bb958a26432b0ffa0",
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/FAILED.json",
+      "retrieved_at_utc": "2026-09-25T04:10:22.682697+00:00"
+    },
+    {
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/STARTED.json",
+      "bytes": 507,
+      "sha256": "284e40ee4fd901684d4b46875d0807dcd9c6833034eee4914a7559e50dbb8e93",
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/STARTED.json",
+      "retrieved_at_utc": "2026-09-25T04:10:22.682697+00:00"
+    },
+    {
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/launch-receipt.json",
+      "bytes": 1089,
+      "sha256": "5cf1482bb515ab6411dbf0424dae1d0e87e6ffece78020bc4fa07ffea82f7c92",
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/launch-receipt.json",
+      "retrieved_at_utc": "2026-09-25T04:10:22.682697+00:00"
+    },
+    {
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/native-smoke.log",
+      "bytes": 868,
+      "sha256": "5f2aa0bbbcac78a79c0ed1e5a709f26957240dbf509e25168fb19498c8388c0a",
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/native-smoke.log",
+      "retrieved_at_utc": "2026-09-25T04:10:22.682697+00:00"
+    },
+    {
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/plan.json",
+      "bytes": 2711,
+      "sha256": "99786198dac0e61cb594714c0854675b04cca03a3a2c6acf573cc08ef847538d",
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/plan.json",
+      "retrieved_at_utc": "2026-09-25T04:10:22.682697+00:00"
+    },
+    {
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v2/STARTED.json",
+      "bytes": 433,
+      "sha256": "384035980f0315030a1e4677783cf158fe0b57098e43699da579f1db60112b06",
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v2/STARTED.json",
+      "retrieved_at_utc": "2026-09-25T04:10:22.682697+00:00"
+    },
+    {
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v2/launch-receipt.json",
+      "bytes": 1125,
+      "sha256": "6828d53bbac2a583a167f298c3a9e266846176c4adff953ca411cae5c5580b45",
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v2/launch-receipt.json",
+      "retrieved_at_utc": "2026-09-25T04:10:22.682697+00:00"
+    },
+    {
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v2/plan.json",
+      "bytes": 4552,
+      "sha256": "5273959bf35c2627bbde5a271841e31304757cf11fcae626da1afa04f1cdf42f",
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v2/plan.json",
+      "retrieved_at_utc": "2026-09-25T04:10:22.682697+00:00"
     }
   ]
 }
