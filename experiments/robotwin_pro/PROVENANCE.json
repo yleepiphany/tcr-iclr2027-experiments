@@ -584,6 +584,46 @@
       "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-tcr-local-codex-20260924/tcr-formal-attempt-05/plan.json",
       "sha256": "a9bbd2fc28571ce26f2b83019106ad3b87ed025a50b07eed50d8b0b6b5799bd3",
       "bytes": 14385
+    },
+    {
+      "path": "native_sources/experiments/pi05-pro-static1016-codex-20260925/run_transfer.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/pi05-pro-static1016-codex-20260925/run_transfer.py",
+      "sha256": "8dc34b7e7a9dd34b56226c0da508bbb942b5505c82ed6cca1d20299f5c8cead7",
+      "bytes": 16611,
+      "added_utc": "2026-09-25",
+      "origin": "current_static_v2_1016_transfer"
+    },
+    {
+      "path": "native_sources/experiments/pi05-pro-static1016-codex-20260925/test_transfer.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/pi05-pro-static1016-codex-20260925/test_transfer.py",
+      "sha256": "2e29947962624cdd0ae2eae585909ab040e0f43f888744c41e068e47de0ae90d",
+      "bytes": 2522,
+      "added_utc": "2026-09-25",
+      "origin": "current_static_v2_1016_transfer"
+    },
+    {
+      "path": "native_sources/experiments/pi05-pro-static1016-codex-20260925/README.md",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/pi05-pro-static1016-codex-20260925/README.md",
+      "sha256": "7254617fe2c053b73ef7706e4440dc08c984cdd051d79d123fce870fffbbf1db",
+      "bytes": 3873,
+      "added_utc": "2026-09-25",
+      "origin": "current_static_v2_1016_transfer"
+    },
+    {
+      "path": "evidence/PRO-STATIC1016-PLAN.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-static1016-codex-20260925/attempt-01/plan.json",
+      "sha256": "8cffd8dbf8fd425f044d29f32087f6fa77b20b72da717462a265f9d260dd2b3e",
+      "bytes": 6668779,
+      "added_utc": "2026-09-25",
+      "origin": "current_static_v2_1016_transfer"
+    },
+    {
+      "path": "evidence/PRO-STATIC1016-LAUNCH.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-static1016-codex-20260925/attempt-01/launch-receipt.json",
+      "sha256": "7bc8c19230549f9a53c56264646e224a1470979ceafbc95a94094bcff4f06d1d",
+      "bytes": 510,
+      "added_utc": "2026-09-25",
+      "origin": "current_static_v2_1016_transfer"
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "pid": 2811841,
+  "kernel_starttime": 489182299,
+  "started_at": "2026-09-25T01:02:20.982144+00:00",
+  "source": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/pi05-pro-static1016-codex-20260925/run_transfer.py",
+  "source_sha256": "8dc34b7e7a9dd34b56226c0da508bbb942b5505c82ed6cca1d20299f5c8cead7",
+  "plan_sha256": "8cffd8dbf8fd425f044d29f32087f6fa77b20b72da717462a265f9d260dd2b3e",
+  "expected_jobs": 960,
+  "expected_episodes": 9600,
+  "allowed_gpus": [
+    1,
+    4,
+    5,
+    6
+  ]
+}
