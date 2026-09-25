@@ -1,0 +1,4 @@
+# Byte-preserved, SHA-bound small evidence logs; no general log inclusion.
+!sources/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_queue_v3/cpu-prepare.log
+!sources/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_queue_v3/cpu-preflight.log
+!sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/supervisor.log

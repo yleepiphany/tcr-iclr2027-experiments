@@ -1,0 +1,33 @@
+{
+  "gpu": 5,
+  "job_id": "spatial-goal-solve",
+  "original_api_unchanged": true,
+  "result": {
+    "linear_weights": 418,
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/featcal-spatial-goal/pretrained_model",
+    "reload_bitwise_equal": true,
+    "sha256": "e1d88a4570a31d742dba600abed033f6cd1a97c30670961cb035750bcfad745f",
+    "sidecars": {
+      "README.md": "2003c7f342e78edd6048542cf83b3ce48a23c74483fe47a4659f47187440d7e9",
+      "config.json": "a8c1e844e799849fc4b8744cdacc90c931e453ba6c688fb69f7b4647dbc90964",
+      "featcal_subset_manifest.json": "68a31d4666a4384b86c784cefb3a0b683c3c5c1d228fb04823e32ad12123318f",
+      "policy_postprocessor.json": "e6e0c0371c2ea20b0a2f99feab26cea73a7d8994eccc4446c038958f285d68ff",
+      "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "a002c0df7f79c5b169c5a899ad151d4ea1bed246c7d82bd93ed1556558d517a9",
+      "policy_preprocessor.json": "d46dc51bc8f13d37eec4f3d8b0488e05d31dfe334d3ad24f96e841640743cc3c",
+      "policy_preprocessor_step_3_normalizer_processor.safetensors": "f98234b21ce8ffacf1b86657f3cf8e24ac6c31ebcd6a3b83cecd484439674306",
+      "tokenizer/tokenizer.json": "7336bb4ce016bf8543de94e3a17c3d6ca502a6fc8628fec6ed88893639d7a296",
+      "tokenizer/tokenizer_config.json": "968bae7725ec965d9feb18214ed348a9203c857a32cd11ff6b9680f9e53bca77"
+    },
+    "stages": 47,
+    "stat": {
+      "bytes": 9354050784,
+      "device": 102,
+      "inode": 119212108,
+      "mtime_ns": 1790309203641545475
+    }
+  },
+  "stage": "solve",
+  "subset": "spatial-goal",
+  "subset_plan_sha256": "d1c5791ca7cd32e2b87ab9e4cdf490836f45f07591b4d9f754a178809b54e8e4",
+  "time": "2026-09-25T04:09:32.614501+00:00"
+}

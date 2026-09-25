@@ -1,0 +1,10 @@
+{
+  "core_plan_sha256": "bb25730b256669eecd1180026f1339cbb6b52d16342d9e65750e521e1b39ad0b",
+  "gpu": 6,
+  "permit_sha256": "52d14d0c9f3d87a25f6146f27b863ccd43c81dcdf04bc875c89b86291c784648",
+  "pid": 3270866,
+  "signals_sent": 0,
+  "started_at": "2026-09-25T05:13:28.072485+00:00",
+  "supervisor_plan_sha256": "aa0870c2be8d3a1fb662c2f697aeddfb076af7bff2d1359c015dac494c86d683",
+  "uuid": "GPU-da625da2-f504-7927-4025-907e876718aa"
+}

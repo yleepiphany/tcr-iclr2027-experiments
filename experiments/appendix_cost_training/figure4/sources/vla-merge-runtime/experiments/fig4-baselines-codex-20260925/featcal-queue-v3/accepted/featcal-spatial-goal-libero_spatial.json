@@ -1,0 +1,10 @@
+{
+  "episodes": 100,
+  "eval_info_sha256": "c59eef3fa51bcc090bb19beeb1fdf5a2289a856bbe5de1080727c84eb686c266",
+  "id": "featcal-spatial-goal-libero_spatial",
+  "model_sha256": "e1d88a4570a31d742dba600abed033f6cd1a97c30670961cb035750bcfad745f",
+  "reset_receipt_sha256": "a46a30dc55c99e7a06014689b4f7cbcd1581342239c2a90709246299faffd401",
+  "subset": "spatial-goal",
+  "successes": 88,
+  "suite": "libero_spatial"
+}

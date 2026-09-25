@@ -6,3 +6,6 @@ __pycache__/
 *.ckpt
 *.hdf5
 *.mp4
+!evidence/ROBOTWIN-M3-CPU-FINAL-TESTS.log
+!evidence/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/native-smoke.log
+!evidence/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v2/native-smoke.log

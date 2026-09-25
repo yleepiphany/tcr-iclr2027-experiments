@@ -1,0 +1,53 @@
+{
+  "missing_exit_receipt": "Spatial complete artifacts independently pass; v2 traceback follows its zero-exit guard, before per-job exit receipt write",
+  "new_models_built": false,
+  "old_failed_sha256": "e503d43637cb32b267c5d9744b073514bbba035099225067b9ca674ccd1c60c7",
+  "old_outputs_modified": false,
+  "old_plan_sha256": "2847959238662129026f819da7f99783fe4e5bc72e6ad8349e0110c20b73fa01",
+  "old_queue": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2",
+  "partial_goal_policy": "Preserve old interrupted output; launch a new complete fixed 100-episode Goal job, never mix partial old outcomes",
+  "retired_process_identities": [
+    {
+      "pid": 2950676,
+      "same_process_alive": false,
+      "start_ticks": 489758179
+    },
+    {
+      "pid": 3035091,
+      "same_process_alive": false,
+      "start_ticks": 490040994
+    },
+    {
+      "pid": 3140022,
+      "same_process_alive": false,
+      "start_ticks": 490306131
+    },
+    {
+      "pid": 3005469,
+      "same_process_alive": false,
+      "start_ticks": 489939660
+    },
+    {
+      "pid": 3203745,
+      "same_process_alive": false,
+      "start_ticks": 490470003
+    },
+    {
+      "pid": 3190252,
+      "same_process_alive": false,
+      "start_ticks": 490433600
+    },
+    {
+      "pid": 3017280,
+      "same_process_alive": false,
+      "start_ticks": 489980203
+    },
+    {
+      "pid": 3025902,
+      "same_process_alive": false,
+      "start_ticks": 490010622
+    }
+  ],
+  "reused_native_episodes": 100,
+  "success_used_for_scheduling": false
+}

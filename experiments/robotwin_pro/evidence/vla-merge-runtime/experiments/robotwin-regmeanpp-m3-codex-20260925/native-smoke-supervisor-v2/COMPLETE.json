@@ -1,0 +1,66 @@
+{
+  "child_launches": 1,
+  "completed_at": "2026-09-25T04:54:24.342808+00:00",
+  "core_plan_sha256": "bb25730b256669eecd1180026f1339cbb6b52d16342d9e65750e521e1b39ad0b",
+  "materializer_started": false,
+  "native_smoke_receipt": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/cpu-plan-v1/native-smoke.json",
+  "native_smoke_receipt_sha256": "454a48b6e639020a0ec93604831cc2bb1d001cb076f29800c168197b2ca85e91",
+  "parity_reports": [
+    {
+      "candidate_blocks_bitwise": [
+        "vision0",
+        "language0",
+        "action0"
+      ],
+      "group": "coordination",
+      "native_velocity_bitwise": true,
+      "observation": 0,
+      "physical_timestep": 1.0,
+      "replica": 0,
+      "sampled_inputs_bitwise": 418,
+      "velocity_shape": [
+        1,
+        50,
+        32
+      ]
+    },
+    {
+      "candidate_blocks_bitwise": [
+        "vision0",
+        "language0",
+        "action0"
+      ],
+      "group": "receptacle",
+      "native_velocity_bitwise": true,
+      "observation": 0,
+      "physical_timestep": 1.0,
+      "replica": 0,
+      "sampled_inputs_bitwise": 418,
+      "velocity_shape": [
+        1,
+        50,
+        32
+      ]
+    },
+    {
+      "candidate_blocks_bitwise": [
+        "vision0",
+        "language0",
+        "action0"
+      ],
+      "group": "precision",
+      "native_velocity_bitwise": true,
+      "observation": 0,
+      "physical_timestep": 1.0,
+      "replica": 0,
+      "sampled_inputs_bitwise": 418,
+      "velocity_shape": [
+        1,
+        50,
+        32
+      ]
+    }
+  ],
+  "signals_sent": 0,
+  "status": "PASS"
+}

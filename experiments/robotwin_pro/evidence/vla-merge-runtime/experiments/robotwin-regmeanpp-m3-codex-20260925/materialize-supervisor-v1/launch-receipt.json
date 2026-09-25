@@ -1,0 +1,22 @@
+{
+  "pid": 3270866,
+  "kernel_starttime": 490688995,
+  "started_at_utc": "2026-09-25T05:13:27.945854+00:00",
+  "command": [
+    "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+    "-u",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/materialize_supervisor_v1/supervisor.py",
+    "run",
+    "--plan",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/materialize-supervisor-v1/plan.json",
+    "--permit",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/materialize-supervisor-v1/MATERIALIZE-EXECUTION-PERMIT.json",
+    "--execute"
+  ],
+  "source_sha256": "9702719163d198f1b216474bb4dcd5c3d53e8365633bea3f0e5c63daa5df0e8d",
+  "plan_sha256": "aa0870c2be8d3a1fb662c2f697aeddfb076af7bff2d1359c015dac494c86d683",
+  "permit_sha256": "52d14d0c9f3d87a25f6146f27b863ccd43c81dcdf04bc875c89b86291c784648",
+  "smoke_sha256": "454a48b6e639020a0ec93604831cc2bb1d001cb076f29800c168197b2ca85e91",
+  "gpu": 6,
+  "target": "one M3 materialize+native model acceptance; zero formal episodes"
+}

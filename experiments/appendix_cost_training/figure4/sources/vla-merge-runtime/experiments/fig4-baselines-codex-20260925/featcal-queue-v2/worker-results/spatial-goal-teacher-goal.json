@@ -1,0 +1,14 @@
+{
+  "gpu": 5,
+  "job_id": "spatial-goal-teacher-goal",
+  "original_api_unchanged": true,
+  "result": {
+    "group": "goal",
+    "plan_sha256": "d1c5791ca7cd32e2b87ab9e4cdf490836f45f07591b4d9f754a178809b54e8e4",
+    "status": "complete"
+  },
+  "stage": "teachers",
+  "subset": "spatial-goal",
+  "subset_plan_sha256": "d1c5791ca7cd32e2b87ab9e4cdf490836f45f07591b4d9f754a178809b54e8e4",
+  "time": "2026-09-25T03:25:20.195808+00:00"
+}

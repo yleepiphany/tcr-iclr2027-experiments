@@ -1,0 +1,10 @@
+{
+  "evaluation_completed": true,
+  "native_calls": 1360,
+  "peak_allocator_gib": 8.870006084442139,
+  "wall_seconds_including_imports": 2039.972004717216,
+  "allocator_fraction_cap": 0.2,
+  "duty_fraction": 0.25,
+  "changes_policy_rng": false,
+  "changes_weights": false
+}

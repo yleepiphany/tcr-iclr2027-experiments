@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "observed_at_utc": "2026-09-25T05:23:37.320Z",
+  "scope": "Local Figure4 FeatCal v3 package verification only",
+  "portable_check": "PASS; independent check.py invocation plus six portable unit tests",
+  "original_remote_queue_cpu_tests": 15,
+  "checks": [
+    {
+      "name": "portable_unit_tests",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "89d505",
+        "wall_time_seconds": 0.568720375,
+        "exit_code": 0,
+        "original_token_count": 197,
+        "output": "test_featcal_backend_permit_and_stage_matrix (test_release.ReleaseTests.test_featcal_backend_permit_and_stage_matrix) ... ok\ntest_featcal_v3_exact_recovery_and_consumed_launch_proof (test_release.ReleaseTests.test_featcal_v3_exact_recovery_and_consumed_launch_proof) ... ok\ntest_regmean_37_function_parity (test_release.ReleaseTests.test_regmean_37_function_parity) ... ok\ntest_regmean_subset_quota_and_exclusion (test_release.ReleaseTests.test_regmean_subset_quota_and_exclusion) ... ok\ntest_snapshot_and_frozen_plans (test_release.ReleaseTests.test_snapshot_and_frozen_plans) ... ok\ntest_ties_two_three_expert_oracle (test_release.ReleaseTests.test_ties_two_three_expert_oracle) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.532s\n\nOK\n"
+      }
+    },
+    {
+      "name": "doctor_code_only",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "b80539",
+        "wall_time_seconds": 0.102337916,
+        "exit_code": 0,
+        "original_token_count": 37,
+        "output": "{\"status\": \"PASS\", \"scope\": \"Python syntax and root manifest schema\", \"packages\": [\"openvla_fastwam\", \"robotwin_pro\", \"appendix_cost_training\"]}\n"
+      }
+    },
+    {
+      "name": "git_diff_check_and_stat",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "78c78a",
+        "wall_time_seconds": 0.006820709,
+        "exit_code": 0,
+        "original_token_count": 688,
+        "output": " .../appendix_cost_training/figure4/ASSETS.json     |    9 +\n .../appendix_cost_training/figure4/PROVENANCE.json | 1183 +++++++++++++-------\n .../appendix_cost_training/figure4/README.md       |   16 +-\n .../appendix_cost_training/figure4/check.py        |   59 +\n .../appendix_cost_training/figure4/test_release.py |    6 +\n 5 files changed, 835 insertions(+), 438 deletions(-)\n M experiments/appendix_cost_training/figure4/ASSETS.json\n M experiments/appendix_cost_training/figure4/PROVENANCE.json\n M experiments/appendix_cost_training/figure4/README.md\n M experiments/appendix_cost_training/figure4/check.py\n M experiments/appendix_cost_training/figure4/test_release.py\n?? experiments/appendix_cost_training/figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/featcal-spatial-goal/\n?? experiments/appendix_cost_training/figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-adapter-v1/spatial-goal/complete.json\n?? experiments/appendix_cost_training/figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-adapter-v1/spatial-goal/native-smoke.json\n?? experiments/appendix_cost_training/figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-adapter-v1/spatial-goal/teachers-goal.json\n?? experiments/appendix_cost_training/figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-adapter-v1/spatial-goal/teachers-spatial.json\n?? experiments/appendix_cost_training/figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/FAILED.json\n?? experiments/appendix_cost_training/figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/accepted/\n?? experiments/appendix_cost_training/figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/exits/\n?? experiments/appendix_cost_training/figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/formal/\n?? experiments/appendix_cost_training/figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/launches/\n?? experiments/appendix_cost_training/figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/state.terminal-snapshot-20260925.json\n?? experiments/appendix_cost_training/figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/worker-results/\n?? experiments/appendix_cost_training/figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v3/\n?? experiments/appendix_cost_training/figure4/sources/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_queue_v3/\n"
+      }
+    }
+  ],
+  "remote_queue_modified": false,
+  "remote_gpu_started": false,
+  "pushed": false,
+  "weights_or_large_cache_added": false
+}

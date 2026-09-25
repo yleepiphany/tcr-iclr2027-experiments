@@ -114,6 +114,64 @@ def test_featcal_queue():
     return {'adapter_cpu_tests_recorded':12,'queue_cpu_tests_recorded':10,'stage_jobs':14,'formal_jobs':5,'formal_episodes':500,
             'build_tf32_override':'1','formal_tf32_override':None,'unauthorized_template_and_busy_gpu_rejected':True}
 
+def test_featcal_recovery():
+    qpath=RUNTIME/'featcal-queue-v3/plan.json';p=read(qpath);digest=sha(qpath)
+    require(digest==read(qpath.parent/'PLAN-SHA256.json')['sha256'],'FeatCal v3 plan changed')
+    delivery=read(qpath.parent/'CPU-DELIVERY.json')
+    require(delivery['plan_sha256']==digest and delivery['cpu_tests_passed']==15 and delivery['cpu_preflight_passed'],'v3 CPU evidence differs')
+    source=CODE/'featcal_queue_v3/queue_featcal.py'
+    require(sha(source)==delivery['source_sha256'],'v3 source differs from tested source')
+    q=load(source,'released_figure4_featcal_recovery_queue')
+    require(q.make_jobs(read(RUNTIME/'plan.json'))==p['jobs'],'Recovery jobs differ from frozen rules')
+    require(len(p['jobs'])==9 and sum(j.get('episodes',0) for j in p['jobs'])==400,'Recovery new-stage/episode coverage differs')
+    require(p['reused_formal_episodes']==100 and p['combined_formal_episodes']==500,'Combined formal denominator differs')
+    require(set(p['initial_accepted'])==q.INHERITED_IDS,'Incorrect inherited stage set')
+    require(not set(p['initial_accepted']).intersection(j['id'] for j in p['jobs']),'A reused stage would be rerun')
+    require([j['id'] for j in p['jobs'] if j['subset']=='spatial-goal']==['featcal-spatial-goal-libero_goal'],'M2 recovery must run only Goal')
+    model=p['initial_models']['spatial-goal']
+    require(model['sha256']==q.M2_MODEL_SHA and model['reload_bitwise_equal'] and model['stages']==47 and model['linear_weights']==418,'Inherited model proof differs')
+    complete=read(RUNTIME/'featcal-adapter-v1/spatial-goal/complete.json')
+    require(complete['checkpoint']['model_sha256']==model['sha256'] and complete['reload_bitwise_equal'],'Original export/reload binding differs')
+    oldplan=read(RUNTIME/'featcal-queue-v2/plan.json');failed=read(RUNTIME/'featcal-queue-v2/FAILED.json')
+    require(sha(RUNTIME/'featcal-queue-v2/plan.json')==q.OLD_PLAN_SHA,'Historical queue plan changed')
+    require(sha(RUNTIME/'featcal-queue-v2/FAILED.json')==q.OLD_FAILED_SHA,'Historical failure changed')
+    require('CUDA context did not clear within 60s' in failed['error'],'Unexpected historical failure')
+    require(failed['accepted']['spatial-goal-solve']==model,'Historical accepted model differs')
+    spatial='featcal-spatial-goal-libero_spatial'
+    job=copy.deepcopy(next(j for j in oldplan['jobs'] if j['id']==spatial))
+    job['output']=str(SOURCES/job['output'].removeprefix(ORIGINAL_ROOT))
+    audit_plan=copy.deepcopy(oldplan)
+    for key in ['bank','selection']:
+        audit_plan['selection'][key]=str(SOURCES/audit_plan['selection'][key].removeprefix(ORIGINAL_ROOT))
+    original_launch=read(RUNTIME/'featcal-queue-v2/launches'/f'{spatial}.json')
+    require(original_launch['model_sha256']==model['sha256'],'Reused Spatial model launch differs')
+    audited=q.audit_formal(job,audit_plan,model)
+    require(audited==p['initial_accepted'][spatial] and audited['episodes']==100,'Reused Spatial raw outcomes or reset receipts differ')
+    for name in ['audit_formal','verify_export','worker','environment']:
+        def function_ast(path):
+            return next(ast.dump(n,include_attributes=False) for n in ast.parse(path.read_text()).body if isinstance(n,ast.FunctionDef) and n.name==name)
+        require(function_ast(source)==function_ast(CODE/'featcal_queue_v2/queue_featcal.py'),'Native validation/backend/API worker was changed: '+name)
+    for stage in ['smoke','teachers','solve']:require(q.environment(1,stage)['TORCH_ALLOW_TF32_CUBLAS_OVERRIDE']=='1','Construction backend changed')
+    require('TORCH_ALLOW_TF32_CUBLAS_OVERRIDE' not in q.environment(1,'formal'),'Construction override leaked into eval')
+    template=read(qpath.parent/'PERMIT-TEMPLATE-NOT-AUTHORIZED.json')
+    try:q.validate_permit(template,p,digest)
+    except ValueError:pass
+    else:raise ValueError('Unauthorized template accepted')
+    permit=read(qpath.parent/'EXECUTION-PERMIT.json');q.validate_permit(permit,p,digest)
+    consumed=read(qpath.parent/'AUTHORIZATION-CONSUMED.json');launch=read(qpath.parent/'launch-receipt.json');started=read(qpath.parent/'STARTED.json')
+    require(sha(qpath.parent/'EXECUTION-PERMIT.json')==consumed['permit_sha256']==launch['permit_sha256'],'Consumed historical permit SHA differs')
+    require(launch['plan_sha256']==started['plan_sha256']==consumed['queue_plan_sha256']==digest,'Launch plan binding differs')
+    require(launch['source_sha256']==sha(source) and launch['pid']==started['pid']==consumed['pid']==3267589,'Historical launch source/PID differs')
+    require(launch['kernel_starttime']==started['start_ticks'],'Historical process identity differs')
+    busy={'uuid':'synthetic','free_mib':50000,'used_mib':20000,'utilization':50,'compute':['foreign-host-pid']}
+    advisory=q.observe_card_after_exit(1,'synthetic',snapshot=lambda:{1:busy})
+    require(advisory['status']=='busy_or_identity_changed' and advisory['signalled_processes']==[],'Busy card retroactively invalidates a job')
+    require(not q.resource_ok(busy,120*2**30),'Busy card passes future admission')
+    return {'queue_version':3,'cpu_tests_recorded':15,'new_stage_jobs':9,'new_formal_jobs':4,'new_formal_episodes':400,
+        'reused_spatial_episodes':100,'reused_spatial_successes':audited['successes'],'combined_formal_episodes':500,
+        'reused_model_sha256':model['sha256'],'historical_launch_pid':launch['pid'],
+        'historical_permit_already_consumed':True,'old_partial_goal_reused':False,'gpu_or_queue_started_by_portable_check':False}
+
 def check_release():
     provenance=read(HERE/'PROVENANCE.json')
     for row in provenance['files']:
@@ -142,6 +200,7 @@ def check_release():
         'snapshot_bytes':sum(x['bytes'] for x in provenance['files']),
         'plan_and_recorded_readiness_bindings':'PASS','regmean_function_parity':source_parity(),
         'ties_kernel':test_ties_oracle(),'regmean_contract':test_regmean_contract(),'featcal_queue':test_featcal_queue(),
+        'featcal_recovery':test_featcal_recovery(),
         'full_native_checks_rerun_locally':False,
         'native_check_evidence':'Byte-preserved original CPU receipts; full PyTorch/safetensors/native assets required to rerun them.',
         'gpu_or_training_started':False}

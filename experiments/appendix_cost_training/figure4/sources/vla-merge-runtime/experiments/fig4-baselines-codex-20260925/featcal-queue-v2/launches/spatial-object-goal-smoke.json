@@ -1,0 +1,25 @@
+{
+  "admission": {
+    "compute": [],
+    "free_mib": 81150,
+    "used_mib": 4,
+    "utilization": 0,
+    "uuid": "GPU-c18a3bf3-c47c-9a8a-75b0-5a0f37b33a65"
+  },
+  "command": [
+    "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+    "-u",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_queue_v2/queue_featcal.py",
+    "worker",
+    "--job-id",
+    "spatial-object-goal-smoke",
+    "--ticket",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/tickets/spatial-object-goal-smoke.json"
+  ],
+  "gpu": 1,
+  "model_sha256": null,
+  "pid": 3203745,
+  "start_ticks": 490470003,
+  "time": "2026-09-25T04:36:58.031178+00:00",
+  "uuid": "GPU-c18a3bf3-c47c-9a8a-75b0-5a0f37b33a65"
+}

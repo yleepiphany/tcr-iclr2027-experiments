@@ -1,0 +1,35 @@
+{
+  "admission": {
+    "compute": [],
+    "free_mib": 81153,
+    "used_mib": 1,
+    "utilization": 0,
+    "uuid": "GPU-48baba1c-f0e7-93b7-4a30-b3c21d20e61a"
+  },
+  "command": [
+    "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+    "-u",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+    "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+    "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+    "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/formal/featcal-spatial-goal-libero_goal/eval",
+    "--env.type=libero",
+    "--env.task=libero_goal",
+    "--env.init_states=true",
+    "--env.hard_reset=true",
+    "--eval.batch_size=1",
+    "--eval.n_episodes=10",
+    "--seed=274001",
+    "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/featcal-spatial-goal/pretrained_model",
+    "--policy.device=cuda",
+    "--policy.compile_model=false",
+    "--policy.gradient_checkpointing=false",
+    "--policy.n_action_steps=10"
+  ],
+  "gpu": 4,
+  "model_sha256": "e1d88a4570a31d742dba600abed033f6cd1a97c30670961cb035750bcfad745f",
+  "pid": 3190252,
+  "start_ticks": 490433600,
+  "time": "2026-09-25T04:30:53.993814+00:00",
+  "uuid": "GPU-48baba1c-f0e7-93b7-4a30-b3c21d20e61a"
+}

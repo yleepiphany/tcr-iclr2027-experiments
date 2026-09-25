@@ -1,0 +1,30 @@
+{
+  "allowed": true,
+  "authorized_request": "User asked to continue all non-OpenVLA/non-Fast-WAM evaluations",
+  "formal_episodes": 400,
+  "gpu_uuids": {
+    "1": "GPU-c18a3bf3-c47c-9a8a-75b0-5a0f37b33a65",
+    "4": "GPU-48baba1c-f0e7-93b7-4a30-b3c21d20e61a",
+    "5": "GPU-4ed28198-b742-ee3c-2acb-4183dc944c81",
+    "6": "GPU-da625da2-f504-7927-4025-907e876718aa"
+  },
+  "host": "dsw-824375-57c745db88-n6tv9",
+  "issued_at_utc": "2026-09-25T05:11:05.463833+00:00",
+  "job_ids": [
+    "featcal-spatial-goal-libero_goal",
+    "spatial-object-goal-smoke",
+    "spatial-object-goal-teacher-spatial",
+    "spatial-object-goal-teacher-object",
+    "spatial-object-goal-teacher-goal",
+    "spatial-object-goal-solve",
+    "featcal-spatial-object-goal-libero_spatial",
+    "featcal-spatial-object-goal-libero_object",
+    "featcal-spatial-object-goal-libero_goal"
+  ],
+  "master_plan_sha256": "62ff0891df02a75d20a8b724f70f93a8373f75852a7385c88034993c326d7875",
+  "queue_plan_sha256": "7f4bc975eaca6c8a685bd471eeb90ec59e0124ae52a3363cbfdf6b97b3c5adc0",
+  "recovery_of": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/FAILED.json",
+  "reused_formal_episodes": 100,
+  "schema": "fig4_featcal_queue_execution_permit_v3",
+  "scope": "Figure4 FeatCal exact recovery: reuse audited M2 model and Spatial100; only new Goal100 plus M3 300; preserve build TF32=1/formal unset"
+}

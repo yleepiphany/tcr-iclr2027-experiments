@@ -23,4 +23,10 @@ class ReleaseTests(unittest.TestCase):
         self.assertEqual(result['build_tf32_override'],'1')
         self.assertIsNone(result['formal_tf32_override'])
 
+    def test_featcal_v3_exact_recovery_and_consumed_launch_proof(self):
+        result=check.test_featcal_recovery()
+        self.assertEqual((result['new_stage_jobs'],result['new_formal_episodes'],result['reused_spatial_episodes']),(9,400,100))
+        self.assertEqual(result['reused_spatial_successes'],88)
+        self.assertFalse(result['gpu_or_queue_started_by_portable_check'])
+
 if __name__=='__main__':unittest.main()

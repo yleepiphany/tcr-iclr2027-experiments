@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_queue_v2/queue_featcal.py", line 429, in <module>
+    try:run(args.permit)
+        ^^^^^^^^^^^^^^^^
+  File "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_queue_v2/queue_featcal.py", line 336, in run
+    transition=wait_context_clear(x['gpu'],x['uuid'])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_queue_v2/queue_featcal.py", line 86, in wait_context_clear
+    require(clock()<deadline,'CUDA context did not clear within 60s; no foreign PID is signalled')
+  File "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_queue_v2/queue_featcal.py", line 49, in require
+    if not ok:raise ValueError(msg)
+              ^^^^^^^^^^^^^^^^^^^^^
+ValueError: CUDA context did not clear within 60s; no foreign PID is signalled

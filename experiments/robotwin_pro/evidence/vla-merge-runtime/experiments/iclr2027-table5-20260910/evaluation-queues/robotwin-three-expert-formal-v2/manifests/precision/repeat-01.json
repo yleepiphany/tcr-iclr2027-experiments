@@ -1,0 +1,151 @@
+{
+  "action_mode": "joint",
+  "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-world4-remaining-experts-v1/precision/run/checkpoints/015000",
+  "checkpoint_step": 15000,
+  "condition": "demo_clean",
+  "created_at": "2026-09-20T12:35:19.047954Z",
+  "development_parent": {
+    "bytes": 19610,
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-precision-015000-quick20-v1/parent.json",
+    "sha256": "e4040791d6cb0ceae798ae27aa88604dcd982625f6bc50b82690ece43fd564e1"
+  },
+  "episodes": 60,
+  "episodes_per_task": 6,
+  "formal_result": true,
+  "full_native_horizon": true,
+  "group": "precision",
+  "invalid_seed_policy": "fail attempt; never replace or resample seed",
+  "method": "Experts",
+  "repeat": 1,
+  "reset_bank": {
+    "bytes": 38088,
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-01.json",
+    "sha256": "519e56cac00e7326706dc8c2934791c394643b3eec94052554b5d5815d87d2a7"
+  },
+  "schema_version": 1,
+  "seed_namespace": "iclr2027-table5-robotwin-formal-reset-v2",
+  "status": "robotwin_experts_formal_job_frozen",
+  "tasks": [
+    {
+      "seeds": [
+        623132605,
+        781573241,
+        82417160,
+        137794359,
+        2032199412,
+        1510160027
+      ],
+      "task": "place_a2b_left",
+      "task_index": 20
+    },
+    {
+      "seeds": [
+        2062845133,
+        1896467389,
+        1108722900,
+        186102940,
+        1504907815,
+        1856515500
+      ],
+      "task": "place_a2b_right",
+      "task_index": 21
+    },
+    {
+      "seeds": [
+        972901170,
+        885438931,
+        244511932,
+        1051037249,
+        1010549730,
+        1610295303
+      ],
+      "task": "move_can_pot",
+      "task_index": 12
+    },
+    {
+      "seeds": [
+        139309684,
+        389624256,
+        847662484,
+        706975510,
+        1509756480,
+        1258140610
+      ],
+      "task": "move_stapler_pad",
+      "task_index": 15
+    },
+    {
+      "seeds": [
+        1344565442,
+        687040914,
+        336927268,
+        350906810,
+        753249096,
+        615199634
+      ],
+      "task": "move_pillbottle_pad",
+      "task_index": 13
+    },
+    {
+      "seeds": [
+        2127342716,
+        172122547,
+        952540813,
+        1301520743,
+        1227898796,
+        594118882
+      ],
+      "task": "place_mouse_pad",
+      "task_index": 31
+    },
+    {
+      "seeds": [
+        1208268016,
+        526406297,
+        361284483,
+        1290982607,
+        1986723312,
+        1802060167
+      ],
+      "task": "place_object_scale",
+      "task_index": 33
+    },
+    {
+      "seeds": [
+        1162606146,
+        706783987,
+        2146271964,
+        295672587,
+        13813044,
+        1799387426
+      ],
+      "task": "place_object_stand",
+      "task_index": 34
+    },
+    {
+      "seeds": [
+        1896541698,
+        244556559,
+        724104026,
+        1854171488,
+        499148126,
+        1201039962
+      ],
+      "task": "place_phone_stand",
+      "task_index": 35
+    },
+    {
+      "seeds": [
+        1623240606,
+        1629231784,
+        275756126,
+        1087520580,
+        729154230,
+        1639246847
+      ],
+      "task": "place_fan",
+      "task_index": 30
+    }
+  ],
+  "tasks_per_group": 10
+}

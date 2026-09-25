@@ -1,0 +1,151 @@
+{
+  "action_mode": "joint",
+  "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v2/coordination/run/checkpoints/015000",
+  "checkpoint_step": 15000,
+  "condition": "demo_clean",
+  "created_at": "2026-09-20T12:35:27.105405Z",
+  "development_parent": {
+    "bytes": 16027,
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-three-expert-15k-sequence-v1/coordination/evaluation-015000/parent.json",
+    "sha256": "ca92c96de997fa190bb204e690e6cac21ba98ebd60264b9ce089b6f9bcb84c84"
+  },
+  "episodes": 60,
+  "episodes_per_task": 6,
+  "formal_result": true,
+  "full_native_horizon": true,
+  "group": "coordination",
+  "invalid_seed_policy": "fail attempt; never replace or resample seed",
+  "method": "Experts",
+  "repeat": 2,
+  "reset_bank": {
+    "bytes": 38079,
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-02.json",
+    "sha256": "451925ba55b3812dcb5f57a6acb24d94cb596b21b5d659b0a45a67a4e6aaf793"
+  },
+  "schema_version": 1,
+  "seed_namespace": "iclr2027-table5-robotwin-formal-reset-v2",
+  "status": "robotwin_experts_formal_job_frozen",
+  "tasks": [
+    {
+      "seeds": [
+        1344213717,
+        1910533767,
+        1450062533,
+        1945753572,
+        2024813317,
+        2017604294
+      ],
+      "task": "handover_block",
+      "task_index": 8
+    },
+    {
+      "seeds": [
+        498138125,
+        150338385,
+        676454611,
+        190000594,
+        359905316,
+        994289381
+      ],
+      "task": "handover_mic",
+      "task_index": 9
+    },
+    {
+      "seeds": [
+        298722986,
+        562258841,
+        2053773547,
+        48287119,
+        405170041,
+        878602301
+      ],
+      "task": "pick_dual_bottles",
+      "task_index": 19
+    },
+    {
+      "seeds": [
+        1869286402,
+        557553122,
+        1521630478,
+        261162560,
+        440518987,
+        1602644260
+      ],
+      "task": "place_dual_shoes",
+      "task_index": 28
+    },
+    {
+      "seeds": [
+        1715936740,
+        512768590,
+        1468254800,
+        1726014837,
+        240695917,
+        346223486
+      ],
+      "task": "stack_blocks_two",
+      "task_index": 45
+    },
+    {
+      "seeds": [
+        2012993635,
+        919408907,
+        1562029725,
+        306989799,
+        932686990,
+        1812632260
+      ],
+      "task": "stack_blocks_three",
+      "task_index": 44
+    },
+    {
+      "seeds": [
+        881111880,
+        65983287,
+        1064596837,
+        1687585111,
+        75737420,
+        1824951468
+      ],
+      "task": "stack_bowls_two",
+      "task_index": 47
+    },
+    {
+      "seeds": [
+        1487289765,
+        404142161,
+        1196364700,
+        875919898,
+        1883368822,
+        1558608900
+      ],
+      "task": "stack_bowls_three",
+      "task_index": 46
+    },
+    {
+      "seeds": [
+        1336716547,
+        1623963375,
+        990427332,
+        629196983,
+        330355511,
+        352595988
+      ],
+      "task": "blocks_ranking_rgb",
+      "task_index": 2
+    },
+    {
+      "seeds": [
+        1483593880,
+        1650088557,
+        183542616,
+        1501213344,
+        1212461167,
+        859693681
+      ],
+      "task": "blocks_ranking_size",
+      "task_index": 3
+    }
+  ],
+  "tasks_per_group": 10
+}

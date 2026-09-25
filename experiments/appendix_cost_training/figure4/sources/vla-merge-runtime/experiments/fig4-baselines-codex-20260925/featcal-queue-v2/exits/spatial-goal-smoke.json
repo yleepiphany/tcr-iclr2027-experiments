@@ -1,0 +1,14 @@
+{
+  "context_release_observations": [
+    {
+      "compute": [],
+      "free_mib": 81150,
+      "used_mib": 4,
+      "utilization": 0,
+      "uuid": "GPU-4ed28198-b742-ee3c-2acb-4183dc944c81"
+    }
+  ],
+  "pid": 3005469,
+  "returncode": 0,
+  "time": "2026-09-25T03:15:19.592019+00:00"
+}

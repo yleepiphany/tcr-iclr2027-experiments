@@ -172,6 +172,15 @@
       "role": "Frozen dense model or selected Soup input for FeatCal subset construction",
       "required": true,
       "exists_at_snapshot": true
+    },
+    {
+      "id": "fig4.featcal.spatial-goal",
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/featcal-spatial-goal/pretrained_model/model.safetensors",
+      "bytes": 9354050784,
+      "sha256": "e1d88a4570a31d742dba600abed033f6cd1a97c30670961cb035750bcfad745f",
+      "role": "Accepted FeatCal M2 model inherited by exact recovery v3; external weight bytes",
+      "required": false,
+      "exists_at_snapshot": true
     }
   ]
 }

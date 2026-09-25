@@ -1,0 +1,41 @@
+{
+  "formal_episodes": 0,
+  "models": [
+    {
+      "all_target_modules": 418,
+      "hook_trace_events": 742,
+      "model": "soup",
+      "native_full_joint_bitwise_equal": true,
+      "velocity_shape": [
+        5,
+        50,
+        32
+      ]
+    },
+    {
+      "all_target_modules": 418,
+      "hook_trace_events": 742,
+      "model": "spatial",
+      "native_full_joint_bitwise_equal": true,
+      "velocity_shape": [
+        5,
+        50,
+        32
+      ]
+    },
+    {
+      "all_target_modules": 418,
+      "hook_trace_events": 742,
+      "model": "goal",
+      "native_full_joint_bitwise_equal": true,
+      "velocity_shape": [
+        5,
+        50,
+        32
+      ]
+    }
+  ],
+  "peak_allocated_mib": 9700.42236328125,
+  "plan_sha256": "d1c5791ca7cd32e2b87ab9e4cdf490836f45f07591b4d9f754a178809b54e8e4",
+  "status": "PASS"
+}

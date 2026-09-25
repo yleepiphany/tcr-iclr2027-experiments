@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/run_regmeanpp_m3.py", line 85, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/run_regmeanpp_m3.py", line 84, in main
+    else:gpu_stage(args)
+         ^^^^^^^^^^^^^^^
+  File "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/run_regmeanpp_m3.py", line 44, in gpu_stage
+    if not admissible(board(args.gpu),GPUS):raise RuntimeError('BLOCKED_RESOURCE_NOT_EMPTY_OR_LOW_MEMORY')
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: BLOCKED_RESOURCE_NOT_EMPTY_OR_LOW_MEMORY

@@ -1,0 +1,18 @@
+{
+  "checkpoint": {
+    "biases_and_other_tensors": "preserve initial Soup",
+    "final_prefix_sha256": "8bd94069e304ed73c5f96944c36614de5e4de9144936b480f9955d9c253ca917",
+    "formal_result": false,
+    "input_bank_sha256": "b12c2670b305d830c5f0bc685ca5bf2f63eb5fa80872da5d0dfe47b37071f764",
+    "linear_weights": 418,
+    "method": "Figure4 selected-expert static-observation FeatCal",
+    "model_sha256": "e1d88a4570a31d742dba600abed033f6cd1a97c30670961cb035750bcfad745f",
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/featcal-spatial-goal/pretrained_model",
+    "plan_sha256": "d1c5791ca7cd32e2b87ab9e4cdf490836f45f07591b4d9f754a178809b54e8e4",
+    "subset": "spatial-goal",
+    "tensor_count": 813
+  },
+  "formal_episodes": 0,
+  "reload_bitwise_equal": true,
+  "status": "complete"
+}

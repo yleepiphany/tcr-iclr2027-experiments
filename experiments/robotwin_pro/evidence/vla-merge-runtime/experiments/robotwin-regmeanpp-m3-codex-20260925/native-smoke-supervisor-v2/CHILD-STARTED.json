@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v2/child_guard.py",
+    "--supervisor-plan",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v2/plan.json",
+    "--permit",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v2/SMOKE-EXECUTION-PERMIT.json",
+    "--grant",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v2/LEASE-HANDOFF.json",
+    "--grant-sha256",
+    "32a70c61bf133815c5ede76c35b01ee29081e5e424df84c2e7b232398a125486",
+    "--execute"
+  ],
+  "lease_fds_inherited": true,
+  "maximum_launches": 1,
+  "parent_retains_leases_until_child_exit": true,
+  "pid": 3229434,
+  "start_ticks": "490549285",
+  "started_at": "2026-09-25T04:50:10.850407+00:00"
+}

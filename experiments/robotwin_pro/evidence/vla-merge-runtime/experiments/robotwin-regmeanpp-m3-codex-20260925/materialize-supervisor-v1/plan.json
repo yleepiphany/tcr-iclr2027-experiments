@@ -1,0 +1,1351 @@
+{
+  "acceptance": {
+    "formal_performance_not_claimed": true,
+    "manifest_scope_and_rows": 418,
+    "native_reload_static_replica0_observations": 3,
+    "native_velocity_finite": true,
+    "native_velocity_shape": [
+      1,
+      50,
+      32
+    ],
+    "saved_and_loaded_tensor_bitwise_checks": 813,
+    "saved_model_sha": true
+  },
+  "allowed_gpus": {
+    "1": "GPU-c18a3bf3-c47c-9a8a-75b0-5a0f37b33a65",
+    "4": "GPU-48baba1c-f0e7-93b7-4a30-b3c21d20e61a",
+    "5": "GPU-4ed28198-b742-ee3c-2acb-4183dc944c81",
+    "6": "GPU-da625da2-f504-7927-4025-907e876718aa"
+  },
+  "automatic_formal_evaluation": false,
+  "automatic_retry": false,
+  "child_guard": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/materialize_supervisor_v1/child_guard.py",
+  "core_plan_sha256": "bb25730b256669eecd1180026f1339cbb6b52d16342d9e65750e521e1b39ad0b",
+  "core_run": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/cpu-plan-v1",
+  "created_at": "2026-09-25T05:07:30.531601+00:00",
+  "formal_binding": {
+    "autolaunch": false,
+    "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/cpu-plan-v1/checkpoint",
+    "episodes": 540,
+    "jobs": [
+      {
+        "action_mode": "joint",
+        "condition": "demo_clean",
+        "episodes": 60,
+        "full_native_horizon": true,
+        "group": "coordination",
+        "repeat": 1,
+        "reset_bank": {
+          "bytes": 38088,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-01.json",
+          "sha256": "519e56cac00e7326706dc8c2934791c394643b3eec94052554b5d5815d87d2a7"
+        },
+        "source_job": {
+          "bytes": 3507,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/coordination/repeat-01.json",
+          "sha256": "7dace55b5035ade2e7fe0666c9bdc704b06af9e7a8d5279d205dd10174428107"
+        },
+        "tasks": [
+          {
+            "seeds": [
+              1951191969,
+              2027948692,
+              607333896,
+              2012166972,
+              1573915038,
+              1208212516
+            ],
+            "task": "handover_block",
+            "task_index": 8
+          },
+          {
+            "seeds": [
+              1213848203,
+              2096221309,
+              1443236595,
+              1738315904,
+              91532949,
+              656157529
+            ],
+            "task": "handover_mic",
+            "task_index": 9
+          },
+          {
+            "seeds": [
+              1489011354,
+              1824202494,
+              784265830,
+              830470991,
+              191637982,
+              977272193
+            ],
+            "task": "pick_dual_bottles",
+            "task_index": 19
+          },
+          {
+            "seeds": [
+              2077086962,
+              744749504,
+              2092207011,
+              1157281836,
+              469000112,
+              996468968
+            ],
+            "task": "place_dual_shoes",
+            "task_index": 28
+          },
+          {
+            "seeds": [
+              423075568,
+              1176090932,
+              1869288754,
+              775194562,
+              930816250,
+              1276873440
+            ],
+            "task": "stack_blocks_two",
+            "task_index": 45
+          },
+          {
+            "seeds": [
+              1662829107,
+              2067882101,
+              1967325465,
+              693717937,
+              1212217639,
+              2080192177
+            ],
+            "task": "stack_blocks_three",
+            "task_index": 44
+          },
+          {
+            "seeds": [
+              1772385773,
+              50488568,
+              354729275,
+              1784724317,
+              2143849522,
+              287579408
+            ],
+            "task": "stack_bowls_two",
+            "task_index": 47
+          },
+          {
+            "seeds": [
+              995962466,
+              711540699,
+              1514495018,
+              1177572394,
+              985854240,
+              544626860
+            ],
+            "task": "stack_bowls_three",
+            "task_index": 46
+          },
+          {
+            "seeds": [
+              1358401946,
+              869969111,
+              606218336,
+              1836383106,
+              1168393377,
+              438518227
+            ],
+            "task": "blocks_ranking_rgb",
+            "task_index": 2
+          },
+          {
+            "seeds": [
+              1640017546,
+              1245713967,
+              1980677757,
+              666957338,
+              1860293687,
+              97410772
+            ],
+            "task": "blocks_ranking_size",
+            "task_index": 3
+          }
+        ]
+      },
+      {
+        "action_mode": "joint",
+        "condition": "demo_clean",
+        "episodes": 60,
+        "full_native_horizon": true,
+        "group": "receptacle",
+        "repeat": 1,
+        "reset_bank": {
+          "bytes": 38088,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-01.json",
+          "sha256": "519e56cac00e7326706dc8c2934791c394643b3eec94052554b5d5815d87d2a7"
+        },
+        "source_job": {
+          "bytes": 3528,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/receptacle/repeat-01.json",
+          "sha256": "be770ba348a18b11bd62356738e7fc093541660e7f01dee4a7c754fbaa13511c"
+        },
+        "tasks": [
+          {
+            "seeds": [
+              1165349379,
+              1847390703,
+              1992748498,
+              1878434596,
+              171226926,
+              909251882
+            ],
+            "task": "place_bread_basket",
+            "task_index": 22
+          },
+          {
+            "seeds": [
+              944395825,
+              742660566,
+              128741978,
+              98294928,
+              1117205426,
+              1654429287
+            ],
+            "task": "place_can_basket",
+            "task_index": 25
+          },
+          {
+            "seeds": [
+              473151217,
+              73825676,
+              1801531949,
+              1807285560,
+              1380720908,
+              1908056403
+            ],
+            "task": "place_cans_plasticbox",
+            "task_index": 26
+          },
+          {
+            "seeds": [
+              520527534,
+              440073445,
+              570617823,
+              1354137407,
+              212072251,
+              897991076
+            ],
+            "task": "place_container_plate",
+            "task_index": 27
+          },
+          {
+            "seeds": [
+              1936046481,
+              1093375986,
+              1734658895,
+              1627762157,
+              1899403578,
+              1507834981
+            ],
+            "task": "place_object_basket",
+            "task_index": 32
+          },
+          {
+            "seeds": [
+              2051910298,
+              244270764,
+              649747757,
+              1864493433,
+              2095499847,
+              1597855174
+            ],
+            "task": "put_bottles_dustbin",
+            "task_index": 38
+          },
+          {
+            "seeds": [
+              2124110150,
+              309196791,
+              740270815,
+              1860885536,
+              1740735958,
+              128666604
+            ],
+            "task": "put_object_cabinet",
+            "task_index": 39
+          },
+          {
+            "seeds": [
+              1378878593,
+              308361771,
+              191589184,
+              321329229,
+              1218663396,
+              856824372
+            ],
+            "task": "place_empty_cup",
+            "task_index": 29
+          },
+          {
+            "seeds": [
+              379542227,
+              730551572,
+              2104030979,
+              874465396,
+              1216755972,
+              1535214605
+            ],
+            "task": "place_bread_skillet",
+            "task_index": 23
+          },
+          {
+            "seeds": [
+              1434182471,
+              1082093834,
+              656072122,
+              1009389932,
+              1374131395,
+              1665109980
+            ],
+            "task": "place_burger_fries",
+            "task_index": 24
+          }
+        ]
+      },
+      {
+        "action_mode": "joint",
+        "condition": "demo_clean",
+        "episodes": 60,
+        "full_native_horizon": true,
+        "group": "precision",
+        "repeat": 1,
+        "reset_bank": {
+          "bytes": 38088,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-01.json",
+          "sha256": "519e56cac00e7326706dc8c2934791c394643b3eec94052554b5d5815d87d2a7"
+        },
+        "source_job": {
+          "bytes": 3475,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/precision/repeat-01.json",
+          "sha256": "c8bef1cbdb4018561607cc3ee146ddad63c2a3df9ed0a7819f9e67c04ea345c7"
+        },
+        "tasks": [
+          {
+            "seeds": [
+              623132605,
+              781573241,
+              82417160,
+              137794359,
+              2032199412,
+              1510160027
+            ],
+            "task": "place_a2b_left",
+            "task_index": 20
+          },
+          {
+            "seeds": [
+              2062845133,
+              1896467389,
+              1108722900,
+              186102940,
+              1504907815,
+              1856515500
+            ],
+            "task": "place_a2b_right",
+            "task_index": 21
+          },
+          {
+            "seeds": [
+              972901170,
+              885438931,
+              244511932,
+              1051037249,
+              1010549730,
+              1610295303
+            ],
+            "task": "move_can_pot",
+            "task_index": 12
+          },
+          {
+            "seeds": [
+              139309684,
+              389624256,
+              847662484,
+              706975510,
+              1509756480,
+              1258140610
+            ],
+            "task": "move_stapler_pad",
+            "task_index": 15
+          },
+          {
+            "seeds": [
+              1344565442,
+              687040914,
+              336927268,
+              350906810,
+              753249096,
+              615199634
+            ],
+            "task": "move_pillbottle_pad",
+            "task_index": 13
+          },
+          {
+            "seeds": [
+              2127342716,
+              172122547,
+              952540813,
+              1301520743,
+              1227898796,
+              594118882
+            ],
+            "task": "place_mouse_pad",
+            "task_index": 31
+          },
+          {
+            "seeds": [
+              1208268016,
+              526406297,
+              361284483,
+              1290982607,
+              1986723312,
+              1802060167
+            ],
+            "task": "place_object_scale",
+            "task_index": 33
+          },
+          {
+            "seeds": [
+              1162606146,
+              706783987,
+              2146271964,
+              295672587,
+              13813044,
+              1799387426
+            ],
+            "task": "place_object_stand",
+            "task_index": 34
+          },
+          {
+            "seeds": [
+              1896541698,
+              244556559,
+              724104026,
+              1854171488,
+              499148126,
+              1201039962
+            ],
+            "task": "place_phone_stand",
+            "task_index": 35
+          },
+          {
+            "seeds": [
+              1623240606,
+              1629231784,
+              275756126,
+              1087520580,
+              729154230,
+              1639246847
+            ],
+            "task": "place_fan",
+            "task_index": 30
+          }
+        ]
+      },
+      {
+        "action_mode": "joint",
+        "condition": "demo_clean",
+        "episodes": 60,
+        "full_native_horizon": true,
+        "group": "coordination",
+        "repeat": 2,
+        "reset_bank": {
+          "bytes": 38079,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-02.json",
+          "sha256": "451925ba55b3812dcb5f57a6acb24d94cb596b21b5d659b0a45a67a4e6aaf793"
+        },
+        "source_job": {
+          "bytes": 3502,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/coordination/repeat-02.json",
+          "sha256": "e3750fc0208bafd97cdbfbb21eb77986bfb4469ba07e07543fdfb748e60d40aa"
+        },
+        "tasks": [
+          {
+            "seeds": [
+              1344213717,
+              1910533767,
+              1450062533,
+              1945753572,
+              2024813317,
+              2017604294
+            ],
+            "task": "handover_block",
+            "task_index": 8
+          },
+          {
+            "seeds": [
+              498138125,
+              150338385,
+              676454611,
+              190000594,
+              359905316,
+              994289381
+            ],
+            "task": "handover_mic",
+            "task_index": 9
+          },
+          {
+            "seeds": [
+              298722986,
+              562258841,
+              2053773547,
+              48287119,
+              405170041,
+              878602301
+            ],
+            "task": "pick_dual_bottles",
+            "task_index": 19
+          },
+          {
+            "seeds": [
+              1869286402,
+              557553122,
+              1521630478,
+              261162560,
+              440518987,
+              1602644260
+            ],
+            "task": "place_dual_shoes",
+            "task_index": 28
+          },
+          {
+            "seeds": [
+              1715936740,
+              512768590,
+              1468254800,
+              1726014837,
+              240695917,
+              346223486
+            ],
+            "task": "stack_blocks_two",
+            "task_index": 45
+          },
+          {
+            "seeds": [
+              2012993635,
+              919408907,
+              1562029725,
+              306989799,
+              932686990,
+              1812632260
+            ],
+            "task": "stack_blocks_three",
+            "task_index": 44
+          },
+          {
+            "seeds": [
+              881111880,
+              65983287,
+              1064596837,
+              1687585111,
+              75737420,
+              1824951468
+            ],
+            "task": "stack_bowls_two",
+            "task_index": 47
+          },
+          {
+            "seeds": [
+              1487289765,
+              404142161,
+              1196364700,
+              875919898,
+              1883368822,
+              1558608900
+            ],
+            "task": "stack_bowls_three",
+            "task_index": 46
+          },
+          {
+            "seeds": [
+              1336716547,
+              1623963375,
+              990427332,
+              629196983,
+              330355511,
+              352595988
+            ],
+            "task": "blocks_ranking_rgb",
+            "task_index": 2
+          },
+          {
+            "seeds": [
+              1483593880,
+              1650088557,
+              183542616,
+              1501213344,
+              1212461167,
+              859693681
+            ],
+            "task": "blocks_ranking_size",
+            "task_index": 3
+          }
+        ]
+      },
+      {
+        "action_mode": "joint",
+        "condition": "demo_clean",
+        "episodes": 60,
+        "full_native_horizon": true,
+        "group": "receptacle",
+        "repeat": 2,
+        "reset_bank": {
+          "bytes": 38079,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-02.json",
+          "sha256": "451925ba55b3812dcb5f57a6acb24d94cb596b21b5d659b0a45a67a4e6aaf793"
+        },
+        "source_job": {
+          "bytes": 3633,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/receptacle/repeat-02.json",
+          "sha256": "4139c511138ae115e99fd2d27d6f059fec6583720a3dbdbb3adca500b46f463c"
+        },
+        "tasks": [
+          {
+            "seeds": [
+              1616595389,
+              1188231856,
+              1838813534,
+              1424466170,
+              1974143556,
+              607688674
+            ],
+            "task": "place_bread_basket",
+            "task_index": 22
+          },
+          {
+            "seeds": [
+              34492864,
+              1854060859,
+              1791292139,
+              1094540999,
+              1653378884,
+              1704758076
+            ],
+            "task": "place_can_basket",
+            "task_index": 25
+          },
+          {
+            "seeds": [
+              1642277142,
+              1807523293,
+              616941114,
+              507512895,
+              139088048,
+              1200280651
+            ],
+            "task": "place_cans_plasticbox",
+            "task_index": 26
+          },
+          {
+            "seeds": [
+              877886121,
+              1988527425,
+              2039857703,
+              1765295868,
+              759026783,
+              1969036289
+            ],
+            "task": "place_container_plate",
+            "task_index": 27
+          },
+          {
+            "seeds": [
+              178506160,
+              75822803,
+              1925327417,
+              1475249725,
+              1225288435,
+              921449918
+            ],
+            "task": "place_object_basket",
+            "task_index": 32
+          },
+          {
+            "seeds": [
+              1430345402,
+              276387526,
+              68560527,
+              603435305,
+              73708525,
+              97133042
+            ],
+            "task": "put_bottles_dustbin",
+            "task_index": 38
+          },
+          {
+            "seeds": [
+              750052935,
+              472754271,
+              731575495,
+              1917503353,
+              1257912992,
+              505507714
+            ],
+            "task": "put_object_cabinet",
+            "task_index": 39
+          },
+          {
+            "seeds": [
+              631300543,
+              390068791,
+              665737527,
+              1838488701,
+              519570245,
+              1187114630
+            ],
+            "task": "place_empty_cup",
+            "task_index": 29
+          },
+          {
+            "seeds": [
+              1142679125,
+              21597488,
+              1691134275,
+              997775181,
+              1953050713,
+              327723838
+            ],
+            "task": "place_bread_skillet",
+            "task_index": 23
+          },
+          {
+            "seeds": [
+              773188683,
+              1257688127,
+              1915664648,
+              509142308,
+              1912689746,
+              1818984321
+            ],
+            "task": "place_burger_fries",
+            "task_index": 24
+          }
+        ]
+      },
+      {
+        "action_mode": "joint",
+        "condition": "demo_clean",
+        "episodes": 60,
+        "full_native_horizon": true,
+        "group": "precision",
+        "repeat": 2,
+        "reset_bank": {
+          "bytes": 38079,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-02.json",
+          "sha256": "451925ba55b3812dcb5f57a6acb24d94cb596b21b5d659b0a45a67a4e6aaf793"
+        },
+        "source_job": {
+          "bytes": 3477,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/precision/repeat-02.json",
+          "sha256": "146f5b86c5219fdab01c50a0cb55ed8b6940a69d467cbdb63b284b5710d6bcb0"
+        },
+        "tasks": [
+          {
+            "seeds": [
+              1864656536,
+              581852290,
+              1412540567,
+              526584088,
+              1301966057,
+              780688298
+            ],
+            "task": "place_a2b_left",
+            "task_index": 20
+          },
+          {
+            "seeds": [
+              693862988,
+              2126947879,
+              2008239192,
+              2070614697,
+              1881528463,
+              1493738835
+            ],
+            "task": "place_a2b_right",
+            "task_index": 21
+          },
+          {
+            "seeds": [
+              718621183,
+              748991101,
+              2047263732,
+              952281581,
+              1602873932,
+              413220189
+            ],
+            "task": "move_can_pot",
+            "task_index": 12
+          },
+          {
+            "seeds": [
+              160763382,
+              51839263,
+              1662999034,
+              173959914,
+              1392992863,
+              2124991171
+            ],
+            "task": "move_stapler_pad",
+            "task_index": 15
+          },
+          {
+            "seeds": [
+              973294148,
+              1660936832,
+              1451450841,
+              300633611,
+              1344284699,
+              962073136
+            ],
+            "task": "move_pillbottle_pad",
+            "task_index": 13
+          },
+          {
+            "seeds": [
+              1242472241,
+              172589658,
+              745764129,
+              101684407,
+              1568582906,
+              1550549571
+            ],
+            "task": "place_mouse_pad",
+            "task_index": 31
+          },
+          {
+            "seeds": [
+              753381650,
+              1082892946,
+              1408120466,
+              708416615,
+              1992731055,
+              87981749
+            ],
+            "task": "place_object_scale",
+            "task_index": 33
+          },
+          {
+            "seeds": [
+              1424926100,
+              2076438868,
+              1297328413,
+              1803880493,
+              1920699652,
+              1818110070
+            ],
+            "task": "place_object_stand",
+            "task_index": 34
+          },
+          {
+            "seeds": [
+              2127846740,
+              869251270,
+              1046743456,
+              636141960,
+              1094833135,
+              1959303739
+            ],
+            "task": "place_phone_stand",
+            "task_index": 35
+          },
+          {
+            "seeds": [
+              70597092,
+              21653227,
+              1890961282,
+              436521887,
+              754940186,
+              2010850684
+            ],
+            "task": "place_fan",
+            "task_index": 30
+          }
+        ]
+      },
+      {
+        "action_mode": "joint",
+        "condition": "demo_clean",
+        "episodes": 60,
+        "full_native_horizon": true,
+        "group": "coordination",
+        "repeat": 3,
+        "reset_bank": {
+          "bytes": 38082,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-03.json",
+          "sha256": "88bdb45ef28e43292cf0fdf823f4a66b825c5e2313175f1959f41dce5f948ea2"
+        },
+        "source_job": {
+          "bytes": 3505,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/coordination/repeat-03.json",
+          "sha256": "fcf217f74bd1b190b33e2d545897046df92cb8899bd76ceed972cc16a58318b8"
+        },
+        "tasks": [
+          {
+            "seeds": [
+              965743369,
+              2134539704,
+              1478369810,
+              1822592412,
+              1659670820,
+              824606220
+            ],
+            "task": "handover_block",
+            "task_index": 8
+          },
+          {
+            "seeds": [
+              1555037277,
+              2026232965,
+              2120055039,
+              102936370,
+              1790066206,
+              1545262099
+            ],
+            "task": "handover_mic",
+            "task_index": 9
+          },
+          {
+            "seeds": [
+              585269843,
+              634835630,
+              1788972276,
+              398715866,
+              1209191006,
+              394002363
+            ],
+            "task": "pick_dual_bottles",
+            "task_index": 19
+          },
+          {
+            "seeds": [
+              1011897304,
+              1953031530,
+              2024564136,
+              690088391,
+              156150494,
+              569890526
+            ],
+            "task": "place_dual_shoes",
+            "task_index": 28
+          },
+          {
+            "seeds": [
+              771282240,
+              1815751873,
+              750683657,
+              1920762054,
+              408563764,
+              618641076
+            ],
+            "task": "stack_blocks_two",
+            "task_index": 45
+          },
+          {
+            "seeds": [
+              349909140,
+              1126528545,
+              294286448,
+              869901222,
+              689295638,
+              51213742
+            ],
+            "task": "stack_blocks_three",
+            "task_index": 44
+          },
+          {
+            "seeds": [
+              891010081,
+              1328656447,
+              1508653511,
+              856919764,
+              1347007819,
+              1442185350
+            ],
+            "task": "stack_bowls_two",
+            "task_index": 47
+          },
+          {
+            "seeds": [
+              1789829723,
+              926282881,
+              626121962,
+              900203715,
+              1298066713,
+              1852462664
+            ],
+            "task": "stack_bowls_three",
+            "task_index": 46
+          },
+          {
+            "seeds": [
+              532948972,
+              1016564170,
+              436935083,
+              867924100,
+              1089388014,
+              395278153
+            ],
+            "task": "blocks_ranking_rgb",
+            "task_index": 2
+          },
+          {
+            "seeds": [
+              1477681273,
+              1872454048,
+              1220286241,
+              952661138,
+              1414271029,
+              195308396
+            ],
+            "task": "blocks_ranking_size",
+            "task_index": 3
+          }
+        ]
+      },
+      {
+        "action_mode": "joint",
+        "condition": "demo_clean",
+        "episodes": 60,
+        "full_native_horizon": true,
+        "group": "receptacle",
+        "repeat": 3,
+        "reset_bank": {
+          "bytes": 38082,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-03.json",
+          "sha256": "88bdb45ef28e43292cf0fdf823f4a66b825c5e2313175f1959f41dce5f948ea2"
+        },
+        "source_job": {
+          "bytes": 3526,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/receptacle/repeat-03.json",
+          "sha256": "ad69f3992856b54703286b81cbaac995612e3c30c2a0ef60b1d81e3863135cf5"
+        },
+        "tasks": [
+          {
+            "seeds": [
+              1103421702,
+              1203254025,
+              649945516,
+              1330879849,
+              685327022,
+              938059967
+            ],
+            "task": "place_bread_basket",
+            "task_index": 22
+          },
+          {
+            "seeds": [
+              1951979211,
+              1249349264,
+              918719877,
+              1969237372,
+              1610984051,
+              895776312
+            ],
+            "task": "place_can_basket",
+            "task_index": 25
+          },
+          {
+            "seeds": [
+              1506992282,
+              129077547,
+              1778307647,
+              219967302,
+              1347822668,
+              336981988
+            ],
+            "task": "place_cans_plasticbox",
+            "task_index": 26
+          },
+          {
+            "seeds": [
+              1156450440,
+              96621916,
+              844377984,
+              1383749929,
+              1798827014,
+              717719367
+            ],
+            "task": "place_container_plate",
+            "task_index": 27
+          },
+          {
+            "seeds": [
+              710401674,
+              2137799074,
+              1322304931,
+              1718360304,
+              1270829379,
+              1887567937
+            ],
+            "task": "place_object_basket",
+            "task_index": 32
+          },
+          {
+            "seeds": [
+              1189967243,
+              108897684,
+              1137083532,
+              272668111,
+              1573116459,
+              126630525
+            ],
+            "task": "put_bottles_dustbin",
+            "task_index": 38
+          },
+          {
+            "seeds": [
+              2092345362,
+              1095222200,
+              1647979046,
+              1994971915,
+              41415777,
+              855256267
+            ],
+            "task": "put_object_cabinet",
+            "task_index": 39
+          },
+          {
+            "seeds": [
+              1978706541,
+              663963042,
+              1764331324,
+              614221146,
+              501109315,
+              1310573019
+            ],
+            "task": "place_empty_cup",
+            "task_index": 29
+          },
+          {
+            "seeds": [
+              282389278,
+              1539796541,
+              1266215483,
+              817250,
+              1463076110,
+              1471340976
+            ],
+            "task": "place_bread_skillet",
+            "task_index": 23
+          },
+          {
+            "seeds": [
+              102725779,
+              2113505605,
+              1301970288,
+              1119175292,
+              637836223,
+              789111381
+            ],
+            "task": "place_burger_fries",
+            "task_index": 24
+          }
+        ]
+      },
+      {
+        "action_mode": "joint",
+        "condition": "demo_clean",
+        "episodes": 60,
+        "full_native_horizon": true,
+        "group": "precision",
+        "repeat": 3,
+        "reset_bank": {
+          "bytes": 38082,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-03.json",
+          "sha256": "88bdb45ef28e43292cf0fdf823f4a66b825c5e2313175f1959f41dce5f948ea2"
+        },
+        "source_job": {
+          "bytes": 3473,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/precision/repeat-03.json",
+          "sha256": "6a1d918109e5eff9121d70fc507608bcc794b3ede72ba1b5e1a362e8cbaf7838"
+        },
+        "tasks": [
+          {
+            "seeds": [
+              133734865,
+              522555324,
+              484405567,
+              1246412112,
+              587435696,
+              1335240988
+            ],
+            "task": "place_a2b_left",
+            "task_index": 20
+          },
+          {
+            "seeds": [
+              1497843922,
+              1474372033,
+              417989183,
+              1762110316,
+              694297544,
+              541188147
+            ],
+            "task": "place_a2b_right",
+            "task_index": 21
+          },
+          {
+            "seeds": [
+              191033556,
+              134971637,
+              940807982,
+              2089737303,
+              798601285,
+              1720232932
+            ],
+            "task": "move_can_pot",
+            "task_index": 12
+          },
+          {
+            "seeds": [
+              1378110844,
+              258939077,
+              910983935,
+              1820816614,
+              255010758,
+              332045102
+            ],
+            "task": "move_stapler_pad",
+            "task_index": 15
+          },
+          {
+            "seeds": [
+              113571286,
+              590726507,
+              939636977,
+              192880622,
+              1983715368,
+              1537806011
+            ],
+            "task": "move_pillbottle_pad",
+            "task_index": 13
+          },
+          {
+            "seeds": [
+              1682619879,
+              1021759684,
+              1080622620,
+              375857096,
+              1238284535,
+              1732328864
+            ],
+            "task": "place_mouse_pad",
+            "task_index": 31
+          },
+          {
+            "seeds": [
+              97433699,
+              1802349254,
+              974587322,
+              1884868881,
+              220768952,
+              1063217005
+            ],
+            "task": "place_object_scale",
+            "task_index": 33
+          },
+          {
+            "seeds": [
+              428763305,
+              1800340951,
+              494535395,
+              987626599,
+              1941654948,
+              634670497
+            ],
+            "task": "place_object_stand",
+            "task_index": 34
+          },
+          {
+            "seeds": [
+              604364691,
+              422314354,
+              2080344209,
+              1054171045,
+              1843284528,
+              1878790690
+            ],
+            "task": "place_phone_stand",
+            "task_index": 35
+          },
+          {
+            "seeds": [
+              511798883,
+              1424973175,
+              146876395,
+              704947068,
+              528705034,
+              1280236730
+            ],
+            "task": "place_fan",
+            "task_index": 30
+          }
+        ]
+      }
+    ],
+    "model_sha256": null,
+    "next_step": "Clone dense queue into an independent RegMean++ adapter; bind all jobs to MODEL-ACCEPTED.json SHA without changing tasks/seeds/reset banks.",
+    "reference_dense_queue": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/watch_robotwin_model_soups_formal_v1.py",
+    "reusable_engine": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_iclr2027_robotwin_checkpoint_development.py",
+    "source_files_sha256": {
+      "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/coordination/repeat-01.json": "7dace55b5035ade2e7fe0666c9bdc704b06af9e7a8d5279d205dd10174428107",
+      "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/coordination/repeat-02.json": "e3750fc0208bafd97cdbfbb21eb77986bfb4469ba07e07543fdfb748e60d40aa",
+      "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/coordination/repeat-03.json": "fcf217f74bd1b190b33e2d545897046df92cb8899bd76ceed972cc16a58318b8",
+      "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/precision/repeat-01.json": "c8bef1cbdb4018561607cc3ee146ddad63c2a3df9ed0a7819f9e67c04ea345c7",
+      "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/precision/repeat-02.json": "146f5b86c5219fdab01c50a0cb55ed8b6940a69d467cbdb63b284b5710d6bcb0",
+      "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/precision/repeat-03.json": "6a1d918109e5eff9121d70fc507608bcc794b3ede72ba1b5e1a362e8cbaf7838",
+      "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/receptacle/repeat-01.json": "be770ba348a18b11bd62356738e7fc093541660e7f01dee4a7c754fbaa13511c",
+      "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/receptacle/repeat-02.json": "4139c511138ae115e99fd2d27d6f059fec6583720a3dbdbb3adca500b46f463c",
+      "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/receptacle/repeat-03.json": "ad69f3992856b54703286b81cbaac995612e3c30c2a0ef60b1d81e3863135cf5",
+      "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/protocol.json": "ed47fc5340cfb53a4a1c497a08ef3aca984c0ad50182748ac3df3ca7e060d0de",
+      "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-01.json": "519e56cac00e7326706dc8c2934791c394643b3eec94052554b5d5815d87d2a7",
+      "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-02.json": "451925ba55b3812dcb5f57a6acb24d94cb596b21b5d659b0a45a67a4e6aaf793",
+      "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-03.json": "88bdb45ef28e43292cf0fdf823f4a66b825c5e2313175f1959f41dce5f948ea2"
+    },
+    "status": "BLOCKED_UNTIL_ACCEPTED_MODEL_SHA_AND_ISOLATED_DENSE_RUNNER"
+  },
+  "gpu_used": false,
+  "host": "dsw-824375-57c745db88-n6tv9",
+  "maximum_child_launches": 1,
+  "maximum_wait_seconds": 86400,
+  "native_smoke_sha256": "454a48b6e639020a0ec93604831cc2bb1d001cb076f29800c168197b2ca85e91",
+  "original_kernel_and_67_stages_unchanged": true,
+  "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/materialize-supervisor-v1",
+  "poll_seconds": 15,
+  "python": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+  "resource_gate": {
+    "allocator_fraction": 0.7,
+    "build_slot": true,
+    "compute_pids": [],
+    "continuous_pass_fds": true,
+    "maximum_used_mib": 64,
+    "minimum_free_mib": 71680,
+    "minimum_runtime_free_mib": 12288,
+    "runtime_poll_seconds": 5,
+    "utilization": 0,
+    "uuid_and_legacy_flocks": true
+  },
+  "schema": "robotwin_regmeanpp_m3_materialize_inherited_leases_v1",
+  "signals_sent": 0,
+  "sources_sha256": {
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-firstpass-cause-20260920/card_flock.py": "50c150a929abf5ccbbba29e2ac650f5bab207e23a2f19667206819b195538da9",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/materialize_supervisor_v1/accept_model.py": "4754b83371e38d886c73d63d15da6b3ee6d9cfe598b95f3966d7117fcd86fe56",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/materialize_supervisor_v1/child_guard.py": "6d54f076831548762f49dde2c4588427fcce2aba81d174870fa2fbb21ab6b0d6",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/materialize_supervisor_v1/supervisor.py": "9702719163d198f1b216474bb4dcd5c3d53e8365633bea3f0e5c63daa5df0e8d",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/materialize_supervisor_v1/test_materialize_cpu.py": "4e4e2cd58139f3505d6faba34fad69f8439c7ebb9023430e21dd29dee0773948",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v1/supervisor.py": "95e84d136c8d94569b4e1f8910ae2f89f7c6f9b9bcaf7560e73bbeb200bc4986",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v2/supervisor.py": "ed9425afd5ce3bd784be35de776df8c71f4f07f3e93eefdfbf8f0f8a4b0cd57b",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/run_regmeanpp_m3.py": "97e25742cd878d3b4dbabfc80bb71a8f094d7707d2b9fa35961a3c2aa4423926",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_iclr2027_robotwin_checkpoint_development.py": "d156e3d9f3553131e46d88ea35885708d1fb6c0c5d501b219c4ded0ff5b86a15",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/watch_robotwin_model_soups_formal_v1.py": "8ee3f25682565ca101f7b9869155cf03a8de5781716ab75bd56be0a13b3d559a"
+  },
+  "stage": "materialize",
+  "status": "CPU_PREPARED_REQUIRES_MATERIALIZE_PERMIT"
+}

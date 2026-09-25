@@ -1,0 +1,25 @@
+{
+  "pid": 3267589,
+  "kernel_starttime": 490679066,
+  "started_at_utc": "2026-09-25T05:11:48.660861+00:00",
+  "command": [
+    "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+    "-u",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_queue_v3/queue_featcal.py",
+    "run",
+    "--permit",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v3/EXECUTION-PERMIT.json"
+  ],
+  "source_sha256": "ede2a14067b98422b13bfff0427c8fe7ca89cd43aa8cec6b9eb6da1d4eb098e3",
+  "plan_sha256": "7f4bc975eaca6c8a685bd471eeb90ec59e0124ae52a3363cbfdf6b97b3c5adc0",
+  "permit_sha256": "f256423e1a0da920641491a0221551236a1ee0be5692104deb2f1750d0b95a56",
+  "new_stages": 9,
+  "new_formal_episodes": 400,
+  "reused_formal_episodes": 100,
+  "allowed_gpus": [
+    1,
+    4,
+    5,
+    6
+  ]
+}

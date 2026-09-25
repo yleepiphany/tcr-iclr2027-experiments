@@ -1,0 +1,40 @@
+{
+  "schema": "robotwin_regmeanpp_m3_materialize_package_checks_v1",
+  "checked_at_utc": "2026-09-25T05:24:05.305770+00:00",
+  "status": "PASS",
+  "package_preflight": {
+    "status": "PASS",
+    "files_verified": 184
+  },
+  "package_unittests": {
+    "status": "PASS",
+    "tests": 11,
+    "failures": 0,
+    "errors": 0
+  },
+  "doctor": {
+    "command": "python3 tools/doctor.py --code-only",
+    "status": "PASS",
+    "scope": "Python syntax and root manifest schema"
+  },
+  "git_diff_check": {
+    "status": "PASS",
+    "scope": "repository tracked diff; new provenance payloads additionally checked for Git inclusion and size"
+  },
+  "exact_remote_files_added": 30,
+  "exact_remote_bytes_added": 238070,
+  "existing_ignored_evidence_logs_made_includable": 2,
+  "native_materialize_cpu_tests": {
+    "status": "PASS",
+    "tests": 13,
+    "scope": "Original remote receipt copied verbatim; not rerun as a native GPU test during packaging"
+  },
+  "provenance_sha256": "c3be86f7047f7072fe2f8bfbb434e5c5508863ede35d479bf0d8be4076dcd385",
+  "all_provenance_files_git_includable": true,
+  "no_weights_or_files_above_2mb_added": true,
+  "package_gpu_launches": 0,
+  "remote_mutations": false,
+  "push_performed": false,
+  "commits_created": false,
+  "snapshot_status": "Native smoke PASS; supervisor 3270866 waiting; materialized model and 540 formal episodes incomplete"
+}

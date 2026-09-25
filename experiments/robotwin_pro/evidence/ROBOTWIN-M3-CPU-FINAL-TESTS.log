@@ -1,0 +1,16 @@
+test_fixed_150_observations_and_450_unique_noises (test_readiness.Tests.test_fixed_150_observations_and_450_unique_noises) ... ok
+test_overlap_and_short_episodes_are_rejected (test_readiness.Tests.test_overlap_and_short_episodes_are_rejected) ... ok
+test_target_labels_do_not_affect_selection (test_readiness.Tests.test_target_labels_do_not_affect_selection) ... ok
+test_no_target_columns_or_hidden_labels (test_static_bank.Tests.test_no_target_columns_or_hidden_labels) ... ok
+test_nonfinite_inputs_fail (test_static_bank.Tests.test_nonfinite_inputs_fail) ... ok
+test_reproducible_independent_full_latents (test_static_bank.Tests.test_reproducible_independent_full_latents) ... ok
+test_three_real_cameras_and_initial_time_only (test_static_bank.Tests.test_three_real_cameras_and_initial_time_only) ... ok
+test_47_stage_418_weight_450_call_2820_shard_identity (test_featcal_m3_graph_cpu.Tests.test_47_stage_418_weight_450_call_2820_shard_identity) ... ok
+test_corrupt_teacher_row_indices_are_rejected (test_featcal_m3_graph_cpu.Tests.test_corrupt_teacher_row_indices_are_rejected) ... ok
+test_original_exact_solver_consumes_m3_shards_and_commits_atomically (test_featcal_m3_graph_cpu.Tests.test_original_exact_solver_consumes_m3_shards_and_commits_atomically) ... ok
+test_real_collectors_pair_rows_and_propagate_updated_prefix (test_featcal_m3_graph_cpu.Tests.test_real_collectors_pair_rows_and_propagate_updated_prefix) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 6.023s
+
+OK

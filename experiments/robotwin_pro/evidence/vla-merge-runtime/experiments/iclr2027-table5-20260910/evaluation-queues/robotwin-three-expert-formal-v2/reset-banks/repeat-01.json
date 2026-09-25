@@ -1,0 +1,1633 @@
+{
+  "created_at": "2026-09-20T12:35:08.009055Z",
+  "entries": [
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1951191969,
+      "task": "handover_block",
+      "task_config": "demo_clean",
+      "task_index": 8
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 2027948692,
+      "task": "handover_block",
+      "task_config": "demo_clean",
+      "task_index": 8
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 607333896,
+      "task": "handover_block",
+      "task_config": "demo_clean",
+      "task_index": 8
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 2012166972,
+      "task": "handover_block",
+      "task_config": "demo_clean",
+      "task_index": 8
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1573915038,
+      "task": "handover_block",
+      "task_config": "demo_clean",
+      "task_index": 8
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1208212516,
+      "task": "handover_block",
+      "task_config": "demo_clean",
+      "task_index": 8
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1213848203,
+      "task": "handover_mic",
+      "task_config": "demo_clean",
+      "task_index": 9
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 2096221309,
+      "task": "handover_mic",
+      "task_config": "demo_clean",
+      "task_index": 9
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1443236595,
+      "task": "handover_mic",
+      "task_config": "demo_clean",
+      "task_index": 9
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1738315904,
+      "task": "handover_mic",
+      "task_config": "demo_clean",
+      "task_index": 9
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 91532949,
+      "task": "handover_mic",
+      "task_config": "demo_clean",
+      "task_index": 9
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 656157529,
+      "task": "handover_mic",
+      "task_config": "demo_clean",
+      "task_index": 9
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1489011354,
+      "task": "pick_dual_bottles",
+      "task_config": "demo_clean",
+      "task_index": 19
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1824202494,
+      "task": "pick_dual_bottles",
+      "task_config": "demo_clean",
+      "task_index": 19
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 784265830,
+      "task": "pick_dual_bottles",
+      "task_config": "demo_clean",
+      "task_index": 19
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 830470991,
+      "task": "pick_dual_bottles",
+      "task_config": "demo_clean",
+      "task_index": 19
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 191637982,
+      "task": "pick_dual_bottles",
+      "task_config": "demo_clean",
+      "task_index": 19
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 977272193,
+      "task": "pick_dual_bottles",
+      "task_config": "demo_clean",
+      "task_index": 19
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 2077086962,
+      "task": "place_dual_shoes",
+      "task_config": "demo_clean",
+      "task_index": 28
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 744749504,
+      "task": "place_dual_shoes",
+      "task_config": "demo_clean",
+      "task_index": 28
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 2092207011,
+      "task": "place_dual_shoes",
+      "task_config": "demo_clean",
+      "task_index": 28
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1157281836,
+      "task": "place_dual_shoes",
+      "task_config": "demo_clean",
+      "task_index": 28
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 469000112,
+      "task": "place_dual_shoes",
+      "task_config": "demo_clean",
+      "task_index": 28
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 996468968,
+      "task": "place_dual_shoes",
+      "task_config": "demo_clean",
+      "task_index": 28
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 423075568,
+      "task": "stack_blocks_two",
+      "task_config": "demo_clean",
+      "task_index": 45
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1176090932,
+      "task": "stack_blocks_two",
+      "task_config": "demo_clean",
+      "task_index": 45
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1869288754,
+      "task": "stack_blocks_two",
+      "task_config": "demo_clean",
+      "task_index": 45
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 775194562,
+      "task": "stack_blocks_two",
+      "task_config": "demo_clean",
+      "task_index": 45
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 930816250,
+      "task": "stack_blocks_two",
+      "task_config": "demo_clean",
+      "task_index": 45
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1276873440,
+      "task": "stack_blocks_two",
+      "task_config": "demo_clean",
+      "task_index": 45
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1662829107,
+      "task": "stack_blocks_three",
+      "task_config": "demo_clean",
+      "task_index": 44
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 2067882101,
+      "task": "stack_blocks_three",
+      "task_config": "demo_clean",
+      "task_index": 44
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1967325465,
+      "task": "stack_blocks_three",
+      "task_config": "demo_clean",
+      "task_index": 44
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 693717937,
+      "task": "stack_blocks_three",
+      "task_config": "demo_clean",
+      "task_index": 44
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1212217639,
+      "task": "stack_blocks_three",
+      "task_config": "demo_clean",
+      "task_index": 44
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 2080192177,
+      "task": "stack_blocks_three",
+      "task_config": "demo_clean",
+      "task_index": 44
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1772385773,
+      "task": "stack_bowls_two",
+      "task_config": "demo_clean",
+      "task_index": 47
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 50488568,
+      "task": "stack_bowls_two",
+      "task_config": "demo_clean",
+      "task_index": 47
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 354729275,
+      "task": "stack_bowls_two",
+      "task_config": "demo_clean",
+      "task_index": 47
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1784724317,
+      "task": "stack_bowls_two",
+      "task_config": "demo_clean",
+      "task_index": 47
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 2143849522,
+      "task": "stack_bowls_two",
+      "task_config": "demo_clean",
+      "task_index": 47
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 287579408,
+      "task": "stack_bowls_two",
+      "task_config": "demo_clean",
+      "task_index": 47
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 995962466,
+      "task": "stack_bowls_three",
+      "task_config": "demo_clean",
+      "task_index": 46
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 711540699,
+      "task": "stack_bowls_three",
+      "task_config": "demo_clean",
+      "task_index": 46
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1514495018,
+      "task": "stack_bowls_three",
+      "task_config": "demo_clean",
+      "task_index": 46
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1177572394,
+      "task": "stack_bowls_three",
+      "task_config": "demo_clean",
+      "task_index": 46
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 985854240,
+      "task": "stack_bowls_three",
+      "task_config": "demo_clean",
+      "task_index": 46
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 544626860,
+      "task": "stack_bowls_three",
+      "task_config": "demo_clean",
+      "task_index": 46
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1358401946,
+      "task": "blocks_ranking_rgb",
+      "task_config": "demo_clean",
+      "task_index": 2
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 869969111,
+      "task": "blocks_ranking_rgb",
+      "task_config": "demo_clean",
+      "task_index": 2
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 606218336,
+      "task": "blocks_ranking_rgb",
+      "task_config": "demo_clean",
+      "task_index": 2
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1836383106,
+      "task": "blocks_ranking_rgb",
+      "task_config": "demo_clean",
+      "task_index": 2
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1168393377,
+      "task": "blocks_ranking_rgb",
+      "task_config": "demo_clean",
+      "task_index": 2
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 438518227,
+      "task": "blocks_ranking_rgb",
+      "task_config": "demo_clean",
+      "task_index": 2
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1640017546,
+      "task": "blocks_ranking_size",
+      "task_config": "demo_clean",
+      "task_index": 3
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1245713967,
+      "task": "blocks_ranking_size",
+      "task_config": "demo_clean",
+      "task_index": 3
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1980677757,
+      "task": "blocks_ranking_size",
+      "task_config": "demo_clean",
+      "task_index": 3
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 666957338,
+      "task": "blocks_ranking_size",
+      "task_config": "demo_clean",
+      "task_index": 3
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 1860293687,
+      "task": "blocks_ranking_size",
+      "task_config": "demo_clean",
+      "task_index": 3
+    },
+    {
+      "action_mode": "joint",
+      "group": "coordination",
+      "repeat": 1,
+      "seed": 97410772,
+      "task": "blocks_ranking_size",
+      "task_config": "demo_clean",
+      "task_index": 3
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1165349379,
+      "task": "place_bread_basket",
+      "task_config": "demo_clean",
+      "task_index": 22
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1847390703,
+      "task": "place_bread_basket",
+      "task_config": "demo_clean",
+      "task_index": 22
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1992748498,
+      "task": "place_bread_basket",
+      "task_config": "demo_clean",
+      "task_index": 22
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1878434596,
+      "task": "place_bread_basket",
+      "task_config": "demo_clean",
+      "task_index": 22
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 171226926,
+      "task": "place_bread_basket",
+      "task_config": "demo_clean",
+      "task_index": 22
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 909251882,
+      "task": "place_bread_basket",
+      "task_config": "demo_clean",
+      "task_index": 22
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 944395825,
+      "task": "place_can_basket",
+      "task_config": "demo_clean",
+      "task_index": 25
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 742660566,
+      "task": "place_can_basket",
+      "task_config": "demo_clean",
+      "task_index": 25
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 128741978,
+      "task": "place_can_basket",
+      "task_config": "demo_clean",
+      "task_index": 25
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 98294928,
+      "task": "place_can_basket",
+      "task_config": "demo_clean",
+      "task_index": 25
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1117205426,
+      "task": "place_can_basket",
+      "task_config": "demo_clean",
+      "task_index": 25
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1654429287,
+      "task": "place_can_basket",
+      "task_config": "demo_clean",
+      "task_index": 25
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 473151217,
+      "task": "place_cans_plasticbox",
+      "task_config": "demo_clean",
+      "task_index": 26
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 73825676,
+      "task": "place_cans_plasticbox",
+      "task_config": "demo_clean",
+      "task_index": 26
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1801531949,
+      "task": "place_cans_plasticbox",
+      "task_config": "demo_clean",
+      "task_index": 26
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1807285560,
+      "task": "place_cans_plasticbox",
+      "task_config": "demo_clean",
+      "task_index": 26
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1380720908,
+      "task": "place_cans_plasticbox",
+      "task_config": "demo_clean",
+      "task_index": 26
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1908056403,
+      "task": "place_cans_plasticbox",
+      "task_config": "demo_clean",
+      "task_index": 26
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 520527534,
+      "task": "place_container_plate",
+      "task_config": "demo_clean",
+      "task_index": 27
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 440073445,
+      "task": "place_container_plate",
+      "task_config": "demo_clean",
+      "task_index": 27
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 570617823,
+      "task": "place_container_plate",
+      "task_config": "demo_clean",
+      "task_index": 27
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1354137407,
+      "task": "place_container_plate",
+      "task_config": "demo_clean",
+      "task_index": 27
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 212072251,
+      "task": "place_container_plate",
+      "task_config": "demo_clean",
+      "task_index": 27
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 897991076,
+      "task": "place_container_plate",
+      "task_config": "demo_clean",
+      "task_index": 27
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1936046481,
+      "task": "place_object_basket",
+      "task_config": "demo_clean",
+      "task_index": 32
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1093375986,
+      "task": "place_object_basket",
+      "task_config": "demo_clean",
+      "task_index": 32
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1734658895,
+      "task": "place_object_basket",
+      "task_config": "demo_clean",
+      "task_index": 32
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1627762157,
+      "task": "place_object_basket",
+      "task_config": "demo_clean",
+      "task_index": 32
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1899403578,
+      "task": "place_object_basket",
+      "task_config": "demo_clean",
+      "task_index": 32
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1507834981,
+      "task": "place_object_basket",
+      "task_config": "demo_clean",
+      "task_index": 32
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 2051910298,
+      "task": "put_bottles_dustbin",
+      "task_config": "demo_clean",
+      "task_index": 38
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 244270764,
+      "task": "put_bottles_dustbin",
+      "task_config": "demo_clean",
+      "task_index": 38
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 649747757,
+      "task": "put_bottles_dustbin",
+      "task_config": "demo_clean",
+      "task_index": 38
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1864493433,
+      "task": "put_bottles_dustbin",
+      "task_config": "demo_clean",
+      "task_index": 38
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 2095499847,
+      "task": "put_bottles_dustbin",
+      "task_config": "demo_clean",
+      "task_index": 38
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1597855174,
+      "task": "put_bottles_dustbin",
+      "task_config": "demo_clean",
+      "task_index": 38
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 2124110150,
+      "task": "put_object_cabinet",
+      "task_config": "demo_clean",
+      "task_index": 39
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 309196791,
+      "task": "put_object_cabinet",
+      "task_config": "demo_clean",
+      "task_index": 39
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 740270815,
+      "task": "put_object_cabinet",
+      "task_config": "demo_clean",
+      "task_index": 39
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1860885536,
+      "task": "put_object_cabinet",
+      "task_config": "demo_clean",
+      "task_index": 39
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1740735958,
+      "task": "put_object_cabinet",
+      "task_config": "demo_clean",
+      "task_index": 39
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 128666604,
+      "task": "put_object_cabinet",
+      "task_config": "demo_clean",
+      "task_index": 39
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1378878593,
+      "task": "place_empty_cup",
+      "task_config": "demo_clean",
+      "task_index": 29
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 308361771,
+      "task": "place_empty_cup",
+      "task_config": "demo_clean",
+      "task_index": 29
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 191589184,
+      "task": "place_empty_cup",
+      "task_config": "demo_clean",
+      "task_index": 29
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 321329229,
+      "task": "place_empty_cup",
+      "task_config": "demo_clean",
+      "task_index": 29
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1218663396,
+      "task": "place_empty_cup",
+      "task_config": "demo_clean",
+      "task_index": 29
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 856824372,
+      "task": "place_empty_cup",
+      "task_config": "demo_clean",
+      "task_index": 29
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 379542227,
+      "task": "place_bread_skillet",
+      "task_config": "demo_clean",
+      "task_index": 23
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 730551572,
+      "task": "place_bread_skillet",
+      "task_config": "demo_clean",
+      "task_index": 23
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 2104030979,
+      "task": "place_bread_skillet",
+      "task_config": "demo_clean",
+      "task_index": 23
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 874465396,
+      "task": "place_bread_skillet",
+      "task_config": "demo_clean",
+      "task_index": 23
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1216755972,
+      "task": "place_bread_skillet",
+      "task_config": "demo_clean",
+      "task_index": 23
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1535214605,
+      "task": "place_bread_skillet",
+      "task_config": "demo_clean",
+      "task_index": 23
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1434182471,
+      "task": "place_burger_fries",
+      "task_config": "demo_clean",
+      "task_index": 24
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1082093834,
+      "task": "place_burger_fries",
+      "task_config": "demo_clean",
+      "task_index": 24
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 656072122,
+      "task": "place_burger_fries",
+      "task_config": "demo_clean",
+      "task_index": 24
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1009389932,
+      "task": "place_burger_fries",
+      "task_config": "demo_clean",
+      "task_index": 24
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1374131395,
+      "task": "place_burger_fries",
+      "task_config": "demo_clean",
+      "task_index": 24
+    },
+    {
+      "action_mode": "joint",
+      "group": "receptacle",
+      "repeat": 1,
+      "seed": 1665109980,
+      "task": "place_burger_fries",
+      "task_config": "demo_clean",
+      "task_index": 24
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 623132605,
+      "task": "place_a2b_left",
+      "task_config": "demo_clean",
+      "task_index": 20
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 781573241,
+      "task": "place_a2b_left",
+      "task_config": "demo_clean",
+      "task_index": 20
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 82417160,
+      "task": "place_a2b_left",
+      "task_config": "demo_clean",
+      "task_index": 20
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 137794359,
+      "task": "place_a2b_left",
+      "task_config": "demo_clean",
+      "task_index": 20
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 2032199412,
+      "task": "place_a2b_left",
+      "task_config": "demo_clean",
+      "task_index": 20
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1510160027,
+      "task": "place_a2b_left",
+      "task_config": "demo_clean",
+      "task_index": 20
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 2062845133,
+      "task": "place_a2b_right",
+      "task_config": "demo_clean",
+      "task_index": 21
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1896467389,
+      "task": "place_a2b_right",
+      "task_config": "demo_clean",
+      "task_index": 21
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1108722900,
+      "task": "place_a2b_right",
+      "task_config": "demo_clean",
+      "task_index": 21
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 186102940,
+      "task": "place_a2b_right",
+      "task_config": "demo_clean",
+      "task_index": 21
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1504907815,
+      "task": "place_a2b_right",
+      "task_config": "demo_clean",
+      "task_index": 21
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1856515500,
+      "task": "place_a2b_right",
+      "task_config": "demo_clean",
+      "task_index": 21
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 972901170,
+      "task": "move_can_pot",
+      "task_config": "demo_clean",
+      "task_index": 12
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 885438931,
+      "task": "move_can_pot",
+      "task_config": "demo_clean",
+      "task_index": 12
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 244511932,
+      "task": "move_can_pot",
+      "task_config": "demo_clean",
+      "task_index": 12
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1051037249,
+      "task": "move_can_pot",
+      "task_config": "demo_clean",
+      "task_index": 12
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1010549730,
+      "task": "move_can_pot",
+      "task_config": "demo_clean",
+      "task_index": 12
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1610295303,
+      "task": "move_can_pot",
+      "task_config": "demo_clean",
+      "task_index": 12
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 139309684,
+      "task": "move_stapler_pad",
+      "task_config": "demo_clean",
+      "task_index": 15
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 389624256,
+      "task": "move_stapler_pad",
+      "task_config": "demo_clean",
+      "task_index": 15
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 847662484,
+      "task": "move_stapler_pad",
+      "task_config": "demo_clean",
+      "task_index": 15
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 706975510,
+      "task": "move_stapler_pad",
+      "task_config": "demo_clean",
+      "task_index": 15
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1509756480,
+      "task": "move_stapler_pad",
+      "task_config": "demo_clean",
+      "task_index": 15
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1258140610,
+      "task": "move_stapler_pad",
+      "task_config": "demo_clean",
+      "task_index": 15
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1344565442,
+      "task": "move_pillbottle_pad",
+      "task_config": "demo_clean",
+      "task_index": 13
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 687040914,
+      "task": "move_pillbottle_pad",
+      "task_config": "demo_clean",
+      "task_index": 13
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 336927268,
+      "task": "move_pillbottle_pad",
+      "task_config": "demo_clean",
+      "task_index": 13
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 350906810,
+      "task": "move_pillbottle_pad",
+      "task_config": "demo_clean",
+      "task_index": 13
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 753249096,
+      "task": "move_pillbottle_pad",
+      "task_config": "demo_clean",
+      "task_index": 13
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 615199634,
+      "task": "move_pillbottle_pad",
+      "task_config": "demo_clean",
+      "task_index": 13
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 2127342716,
+      "task": "place_mouse_pad",
+      "task_config": "demo_clean",
+      "task_index": 31
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 172122547,
+      "task": "place_mouse_pad",
+      "task_config": "demo_clean",
+      "task_index": 31
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 952540813,
+      "task": "place_mouse_pad",
+      "task_config": "demo_clean",
+      "task_index": 31
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1301520743,
+      "task": "place_mouse_pad",
+      "task_config": "demo_clean",
+      "task_index": 31
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1227898796,
+      "task": "place_mouse_pad",
+      "task_config": "demo_clean",
+      "task_index": 31
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 594118882,
+      "task": "place_mouse_pad",
+      "task_config": "demo_clean",
+      "task_index": 31
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1208268016,
+      "task": "place_object_scale",
+      "task_config": "demo_clean",
+      "task_index": 33
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 526406297,
+      "task": "place_object_scale",
+      "task_config": "demo_clean",
+      "task_index": 33
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 361284483,
+      "task": "place_object_scale",
+      "task_config": "demo_clean",
+      "task_index": 33
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1290982607,
+      "task": "place_object_scale",
+      "task_config": "demo_clean",
+      "task_index": 33
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1986723312,
+      "task": "place_object_scale",
+      "task_config": "demo_clean",
+      "task_index": 33
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1802060167,
+      "task": "place_object_scale",
+      "task_config": "demo_clean",
+      "task_index": 33
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1162606146,
+      "task": "place_object_stand",
+      "task_config": "demo_clean",
+      "task_index": 34
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 706783987,
+      "task": "place_object_stand",
+      "task_config": "demo_clean",
+      "task_index": 34
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 2146271964,
+      "task": "place_object_stand",
+      "task_config": "demo_clean",
+      "task_index": 34
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 295672587,
+      "task": "place_object_stand",
+      "task_config": "demo_clean",
+      "task_index": 34
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 13813044,
+      "task": "place_object_stand",
+      "task_config": "demo_clean",
+      "task_index": 34
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1799387426,
+      "task": "place_object_stand",
+      "task_config": "demo_clean",
+      "task_index": 34
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1896541698,
+      "task": "place_phone_stand",
+      "task_config": "demo_clean",
+      "task_index": 35
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 244556559,
+      "task": "place_phone_stand",
+      "task_config": "demo_clean",
+      "task_index": 35
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 724104026,
+      "task": "place_phone_stand",
+      "task_config": "demo_clean",
+      "task_index": 35
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1854171488,
+      "task": "place_phone_stand",
+      "task_config": "demo_clean",
+      "task_index": 35
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 499148126,
+      "task": "place_phone_stand",
+      "task_config": "demo_clean",
+      "task_index": 35
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1201039962,
+      "task": "place_phone_stand",
+      "task_config": "demo_clean",
+      "task_index": 35
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1623240606,
+      "task": "place_fan",
+      "task_config": "demo_clean",
+      "task_index": 30
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1629231784,
+      "task": "place_fan",
+      "task_config": "demo_clean",
+      "task_index": 30
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 275756126,
+      "task": "place_fan",
+      "task_config": "demo_clean",
+      "task_index": 30
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1087520580,
+      "task": "place_fan",
+      "task_config": "demo_clean",
+      "task_index": 30
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 729154230,
+      "task": "place_fan",
+      "task_config": "demo_clean",
+      "task_index": 30
+    },
+    {
+      "action_mode": "joint",
+      "group": "precision",
+      "repeat": 1,
+      "seed": 1639246847,
+      "task": "place_fan",
+      "task_config": "demo_clean",
+      "task_index": 30
+    }
+  ],
+  "episodes_per_task": 6,
+  "formal_result": true,
+  "historical_completed_keys_checked": 171,
+  "repeat": 1,
+  "schema_version": 1,
+  "seed_derivation": "uint31(SHA256(namespace\\0repeat\\0task_index\\0episode_index)[:8])",
+  "seed_namespace": "iclr2027-table5-robotwin-formal-reset-v2",
+  "status": "robotwin_formal_reset_bank_frozen"
+}

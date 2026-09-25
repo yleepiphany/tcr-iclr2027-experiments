@@ -1,0 +1,15 @@
+{
+  "allowed": true,
+  "authorized_request": "User asked to continue non-OpenVLA/non-Fast-WAM evaluation, with faithful numerical smoothing",
+  "gpu": 6,
+  "gpu_uuid": "GPU-da625da2-f504-7927-4025-907e876718aa",
+  "host": "dsw-824375-57c745db88-n6tv9",
+  "issued_at_utc": "2026-09-25T05:12:56.687462+00:00",
+  "native_smoke_sha256": "454a48b6e639020a0ec93604831cc2bb1d001cb076f29800c168197b2ca85e91",
+  "plan_sha256": "bb25730b256669eecd1180026f1339cbb6b52d16342d9e65750e521e1b39ad0b",
+  "run": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/cpu-plan-v1",
+  "schema": "robotwin_regmeanpp_m3_single_use_execution_permit_v1",
+  "scope": "one RoboTwin RegMean++ M3 67stage materialization and native model acceptance; zero scored episodes",
+  "stage": "materialize",
+  "supervisor_plan_sha256": "aa0870c2be8d3a1fb662c2f697aeddfb076af7bff2d1359c015dac494c86d683"
+}

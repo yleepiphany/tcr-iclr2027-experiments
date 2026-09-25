@@ -1,0 +1,9 @@
+{
+  "status": "CPU_PREPARED_GPU_NOT_STARTED",
+  "plan_sha256": "7f4bc975eaca6c8a685bd471eeb90ec59e0124ae52a3363cbfdf6b97b3c5adc0",
+  "stage_jobs": 9,
+  "formal_jobs": 4,
+  "new_formal_episodes": 400,
+  "reused_formal_episodes": 100,
+  "combined_formal_episodes": 500
+}

@@ -1,0 +1,43 @@
+{
+  "admission": {
+    "board": {
+      "compute_pids": [],
+      "free_mib": 81150,
+      "gpu": 4,
+      "used_mib": 4,
+      "utilization": 0,
+      "uuid": "GPU-48baba1c-f0e7-93b7-4a30-b3c21d20e61a"
+    },
+    "board_checks": 182,
+    "leases_retained": true,
+    "wait_seconds": 2715.145740586333
+  },
+  "core_plan_sha256": "bb25730b256669eecd1180026f1339cbb6b52d16342d9e65750e521e1b39ad0b",
+  "gpu": 4,
+  "host": "dsw-824375-57c745db88-n6tv9",
+  "leases": [
+    {
+      "device": 102,
+      "fd": 4,
+      "inode": 77043194,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-card-flocks/dsw-824375-57c745db88-n6tv9/gpu-4-GPU-48baba1c-f0e7-93b7-4a30-b3c21d20e61a.lock"
+    },
+    {
+      "device": 102,
+      "fd": 5,
+      "inode": 134509246,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/resource-leases/dsw-824375-57c745db88-n6tv9/gpu-4.lock"
+    },
+    {
+      "device": 102,
+      "fd": 6,
+      "inode": 147445123,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-card-flocks/dsw-824375-57c745db88-n6tv9/build-slot-1.lock"
+    }
+  ],
+  "parent_pid": 3129312,
+  "permit_sha256": "4d95fd130ae705b208313ad0b6da1da5f063b26e3e93f930794ae2cf0b9eecec",
+  "schema": "robotwin_m3_inherited_flock_handoff_v2",
+  "supervisor_plan_sha256": "5273959bf35c2627bbde5a271841e31304757cf11fcae626da1afa04f1cdf42f",
+  "uuid": "GPU-48baba1c-f0e7-93b7-4a30-b3c21d20e61a"
+}

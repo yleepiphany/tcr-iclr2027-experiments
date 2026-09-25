@@ -1,0 +1,29 @@
+{
+  "status": "CPU_READY_REVIEW_BEFORE_GPU",
+  "at": "2026-09-25T05:09:15.813384+00:00",
+  "source": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_queue_v3/queue_featcal.py",
+  "source_sha256": "ede2a14067b98422b13bfff0427c8fe7ca89cd43aa8cec6b9eb6da1d4eb098e3",
+  "plan": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v3/plan.json",
+  "plan_sha256": "7f4bc975eaca6c8a685bd471eeb90ec59e0124ae52a3363cbfdf6b97b3c5adc0",
+  "cpu_tests_passed": 15,
+  "cpu_preflight_passed": true,
+  "frozen_assets": 223,
+  "new_stage_jobs": 9,
+  "new_formal_episodes": 400,
+  "reused_formal_episodes": 100,
+  "combined_formal_episodes": 500,
+  "inherited_model_sha256": "e1d88a4570a31d742dba600abed033f6cd1a97c30670961cb035750bcfad745f",
+  "inherited_spatial": {
+    "episodes": 100,
+    "eval_info_sha256": "c59eef3fa51bcc090bb19beeb1fdf5a2289a856bbe5de1080727c84eb686c266",
+    "id": "featcal-spatial-goal-libero_spatial",
+    "model_sha256": "e1d88a4570a31d742dba600abed033f6cd1a97c30670961cb035750bcfad745f",
+    "reset_receipt_sha256": "a46a30dc55c99e7a06014689b4f7cbcd1581342239c2a90709246299faffd401",
+    "subset": "spatial-goal",
+    "successes": 88,
+    "suite": "libero_spatial"
+  },
+  "started_exists": false,
+  "permit_consumed_exists": false,
+  "gpu_launched_by_this_delivery": false
+}
