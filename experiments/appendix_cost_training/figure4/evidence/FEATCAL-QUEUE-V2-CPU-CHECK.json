@@ -1,0 +1,17 @@
+{
+  "status": "PASS_CPU_QUEUE_PREPARATION",
+  "version": 2,
+  "cpu_tests_passed": 10,
+  "test_runtime": "native PI0.5 Python, CUDA_VISIBLE_DEVICES empty",
+  "test_output": "Ran 10 tests in 0.090s; OK",
+  "queue_plan_sha256": "2847959238662129026f819da7f99783fe4e5bc72e6ad8349e0110c20b73fa01",
+  "source_sha256": "817ada639f09330a114f1def01c4dcbfeb9be51dfdbf42210edc76d70a95384c",
+  "test_source_sha256": "1cb090de3487043ba07c9716458fa30b81fb3ab94391696e1fb55ba047c2a192",
+  "backend": {
+    "smoke_teachers_solve_override": "1",
+    "formal_override": null
+  },
+  "gpu_launched_by_preparation": false,
+  "receipt_origin": "Release record of executed CPU test transcript; native adapter 12-test source receipt is separately byte-preserved",
+  "no_live_server_mutation_by_packaging": true
+}

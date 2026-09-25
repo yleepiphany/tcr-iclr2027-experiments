@@ -1,0 +1,14 @@
+{
+  "at_utc": "2026-09-25T02:31:48.708295+00:00",
+  "pid": 2932964,
+  "kernel_starttime": 489701190,
+  "action": "SIGTERM only own FeatCal Figure4 v1 supervisor after full SHA gate but before GPU worker",
+  "reason": "build TF32 backend must preserve frozen Table1 TORCH_ALLOW_TF32_CUBLAS_OVERRIDE=1; v1 cleared it",
+  "state_before": {
+    "accepted": 0,
+    "active": 0,
+    "pending": 14
+  },
+  "no_gpu_worker_launched": true,
+  "no_training_or_other_project_signalled": true
+}

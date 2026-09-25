@@ -82,6 +82,96 @@
       "role": "Fixed native finite-action check input",
       "required": true,
       "exists_at_snapshot": true
+    },
+    {
+      "id": "fig4.featcal.shard_index.spatial-goal",
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-adapter-v1/spatial-goal/shard-index.json",
+      "bytes": 11003062,
+      "sha256": "9f5265c71ae1330ccdd8e989f664d53257bc35aefb47b6688155582b6c692392",
+      "role": "Frozen large FeatCal shard-index metadata; external, regenerated only via a new reviewed plan",
+      "required": true,
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "fig4.featcal.shard_index.spatial-object-goal",
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-adapter-v1/spatial-object-goal/shard-index.json",
+      "bytes": 16513266,
+      "sha256": "0b4dbdc784ee785a9e9b1ac6c0ca64ccf25a554414577c5d3b21ef9a8623a683",
+      "role": "Frozen large FeatCal shard-index metadata; external, regenerated only via a new reviewed plan",
+      "required": true,
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "fig4.featcal.observations.goal",
+      "workspace_relative_path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/goal/observations.safetensors",
+      "bytes": 90444942,
+      "sha256": "192c13c2e61d75f5e04f1753d6ae395cb3776357db99cc165076ddbac18bdbc0",
+      "role": "Original static observation tensor bank for FeatCal subset construction",
+      "required": true,
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "fig4.featcal.model.f1e4b18070aa",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/soups-v1/spatial-goal/model.safetensors",
+      "bytes": 9354050784,
+      "sha256": "74b007ca88a7e3070e500b78562e0618bf398eae4f23e0543ef046829d0f0189",
+      "role": "Frozen dense model or selected Soup input for FeatCal subset construction",
+      "required": true,
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "fig4.featcal.model.4892bbda8162",
+      "workspace_relative_path": "pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model/model.safetensors",
+      "bytes": 9354050784,
+      "sha256": "f2165fad32a4b431ca1488a5b886f6738be9e8b480298ecc9e0b55d87d26f365",
+      "role": "Frozen dense model or selected Soup input for FeatCal subset construction",
+      "required": true,
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "fig4.featcal.model.46261714a5c2",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/pretrained_model/model.safetensors",
+      "bytes": 9354050784,
+      "sha256": "008cb4a76898edbb70edb83bd54cb472722ba49b2760acfde24381e6d14fc75f",
+      "role": "Frozen dense model or selected Soup input for FeatCal subset construction",
+      "required": true,
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "fig4.featcal.model.1b1092fba41b",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/pretrained_model/model.safetensors",
+      "bytes": 9354050784,
+      "sha256": "af9e258354d759710d04f13d40ac6e2e4377d5063f56fa8e0ef574f8c96e2732",
+      "role": "Frozen dense model or selected Soup input for FeatCal subset construction",
+      "required": true,
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "fig4.featcal.observations.object",
+      "workspace_relative_path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/object/observations.safetensors",
+      "bytes": 90444942,
+      "sha256": "2be7ac04d5c72b27efa3633969de57c6b2e9adaac60c03b731e70f7a0e9417de",
+      "role": "Original static observation tensor bank for FeatCal subset construction",
+      "required": true,
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "fig4.featcal.model.3faab864a6df",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/soups-v1/spatial-object-goal/model.safetensors",
+      "bytes": 9354050784,
+      "sha256": "c49afabe84c7ad31ae657c7369c7c7cd562ef4b0de7133487d6584607ba36cf1",
+      "role": "Frozen dense model or selected Soup input for FeatCal subset construction",
+      "required": true,
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "fig4.featcal.model.1fcf6ffb7d3f",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/pretrained_model/model.safetensors",
+      "bytes": 9354050784,
+      "sha256": "a74c9349a78e122ecf9799e404ad748ffebba0b814b95e3dae4a7b32837f1510",
+      "role": "Frozen dense model or selected Soup input for FeatCal subset construction",
+      "required": true,
+      "exists_at_snapshot": true
     }
   ]
 }

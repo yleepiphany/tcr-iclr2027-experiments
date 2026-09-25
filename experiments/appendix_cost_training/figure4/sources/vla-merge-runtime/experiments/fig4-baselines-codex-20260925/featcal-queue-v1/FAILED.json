@@ -1,0 +1,24 @@
+{
+  "accepted": {},
+  "error": "ValueError('Owner stopped queue; no retry')",
+  "other_processes_signalled": false,
+  "partial_artifacts_preserved": true,
+  "pending": [
+    "spatial-goal-smoke",
+    "spatial-goal-teacher-spatial",
+    "spatial-goal-teacher-goal",
+    "spatial-goal-solve",
+    "featcal-spatial-goal-libero_spatial",
+    "featcal-spatial-goal-libero_goal",
+    "spatial-object-goal-smoke",
+    "spatial-object-goal-teacher-spatial",
+    "spatial-object-goal-teacher-object",
+    "spatial-object-goal-teacher-goal",
+    "spatial-object-goal-solve",
+    "featcal-spatial-object-goal-libero_spatial",
+    "featcal-spatial-object-goal-libero_object",
+    "featcal-spatial-object-goal-libero_goal"
+  ],
+  "status": "failed_no_retry",
+  "time": "2026-09-25T02:32:05.066480+00:00"
+}

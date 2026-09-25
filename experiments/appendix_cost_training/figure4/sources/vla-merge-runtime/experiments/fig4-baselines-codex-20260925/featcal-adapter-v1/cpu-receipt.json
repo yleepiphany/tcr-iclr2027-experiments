@@ -1,0 +1,43 @@
+{
+  "status": "CPU_PASS_GPU_NOT_RUN",
+  "at": "2026-09-25T02:04:13.413952+00:00",
+  "cpu_tests": 12,
+  "source": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_subset_v1",
+  "subset_plans": [
+    {
+      "subset": "spatial-goal",
+      "plan": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-adapter-v1/spatial-goal/plan.json",
+      "sha256": "d1c5791ca7cd32e2b87ab9e4cdf490836f45f07591b4d9f754a178809b54e8e4",
+      "observations": 100,
+      "noise_states": 300,
+      "shards": 1880,
+      "stages": 47,
+      "weights": 418,
+      "models_full_hash_verified": 4,
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/featcal-spatial-goal/pretrained_model",
+      "checkpoint_exists": false
+    },
+    {
+      "subset": "spatial-object-goal",
+      "plan": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-adapter-v1/spatial-object-goal/plan.json",
+      "sha256": "31e63c6b83e2a95b87d8d393b2d978ac0a8ba5711a84fb5d2853bb97a870b205",
+      "observations": 150,
+      "noise_states": 450,
+      "shards": 2820,
+      "stages": 47,
+      "weights": 418,
+      "models_full_hash_verified": 5,
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/featcal-spatial-object-goal/pretrained_model",
+      "checkpoint_exists": false
+    }
+  ],
+  "source_sha256": {
+    "test_subset_graph_cpu.py": "4c3144c37ea87edd1a0b24e7b2cbbf221a29a949460002c9db34c1814ebf3675",
+    "featcal_subset.py": "b9f30abd5985c5eb389b758754410ce3201d0bc8575fafbdda07949e05caf177",
+    "subset_inputs.py": "604f05c5a856697c8b99e64b70981e59cae1354f4a2b415cd9028db466e69e91",
+    "test_subset_inputs_cpu.py": "33ae7077a7e8fe382dc4112aafc9f38388f92b79e7044907e9b49390e1981801"
+  },
+  "cuda_initialized": false,
+  "gpu_processes_launched": 0,
+  "formal_episodes_launched": 0
+}

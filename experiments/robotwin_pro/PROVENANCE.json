@@ -904,6 +904,14 @@
       "bytes": 1099,
       "added_utc": "2026-09-25",
       "origin": "RoboTwin_M3_native_smoke_readiness"
+    },
+    {
+      "path": "evidence/ROBOTWIN-TIES-540-INDEPENDENT-AUDIT.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/coordination/2026-09-25/robotwin-ties-540-independent-audit.json",
+      "sha256": "3615df78c1e7880b57f34cad5f23e76abcc72264b79530c800ce3e9c4d49927f",
+      "bytes": 181524,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_TIES_full_540_raw_episode_independent_audit"
     }
   ]
 }

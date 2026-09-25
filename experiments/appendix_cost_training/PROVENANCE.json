@@ -2016,6 +2016,409 @@
       "packaged_path": "figure4/sources/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/attempt-01/plan.json",
       "acquired_date": "2026-09-25",
       "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "pi05_lora_finetune_v2_20260826/lerobot/src/lerobot/policies/pi05/modeling_pi05.py",
+      "bytes": 59411,
+      "sha256": "5746164601a3d5b958f8a88b75e8d9c6df6b3485a623246f07a024fea9fa2773",
+      "packaged_path": "figure4/sources/pi05_lora_finetune_v2_20260826/lerobot/src/lerobot/policies/pi05/modeling_pi05.py",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "pi05_lora_finetune_v2_20260826/lerobot/src/lerobot/policies/pi_gemma.py",
+      "bytes": 14664,
+      "sha256": "faec69b28f74b42cfb6217898f9a5ee29a442a5f8275339eb2d4453d450dc412",
+      "packaged_path": "figure4/sources/pi05_lora_finetune_v2_20260826/lerobot/src/lerobot/policies/pi_gemma.py",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/featcal_queue_v1/libero-config/config.yaml",
+      "bytes": 335,
+      "sha256": "b882b1dce2799558f674fc076335fab27835184da8fa471418d9de8ce61bd8d2",
+      "packaged_path": "figure4/sources/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_queue_v1/libero-config/config.yaml",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/featcal_queue_v1/queue_featcal.py",
+      "bytes": 30758,
+      "sha256": "14a5ee0dcc2e79f17c7f09d321692cd4022846ec82eca03c9fdab9f592fb5c4a",
+      "packaged_path": "figure4/sources/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_queue_v1/queue_featcal.py",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/featcal_queue_v1/test_queue_cpu.py",
+      "bytes": 8381,
+      "sha256": "76cbc274c32e78d7db5be5879cd333a1a3bb6eb03c2e83174db8fe4977468b26",
+      "packaged_path": "figure4/sources/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_queue_v1/test_queue_cpu.py",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/featcal_queue_v2/libero-config/config.yaml",
+      "bytes": 335,
+      "sha256": "b882b1dce2799558f674fc076335fab27835184da8fa471418d9de8ce61bd8d2",
+      "packaged_path": "figure4/sources/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_queue_v2/libero-config/config.yaml",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/featcal_queue_v2/queue_featcal.py",
+      "bytes": 31765,
+      "sha256": "817ada639f09330a114f1def01c4dcbfeb9be51dfdbf42210edc76d70a95384c",
+      "packaged_path": "figure4/sources/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_queue_v2/queue_featcal.py",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/featcal_queue_v2/test_queue_cpu.py",
+      "bytes": 8858,
+      "sha256": "1cb090de3487043ba07c9716458fa30b81fb3ab94391696e1fb55ba047c2a192",
+      "packaged_path": "figure4/sources/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_queue_v2/test_queue_cpu.py",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/featcal_subset_v1/README.md",
+      "bytes": 5726,
+      "sha256": "d244cece2e064f40b1cefd2bfe77b8d8343fb14f0a018d89e546292f3730ee22",
+      "packaged_path": "figure4/sources/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_subset_v1/README.md",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/featcal_subset_v1/featcal_subset.py",
+      "bytes": 29031,
+      "sha256": "b9f30abd5985c5eb389b758754410ce3201d0bc8575fafbdda07949e05caf177",
+      "packaged_path": "figure4/sources/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_subset_v1/featcal_subset.py",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/featcal_subset_v1/subset_inputs.py",
+      "bytes": 6447,
+      "sha256": "604f05c5a856697c8b99e64b70981e59cae1354f4a2b415cd9028db466e69e91",
+      "packaged_path": "figure4/sources/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_subset_v1/subset_inputs.py",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/featcal_subset_v1/test_subset_graph_cpu.py",
+      "bytes": 9553,
+      "sha256": "4c3144c37ea87edd1a0b24e7b2cbbf221a29a949460002c9db34c1814ebf3675",
+      "packaged_path": "figure4/sources/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_subset_v1/test_subset_graph_cpu.py",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/featcal_subset_v1/test_subset_inputs_cpu.py",
+      "bytes": 3357,
+      "sha256": "33ae7077a7e8fe382dc4112aafc9f38388f92b79e7044907e9b49390e1981801",
+      "packaged_path": "figure4/sources/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_subset_v1/test_subset_inputs_cpu.py",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge/scripts/run_pi05_featcal_formal_full.py",
+      "bytes": 49137,
+      "sha256": "515ee298cb800cd26bec9f803ff4fc39b8b32ba3e75179e2766b6379995b9fe4",
+      "packaged_path": "figure4/sources/vla-merge/scripts/run_pi05_featcal_formal_full.py",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge/scripts/run_pi05_featcal_teacher_mini_v2.py",
+      "bytes": 41755,
+      "sha256": "da4e8fc80953d645e09ecc1c230903c036491ba6ec39401411a3eb57fc0c35e3",
+      "packaged_path": "figure4/sources/vla-merge/scripts/run_pi05_featcal_teacher_mini_v2.py",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge/src/vla_merge/featcal_cache_plan.py",
+      "bytes": 39955,
+      "sha256": "4b5aa596dd39b857b5da60fdd3a4080233153ce32f04cab660cc844e42f67d13",
+      "packaged_path": "figure4/sources/vla-merge/src/vla_merge/featcal_cache_plan.py",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge/src/vla_merge/featcal_execution.py",
+      "bytes": 4202,
+      "sha256": "d50db5553d174c4e05bceaefceb14beb47a5558f955325d5a894f014bee82f73",
+      "packaged_path": "figure4/sources/vla-merge/src/vla_merge/featcal_execution.py",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge/src/vla_merge/featcal_forward_order.py",
+      "bytes": 36158,
+      "sha256": "712282ed7d9fad08c20f55e4330b2b29545ac5180f41a80301c36279762c9ede",
+      "packaged_path": "figure4/sources/vla-merge/src/vla_merge/featcal_forward_order.py",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge/src/vla_merge/featcal_hybrid_solve.py",
+      "bytes": 22242,
+      "sha256": "d44597ad37397dbb7ffd752891943644297fdd8224e09f7f106ff7e3ce93863d",
+      "packaged_path": "figure4/sources/vla-merge/src/vla_merge/featcal_hybrid_solve.py",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge/src/vla_merge/featcal_prefix_chain.py",
+      "bytes": 26079,
+      "sha256": "7451aba3fd66e89b4c3b5c2318d54cd87fe7662eef7201acdc730910239af625",
+      "packaged_path": "figure4/sources/vla-merge/src/vla_merge/featcal_prefix_chain.py",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-adapter-v1/cpu-receipt.json",
+      "bytes": 2071,
+      "sha256": "0d82247ea1c6985eb20aac3a8421d0bdeeeb6c191a9b8158180557a9522c0686",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-adapter-v1/cpu-receipt.json",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-adapter-v1/spatial-goal/plan.json",
+      "bytes": 16701,
+      "sha256": "d1c5791ca7cd32e2b87ab9e4cdf490836f45f07591b4d9f754a178809b54e8e4",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-adapter-v1/spatial-goal/plan.json",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-adapter-v1/spatial-goal/quotas.json",
+      "bytes": 180194,
+      "sha256": "e53aeddad4a81e129a81c898e9d0e8812cb90b3cf15d5ce040c05b65ddc5fd2f",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-adapter-v1/spatial-goal/quotas.json",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-adapter-v1/spatial-object-goal/plan.json",
+      "bytes": 20971,
+      "sha256": "31e63c6b83e2a95b87d8d393b2d978ac0a8ba5711a84fb5d2853bb97a870b205",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-adapter-v1/spatial-object-goal/plan.json",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-adapter-v1/spatial-object-goal/quotas.json",
+      "bytes": 180194,
+      "sha256": "e53aeddad4a81e129a81c898e9d0e8812cb90b3cf15d5ce040c05b65ddc5fd2f",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-adapter-v1/spatial-object-goal/quotas.json",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v1/ASSET-GATE.json",
+      "bytes": 114,
+      "sha256": "3e110ae414e2bc509b993081fc7a2c561dec5564a9d4627521318e6b5e1cd587",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v1/ASSET-GATE.json",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v1/AUTHORIZATION-CONSUMED.json",
+      "bytes": 245,
+      "sha256": "adfc594065fffebd64408dc9cba1c96ef21c4229af3d9cd1e486fba154e1bdf7",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v1/AUTHORIZATION-CONSUMED.json",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v1/FAILED.json",
+      "bytes": 793,
+      "sha256": "7baba13c8fe2b51e76d2b88c99d018a0d45d4532d163a9454cd0c928e4ebd01d",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v1/FAILED.json",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v1/PERMIT-TEMPLATE-NOT-AUTHORIZED.json",
+      "bytes": 1120,
+      "sha256": "81d069ad60b7b56508987e80784e8786a27858fb1ada4bbd604efe7fd2d5fea6",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v1/PERMIT-TEMPLATE-NOT-AUTHORIZED.json",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v1/PLAN-SHA256.json",
+      "bytes": 83,
+      "sha256": "b2e7b6ddc17fd50f2c7f7559e2ad2eb2867045ddb352f0e79a951a71c0c82bb6",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v1/PLAN-SHA256.json",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v1/STARTED.json",
+      "bytes": 180,
+      "sha256": "6ef18f88856bdb40077f2e244c4623da1b5ddd19d59bc14ab254d91441e0367c",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v1/STARTED.json",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v1/launch-receipt.json",
+      "bytes": 890,
+      "sha256": "8e151ab86ea0d073766ae4fd3961ef467338fc34863c2ce66881f339eb48cddb",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v1/launch-receipt.json",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v1/plan.json",
+      "bytes": 35411,
+      "sha256": "d866804df02e212c11083f9d3b26acc0f88abcd8315fa8521a83c64a7ca36a40",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v1/plan.json",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v1/state.json",
+      "bytes": 694,
+      "sha256": "86e5ca9698577e978d634adfc9a869af67ee4114259df132098ac73301d99d4e",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v1/state.json",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v1/tf32-v1-stop-before-gpu.json",
+      "bytes": 481,
+      "sha256": "8125b4c81f7a725847622f634501c33c76ed3dbfa525c4da56c580c643d1ec08",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v1/tf32-v1-stop-before-gpu.json",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/PERMIT-TEMPLATE-NOT-AUTHORIZED.json",
+      "bytes": 1120,
+      "sha256": "1fb75871cf818eee6ef48970b0684737c4e343f5f8f8e0405977114803e12510",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/PERMIT-TEMPLATE-NOT-AUTHORIZED.json",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/PLAN-SHA256.json",
+      "bytes": 83,
+      "sha256": "023a1ab81aaa9c44df105922ba7118b49487a7e8537a84132ad3be668b8614cc",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/PLAN-SHA256.json",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/plan.json",
+      "bytes": 36313,
+      "sha256": "2847959238662129026f819da7f99783fe4e5bc72e6ad8349e0110c20b73fa01",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/plan.json",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "acquired_date": "2026-09-25",
+      "acquisition_source_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/launch-receipt.json",
+      "bytes": 923,
+      "sha256": "f7e17ad9bd2edf5f3b9a0445584e4257ffa4f07bc887db00c6325c4b6f389bbe",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/launch-receipt.json",
+      "acquired_at_utc": "2026-09-25T02:42:51.922221+00:00",
+      "acquired_date": "2026-09-25"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/AUTHORIZATION-CONSUMED.json",
+      "bytes": 245,
+      "sha256": "685b7909f15ad2c50dd1e857577a4a53456520a9460ba3a60c9928dc3adf5681",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/AUTHORIZATION-CONSUMED.json",
+      "acquired_at_utc": "2026-09-25T02:42:51.922221+00:00",
+      "acquired_date": "2026-09-25"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/STARTED.json",
+      "bytes": 180,
+      "sha256": "e6c1e840a7b09663fc50a3050f8815d1c5fa1e3aabe053239ff84130e9240ba2",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/STARTED.json",
+      "acquired_at_utc": "2026-09-25T02:42:51.922221+00:00",
+      "acquired_date": "2026-09-25"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/ASSET-GATE.json",
+      "bytes": 114,
+      "sha256": "f1354aece01c29a941faf472e4a075f70a14c94919b1b73dc10bb2fba6f7a786",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/ASSET-GATE.json",
+      "acquired_at_utc": "2026-09-25T02:42:51.922221+00:00",
+      "acquired_date": "2026-09-25"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/state.json",
+      "bytes": 694,
+      "sha256": "360d9d8b82ffd7444ae183a9f89eca0d597dec1fd7df3e9fe70cd691105be0c9",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-queue-v2/state.json",
+      "acquired_at_utc": "2026-09-25T02:42:51.922221+00:00",
+      "acquired_date": "2026-09-25"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/goal/manifest.json",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/goal/manifest.json",
+      "bytes": 61929,
+      "sha256": "a38db754641d64c2b98efdc2266aaec2dcee84dfcdac048d29b8baee89d6bcd5",
+      "acquired_date": "2026-09-25"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/spatial/manifest.json",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/spatial/manifest.json",
+      "bytes": 67719,
+      "sha256": "6ded802341017e8e97f86b11f326bf969f3fe8ada6c33d8e9fe4e9087bf539f4",
+      "acquired_date": "2026-09-25"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/object/manifest.json",
+      "packaged_path": "figure4/sources/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/object/manifest.json",
+      "bytes": 64504,
+      "sha256": "5bf0c319c6e9f4da1cfac63bcc966fc50d55fd508f23b5ce8bda08570a741c18",
+      "acquired_date": "2026-09-25"
     }
   ],
   "external_import_roots": [
@@ -2071,6 +2474,12 @@
       "acquired_at_utc": "2026-09-25T01:52:14.670090+00:00",
       "provenance": "figure4/PROVENANCE.json",
       "files": 122
+    },
+    {
+      "scope": "Figure4 FeatCal subset API and safe v2 queue",
+      "acquired_at_utc": "2026-09-25T02:37:15.458234+00:00",
+      "provenance": "figure4/PROVENANCE.json",
+      "files": 38
     }
   ]
 }

@@ -79,6 +79,41 @@ def test_regmean_contract():
         else:raise ValueError('Unregistered ridge accepted')
     return {'rows':totals,'excluded_expert_and_ridge_rejected':True}
 
+def test_featcal_queue():
+    master=read(RUNTIME/'plan.json')
+    api_receipt=read(RUNTIME/'featcal-adapter-v1/cpu-receipt.json')
+    require(api_receipt['status']=='CPU_PASS_GPU_NOT_RUN' and api_receipt['cpu_tests']==12,'FeatCal adapter evidence differs')
+    for row in api_receipt['subset_plans']:
+        path=RUNTIME/'featcal-adapter-v1'/row['subset']/'plan.json';p=read(path)
+        require(sha(path)==row['sha256'],'FeatCal subset plan changed')
+        count=len(p['groups'])
+        require(count in [2,3] and p['observations']==50*count and p['noise_states']==150*count and p['regression_rows']==1110300*count,'FeatCal budget differs')
+        require((p['stages'],p['linear_weights'],p['alpha'],p['rho'],p['lambda'],p['eps'])==(47,418,.3,2.,.05,1e-8),'FeatCal method differs')
+        for source,digest in p['implementations'].items():
+            require(sha(SOURCES/source.removeprefix(ORIGINAL_ROOT))==digest,'FeatCal implementation changed')
+    qpath=RUNTIME/'featcal-queue-v2/plan.json';p=read(qpath)
+    require(sha(qpath)==read(qpath.parent/'PLAN-SHA256.json')['sha256'],'FeatCal queue changed')
+    require(len(p['jobs'])==14 and sum(j.get('episodes',0) for j in p['jobs'])==500,'FeatCal stage/formal matrix differs')
+    reference=p['backend']['reference'];original=read(SOURCES/reference['path'].removeprefix(ORIGINAL_ROOT))
+    require(original['backend']=={'tf32_override':'1'} and sha(SOURCES/reference['path'].removeprefix(ORIGINAL_ROOT))==reference['sha256'],'Original backend binding differs')
+    queue=load(CODE/'featcal_queue_v2/queue_featcal.py','released_figure4_featcal_queue')
+    require(queue.make_jobs(master)==p['jobs'],'FeatCal queue jobs differ from parent templates')
+    for stage in ['smoke','teachers','solve']:
+        require(queue.environment(1,stage)['TORCH_ALLOW_TF32_CUBLAS_OVERRIDE']=='1','Construction TF32 differs')
+    require('TORCH_ALLOW_TF32_CUBLAS_OVERRIDE' not in queue.environment(1,'formal'),'Construction backend leaked into formal')
+    idle={'uuid':'synthetic','free_mib':49152,'used_mib':0,'utilization':0,'compute':[]}
+    require(queue.resource_ok(idle,120*2**30),'Valid resource boundary rejected')
+    require(not queue.resource_ok({**idle,'compute':['unknown-process']},120*2**30),'Occupied card accepted')
+    require(not queue.resource_ok({**idle,'free_mib':49151},120*2**30),'Low-memory card accepted')
+    permit=read(qpath.parent/'PERMIT-TEMPLATE-NOT-AUTHORIZED.json')
+    try:queue.validate_permit(permit,p,sha(qpath))
+    except ValueError:pass
+    else:raise ValueError('Unauthorized permit template accepted')
+    stopped=read(RUNTIME/'featcal-queue-v1/FAILED.json')
+    require(stopped['accepted']=={} and 'Owner stopped' in stopped['error'],'v1 history differs')
+    return {'adapter_cpu_tests_recorded':12,'queue_cpu_tests_recorded':10,'stage_jobs':14,'formal_jobs':5,'formal_episodes':500,
+            'build_tf32_override':'1','formal_tf32_override':None,'unauthorized_template_and_busy_gpu_rejected':True}
+
 def check_release():
     provenance=read(HERE/'PROVENANCE.json')
     for row in provenance['files']:
@@ -106,7 +141,7 @@ def check_release():
     return {'status':'PASS','snapshot_files':len(provenance['files']),
         'snapshot_bytes':sum(x['bytes'] for x in provenance['files']),
         'plan_and_recorded_readiness_bindings':'PASS','regmean_function_parity':source_parity(),
-        'ties_kernel':test_ties_oracle(),'regmean_contract':test_regmean_contract(),
+        'ties_kernel':test_ties_oracle(),'regmean_contract':test_regmean_contract(),'featcal_queue':test_featcal_queue(),
         'full_native_checks_rerun_locally':False,
         'native_check_evidence':'Byte-preserved original CPU receipts; full PyTorch/safetensors/native assets required to rerun them.',
         'gpu_or_training_started':False}

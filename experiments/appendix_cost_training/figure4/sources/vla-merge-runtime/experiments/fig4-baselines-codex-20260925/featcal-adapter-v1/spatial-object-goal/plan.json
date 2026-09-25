@@ -1,0 +1,232 @@
+{
+  "alpha": 0.3,
+  "bank": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/plan-v1/bank-spatial-object-goal.json",
+  "bank_sha256": "2ca0e2bf0c56e8cf600c08bbf2e817f76aa52523a2918cf1cc81cc51cd9769e8",
+  "base": {
+    "model_sha256": "f2165fad32a4b431ca1488a5b886f6738be9e8b480298ecc9e0b55d87d26f365",
+    "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+    "tensor_count": 813
+  },
+  "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/featcal-spatial-object-goal/pretrained_model",
+  "deployment_files_sha256": {
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/soups-v1/spatial-object-goal/README.md": "2003c7f342e78edd6048542cf83b3ce48a23c74483fe47a4659f47187440d7e9",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/soups-v1/spatial-object-goal/config.json": "8fd9caf5580808c8ebdb54c666a4960d68f9883bc2fede4349a1e5cf98c68b8a",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/soups-v1/spatial-object-goal/parameter_baseline_manifest.json": "28cac78989e25a47cc2e33c6b38937414e1fa67c5fa2a97bae0e9b7bda95a0f9",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/soups-v1/spatial-object-goal/policy_postprocessor.json": "e6e0c0371c2ea20b0a2f99feab26cea73a7d8994eccc4446c038958f285d68ff",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/soups-v1/spatial-object-goal/policy_postprocessor_step_0_unnormalizer_processor.safetensors": "a002c0df7f79c5b169c5a899ad151d4ea1bed246c7d82bd93ed1556558d517a9",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/soups-v1/spatial-object-goal/policy_preprocessor.json": "d46dc51bc8f13d37eec4f3d8b0488e05d31dfe334d3ad24f96e841640743cc3c",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/soups-v1/spatial-object-goal/policy_preprocessor_step_3_normalizer_processor.safetensors": "f98234b21ce8ffacf1b86657f3cf8e24ac6c31ebcd6a3b83cecd484439674306",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/soups-v1/spatial-object-goal/tokenizer/tokenizer.json": "7336bb4ce016bf8543de94e3a17c3d6ca502a6fc8628fec6ed88893639d7a296",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/soups-v1/spatial-object-goal/tokenizer/tokenizer_config.json": "968bae7725ec965d9feb18214ed348a9203c857a32cd11ff6b9680f9e53bca77",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/pretrained_model/README.md": "2003c7f342e78edd6048542cf83b3ce48a23c74483fe47a4659f47187440d7e9",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/pretrained_model/config.json": "ac35ee31abb2c68468eff9110b8267477653b79ad4367bcf38fb24937a982149",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/pretrained_model/dense_equivalent_manifest.json": "bde83c327f78f36efb3966c6a092ee9f5f376582cf4f5104b8751de5dba984af",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/pretrained_model/policy_postprocessor.json": "e6e0c0371c2ea20b0a2f99feab26cea73a7d8994eccc4446c038958f285d68ff",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors": "a002c0df7f79c5b169c5a899ad151d4ea1bed246c7d82bd93ed1556558d517a9",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/pretrained_model/policy_preprocessor.json": "d46dc51bc8f13d37eec4f3d8b0488e05d31dfe334d3ad24f96e841640743cc3c",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors": "f98234b21ce8ffacf1b86657f3cf8e24ac6c31ebcd6a3b83cecd484439674306",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/pretrained_model/tokenizer/tokenizer.json": "7336bb4ce016bf8543de94e3a17c3d6ca502a6fc8628fec6ed88893639d7a296",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/pretrained_model/tokenizer/tokenizer_config.json": "968bae7725ec965d9feb18214ed348a9203c857a32cd11ff6b9680f9e53bca77",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/pretrained_model/train_config.json": "b4dc726fd9a7cc233808d7d74fa82177ee83f894fa5200f9b4a9571ef217cf25",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/pretrained_model/README.md": "2003c7f342e78edd6048542cf83b3ce48a23c74483fe47a4659f47187440d7e9",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/pretrained_model/config.json": "11bc9b847f4266d2152522df6d2faa9aea64209cf3d3a772aa4df41aed218d34",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/pretrained_model/dense_equivalent_manifest.json": "a47478fbfb57cae00b16f314026d87b75cfd1baf3e6f67fa7a69845b157e24d8",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/pretrained_model/policy_postprocessor.json": "e6e0c0371c2ea20b0a2f99feab26cea73a7d8994eccc4446c038958f285d68ff",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors": "a002c0df7f79c5b169c5a899ad151d4ea1bed246c7d82bd93ed1556558d517a9",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/pretrained_model/policy_preprocessor.json": "d46dc51bc8f13d37eec4f3d8b0488e05d31dfe334d3ad24f96e841640743cc3c",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors": "f98234b21ce8ffacf1b86657f3cf8e24ac6c31ebcd6a3b83cecd484439674306",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/pretrained_model/tokenizer/tokenizer.json": "7336bb4ce016bf8543de94e3a17c3d6ca502a6fc8628fec6ed88893639d7a296",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/pretrained_model/tokenizer/tokenizer_config.json": "968bae7725ec965d9feb18214ed348a9203c857a32cd11ff6b9680f9e53bca77",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/pretrained_model/train_config.json": "aab7a2d38465c18b8e891cbb212114264a1fbc186520fffc6118021aa3a4fddf",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/pretrained_model/README.md": "2003c7f342e78edd6048542cf83b3ce48a23c74483fe47a4659f47187440d7e9",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/pretrained_model/config.json": "5fda70769966dde0f5e0eba44c4a5557b504e50cf2aa4da0b0da5d9efb7cf318",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/pretrained_model/dense_equivalent_manifest.json": "88c6f4773af427ce4b20ac19b1f6163478bd19e799116520d0445b8b8352c3ee",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/pretrained_model/policy_postprocessor.json": "e6e0c0371c2ea20b0a2f99feab26cea73a7d8994eccc4446c038958f285d68ff",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors": "a002c0df7f79c5b169c5a899ad151d4ea1bed246c7d82bd93ed1556558d517a9",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/pretrained_model/policy_preprocessor.json": "d46dc51bc8f13d37eec4f3d8b0488e05d31dfe334d3ad24f96e841640743cc3c",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors": "f98234b21ce8ffacf1b86657f3cf8e24ac6c31ebcd6a3b83cecd484439674306",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/pretrained_model/tokenizer/tokenizer.json": "7336bb4ce016bf8543de94e3a17c3d6ca502a6fc8628fec6ed88893639d7a296",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/pretrained_model/tokenizer/tokenizer_config.json": "968bae7725ec965d9feb18214ed348a9203c857a32cd11ff6b9680f9e53bca77",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/pretrained_model/train_config.json": "eeeff4a5748b3488b5735acc830c1819b08a1975cc046995ac6c3656a6a5e92b"
+  },
+  "effective_expert_count": 3,
+  "eps": 1e-08,
+  "figure_protocol": {
+    "disclosure": "Mixed n=1 subset points and three-repeat main-table four-expert endpoints; checkpoint/construction and calibration budgets differ. Descriptive comparison, not an isolated causal effect of expert count.",
+    "four_experts": "Reuse current Table 1 exact checkpoint, all three 400-episode repeats, mean and sample standard deviation.",
+    "selection_exposure": "Prior Table 1 outcomes were already known. Subset rules are fixed before new subset outcomes and will not be scanned or tuned against them.",
+    "two_and_three_experts": "One fixed subset checkpoint, repeat-01 only, 200 or 300 native episodes; no across-build error bars."
+  },
+  "formal_evaluation_authorized_by_plan": false,
+  "four_expert_endpoint": {
+    "action": "reuse read-only, no new build or evaluation",
+    "receipt": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/four-expert-reuse.json",
+    "sha256": "145cd960d7b05fe1c42ffd668a51d330464945c56b5e9b576fa0c4f110554674"
+  },
+  "gpu_smoke_passed": false,
+  "groups": [
+    "spatial",
+    "object",
+    "goal"
+  ],
+  "implementations": {
+    "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/lerobot/src/lerobot/policies/pi05/modeling_pi05.py": "5746164601a3d5b958f8a88b75e8d9c6df6b3485a623246f07a024fea9fa2773",
+    "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/lerobot/src/lerobot/policies/pi_gemma.py": "faec69b28f74b42cfb6217898f9a5ee29a442a5f8275339eb2d4453d450dc412",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_subset_v1/featcal_subset.py": "b9f30abd5985c5eb389b758754410ce3201d0bc8575fafbdda07949e05caf177",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/featcal_subset_v1/subset_inputs.py": "604f05c5a856697c8b99e64b70981e59cae1354f4a2b415cd9028db466e69e91",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_pi05_featcal_formal_full.py": "515ee298cb800cd26bec9f803ff4fc39b8b32ba3e75179e2766b6379995b9fe4",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_pi05_featcal_teacher_mini_v2.py": "da4e8fc80953d645e09ecc1c230903c036491ba6ec39401411a3eb57fc0c35e3",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/featcal_cache_plan.py": "4b5aa596dd39b857b5da60fdd3a4080233153ce32f04cab660cc844e42f67d13",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/featcal_execution.py": "d50db5553d174c4e05bceaefceb14beb47a5558f955325d5a894f014bee82f73",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/featcal_forward_order.py": "712282ed7d9fad08c20f55e4330b2b29545ac5180f41a80301c36279762c9ede",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/featcal_hybrid_solve.py": "d44597ad37397dbb7ffd752891943644297fdd8224e09f7f106ff7e3ce93863d",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/featcal_prefix_chain.py": "7451aba3fd66e89b4c3b5c2318d54cd87fe7662eef7201acdc730910239af625"
+  },
+  "initialization": "existing Figure4 selected-expert uniform task-delta Soup, PEFT-safe dense form",
+  "input_identity": {
+    "groups": [
+      "spatial",
+      "object",
+      "goal"
+    ],
+    "master_plan_sha256": "62ff0891df02a75d20a8b724f70f93a8373f75852a7385c88034993c326d7875",
+    "original_input_bindings": {
+      "goal": {
+        "calls_per_expert": 150,
+        "manifest": {
+          "bytes": 61929,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/goal/manifest.json",
+          "sha256": "a38db754641d64c2b98efdc2266aaec2dcee84dfcdac048d29b8baee89d6bcd5",
+          "verification": "sha256_recomputed"
+        },
+        "native_noise_replicas": 3,
+        "observations": {
+          "bytes": 90444942,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/goal/observations.safetensors",
+          "sha256": "192c13c2e61d75f5e04f1753d6ae395cb3776357db99cc165076ddbac18bdbc0",
+          "verification": "sha256_recomputed"
+        },
+        "observations_per_expert": 50,
+        "preserve_original_expert_ids_and_noise_seeds": true,
+        "timestep": 1.0
+      },
+      "object": {
+        "calls_per_expert": 150,
+        "manifest": {
+          "bytes": 64504,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/object/manifest.json",
+          "sha256": "5bf0c319c6e9f4da1cfac63bcc966fc50d55fd508f23b5ce8bda08570a741c18",
+          "verification": "sha256_recomputed"
+        },
+        "native_noise_replicas": 3,
+        "observations": {
+          "bytes": 90444942,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/object/observations.safetensors",
+          "sha256": "2be7ac04d5c72b27efa3633969de57c6b2e9adaac60c03b731e70f7a0e9417de",
+          "verification": "sha256_recomputed"
+        },
+        "observations_per_expert": 50,
+        "preserve_original_expert_ids_and_noise_seeds": true,
+        "timestep": 1.0
+      },
+      "spatial": {
+        "calls_per_expert": 150,
+        "manifest": {
+          "bytes": 67719,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/spatial/manifest.json",
+          "sha256": "6ded802341017e8e97f86b11f326bf969f3fe8ada6c33d8e9fe4e9087bf539f4",
+          "verification": "sha256_recomputed"
+        },
+        "native_noise_replicas": 3,
+        "observations": {
+          "bytes": 90444942,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/spatial/observations.safetensors",
+          "sha256": "8ff070b010f27a278b44e3f655969df111e7a843e1eb4e439ed9cea4ddf21190",
+          "verification": "sha256_recomputed"
+        },
+        "observations_per_expert": 50,
+        "preserve_original_expert_ids_and_noise_seeds": true,
+        "timestep": 1.0
+      }
+    }
+  },
+  "input_sha256": "076da1c1adedccb968cac217d6262ba3755361fc528bbc12974f97d89e7eebb8",
+  "lambda": 0.05,
+  "legacy_bank_count_metadata": 4,
+  "legacy_flow_slots_are_noise_replicas": true,
+  "linear_weights": 418,
+  "master_plan": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/plan.json",
+  "master_plan_sha256": "62ff0891df02a75d20a8b724f70f93a8373f75852a7385c88034993c326d7875",
+  "model_files": [
+    {
+      "mtime_ns": 1790183718653363288,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/soups-v1/spatial-object-goal/model.safetensors",
+      "sha256": "c49afabe84c7ad31ae657c7369c7c7cd562ef4b0de7133487d6584607ba36cf1",
+      "size": 9354050784
+    },
+    {
+      "mtime_ns": 1787723571142095878,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model/model.safetensors",
+      "sha256": "f2165fad32a4b431ca1488a5b886f6738be9e8b480298ecc9e0b55d87d26f365",
+      "size": 9354050784
+    },
+    {
+      "mtime_ns": 1789058262087143629,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/pretrained_model/model.safetensors",
+      "sha256": "008cb4a76898edbb70edb83bd54cb472722ba49b2760acfde24381e6d14fc75f",
+      "size": 9354050784
+    },
+    {
+      "mtime_ns": 1789060675206110780,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/pretrained_model/model.safetensors",
+      "sha256": "a74c9349a78e122ecf9799e404ad748ffebba0b814b95e3dae4a7b32837f1510",
+      "size": 9354050784
+    },
+    {
+      "mtime_ns": 1789060675491108723,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/pretrained_model/model.safetensors",
+      "sha256": "af9e258354d759710d04f13d40ac6e2e4377d5063f56fa8e0ef574f8c96e2732",
+      "size": 9354050784
+    }
+  ],
+  "models": {
+    "goal": {
+      "model_sha256": "af9e258354d759710d04f13d40ac6e2e4377d5063f56fa8e0ef574f8c96e2732",
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/pretrained_model"
+    },
+    "object": {
+      "model_sha256": "a74c9349a78e122ecf9799e404ad748ffebba0b814b95e3dae4a7b32837f1510",
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/pretrained_model"
+    },
+    "spatial": {
+      "model_sha256": "008cb4a76898edbb70edb83bd54cb472722ba49b2760acfde24381e6d14fc75f",
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/pretrained_model"
+    }
+  },
+  "noise_states": 450,
+  "observations": 150,
+  "physical_timestep": 1.0,
+  "prepared_at": "2026-09-25T02:03:25.919182+00:00",
+  "regression_rows": 3330900,
+  "resource_proposal": {
+    "allocator_fraction": 0.5,
+    "minimum_free_disk_gib": 120,
+    "minimum_free_mib": 49152,
+    "minimum_runtime_free_mib": 12288
+  },
+  "rho": 2.0,
+  "schema": "figure4_featcal_static_subset_forward_order_v1",
+  "solve_dtype": "float64",
+  "soup": {
+    "model_sha256": "c49afabe84c7ad31ae657c7369c7c7cd562ef4b0de7133487d6584607ba36cf1",
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/soups-v1/spatial-object-goal"
+  },
+  "source_kind": "static calibration demonstration observations, no action labels or execution features",
+  "stages": 47,
+  "status": "CPU_PREPARED_NATIVE_GPU_PARITY_REQUIRED",
+  "subset": "spatial-object-goal",
+  "teacher_cache_policy": "fresh capture only; no unvalidated cross-plan or student-cache reuse",
+  "unchanged_biases": 4,
+  "work_root": "/mnt/workspace/Wilson/parameter-fusion",
+  "workspace_cap_bytes": 2147483648
+}

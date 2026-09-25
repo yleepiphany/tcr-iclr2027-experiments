@@ -1,0 +1,2370 @@
+{
+  "status": "PASS_540_RAW_EPISODE_AUDIT",
+  "at": "2026-09-25T02:29:10.591351+00:00",
+  "queue": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties",
+  "model_sha256": "1ce6509f169944ef01ab3efcc0976c885691e89732ff651507359de7813fefbc",
+  "model_full_sha_recomputed": true,
+  "protocol_sha256": "3a776d85a4e482a565ef07124d1f2609746257977d1a15f0ddce1ce5fb60d17b",
+  "aggregate_sha256": "5bb17b9aa56c9b70c5654a984e1562e3545a0a6782ebb034428b3c686b64324c",
+  "groups": {
+    "coordination": {
+      "repeat_percent": [
+        3.3333333333333335,
+        1.6666666666666667,
+        1.6666666666666667
+      ],
+      "mean_percent": 2.2222222222222223,
+      "sample_std_percent": 0.9622504486493764
+    },
+    "receptacle": {
+      "repeat_percent": [
+        10.0,
+        11.666666666666666,
+        6.666666666666667
+      ],
+      "mean_percent": 9.444444444444445,
+      "sample_std_percent": 2.5458753860865775
+    },
+    "precision": {
+      "repeat_percent": [
+        5.0,
+        6.666666666666667,
+        1.6666666666666667
+      ],
+      "mean_percent": 4.444444444444445,
+      "sample_std_percent": 2.545875386086578
+    }
+  },
+  "overall": {
+    "repeat_percent": [
+      6.111111111111111,
+      6.666666666666667,
+      3.3333333333333335
+    ],
+    "mean_percent": 5.37037037037037,
+    "sample_std_percent": 1.7858612520357324,
+    "successes": 29,
+    "episodes": 540
+  },
+  "jobs": [
+    {
+      "group": "coordination",
+      "repeat": 1,
+      "episodes": 60,
+      "successes": 2,
+      "percent": 3.3333333333333335,
+      "complete": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/complete.json",
+      "complete_sha256": "b2086ab61a862e0144bb3967eb77f6a9e2977977744ea4b54c9b742f80d31ae1",
+      "job_receipt_sha256": "bb2b524043b4f3c8b72089bd34dc215401ddcd7767b65b43834a8fadf57a620d",
+      "raw_rows_verified": 60,
+      "trace_heads_verified": 60
+    },
+    {
+      "group": "coordination",
+      "repeat": 2,
+      "episodes": 60,
+      "successes": 1,
+      "percent": 1.6666666666666667,
+      "complete": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/complete.json",
+      "complete_sha256": "392bc4c15ebb65b2147833de90df47c195ec4e0d2c98f44c887c2e763818288b",
+      "job_receipt_sha256": "e5971ecdc851702aa8202713527ff72b85851fcb4c62e46bc0646965701bcc4c",
+      "raw_rows_verified": 60,
+      "trace_heads_verified": 60
+    },
+    {
+      "group": "coordination",
+      "repeat": 3,
+      "episodes": 60,
+      "successes": 1,
+      "percent": 1.6666666666666667,
+      "complete": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/complete.json",
+      "complete_sha256": "c7904131fb7fc950cefc169ff363016a7e71c8ad11c305f537c4af3a8312ea27",
+      "job_receipt_sha256": "ba5273e325bce86e8f262292fde0d8f86877125a1fca4381451e2c02af67d2f0",
+      "raw_rows_verified": 60,
+      "trace_heads_verified": 60
+    },
+    {
+      "group": "receptacle",
+      "repeat": 1,
+      "episodes": 60,
+      "successes": 6,
+      "percent": 10.0,
+      "complete": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/complete.json",
+      "complete_sha256": "6e270c053b93c2b12a53ae11ef83dbe8265d0550a6c88870bb81166a8745268a",
+      "job_receipt_sha256": "a506d2bee1cacef549a72379ceae6c742d76dccebbc47b0bba2431e5facb851f",
+      "raw_rows_verified": 60,
+      "trace_heads_verified": 60
+    },
+    {
+      "group": "receptacle",
+      "repeat": 2,
+      "episodes": 60,
+      "successes": 7,
+      "percent": 11.666666666666666,
+      "complete": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/complete.json",
+      "complete_sha256": "b419bdf9adff6130a6b1c33783591f510c6f9eaf3b4f94d0dc3d7afa036c73c1",
+      "job_receipt_sha256": "52fc2e8f5f0cddda8a7f88b52e06d611ea5f205dc374c19cfb2d097b1f0a0234",
+      "raw_rows_verified": 60,
+      "trace_heads_verified": 60
+    },
+    {
+      "group": "receptacle",
+      "repeat": 3,
+      "episodes": 60,
+      "successes": 4,
+      "percent": 6.666666666666667,
+      "complete": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/complete.json",
+      "complete_sha256": "a3b3d46e2175d1666dffcf2d449412bceb78147b7ce7b1212c879445e829502d",
+      "job_receipt_sha256": "20464071e9603dd00cc51cace639369e7df7b8ea3797993e91ce3c1780b6862e",
+      "raw_rows_verified": 60,
+      "trace_heads_verified": 60
+    },
+    {
+      "group": "precision",
+      "repeat": 1,
+      "episodes": 60,
+      "successes": 3,
+      "percent": 5.0,
+      "complete": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/complete.json",
+      "complete_sha256": "899e157af57dfca46c958a5cd42d4d6f636dc4d53fef8079b54285fd0407d86d",
+      "job_receipt_sha256": "667170a5a59d627a3d3225a77dc3c192a24ba547d911bfc7e730376ef5696710",
+      "raw_rows_verified": 60,
+      "trace_heads_verified": 60
+    },
+    {
+      "group": "precision",
+      "repeat": 2,
+      "episodes": 60,
+      "successes": 4,
+      "percent": 6.666666666666667,
+      "complete": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/complete.json",
+      "complete_sha256": "eb4867c98d784194aa278b2f8ad833eb05f3420f4f837e39274dc4dca94d92a2",
+      "job_receipt_sha256": "1fadb581ea32f808cc6dd692303ea0e2a0a360adad57b74349f98bebcbd5cd52",
+      "raw_rows_verified": 60,
+      "trace_heads_verified": 60
+    },
+    {
+      "group": "precision",
+      "repeat": 3,
+      "episodes": 60,
+      "successes": 1,
+      "percent": 1.6666666666666667,
+      "complete": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/complete.json",
+      "complete_sha256": "8b5fe22ec1d0f6a55e7cc787d86fb15600abf1771218fb1eddd8d5716c72d63a",
+      "job_receipt_sha256": "a764b4b942f4f95b52b1ed3a47f44b56fbc30e6c306886291a32f89c56082063",
+      "raw_rows_verified": 60,
+      "trace_heads_verified": 60
+    }
+  ],
+  "normalizers": {
+    "policy_preprocessor.json": {
+      "sha256": "714723707403f6a5d1c18ccfa287c16c7b36e13fa1b6447a24431398a241e424",
+      "expert_file_shas": {
+        "precision": "714723707403f6a5d1c18ccfa287c16c7b36e13fa1b6447a24431398a241e424",
+        "receptacle": "714723707403f6a5d1c18ccfa287c16c7b36e13fa1b6447a24431398a241e424",
+        "coordination": "714723707403f6a5d1c18ccfa287c16c7b36e13fa1b6447a24431398a241e424"
+      },
+      "all_active_quantiles_identical": true,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/materialized/ties/pretrained_model/policy_preprocessor.json"
+    },
+    "policy_postprocessor.json": {
+      "sha256": "9f2a2c28bd3d3ba779477b84586fec0efc98522bf4286f77ae24e1b167e42a39",
+      "expert_file_shas": {
+        "precision": "9f2a2c28bd3d3ba779477b84586fec0efc98522bf4286f77ae24e1b167e42a39",
+        "receptacle": "9f2a2c28bd3d3ba779477b84586fec0efc98522bf4286f77ae24e1b167e42a39",
+        "coordination": "9f2a2c28bd3d3ba779477b84586fec0efc98522bf4286f77ae24e1b167e42a39"
+      },
+      "all_active_quantiles_identical": true,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/materialized/ties/pretrained_model/policy_postprocessor.json"
+    },
+    "policy_preprocessor_step_3_normalizer_processor.safetensors": {
+      "sha256": "6ce304a9f8704ed56ab9b56d5c478abd878c8a89bf4d665692b624862cd0d234",
+      "expert_file_shas": {
+        "precision": "6ce304a9f8704ed56ab9b56d5c478abd878c8a89bf4d665692b624862cd0d234",
+        "receptacle": "792f8ad0cba252068cc6f2acaaa2a6d7fa0494a29a08426ffff3ad61c7a56b81",
+        "coordination": "792f8ad0cba252068cc6f2acaaa2a6d7fa0494a29a08426ffff3ad61c7a56b81"
+      },
+      "all_active_quantiles_identical": true,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/materialized/ties/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors"
+    },
+    "policy_postprocessor_step_0_unnormalizer_processor.safetensors": {
+      "sha256": "b8ba9b84423b717d05abcbc2999e0b2ff89f8b1c82d2232a37d1f37c14253948",
+      "expert_file_shas": {
+        "precision": "b8ba9b84423b717d05abcbc2999e0b2ff89f8b1c82d2232a37d1f37c14253948",
+        "receptacle": "b8ba9b84423b717d05abcbc2999e0b2ff89f8b1c82d2232a37d1f37c14253948",
+        "coordination": "b8ba9b84423b717d05abcbc2999e0b2ff89f8b1c82d2232a37d1f37c14253948"
+      },
+      "all_active_quantiles_identical": true,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/materialized/ties/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors"
+    }
+  },
+  "first_action_finite_checks": 540,
+  "matched_expert_initial_observation_sha": 540,
+  "reset_hash_differences": [],
+  "bound_files_sha_verified": 585,
+  "last_finish_utc": "2026-09-25T02:12:03.801893Z",
+  "normalizer_trace_action_samples": [
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/blocks_ranking_rgb-438518227.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/blocks_ranking_rgb-606218336.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/blocks_ranking_rgb-869969111.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/blocks_ranking_rgb-1168393377.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/blocks_ranking_rgb-1358401946.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/blocks_ranking_rgb-1836383106.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/blocks_ranking_size-97410772.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/blocks_ranking_size-666957338.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/blocks_ranking_size-1245713967.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/blocks_ranking_size-1640017546.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/blocks_ranking_size-1860293687.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/blocks_ranking_size-1980677757.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/handover_block-607333896.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/handover_block-1208212516.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/handover_block-1573915038.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/handover_block-1951191969.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/handover_block-2012166972.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/handover_block-2027948692.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/handover_mic-91532949.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/handover_mic-656157529.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/handover_mic-1213848203.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/handover_mic-1443236595.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/handover_mic-1738315904.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/handover_mic-2096221309.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/pick_dual_bottles-191637982.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/pick_dual_bottles-784265830.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/pick_dual_bottles-830470991.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/pick_dual_bottles-977272193.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/pick_dual_bottles-1489011354.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/pick_dual_bottles-1824202494.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/place_dual_shoes-469000112.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/place_dual_shoes-744749504.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/place_dual_shoes-996468968.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/place_dual_shoes-1157281836.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/place_dual_shoes-2077086962.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/place_dual_shoes-2092207011.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_blocks_three-693717937.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_blocks_three-1212217639.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_blocks_three-1662829107.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_blocks_three-1967325465.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_blocks_three-2067882101.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_blocks_three-2080192177.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_blocks_two-423075568.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_blocks_two-775194562.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_blocks_two-930816250.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_blocks_two-1176090932.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_blocks_two-1276873440.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_blocks_two-1869288754.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_bowls_three-544626860.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_bowls_three-711540699.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_bowls_three-985854240.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_bowls_three-995962466.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_bowls_three-1177572394.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_bowls_three-1514495018.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_bowls_two-50488568.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_bowls_two-287579408.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_bowls_two-354729275.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_bowls_two-1772385773.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_bowls_two-1784724317.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-01/attempt-01/stack_bowls_two-2143849522.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/blocks_ranking_rgb-330355511.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/blocks_ranking_rgb-352595988.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/blocks_ranking_rgb-629196983.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/blocks_ranking_rgb-990427332.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/blocks_ranking_rgb-1336716547.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/blocks_ranking_rgb-1623963375.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/blocks_ranking_size-183542616.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/blocks_ranking_size-859693681.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/blocks_ranking_size-1212461167.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/blocks_ranking_size-1483593880.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/blocks_ranking_size-1501213344.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/blocks_ranking_size-1650088557.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/handover_block-1344213717.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/handover_block-1450062533.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/handover_block-1910533767.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/handover_block-1945753572.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/handover_block-2017604294.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/handover_block-2024813317.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/handover_mic-150338385.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/handover_mic-190000594.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/handover_mic-359905316.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/handover_mic-498138125.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/handover_mic-676454611.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/handover_mic-994289381.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/pick_dual_bottles-48287119.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/pick_dual_bottles-298722986.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/pick_dual_bottles-405170041.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/pick_dual_bottles-562258841.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/pick_dual_bottles-878602301.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/pick_dual_bottles-2053773547.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/place_dual_shoes-261162560.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/place_dual_shoes-440518987.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/place_dual_shoes-557553122.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/place_dual_shoes-1521630478.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/place_dual_shoes-1602644260.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/place_dual_shoes-1869286402.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_blocks_three-306989799.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_blocks_three-919408907.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_blocks_three-932686990.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_blocks_three-1562029725.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_blocks_three-1812632260.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_blocks_three-2012993635.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_blocks_two-240695917.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_blocks_two-346223486.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_blocks_two-512768590.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_blocks_two-1468254800.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_blocks_two-1715936740.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_blocks_two-1726014837.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_bowls_three-404142161.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_bowls_three-875919898.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_bowls_three-1196364700.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_bowls_three-1487289765.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_bowls_three-1558608900.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_bowls_three-1883368822.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_bowls_two-65983287.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_bowls_two-75737420.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_bowls_two-881111880.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_bowls_two-1064596837.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_bowls_two-1687585111.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-02/attempt-01/stack_bowls_two-1824951468.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/blocks_ranking_rgb-395278153.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/blocks_ranking_rgb-436935083.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/blocks_ranking_rgb-532948972.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/blocks_ranking_rgb-867924100.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/blocks_ranking_rgb-1016564170.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/blocks_ranking_rgb-1089388014.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/blocks_ranking_size-195308396.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/blocks_ranking_size-952661138.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/blocks_ranking_size-1220286241.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/blocks_ranking_size-1414271029.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/blocks_ranking_size-1477681273.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/blocks_ranking_size-1872454048.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/handover_block-824606220.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/handover_block-965743369.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/handover_block-1478369810.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/handover_block-1659670820.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/handover_block-1822592412.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/handover_block-2134539704.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/handover_mic-102936370.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/handover_mic-1545262099.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/handover_mic-1555037277.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/handover_mic-1790066206.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/handover_mic-2026232965.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/handover_mic-2120055039.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/pick_dual_bottles-394002363.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/pick_dual_bottles-398715866.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/pick_dual_bottles-585269843.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/pick_dual_bottles-634835630.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/pick_dual_bottles-1209191006.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/pick_dual_bottles-1788972276.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/place_dual_shoes-156150494.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/place_dual_shoes-569890526.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/place_dual_shoes-690088391.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/place_dual_shoes-1011897304.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/place_dual_shoes-1953031530.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/place_dual_shoes-2024564136.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_blocks_three-51213742.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_blocks_three-294286448.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_blocks_three-349909140.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_blocks_three-689295638.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_blocks_three-869901222.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_blocks_three-1126528545.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_blocks_two-408563764.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_blocks_two-618641076.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_blocks_two-750683657.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_blocks_two-771282240.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_blocks_two-1815751873.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_blocks_two-1920762054.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_bowls_three-626121962.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_bowls_three-900203715.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_bowls_three-926282881.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_bowls_three-1298066713.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_bowls_three-1789829723.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_bowls_three-1852462664.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_bowls_two-856919764.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_bowls_two-891010081.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_bowls_two-1328656447.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_bowls_two-1347007819.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_bowls_two-1442185350.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/coordination/repeat-03/attempt-01/stack_bowls_two-1508653511.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_bread_basket-171226926.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_bread_basket-909251882.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_bread_basket-1165349379.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_bread_basket-1847390703.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_bread_basket-1878434596.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_bread_basket-1992748498.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_bread_skillet-379542227.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_bread_skillet-730551572.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_bread_skillet-874465396.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_bread_skillet-1216755972.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_bread_skillet-1535214605.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_bread_skillet-2104030979.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_burger_fries-656072122.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_burger_fries-1009389932.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_burger_fries-1082093834.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_burger_fries-1374131395.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_burger_fries-1434182471.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_burger_fries-1665109980.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_can_basket-98294928.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_can_basket-128741978.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_can_basket-742660566.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_can_basket-944395825.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_can_basket-1117205426.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_can_basket-1654429287.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_cans_plasticbox-73825676.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_cans_plasticbox-473151217.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_cans_plasticbox-1380720908.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_cans_plasticbox-1801531949.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_cans_plasticbox-1807285560.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_cans_plasticbox-1908056403.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_container_plate-212072251.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_container_plate-440073445.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_container_plate-520527534.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_container_plate-570617823.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_container_plate-897991076.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_container_plate-1354137407.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_empty_cup-191589184.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_empty_cup-308361771.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_empty_cup-321329229.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_empty_cup-856824372.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_empty_cup-1218663396.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_empty_cup-1378878593.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_object_basket-1093375986.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_object_basket-1507834981.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_object_basket-1627762157.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_object_basket-1734658895.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_object_basket-1899403578.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/place_object_basket-1936046481.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/put_bottles_dustbin-244270764.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/put_bottles_dustbin-649747757.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/put_bottles_dustbin-1597855174.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/put_bottles_dustbin-1864493433.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/put_bottles_dustbin-2051910298.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/put_bottles_dustbin-2095499847.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/put_object_cabinet-128666604.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/put_object_cabinet-309196791.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/put_object_cabinet-740270815.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/put_object_cabinet-1740735958.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/put_object_cabinet-1860885536.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-01/attempt-01/put_object_cabinet-2124110150.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_bread_basket-607688674.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_bread_basket-1188231856.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_bread_basket-1424466170.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_bread_basket-1616595389.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_bread_basket-1838813534.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_bread_basket-1974143556.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_bread_skillet-21597488.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_bread_skillet-327723838.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_bread_skillet-997775181.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_bread_skillet-1142679125.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_bread_skillet-1691134275.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_bread_skillet-1953050713.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_burger_fries-509142308.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_burger_fries-773188683.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_burger_fries-1257688127.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_burger_fries-1818984321.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_burger_fries-1912689746.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_burger_fries-1915664648.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_can_basket-34492864.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_can_basket-1094540999.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_can_basket-1653378884.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_can_basket-1704758076.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_can_basket-1791292139.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_can_basket-1854060859.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_cans_plasticbox-139088048.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_cans_plasticbox-507512895.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_cans_plasticbox-616941114.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_cans_plasticbox-1200280651.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_cans_plasticbox-1642277142.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_cans_plasticbox-1807523293.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_container_plate-759026783.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_container_plate-877886121.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_container_plate-1765295868.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_container_plate-1969036289.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_container_plate-1988527425.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_container_plate-2039857703.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_empty_cup-390068791.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_empty_cup-519570245.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_empty_cup-631300543.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_empty_cup-665737527.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_empty_cup-1187114630.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_empty_cup-1838488701.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_object_basket-75822803.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_object_basket-178506160.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_object_basket-921449918.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_object_basket-1225288435.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_object_basket-1475249725.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/place_object_basket-1925327417.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/put_bottles_dustbin-68560527.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/put_bottles_dustbin-73708525.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/put_bottles_dustbin-97133042.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/put_bottles_dustbin-276387526.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/put_bottles_dustbin-603435305.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/put_bottles_dustbin-1430345402.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/put_object_cabinet-472754271.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/put_object_cabinet-505507714.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/put_object_cabinet-731575495.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/put_object_cabinet-750052935.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/put_object_cabinet-1257912992.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-02/attempt-01/put_object_cabinet-1917503353.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_bread_basket-649945516.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_bread_basket-685327022.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_bread_basket-938059967.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_bread_basket-1103421702.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_bread_basket-1203254025.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_bread_basket-1330879849.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_bread_skillet-817250.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_bread_skillet-282389278.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_bread_skillet-1266215483.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_bread_skillet-1463076110.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_bread_skillet-1471340976.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_bread_skillet-1539796541.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_burger_fries-102725779.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_burger_fries-637836223.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_burger_fries-789111381.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_burger_fries-1119175292.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_burger_fries-1301970288.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_burger_fries-2113505605.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_can_basket-895776312.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_can_basket-918719877.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_can_basket-1249349264.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_can_basket-1610984051.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_can_basket-1951979211.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_can_basket-1969237372.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_cans_plasticbox-129077547.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_cans_plasticbox-219967302.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_cans_plasticbox-336981988.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_cans_plasticbox-1347822668.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_cans_plasticbox-1506992282.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_cans_plasticbox-1778307647.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_container_plate-96621916.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_container_plate-717719367.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_container_plate-844377984.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_container_plate-1156450440.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_container_plate-1383749929.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_container_plate-1798827014.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_empty_cup-501109315.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_empty_cup-614221146.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_empty_cup-663963042.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_empty_cup-1310573019.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_empty_cup-1764331324.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_empty_cup-1978706541.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_object_basket-710401674.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_object_basket-1270829379.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_object_basket-1322304931.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_object_basket-1718360304.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_object_basket-1887567937.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/place_object_basket-2137799074.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/put_bottles_dustbin-108897684.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/put_bottles_dustbin-126630525.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/put_bottles_dustbin-272668111.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/put_bottles_dustbin-1137083532.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/put_bottles_dustbin-1189967243.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/put_bottles_dustbin-1573116459.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/put_object_cabinet-41415777.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/put_object_cabinet-855256267.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/put_object_cabinet-1095222200.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/put_object_cabinet-1647979046.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/put_object_cabinet-1994971915.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/receptacle/repeat-03/attempt-01/put_object_cabinet-2092345362.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/move_can_pot-244511932.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/move_can_pot-885438931.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/move_can_pot-972901170.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/move_can_pot-1010549730.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/move_can_pot-1051037249.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/move_can_pot-1610295303.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/move_pillbottle_pad-336927268.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/move_pillbottle_pad-350906810.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/move_pillbottle_pad-615199634.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/move_pillbottle_pad-687040914.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/move_pillbottle_pad-753249096.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/move_pillbottle_pad-1344565442.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/move_stapler_pad-139309684.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/move_stapler_pad-389624256.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/move_stapler_pad-706975510.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/move_stapler_pad-847662484.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/move_stapler_pad-1258140610.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/move_stapler_pad-1509756480.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_a2b_left-82417160.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_a2b_left-137794359.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_a2b_left-623132605.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_a2b_left-781573241.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_a2b_left-1510160027.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_a2b_left-2032199412.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_a2b_right-186102940.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_a2b_right-1108722900.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_a2b_right-1504907815.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_a2b_right-1856515500.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_a2b_right-1896467389.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_a2b_right-2062845133.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_fan-275756126.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_fan-729154230.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_fan-1087520580.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_fan-1623240606.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_fan-1629231784.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_fan-1639246847.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_mouse_pad-172122547.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_mouse_pad-594118882.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_mouse_pad-952540813.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_mouse_pad-1227898796.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_mouse_pad-1301520743.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_mouse_pad-2127342716.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_object_scale-361284483.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_object_scale-526406297.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_object_scale-1208268016.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_object_scale-1290982607.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_object_scale-1802060167.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_object_scale-1986723312.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_object_stand-13813044.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_object_stand-295672587.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_object_stand-706783987.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_object_stand-1162606146.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_object_stand-1799387426.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_object_stand-2146271964.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_phone_stand-244556559.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_phone_stand-499148126.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_phone_stand-724104026.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_phone_stand-1201039962.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_phone_stand-1854171488.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-01/attempt-01/place_phone_stand-1896541698.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/move_can_pot-413220189.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/move_can_pot-718621183.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/move_can_pot-748991101.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/move_can_pot-952281581.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/move_can_pot-1602873932.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/move_can_pot-2047263732.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/move_pillbottle_pad-300633611.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/move_pillbottle_pad-962073136.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/move_pillbottle_pad-973294148.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/move_pillbottle_pad-1344284699.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/move_pillbottle_pad-1451450841.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/move_pillbottle_pad-1660936832.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/move_stapler_pad-51839263.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/move_stapler_pad-160763382.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/move_stapler_pad-173959914.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/move_stapler_pad-1392992863.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/move_stapler_pad-1662999034.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/move_stapler_pad-2124991171.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_a2b_left-526584088.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_a2b_left-581852290.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_a2b_left-780688298.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_a2b_left-1301966057.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_a2b_left-1412540567.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_a2b_left-1864656536.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_a2b_right-693862988.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_a2b_right-1493738835.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_a2b_right-1881528463.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_a2b_right-2008239192.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_a2b_right-2070614697.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_a2b_right-2126947879.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_fan-21653227.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_fan-70597092.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_fan-436521887.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_fan-754940186.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_fan-1890961282.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_fan-2010850684.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_mouse_pad-101684407.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_mouse_pad-172589658.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_mouse_pad-745764129.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_mouse_pad-1242472241.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_mouse_pad-1550549571.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_mouse_pad-1568582906.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_object_scale-87981749.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_object_scale-708416615.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_object_scale-753381650.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_object_scale-1082892946.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_object_scale-1408120466.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_object_scale-1992731055.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_object_stand-1297328413.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_object_stand-1424926100.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_object_stand-1803880493.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_object_stand-1818110070.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_object_stand-1920699652.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_object_stand-2076438868.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_phone_stand-636141960.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_phone_stand-869251270.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_phone_stand-1046743456.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_phone_stand-1094833135.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_phone_stand-1959303739.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-02/attempt-01/place_phone_stand-2127846740.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/move_can_pot-134971637.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/move_can_pot-191033556.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/move_can_pot-798601285.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/move_can_pot-940807982.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/move_can_pot-1720232932.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/move_can_pot-2089737303.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/move_pillbottle_pad-113571286.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/move_pillbottle_pad-192880622.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/move_pillbottle_pad-590726507.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/move_pillbottle_pad-939636977.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/move_pillbottle_pad-1537806011.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/move_pillbottle_pad-1983715368.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/move_stapler_pad-255010758.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/move_stapler_pad-258939077.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/move_stapler_pad-332045102.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/move_stapler_pad-910983935.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/move_stapler_pad-1378110844.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/move_stapler_pad-1820816614.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_a2b_left-133734865.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_a2b_left-484405567.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_a2b_left-522555324.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_a2b_left-587435696.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_a2b_left-1246412112.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_a2b_left-1335240988.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_a2b_right-417989183.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_a2b_right-541188147.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_a2b_right-694297544.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_a2b_right-1474372033.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_a2b_right-1497843922.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_a2b_right-1762110316.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_fan-146876395.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_fan-511798883.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_fan-528705034.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_fan-704947068.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_fan-1280236730.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_fan-1424973175.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_mouse_pad-375857096.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_mouse_pad-1021759684.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_mouse_pad-1080622620.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_mouse_pad-1238284535.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_mouse_pad-1682619879.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_mouse_pad-1732328864.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_object_scale-97433699.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_object_scale-220768952.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_object_scale-974587322.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_object_scale-1063217005.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_object_scale-1802349254.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_object_scale-1884868881.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_object_stand-428763305.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_object_stand-494535395.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_object_stand-634670497.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_object_stand-987626599.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_object_stand-1800340951.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_object_stand-1941654948.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_phone_stand-422314354.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_phone_stand-604364691.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_phone_stand-1054171045.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_phone_stand-1843284528.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_phone_stand-1878790690.jsonl",
+      "postprocess_max_abs_error": 0.0
+    },
+    {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-table5-formal-methods-v1/evaluations/ties/runs/precision/repeat-03/attempt-01/place_phone_stand-2080344209.jsonl",
+      "postprocess_max_abs_error": 0.0
+    }
+  ],
+  "action_unnormalization_max_abs_error": 0.0,
+  "cuda_initialized": false
+}

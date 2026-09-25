@@ -1,0 +1,5 @@
+assets: /root/project/WAM_Benchmark/LIBERO/libero/libero/assets
+bddl_files: /root/project/WAM_Benchmark/LIBERO/libero/libero/bddl_files
+benchmark_root: /root/project/WAM_Benchmark/LIBERO/libero/libero
+datasets: /root/project/WAM_Benchmark/LIBERO/libero/datasets
+init_states: /root/project/WAM_Benchmark/LIBERO/libero/libero/init_files

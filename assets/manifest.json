@@ -3074,6 +3074,104 @@
         "Static observation/initial-noise bank; external tensor bytes"
       ],
       "sha256": "54e5fdca52149d0c0577fd02303f6e5246eaf51725b2d7611b16babe896134ac"
+    },
+    {
+      "bytes": 11003062,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "fig4.featcal.shard_index.spatial-goal",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-adapter-v1/spatial-goal/shard-index.json",
+      "required": true,
+      "roles": [
+        "Frozen large FeatCal shard-index metadata; external, regenerated only via a new reviewed plan"
+      ],
+      "sha256": "9f5265c71ae1330ccdd8e989f664d53257bc35aefb47b6688155582b6c692392"
+    },
+    {
+      "bytes": 16513266,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "fig4.featcal.shard_index.spatial-object-goal",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/featcal-adapter-v1/spatial-object-goal/shard-index.json",
+      "required": true,
+      "roles": [
+        "Frozen large FeatCal shard-index metadata; external, regenerated only via a new reviewed plan"
+      ],
+      "sha256": "0b4dbdc784ee785a9e9b1ac6c0ca64ccf25a554414577c5d3b21ef9a8623a683"
+    },
+    {
+      "bytes": 90444942,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "fig4.featcal.observations.goal",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/goal/observations.safetensors",
+      "required": true,
+      "roles": [
+        "Original static observation tensor bank for FeatCal subset construction"
+      ],
+      "sha256": "192c13c2e61d75f5e04f1753d6ae395cb3776357db99cc165076ddbac18bdbc0"
+    },
+    {
+      "bytes": 90444942,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "fig4.featcal.observations.spatial",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/spatial/observations.safetensors",
+      "required": true,
+      "roles": [
+        "Original static observation tensor bank for FeatCal subset construction"
+      ],
+      "sha256": "8ff070b010f27a278b44e3f655969df111e7a843e1eb4e439ed9cea4ddf21190"
+    },
+    {
+      "bytes": 9354050784,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "fig4.featcal.model.f1e4b18070aa",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/soups-v1/spatial-goal/model.safetensors",
+      "required": true,
+      "roles": [
+        "Frozen dense model or selected Soup input for FeatCal subset construction"
+      ],
+      "sha256": "74b007ca88a7e3070e500b78562e0618bf398eae4f23e0543ef046829d0f0189"
+    },
+    {
+      "bytes": 90444942,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "fig4.featcal.observations.object",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/object/observations.safetensors",
+      "required": true,
+      "roles": [
+        "Original static observation tensor bank for FeatCal subset construction"
+      ],
+      "sha256": "2be7ac04d5c72b27efa3633969de57c6b2e9adaac60c03b731e70f7a0e9417de"
+    },
+    {
+      "bytes": 9354050784,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "fig4.featcal.model.3faab864a6df",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/soups-v1/spatial-object-goal/model.safetensors",
+      "required": true,
+      "roles": [
+        "Frozen dense model or selected Soup input for FeatCal subset construction"
+      ],
+      "sha256": "c49afabe84c7ad31ae657c7369c7c7cd562ef4b0de7133487d6584607ba36cf1"
     }
   ],
   "description": "External checkpoints, calibration caches, reset banks and data sets required by unfinished non-real-robot experiments.",

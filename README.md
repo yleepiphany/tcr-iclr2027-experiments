@@ -8,7 +8,7 @@ This repository is being assembled from the live research workspace. The status 
 |---|---|
 | `experiments/openvla_fastwam/` | OpenVLA-OFT and Fast-WAM cross-backbone experiments |
 | `experiments/robotwin_pro/` | RoboTwin 2.0 and LIBERO-PRO cross-benchmark experiments |
-| `experiments/appendix_cost_training/` | Calibration controls, Figure 4 TIES/RegMean++ subsets, action/cost accounting, and the planned continued-training study |
+| `experiments/appendix_cost_training/` | Calibration controls, Figure 4 TIES/RegMean++/FeatCal subsets, action/cost accounting, and the planned continued-training study |
 
 Real-robot experiments are excluded.
 

@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-09-25T02:48:01.385165+00:00",
+  "checks": {
+    "status": "PASS",
+    "snapshot_files": 168,
+    "snapshot_bytes": 4448146,
+    "plan_and_recorded_readiness_bindings": "PASS",
+    "regmean_function_parity": {
+      "unchanged_functions": 37,
+      "changed_functions": [
+        "load_replay_states",
+        "main"
+      ]
+    },
+    "ties_kernel": {
+      "expert_counts": [
+        2,
+        3
+      ],
+      "independent_numpy_oracle": "bitwise_equal"
+    },
+    "regmean_contract": {
+      "rows": {
+        "2": 1184200,
+        "3": 1776300
+      },
+      "excluded_expert_and_ridge_rejected": true
+    },
+    "featcal_queue": {
+      "adapter_cpu_tests_recorded": 12,
+      "queue_cpu_tests_recorded": 10,
+      "stage_jobs": 14,
+      "formal_jobs": 5,
+      "formal_episodes": 500,
+      "build_tf32_override": "1",
+      "formal_tf32_override": null,
+      "unauthorized_template_and_busy_gpu_rejected": true
+    },
+    "full_native_checks_rerun_locally": false,
+    "native_check_evidence": "Byte-preserved original CPU receipts; full PyTorch/safetensors/native assets required to rerun them.",
+    "gpu_or_training_started": false
+  },
+  "unittest": {
+    "passed": 5,
+    "total": 5
+  },
+  "doctor_code_only": "PASS",
+  "appendix_cpu_smoke": "PASS",
+  "all_family_doctor": "BLOCKED",
+  "all_family_limit": "Other native environments and benchmark/model assets are not installed on this local host.",
+  "large_or_binary_files_bundled": [],
+  "remote_live_queues_modified_by_packaging": false,
+  "git_push": false
+}

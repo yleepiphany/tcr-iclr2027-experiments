@@ -1,0 +1,22 @@
+{
+  "accepted": {},
+  "active": {},
+  "pending": [
+    "spatial-goal-smoke",
+    "spatial-goal-teacher-spatial",
+    "spatial-goal-teacher-goal",
+    "spatial-goal-solve",
+    "featcal-spatial-goal-libero_spatial",
+    "featcal-spatial-goal-libero_goal",
+    "spatial-object-goal-smoke",
+    "spatial-object-goal-teacher-spatial",
+    "spatial-object-goal-teacher-object",
+    "spatial-object-goal-teacher-goal",
+    "spatial-object-goal-solve",
+    "featcal-spatial-object-goal-libero_spatial",
+    "featcal-spatial-object-goal-libero_object",
+    "featcal-spatial-object-goal-libero_goal"
+  ],
+  "status": "running_or_waiting_owned_idle_cards",
+  "time": "2026-09-25T02:42:35.733134+00:00"
+}
