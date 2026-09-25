@@ -1,0 +1,7 @@
+{
+  "cpu_only": true,
+  "pid": 2863259,
+  "plan_sha256": "e9b38b1e7793b31876c7c7804e0bc446e6287ec91f34d33444eca818432c407b",
+  "started_at": "2026-09-25T01:19:53.839045+00:00",
+  "subset": "spatial-goal"
+}

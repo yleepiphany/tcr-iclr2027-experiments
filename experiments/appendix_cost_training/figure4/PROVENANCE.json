@@ -1,0 +1,742 @@
+{
+  "schema": 1,
+  "source_host": "A100-8-hz:1016",
+  "source_workspace": "/mnt/workspace/Wilson/parameter-fusion",
+  "source_repository_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098",
+  "observed_at_utc": "2026-09-25T01:52:14.670090+00:00",
+  "scope": "Figure 4 fixed TIES and RegMean++ subset CPU implementations, immutable plans, tests and runtime receipts; no model weights or caches",
+  "files": [
+    {
+      "workspace_relative_path": "coordination/2026-09-25/figure4-baseline-expansion-215.md",
+      "bytes": 4213,
+      "sha256": "e86513137be44204c9b48d5ae1d32d069761b1a25e85f4e2b9c2e370e643db6d",
+      "packaged_path": "sources/coordination/2026-09-25/figure4-baseline-expansion-215.md"
+    },
+    {
+      "workspace_relative_path": "coordination/2026-09-25/figure4-main-table-alignment.md",
+      "bytes": 1664,
+      "sha256": "5c06525892d6808046348c5ca3cabaed04a96e59f30d2774a75b56ebc6f5f63c",
+      "packaged_path": "sources/coordination/2026-09-25/figure4-main-table-alignment.md"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/claude-firstpass-cause-20260920/card_flock.py",
+      "bytes": 5708,
+      "sha256": "50c150a929abf5ccbbba29e2ac650f5bab207e23a2f19667206819b195538da9",
+      "packaged_path": "sources/vla-merge/experiments/claude-firstpass-cause-20260920/card_flock.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/claude-formal-mainline-20260919/formal_contract.py",
+      "bytes": 16337,
+      "sha256": "742d2c89249203cdad0a2309079f21a40369456fc51490ec9c08f2ea42770514",
+      "packaged_path": "sources/vla-merge/experiments/claude-formal-mainline-20260919/formal_contract.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_contract.py",
+      "bytes": 6287,
+      "sha256": "49fe9963486d59977a0ff75a24e576f978bf4d0c076670b4ad8e245cafefefe1",
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_contract.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_union_contract.py",
+      "bytes": 5538,
+      "sha256": "4bd4e89e42773f8d58fd9212d7a2e942a1dcc3592e070438da85c3cd39338662",
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/appendix_union_contract.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_union_eval_v8.py",
+      "bytes": 19679,
+      "sha256": "b56a327ce5395332e849b6b542e997fe1eec9a43ab3d302341d88e3a1858209c",
+      "packaged_path": "sources/vla-merge/experiments/claude-pi05-fixed-appendix-20260923/run_union_eval_v8.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/FORMAL_READY.md",
+      "bytes": 2614,
+      "sha256": "8977e32159277f15d6b0d5d01df9f655dff97e3ba6100d43718bd3ec0b4f5eb4",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/FORMAL_READY.md"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/README.md",
+      "bytes": 4525,
+      "sha256": "e599b7b4d494c50304aa60a3c9253a13105b8ddf80c3e58e85aae48bcf068d0e",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/README.md"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/check_ties_native_actions_cpu.py",
+      "bytes": 4728,
+      "sha256": "43bb42e8a401ff4d5d1cbf23c1025681923c6501b598e1dbc4612bb73835d1d9",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/check_ties_native_actions_cpu.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/freeze_cpu_plan.py",
+      "bytes": 22572,
+      "sha256": "61981fd2270e92b660781c5df26c4c728ee53d358e80c8ee0db12643fe877cb9",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/freeze_cpu_plan.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/libero-config/config.yaml",
+      "bytes": 335,
+      "sha256": "b882b1dce2799558f674fc076335fab27835184da8fa471418d9de8ce61bd8d2",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/libero-config/config.yaml"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/QUEUE-v3.md",
+      "bytes": 5067,
+      "sha256": "beaa17a63d69b0d66a90f00607d1b00996cdee71c38f12e29b0b2e86ee5db903",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/QUEUE-v3.md"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/README.md",
+      "bytes": 4907,
+      "sha256": "8c44dd2345c8dc80a4bda3084a68f9c6fc5021c573d64162c35488e8d465397f",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/README.md"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/accept_subset_checkpoint.py",
+      "bytes": 5355,
+      "sha256": "95d3afc1eaa228c1c1a8ecd2ccd8cc477b5c41370478f5d101b3edfc5da9fdc6",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/accept_subset_checkpoint.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/fig4_regmeanpp_contract.py",
+      "bytes": 9759,
+      "sha256": "252140bb33973f4ad3e01f84427760591a9cf71f7224e5353acda8b6d700bd46",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/fig4_regmeanpp_contract.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/materialize_regmeanpp_subset.py",
+      "bytes": 101629,
+      "sha256": "2ef3f76e312b1aab7eb0290ddaceb84ac6bc92d707e2ebd5009af98680b3557c",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/materialize_regmeanpp_subset.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/prepare_regmeanpp_subset.py",
+      "bytes": 5924,
+      "sha256": "2136e938bb3035e73a8e4e5b06f155cb2c140eb5baac5924bc7f810fe313099d",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/prepare_regmeanpp_subset.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/queue_regmeanpp_subset.py",
+      "bytes": 21301,
+      "sha256": "52bbb0fe099ca2e757e331d8f60a518a6c0364cd84ad562a7c77c561e43ade6c",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/queue_regmeanpp_subset.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/queue_regmeanpp_subset_v2.py",
+      "bytes": 21504,
+      "sha256": "056bb1ecd9ea86b02d54900d1185206817c9f01f7b7a694d083f690e929107d2",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/queue_regmeanpp_subset_v2.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/queue_regmeanpp_subset_v3.py",
+      "bytes": 23097,
+      "sha256": "9474687fd2210a3a1f969bbfc63f6f08e5f8df8ebb40b51f439dc73799b18c3f",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/queue_regmeanpp_subset_v3.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/test_regmeanpp_queue_cpu.py",
+      "bytes": 4602,
+      "sha256": "b8f53a7ff7b181e56cc9cadf790e8537ede64380db0e7c3768aa517753da25b9",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/test_regmeanpp_queue_cpu.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/test_regmeanpp_queue_v2_cpu.py",
+      "bytes": 4605,
+      "sha256": "d5fc2ea55172a278a0902abd7cf25b3ddf85f9487a65450462a189454ab0bd6c",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/test_regmeanpp_queue_v2_cpu.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/test_regmeanpp_queue_v3_cpu.py",
+      "bytes": 6831,
+      "sha256": "ae80b1d4e9d487416ddabe612642164bca5925f1cd35c4ba2e8639872d186502",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/test_regmeanpp_queue_v3_cpu.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/test_regmeanpp_subset_cpu.py",
+      "bytes": 5372,
+      "sha256": "e3c3581891ed6d09f0d8b97dc4c94556ceedf610bcc348da1ac5ce2d20cb4db4",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/test_regmeanpp_subset_cpu.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/run_ties_cpu_queue.py",
+      "bytes": 5713,
+      "sha256": "ea35eabcd54af7d47e2f8cc9b9835dbf308e0248c137df04520d1bd00b3061e4",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/run_ties_cpu_queue.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/run_ties_formal_v1.py",
+      "bytes": 20687,
+      "sha256": "1a1fd6ff044a2f7cbeee49b95d475d25f7d8201c1763c17138363cacc1f9b0e9",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/run_ties_formal_v1.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/test_ties_formal_audit.py",
+      "bytes": 3005,
+      "sha256": "7b093601dc15eddfe170d10f892648188170fc904790f01321fcb1b36239ec87",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/test_ties_formal_audit.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/test_ties_subset.py",
+      "bytes": 3050,
+      "sha256": "3a4c0d6936a5d394d89cac37b14286e76bcc3f14509ed5fd427c181a5ed3b8e7",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/test_ties_subset.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/test_ties_subset_v2.py",
+      "bytes": 3053,
+      "sha256": "32638ee4efc6082b331f94cb17a03334932db585647c51eb7fad4a2f208153be",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/test_ties_subset_v2.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/ties_subset.py",
+      "bytes": 15555,
+      "sha256": "4d62b4f660c7bbcad6ea65b702847ce5b6ca084a1b84b5b706feb220a920890a",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/ties_subset.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/fig4-baselines-codex-20260925/ties_subset_v2.py",
+      "bytes": 16604,
+      "sha256": "89510d6a57eb61dc89b352a3c3c6082b957284aae16c29b2d4480648a3fc084f",
+      "packaged_path": "sources/vla-merge/experiments/fig4-baselines-codex-20260925/ties_subset_v2.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/check_completed_model.py",
+      "bytes": 4351,
+      "sha256": "c5025289ca6534d81242e52c67de1b2df02c0ef73520a5f3d27ddca9eafd902b",
+      "packaged_path": "sources/vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/check_completed_model.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/materialize_smoothed.py",
+      "bytes": 101205,
+      "sha256": "c393ef3bc65a6b881b29b77cdf77eb5c1cea18bf755ffcac9535ee3ad53708b6",
+      "packaged_path": "sources/vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/materialize_smoothed.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/run_build.py",
+      "bytes": 7284,
+      "sha256": "e583dacedc4923806baf7a4ada0a52d0bf0c96f44189292e6283fe309128d261",
+      "packaged_path": "sources/vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/run_build.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/smoothing_adapter.py",
+      "bytes": 2177,
+      "sha256": "f3c39af099296d7d95007b35d5603d6b4338a12bf1773d48f5e245b8fd93ad3a",
+      "packaged_path": "sources/vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/smoothing_adapter.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/smoothing_contract.py",
+      "bytes": 6226,
+      "sha256": "2faa6853bd638ddaa285d8e8535f8190d3070e075c53fb76ce1160437ff6b71c",
+      "packaged_path": "sources/vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/smoothing_contract.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/spectral_smoothing.py",
+      "bytes": 9150,
+      "sha256": "55b06cc4b6a43c029ade1a5471e3ca1259eb5ec1234420a454333b98411ee3fc",
+      "packaged_path": "sources/vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/spectral_smoothing.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/test_full_integration.py",
+      "bytes": 4832,
+      "sha256": "f38b45b46667f741e89cf4bec2a6c0529b8549c0899a605064dac24b5d0aeb43",
+      "packaged_path": "sources/vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/test_full_integration.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/test_spectral_smoothing.py",
+      "bytes": 5268,
+      "sha256": "8721a9846a9ba05e45547ab8f40644aee77aecebab48433dcaecbadfc913161c",
+      "packaged_path": "sources/vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/test_spectral_smoothing.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/scripts/eval_pi05_policy_with_procedural_bank.py",
+      "bytes": 8812,
+      "sha256": "0d725da47958f62c1dc8b6ad5841ee684b3468a2eb7a04eb3bee74a016fee24c",
+      "packaged_path": "sources/vla-merge/scripts/eval_pi05_policy_with_procedural_bank.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+      "bytes": 2093,
+      "sha256": "178417fee375e94b0fc7f1919d47dc1249a904ff62b3aa01e04ff5c046cd80b1",
+      "packaged_path": "sources/vla-merge/scripts/eval_tcr_10k_formal_bounded.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/scripts/materialize_iclr2027_table1_ta_ties_fastlane.py",
+      "bytes": 95342,
+      "sha256": "722e72129599370b3bb3ae482c3eff4c251d5ddbfdbcbad6feda8639d1cb6152",
+      "packaged_path": "sources/vla-merge/scripts/materialize_iclr2027_table1_ta_ties_fastlane.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/scripts/materialize_pi05_block_regmeanpp.py",
+      "bytes": 52911,
+      "sha256": "22449eafe9afa5ca0b35a40c1b105e088e5bb777bf60e19bfd5c9626b73754aa",
+      "packaged_path": "sources/vla-merge/scripts/materialize_pi05_block_regmeanpp.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/scripts/pi05_replay_prefix.py",
+      "bytes": 863,
+      "sha256": "fcfc11854c866ecda4f0b22b0a3f0d0e5b912db01f1b0a9239c37a1296d46a3a",
+      "packaged_path": "sources/vla-merge/scripts/pi05_replay_prefix.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/scripts/pi05_tcr_e_dense_contract.py",
+      "bytes": 4778,
+      "sha256": "f1aea2b7122d8e9d886b0b06d864ac69c73d3df7828ae931a68997a4b35d451c",
+      "packaged_path": "sources/vla-merge/scripts/pi05_tcr_e_dense_contract.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/scripts/run_pi05_generation_path_probe.py",
+      "bytes": 11254,
+      "sha256": "2a9f496b6080e8199aedaf179b81c73fb6b3423bd00b04cc440e5edbbfaec0e9",
+      "packaged_path": "sources/vla-merge/scripts/run_pi05_generation_path_probe.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/scripts/ta_ties_core.py",
+      "bytes": 34466,
+      "sha256": "dd7e00a85e43dd2a16b0b60e86c0f578857a0ad521648a497e166e91cde38303",
+      "packaged_path": "sources/vla-merge/scripts/ta_ties_core.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/src/vla_merge/libero_procedural_bank.py",
+      "bytes": 17380,
+      "sha256": "9753f4ced7e0237a9bf82b836834dcad745a9bf4ee0146af292b70d0aa9072b5",
+      "packaged_path": "sources/vla-merge/src/vla_merge/libero_procedural_bank.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge/src/vla_merge/original_regmeanpp_v2.py",
+      "bytes": 8634,
+      "sha256": "3ce966b6f7d55a271127c34684200cec60ad9688e19f9ceb0ae1bdd6cad0811d",
+      "packaged_path": "sources/vla-merge/src/vla_merge/original_regmeanpp_v2.py"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/plan-v1/bank-spatial-goal.json",
+      "bytes": 216262,
+      "sha256": "1d13140fc74567e03e1c5e8a861775e3ec754a371f895be72c995289578aa429",
+      "packaged_path": "sources/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/plan-v1/bank-spatial-goal.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/plan-v1/bank-spatial-object-goal.json",
+      "bytes": 219425,
+      "sha256": "2ca0e2bf0c56e8cf600c08bbf2e817f76aa52523a2918cf1cc81cc51cd9769e8",
+      "packaged_path": "sources/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/plan-v1/bank-spatial-object-goal.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/PLAN-SHA256.json",
+      "bytes": 88,
+      "sha256": "e59ea4d2daee0ace8df42282913f39493cb40ca822e54aacd30f3855d76166a0",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/PLAN-SHA256.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-goal/candidate-manifest.json",
+      "bytes": 5614,
+      "sha256": "684a04c96f2243108b3403ed095511e90d5374cc0bbbe43c5bc4fe3c10a4dc15",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-goal/candidate-manifest.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-object-goal/candidate-manifest.json",
+      "bytes": 5794,
+      "sha256": "634a880dd54c65bf8351abd38db87a3c4955c9f86b9cc5126f143cf92a123a51",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-object-goal/candidate-manifest.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/four-expert-reuse.json",
+      "bytes": 108537,
+      "sha256": "145cd960d7b05fe1c42ffd668a51d330464945c56b5e9b576fa0c4f110554674",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/four-expert-reuse.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/plan.json",
+      "bytes": 64406,
+      "sha256": "62ff0891df02a75d20a8b724f70f93a8373f75852a7385c88034993c326d7875",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/plan.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v1/PERMIT-TEMPLATE-NOT-AUTHORIZED.json",
+      "bytes": 804,
+      "sha256": "93e8d23cda6d3aedfac030c2df1b5af6a155b5cd761f725a5c7f7bfd1d157fd4",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v1/PERMIT-TEMPLATE-NOT-AUTHORIZED.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v1/plan.json",
+      "bytes": 93418,
+      "sha256": "51db57bab13f1162eb8dd43e51c90d08c4d45f89dc7391747ed9aa627ddc0cd7",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v1/plan.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v2/CPU-QUEUE-TEST-RECEIPT.json",
+      "bytes": 1187,
+      "sha256": "16c240462ef4ae98faa7ba284c827dbfd275a5fee2d224fb2fb43b8cdd7d0bc2",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v2/CPU-QUEUE-TEST-RECEIPT.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v2/PERMIT-TEMPLATE-NOT-AUTHORIZED.json",
+      "bytes": 804,
+      "sha256": "0564fa907ef770c25d4b3265b96cc76d3367d2ac2d1b95b9f8977e86e0ac2f57",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v2/PERMIT-TEMPLATE-NOT-AUTHORIZED.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v2/plan.json",
+      "bytes": 93421,
+      "sha256": "753f39fe9ebca042a505d8c1ff5679f291c187111a72b5d2f3501dc399a9980b",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v2/plan.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v3/AUTHORIZATION-CONSUMED.json",
+      "bytes": 453,
+      "sha256": "1ed77c3616ea97f532613765540facb4fb4a39c92f164579b47542485ef3b8e0",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v3/AUTHORIZATION-CONSUMED.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v3/CPU-QUEUE-TEST-RECEIPT.json",
+      "bytes": 1184,
+      "sha256": "dd48969c8ad4164545dbe9b5530eb5e3ff8c4243a0ffc8fe1b7b55a078e1f013",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v3/CPU-QUEUE-TEST-RECEIPT.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v3/PERMIT-TEMPLATE-NOT-AUTHORIZED.json",
+      "bytes": 804,
+      "sha256": "48d3581be1a3800a5fa6a97f64dade886cde45cd982281ad1bf867bf93c70ac4",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v3/PERMIT-TEMPLATE-NOT-AUTHORIZED.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v3/STARTED.json",
+      "bytes": 199,
+      "sha256": "e0db29751fe1fde70f3f45aba3fdcc508c6d9c000193cc84fce38601454086ee",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v3/STARTED.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v3/launch-receipt.json",
+      "bytes": 656,
+      "sha256": "3635cf3544ec228ede79027f11df9f779ceb2f744a0dff5ee6b1ba8af34778b6",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v3/launch-receipt.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v3/plan.json",
+      "bytes": 93421,
+      "sha256": "c83cfbda79f58f12c322f58c0feac9e08b0109afbe815b005ce753ed7f10e88d",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v3/plan.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v3/state.json",
+      "bytes": 525,
+      "sha256": "c47b179accf7b96736d5a563bfb1dc446bf3bca72026cb9589b5724e4e22faad",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v3/state.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-subset-cpu-v1/CPU-ADAPTER-RECEIPT.json",
+      "bytes": 7115,
+      "sha256": "801138365467ae1f3bd8cc3bab844230636c887ca6a676ba73587d7438323399",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-subset-cpu-v1/CPU-ADAPTER-RECEIPT.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-subset-cpu-v1/CPU-TEST-RECEIPT.json",
+      "bytes": 1602,
+      "sha256": "b42194784d22b0869c116afe881d36ffd74a53e37799bf7f89d7c5b6fbff9982",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-subset-cpu-v1/CPU-TEST-RECEIPT.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-subset-cpu-v1/spatial-goal/plan.json",
+      "bytes": 10735,
+      "sha256": "d52e39fcf4b8f5469c5a1290d4ab589739c73bb0e95e299c94538df520860cbd",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-subset-cpu-v1/spatial-goal/plan.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-subset-cpu-v1/spatial-object-goal/plan.json",
+      "bytes": 13304,
+      "sha256": "8ba2f74c51409e0c061e69085407eef2032a705bd8b47139bac9215aec6fe19f",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-subset-cpu-v1/spatial-object-goal/plan.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v1/CPU-PREFLIGHT-FAILED.json",
+      "bytes": 475,
+      "sha256": "a48ee20a18261d675b5b514bdf19a68caf69ccb1a01d47d5f7eb8fa437ceeaeb",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v1/CPU-PREFLIGHT-FAILED.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v1/PLAN-SHA256.json",
+      "bytes": 88,
+      "sha256": "7bbadba16f4059a004711f798dd46154649c517ea0040805f8613f027ae2affc",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v1/PLAN-SHA256.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v1/plan.json",
+      "bytes": 116975,
+      "sha256": "1a828739fa3c2a4204c254f0f9a63a58d7dc0e577f6b41edf6763c32768b7eb1",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v1/plan.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/CPU-PREFLIGHT.json",
+      "bytes": 1217,
+      "sha256": "c03103334cf710e3255a1f17389c3bba532092cdb3a23a57c4d44a4e44aea638",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/CPU-PREFLIGHT.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/CPU-TESTS.json",
+      "bytes": 319,
+      "sha256": "1efbd879962f88298114143ca00c9cb91e53e52410f60c2e6158776622b95d72",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/CPU-TESTS.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/PLAN-SHA256.json",
+      "bytes": 88,
+      "sha256": "f961f51cddd5417b80cd3dfb4387cc028302a8deecf7ad08088be412340495e0",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/PLAN-SHA256.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/cpu-queue-01/DONE.json",
+      "bytes": 1594,
+      "sha256": "e4bccb0361cf3efb9cb7af921ed6f770bcd2b03b7c849fe38e8336a5c0c177dd",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/cpu-queue-01/DONE.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/cpu-queue-01/STARTED.json",
+      "bytes": 533,
+      "sha256": "503c7438a53fde90457b57b74aa739935af810defa1b0b98a764ab85623a6b4a",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/cpu-queue-01/STARTED.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/cpu-queue-01/STATE.json",
+      "bytes": 1637,
+      "sha256": "27ef38e40ccf6bda55d856dd25593d126e105e51021835fc1506cd62157d7e8b",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/cpu-queue-01/STATE.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/cpu-queue-01/spatial-goal-build-EXIT.json",
+      "bytes": 113,
+      "sha256": "dbf3cc682ed554c77f11fe73f39cbdca16256e201e9702eec1c13f7b0aa4c62f",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/cpu-queue-01/spatial-goal-build-EXIT.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/cpu-queue-01/spatial-goal-build-LAUNCH.json",
+      "bytes": 558,
+      "sha256": "c0d6d93d55483a5336da71c2df4d87d9073cef0b9b44d4ad2ab2ac8f2d452ebc",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/cpu-queue-01/spatial-goal-build-LAUNCH.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/cpu-queue-01/spatial-goal-native-load-EXIT.json",
+      "bytes": 119,
+      "sha256": "a88ed8ad451a1f33cdffe60bbeecaa877ab1a911c88d907884d87669d53d3690",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/cpu-queue-01/spatial-goal-native-load-EXIT.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/cpu-queue-01/spatial-goal-native-load-LAUNCH.json",
+      "bytes": 564,
+      "sha256": "4af2ec5c982aea52ec1d4bd8b603e22e298b2af605b2ff630fa59291b1f543f6",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/cpu-queue-01/spatial-goal-native-load-LAUNCH.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/cpu-queue-01/spatial-object-goal-build-EXIT.json",
+      "bytes": 113,
+      "sha256": "7f1e68a9d193c97a911dd2163ee90a051adb5b3ebacdd940f52efa230b3b1438",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/cpu-queue-01/spatial-object-goal-build-EXIT.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/cpu-queue-01/spatial-object-goal-build-LAUNCH.json",
+      "bytes": 565,
+      "sha256": "e7fb11c5d936f49e59a453556132f7ef663c4a258bc763167765a0e2156cdbe8",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/cpu-queue-01/spatial-object-goal-build-LAUNCH.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/cpu-queue-01/spatial-object-goal-native-load-EXIT.json",
+      "bytes": 119,
+      "sha256": "e4f3a9cbd40932afc4896e05110404088d5f45262868256a3e42e74b68ac0d03",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/cpu-queue-01/spatial-object-goal-native-load-EXIT.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/cpu-queue-01/spatial-object-goal-native-load-LAUNCH.json",
+      "bytes": 571,
+      "sha256": "43bc3f80d5f20d9bf3580731b9956e1a17b2d8c95fc60058fe01f6fc1d9419bc",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/cpu-queue-01/spatial-object-goal-native-load-LAUNCH.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/plan.json",
+      "bytes": 117166,
+      "sha256": "e9b38b1e7793b31876c7c7804e0bc446e6287ec91f34d33444eca818432c407b",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/plan.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/spatial-goal/BUILD-COMPLETE.json",
+      "bytes": 5614,
+      "sha256": "684a04c96f2243108b3403ed095511e90d5374cc0bbbe43c5bc4fe3c10a4dc15",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/spatial-goal/BUILD-COMPLETE.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/spatial-goal/NATIVE-CPU-LOAD.json",
+      "bytes": 593,
+      "sha256": "2ce7743f06c3753ece8247210cfc9f5b1553c5d6489ebcee8a0d8cec0add8341",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/spatial-goal/NATIVE-CPU-LOAD.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/spatial-goal/STARTED.json",
+      "bytes": 206,
+      "sha256": "b61eb5a45b34b77ad170a4dd3623a682a78030fab4fcd71d69bbd568d890df5f",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/spatial-goal/STARTED.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/spatial-object-goal/BUILD-COMPLETE.json",
+      "bytes": 5794,
+      "sha256": "634a880dd54c65bf8351abd38db87a3c4955c9f86b9cc5126f143cf92a123a51",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/spatial-object-goal/BUILD-COMPLETE.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/spatial-object-goal/NATIVE-CPU-LOAD.json",
+      "bytes": 600,
+      "sha256": "bb7af1ee441c5c7c9364d01391ef0e1347e5a79ef206c59af06f8688864271c0",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/spatial-object-goal/NATIVE-CPU-LOAD.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/spatial-object-goal/STARTED.json",
+      "bytes": 213,
+      "sha256": "e213e0e39c268a0e6bbeaa1cbb75ab51309b4a97381fb27ab9fcec4ca65d84c8",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v2/spatial-object-goal/STARTED.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/CPU-PREFLIGHT.json",
+      "bytes": 691,
+      "sha256": "15ff78afedcbf7075acd94ad1feebd158e8c34f4e45fd91854a100264b6e3eca",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/CPU-PREFLIGHT.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/CPU-READINESS.json",
+      "bytes": 1930,
+      "sha256": "1a22b24c9f8ce1f521da4ba85d182a0572197bc87cfd54f0b5efbf2d90f56a8f",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/CPU-READINESS.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/FINAL-BINDING-AUDIT.json",
+      "bytes": 739,
+      "sha256": "fffe2f781906d7f1f6707882771e5ae6b08277920f556333ae7d6b2b1f8f4740",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/FINAL-BINDING-AUDIT.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/PLAN-SHA256.json",
+      "bytes": 83,
+      "sha256": "c6ebcd64c49509f68620ba4c57d5cb9b8ce7cd802006d7356961ba71aef6e985",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/PLAN-SHA256.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/STARTED.json",
+      "bytes": 152,
+      "sha256": "d3c0ffcf12ef98de59ec83d94ff465a1e8332d21be69cb5f75d1de44bbf7e481",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/STARTED.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/STATE.json",
+      "bytes": 444,
+      "sha256": "ae8ccfca025318b3ded0f023176949a6521db77e531b3c315366514c0d9f7b4a",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/STATE.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/TEMPLATE-SHA256.json",
+      "bytes": 83,
+      "sha256": "58d772797e7744f6adcff28243e540aae8ed6b630488c5b20b908118288cc733",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/TEMPLATE-SHA256.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/bind-waiter/DONE.json",
+      "bytes": 3282,
+      "sha256": "a33689a7e5ad20bf13c195e64ac96601431566a5f5b204d35a0a20e766d1029b",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/bind-waiter/DONE.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/bind-waiter/STARTED.json",
+      "bytes": 140,
+      "sha256": "68ded177d3d6eb935b6d947ce046bac09c5ee1ff6bab7c23cef441ef35ba46b2",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/bind-waiter/STARTED.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/launch-receipt.json",
+      "bytes": 513,
+      "sha256": "f13d6ad01c6b8d9f5d70f593c7eed70806d804c23744e2f93fda94290c79c6bc",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/launch-receipt.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/native-cpu-actions-v1/spatial-goal/DONE.json",
+      "bytes": 1229,
+      "sha256": "305415d559a21b3eeb3fc5516c1c57bfc6b46ef35f4365b2511d5b9ef6f06af5",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/native-cpu-actions-v1/spatial-goal/DONE.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/native-cpu-actions-v1/spatial-goal/STARTED.json",
+      "bytes": 366,
+      "sha256": "c8bb5b1880c20f63f2c781a2a734fafe469250cdf533511704cada86546ea27f",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/native-cpu-actions-v1/spatial-goal/STARTED.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/native-cpu-actions-v1/spatial-object-goal/DONE.json",
+      "bytes": 1236,
+      "sha256": "d82391bc2548011808792870fe684113ddf787036269307bdc5be68ea8169a8c",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/native-cpu-actions-v1/spatial-object-goal/DONE.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/native-cpu-actions-v1/spatial-object-goal/STARTED.json",
+      "bytes": 366,
+      "sha256": "874fa7248f5bf8bb1de7c0168a7076ae2d20acea153c8a7ca24e4845bb4bf07f",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/native-cpu-actions-v1/spatial-object-goal/STARTED.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/plan.json",
+      "bytes": 16806,
+      "sha256": "9aa487f1feabc70c6db5f0fb6525469e4be90d0018c94213b828b71df596a653",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/plan.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/template.json",
+      "bytes": 12989,
+      "sha256": "4821f594af7384cb51a5815b44a9a570b99dede98852b149eb34f6caea15d826",
+      "packaged_path": "sources/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/template.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/expert-dense-bank-peft-v2.json",
+      "bytes": 7945,
+      "sha256": "d61a5f9e56bb0f76d8186a33dc26fe283cf8cfab220e903a460f92e4507f209b",
+      "packaged_path": "sources/vla-merge-runtime/experiments/iclr2027-table1-20260910/expert-dense-bank-peft-v2.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/cache-v2/task-vectors-v2/cache-manifest.json",
+      "bytes": 72249,
+      "sha256": "904e0a0216ee43bd93b5db1e2540851c227535bee8278fddb06bd630b05a88fb",
+      "packaged_path": "sources/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/cache-v2/task-vectors-v2/cache-manifest.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/manifest-revision7.json",
+      "bytes": 43877,
+      "sha256": "329bd77011e3ff9d19cca08c71a0d3e481edf78f1f5e44ec3e0b7d9f8f26ac86",
+      "packaged_path": "sources/vla-merge-runtime/experiments/iclr2027-table1-20260910/manifest-revision7.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/manifest.json",
+      "bytes": 1191035,
+      "sha256": "16fb4a0331b552c211bcb92ed3c81c7f4232c4eec88330d52056131e26d04be8",
+      "packaged_path": "sources/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/manifest.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+      "bytes": 5054,
+      "sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0",
+      "packaged_path": "sources/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+      "bytes": 5454,
+      "sha256": "401ec2256ce5edc17391d4d2d5e27a56c431a7249b9d04d01fc31b22a78f8533",
+      "packaged_path": "sources/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+      "bytes": 5454,
+      "sha256": "3d2963b6a5452460a9c0a0393d10a30c4d088eb9dc29831b81567b1a38820600",
+      "packaged_path": "sources/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/plan.json",
+      "bytes": 8101,
+      "sha256": "89002c4ba14f26e1addccc2928c6a04d950e543f9ddc2cc51ae82430d69fb96d",
+      "packaged_path": "sources/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/plan.json"
+    },
+    {
+      "workspace_relative_path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/attempt-01/plan.json",
+      "bytes": 11375,
+      "sha256": "6592d206d4a0ff0cb063b3a3de923471c4abaf44e41c76850d4ad549713ee814",
+      "packaged_path": "sources/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/attempt-01/plan.json"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "status": "cpu_preflight_failed_before_any_build",
+  "exception": "RuntimeError: 0 active drivers ([]). There should only be one.",
+  "cause": "Optional Transformer Engine imported by PEFT during CPU native class import; no CUDA-visible devices by design",
+  "gpu_jobs_launched": 0,
+  "subset_builds_started": 0,
+  "recovery": "Isolated ties-adapter-v2, import-only optional TE discovery suppression from existing CPU validation workflow; old source and plan unchanged"
+}

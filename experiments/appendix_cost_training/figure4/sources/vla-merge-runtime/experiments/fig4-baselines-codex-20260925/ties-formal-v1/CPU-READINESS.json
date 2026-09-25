@@ -1,0 +1,48 @@
+{
+  "cpu_builds": 2,
+  "do_not_duplicate_existing_formal_supervisor": true,
+  "final_plan_sha256": "9aa487f1feabc70c6db5f0fb6525469e4be90d0018c94213b828b71df596a653",
+  "finite_native_cpu_actions": {
+    "spatial-goal": {
+      "denoising_calls": 10,
+      "model_sha256": "a925dfdb87a9eb0efd37857dbfdba24085df1f5a09212ceda8ac6d69dc38a5e9",
+      "receipt_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/native-cpu-actions-v1/spatial-goal/DONE.json",
+      "receipt_sha256": "305415d559a21b3eeb3fc5516c1c57bfc6b46ef35f4365b2511d5b9ef6f06af5",
+      "shape": [
+        1,
+        50,
+        32
+      ]
+    },
+    "spatial-object-goal": {
+      "denoising_calls": 10,
+      "model_sha256": "6cf494c56f4cfaa9e18b984740c779c17de2008425dfdf8e002253ce11ced3d0",
+      "receipt_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-formal-v1/native-cpu-actions-v1/spatial-object-goal/DONE.json",
+      "receipt_sha256": "d82391bc2548011808792870fe684113ddf787036269307bdc5be68ea8169a8c",
+      "shape": [
+        1,
+        50,
+        32
+      ]
+    }
+  },
+  "formal_episodes": 500,
+  "formal_jobs": 5,
+  "formal_supervisor_observed": {
+    "pid": 2881901,
+    "plan_sha256": "9aa487f1feabc70c6db5f0fb6525469e4be90d0018c94213b828b71df596a653",
+    "time": "2026-09-25T01:43:32.745517+00:00"
+  },
+  "formal_supervisor_started_by_this_audit": false,
+  "gpu_jobs_launched_by_preparation": 0,
+  "run_command": [
+    "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+    "-u",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/run_ties_formal_v1.py",
+    "run"
+  ],
+  "signal_sent_to_cpu_diagnostics": false,
+  "status": "pass_cpu_readiness",
+  "strict_native_cpu_loads": 2,
+  "time": "2026-09-25T01:45:02.276296+00:00"
+}

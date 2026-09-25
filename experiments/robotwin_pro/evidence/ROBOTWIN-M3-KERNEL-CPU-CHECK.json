@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "method": "RegMean++ disclosed spectral smoothing",
+      "experts": 3,
+      "rank_deficient": false,
+      "max_abs": 0.0
+    },
+    {
+      "method": "FeatCal",
+      "experts": 3,
+      "rank_deficient": false,
+      "max_abs": 8.881784197001252e-16
+    },
+    {
+      "method": "RegMean++ disclosed spectral smoothing",
+      "experts": 3,
+      "rank_deficient": true,
+      "max_abs": 0.0
+    },
+    {
+      "method": "FeatCal",
+      "experts": 3,
+      "rank_deficient": true,
+      "max_abs": 4.440892098500626e-16
+    }
+  ],
+  "gpu_used": false,
+  "scope": "M3 matrix kernels only, not model graph/feature collection",
+  "source_sha256": {
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/spectral_smoothing.py": "55b06cc4b6a43c029ade1a5471e3ca1259eb5ec1234420a454333b98411ee3fc",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/featcal_hybrid_solve.py": "d44597ad37397dbb7ffd752891943644297fdd8224e09f7f106ff7e3ce93863d"
+  }
+}

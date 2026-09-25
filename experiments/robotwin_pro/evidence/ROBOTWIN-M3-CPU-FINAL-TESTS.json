@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "tests": 11,
+  "errors": 0,
+  "failures": 0,
+  "gpu_used": false,
+  "cuda_initialized": false,
+  "prepared_plan_sha256": "f9fbc255cf37f5bec14fc2ba36d1b7c147b2d7205e6999f3a6a007df331c7eb5",
+  "shards": 2820,
+  "quotas": 418,
+  "regression_rows": 3330900,
+  "model_bytes_verified": 5,
+  "cache_sizes": {
+    "student": {
+      "factor_bytes_float32": 27635270400,
+      "row_key_bytes_int64": 106588800,
+      "shards": 1410
+    },
+    "teacher": {
+      "factor_bytes_float32": 27635270400,
+      "row_key_bytes_int64": 106588800,
+      "shards": 1410
+    }
+  },
+  "scope": "CPU data+small-graph+original single-step kernel; native GPU smoke not executed"
+}

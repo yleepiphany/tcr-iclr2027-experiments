@@ -1,0 +1,52 @@
+{
+  "episodes": 500,
+  "jobs": 5,
+  "models": {
+    "spatial-goal": {
+      "export_manifest_sha256": "684a04c96f2243108b3403ed095511e90d5374cc0bbbe43c5bc4fe3c10a4dc15",
+      "native_cpu_receipt_sha256": "2ce7743f06c3753ece8247210cfc9f5b1553c5d6489ebcee8a0d8cec0add8341",
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-goal/pretrained_model",
+      "sha256": "a925dfdb87a9eb0efd37857dbfdba24085df1f5a09212ceda8ac6d69dc38a5e9",
+      "sidecar_sha256": {
+        "README.md": "2003c7f342e78edd6048542cf83b3ce48a23c74483fe47a4659f47187440d7e9",
+        "config.json": "5323ec1e3c56439443aa5ec65fbf01fedf29d1344e537007da4239e2db9bb5a8",
+        "policy_postprocessor.json": "e6e0c0371c2ea20b0a2f99feab26cea73a7d8994eccc4446c038958f285d68ff",
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "a002c0df7f79c5b169c5a899ad151d4ea1bed246c7d82bd93ed1556558d517a9",
+        "policy_preprocessor.json": "d46dc51bc8f13d37eec4f3d8b0488e05d31dfe334d3ad24f96e841640743cc3c",
+        "policy_preprocessor_step_3_normalizer_processor.safetensors": "f98234b21ce8ffacf1b86657f3cf8e24ac6c31ebcd6a3b83cecd484439674306",
+        "tokenizer/tokenizer.json": "7336bb4ce016bf8543de94e3a17c3d6ca502a6fc8628fec6ed88893639d7a296",
+        "tokenizer/tokenizer_config.json": "968bae7725ec965d9feb18214ed348a9203c857a32cd11ff6b9680f9e53bca77"
+      },
+      "stat": {
+        "bytes": 9354050784,
+        "device": 102,
+        "inode": 117896790,
+        "mtime_ns": 1790299678486525574
+      }
+    },
+    "spatial-object-goal": {
+      "export_manifest_sha256": "634a880dd54c65bf8351abd38db87a3c4955c9f86b9cc5126f143cf92a123a51",
+      "native_cpu_receipt_sha256": "bb7af1ee441c5c7c9364d01391ef0e1347e5a79ef206c59af06f8688864271c0",
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-object-goal/pretrained_model",
+      "sha256": "6cf494c56f4cfaa9e18b984740c779c17de2008425dfdf8e002253ce11ced3d0",
+      "sidecar_sha256": {
+        "README.md": "2003c7f342e78edd6048542cf83b3ce48a23c74483fe47a4659f47187440d7e9",
+        "config.json": "10ac946fe4e11882383de42fcc054f8668e9d16069231601e50372ee1f5e7b38",
+        "policy_postprocessor.json": "e6e0c0371c2ea20b0a2f99feab26cea73a7d8994eccc4446c038958f285d68ff",
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "a002c0df7f79c5b169c5a899ad151d4ea1bed246c7d82bd93ed1556558d517a9",
+        "policy_preprocessor.json": "d46dc51bc8f13d37eec4f3d8b0488e05d31dfe334d3ad24f96e841640743cc3c",
+        "policy_preprocessor_step_3_normalizer_processor.safetensors": "f98234b21ce8ffacf1b86657f3cf8e24ac6c31ebcd6a3b83cecd484439674306",
+        "tokenizer/tokenizer.json": "7336bb4ce016bf8543de94e3a17c3d6ca502a6fc8628fec6ed88893639d7a296",
+        "tokenizer/tokenizer_config.json": "968bae7725ec965d9feb18214ed348a9203c857a32cd11ff6b9680f9e53bca77"
+      },
+      "stat": {
+        "bytes": 9354050784,
+        "device": 102,
+        "inode": 140638234,
+        "mtime_ns": 1790299821356940186
+      }
+    }
+  },
+  "plan_sha256": "9aa487f1feabc70c6db5f0fb6525469e4be90d0018c94213b828b71df596a653",
+  "status": "final_plan_bound_no_GPU_launch"
+}

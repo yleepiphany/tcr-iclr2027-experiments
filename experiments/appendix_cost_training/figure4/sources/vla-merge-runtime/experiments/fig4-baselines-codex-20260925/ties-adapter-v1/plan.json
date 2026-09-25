@@ -1,0 +1,4310 @@
+{
+  "adapter_sha256": "4d62b4f660c7bbcad6ea65b702847ce5b6ca084a1b84b5b706feb220a920890a",
+  "base_model": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model/model.safetensors",
+  "base_sha256": "f2165fad32a4b431ca1488a5b886f6738be9e8b480298ecc9e0b55d87d26f365",
+  "coordinate_count": 2706471968,
+  "cpu_only": true,
+  "created_at": "2026-09-25T01:11:48.998305+00:00",
+  "disjoint": "mean",
+  "existing_four_expert_outputs_unchanged": true,
+  "export_helpers": {
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/materialize_iclr2027_table1_ta_ties_fastlane.py",
+    "sha256": "722e72129599370b3bb3ae482c3eff4c251d5ddbfdbcbad6feda8639d1cb6152"
+  },
+  "global_trim": true,
+  "global_zero_sign_fallback": true,
+  "gpu_jobs_launched": 0,
+  "jobs": [
+    {
+      "alpha": 0.9,
+      "build_command": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/ties_subset.py",
+        "build",
+        "--subset",
+        "spatial-goal"
+      ],
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-goal/pretrained_model",
+      "density": 0.3,
+      "direction_file": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v1/spatial-goal/direction.f64.bin",
+      "experts": [
+        "spatial",
+        "goal"
+      ],
+      "id": "ties-spatial-goal",
+      "native_cpu_check_required": true,
+      "native_load_command": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/ties_subset.py",
+        "native-load",
+        "--subset",
+        "spatial-goal"
+      ],
+      "subset": "spatial-goal"
+    },
+    {
+      "alpha": 0.9,
+      "build_command": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/ties_subset.py",
+        "build",
+        "--subset",
+        "spatial-object-goal"
+      ],
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-object-goal/pretrained_model",
+      "density": 0.3,
+      "direction_file": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/ties-adapter-v1/spatial-object-goal/direction.f64.bin",
+      "experts": [
+        "spatial",
+        "object",
+        "goal"
+      ],
+      "id": "ties-spatial-object-goal",
+      "native_cpu_check_required": true,
+      "native_load_command": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/ties_subset.py",
+        "native-load",
+        "--subset",
+        "spatial-object-goal"
+      ],
+      "subset": "spatial-object-goal"
+    }
+  ],
+  "kernel": {
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/ta_ties_core.py",
+    "sha256": "dd7e00a85e43dd2a16b0b60e86c0f578857a0ad521648a497e166e91cde38303"
+  },
+  "modified_tensor_count": 422,
+  "no_automatic_retry": true,
+  "no_parameter_search": true,
+  "operator": "unchanged ta_ties_core.ties_direction(selected original float32 vectors, keep_fraction=.3); base + .9*float64 direction cast to original tensor dtype",
+  "parent_plan_sha256": "62ff0891df02a75d20a8b724f70f93a8373f75852a7385c88034993c326d7875",
+  "parent_port_gap_resolved": "TIES subset vector selection/export only; RegMean++ and FeatCal remain separate missing ports.",
+  "schema": "fig4_ties_subset_adapter_v1",
+  "segments": [
+    {
+      "end": 1024,
+      "key": "model.action_in_proj.bias",
+      "kind": "directly_trained_tensor",
+      "shape": [
+        1024
+      ],
+      "start": 0
+    },
+    {
+      "end": 33792,
+      "key": "model.action_in_proj.weight",
+      "kind": "directly_trained_tensor",
+      "shape": [
+        1024,
+        32
+      ],
+      "start": 1024
+    },
+    {
+      "end": 33824,
+      "key": "model.action_out_proj.bias",
+      "kind": "directly_trained_tensor",
+      "shape": [
+        32
+      ],
+      "start": 33792
+    },
+    {
+      "end": 66592,
+      "key": "model.action_out_proj.weight",
+      "kind": "directly_trained_tensor",
+      "shape": [
+        32,
+        1024
+      ],
+      "start": 33824
+    },
+    {
+      "end": 4260896,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.0.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "start": 66592
+    },
+    {
+      "end": 8455200,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.0.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 4260896
+    },
+    {
+      "end": 12649504,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.0.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 8455200
+    },
+    {
+      "end": 12911648,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.0.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 12649504
+    },
+    {
+      "end": 15008800,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.0.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "start": 12911648
+    },
+    {
+      "end": 17105952,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.0.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        1024
+      ],
+      "start": 15008800
+    },
+    {
+      "end": 17368096,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.0.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 17105952
+    },
+    {
+      "end": 21562400,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.1.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "start": 17368096
+    },
+    {
+      "end": 25756704,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.1.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 21562400
+    },
+    {
+      "end": 29951008,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.1.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 25756704
+    },
+    {
+      "end": 30213152,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.1.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 29951008
+    },
+    {
+      "end": 32310304,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.1.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "start": 30213152
+    },
+    {
+      "end": 34407456,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.1.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        1024
+      ],
+      "start": 32310304
+    },
+    {
+      "end": 34669600,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.1.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 34407456
+    },
+    {
+      "end": 38863904,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.10.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "start": 34669600
+    },
+    {
+      "end": 43058208,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.10.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 38863904
+    },
+    {
+      "end": 47252512,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.10.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 43058208
+    },
+    {
+      "end": 47514656,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.10.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 47252512
+    },
+    {
+      "end": 49611808,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.10.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "start": 47514656
+    },
+    {
+      "end": 51708960,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.10.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        1024
+      ],
+      "start": 49611808
+    },
+    {
+      "end": 51971104,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.10.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 51708960
+    },
+    {
+      "end": 56165408,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.11.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "start": 51971104
+    },
+    {
+      "end": 60359712,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.11.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 56165408
+    },
+    {
+      "end": 64554016,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.11.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 60359712
+    },
+    {
+      "end": 64816160,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.11.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 64554016
+    },
+    {
+      "end": 66913312,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.11.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "start": 64816160
+    },
+    {
+      "end": 69010464,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.11.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        1024
+      ],
+      "start": 66913312
+    },
+    {
+      "end": 69272608,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.11.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 69010464
+    },
+    {
+      "end": 73466912,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.12.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "start": 69272608
+    },
+    {
+      "end": 77661216,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.12.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 73466912
+    },
+    {
+      "end": 81855520,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.12.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 77661216
+    },
+    {
+      "end": 82117664,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.12.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 81855520
+    },
+    {
+      "end": 84214816,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.12.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "start": 82117664
+    },
+    {
+      "end": 86311968,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.12.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        1024
+      ],
+      "start": 84214816
+    },
+    {
+      "end": 86574112,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.12.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 86311968
+    },
+    {
+      "end": 90768416,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.13.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "start": 86574112
+    },
+    {
+      "end": 94962720,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.13.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 90768416
+    },
+    {
+      "end": 99157024,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.13.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 94962720
+    },
+    {
+      "end": 99419168,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.13.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 99157024
+    },
+    {
+      "end": 101516320,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.13.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "start": 99419168
+    },
+    {
+      "end": 103613472,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.13.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        1024
+      ],
+      "start": 101516320
+    },
+    {
+      "end": 103875616,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.13.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 103613472
+    },
+    {
+      "end": 108069920,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.14.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "start": 103875616
+    },
+    {
+      "end": 112264224,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.14.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 108069920
+    },
+    {
+      "end": 116458528,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.14.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 112264224
+    },
+    {
+      "end": 116720672,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.14.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 116458528
+    },
+    {
+      "end": 118817824,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.14.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "start": 116720672
+    },
+    {
+      "end": 120914976,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.14.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        1024
+      ],
+      "start": 118817824
+    },
+    {
+      "end": 121177120,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.14.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 120914976
+    },
+    {
+      "end": 125371424,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.15.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "start": 121177120
+    },
+    {
+      "end": 129565728,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.15.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 125371424
+    },
+    {
+      "end": 133760032,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.15.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 129565728
+    },
+    {
+      "end": 134022176,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.15.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 133760032
+    },
+    {
+      "end": 136119328,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.15.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "start": 134022176
+    },
+    {
+      "end": 138216480,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.15.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        1024
+      ],
+      "start": 136119328
+    },
+    {
+      "end": 138478624,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.15.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 138216480
+    },
+    {
+      "end": 142672928,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.16.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "start": 138478624
+    },
+    {
+      "end": 146867232,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.16.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 142672928
+    },
+    {
+      "end": 151061536,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.16.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 146867232
+    },
+    {
+      "end": 151323680,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.16.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 151061536
+    },
+    {
+      "end": 153420832,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.16.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "start": 151323680
+    },
+    {
+      "end": 155517984,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.16.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        1024
+      ],
+      "start": 153420832
+    },
+    {
+      "end": 155780128,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.16.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 155517984
+    },
+    {
+      "end": 159974432,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.17.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "start": 155780128
+    },
+    {
+      "end": 164168736,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.17.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 159974432
+    },
+    {
+      "end": 168363040,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.17.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 164168736
+    },
+    {
+      "end": 168625184,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.17.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 168363040
+    },
+    {
+      "end": 170722336,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.17.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "start": 168625184
+    },
+    {
+      "end": 172819488,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.17.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        1024
+      ],
+      "start": 170722336
+    },
+    {
+      "end": 173081632,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.17.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 172819488
+    },
+    {
+      "end": 177275936,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.2.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "start": 173081632
+    },
+    {
+      "end": 181470240,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.2.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 177275936
+    },
+    {
+      "end": 185664544,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.2.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 181470240
+    },
+    {
+      "end": 185926688,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.2.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 185664544
+    },
+    {
+      "end": 188023840,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.2.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "start": 185926688
+    },
+    {
+      "end": 190120992,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.2.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        1024
+      ],
+      "start": 188023840
+    },
+    {
+      "end": 190383136,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.2.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 190120992
+    },
+    {
+      "end": 194577440,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.3.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "start": 190383136
+    },
+    {
+      "end": 198771744,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.3.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 194577440
+    },
+    {
+      "end": 202966048,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.3.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 198771744
+    },
+    {
+      "end": 203228192,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.3.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 202966048
+    },
+    {
+      "end": 205325344,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.3.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "start": 203228192
+    },
+    {
+      "end": 207422496,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.3.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        1024
+      ],
+      "start": 205325344
+    },
+    {
+      "end": 207684640,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.3.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 207422496
+    },
+    {
+      "end": 211878944,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.4.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "start": 207684640
+    },
+    {
+      "end": 216073248,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.4.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 211878944
+    },
+    {
+      "end": 220267552,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.4.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 216073248
+    },
+    {
+      "end": 220529696,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.4.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 220267552
+    },
+    {
+      "end": 222626848,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.4.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "start": 220529696
+    },
+    {
+      "end": 224724000,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.4.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        1024
+      ],
+      "start": 222626848
+    },
+    {
+      "end": 224986144,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.4.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 224724000
+    },
+    {
+      "end": 229180448,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.5.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "start": 224986144
+    },
+    {
+      "end": 233374752,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.5.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 229180448
+    },
+    {
+      "end": 237569056,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.5.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 233374752
+    },
+    {
+      "end": 237831200,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.5.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 237569056
+    },
+    {
+      "end": 239928352,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.5.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "start": 237831200
+    },
+    {
+      "end": 242025504,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.5.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        1024
+      ],
+      "start": 239928352
+    },
+    {
+      "end": 242287648,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.5.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 242025504
+    },
+    {
+      "end": 246481952,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.6.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "start": 242287648
+    },
+    {
+      "end": 250676256,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.6.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 246481952
+    },
+    {
+      "end": 254870560,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.6.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 250676256
+    },
+    {
+      "end": 255132704,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.6.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 254870560
+    },
+    {
+      "end": 257229856,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.6.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "start": 255132704
+    },
+    {
+      "end": 259327008,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.6.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        1024
+      ],
+      "start": 257229856
+    },
+    {
+      "end": 259589152,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.6.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 259327008
+    },
+    {
+      "end": 263783456,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.7.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "start": 259589152
+    },
+    {
+      "end": 267977760,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.7.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 263783456
+    },
+    {
+      "end": 272172064,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.7.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 267977760
+    },
+    {
+      "end": 272434208,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.7.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 272172064
+    },
+    {
+      "end": 274531360,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.7.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "start": 272434208
+    },
+    {
+      "end": 276628512,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.7.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        1024
+      ],
+      "start": 274531360
+    },
+    {
+      "end": 276890656,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.7.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 276628512
+    },
+    {
+      "end": 281084960,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.8.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "start": 276890656
+    },
+    {
+      "end": 285279264,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.8.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 281084960
+    },
+    {
+      "end": 289473568,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.8.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 285279264
+    },
+    {
+      "end": 289735712,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.8.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 289473568
+    },
+    {
+      "end": 291832864,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.8.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "start": 289735712
+    },
+    {
+      "end": 293930016,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.8.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        1024
+      ],
+      "start": 291832864
+    },
+    {
+      "end": 294192160,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.8.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 293930016
+    },
+    {
+      "end": 298386464,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.9.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "start": 294192160
+    },
+    {
+      "end": 302580768,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.9.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 298386464
+    },
+    {
+      "end": 306775072,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.9.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "start": 302580768
+    },
+    {
+      "end": 307037216,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.9.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 306775072
+    },
+    {
+      "end": 309134368,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.9.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "start": 307037216
+    },
+    {
+      "end": 311231520,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.9.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        1024
+      ],
+      "start": 309134368
+    },
+    {
+      "end": 311493664,
+      "key": "model.paligemma_with_expert.gemma_expert.model.layers.9.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "start": 311231520
+    },
+    {
+      "end": 345048096,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.0.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        16384
+      ],
+      "start": 311493664
+    },
+    {
+      "end": 378602528,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.0.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 345048096
+    },
+    {
+      "end": 412156960,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.0.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 378602528
+    },
+    {
+      "end": 412681248,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.0.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 412156960
+    },
+    {
+      "end": 416875552,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.0.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 412681248
+    },
+    {
+      "end": 421069856,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.0.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 416875552
+    },
+    {
+      "end": 421594144,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.0.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 421069856
+    },
+    {
+      "end": 455148576,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.1.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        16384
+      ],
+      "start": 421594144
+    },
+    {
+      "end": 488703008,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.1.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 455148576
+    },
+    {
+      "end": 522257440,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.1.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 488703008
+    },
+    {
+      "end": 522781728,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.1.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 522257440
+    },
+    {
+      "end": 526976032,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.1.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 522781728
+    },
+    {
+      "end": 531170336,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.1.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 526976032
+    },
+    {
+      "end": 531694624,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.1.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 531170336
+    },
+    {
+      "end": 565249056,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.10.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        16384
+      ],
+      "start": 531694624
+    },
+    {
+      "end": 598803488,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.10.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 565249056
+    },
+    {
+      "end": 632357920,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.10.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 598803488
+    },
+    {
+      "end": 632882208,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.10.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 632357920
+    },
+    {
+      "end": 637076512,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.10.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 632882208
+    },
+    {
+      "end": 641270816,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.10.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 637076512
+    },
+    {
+      "end": 641795104,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.10.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 641270816
+    },
+    {
+      "end": 675349536,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.11.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        16384
+      ],
+      "start": 641795104
+    },
+    {
+      "end": 708903968,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.11.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 675349536
+    },
+    {
+      "end": 742458400,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.11.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 708903968
+    },
+    {
+      "end": 742982688,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.11.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 742458400
+    },
+    {
+      "end": 747176992,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.11.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 742982688
+    },
+    {
+      "end": 751371296,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.11.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 747176992
+    },
+    {
+      "end": 751895584,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.11.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 751371296
+    },
+    {
+      "end": 785450016,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.12.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        16384
+      ],
+      "start": 751895584
+    },
+    {
+      "end": 819004448,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.12.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 785450016
+    },
+    {
+      "end": 852558880,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.12.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 819004448
+    },
+    {
+      "end": 853083168,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.12.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 852558880
+    },
+    {
+      "end": 857277472,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.12.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 853083168
+    },
+    {
+      "end": 861471776,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.12.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 857277472
+    },
+    {
+      "end": 861996064,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.12.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 861471776
+    },
+    {
+      "end": 895550496,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.13.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        16384
+      ],
+      "start": 861996064
+    },
+    {
+      "end": 929104928,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.13.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 895550496
+    },
+    {
+      "end": 962659360,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.13.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 929104928
+    },
+    {
+      "end": 963183648,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.13.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 962659360
+    },
+    {
+      "end": 967377952,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.13.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 963183648
+    },
+    {
+      "end": 971572256,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.13.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 967377952
+    },
+    {
+      "end": 972096544,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.13.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 971572256
+    },
+    {
+      "end": 1005650976,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.14.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        16384
+      ],
+      "start": 972096544
+    },
+    {
+      "end": 1039205408,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.14.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 1005650976
+    },
+    {
+      "end": 1072759840,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.14.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 1039205408
+    },
+    {
+      "end": 1073284128,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.14.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 1072759840
+    },
+    {
+      "end": 1077478432,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.14.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 1073284128
+    },
+    {
+      "end": 1081672736,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.14.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 1077478432
+    },
+    {
+      "end": 1082197024,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.14.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 1081672736
+    },
+    {
+      "end": 1115751456,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.15.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        16384
+      ],
+      "start": 1082197024
+    },
+    {
+      "end": 1149305888,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.15.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 1115751456
+    },
+    {
+      "end": 1182860320,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.15.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 1149305888
+    },
+    {
+      "end": 1183384608,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.15.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 1182860320
+    },
+    {
+      "end": 1187578912,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.15.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 1183384608
+    },
+    {
+      "end": 1191773216,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.15.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 1187578912
+    },
+    {
+      "end": 1192297504,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.15.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 1191773216
+    },
+    {
+      "end": 1225851936,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.16.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        16384
+      ],
+      "start": 1192297504
+    },
+    {
+      "end": 1259406368,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.16.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 1225851936
+    },
+    {
+      "end": 1292960800,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.16.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 1259406368
+    },
+    {
+      "end": 1293485088,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.16.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 1292960800
+    },
+    {
+      "end": 1297679392,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.16.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 1293485088
+    },
+    {
+      "end": 1301873696,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.16.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 1297679392
+    },
+    {
+      "end": 1302397984,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.16.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 1301873696
+    },
+    {
+      "end": 1335952416,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.17.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        16384
+      ],
+      "start": 1302397984
+    },
+    {
+      "end": 1369506848,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.17.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 1335952416
+    },
+    {
+      "end": 1403061280,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.17.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 1369506848
+    },
+    {
+      "end": 1403585568,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.17.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 1403061280
+    },
+    {
+      "end": 1407779872,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.17.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 1403585568
+    },
+    {
+      "end": 1411974176,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.17.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 1407779872
+    },
+    {
+      "end": 1412498464,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.17.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 1411974176
+    },
+    {
+      "end": 1446052896,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.2.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        16384
+      ],
+      "start": 1412498464
+    },
+    {
+      "end": 1479607328,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.2.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 1446052896
+    },
+    {
+      "end": 1513161760,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.2.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 1479607328
+    },
+    {
+      "end": 1513686048,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.2.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 1513161760
+    },
+    {
+      "end": 1517880352,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.2.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 1513686048
+    },
+    {
+      "end": 1522074656,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.2.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 1517880352
+    },
+    {
+      "end": 1522598944,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.2.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 1522074656
+    },
+    {
+      "end": 1556153376,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.3.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        16384
+      ],
+      "start": 1522598944
+    },
+    {
+      "end": 1589707808,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.3.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 1556153376
+    },
+    {
+      "end": 1623262240,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.3.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 1589707808
+    },
+    {
+      "end": 1623786528,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.3.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 1623262240
+    },
+    {
+      "end": 1627980832,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.3.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 1623786528
+    },
+    {
+      "end": 1632175136,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.3.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 1627980832
+    },
+    {
+      "end": 1632699424,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.3.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 1632175136
+    },
+    {
+      "end": 1666253856,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.4.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        16384
+      ],
+      "start": 1632699424
+    },
+    {
+      "end": 1699808288,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.4.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 1666253856
+    },
+    {
+      "end": 1733362720,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.4.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 1699808288
+    },
+    {
+      "end": 1733887008,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.4.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 1733362720
+    },
+    {
+      "end": 1738081312,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.4.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 1733887008
+    },
+    {
+      "end": 1742275616,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.4.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 1738081312
+    },
+    {
+      "end": 1742799904,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.4.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 1742275616
+    },
+    {
+      "end": 1776354336,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.5.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        16384
+      ],
+      "start": 1742799904
+    },
+    {
+      "end": 1809908768,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.5.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 1776354336
+    },
+    {
+      "end": 1843463200,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.5.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 1809908768
+    },
+    {
+      "end": 1843987488,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.5.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 1843463200
+    },
+    {
+      "end": 1848181792,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.5.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 1843987488
+    },
+    {
+      "end": 1852376096,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.5.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 1848181792
+    },
+    {
+      "end": 1852900384,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.5.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 1852376096
+    },
+    {
+      "end": 1886454816,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.6.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        16384
+      ],
+      "start": 1852900384
+    },
+    {
+      "end": 1920009248,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.6.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 1886454816
+    },
+    {
+      "end": 1953563680,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.6.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 1920009248
+    },
+    {
+      "end": 1954087968,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.6.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 1953563680
+    },
+    {
+      "end": 1958282272,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.6.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 1954087968
+    },
+    {
+      "end": 1962476576,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.6.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 1958282272
+    },
+    {
+      "end": 1963000864,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.6.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 1962476576
+    },
+    {
+      "end": 1996555296,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.7.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        16384
+      ],
+      "start": 1963000864
+    },
+    {
+      "end": 2030109728,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.7.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 1996555296
+    },
+    {
+      "end": 2063664160,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.7.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 2030109728
+    },
+    {
+      "end": 2064188448,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.7.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 2063664160
+    },
+    {
+      "end": 2068382752,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.7.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 2064188448
+    },
+    {
+      "end": 2072577056,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.7.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 2068382752
+    },
+    {
+      "end": 2073101344,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.7.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 2072577056
+    },
+    {
+      "end": 2106655776,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.8.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        16384
+      ],
+      "start": 2073101344
+    },
+    {
+      "end": 2140210208,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.8.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 2106655776
+    },
+    {
+      "end": 2173764640,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.8.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 2140210208
+    },
+    {
+      "end": 2174288928,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.8.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 2173764640
+    },
+    {
+      "end": 2178483232,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.8.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 2174288928
+    },
+    {
+      "end": 2182677536,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.8.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 2178483232
+    },
+    {
+      "end": 2183201824,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.8.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 2182677536
+    },
+    {
+      "end": 2216756256,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.9.mlp.down_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        16384
+      ],
+      "start": 2183201824
+    },
+    {
+      "end": 2250310688,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.9.mlp.gate_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 2216756256
+    },
+    {
+      "end": 2283865120,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.9.mlp.up_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        16384,
+        2048
+      ],
+      "start": 2250310688
+    },
+    {
+      "end": 2284389408,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.9.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 2283865120
+    },
+    {
+      "end": 2288583712,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.9.self_attn.o_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 2284389408
+    },
+    {
+      "end": 2292778016,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.9.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        2048,
+        2048
+      ],
+      "start": 2288583712
+    },
+    {
+      "end": 2293302304,
+      "key": "model.paligemma_with_expert.paligemma.model.language_model.layers.9.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        256,
+        2048
+      ],
+      "start": 2292778016
+    },
+    {
+      "end": 2298260512,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.0.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2293302304
+    },
+    {
+      "end": 2303218720,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.0.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2298260512
+    },
+    {
+      "end": 2304545824,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.0.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2303218720
+    },
+    {
+      "end": 2305872928,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.0.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2304545824
+    },
+    {
+      "end": 2307200032,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.0.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2305872928
+    },
+    {
+      "end": 2308527136,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.0.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2307200032
+    },
+    {
+      "end": 2313485344,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.1.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2308527136
+    },
+    {
+      "end": 2318443552,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.1.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2313485344
+    },
+    {
+      "end": 2319770656,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.1.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2318443552
+    },
+    {
+      "end": 2321097760,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.1.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2319770656
+    },
+    {
+      "end": 2322424864,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.1.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2321097760
+    },
+    {
+      "end": 2323751968,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.1.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2322424864
+    },
+    {
+      "end": 2328710176,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.10.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2323751968
+    },
+    {
+      "end": 2333668384,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.10.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2328710176
+    },
+    {
+      "end": 2334995488,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.10.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2333668384
+    },
+    {
+      "end": 2336322592,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.10.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2334995488
+    },
+    {
+      "end": 2337649696,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.10.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2336322592
+    },
+    {
+      "end": 2338976800,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.10.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2337649696
+    },
+    {
+      "end": 2343935008,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.11.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2338976800
+    },
+    {
+      "end": 2348893216,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.11.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2343935008
+    },
+    {
+      "end": 2350220320,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.11.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2348893216
+    },
+    {
+      "end": 2351547424,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.11.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2350220320
+    },
+    {
+      "end": 2352874528,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.11.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2351547424
+    },
+    {
+      "end": 2354201632,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.11.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2352874528
+    },
+    {
+      "end": 2359159840,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.12.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2354201632
+    },
+    {
+      "end": 2364118048,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.12.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2359159840
+    },
+    {
+      "end": 2365445152,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.12.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2364118048
+    },
+    {
+      "end": 2366772256,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.12.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2365445152
+    },
+    {
+      "end": 2368099360,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.12.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2366772256
+    },
+    {
+      "end": 2369426464,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.12.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2368099360
+    },
+    {
+      "end": 2374384672,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.13.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2369426464
+    },
+    {
+      "end": 2379342880,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.13.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2374384672
+    },
+    {
+      "end": 2380669984,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.13.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2379342880
+    },
+    {
+      "end": 2381997088,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.13.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2380669984
+    },
+    {
+      "end": 2383324192,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.13.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2381997088
+    },
+    {
+      "end": 2384651296,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.13.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2383324192
+    },
+    {
+      "end": 2389609504,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.14.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2384651296
+    },
+    {
+      "end": 2394567712,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.14.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2389609504
+    },
+    {
+      "end": 2395894816,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.14.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2394567712
+    },
+    {
+      "end": 2397221920,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.14.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2395894816
+    },
+    {
+      "end": 2398549024,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.14.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2397221920
+    },
+    {
+      "end": 2399876128,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.14.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2398549024
+    },
+    {
+      "end": 2404834336,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.15.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2399876128
+    },
+    {
+      "end": 2409792544,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.15.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2404834336
+    },
+    {
+      "end": 2411119648,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.15.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2409792544
+    },
+    {
+      "end": 2412446752,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.15.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2411119648
+    },
+    {
+      "end": 2413773856,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.15.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2412446752
+    },
+    {
+      "end": 2415100960,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.15.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2413773856
+    },
+    {
+      "end": 2420059168,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.16.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2415100960
+    },
+    {
+      "end": 2425017376,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.16.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2420059168
+    },
+    {
+      "end": 2426344480,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.16.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2425017376
+    },
+    {
+      "end": 2427671584,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.16.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2426344480
+    },
+    {
+      "end": 2428998688,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.16.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2427671584
+    },
+    {
+      "end": 2430325792,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.16.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2428998688
+    },
+    {
+      "end": 2435284000,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.17.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2430325792
+    },
+    {
+      "end": 2440242208,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.17.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2435284000
+    },
+    {
+      "end": 2441569312,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.17.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2440242208
+    },
+    {
+      "end": 2442896416,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.17.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2441569312
+    },
+    {
+      "end": 2444223520,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.17.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2442896416
+    },
+    {
+      "end": 2445550624,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.17.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2444223520
+    },
+    {
+      "end": 2450508832,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.18.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2445550624
+    },
+    {
+      "end": 2455467040,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.18.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2450508832
+    },
+    {
+      "end": 2456794144,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.18.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2455467040
+    },
+    {
+      "end": 2458121248,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.18.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2456794144
+    },
+    {
+      "end": 2459448352,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.18.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2458121248
+    },
+    {
+      "end": 2460775456,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.18.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2459448352
+    },
+    {
+      "end": 2465733664,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.19.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2460775456
+    },
+    {
+      "end": 2470691872,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.19.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2465733664
+    },
+    {
+      "end": 2472018976,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.19.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2470691872
+    },
+    {
+      "end": 2473346080,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.19.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2472018976
+    },
+    {
+      "end": 2474673184,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.19.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2473346080
+    },
+    {
+      "end": 2476000288,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.19.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2474673184
+    },
+    {
+      "end": 2480958496,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.2.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2476000288
+    },
+    {
+      "end": 2485916704,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.2.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2480958496
+    },
+    {
+      "end": 2487243808,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.2.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2485916704
+    },
+    {
+      "end": 2488570912,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.2.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2487243808
+    },
+    {
+      "end": 2489898016,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.2.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2488570912
+    },
+    {
+      "end": 2491225120,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.2.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2489898016
+    },
+    {
+      "end": 2496183328,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.20.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2491225120
+    },
+    {
+      "end": 2501141536,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.20.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2496183328
+    },
+    {
+      "end": 2502468640,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.20.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2501141536
+    },
+    {
+      "end": 2503795744,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.20.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2502468640
+    },
+    {
+      "end": 2505122848,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.20.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2503795744
+    },
+    {
+      "end": 2506449952,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.20.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2505122848
+    },
+    {
+      "end": 2511408160,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.21.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2506449952
+    },
+    {
+      "end": 2516366368,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.21.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2511408160
+    },
+    {
+      "end": 2517693472,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.21.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2516366368
+    },
+    {
+      "end": 2519020576,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.21.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2517693472
+    },
+    {
+      "end": 2520347680,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.21.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2519020576
+    },
+    {
+      "end": 2521674784,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.21.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2520347680
+    },
+    {
+      "end": 2526632992,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.22.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2521674784
+    },
+    {
+      "end": 2531591200,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.22.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2526632992
+    },
+    {
+      "end": 2532918304,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.22.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2531591200
+    },
+    {
+      "end": 2534245408,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.22.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2532918304
+    },
+    {
+      "end": 2535572512,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.22.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2534245408
+    },
+    {
+      "end": 2536899616,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.22.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2535572512
+    },
+    {
+      "end": 2541857824,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.23.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2536899616
+    },
+    {
+      "end": 2546816032,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.23.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2541857824
+    },
+    {
+      "end": 2548143136,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.23.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2546816032
+    },
+    {
+      "end": 2549470240,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.23.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2548143136
+    },
+    {
+      "end": 2550797344,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.23.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2549470240
+    },
+    {
+      "end": 2552124448,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.23.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2550797344
+    },
+    {
+      "end": 2557082656,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.24.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2552124448
+    },
+    {
+      "end": 2562040864,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.24.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2557082656
+    },
+    {
+      "end": 2563367968,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.24.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2562040864
+    },
+    {
+      "end": 2564695072,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.24.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2563367968
+    },
+    {
+      "end": 2566022176,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.24.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2564695072
+    },
+    {
+      "end": 2567349280,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.24.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2566022176
+    },
+    {
+      "end": 2572307488,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.25.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2567349280
+    },
+    {
+      "end": 2577265696,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.25.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2572307488
+    },
+    {
+      "end": 2578592800,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.25.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2577265696
+    },
+    {
+      "end": 2579919904,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.25.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2578592800
+    },
+    {
+      "end": 2581247008,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.25.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2579919904
+    },
+    {
+      "end": 2582574112,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.25.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2581247008
+    },
+    {
+      "end": 2587532320,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.26.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2582574112
+    },
+    {
+      "end": 2592490528,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.26.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2587532320
+    },
+    {
+      "end": 2593817632,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.26.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2592490528
+    },
+    {
+      "end": 2595144736,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.26.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2593817632
+    },
+    {
+      "end": 2596471840,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.26.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2595144736
+    },
+    {
+      "end": 2597798944,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.26.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2596471840
+    },
+    {
+      "end": 2602757152,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.3.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2597798944
+    },
+    {
+      "end": 2607715360,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.3.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2602757152
+    },
+    {
+      "end": 2609042464,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.3.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2607715360
+    },
+    {
+      "end": 2610369568,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.3.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2609042464
+    },
+    {
+      "end": 2611696672,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.3.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2610369568
+    },
+    {
+      "end": 2613023776,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.3.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2611696672
+    },
+    {
+      "end": 2617981984,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.4.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2613023776
+    },
+    {
+      "end": 2622940192,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.4.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2617981984
+    },
+    {
+      "end": 2624267296,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.4.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2622940192
+    },
+    {
+      "end": 2625594400,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.4.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2624267296
+    },
+    {
+      "end": 2626921504,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.4.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2625594400
+    },
+    {
+      "end": 2628248608,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.4.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2626921504
+    },
+    {
+      "end": 2633206816,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.5.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2628248608
+    },
+    {
+      "end": 2638165024,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.5.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2633206816
+    },
+    {
+      "end": 2639492128,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.5.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2638165024
+    },
+    {
+      "end": 2640819232,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.5.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2639492128
+    },
+    {
+      "end": 2642146336,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.5.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2640819232
+    },
+    {
+      "end": 2643473440,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.5.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2642146336
+    },
+    {
+      "end": 2648431648,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.6.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2643473440
+    },
+    {
+      "end": 2653389856,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.6.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2648431648
+    },
+    {
+      "end": 2654716960,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.6.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2653389856
+    },
+    {
+      "end": 2656044064,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.6.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2654716960
+    },
+    {
+      "end": 2657371168,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.6.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2656044064
+    },
+    {
+      "end": 2658698272,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.6.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2657371168
+    },
+    {
+      "end": 2663656480,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.7.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2658698272
+    },
+    {
+      "end": 2668614688,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.7.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2663656480
+    },
+    {
+      "end": 2669941792,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.7.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2668614688
+    },
+    {
+      "end": 2671268896,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.7.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2669941792
+    },
+    {
+      "end": 2672596000,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.7.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2671268896
+    },
+    {
+      "end": 2673923104,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.7.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2672596000
+    },
+    {
+      "end": 2678881312,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.8.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2673923104
+    },
+    {
+      "end": 2683839520,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.8.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2678881312
+    },
+    {
+      "end": 2685166624,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.8.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2683839520
+    },
+    {
+      "end": 2686493728,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.8.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2685166624
+    },
+    {
+      "end": 2687820832,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.8.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2686493728
+    },
+    {
+      "end": 2689147936,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.8.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2687820832
+    },
+    {
+      "end": 2694106144,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.9.mlp.fc1.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        4304,
+        1152
+      ],
+      "start": 2689147936
+    },
+    {
+      "end": 2699064352,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.9.mlp.fc2.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        4304
+      ],
+      "start": 2694106144
+    },
+    {
+      "end": 2700391456,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.9.self_attn.k_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2699064352
+    },
+    {
+      "end": 2701718560,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.9.self_attn.out_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2700391456
+    },
+    {
+      "end": 2703045664,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.9.self_attn.q_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2701718560
+    },
+    {
+      "end": 2704372768,
+      "key": "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.encoder.layers.9.self_attn.v_proj.weight",
+      "kind": "lora_materialized_weight",
+      "shape": [
+        1152,
+        1152
+      ],
+      "start": 2703045664
+    },
+    {
+      "end": 2704373792,
+      "key": "model.time_mlp_in.bias",
+      "kind": "directly_trained_tensor",
+      "shape": [
+        1024
+      ],
+      "start": 2704372768
+    },
+    {
+      "end": 2705422368,
+      "key": "model.time_mlp_in.weight",
+      "kind": "directly_trained_tensor",
+      "shape": [
+        1024,
+        1024
+      ],
+      "start": 2704373792
+    },
+    {
+      "end": 2705423392,
+      "key": "model.time_mlp_out.bias",
+      "kind": "directly_trained_tensor",
+      "shape": [
+        1024
+      ],
+      "start": 2705422368
+    },
+    {
+      "end": 2706471968,
+      "key": "model.time_mlp_out.weight",
+      "kind": "directly_trained_tensor",
+      "shape": [
+        1024,
+        1024
+      ],
+      "start": 2705423392
+    }
+  ],
+  "sidecar_rule": "Original main-table runtime sidecars; only config.pretrained_path points at isolated new export, use_peft=false.",
+  "sidecar_template": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/model-soups/repeat-shared/merge/attempt-02-peft-safe-v2/pretrained_model",
+  "sign_election": "mass"
+}

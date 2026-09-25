@@ -1,0 +1,176 @@
+{
+  "alpha": 0.3,
+  "bank": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/static-bank-v1/bank.json",
+  "bank_sha256": "4c04affedb0f85622df565f77e6b03f8d67259ffa1b0fa3f5822ec5e08fa3bf5",
+  "base": {
+    "model_sha256": "f2165fad32a4b431ca1488a5b886f6738be9e8b480298ecc9e0b55d87d26f365",
+    "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+    "tensor_count": 813
+  },
+  "deployment_files_sha256": {
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model/README.md": "835fdcb5acfbdc7a2454561b7c9593b6ef1a794a75a655ec25fad7389840f73b",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model/config.json": "9395325c3c2bc79fc6b433a8e10cd3ea0ca3928c1413b9799a9e046acb594c26",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model/dense_equivalent_manifest.json": "52c3fcc3be1ba3a32e6df7ff62e395424cdee0b20c2492d5e0341f318ccade58",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model/policy_postprocessor.json": "9f2a2c28bd3d3ba779477b84586fec0efc98522bf4286f77ae24e1b167e42a39",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors": "b8ba9b84423b717d05abcbc2999e0b2ff89f8b1c82d2232a37d1f37c14253948",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model/policy_preprocessor.json": "714723707403f6a5d1c18ccfa287c16c7b36e13fa1b6447a24431398a241e424",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors": "792f8ad0cba252068cc6f2acaaa2a6d7fa0494a29a08426ffff3ad61c7a56b81",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model/tokenizer/tokenizer.json": "7336bb4ce016bf8543de94e3a17c3d6ca502a6fc8628fec6ed88893639d7a296",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model/tokenizer/tokenizer_config.json": "968bae7725ec965d9feb18214ed348a9203c857a32cd11ff6b9680f9e53bca77",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model/train_config.json": "f0822ecab9664c910f4234aee122072ebc5c3fc5430f7e46387583507225fe06",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/precision/pretrained_model/README.md": "4d53362fd8ac742669caeab324a6128962432951561e3692d8bf8fea9a390323",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/precision/pretrained_model/config.json": "4cdca7c52ef721b9588de3c2feb8be70e3af6663198673f5f6b23e96249156d6",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/precision/pretrained_model/dense_equivalent_manifest.json": "506a6f93ce5a5b4151a83922c1ca17a2c3fab6fea1cdefca28af5fe259b0e969",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/precision/pretrained_model/policy_postprocessor.json": "9f2a2c28bd3d3ba779477b84586fec0efc98522bf4286f77ae24e1b167e42a39",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/precision/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors": "b8ba9b84423b717d05abcbc2999e0b2ff89f8b1c82d2232a37d1f37c14253948",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/precision/pretrained_model/policy_preprocessor.json": "714723707403f6a5d1c18ccfa287c16c7b36e13fa1b6447a24431398a241e424",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/precision/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors": "6ce304a9f8704ed56ab9b56d5c478abd878c8a89bf4d665692b624862cd0d234",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/precision/pretrained_model/tokenizer/tokenizer.json": "7336bb4ce016bf8543de94e3a17c3d6ca502a6fc8628fec6ed88893639d7a296",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/precision/pretrained_model/tokenizer/tokenizer_config.json": "968bae7725ec965d9feb18214ed348a9203c857a32cd11ff6b9680f9e53bca77",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/precision/pretrained_model/train_config.json": "1a183aa1991878b0009b45e284f0828bf361a40cb7f3166fd79f35517d8f5445",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/receptacle/pretrained_model/README.md": "835fdcb5acfbdc7a2454561b7c9593b6ef1a794a75a655ec25fad7389840f73b",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/receptacle/pretrained_model/config.json": "8f5929011ef120f17fd1a5c9dd6bb8f4c4da9767739670ac0948a600b90b2a76",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/receptacle/pretrained_model/dense_equivalent_manifest.json": "35fa241cad2eafead4f7e339aa03ea77e735d653274a68f98ea6e60e08acee96",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/receptacle/pretrained_model/policy_postprocessor.json": "9f2a2c28bd3d3ba779477b84586fec0efc98522bf4286f77ae24e1b167e42a39",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/receptacle/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors": "b8ba9b84423b717d05abcbc2999e0b2ff89f8b1c82d2232a37d1f37c14253948",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/receptacle/pretrained_model/policy_preprocessor.json": "714723707403f6a5d1c18ccfa287c16c7b36e13fa1b6447a24431398a241e424",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/receptacle/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors": "792f8ad0cba252068cc6f2acaaa2a6d7fa0494a29a08426ffff3ad61c7a56b81",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/receptacle/pretrained_model/tokenizer/tokenizer.json": "7336bb4ce016bf8543de94e3a17c3d6ca502a6fc8628fec6ed88893639d7a296",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/receptacle/pretrained_model/tokenizer/tokenizer_config.json": "968bae7725ec965d9feb18214ed348a9203c857a32cd11ff6b9680f9e53bca77",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/receptacle/pretrained_model/train_config.json": "5c1dc1b0284ab3616cb50024a49a5fe12725e69af6db2564354ace64b9ac08d2",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-soup-v1/pretrained_model/README.md": "4d53362fd8ac742669caeab324a6128962432951561e3692d8bf8fea9a390323",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-soup-v1/pretrained_model/config.json": "401a1e646ce0bd17f7b085db4995fedbe8956d2208f7ad3a0d500bb1cc80f57f",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-soup-v1/pretrained_model/dense_equivalent_manifest.json": "eb74db2cfeed92230112914910a1700f8f5093aa3fc4f2b2321911983040d0f5",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-soup-v1/pretrained_model/policy_postprocessor.json": "9f2a2c28bd3d3ba779477b84586fec0efc98522bf4286f77ae24e1b167e42a39",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-soup-v1/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors": "b8ba9b84423b717d05abcbc2999e0b2ff89f8b1c82d2232a37d1f37c14253948",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-soup-v1/pretrained_model/policy_preprocessor.json": "714723707403f6a5d1c18ccfa287c16c7b36e13fa1b6447a24431398a241e424",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-soup-v1/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors": "6ce304a9f8704ed56ab9b56d5c478abd878c8a89bf4d665692b624862cd0d234",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-soup-v1/pretrained_model/tokenizer/tokenizer.json": "7336bb4ce016bf8543de94e3a17c3d6ca502a6fc8628fec6ed88893639d7a296",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-soup-v1/pretrained_model/tokenizer/tokenizer_config.json": "968bae7725ec965d9feb18214ed348a9203c857a32cd11ff6b9680f9e53bca77"
+  },
+  "eps": 1e-08,
+  "formal_evaluation_authorized_by_plan": false,
+  "gpu_smoke_passed": false,
+  "groups": [
+    "coordination",
+    "receptacle",
+    "precision"
+  ],
+  "implementations": {
+    "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/lerobot/src/lerobot/policies/pi05/modeling_pi05.py": "5746164601a3d5b958f8a88b75e8d9c6df6b3485a623246f07a024fea9fa2773",
+    "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/lerobot/src/lerobot/policies/pi_gemma.py": "faec69b28f74b42cfb6217898f9a5ee29a442a5f8275339eb2d4453d450dc412",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1/featcal_m3.py": "c7258a4f1d9cb6d843207d932009700974b9d073481825ec8d1768fb35e3e9b9",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1/prepare_readiness.py": "b2e6ef4b4cd039046b0d64fbd1fc08c05b0c9026dad0499edf16906a4afd7084",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1/static_bank.py": "852036fced1508f043927ba315b6f50ad0c18d02a7aef095dee3234e64901f12",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_pi05_featcal_formal_full.py": "515ee298cb800cd26bec9f803ff4fc39b8b32ba3e75179e2766b6379995b9fe4",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_pi05_featcal_teacher_mini_v2.py": "da4e8fc80953d645e09ecc1c230903c036491ba6ec39401411a3eb57fc0c35e3",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/featcal_cache_plan.py": "4b5aa596dd39b857b5da60fdd3a4080233153ce32f04cab660cc844e42f67d13",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/featcal_execution.py": "d50db5553d174c4e05bceaefceb14beb47a5558f955325d5a894f014bee82f73",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/featcal_forward_order.py": "712282ed7d9fad08c20f55e4330b2b29545ac5180f41a80301c36279762c9ede",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/featcal_hybrid_solve.py": "d44597ad37397dbb7ffd752891943644297fdd8224e09f7f106ff7e3ce93863d",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/featcal_prefix_chain.py": "7451aba3fd66e89b4c3b5c2318d54cd87fe7662eef7201acdc730910239af625"
+  },
+  "initialization": "existing Table5 uniform task-delta Soup, PEFT-safe dense form",
+  "lambda": 0.05,
+  "legacy_flow_slots_are_noise_replicas": true,
+  "linear_weights": 418,
+  "model_files": [
+    {
+      "mtime_ns": 1790138367890265147,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-soup-v1/pretrained_model/model.safetensors",
+      "sha256": "6bfe33cf0c7e0602e2577e200bf6de9315b2632928289e3f47f6a2d43e0dfac9",
+      "size": 9354050784
+    },
+    {
+      "mtime_ns": 1787723571142095878,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model/model.safetensors",
+      "sha256": "f2165fad32a4b431ca1488a5b886f6738be9e8b480298ecc9e0b55d87d26f365",
+      "size": 9354050784
+    },
+    {
+      "mtime_ns": 1790137366281438220,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model/model.safetensors",
+      "sha256": "ba9c0929d04dbe1e984b3fa0ed59ba8a18ac840ed6e237a77d20bf930fa75a1e",
+      "size": 9354050784
+    },
+    {
+      "mtime_ns": 1790137456578028013,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/receptacle/pretrained_model/model.safetensors",
+      "sha256": "8124c718630727d8b1a34e6ea41876c340f417082d11c295af302ec1d2d8cfef",
+      "size": 9354050784
+    },
+    {
+      "mtime_ns": 1790137546519054752,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/precision/pretrained_model/model.safetensors",
+      "sha256": "316a913d065e43f995a63f80cdcf17d48d3a790f30dd571c67f8a25285f44adc",
+      "size": 9354050784
+    }
+  ],
+  "models": {
+    "coordination": {
+      "manifest": {
+        "bytes": 1992,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model/dense_equivalent_manifest.json",
+        "sha256": "52c3fcc3be1ba3a32e6df7ff62e395424cdee0b20c2492d5e0341f318ccade58"
+      },
+      "model_sha256": "ba9c0929d04dbe1e984b3fa0ed59ba8a18ac840ed6e237a77d20bf930fa75a1e",
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/coordination/pretrained_model",
+      "verification": {
+        "bytes": 3967,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v2/coordination-exact.json",
+        "sha256": "06fd8b7f4f960ef10e9ee5faab745aa5c3a169bdba16b9eaa582eee0a5943311"
+      }
+    },
+    "precision": {
+      "manifest": {
+        "bytes": 1998,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/precision/pretrained_model/dense_equivalent_manifest.json",
+        "sha256": "506a6f93ce5a5b4151a83922c1ca17a2c3fab6fea1cdefca28af5fe259b0e969"
+      },
+      "model_sha256": "316a913d065e43f995a63f80cdcf17d48d3a790f30dd571c67f8a25285f44adc",
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/precision/pretrained_model",
+      "verification": {
+        "bytes": 3967,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v2/precision-exact.json",
+        "sha256": "d1a61e4b6417f130b39018d9b1802c4f3c29d2aa881ea96f05f80cac802a11da"
+      }
+    },
+    "receptacle": {
+      "manifest": {
+        "bytes": 1988,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/receptacle/pretrained_model/dense_equivalent_manifest.json",
+        "sha256": "35fa241cad2eafead4f7e339aa03ea77e735d653274a68f98ea6e60e08acee96"
+      },
+      "model_sha256": "8124c718630727d8b1a34e6ea41876c340f417082d11c295af302ec1d2d8cfef",
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v1/receptacle/pretrained_model",
+      "verification": {
+        "bytes": 3959,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-experts-v2/receptacle-exact.json",
+        "sha256": "78efad46669cba60642b0ebbf32579177e701998f747b96a2dee03c22134702b"
+      }
+    }
+  },
+  "noise_states": 450,
+  "observations": 150,
+  "physical_timestep": 1.0,
+  "prepared_at": "2026-09-25T01:37:24.949769+00:00",
+  "regression_rows": 3330900,
+  "resource_proposal": {
+    "allocator_fraction": 0.5,
+    "minimum_free_mib": 49152,
+    "minimum_runtime_free_mib": 12288
+  },
+  "rho": 2.0,
+  "schema": "robotwin_featcal_static_m3_forward_order_v1",
+  "solve_dtype": "float64",
+  "soup": {
+    "model_sha256": "6bfe33cf0c7e0602e2577e200bf6de9315b2632928289e3f47f6a2d43e0dfac9",
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-soup-v1/pretrained_model"
+  },
+  "source_kind": "static calibration demonstration observations, no action labels or execution features",
+  "stages": 47,
+  "status": "CPU_PREPARED_NATIVE_GPU_PARITY_REQUIRED",
+  "unchanged_biases": 4,
+  "work_root": "/mnt/workspace/Wilson/parameter-fusion",
+  "workspace_cap_bytes": 2147483648
+}

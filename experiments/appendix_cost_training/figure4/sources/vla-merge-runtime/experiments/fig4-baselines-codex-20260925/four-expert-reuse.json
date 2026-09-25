@@ -1,0 +1,1666 @@
+{
+  "accepted": true,
+  "audited_at_utc": "2026-09-25T01:04:45.813178+00:00",
+  "bank": {
+    "bytes": 1191035,
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/manifest.json",
+    "sha256": "16fb4a0331b552c211bcb92ed3c81c7f4232c4eec88330d52056131e26d04be8",
+    "verification": "sha256_recomputed"
+  },
+  "methods": {
+    "featcal": {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/checkpoint/pretrained_model",
+      "checkpoint_binding": "All 12 original launch/run receipts bind this immutable checkpoint SHA; model bytes not rehashed by this CPU-only plan freeze.",
+      "checkpoint_file": {
+        "bytes": 9354050784,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/checkpoint/pretrained_model/model.safetensors",
+        "sha256": "b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114",
+        "verification": "size_checked_hash_inherited_from_frozen_source"
+      },
+      "episodes": 1200,
+      "jobs": [
+        {
+          "episodes": 100,
+          "model_sha256": "b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-01/libero_spatial/eval",
+            "--env.type=libero",
+            "--env.task=libero_spatial",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274001",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/checkpoint/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-01",
+          "reset_receipt": {
+            "bytes": 12142,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-01/libero_spatial/eval/procedural_bank_receipt.json",
+            "sha256": "02a4a024f002effc6ed48e239f99400a9888c4643f9eaaaa7c00d378657e3859",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 72941,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-01/libero_spatial/eval/eval_info.json",
+            "sha256": "fcef1691d88151ae7c7b4d5693caf4afb7106e179b021dbbe517dc969cb02cea",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5054,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 81,
+          "suite": "libero_spatial"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-01/libero_object/eval",
+            "--env.type=libero",
+            "--env.task=libero_object",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274001",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/checkpoint/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-01",
+          "reset_receipt": {
+            "bytes": 11917,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-01/libero_object/eval/procedural_bank_receipt.json",
+            "sha256": "5ec7932d1b960d10fc7fb90fa0d9cbf9fc37cb51b240f1b896ee8c75d9650c86",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 72315,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-01/libero_object/eval/eval_info.json",
+            "sha256": "8797d65980563d31fedb1181b0b7e07e712a2e0b9d5c02d0b821087efcedd555",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5054,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 90,
+          "suite": "libero_object"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-01/libero_goal/eval",
+            "--env.type=libero",
+            "--env.task=libero_goal",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274001",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/checkpoint/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-01",
+          "reset_receipt": {
+            "bytes": 11706,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-01/libero_goal/eval/procedural_bank_receipt.json",
+            "sha256": "e99cfcbbacd5e9ac49effc484d754a5921fdb508d60c82fc16025545487359de",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 71138,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-01/libero_goal/eval/eval_info.json",
+            "sha256": "20c02d41c62fef7a719d12f69aeb74b48591694fe7897b317e1e3bc75ba555b9",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5054,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 52,
+          "suite": "libero_goal"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-01/libero_10/eval",
+            "--env.type=libero",
+            "--env.task=libero_10",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274001",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/checkpoint/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-01",
+          "reset_receipt": {
+            "bytes": 12132,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-01/libero_10/eval/procedural_bank_receipt.json",
+            "sha256": "fe7a77ac9ee57d1926a33d5106b3eb71c839c8d1d52868c98fa88122dff69091",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 69920,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-01/libero_10/eval/eval_info.json",
+            "sha256": "2ed32b0b5aa3a59d4142e9faf0ae2a3b687f13af4d2185091c38a8a741182dfb",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5054,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 47,
+          "suite": "libero_10"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-02/libero_spatial/eval",
+            "--env.type=libero",
+            "--env.task=libero_spatial",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274002",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/checkpoint/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-02",
+          "reset_receipt": {
+            "bytes": 12242,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-02/libero_spatial/eval/procedural_bank_receipt.json",
+            "sha256": "02f43ab2888f955c6067d6b1b1dcd9b50fe69e56aaffbe69a1cc2a23aafde720",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 72937,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-02/libero_spatial/eval/eval_info.json",
+            "sha256": "e74394c112b0c1b3f152581c0a5d4753d0fcef7a867d27900614f604d4a89205",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "sha256": "401ec2256ce5edc17391d4d2d5e27a56c431a7249b9d04d01fc31b22a78f8533",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 86,
+          "suite": "libero_spatial"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-02/libero_object/eval",
+            "--env.type=libero",
+            "--env.task=libero_object",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274002",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/checkpoint/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-02",
+          "reset_receipt": {
+            "bytes": 12017,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-02/libero_object/eval/procedural_bank_receipt.json",
+            "sha256": "2ccc37545b13c81a7e6560ea00a9e7da574ab1703cee20560181de61c029ad90",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 72324,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-02/libero_object/eval/eval_info.json",
+            "sha256": "22520baa962329e654294a8e607629e8ee9754476d47eaeb0f489a1bfe5acace",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "sha256": "401ec2256ce5edc17391d4d2d5e27a56c431a7249b9d04d01fc31b22a78f8533",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 88,
+          "suite": "libero_object"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-02/libero_goal/eval",
+            "--env.type=libero",
+            "--env.task=libero_goal",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274002",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/checkpoint/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-02",
+          "reset_receipt": {
+            "bytes": 11806,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-02/libero_goal/eval/procedural_bank_receipt.json",
+            "sha256": "a0c18d7f2e880a815a94d3a7e302d49d0c2745509d8554811a844a1679768e66",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 71161,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-02/libero_goal/eval/eval_info.json",
+            "sha256": "b87a6881b6772dc68075ba030c653b0c05c7407e393c5e119821527f9dc4c845",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "sha256": "401ec2256ce5edc17391d4d2d5e27a56c431a7249b9d04d01fc31b22a78f8533",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 55,
+          "suite": "libero_goal"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-02/libero_10/eval",
+            "--env.type=libero",
+            "--env.task=libero_10",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274002",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/checkpoint/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-02",
+          "reset_receipt": {
+            "bytes": 12232,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-02/libero_10/eval/procedural_bank_receipt.json",
+            "sha256": "86e84dc1bcc9fb6d81750c3750cc29412dc42dade70b47c7cabd518057b7b5ed",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 69923,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-02/libero_10/eval/eval_info.json",
+            "sha256": "819a70e8ec160f276b8db2e4bb0cf52bf467f2909e23861f8e9c6c1d92fd7b74",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "sha256": "401ec2256ce5edc17391d4d2d5e27a56c431a7249b9d04d01fc31b22a78f8533",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 45,
+          "suite": "libero_10"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-03/libero_spatial/eval",
+            "--env.type=libero",
+            "--env.task=libero_spatial",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274003",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/checkpoint/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-03",
+          "reset_receipt": {
+            "bytes": 12242,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-03/libero_spatial/eval/procedural_bank_receipt.json",
+            "sha256": "ce4d294c64e67a0e39e0a3038a2908e4fa6334900dfcc51b1f0eb1c1a0a3a432",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 72940,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-03/libero_spatial/eval/eval_info.json",
+            "sha256": "569334406c3e8fa58ce50bf6a2aa470f47dec63160d32bb1dc2b2fd1abfc7bae",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "sha256": "3d2963b6a5452460a9c0a0393d10a30c4d088eb9dc29831b81567b1a38820600",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 82,
+          "suite": "libero_spatial"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-03/libero_object/eval",
+            "--env.type=libero",
+            "--env.task=libero_object",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274003",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/checkpoint/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-03",
+          "reset_receipt": {
+            "bytes": 12017,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-03/libero_object/eval/procedural_bank_receipt.json",
+            "sha256": "7e6bb9ff10ff37424be889b3f4c8354d09b8884185d7aad642d549ac398ce5f3",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 72321,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-03/libero_object/eval/eval_info.json",
+            "sha256": "be5c177784005b75976930d04624db3efc6f0adaf01c9144191990ed3684483e",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "sha256": "3d2963b6a5452460a9c0a0393d10a30c4d088eb9dc29831b81567b1a38820600",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 89,
+          "suite": "libero_object"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-03/libero_goal/eval",
+            "--env.type=libero",
+            "--env.task=libero_goal",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274003",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/checkpoint/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-03",
+          "reset_receipt": {
+            "bytes": 11806,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-03/libero_goal/eval/procedural_bank_receipt.json",
+            "sha256": "923449d1b30b38f14e15d3d5b45092ddbfc294a40af116e161b677e5c805a11a",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 71137,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-03/libero_goal/eval/eval_info.json",
+            "sha256": "78e9b26f11da365b0b45667bea64f9e67e30ba9899e24f76329517b67fb983b0",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "sha256": "3d2963b6a5452460a9c0a0393d10a30c4d088eb9dc29831b81567b1a38820600",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 53,
+          "suite": "libero_goal"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-03/libero_10/eval",
+            "--env.type=libero",
+            "--env.task=libero_10",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274003",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/checkpoint/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-03",
+          "reset_receipt": {
+            "bytes": 12232,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-03/libero_10/eval/procedural_bank_receipt.json",
+            "sha256": "89dea7ada0f06c032cd05e81d47f2d6e95e90adeec059297931b9cd5fc038372",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 69916,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/evaluation/formal/repeat-03/libero_10/eval/eval_info.json",
+            "sha256": "9ab517debc25005091593a159f3b59655e5d4307c4a3bfe87b16ceb04de88828",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "sha256": "3d2963b6a5452460a9c0a0393d10a30c4d088eb9dc29831b81567b1a38820600",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 52,
+          "suite": "libero_10"
+        }
+      ],
+      "mean_percent": 68.33333333333333,
+      "repeat_rates_percent": [
+        67.5,
+        68.5,
+        69.0
+      ],
+      "sample_std_percent": 0.7637626158259734
+    },
+    "regmeanpp": {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/attempt-01/checkpoint",
+      "checkpoint_binding": "All 12 original launch/run receipts bind this immutable checkpoint SHA; model bytes not rehashed by this CPU-only plan freeze.",
+      "checkpoint_file": {
+        "bytes": 9354050784,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/attempt-01/checkpoint/model.safetensors",
+        "sha256": "fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2",
+        "verification": "size_checked_hash_inherited_from_frozen_source"
+      },
+      "episodes": 1200,
+      "jobs": [
+        {
+          "episodes": 100,
+          "model_sha256": "fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-01/libero_spatial/eval",
+            "--env.type=libero",
+            "--env.task=libero_spatial",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274001",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/attempt-01/checkpoint",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-01",
+          "reset_receipt": {
+            "bytes": 12142,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-01/libero_spatial/eval/procedural_bank_receipt.json",
+            "sha256": "f573338074986ae02359b5208f32d8b9bfd05e87d61345a64f3063780cb7fa7d",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 79250,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-01/libero_spatial/eval/eval_info.json",
+            "sha256": "0e07c775aa302e9603a4bfda02bcf9c620209655a7a120a17f283e371ba050f0",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5054,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 73,
+          "suite": "libero_spatial"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-01/libero_object/eval",
+            "--env.type=libero",
+            "--env.task=libero_object",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274001",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/attempt-01/checkpoint",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-01",
+          "reset_receipt": {
+            "bytes": 11917,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-01/libero_object/eval/procedural_bank_receipt.json",
+            "sha256": "eb89bb93681262507256c805a10ef511c2e107ef631d50e22aa80f1a53f56d2b",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 78623,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-01/libero_object/eval/eval_info.json",
+            "sha256": "d19c86630a8526697a4f3f8198ed4fa39c71144e3944bfe77a33c15b59d96b5b",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5054,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 86,
+          "suite": "libero_object"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-01/libero_goal/eval",
+            "--env.type=libero",
+            "--env.task=libero_goal",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274001",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/attempt-01/checkpoint",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-01",
+          "reset_receipt": {
+            "bytes": 11706,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-01/libero_goal/eval/procedural_bank_receipt.json",
+            "sha256": "0914c7552421f20920a5d9d953d57d1793ae474b0cbdfe88806cc37186822c73",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 77441,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-01/libero_goal/eval/eval_info.json",
+            "sha256": "51a481cc8990f82efe8146b8b9657f1fd06e6ef92f1fe954cba1fcc16bebe278",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5054,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 49,
+          "suite": "libero_goal"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-01/libero_10/eval",
+            "--env.type=libero",
+            "--env.task=libero_10",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274001",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/attempt-01/checkpoint",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-01",
+          "reset_receipt": {
+            "bytes": 12132,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-01/libero_10/eval/procedural_bank_receipt.json",
+            "sha256": "1f7f5f3a44819149de9179c4b9f779c4a26a0c90be7775587905c3340561d79a",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 76244,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-01/libero_10/eval/eval_info.json",
+            "sha256": "770c6d62a7c4a0b0f8613e82aca887caa7bc08718e7eb375a71c63a7868bf85f",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5054,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 20,
+          "suite": "libero_10"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-02/libero_spatial/eval",
+            "--env.type=libero",
+            "--env.task=libero_spatial",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274002",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/attempt-01/checkpoint",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-02",
+          "reset_receipt": {
+            "bytes": 12242,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-02/libero_spatial/eval/procedural_bank_receipt.json",
+            "sha256": "8b3714cefd7fcda6292afc533d805115d24b62f8a3118141b4976e0da5d28f07",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 79247,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-02/libero_spatial/eval/eval_info.json",
+            "sha256": "ce4563391eba0ec841d896ff7a1034531284019d03c2453c8562f1cb133f2752",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "sha256": "401ec2256ce5edc17391d4d2d5e27a56c431a7249b9d04d01fc31b22a78f8533",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 76,
+          "suite": "libero_spatial"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-02/libero_object/eval",
+            "--env.type=libero",
+            "--env.task=libero_object",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274002",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/attempt-01/checkpoint",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-02",
+          "reset_receipt": {
+            "bytes": 12017,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-02/libero_object/eval/procedural_bank_receipt.json",
+            "sha256": "1fbd7f276d1d1661b1ba2232ee91863c774e1e7e1d60a0edb594457e07296b01",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 78625,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-02/libero_object/eval/eval_info.json",
+            "sha256": "caf4b94ad37e4df613e767183d69115400d4b7ce024f042ace7cb91ed3804e97",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "sha256": "401ec2256ce5edc17391d4d2d5e27a56c431a7249b9d04d01fc31b22a78f8533",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 87,
+          "suite": "libero_object"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-02/libero_goal/eval",
+            "--env.type=libero",
+            "--env.task=libero_goal",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274002",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/attempt-01/checkpoint",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-02",
+          "reset_receipt": {
+            "bytes": 11806,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-02/libero_goal/eval/procedural_bank_receipt.json",
+            "sha256": "169e3185cba9bedc61adc718160cef558cdc629eb2efa7b4311d54e2ffd9607e",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 77436,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-02/libero_goal/eval/eval_info.json",
+            "sha256": "06708e5a2b0e131518e87fd267c477933b9ec1b72607948c4067a0e6890ce199",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "sha256": "401ec2256ce5edc17391d4d2d5e27a56c431a7249b9d04d01fc31b22a78f8533",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 50,
+          "suite": "libero_goal"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-02/libero_10/eval",
+            "--env.type=libero",
+            "--env.task=libero_10",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274002",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/attempt-01/checkpoint",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-02",
+          "reset_receipt": {
+            "bytes": 12232,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-02/libero_10/eval/procedural_bank_receipt.json",
+            "sha256": "42a7f5b3837d83fe82260e62bc85c92606e078228b333b582f04fbe0d48df382",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 76245,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-02/libero_10/eval/eval_info.json",
+            "sha256": "661f0de251c784ca9210ce14c1798c1078c50562214bc4be4160755c644537f4",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "sha256": "401ec2256ce5edc17391d4d2d5e27a56c431a7249b9d04d01fc31b22a78f8533",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 23,
+          "suite": "libero_10"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-03/libero_spatial/eval",
+            "--env.type=libero",
+            "--env.task=libero_spatial",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274003",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/attempt-01/checkpoint",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-03",
+          "reset_receipt": {
+            "bytes": 12242,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-03/libero_spatial/eval/procedural_bank_receipt.json",
+            "sha256": "d88a617ac11d1550b79308709836d16488c972150293191bf26785846fadc894",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 79243,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-03/libero_spatial/eval/eval_info.json",
+            "sha256": "24d7c1657eabbaade10b841d175b158139199ecc596528203a4d82b92c418a78",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "sha256": "3d2963b6a5452460a9c0a0393d10a30c4d088eb9dc29831b81567b1a38820600",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 79,
+          "suite": "libero_spatial"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-03/libero_object/eval",
+            "--env.type=libero",
+            "--env.task=libero_object",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274003",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/attempt-01/checkpoint",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-03",
+          "reset_receipt": {
+            "bytes": 12017,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-03/libero_object/eval/procedural_bank_receipt.json",
+            "sha256": "f1417bc6a2698b4a92f6ae81a3cafbabef699de975fcb43afe820f8c5321a8f9",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 78627,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-03/libero_object/eval/eval_info.json",
+            "sha256": "d53716808f8e679510987fd1b730d3bf98cce082aa0dcdc1aa1c7f8f6d0109e8",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "sha256": "3d2963b6a5452460a9c0a0393d10a30c4d088eb9dc29831b81567b1a38820600",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 85,
+          "suite": "libero_object"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-03/libero_goal/eval",
+            "--env.type=libero",
+            "--env.task=libero_goal",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274003",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/attempt-01/checkpoint",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-03",
+          "reset_receipt": {
+            "bytes": 11806,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-03/libero_goal/eval/procedural_bank_receipt.json",
+            "sha256": "04bef978111f790c53293f2c75ebe4ffeacc096d920c735a5c656a1ec5be4ab5",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 77439,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-03/libero_goal/eval/eval_info.json",
+            "sha256": "413f2ab33df598b1499019f254b67e532135eb10d6bcdc42628e42fdf162aae7",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "sha256": "3d2963b6a5452460a9c0a0393d10a30c4d088eb9dc29831b81567b1a38820600",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 51,
+          "suite": "libero_goal"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/eval_capped.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-03/libero_10/eval",
+            "--env.type=libero",
+            "--env.task=libero_10",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274003",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/attempt-01/checkpoint",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-03",
+          "reset_receipt": {
+            "bytes": 12232,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-03/libero_10/eval/procedural_bank_receipt.json",
+            "sha256": "aff6bc2c36f94941413278a695e2143125cb2137b81297794b5728d7f8bb60b8",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 76249,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/evaluation/formal/repeat-03/libero_10/eval/eval_info.json",
+            "sha256": "527813337e2c525f7741fd0e2c71752460e41e1c63dd356a72e536be9365c8f0",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "sha256": "3d2963b6a5452460a9c0a0393d10a30c4d088eb9dc29831b81567b1a38820600",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 19,
+          "suite": "libero_10"
+        }
+      ],
+      "mean_percent": 58.166666666666664,
+      "repeat_rates_percent": [
+        57.0,
+        59.0,
+        58.5
+      ],
+      "sample_std_percent": 1.0408329997330663
+    },
+    "ties": {
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/candidates/ties_density_0p3_alpha_0p9/pretrained_model",
+      "checkpoint_binding": "All 12 original launch/run receipts bind this immutable checkpoint SHA; model bytes not rehashed by this CPU-only plan freeze.",
+      "checkpoint_file": {
+        "bytes": 9354050784,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/candidates/ties_density_0p3_alpha_0p9/pretrained_model/model.safetensors",
+        "sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+        "verification": "size_checked_hash_inherited_from_frozen_source"
+      },
+      "episodes": 1200,
+      "jobs": [
+        {
+          "episodes": 100,
+          "model_sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_pi05_policy_with_procedural_bank.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-01/libero_spatial/attempt-01/eval",
+            "--env.type=libero",
+            "--env.task=libero_spatial",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274001",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/candidates/ties_density_0p3_alpha_0p9/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-01",
+          "reset_receipt": {
+            "bytes": 12142,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-01/libero_spatial/attempt-01/eval/procedural_bank_receipt.json",
+            "sha256": "0291223b26796e1bb0a7b44b7372028001c6f588ee13f7fc582d2468329cdd87",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 77758,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-01/libero_spatial/attempt-01/eval/eval_info.json",
+            "sha256": "6a6c67c98c4550b7e6103f43c95d1a096174c2077ac8861bcb294cd485c7fd9c",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5054,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 60,
+          "suite": "libero_spatial"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_pi05_policy_with_procedural_bank.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-01/libero_object/attempt-01/eval",
+            "--env.type=libero",
+            "--env.task=libero_object",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274001",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/candidates/ties_density_0p3_alpha_0p9/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-01",
+          "reset_receipt": {
+            "bytes": 11917,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-01/libero_object/attempt-01/eval/procedural_bank_receipt.json",
+            "sha256": "9fe5c62aa0e452af42279f6f62b5e0e825a1d089e62c24da9ef4107141249350",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 77157,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-01/libero_object/attempt-01/eval/eval_info.json",
+            "sha256": "d2b58abec0a3aaf2aed4bbd69f1f568615c969a93ae8143c554b89acf7137a36",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5054,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 54,
+          "suite": "libero_object"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_pi05_policy_with_procedural_bank.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-01/libero_goal/attempt-01/eval",
+            "--env.type=libero",
+            "--env.task=libero_goal",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274001",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/candidates/ties_density_0p3_alpha_0p9/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-01",
+          "reset_receipt": {
+            "bytes": 11706,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-01/libero_goal/attempt-01/eval/procedural_bank_receipt.json",
+            "sha256": "ee3007989f91b182353d228318945acfafafaba421b9d87d0239ad9a13bd3c1c",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 75948,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-01/libero_goal/attempt-01/eval/eval_info.json",
+            "sha256": "048f80623b20aaf8d390534c7c6502ea1cecd717caf3736fa6e5c358e6227207",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5054,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 39,
+          "suite": "libero_goal"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_pi05_policy_with_procedural_bank.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-01/libero_10/attempt-01/eval",
+            "--env.type=libero",
+            "--env.task=libero_10",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274001",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/candidates/ties_density_0p3_alpha_0p9/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-01",
+          "reset_receipt": {
+            "bytes": 12132,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-01/libero_10/attempt-01/eval/procedural_bank_receipt.json",
+            "sha256": "17b92e7f3a5f1c57517ee18f513dda9db96c8af66c89f2aa0d9a85331acc85cd",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 74749,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-01/libero_10/attempt-01/eval/eval_info.json",
+            "sha256": "a34c01251d8fa434f5c800485d2808247846ebe11f69ffa3dc02f06a09f318ea",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5054,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+            "sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 18,
+          "suite": "libero_10"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_pi05_policy_with_procedural_bank.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-02/libero_spatial/attempt-01/eval",
+            "--env.type=libero",
+            "--env.task=libero_spatial",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274002",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/candidates/ties_density_0p3_alpha_0p9/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-02",
+          "reset_receipt": {
+            "bytes": 12242,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-02/libero_spatial/attempt-01/eval/procedural_bank_receipt.json",
+            "sha256": "efb39513acc6139bd7b80356a5fba208d23ba2f22caf1bfb1e4233d81822f6cc",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 77748,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-02/libero_spatial/attempt-01/eval/eval_info.json",
+            "sha256": "4f1a8b7c34b67fe551af5e04ba04d0ab763fdafbc984f9bc6bb37cece481a588",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "sha256": "401ec2256ce5edc17391d4d2d5e27a56c431a7249b9d04d01fc31b22a78f8533",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 70,
+          "suite": "libero_spatial"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_pi05_policy_with_procedural_bank.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-02/libero_object/attempt-01/eval",
+            "--env.type=libero",
+            "--env.task=libero_object",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274002",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/candidates/ties_density_0p3_alpha_0p9/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-02",
+          "reset_receipt": {
+            "bytes": 12017,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-02/libero_object/attempt-01/eval/procedural_bank_receipt.json",
+            "sha256": "4c1d0e8d4bd2a2ed12ccc486d3038842fcd6b81b4a3c04fdf9330c92d81cee5a",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 77157,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-02/libero_object/attempt-01/eval/eval_info.json",
+            "sha256": "861be4c34cd9d6618f122b2994d60b72e606534a4b83a67659b7fa841c741035",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "sha256": "401ec2256ce5edc17391d4d2d5e27a56c431a7249b9d04d01fc31b22a78f8533",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 54,
+          "suite": "libero_object"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_pi05_policy_with_procedural_bank.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-02/libero_goal/attempt-01/eval",
+            "--env.type=libero",
+            "--env.task=libero_goal",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274002",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/candidates/ties_density_0p3_alpha_0p9/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-02",
+          "reset_receipt": {
+            "bytes": 11806,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-02/libero_goal/attempt-01/eval/procedural_bank_receipt.json",
+            "sha256": "c3fa74af6a33c7a3b26fc85ff30036f9d428defe716eb4889c70f764aa725ca1",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 75954,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-02/libero_goal/attempt-01/eval/eval_info.json",
+            "sha256": "453ea2afcaf3d63d4b1bedcceb200aa3efc2a36d4b21179426d565240afe19ea",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "sha256": "401ec2256ce5edc17391d4d2d5e27a56c431a7249b9d04d01fc31b22a78f8533",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 36,
+          "suite": "libero_goal"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_pi05_policy_with_procedural_bank.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-02/libero_10/attempt-01/eval",
+            "--env.type=libero",
+            "--env.task=libero_10",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274002",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/candidates/ties_density_0p3_alpha_0p9/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-02",
+          "reset_receipt": {
+            "bytes": 12232,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-02/libero_10/attempt-01/eval/procedural_bank_receipt.json",
+            "sha256": "6c7237f514da949c279cf43e5eb96e263642f34dd6b6b120547d593f5be623cb",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 74743,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-02/libero_10/attempt-01/eval/eval_info.json",
+            "sha256": "3539c2523d306baa676b27f93cfbbccf4b992fcb6c0d5cb6ce3f242996ae9315",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-02.json",
+            "sha256": "401ec2256ce5edc17391d4d2d5e27a56c431a7249b9d04d01fc31b22a78f8533",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 20,
+          "suite": "libero_10"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_pi05_policy_with_procedural_bank.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-03/libero_spatial/attempt-01/eval",
+            "--env.type=libero",
+            "--env.task=libero_spatial",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274003",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/candidates/ties_density_0p3_alpha_0p9/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-03",
+          "reset_receipt": {
+            "bytes": 12242,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-03/libero_spatial/attempt-01/eval/procedural_bank_receipt.json",
+            "sha256": "e62a6e4a359b0f756f1a00f6ceb57017e911b878fe8a358bf0d4829013b49134",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 77757,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-03/libero_spatial/attempt-01/eval/eval_info.json",
+            "sha256": "225192637d4fa4dfff688d9ec1a5d6c4848b01bac5088ce342d3f60aee6c03bb",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "sha256": "3d2963b6a5452460a9c0a0393d10a30c4d088eb9dc29831b81567b1a38820600",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 65,
+          "suite": "libero_spatial"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_pi05_policy_with_procedural_bank.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-03/libero_object/attempt-01/eval",
+            "--env.type=libero",
+            "--env.task=libero_object",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274003",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/candidates/ties_density_0p3_alpha_0p9/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-03",
+          "reset_receipt": {
+            "bytes": 12017,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-03/libero_object/attempt-01/eval/procedural_bank_receipt.json",
+            "sha256": "40bef6f19e961d996eeafd0b8902362cc81651c068b74c0aa15bac3419974514",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 77181,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-03/libero_object/attempt-01/eval/eval_info.json",
+            "sha256": "188d9cc5660763584cad1edf8a3b89aa457d847c6fd9f41320f79e338a785d4c",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "sha256": "3d2963b6a5452460a9c0a0393d10a30c4d088eb9dc29831b81567b1a38820600",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 55,
+          "suite": "libero_object"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_pi05_policy_with_procedural_bank.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-03/libero_goal/attempt-01/eval",
+            "--env.type=libero",
+            "--env.task=libero_goal",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274003",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/candidates/ties_density_0p3_alpha_0p9/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-03",
+          "reset_receipt": {
+            "bytes": 11806,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-03/libero_goal/attempt-01/eval/procedural_bank_receipt.json",
+            "sha256": "7b7d9e34d83189ba6dfcc042fd405028286578f8f5ac06889dcc1fa50e09f829",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 75953,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-03/libero_goal/attempt-01/eval/eval_info.json",
+            "sha256": "41baa473ab6c14950ded3015cb60e351e93bd27a5b3c2bd7b4edc171645913c3",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "sha256": "3d2963b6a5452460a9c0a0393d10a30c4d088eb9dc29831b81567b1a38820600",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 37,
+          "suite": "libero_goal"
+        },
+        {
+          "episodes": 100,
+          "model_sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+          "native_command": [
+            "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_pi05_policy_with_procedural_bank.py",
+            "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+            "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-03/libero_10/attempt-01/eval",
+            "--env.type=libero",
+            "--env.task=libero_10",
+            "--env.init_states=true",
+            "--env.hard_reset=true",
+            "--eval.batch_size=1",
+            "--eval.n_episodes=10",
+            "--seed=274003",
+            "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/candidates/ties_density_0p3_alpha_0p9/pretrained_model",
+            "--policy.device=cuda",
+            "--policy.compile_model=false",
+            "--policy.gradient_checkpointing=false",
+            "--policy.n_action_steps=10"
+          ],
+          "repeat": "repeat-03",
+          "reset_receipt": {
+            "bytes": 12232,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-03/libero_10/attempt-01/eval/procedural_bank_receipt.json",
+            "sha256": "af40062d987acdc7afb79b971507f4c2bbf27c5b4c23502f15770c70cbc113cf",
+            "verification": "sha256_recomputed"
+          },
+          "result": {
+            "bytes": 74744,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/clean-formal-ta-ties-v1/ties_merging/repeat-03/libero_10/attempt-01/eval/eval_info.json",
+            "sha256": "21e4e21d97e563be316ed5c265f27c8fa50b9be7f22e7469b9bb85baf5fa6bc6",
+            "verification": "sha256_recomputed"
+          },
+          "selection": {
+            "bytes": 5454,
+            "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-03.json",
+            "sha256": "3d2963b6a5452460a9c0a0393d10a30c4d088eb9dc29831b81567b1a38820600",
+            "verification": "sha256_recomputed"
+          },
+          "successes": 23,
+          "suite": "libero_10"
+        }
+      ],
+      "mean_percent": 44.25,
+      "repeat_rates_percent": [
+        42.75,
+        45.0,
+        45.0
+      ],
+      "sample_std_percent": 1.299038105676658
+    }
+  },
+  "native_entrypoint": {
+    "bytes": 8812,
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_pi05_policy_with_procedural_bank.py",
+    "sha256": "0d725da47958f62c1dc8b6ad5841ee684b3468a2eb7a04eb3bee74a016fee24c",
+    "verification": "sha256_recomputed"
+  },
+  "schema": "fig4_three_baseline_four_expert_reuse_v1",
+  "source": "Original complete Table 1 runs, not a new measurement",
+  "total_episodes": 3600,
+  "total_jobs": 36
+}

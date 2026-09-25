@@ -1,0 +1,9 @@
+{
+  "cpu_only": true,
+  "formal_plan_sha256": "9aa487f1feabc70c6db5f0fb6525469e4be90d0018c94213b828b71df596a653",
+  "model_sha256": "6cf494c56f4cfaa9e18b984740c779c17de2008425dfdf8e002253ce11ced3d0",
+  "nice": 19,
+  "pid": 2877713,
+  "source_sha256": "43bb42e8a401ff4d5d1cbf23c1025681923c6501b598e1dbc4612bb73835d1d9",
+  "time": "2026-09-25T01:37:54.992622+00:00"
+}

@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "kind": "iclr2027_table1_peft_safe_dense_expert_bank",
+  "created_at": "2026-09-10T17:25:00+00:00",
+  "status": "passed_parameter_exact",
+  "deployment_policy": "dense_only_no_unmerged_adapter_fallback",
+  "semantics": {
+    "expert_weight": "peft_cpu_safe_merge_delta_cast_to_base_dtype_then_base_dtype_add",
+    "lora_matmul": "float32_BA_times_alpha_over_rank",
+    "direct_saved_tensors": "complete_expert_weights",
+    "unmerged_adapter_graph": "provenance_only_not_a_deployment_fallback"
+  },
+  "source_expert_bank": {
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/expert-bank-manifest.json",
+    "sha256": "295efdfca18b0c83497bfe499e0ad771a5a8b33aaf86ba424dab7607094d53c1"
+  },
+  "base": {
+    "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+    "model_sha256": "f2165fad32a4b431ca1488a5b886f6738be9e8b480298ecc9e0b55d87d26f365",
+    "tensor_count": 813
+  },
+  "implementation": {
+    "materializer": {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/materialize_pi05_lora_mean_dense.py",
+      "sha256": "e4825ef24b6844697711123484cc49a451d3bbd9e7b627af79e9de2703563c02"
+    },
+    "preflight": {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/preflight_pi05_adapter_dense_equivalence.py",
+      "sha256": "158b0e096de311036c5ed3d3bd22f1a3eea524220d3dc1da1c2023c1ba28e8b9"
+    }
+  },
+  "tensor_contract": {
+    "tensor_count": 813,
+    "logical_adapted_tensor_count": 422,
+    "lora_pair_count": 414,
+    "direct_tensor_count": 8,
+    "unmodified_tensor_count": 391,
+    "required_exact_tensor_count": 813,
+    "required_max_abs_error": 0.0
+  },
+  "experts": [
+    {
+      "name": "spatial",
+      "suite": "libero_spatial",
+      "source_adapter": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/spatial_lora_s0/checkpoints/010000/pretrained_model",
+        "sha256": "c3e3abf25fc8c7331bbb1632369e572ad7b7bea788cbd4cdc763312b8c9292b6",
+        "role": "provenance_only"
+      },
+      "dense_checkpoint": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/pretrained_model",
+        "model_sha256": "008cb4a76898edbb70edb83bd54cb472722ba49b2760acfde24381e6d14fc75f",
+        "manifest": {
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/pretrained_model/dense_equivalent_manifest.json",
+          "sha256": "88c6f4773af427ce4b20ac19b1f6163478bd19e799116520d0445b8b8352c3ee"
+        },
+        "verification": {
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/dense-content-verification-peft-v2.json",
+          "sha256": "4dc290bcb5e2506d21196787ee127b89c2e0826c740f161a03b42d6c7c1ae8c7"
+        }
+      }
+    },
+    {
+      "name": "object",
+      "suite": "libero_object",
+      "source_adapter": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/object_lora_s0/checkpoints/010000/pretrained_model",
+        "sha256": "4cb91287d099daf536af96de8eeda5767f9f575be6111c8dd841bbce9e9e130b",
+        "role": "provenance_only"
+      },
+      "dense_checkpoint": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/pretrained_model",
+        "model_sha256": "a74c9349a78e122ecf9799e404ad748ffebba0b814b95e3dae4a7b32837f1510",
+        "manifest": {
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/pretrained_model/dense_equivalent_manifest.json",
+          "sha256": "a47478fbfb57cae00b16f314026d87b75cfd1baf3e6f67fa7a69845b157e24d8"
+        },
+        "verification": {
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/dense-content-verification-peft-v2.json",
+          "sha256": "42342233b7076f8ce28a98bb3b626c0d21def2ca865d4a2f6c04d1c3fd20b1b9"
+        }
+      }
+    },
+    {
+      "name": "goal",
+      "suite": "libero_goal",
+      "source_adapter": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/goal_lora_s0/checkpoints/010000/pretrained_model",
+        "sha256": "5541940979994997d1bc9bd28521f6689b84a91e9dbb8af0e0f8a120ee9f5bdc",
+        "role": "provenance_only"
+      },
+      "dense_checkpoint": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/pretrained_model",
+        "model_sha256": "af9e258354d759710d04f13d40ac6e2e4377d5063f56fa8e0ef574f8c96e2732",
+        "manifest": {
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/pretrained_model/dense_equivalent_manifest.json",
+          "sha256": "bde83c327f78f36efb3966c6a092ee9f5f376582cf4f5104b8751de5dba984af"
+        },
+        "verification": {
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/dense-content-verification-peft-v2.json",
+          "sha256": "6a8da3d6c771b0ff19182526f64ca079d1df1491028f9166942f55962175b7a0"
+        }
+      }
+    },
+    {
+      "name": "long",
+      "suite": "libero_10",
+      "source_adapter": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/long10_lora_s0/checkpoints/010000/pretrained_model",
+        "sha256": "862e1e14337fe2039b2402051dd81b15965d472052934d2d9cf0067bbd80e438",
+        "role": "provenance_only"
+      },
+      "dense_checkpoint": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/long-10k-full-dense-peft-v2/pretrained_model",
+        "model_sha256": "85ad87a5d9fbdcdee5d6ff9270a59355326b376f0d50fbc27ae606cbc9b7f8fc",
+        "manifest": {
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/long-10k-full-dense-peft-v2/pretrained_model/dense_equivalent_manifest.json",
+          "sha256": "20ffd31b86f23648f15207bd23ad92e89e9f8086f9e9fdfac1ebddd31e1b1ebb"
+        },
+        "verification": {
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/long-10k-full-dense-peft-v2/dense-content-verification-peft-v2.json",
+          "sha256": "bfb9bb6fe384cf1ecd0daa3faf238d5093d4acc78b80dbc126c6c8bd31bbb633"
+        }
+      }
+    }
+  ],
+  "action_validation": {
+    "status": "spatial_deployment_passed_unmerged_graph_differs",
+    "validated_experts": [
+      "spatial"
+    ],
+    "parameter_only_experts": [
+      "object",
+      "goal",
+      "long"
+    ],
+    "receipt": {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/adapter-dense-action-parity-spatial10k-sample0-v3-peft-safe/receipt.json",
+      "sha256": "2dc2b22168cdd10e39e2f932bbe5ec60e9fd290fbcf901afdf2e4a5981d9e48e"
+    },
+    "merge_and_unload_vs_dense": {
+      "prediction_hash_exact": true,
+      "max_abs_error": 0.0,
+      "coordinate_count": 350
+    },
+    "unmerged_adapter_vs_dense": {
+      "status": "failed_tolerance",
+      "max_abs_error": 0.016705453395843506,
+      "failing_coordinate_count_at_1e-3": 179,
+      "coordinate_count": 350
+    },
+    "rollout_equivalence_claimed": false
+  }
+}

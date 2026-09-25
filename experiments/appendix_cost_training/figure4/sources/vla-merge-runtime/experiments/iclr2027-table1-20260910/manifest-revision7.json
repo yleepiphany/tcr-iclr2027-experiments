@@ -1,0 +1,922 @@
+{
+  "audit_receipts": {
+    "esm": "bf72d74f168b72d1de82bb10c08b66f75fa96655e6f835bdcc37544b0ef88663",
+    "featcal": "48732c924b32467af2450a814f8c9c89f0e0115451a2bf0c15220aaba4cbf22a",
+    "knots_ties": "ad90041a8dc1176559b505450b05fbfaaf69d5c324f846edfc86aa2fefc35c44",
+    "model_soups": "099fa6890035ef7e86483822360f3dccc4083a5b627acba7a5cac6666ccfc608",
+    "regmean": "b05359cfa4aef73ef02b89667b29dc0ba93f3a2d9e7d3e432c0218957aeb3268",
+    "regmean_pp": "ddc9db3d0fef1cd5adc8cb74cd135d8992f77a94a1a03c6a74c4b63bd6c6998c",
+    "task_arithmetic": "3bb466c0008ddb3d3c250cd499349698a0d51e33ef88befe3a990c5e650ad683",
+    "tcr_e": "0ec2de1be457e1fa78d4200cd0df55a3dd5afebc6cb09fe7f3e3eead314bdf1a",
+    "ties_merging": "dce8704de1e4ff0b1fe46846f81a272f4a8c1d4c24666c1137024f959b266048",
+    "tsv_m": "1b3381125a39dd5496f77acada919ef21af7b42a022fed62bf5cebf2932afb45"
+  },
+  "calibration_row_contract": {
+    "logical_tensor_count": 422,
+    "matching": "per module and per expert; a matching grand total alone is insufficient",
+    "module_count": 418,
+    "per_module_per_expert_classes": [
+      {
+        "module_count": 2,
+        "rows": 150
+      },
+      {
+        "module_count": 254,
+        "rows": 1500
+      },
+      {
+        "module_count": 162,
+        "rows": 4500
+      }
+    ],
+    "rows_per_expert": 1110300,
+    "total_realized_rows": 4441200
+  },
+  "created_at": "2026-09-13T07:26:34.255813+00:00",
+  "decision": "Revision 7 authorizes exactly one host- and GPU-bound FeatCal formal cache/solve/checkpoint lane. Evaluation remains blocked pending a successful checkpoint reload-forward receipt. LIBERO-Plus is removed from scope; clean LIBERO and LIBERO-PRO remain required.",
+  "development_bank": {
+    "benchmark_bank": "canonical stock LIBERO fixed states, historically used and therefore development-only",
+    "eval_seed": 260101,
+    "invalid_run_rule": "Infrastructure-invalid episodes are repaired under the identical recipe and episode key before ranking; they are neither failures nor deletions.",
+    "n_action_steps": 10,
+    "pairing": "Every candidate within one stage uses the same task/reset/eval-seed bank.",
+    "ranking": [
+      "highest four-suite task-macro success rate",
+      "highest worst-suite success rate",
+      "smallest mean task-level failure rate",
+      "closest to the primary-source default",
+      "lexicographically smallest serialized recipe id"
+    ],
+    "selection_data_boundary": "No LIBERO-Plus, LIBERO-PRO, or procedural-final outcome may influence candidate selection.",
+    "stages": [
+      {
+        "cumulative_init_state_ids": [
+          30
+        ],
+        "episodes_per_task_cumulative": 1,
+        "new_init_state_ids": [
+          30
+        ],
+        "purpose": "Evaluate every preregistered candidate",
+        "stage": "screen-01"
+      },
+      {
+        "cumulative_init_state_ids": [
+          30,
+          31,
+          32
+        ],
+        "episodes_per_task_cumulative": 3,
+        "new_init_state_ids": [
+          31,
+          32
+        ],
+        "purpose": "Evaluate only the method-specific stage-1 survivors; reuse valid stage-1 receipts",
+        "stage": "screen-03"
+      },
+      {
+        "cumulative_init_state_ids": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "episodes_per_task_cumulative": 10,
+        "new_init_state_ids": [
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "purpose": "Evaluate the final two method-specific candidates; reuse earlier valid receipts",
+        "stage": "select-10"
+      }
+    ],
+    "suite_order": [
+      "libero_spatial",
+      "libero_object",
+      "libero_goal",
+      "libero_10"
+    ],
+    "task_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "task_text_mode": "correct"
+  },
+  "esm_rp_revision6_evidence": {
+    "cache_created": false,
+    "checkpoint_authorized": false,
+    "cpu_receipt": {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/receipts/esm-rp-cpu-core-preflight-v1.json",
+      "sha256": "100242053f6554f1c5f63024aa60c02877b084f7a70efd1e1b42cb41e708aa56"
+    },
+    "evaluation_authorized": false,
+    "gpu_collection_authorized": false,
+    "observation_plan": {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/baseline-audits/esm-rp-calibration-observation-plan-v2.json",
+      "sha256": "a2d8dbb6c291f758e794349384cf8c5fd09b58cfbb9429ac32c5819e88054a04"
+    },
+    "plan_receipt": {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/receipts/esm-rp-calibration-plan-v2.json",
+      "sha256": "92cf3146f4131cef8e56b17333fef0db483422873297a132b6848fdefcc60796"
+    },
+    "status": "cpu_core_and_observation_plan_accepted_collection_still_blocked"
+  },
+  "experiment_id": "iclr2027-table1-20260910",
+  "featcal_engineering_revision4": {
+    "authorization": {
+      "allowed_outputs": [
+        "teacher task-step shard pairs",
+        "progress journal",
+        "execution/final receipts",
+        "combined log",
+        "resource accounting"
+      ],
+      "attempt": "featcal-spatial-task0-15state-teacher-mini-v1",
+      "authorization_count": 1,
+      "authorized": true,
+      "batch_size": 5,
+      "batches": 3,
+      "call_slot_ids": [
+        "expert=spatial/task=00/episode=00/request=00/flow=00",
+        "expert=spatial/task=00/episode=00/request=00/flow=05",
+        "expert=spatial/task=00/episode=00/request=00/flow=09",
+        "expert=spatial/task=00/episode=00/request=01/flow=00",
+        "expert=spatial/task=00/episode=00/request=01/flow=05",
+        "expert=spatial/task=00/episode=00/request=01/flow=09",
+        "expert=spatial/task=00/episode=00/request=02/flow=00",
+        "expert=spatial/task=00/episode=00/request=02/flow=05",
+        "expert=spatial/task=00/episode=00/request=02/flow=09",
+        "expert=spatial/task=00/episode=00/request=03/flow=00",
+        "expert=spatial/task=00/episode=00/request=03/flow=05",
+        "expert=spatial/task=00/episode=00/request=03/flow=09",
+        "expert=spatial/task=00/episode=00/request=04/flow=00",
+        "expert=spatial/task=00/episode=00/request=04/flow=05",
+        "expert=spatial/task=00/episode=00/request=04/flow=09"
+      ],
+      "call_state_count": 15,
+      "checkpoint": false,
+      "episode_index": 1261,
+      "expert": "spatial",
+      "flow_indices": [
+        0,
+        5,
+        9
+      ],
+      "fresh_output_required": true,
+      "local_task": 0,
+      "overwrite_or_rerun_after_failure": false,
+      "requests": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "requires_gpu_lock": "resource-leases/gpu-6.lock",
+      "requires_resource_accounting_schema": 2,
+      "rollout": false,
+      "solve": false,
+      "student_collection": false,
+      "suite": "libero_spatial",
+      "suite_task_id": 30,
+      "teacher_forward": "all_418_selected_only_streaming"
+    },
+    "blocked": {
+      "any_featcal_solve": true,
+      "checkpoint_materialization": true,
+      "development_rollout": true,
+      "formal_rollout": true,
+      "full_600_state_teacher_cache": true,
+      "student_47step_cache": true,
+      "table_reporting": true
+    },
+    "evidence": {
+      "cache_plan_and_streaming_collector": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/featcal_cache_plan.py",
+        "sha256": "4b5aa596dd39b857b5da60fdd3a4080233153ce32f04cab660cc844e42f67d13"
+      },
+      "call_state_builder": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/build_iclr2027_featcal_call_state_manifest.py",
+        "sha256": "cb61109fdff885f441da4240a9f576d21dfb118a2a96d6d0e2a53832ddbb2107"
+      },
+      "call_state_manifest": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-call-states-training-demo-v1/artifacts/manifest.json",
+        "sha256": "b18b82300036ded14caa7c6431015acc84368606460437e495c13f424a9ad285"
+      },
+      "call_state_receipt": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-call-states-training-demo-v1/artifacts/receipt.json",
+        "sha256": "41a467fe265e39f41fe8817cc27e82642bfab137958fc41da3bc61fa9c1f5f87"
+      },
+      "call_state_resource": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-call-states-training-demo-v1/resource-accounting.json",
+        "sha256": "287b008a5231a043bae04d1e4d99ae6e88294d72148297ccd59590e2604fb647"
+      },
+      "formal_cache_call_slots": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-formal-cache-plan-v3/call-slots.json",
+        "sha256": "441fe4840cfcc62909233ccdbbb6396e86cf8c985794637681084bc89e2d6025"
+      },
+      "formal_cache_plan": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-formal-cache-plan-v3/plan.json",
+        "sha256": "876367b0e38ba54bd75f3781b6e3ac85e072151730dcbc899cfd6493d19e81bd"
+      },
+      "formal_cache_plan_builder": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/build_iclr2027_featcal_cache_plan.py",
+        "sha256": "c5cb8b90f93e12d3b42fb8c5380df0e6009d8a7f8bd2101975141f27bb6c4370"
+      },
+      "formal_cache_plan_receipt": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-formal-cache-plan-v3/receipt.json",
+        "sha256": "815c38e217719f2ea5ebe835ae5725fb62bcaf93f58a1249732eed8bbcdfd29e"
+      },
+      "formal_cache_shard_index": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-formal-cache-plan-v3/shard-index.json",
+        "sha256": "f955bec8267252aebfd838394ccdc7bef73273dafd2fa0b538aaa1b4d3698fd3"
+      },
+      "forward_order_collector_and_solver": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/featcal_forward_order.py",
+        "sha256": "712282ed7d9fad08c20f55e4330b2b29545ac5180f41a80301c36279762c9ede"
+      },
+      "forward_order_collector_receipt": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-forward-order-collector-v3/receipt.json",
+        "sha256": "e762b6eb6f6c4d7f25db39c401e9cb69523e9f6b02654a4040223ce66859209d"
+      },
+      "real_47step_trace_final_receipt": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-real-oneitem-47step-v1/final-receipt.json",
+        "sha256": "e8664e01bbceed30bbef576fb0968a23e689c9907bf6b4e9f773c9270402bf82"
+      },
+      "real_joint_step_solve_final_receipt": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-joint-layer0-rowspace-solve-v1/final-receipt.json",
+        "sha256": "b2511f7866def41896fc78184ab86a1bc794e06dafeea04c9244b43445fcebc3"
+      }
+    },
+    "formal_cache_plan_summary": {
+      "call_states": 600,
+      "full_cache_status": "blocked",
+      "minimum_storage_bytes": 73978291200,
+      "rows_per_expert": 1110300,
+      "shard_pairs": 3760,
+      "total_rows": 4441200
+    },
+    "status": "single_teacher_mini_authorized"
+  },
+  "featcal_engineering_revision5": {
+    "authorization": {
+      "allowed_outputs": [
+        "teacher task-step shard pairs",
+        "progress journal",
+        "execution/final receipts",
+        "combined log",
+        "resource accounting"
+      ],
+      "attempt": "featcal-spatial-task0-15state-teacher-mini-v2",
+      "authorization_count": 1,
+      "authorized": true,
+      "batch_size": 5,
+      "batches": 3,
+      "call_slot_ids": [
+        "expert=spatial/task=00/episode=00/request=00/flow=00",
+        "expert=spatial/task=00/episode=00/request=00/flow=05",
+        "expert=spatial/task=00/episode=00/request=00/flow=09",
+        "expert=spatial/task=00/episode=00/request=01/flow=00",
+        "expert=spatial/task=00/episode=00/request=01/flow=05",
+        "expert=spatial/task=00/episode=00/request=01/flow=09",
+        "expert=spatial/task=00/episode=00/request=02/flow=00",
+        "expert=spatial/task=00/episode=00/request=02/flow=05",
+        "expert=spatial/task=00/episode=00/request=02/flow=09",
+        "expert=spatial/task=00/episode=00/request=03/flow=00",
+        "expert=spatial/task=00/episode=00/request=03/flow=05",
+        "expert=spatial/task=00/episode=00/request=03/flow=09",
+        "expert=spatial/task=00/episode=00/request=04/flow=00",
+        "expert=spatial/task=00/episode=00/request=04/flow=05",
+        "expert=spatial/task=00/episode=00/request=04/flow=09"
+      ],
+      "call_state_count": 15,
+      "checkpoint": false,
+      "corrected_quota_source": "expert-bank-manifest logical_tensors",
+      "corrected_quota_source_sha256": "295efdfca18b0c83497bfe499e0ad771a5a8b33aaf86ba424dab7607094d53c1",
+      "episode_index": 1261,
+      "expert": "spatial",
+      "flow_indices": [
+        0,
+        5,
+        9
+      ],
+      "fresh_output_required": true,
+      "local_task": 0,
+      "overwrite_or_rerun_after_failure": false,
+      "parent_failed_attempt_closed": true,
+      "requests": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "requires_gpu_lock": "resource-leases/gpu-6.lock",
+      "requires_resource_accounting_schema": 2,
+      "rollout": false,
+      "solve": false,
+      "student_collection": false,
+      "suite": "libero_spatial",
+      "suite_task_id": 30,
+      "teacher_forward": "all_418_selected_only_streaming"
+    },
+    "blocked": {
+      "any_featcal_solve": true,
+      "checkpoint_materialization": true,
+      "development_rollout": true,
+      "formal_rollout": true,
+      "full_600_state_teacher_cache": true,
+      "student_47step_cache": true,
+      "table_reporting": true
+    },
+    "correction": {
+      "corrected_executor_bound_here": true,
+      "dynamic_manifest_binding": "prepare requires revision path and SHA; the resulting plan freezes both",
+      "linear_weight_count": 418,
+      "logical_tensor_count": 422,
+      "quota_source": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/expert-bank-manifest.json",
+      "quota_source_sha256": "295efdfca18b0c83497bfe499e0ad771a5a8b33aaf86ba424dab7607094d53c1"
+    },
+    "evidence": {
+      "corrected_v2_executor": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_pi05_featcal_teacher_mini_v2.py",
+        "sha256": "da4e8fc80953d645e09ecc1c230903c036491ba6ec39401411a3eb57fc0c35e3"
+      },
+      "corrected_v2_executor_tests": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/tests/test_pi05_featcal_teacher_mini_v2.py",
+        "sha256": "cf7c4f4a2ffd21f3484728379246a9db6b85f10d989727580a7c03dca414e929"
+      },
+      "failed_v1_combined_log": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-spatial-task0-15state-teacher-mini-v1/combined.log",
+        "sha256": "974311528763cd3ef94e68626a8af57be352302d251ece2608f29011a2a3cdd5"
+      },
+      "failed_v1_executor": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_pi05_featcal_teacher_mini.py",
+        "sha256": "13738c22b9c85ef629f4a4afbe3605c53c00bb384821350d7538ce8d57033d68"
+      },
+      "failed_v1_executor_tests": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/tests/test_pi05_featcal_teacher_mini.py",
+        "sha256": "342d3f73d74a3681e8346440ed9d78047b6ada68e5b9623f939c89f2356e9168"
+      },
+      "failed_v1_final": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-spatial-task0-15state-teacher-mini-v1/final-receipt.json",
+        "sha256": "b37e834d802143748dcef8e0e2c688c74a04a823ce4499f84e608d5d2b656692"
+      },
+      "failed_v1_plan": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-spatial-task0-15state-teacher-mini-v1/plan.json",
+        "sha256": "325404dfd7e81e2890915d8019c0423a2189cff4fe62fb1203ce20ff4e86f2ee"
+      },
+      "failed_v1_progress": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-spatial-task0-15state-teacher-mini-v1/progress.jsonl",
+        "sha256": "32eac16f8b2d73b7ae6ecdcae6d13999dae0fad20d2f6898466d890d35232f0c"
+      },
+      "failed_v1_resource": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-spatial-task0-15state-teacher-mini-v1/resource-accounting.json",
+        "sha256": "54054959ba00591e72cb380f3b5c6d7fc9098442a281c1aff4ee70b247b5d1cc"
+      },
+      "failed_v1_shard_index": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-spatial-task0-15state-teacher-mini-v1/shard-index.json",
+        "sha256": "a0dc2d334680857331c6b3e3808fc88de7d16ade0277f8090ebbaab1c970932c"
+      },
+      "logical_expert_bank": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/expert-bank-manifest.json",
+        "sha256": "295efdfca18b0c83497bfe499e0ad771a5a8b33aaf86ba424dab7607094d53c1"
+      },
+      "revision4_build_receipt": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/receipts/table1-manifest-revision4-build.json",
+        "sha256": "05d901a61571f0fc2a794e02e9d786472d4fc3aa514a8c9a73bd5668678be2fd"
+      }
+    },
+    "failure": {
+      "attempt": "featcal-spatial-task0-15state-teacher-mini-v1",
+      "failed_before_model_load": true,
+      "permanently_closed": true,
+      "return_code": 1,
+      "root_cause": "derive_module_quotas received the dense checkpoint index rather than expert-bank-manifest logical_tensors",
+      "shard_pairs_written": 0
+    },
+    "status": "v1_failure_preserved_single_corrected_v2_teacher_mini_authorized"
+  },
+  "featcal_engineering_revision6": {
+    "authorization": {
+      "allowed_outputs": [
+        "engineering student task-step shard pairs",
+        "engineering per-step solve receipts",
+        "synthetic benchmark receipt",
+        "progress journal",
+        "execution/final receipts",
+        "combined log",
+        "resource accounting"
+      ],
+      "anchor_blend_rho": 2.0,
+      "atomic_step_load": true,
+      "attempt": "featcal-spatial-task0-15state-prefix47-r6000-v1",
+      "authorization_count": 1,
+      "authorized": true,
+      "batch_size": 5,
+      "call_slot_ids": [
+        "expert=spatial/task=00/episode=00/request=00/flow=00",
+        "expert=spatial/task=00/episode=00/request=00/flow=05",
+        "expert=spatial/task=00/episode=00/request=00/flow=09",
+        "expert=spatial/task=00/episode=00/request=01/flow=00",
+        "expert=spatial/task=00/episode=00/request=01/flow=05",
+        "expert=spatial/task=00/episode=00/request=01/flow=09",
+        "expert=spatial/task=00/episode=00/request=02/flow=00",
+        "expert=spatial/task=00/episode=00/request=02/flow=05",
+        "expert=spatial/task=00/episode=00/request=02/flow=09",
+        "expert=spatial/task=00/episode=00/request=03/flow=00",
+        "expert=spatial/task=00/episode=00/request=03/flow=05",
+        "expert=spatial/task=00/episode=00/request=03/flow=09",
+        "expert=spatial/task=00/episode=00/request=04/flow=00",
+        "expert=spatial/task=00/episode=00/request=04/flow=05",
+        "expert=spatial/task=00/episode=00/request=04/flow=09"
+      ],
+      "call_state_count": 15,
+      "checkpoint": false,
+      "covariance_eps": 1e-08,
+      "episode_index": 1261,
+      "evaluation": false,
+      "expert": "spatial",
+      "failure_stops_attempt": true,
+      "flow_indices": [
+        0,
+        5,
+        9
+      ],
+      "formal_cache": false,
+      "fresh_output_required": true,
+      "local_task": 0,
+      "requests": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "requires_gpu_lock": "resource-leases/gpu-6.lock",
+      "requires_resource_accounting_schema": 2,
+      "restore_initial_soup": true,
+      "ridge_lambda": 0.05,
+      "rowspace_solve": true,
+      "steps": 47,
+      "student_collection": true,
+      "suite": "libero_spatial",
+      "suite_task_id": 30,
+      "synthetic": {
+        "feature_tile": 128,
+        "input_width": 16384,
+        "output_chunk": 64,
+        "output_width": 2048,
+        "rows": 6000,
+        "seed": 2026091205
+      },
+      "synthetic_failure_stops_before_model_load": true,
+      "synthetic_required_first": true,
+      "teacher_interp_alpha": 0.3,
+      "workspace_cap_bytes": 2147483648
+    },
+    "blocked": {
+      "candidate_search": true,
+      "checkpoint_materialization": true,
+      "development_rollout": true,
+      "formal_600_state_student_cache": true,
+      "formal_600_state_teacher_cache": true,
+      "formal_rollout": true,
+      "table_reporting": true
+    },
+    "evidence": {
+      "esm_rp_cpu_core_receipt": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/receipts/esm-rp-cpu-core-preflight-v1.json",
+        "sha256": "100242053f6554f1c5f63024aa60c02877b084f7a70efd1e1b42cb41e708aa56"
+      },
+      "esm_rp_observation_plan_receipt": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/receipts/esm-rp-calibration-plan-v2.json",
+        "sha256": "92cf3146f4131cef8e56b17333fef0db483422873297a132b6848fdefcc60796"
+      },
+      "esm_rp_observation_plan_v2": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/baseline-audits/esm-rp-calibration-observation-plan-v2.json",
+        "sha256": "a2d8dbb6c291f758e794349384cf8c5fd09b58cfbb9429ac32c5819e88054a04"
+      },
+      "prefix_chain_executor": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_pi05_featcal_prefix47_engineering.py",
+        "sha256": "027558e8fa5aae9d490c7bdc7892a878368bde26ecb14f735117aceb45e2e823"
+      },
+      "prefix_chain_executor_tests": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/tests/test_pi05_featcal_prefix47_engineering.py",
+        "sha256": "5573e6e8746168ab047725d10373e0caa0b9d88908dcb4bb38cc9ef7d19085fd"
+      },
+      "prefix_chain_module": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/featcal_prefix_chain.py",
+        "sha256": "7451aba3fd66e89b4c3b5c2318d54cd87fe7662eef7201acdc730910239af625"
+      },
+      "prefix_chain_module_tests": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/tests/test_featcal_prefix_chain.py",
+        "sha256": "6df49287ce0b2d88efabfb79fd0ee10615c5c2b866092d086cc6b106ff747913"
+      },
+      "revision5_build_receipt": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/receipts/table1-manifest-revision5-build.json",
+        "sha256": "009401b50a77b1a6983bc15162872c292a1e1a4290cc4f74bc41d6f00b829080"
+      },
+      "teacher_execution": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-spatial-task0-15state-teacher-mini-v2/execution-receipt.json",
+        "sha256": "bb2a3b34247682dbf5f683f4fbf05cef88b3822609f4255115ae7662016edaad"
+      },
+      "teacher_final": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-spatial-task0-15state-teacher-mini-v2/final-receipt.json",
+        "sha256": "350bc3333d0ceb600f1a93c4de146e89b176ea6c5275cfec93b224db648df683"
+      },
+      "teacher_plan": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-spatial-task0-15state-teacher-mini-v2/plan.json",
+        "sha256": "209f124e167ad87fc1cb1c8235e27b4775c9b4585690ad7bff96641dcae73b29"
+      },
+      "teacher_resource": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-spatial-task0-15state-teacher-mini-v2/resource-accounting.json",
+        "sha256": "6c6b8d752c817798df0205cfa89ffd6e547d0947574c8bef26c60556e7b4b327"
+      },
+      "teacher_shard_index": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-spatial-task0-15state-teacher-mini-v2/shard-index.json",
+        "sha256": "a0dc2d334680857331c6b3e3808fc88de7d16ade0277f8090ebbaab1c970932c"
+      }
+    },
+    "resource_gate": {
+      "expected_full_forwards": 144,
+      "largest_real_solver_workspace_bytes": 374652256,
+      "student_cache_factor_and_keys_bytes": 924728640,
+      "synthetic_estimated_peak_bytes": 907597824,
+      "workspace_cap_bytes": 2147483648
+    },
+    "status": "single_prefix47_engineering_gate_authorized",
+    "teacher_cache": {
+      "root": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-spatial-task0-15state-teacher-mini-v2/cache",
+      "scope": "Spatial/task0/15 states",
+      "shard_pairs": 47,
+      "tree_sha256": "52e3a89e8474605704f5e7ede3dd2ce7031a364609876885fcefcc9aed09c071"
+    }
+  },
+  "featcal_formal_revision7": {
+    "authorization": {
+      "allowed_outputs": [
+        "formal teacher task-step shard pairs",
+        "formal student task-step shard pairs",
+        "formal per-step solve receipts and prefix snapshots",
+        "one FeatCal checkpoint and reload-forward receipt",
+        "progress journal",
+        "execution and final receipts",
+        "combined log",
+        "resource accounting"
+      ],
+      "anchor_blend_rho": 2.0,
+      "attempt": "featcal-formal-full-v1",
+      "authorization_count": 1,
+      "authorized": true,
+      "authorized_host": "dsw-967394-56ffd4897d-42wft",
+      "call_states": 600,
+      "checkpoint_materialization": true,
+      "checkpoint_reload_forward_required": true,
+      "covariance_eps": 1e-08,
+      "cuda_visible_devices": "0",
+      "development_rollout": false,
+      "experts": [
+        "spatial",
+        "object",
+        "goal",
+        "long"
+      ],
+      "failure_policy": "preserve_and_exact_resume_only",
+      "formal_evaluation": false,
+      "fresh_attempt_root_required": true,
+      "libero_plus_collection": false,
+      "libero_plus_reporting": false,
+      "libero_plus_rollout": false,
+      "minimum_cache_bytes": 73978291200,
+      "minimum_free_space_bytes_at_admission": 92472864000,
+      "physical_gpu": 0,
+      "requires_host_qualified_gpu_lock": "resource-leases/dsw-967394-56ffd4897d-42wft-gpu-0.lock",
+      "requires_resource_accounting_schema": 2,
+      "resume_source_of_truth": "validated teacher shard pairs plus complete student-step barriers, solve receipt hash chain, and prefix snapshot",
+      "ridge_lambda": 0.05,
+      "rowspace_solve": true,
+      "steps": 47,
+      "student_collection": true,
+      "student_shard_pairs": 1880,
+      "tasks_per_expert": 10,
+      "teacher_collection": true,
+      "teacher_interp_alpha": 0.3,
+      "teacher_shard_pairs": 1880,
+      "workspace_cap_bytes": 2147483648
+    },
+    "blocked": {
+      "development_rollout": true,
+      "formal_evaluation_before_reload_forward_receipt": true,
+      "libero_plus_any_use": true,
+      "recipe_change": true,
+      "second_formal_attempt": true,
+      "table_reporting_before_formal_evaluation": true
+    },
+    "evidence": {
+      "drop_libero_plus_scope_override": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/receipts/table1-scope-override-drop-libero-plus-20260913.json",
+        "sha256": "c0764efacfb189395db209bb0b724b49f4ca6e98b486bd3a2b6afdffd620d96b"
+      },
+      "formal_cache_index_v3": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-formal-cache-plan-v3/shard-index.json",
+        "sha256": "f955bec8267252aebfd838394ccdc7bef73273dafd2fa0b538aaa1b4d3698fd3"
+      },
+      "formal_cache_plan_v3": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-formal-cache-plan-v3/plan.json",
+        "sha256": "876367b0e38ba54bd75f3781b6e3ac85e072151730dcbc899cfd6493d19e81bd"
+      },
+      "formal_executor": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_pi05_featcal_formal_full.py",
+        "sha256": "515ee298cb800cd26bec9f803ff4fc39b8b32ba3e75179e2766b6379995b9fe4"
+      },
+      "formal_hybrid_solver": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/featcal_hybrid_solve.py",
+        "sha256": "d44597ad37397dbb7ffd752891943644297fdd8224e09f7f106ff7e3ce93863d"
+      },
+      "parent_revision6": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/manifest-revision6.json",
+        "sha256": "38d0be668380d7cb902bf5d79bb122aaff3a6c5ff38eb7f307277b63d1090d16"
+      },
+      "prefix47_final_receipt": {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/featcal-spatial-task0-15state-prefix47-r6000-v1/final-receipt.json",
+        "sha256": "b2cebf044fa8f10d73cc7070db0b0984298b72fdaf590ca1729a1eacbf363059"
+      }
+    },
+    "status": "single_formal_full_cache_solve_checkpoint_attempt_authorized"
+  },
+  "formal_launch": {
+    "not_ready": [
+      "all tunable method selections",
+      "ESM",
+      "RegMean cache",
+      "RegMean++ full graph cache",
+      "FeatCal",
+      "TCR-E cache",
+      "per-method load smoke",
+      "Object/Goal/Long action parity is unmeasured; their 813-tensor parameter parity is exact"
+    ],
+    "policy": "A ready method may complete development work, but no procedural-final outcome is inspected until every tunable recipe is frozen. Blocked methods remain visible and are never silently dropped.",
+    "ready_now": [
+      "PEFT-safe dense Experts input bank",
+      "PEFT-safe Model Soups v2 checkpoint",
+      "procedural repeat bank",
+      "strict formal runner",
+      "Spatial materialized-deployment action parity receipt"
+    ],
+    "status": "blocked_until_all_method_specific_gates_are_satisfied"
+  },
+  "frozen_inputs": {
+    "esm_rp_cpu_core_receipt_sha256": "100242053f6554f1c5f63024aa60c02877b084f7a70efd1e1b42cb41e708aa56",
+    "esm_rp_observation_plan_v2_sha256": "a2d8dbb6c291f758e794349384cf8c5fd09b58cfbb9429ac32c5819e88054a04",
+    "evaluator_sha256": "0d725da47958f62c1dc8b6ad5841ee684b3468a2eb7a04eb3bee74a016fee24c",
+    "expert_bank_manifest_sha256": "295efdfca18b0c83497bfe499e0ad771a5a8b33aaf86ba424dab7607094d53c1",
+    "expert_dense_bank_sha256": "d61a5f9e56bb0f76d8186a33dc26fe283cf8cfab220e903a460f92e4507f209b",
+    "featcal_600_call_state_manifest_sha256": "b18b82300036ded14caa7c6431015acc84368606460437e495c13f424a9ad285",
+    "featcal_formal_cache_plan_v3_sha256": "876367b0e38ba54bd75f3781b6e3ac85e072151730dcbc899cfd6493d19e81bd",
+    "featcal_formal_cache_shard_index_sha256": "f955bec8267252aebfd838394ccdc7bef73273dafd2fa0b538aaa1b4d3698fd3",
+    "featcal_forward_order_collector_receipt_sha256": "e762b6eb6f6c4d7f25db39c401e9cb69523e9f6b02654a4040223ce66859209d",
+    "featcal_logical_expert_bank_sha256": "295efdfca18b0c83497bfe499e0ad771a5a8b33aaf86ba424dab7607094d53c1",
+    "featcal_prefix_chain_executor_sha256": "027558e8fa5aae9d490c7bdc7892a878368bde26ecb14f735117aceb45e2e823",
+    "featcal_prefix_chain_module_sha256": "7451aba3fd66e89b4c3b5c2318d54cd87fe7662eef7201acdc730910239af625",
+    "featcal_real_47step_trace_receipt_sha256": "e8664e01bbceed30bbef576fb0968a23e689c9907bf6b4e9f773c9270402bf82",
+    "featcal_real_joint_step_solve_receipt_sha256": "b2511f7866def41896fc78184ab86a1bc794e06dafeea04c9244b43445fcebc3",
+    "featcal_teacher_cache_tree_sha256": "52e3a89e8474605704f5e7ede3dd2ce7031a364609876885fcefcc9aed09c071",
+    "featcal_teacher_mini_v1_combined_log_sha256": "974311528763cd3ef94e68626a8af57be352302d251ece2608f29011a2a3cdd5",
+    "featcal_teacher_mini_v1_final_sha256": "b37e834d802143748dcef8e0e2c688c74a04a823ce4499f84e608d5d2b656692",
+    "featcal_teacher_mini_v1_resource_sha256": "54054959ba00591e72cb380f3b5c6d7fc9098442a281c1aff4ee70b247b5d1cc",
+    "featcal_teacher_mini_v2_executor_sha256": "da4e8fc80953d645e09ecc1c230903c036491ba6ec39401411a3eb57fc0c35e3",
+    "featcal_teacher_mini_v2_final_sha256": "350bc3333d0ceb600f1a93c4de146e89b176ea6c5275cfec93b224db648df683",
+    "featcal_teacher_mini_v2_tests_sha256": "cf7c4f4a2ffd21f3484728379246a9db6b85f10d989727580a7c03dca414e929",
+    "formal_bank_use_during_development": "forbidden",
+    "formal_selections": {
+      "repeat-01": {
+        "eval_seed": 274001,
+        "sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0"
+      },
+      "repeat-02": {
+        "eval_seed": 274002,
+        "sha256": "401ec2256ce5edc17391d4d2d5e27a56c431a7249b9d04d01fc31b22a78f8533"
+      },
+      "repeat-03": {
+        "eval_seed": 274003,
+        "sha256": "3d2963b6a5452460a9c0a0393d10a30c4d088eb9dc29831b81567b1a38820600"
+      }
+    },
+    "model_soup_v2_development_smoke_sha256": "344ab747aaa3915e4073fee42358422e527441c275f8c1a62c5715584b6db20b",
+    "procedural_bank_manifest_sha256": "16fb4a0331b552c211bcb92ed3c81c7f4232c4eec88330d52056131e26d04be8",
+    "spatial_action_receipt_sha256": "2dc2b22168cdd10e39e2f932bbe5ec60e9fd290fbcf901afdf2e4a5981d9e48e"
+  },
+  "immutable_revision": 7,
+  "method_searches": {
+    "esm": {
+      "mode": "blocked_no_search",
+      "status": "blocked_low_rank_target_nullspace_parity",
+      "unblock_before_candidate_generation": true
+    },
+    "featcal": {
+      "candidate_recipe_after_unblock": {
+        "feature_interpolation_alpha": 0.3,
+        "initializer": "uniform_soup",
+        "lambda": 0.05,
+        "rho": 2.0
+      },
+      "candidate_search_authorized": false,
+      "checkpoint_authorized": true,
+      "formal_evaluation_authorized": false,
+      "full_cache_authorized": true,
+      "mode": "fixed_recipe_single_formal_cache_lane",
+      "status": "formal_cache_solve_checkpoint_authorized_pending_execution"
+    },
+    "knots_ties": {
+      "mode": "fixed_primary_source_starting_recipe",
+      "pi05_interface_adaptation": "Four direct weights and paired biases use documented joint-SVD interface adaptation.",
+      "recipe": {
+        "common_scaling": 0.6,
+        "disjoint": "mean",
+        "topk_percent": 20
+      },
+      "status": "cpu_core_and_plan_accepted_checkpoint_pending"
+    },
+    "model_soups": {
+      "checkpoint_manifest_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/model-soups/repeat-shared/merge/attempt-02-peft-safe-v2/pretrained_model/parameter_baseline_manifest.json",
+      "checkpoint_manifest_sha256": "625400e9ec730ba16cbb123b0a2a7d03371c46467d2aaefdb9c4ffa8cb5c0bb4",
+      "checkpoint_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/model-soups/repeat-shared/merge/attempt-02-peft-safe-v2/pretrained_model",
+      "checkpoint_sha256": "a92aacc43146dc41663c0057f2999bd90252fb3fb316ef963f165be67e1be01a",
+      "development_smoke_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/model-soups/development-smoke/spatial-n1-init30-seed260001-peft-safe-v2/receipt.json",
+      "development_smoke_sha256": "344ab747aaa3915e4073fee42358422e527441c275f8c1a62c5715584b6db20b",
+      "mode": "fixed_no_search",
+      "recipe": {
+        "expert_weights": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "kind": "uniform_soup"
+      },
+      "status": "checkpoint_exactly_verified_peft_safe_v2_development_load_smoke_passed",
+      "verification_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/model-soups/repeat-shared/merge/attempt-02-peft-safe-v2/verification.json",
+      "verification_sha256": "cd50255e2e9c27f6948f82b1fd19423e6bcb1f753948d885d4382b30f8af1967"
+    },
+    "regmean": {
+      "forbidden": [
+        "prior-centered ridge",
+        "pseudo-inverse",
+        "relative-error weighting",
+        "correction cap",
+        "minimax",
+        "rejection gate"
+      ],
+      "mode": "fixed_primary_source_recipe",
+      "non_linear_parameter_fallback": "uniform mean",
+      "off_diagonal_gram_scale": 0.9,
+      "status": "core_and_plan_accepted_expert_prefix_cache_pending"
+    },
+    "regmean_pp": {
+      "mode": "fixed_vision_recipe",
+      "non_linear_parameter_fallback": "uniform mean",
+      "off_diagonal_gram_scale": 0.95,
+      "prefix": "merged-prefix full-block sequential update",
+      "status": "core_and_plan_accepted_full_pi05_graph_capture_pending"
+    },
+    "task_arithmetic": {
+      "candidates": {
+        "candidate_count": 21,
+        "global_alpha_start": 0.0,
+        "global_alpha_step": 0.05,
+        "global_alpha_stop_inclusive": 1.0
+      },
+      "mode": "successive_halving",
+      "per_suite_or_per_expert_scale": "forbidden",
+      "source_default_tie_target": 0.4,
+      "survivors_after_screen_01": 4,
+      "survivors_after_screen_03": 2
+    },
+    "tcr_e": {
+      "mode": "fixed_revision1_recipe",
+      "recipe_source": "manifest revision 1",
+      "status": "recipe_and_row_contract_accepted_cache_identity_pending"
+    },
+    "ties_merging": {
+      "candidates": {
+        "candidate_count": 69,
+        "density": [
+          0.1,
+          0.2,
+          0.3
+        ],
+        "disjoint": "mean",
+        "global_alpha_start": 0.8,
+        "global_alpha_step": 0.1,
+        "global_alpha_stop_inclusive": 3.0,
+        "sign_election": "mass"
+      },
+      "mode": "successive_halving",
+      "scope": "one global trim per expert over the full 422-tensor adapted domain",
+      "source_default_tie_target": {
+        "density": 0.2,
+        "global_alpha": 1.0
+      },
+      "survivors_after_screen_01": 6,
+      "survivors_after_screen_03": 2
+    },
+    "tsv_m": {
+      "candidates": {
+        "candidate_count": 30,
+        "common_scaling_start": 0.1,
+        "common_scaling_step": 0.1,
+        "common_scaling_stop_inclusive": 3.0
+      },
+      "mode": "successive_halving",
+      "non_2d_fallback": "incremental task-vector mean",
+      "rank_rule": "floor(min(d_out,d_in)/4) per expert task matrix",
+      "source_default_tie_target": 1.0,
+      "survivors_after_screen_01": 6,
+      "survivors_after_screen_03": 2
+    }
+  },
+  "peft_safe_materialization_contract": {
+    "action_validation_scope": "spatial_one_frozen_native_input_noise_pair",
+    "dense_expert_bank_sha256": "d61a5f9e56bb0f76d8186a33dc26fe283cf8cfab220e903a460f92e4507f209b",
+    "deployment_representation": "native_dense_checkpoint_only",
+    "expert_weight_semantics": "peft_cpu_safe_merge_delta_cast_to_base_dtype_then_base_dtype_add",
+    "other_experts_validation_scope": "813_tensor_parameter_exact_only",
+    "spatial_action_receipt_sha256": "2dc2b22168cdd10e39e2f932bbe5ec60e9fd290fbcf901afdf2e4a5981d9e48e",
+    "unmerged_adapter_fallback": "forbidden"
+  },
+  "ranking_information_observed_before_freeze": {
+    "fixed_uniform_soup_development_smoke": "7/10 Spatial on stock reset 30 applies only to superseded old Soup SHA 585de7ef; it is not reusable for PEFT-safe v2 and is not used by any selection rule",
+    "formal_procedural_bank_results": false,
+    "peft_safe_v2_uniform_soup_development_smoke": "7/10 Spatial on the same stock reset-30 development protocol, bound only to PEFT-safe v2 receipt 344ab747; identical binary vector does not transfer old evidence or enter Table 1",
+    "tunable_baseline_candidates": false
+  },
+  "revision4_builder": {
+    "mini_executor_binding_rule": "The fresh mini plan must bind this manifest SHA and the final executor SHA to avoid a cycle.",
+    "mini_executor_bound_here": false,
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/build_iclr2027_table1_manifest_revision4.py",
+    "sha256": "100827f0d2d4a8e26520b50b21d3cdb84128abce617ddc6da314ad209485e30e",
+    "tests": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/tests/test_build_iclr2027_table1_manifest_revision4.py",
+    "tests_sha256": "85c0377a29d373777708a60804119cca00bfa568777b82eee3eb9acb65883805"
+  },
+  "revision5_builder": {
+    "corrected_executor_bound_here": true,
+    "manifest_executor_cycle": false,
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/build_iclr2027_table1_manifest_revision5.py",
+    "sha256": "d3f91b499c07875954105efb919f07cbbf270e16fef6946eed41d5da52f22cf8",
+    "tests": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/tests/test_build_iclr2027_table1_manifest_revision5.py",
+    "tests_sha256": "238a520dd29a8b347bf01261e05623a73d1b3ac4ac1339067aae5bfacec36d6c"
+  },
+  "revision6_builder": {
+    "executor_bound_here": true,
+    "manifest_executor_cycle": false,
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/build_iclr2027_table1_manifest_revision6.py",
+    "sha256": "6687b6ec22dcf85a38074d0905c9c9fdc52d74fcf5455cadc9ca1b5112e7a103",
+    "tests": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/tests/test_build_iclr2027_table1_manifest_revision6.py",
+    "tests_sha256": "3742cc11f9188ec1044ec19f4f8aacb35c8225713044af2d9413c0285b87af1d"
+  },
+  "schema_version": 1,
+  "scope_override_revision7": {
+    "clean_libero_required": true,
+    "libero_plus_required": false,
+    "libero_pro_required": true,
+    "receipt": {
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/receipts/table1-scope-override-drop-libero-plus-20260913.json",
+      "sha256": "c0764efacfb189395db209bb0b724b49f4ca6e98b486bd3a2b6afdffd620d96b"
+    },
+    "status": "libero_plus_removed_clean_and_pro_preserved"
+  },
+  "superseded_artifacts": {
+    "formal_evaluation_eligible": false,
+    "old_7_of_10_smoke_applies_to": "old_model_soup_585de7ef_only",
+    "old_7_of_10_smoke_reusable_for_peft_safe_v2": false,
+    "old_model_soup_sha256": "585de7efed8bd0615aefa95124553c3bb1b4ba253fe66b5dfea70b82126d3040",
+    "old_spatial_dense_sha256": "990c98bd9512e253900805e59bb0077a0fd3a221149bd20f19273dad1f12f055",
+    "reason": "Both old artifacts used base.float plus delta.float followed by one BF16 cast rather than PEFT CPU safe-merge rounding.",
+    "revision2_sha256": "97ae6219310190afd8ef798a6ecf39d26e7224b032543cd6fb2c95aeddcdb4da"
+  },
+  "supersedes": {
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/manifest-revision6.json",
+    "reason": "The accepted r6 47-step chain and R6000 solver gate authorize one formal FeatCal cache/solve/checkpoint lane; the explicit user scope override removes LIBERO-Plus without changing clean LIBERO or PRO.",
+    "sha256": "38d0be668380d7cb902bf5d79bb122aaff3a6c5ff38eb7f307277b63d1090d16"
+  }
+}

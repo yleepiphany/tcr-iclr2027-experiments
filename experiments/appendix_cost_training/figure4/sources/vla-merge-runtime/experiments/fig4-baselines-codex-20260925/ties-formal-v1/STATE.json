@@ -1,0 +1,16 @@
+{
+  "accepted": {},
+  "active": {},
+  "native": {},
+  "pending": [
+    "native-spatial-goal",
+    "native-spatial-object-goal",
+    "ties-spatial-goal-libero_spatial",
+    "ties-spatial-goal-libero_goal",
+    "ties-spatial-object-goal-libero_spatial",
+    "ties-spatial-object-goal-libero_object",
+    "ties-spatial-object-goal-libero_goal"
+  ],
+  "status": "running_or_waiting_owned_idle_cards",
+  "time": "2026-09-25T01:51:59.614274+00:00"
+}

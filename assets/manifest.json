@@ -3004,6 +3004,76 @@
         "external_artifact"
       ],
       "sha256": "f5f1d3ed015ebb71cf11686ff00bc8e0c25957bbf3952f95312cecc9b168fbea"
+    },
+    {
+      "bytes": 9354050784,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "fig4.ties.spatial-goal",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-goal/pretrained_model/model.safetensors",
+      "required": false,
+      "roles": [
+        "Figure4 generated TIES subset checkpoint, external weight bytes"
+      ],
+      "sha256": "a925dfdb87a9eb0efd37857dbfdba24085df1f5a09212ceda8ac6d69dc38a5e9"
+    },
+    {
+      "bytes": 9354050784,
+      "experiments": [
+        "appendix_cost_training"
+      ],
+      "id": "fig4.ties.spatial-object-goal",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-object-goal/pretrained_model/model.safetensors",
+      "required": false,
+      "roles": [
+        "Figure4 generated TIES subset checkpoint, external weight bytes"
+      ],
+      "sha256": "6cf494c56f4cfaa9e18b984740c779c17de2008425dfdf8e002253ce11ced3d0"
+    },
+    {
+      "bytes": 91429158,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "robotwin.static_bank.coordination",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/static-bank-v1/coordination.safetensors",
+      "required": true,
+      "roles": [
+        "Static observation/initial-noise bank; external tensor bytes"
+      ],
+      "sha256": "4f271c89c2c05154da420a7855a56becf7785dfd504e80d887c7ff9d0c94adfe"
+    },
+    {
+      "bytes": 91429158,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "robotwin.static_bank.precision",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/static-bank-v1/precision.safetensors",
+      "required": true,
+      "roles": [
+        "Static observation/initial-noise bank; external tensor bytes"
+      ],
+      "sha256": "376be1df4d23081a132c81859685b36d05ae91bd7a817dc4cb77cecff1275fcd"
+    },
+    {
+      "bytes": 91429158,
+      "experiments": [
+        "robotwin_pro"
+      ],
+      "id": "robotwin.static_bank.receptacle",
+      "kind": "file",
+      "path": "vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/static-bank-v1/receptacle.safetensors",
+      "required": true,
+      "roles": [
+        "Static observation/initial-noise bank; external tensor bytes"
+      ],
+      "sha256": "54e5fdca52149d0c0577fd02303f6e5246eaf51725b2d7611b16babe896134ac"
     }
   ],
   "description": "External checkpoints, calibration caches, reset banks and data sets required by unfinished non-real-robot experiments.",

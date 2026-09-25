@@ -1,0 +1,17 @@
+{
+  "pid": 2881901,
+  "kernel_starttime": 489429458,
+  "started_at": "2026-09-25T01:43:32.573690+00:00",
+  "source": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/run_ties_formal_v1.py",
+  "source_sha256": "1a1fd6ff044a2f7cbeee49b95d475d25f7d8201c1763c17138363cacc1f9b0e9",
+  "plan_sha256": "9aa487f1feabc70c6db5f0fb6525469e4be90d0018c94213b828b71df596a653",
+  "jobs": 5,
+  "episodes": 500,
+  "allowed_gpus": [
+    1,
+    4,
+    5,
+    6
+  ],
+  "no_training": true
+}

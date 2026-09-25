@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-09-25T01:39:40.348051+00:00",
+  "episodes": 500,
+  "gpu_formal_not_started": true,
+  "jobs": 5,
+  "model_file_stat_unchanged_since_bind_full_sha_recheck": true,
+  "models": {
+    "spatial-goal": "a925dfdb87a9eb0efd37857dbfdba24085df1f5a09212ceda8ac6d69dc38a5e9",
+    "spatial-object-goal": "6cf494c56f4cfaa9e18b984740c779c17de2008425dfdf8e002253ce11ced3d0"
+  },
+  "native_action_finite_check": "separate pending diagnostic receipts, no formal score",
+  "native_cpu_weight_loads_pass": 2,
+  "plan_sha256": "9aa487f1feabc70c6db5f0fb6525469e4be90d0018c94213b828b71df596a653",
+  "status": "pass_final_model_binding_and_5x100_matrix",
+  "subset_episodes": {
+    "spatial-goal": 200,
+    "spatial-object-goal": 300
+  }
+}

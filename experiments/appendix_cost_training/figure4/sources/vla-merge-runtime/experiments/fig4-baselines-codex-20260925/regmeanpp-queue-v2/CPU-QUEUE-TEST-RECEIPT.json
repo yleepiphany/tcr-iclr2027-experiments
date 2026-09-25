@@ -1,0 +1,25 @@
+{
+  "status": "PASS_CPU_QUEUE_PREPARATION",
+  "plan_sha256": "753f39fe9ebca042a505d8c1ff5679f291c187111a72b5d2f3501dc399a9980b",
+  "code_sha256": {
+    "queue_regmeanpp_subset_v2.py": "056bb1ecd9ea86b02d54900d1185206817c9f01f7b7a694d083f690e929107d2",
+    "accept_subset_checkpoint.py": "95d3afc1eaa228c1c1a8ecd2ccd8cc477b5c41370478f5d101b3edfc5da9fdc6",
+    "test_regmeanpp_queue_v2_cpu.py": "d5fc2ea55172a278a0902abd7cf25b3ddf85f9487a65450462a189454ab0bd6c"
+  },
+  "tests": 6,
+  "tests_passed": 6,
+  "subsets": 2,
+  "native_export_acceptance_requests": 2,
+  "formal_suites": 5,
+  "formal_episodes": 500,
+  "large_assets_fully_rehashed_in_this_cpu_pass": false,
+  "execution_requires_all_asset_hashes": true,
+  "single_use_permit_consumed": false,
+  "gpu_jobs_launched": 0,
+  "gpu_leases_taken": 0,
+  "queue_started": false,
+  "source_parent_plan_modified": false,
+  "existing_PRO_queues_modified": false,
+  "current_state": "Prepared; wait for independently approved single-use permit. Only after run is invoked will it safely wait for PRO to release the frozen cards.",
+  "cpu_test_command": "CUDA_VISIBLE_DEVICES='' PYTHONDONTWRITEBYTECODE=1 python test_regmeanpp_queue_v2_cpu.py"
+}

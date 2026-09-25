@@ -1,0 +1,96 @@
+{
+  "existing_queues_modified": false,
+  "fig4_parent_plan_sha256": "62ff0891df02a75d20a8b724f70f93a8373f75852a7385c88034993c326d7875",
+  "four_expert_endpoint_rebuilt": false,
+  "gpu_jobs_launched": 0,
+  "large_source_verification": "sizes and frozen hashes; exact replay and dense model hashes required again by execution contract",
+  "source_function_parity": {
+    "all_nested_numerical_and_capture_functions_unchanged": true,
+    "changed_functions": [
+      "load_replay_states",
+      "main"
+    ],
+    "unchanged_functions": 37
+  },
+  "status": "PASS_CPU_SUBSET_ADAPTER",
+  "subsets": [
+    {
+      "experts": [
+        "spatial",
+        "goal"
+      ],
+      "gpu_execution": "blocked_until_separate_execution_permit_and_resource_admission",
+      "job_id": "regmeanpp-spatial-goal",
+      "launch_command_template": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/materialize_regmeanpp_subset.py",
+        "--experiment-manifest=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-subset-cpu-v1/spatial-goal/plan.json",
+        "--expected-experiment-sha256=d52e39fcf4b8f5469c5a1290d4ab589739c73bb0e95e299c94538df520860cbd",
+        "--dense-expert-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/expert-dense-bank-peft-v2.json",
+        "--base-model=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+        "--output=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/regmeanpp-spatial-goal/pretrained_model",
+        "--offdiag-scale=.3",
+        "--ridge-ratio=0",
+        "--max-correction-ratio=0",
+        "--max-rows-per-sample=16",
+        "--expert-loss-normalization=none",
+        "--replay-prefix=merged",
+        "--allow-mixed-calibration-policies",
+        "--device=cuda",
+        "--expert=spatial=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/spatial_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=spatial=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/spatial/replay.safetensors",
+        "--manifest=spatial=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/spatial/replay.json",
+        "--expert=goal=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/goal_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=goal=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/goal/replay.safetensors",
+        "--manifest=goal=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/goal/replay.json"
+      ],
+      "observations": 100,
+      "plan": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-subset-cpu-v1/spatial-goal/plan.json",
+      "plan_sha256": "d52e39fcf4b8f5469c5a1290d4ab589739c73bb0e95e299c94538df520860cbd",
+      "regression_rows": 1184200,
+      "replay_prefix": "merged"
+    },
+    {
+      "experts": [
+        "spatial",
+        "object",
+        "goal"
+      ],
+      "gpu_execution": "blocked_until_separate_execution_permit_and_resource_admission",
+      "job_id": "regmeanpp-spatial-object-goal",
+      "launch_command_template": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/materialize_regmeanpp_subset.py",
+        "--experiment-manifest=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-subset-cpu-v1/spatial-object-goal/plan.json",
+        "--expected-experiment-sha256=8ba2f74c51409e0c061e69085407eef2032a705bd8b47139bac9215aec6fe19f",
+        "--dense-expert-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/expert-dense-bank-peft-v2.json",
+        "--base-model=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+        "--output=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/regmeanpp-spatial-object-goal/pretrained_model",
+        "--offdiag-scale=.3",
+        "--ridge-ratio=0",
+        "--max-correction-ratio=0",
+        "--max-rows-per-sample=16",
+        "--expert-loss-normalization=none",
+        "--replay-prefix=merged",
+        "--allow-mixed-calibration-policies",
+        "--device=cuda",
+        "--expert=spatial=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/spatial_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=spatial=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/spatial/replay.safetensors",
+        "--manifest=spatial=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/spatial/replay.json",
+        "--expert=object=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/object_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=object=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/object/replay.safetensors",
+        "--manifest=object=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/object/replay.json",
+        "--expert=goal=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/goal_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=goal=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/goal/replay.safetensors",
+        "--manifest=goal=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/goal/replay.json"
+      ],
+      "observations": 150,
+      "plan": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-subset-cpu-v1/spatial-object-goal/plan.json",
+      "plan_sha256": "8ba2f74c51409e0c061e69085407eef2032a705bd8b47139bac9215aec6fe19f",
+      "regression_rows": 1776300,
+      "replay_prefix": "merged"
+    }
+  ]
+}

@@ -1,0 +1,1254 @@
+{
+  "algorithm_sources": [
+    {
+      "bytes": 34466,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/ta_ties_core.py",
+      "sha256": "dd7e00a85e43dd2a16b0b60e86c0f578857a0ad521648a497e166e91cde38303",
+      "verification": "sha256_recomputed"
+    },
+    {
+      "bytes": 95342,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/materialize_iclr2027_table1_ta_ties_fastlane.py",
+      "sha256": "722e72129599370b3bb3ae482c3eff4c251d5ddbfdbcbad6feda8639d1cb6152",
+      "verification": "sha256_recomputed"
+    },
+    {
+      "bytes": 101205,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/materialize_smoothed.py",
+      "sha256": "c393ef3bc65a6b881b29b77cdf77eb5c1cea18bf755ffcac9535ee3ad53708b6",
+      "verification": "sha256_recomputed"
+    },
+    {
+      "bytes": 9150,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/spectral_smoothing.py",
+      "sha256": "55b06cc4b6a43c029ade1a5471e3ca1259eb5ec1234420a454333b98411ee3fc",
+      "verification": "sha256_recomputed"
+    },
+    {
+      "bytes": 2177,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/smoothing_adapter.py",
+      "sha256": "f3c39af099296d7d95007b35d5603d6b4338a12bf1773d48f5e245b8fd93ad3a",
+      "verification": "sha256_recomputed"
+    },
+    {
+      "bytes": 6226,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/smoothing_contract.py",
+      "sha256": "2faa6853bd638ddaa285d8e8535f8190d3070e075c53fb76ce1160437ff6b71c",
+      "verification": "sha256_recomputed"
+    },
+    {
+      "bytes": 21149,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/featcal/run_observation_only_featcal.py",
+      "sha256": "f199c7fe8eeec045b13bbb9fcfd36ca11e31ccea8c7dba81fa57e0468202a084",
+      "verification": "sha256_recomputed"
+    },
+    {
+      "bytes": 1846,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/featcal/featcal_observation_only.py",
+      "sha256": "365134335e1a010eed5ec85f76451e1ebed8efcae159c389714af477ac9283b4",
+      "verification": "sha256_recomputed"
+    },
+    {
+      "bytes": 17108,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/featcal/featcal_parallel_solve.py",
+      "sha256": "b718557e44f9e5727a689b90538ddecbec1e0b97526e6bfcaf63a472ccd85bdc",
+      "verification": "sha256_recomputed"
+    },
+    {
+      "bytes": 21540,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_pi05_featcal_execution_pilot_v2.py",
+      "sha256": "fee67a8168e7522b6e6c94dca5336971826b140986032aabdd7cd677e2756d8c",
+      "verification": "sha256_recomputed"
+    },
+    {
+      "bytes": 49137,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_pi05_featcal_formal_full.py",
+      "sha256": "515ee298cb800cd26bec9f803ff4fc39b8b32ba3e75179e2766b6379995b9fe4",
+      "verification": "sha256_recomputed"
+    },
+    {
+      "bytes": 22242,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/featcal_hybrid_solve.py",
+      "sha256": "d44597ad37397dbb7ffd752891943644297fdd8224e09f7f106ff7e3ce93863d",
+      "verification": "sha256_recomputed"
+    },
+    {
+      "bytes": 2093,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+      "sha256": "178417fee375e94b0fc7f1919d47dc1249a904ff62b3aa01e04ff5c046cd80b1",
+      "verification": "sha256_recomputed"
+    },
+    {
+      "bytes": 8812,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_pi05_policy_with_procedural_bank.py",
+      "sha256": "0d725da47958f62c1dc8b6ad5841ee684b3468a2eb7a04eb3bee74a016fee24c",
+      "verification": "sha256_recomputed"
+    },
+    {
+      "bytes": 22572,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/freeze_cpu_plan.py",
+      "sha256": "61981fd2270e92b660781c5df26c4c728ee53d358e80c8ee0db12643fe877cb9",
+      "verification": "sha256_recomputed"
+    }
+  ],
+  "algorithms": {
+    "featcal": {
+      "alpha": 0.3,
+      "bias_policy": "retain Soup, unchanged from earlier port",
+      "covariance_eps": 1e-08,
+      "lambda": 0.05,
+      "noise_seed_base": 202609220000,
+      "rho": 2.0,
+      "solved_weights": 418,
+      "stages": 47,
+      "timestep": 1.0
+    },
+    "regmeanpp": {
+      "bias_policy": "uniform expert mean; no augmented bias regression",
+      "recipe": {
+        "action_block_solver": "independent_linear",
+        "calibration_source_weight": [],
+        "expert_aggregation": "mean",
+        "expert_loss_normalization": "none",
+        "expert_loss_normalization_power": 1.0,
+        "expert_weight_plan": null,
+        "freeze_action_interface_from_prior": false,
+        "freeze_prefix_from_prior": false,
+        "max_correction_ratio": 0.0,
+        "max_rows_per_sample": 16,
+        "max_states_per_calibration_source": 0,
+        "objective_grouping": "expert",
+        "offdiag_scale": 0.3,
+        "prior_model": null,
+        "replay_prefix": "merged",
+        "require_objective_improvement": false,
+        "ridge_ratio": 0.0
+      },
+      "solved_weights": 418,
+      "spectral_smoothing": {
+        "centering": "arithmetic_expert_weight_mean",
+        "filter": "lambda/(lambda^2+tau^2)",
+        "final_weight_clipping": false,
+        "nonzero_feature_energy_floor": false,
+        "numerical_rank_dtype": "torch.float32",
+        "output_chunk_size": 128,
+        "power_iterations": 64,
+        "power_seed": 20260922,
+        "solve_dtype": "float64/complex128",
+        "strategy": "auto_dense_or_complex_Woodbury",
+        "strict_original_equivalence": false,
+        "success_based_selection": false,
+        "tau_rule": "input_width * eps(float32) * deterministic_power_lambda_max_estimate",
+        "threshold_basis": "FP32 numerical-rank-inspired engineering rule, not a statistical precision theorem"
+      },
+      "subset_rule": "Selected expert mean; selected static flow0 sources; merged-prefix full block replay; exact same fixed smoothing rule."
+    },
+    "ties": {
+      "density": 0.3,
+      "disjoint_aggregation": "mean",
+      "global_alpha": 0.9,
+      "modified_tensor_count": 422,
+      "sign_election": "mass",
+      "subset_rule": "Use only selected original per-expert task vectors; recompute sign election/disjoint mean for that subset; do not reuse four-expert merged direction.",
+      "trim": "exact_ieee_float32_radix_global_per_expert"
+    }
+  },
+  "created_at_utc": "2026-09-25T01:04:51.895547+00:00",
+  "evaluation_selection": {
+    "bytes": 5054,
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+    "sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0",
+    "verification": "sha256_recomputed"
+  },
+  "figure_protocol": {
+    "disclosure": "Mixed n=1 subset points and three-repeat main-table four-expert endpoints; checkpoint/construction and calibration budgets differ. Descriptive comparison, not an isolated causal effect of expert count.",
+    "four_experts": "Reuse current Table 1 exact checkpoint, all three 400-episode repeats, mean and sample standard deviation.",
+    "selection_exposure": "Prior Table 1 outcomes were already known. Subset rules are fixed before new subset outcomes and will not be scanned or tuned against them.",
+    "two_and_three_experts": "One fixed subset checkpoint, repeat-01 only, 200 or 300 native episodes; no across-build error bars."
+  },
+  "four_expert_reuse_receipt": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/four-expert-reuse.json",
+  "four_expert_reuse_sha256": "145cd960d7b05fe1c42ffd668a51d330464945c56b5e9b576fa0c4f110554674",
+  "gpu_launch_allowed_by_this_plan": false,
+  "inputs": {
+    "featcal": {
+      "goal": {
+        "calls_per_expert": 150,
+        "manifest": {
+          "bytes": 61929,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/goal/manifest.json",
+          "sha256": "a38db754641d64c2b98efdc2266aaec2dcee84dfcdac048d29b8baee89d6bcd5",
+          "verification": "sha256_recomputed"
+        },
+        "native_noise_replicas": 3,
+        "observations": {
+          "bytes": 90444942,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/goal/observations.safetensors",
+          "sha256": "192c13c2e61d75f5e04f1753d6ae395cb3776357db99cc165076ddbac18bdbc0",
+          "verification": "sha256_recomputed"
+        },
+        "observations_per_expert": 50,
+        "preserve_original_expert_ids_and_noise_seeds": true,
+        "timestep": 1.0
+      },
+      "object": {
+        "calls_per_expert": 150,
+        "manifest": {
+          "bytes": 64504,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/object/manifest.json",
+          "sha256": "5bf0c319c6e9f4da1cfac63bcc966fc50d55fd508f23b5ce8bda08570a741c18",
+          "verification": "sha256_recomputed"
+        },
+        "native_noise_replicas": 3,
+        "observations": {
+          "bytes": 90444942,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/object/observations.safetensors",
+          "sha256": "2be7ac04d5c72b27efa3633969de57c6b2e9adaac60c03b731e70f7a0e9417de",
+          "verification": "sha256_recomputed"
+        },
+        "observations_per_expert": 50,
+        "preserve_original_expert_ids_and_noise_seeds": true,
+        "timestep": 1.0
+      },
+      "spatial": {
+        "calls_per_expert": 150,
+        "manifest": {
+          "bytes": 67719,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/spatial/manifest.json",
+          "sha256": "6ded802341017e8e97f86b11f326bf969f3fe8ada6c33d8e9fe4e9087bf539f4",
+          "verification": "sha256_recomputed"
+        },
+        "native_noise_replicas": 3,
+        "observations": {
+          "bytes": 90444942,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/spatial/observations.safetensors",
+          "sha256": "8ff070b010f27a278b44e3f655969df111e7a843e1eb4e439ed9cea4ddf21190",
+          "verification": "sha256_recomputed"
+        },
+        "observations_per_expert": 50,
+        "preserve_original_expert_ids_and_noise_seeds": true,
+        "timestep": 1.0
+      }
+    },
+    "featcal_teacher_reuse_candidate": {
+      "cache_root": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/cache",
+      "data_bytes": 27744052080,
+      "index": {
+        "bytes": 21987746,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/shard-index.json",
+        "sha256": "90c3520e72e41b1127f6e4accb82edb4d14dfbf5ac3330e3e2ce3c2993d1da05",
+        "verification": "sha256_recomputed"
+      },
+      "required_before_reuse": "Verify every data SHA/row-key/source identity under its original plan; add immutable cross-plan provenance adapter. Never reuse old student shards or rewrite old manifests.",
+      "status": "metadata_and_presence_checked_not_rebound",
+      "teacher_shards_present": 1410
+    },
+    "regmeanpp": {
+      "goal": {
+        "adapter_path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/goal_lora_s0/checkpoints/010000/pretrained_model",
+        "dense_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/pretrained_model",
+        "dense_sha256": "af9e258354d759710d04f13d40ac6e2e4377d5063f56fa8e0ef574f8c96e2732",
+        "flow_indices": [
+          0
+        ],
+        "manifest": {
+          "bytes": 95456,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/goal/replay.json",
+          "sha256": "8e781b5a91bd526ff2ccc66c78c834dabce73d3b98ff993af9d0bb7b05d359b5",
+          "verification": "sha256_recomputed"
+        },
+        "manifest_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/goal/replay.json",
+        "manifest_sha256": "8e781b5a91bd526ff2ccc66c78c834dabce73d3b98ff993af9d0bb7b05d359b5",
+        "observations_per_expert": 50,
+        "replay": {
+          "bytes": 4414199704,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/goal/replay.safetensors",
+          "sha256": "772d7b88b670a7ed70e92c7a15fb54276907b7c29ea837292195ce57a312176d",
+          "verification": "size_checked_hash_inherited_from_frozen_source"
+        },
+        "replay_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/goal/replay.safetensors",
+        "replay_sha256": "772d7b88b670a7ed70e92c7a15fb54276907b7c29ea837292195ce57a312176d",
+        "selected_source_indices": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          15,
+          18,
+          21,
+          24,
+          27,
+          30,
+          33,
+          36,
+          39,
+          42,
+          45,
+          48,
+          51,
+          54,
+          57,
+          60,
+          63,
+          66,
+          69,
+          72,
+          75,
+          78,
+          81,
+          84,
+          87,
+          90,
+          93,
+          96,
+          99,
+          102,
+          105,
+          108,
+          111,
+          114,
+          117,
+          120,
+          123,
+          126,
+          129,
+          132,
+          135,
+          138,
+          141,
+          144,
+          147
+        ],
+        "timestep": 1.0
+      },
+      "object": {
+        "adapter_path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/object_lora_s0/checkpoints/010000/pretrained_model",
+        "dense_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/pretrained_model",
+        "dense_sha256": "a74c9349a78e122ecf9799e404ad748ffebba0b814b95e3dae4a7b32837f1510",
+        "flow_indices": [
+          0
+        ],
+        "manifest": {
+          "bytes": 95890,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/object/replay.json",
+          "sha256": "c557c9144d5fca0464bd21d35e8e8b0ee56862fd8cb7bb933b1808f5f9201263",
+          "verification": "sha256_recomputed"
+        },
+        "manifest_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/object/replay.json",
+        "manifest_sha256": "c557c9144d5fca0464bd21d35e8e8b0ee56862fd8cb7bb933b1808f5f9201263",
+        "observations_per_expert": 50,
+        "replay": {
+          "bytes": 4414199704,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/object/replay.safetensors",
+          "sha256": "695a6cdd40c838dcf8b68795677f89117a385498fdb81504396415ff04b83532",
+          "verification": "size_checked_hash_inherited_from_frozen_source"
+        },
+        "replay_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/object/replay.safetensors",
+        "replay_sha256": "695a6cdd40c838dcf8b68795677f89117a385498fdb81504396415ff04b83532",
+        "selected_source_indices": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          15,
+          18,
+          21,
+          24,
+          27,
+          30,
+          33,
+          36,
+          39,
+          42,
+          45,
+          48,
+          51,
+          54,
+          57,
+          60,
+          63,
+          66,
+          69,
+          72,
+          75,
+          78,
+          81,
+          84,
+          87,
+          90,
+          93,
+          96,
+          99,
+          102,
+          105,
+          108,
+          111,
+          114,
+          117,
+          120,
+          123,
+          126,
+          129,
+          132,
+          135,
+          138,
+          141,
+          144,
+          147
+        ],
+        "timestep": 1.0
+      },
+      "spatial": {
+        "adapter_path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/spatial_lora_s0/checkpoints/010000/pretrained_model",
+        "dense_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/pretrained_model",
+        "dense_sha256": "008cb4a76898edbb70edb83bd54cb472722ba49b2760acfde24381e6d14fc75f",
+        "flow_indices": [
+          0
+        ],
+        "manifest": {
+          "bytes": 97068,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/spatial/replay.json",
+          "sha256": "7c57bf7bb4b4a71d78005cc171556b0e796e74da4f5cc4b8997fb58a01318e77",
+          "verification": "sha256_recomputed"
+        },
+        "manifest_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/spatial/replay.json",
+        "manifest_sha256": "7c57bf7bb4b4a71d78005cc171556b0e796e74da4f5cc4b8997fb58a01318e77",
+        "observations_per_expert": 50,
+        "replay": {
+          "bytes": 4414199704,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/spatial/replay.safetensors",
+          "sha256": "0f7b773d5569ba52afb79965d1d0b69632b707225b2da391c3316508939b0e3a",
+          "verification": "size_checked_hash_inherited_from_frozen_source"
+        },
+        "replay_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/spatial/replay.safetensors",
+        "replay_sha256": "0f7b773d5569ba52afb79965d1d0b69632b707225b2da391c3316508939b0e3a",
+        "selected_source_indices": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          15,
+          18,
+          21,
+          24,
+          27,
+          30,
+          33,
+          36,
+          39,
+          42,
+          45,
+          48,
+          51,
+          54,
+          57,
+          60,
+          63,
+          66,
+          69,
+          72,
+          75,
+          78,
+          81,
+          84,
+          87,
+          90,
+          93,
+          96,
+          99,
+          102,
+          105,
+          108,
+          111,
+          114,
+          117,
+          120,
+          123,
+          126,
+          129,
+          132,
+          135,
+          138,
+          141,
+          144,
+          147
+        ],
+        "timestep": 1.0
+      }
+    },
+    "subset_soups": {
+      "spatial-goal": {
+        "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/soups-v1/spatial-goal",
+        "checkpoint_file": {
+          "bytes": 9354050784,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/soups-v1/spatial-goal/model.safetensors",
+          "sha256": "74b007ca88a7e3070e500b78562e0618bf398eae4f23e0543ef046829d0f0189",
+          "verification": "size_checked_hash_inherited_from_frozen_source"
+        },
+        "model_sha256": "74b007ca88a7e3070e500b78562e0618bf398eae4f23e0543ef046829d0f0189",
+        "role": "Existing subset-only arithmetic mean initialization for FeatCal; verify exact mean and all sidecars before use",
+        "source_proposal": {
+          "bytes": 50681,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/coordination/2026-09-23/pi05-subset-soup-codex-transfer-proposal.json",
+          "sha256": "73de53d7ee7c632741d3448bf390873f8099f3553a0a690659453b87139ddd41",
+          "verification": "sha256_recomputed"
+        }
+      },
+      "spatial-object-goal": {
+        "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/soups-v1/spatial-object-goal",
+        "checkpoint_file": {
+          "bytes": 9354050784,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/soups-v1/spatial-object-goal/model.safetensors",
+          "sha256": "c49afabe84c7ad31ae657c7369c7c7cd562ef4b0de7133487d6584607ba36cf1",
+          "verification": "size_checked_hash_inherited_from_frozen_source"
+        },
+        "model_sha256": "c49afabe84c7ad31ae657c7369c7c7cd562ef4b0de7133487d6584607ba36cf1",
+        "role": "Existing subset-only arithmetic mean initialization for FeatCal; verify exact mean and all sidecars before use",
+        "source_proposal": {
+          "bytes": 50681,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/coordination/2026-09-23/pi05-subset-soup-codex-transfer-proposal.json",
+          "sha256": "73de53d7ee7c632741d3448bf390873f8099f3553a0a690659453b87139ddd41",
+          "verification": "sha256_recomputed"
+        }
+      }
+    },
+    "ties_task_vectors": {
+      "manifest": {
+        "bytes": 72249,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/cache-v2/task-vectors-v2/cache-manifest.json",
+        "sha256": "904e0a0216ee43bd93b5db1e2540851c227535bee8278fddb06bd630b05a88fb",
+        "verification": "sha256_recomputed"
+      },
+      "vectors": {
+        "goal": {
+          "bytes": 10825887872,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/cache-v2/task-vectors-v2/goal.f32.bin",
+          "sha256": "1c19bb38c64201a78726d6a8c1ab70b70040fb11dac9c4690ced59bd5c8ca5a7",
+          "verification": "size_checked_hash_inherited_from_frozen_source"
+        },
+        "object": {
+          "bytes": 10825887872,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/cache-v2/task-vectors-v2/object.f32.bin",
+          "sha256": "79df11655ea2fc48063a8b0ee64d7bf50266d8221d557971074d75c1be46eb52",
+          "verification": "size_checked_hash_inherited_from_frozen_source"
+        },
+        "spatial": {
+          "bytes": 10825887872,
+          "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/cache-v2/task-vectors-v2/spatial.f32.bin",
+          "sha256": "66baaafbdcf9e2a16561dfa23c7f1425d249e6352c22eee74ec68543e1362721",
+          "verification": "size_checked_hash_inherited_from_frozen_source"
+        }
+      }
+    }
+  },
+  "new_builds": [
+    {
+      "budget_basis": "Original per-expert quota retained; TIES has no calibration",
+      "calibration_rows": 2220600,
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/featcal-spatial-goal/pretrained_model",
+      "experts": [
+        "spatial",
+        "goal"
+      ],
+      "id": "featcal-spatial-goal",
+      "launch_command": null,
+      "method": "featcal",
+      "port_gaps": [
+        "Isolated subset wrapper/shard schema adapter is absent: EXPERT_ORDER, initial STUDENT Soup, teacher completion groups, 4-expert shard contracts and provenance are hardcoded.",
+        "Use verified existing subset Soup; selected 150-call input groups and exact original noise IDs; rebind only independently verified teacher shards. Recompute every student capture and all 47 sequential solves.",
+        "The old parallel helper imports a four-expert baseline in its workers; subset worker context must be explicit and separately reviewed."
+      ],
+      "status": "blocked_missing_subset_adapter",
+      "subset": "spatial-goal",
+      "subset_bank": {
+        "bytes": 216262,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/plan-v1/bank-spatial-goal.json",
+        "sha256": "1d13140fc74567e03e1c5e8a861775e3ec754a371f895be72c995289578aa429",
+        "verification": "sha256_recomputed"
+      }
+    },
+    {
+      "budget_basis": "Original per-expert quota retained; TIES has no calibration",
+      "calibration_rows": 3330900,
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/featcal-spatial-object-goal/pretrained_model",
+      "experts": [
+        "spatial",
+        "object",
+        "goal"
+      ],
+      "id": "featcal-spatial-object-goal",
+      "launch_command": null,
+      "method": "featcal",
+      "port_gaps": [
+        "Isolated subset wrapper/shard schema adapter is absent: EXPERT_ORDER, initial STUDENT Soup, teacher completion groups, 4-expert shard contracts and provenance are hardcoded.",
+        "Use verified existing subset Soup; selected 150-call input groups and exact original noise IDs; rebind only independently verified teacher shards. Recompute every student capture and all 47 sequential solves.",
+        "The old parallel helper imports a four-expert baseline in its workers; subset worker context must be explicit and separately reviewed."
+      ],
+      "status": "blocked_missing_subset_adapter",
+      "subset": "spatial-object-goal",
+      "subset_bank": {
+        "bytes": 219425,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/plan-v1/bank-spatial-object-goal.json",
+        "sha256": "2ca0e2bf0c56e8cf600c08bbf2e817f76aa52523a2918cf1cc81cc51cd9769e8",
+        "verification": "sha256_recomputed"
+      }
+    },
+    {
+      "budget_basis": "Original per-expert quota retained; TIES has no calibration",
+      "calibration_rows": 1184200,
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/regmeanpp-spatial-goal/pretrained_model",
+      "experts": [
+        "spatial",
+        "goal"
+      ],
+      "id": "regmeanpp-spatial-goal",
+      "launch_command": null,
+      "method": "regmeanpp",
+      "port_gaps": [
+        "Isolated subset materializer/contract adapter is absent: old materialize_smoothed checks ORIGINAL_EXPERT_ORDER; smoothing_contract hardcodes four source names, source counts and total rows.",
+        "Parameterize only expert list/source bindings/mean initialization and expected total rows in a new directory; keep the tested smoothing kernel and original Gram/replay equations unchanged."
+      ],
+      "status": "blocked_missing_subset_adapter",
+      "subset": "spatial-goal",
+      "subset_bank": {
+        "bytes": 216262,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/plan-v1/bank-spatial-goal.json",
+        "sha256": "1d13140fc74567e03e1c5e8a861775e3ec754a371f895be72c995289578aa429",
+        "verification": "sha256_recomputed"
+      }
+    },
+    {
+      "budget_basis": "Original per-expert quota retained; TIES has no calibration",
+      "calibration_rows": 1776300,
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/regmeanpp-spatial-object-goal/pretrained_model",
+      "experts": [
+        "spatial",
+        "object",
+        "goal"
+      ],
+      "id": "regmeanpp-spatial-object-goal",
+      "launch_command": null,
+      "method": "regmeanpp",
+      "port_gaps": [
+        "Isolated subset materializer/contract adapter is absent: old materialize_smoothed checks ORIGINAL_EXPERT_ORDER; smoothing_contract hardcodes four source names, source counts and total rows.",
+        "Parameterize only expert list/source bindings/mean initialization and expected total rows in a new directory; keep the tested smoothing kernel and original Gram/replay equations unchanged."
+      ],
+      "status": "blocked_missing_subset_adapter",
+      "subset": "spatial-object-goal",
+      "subset_bank": {
+        "bytes": 219425,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/plan-v1/bank-spatial-object-goal.json",
+        "sha256": "2ca0e2bf0c56e8cf600c08bbf2e817f76aa52523a2918cf1cc81cc51cd9769e8",
+        "verification": "sha256_recomputed"
+      }
+    },
+    {
+      "budget_basis": "Original per-expert quota retained; TIES has no calibration",
+      "calibration_rows": 0,
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-goal/pretrained_model",
+      "experts": [
+        "spatial",
+        "goal"
+      ],
+      "id": "ties-spatial-goal",
+      "launch_command": null,
+      "method": "ties",
+      "port_gaps": [
+        "Isolated subset-only vector/export adapter is absent; old fastlane CLI hard-locks four experts and the old candidate registry.",
+        "Reuse generic ta_ties_core.ties_direction with selected memmaps and the original 422-coordinate-segment scope, then independently verify selected-expert provenance/export."
+      ],
+      "status": "blocked_missing_subset_adapter",
+      "subset": "spatial-goal",
+      "subset_bank": {
+        "bytes": 216262,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/plan-v1/bank-spatial-goal.json",
+        "sha256": "1d13140fc74567e03e1c5e8a861775e3ec754a371f895be72c995289578aa429",
+        "verification": "sha256_recomputed"
+      }
+    },
+    {
+      "budget_basis": "Original per-expert quota retained; TIES has no calibration",
+      "calibration_rows": 0,
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-object-goal/pretrained_model",
+      "experts": [
+        "spatial",
+        "object",
+        "goal"
+      ],
+      "id": "ties-spatial-object-goal",
+      "launch_command": null,
+      "method": "ties",
+      "port_gaps": [
+        "Isolated subset-only vector/export adapter is absent; old fastlane CLI hard-locks four experts and the old candidate registry.",
+        "Reuse generic ta_ties_core.ties_direction with selected memmaps and the original 422-coordinate-segment scope, then independently verify selected-expert provenance/export."
+      ],
+      "status": "blocked_missing_subset_adapter",
+      "subset": "spatial-object-goal",
+      "subset_bank": {
+        "bytes": 219425,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/plan-v1/bank-spatial-object-goal.json",
+        "sha256": "2ca0e2bf0c56e8cf600c08bbf2e817f76aa52523a2918cf1cc81cc51cd9769e8",
+        "verification": "sha256_recomputed"
+      }
+    }
+  ],
+  "new_episode_total": 1500,
+  "new_evaluations": [
+    {
+      "command_template": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+        "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+        "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+        "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/featcal-spatial-goal/repeat-01/libero_spatial/eval",
+        "--env.type=libero",
+        "--env.task=libero_spatial",
+        "--env.init_states=true",
+        "--env.hard_reset=true",
+        "--eval.batch_size=1",
+        "--eval.n_episodes=10",
+        "--seed=274001",
+        "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/featcal-spatial-goal/pretrained_model",
+        "--policy.device=cuda",
+        "--policy.compile_model=false",
+        "--policy.gradient_checkpointing=false",
+        "--policy.n_action_steps=10"
+      ],
+      "episodes": 100,
+      "id": "featcal-spatial-goal-libero_spatial",
+      "method": "featcal",
+      "needs_build": "featcal-spatial-goal",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/featcal-spatial-goal/repeat-01/libero_spatial/eval",
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "status": "blocked_until_checkpoint_native_acceptance_and_resource_claim",
+      "subset": "spatial-goal",
+      "suite": "libero_spatial"
+    },
+    {
+      "command_template": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+        "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+        "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+        "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/featcal-spatial-goal/repeat-01/libero_goal/eval",
+        "--env.type=libero",
+        "--env.task=libero_goal",
+        "--env.init_states=true",
+        "--env.hard_reset=true",
+        "--eval.batch_size=1",
+        "--eval.n_episodes=10",
+        "--seed=274001",
+        "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/featcal-spatial-goal/pretrained_model",
+        "--policy.device=cuda",
+        "--policy.compile_model=false",
+        "--policy.gradient_checkpointing=false",
+        "--policy.n_action_steps=10"
+      ],
+      "episodes": 100,
+      "id": "featcal-spatial-goal-libero_goal",
+      "method": "featcal",
+      "needs_build": "featcal-spatial-goal",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/featcal-spatial-goal/repeat-01/libero_goal/eval",
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "status": "blocked_until_checkpoint_native_acceptance_and_resource_claim",
+      "subset": "spatial-goal",
+      "suite": "libero_goal"
+    },
+    {
+      "command_template": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+        "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+        "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+        "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/featcal-spatial-object-goal/repeat-01/libero_spatial/eval",
+        "--env.type=libero",
+        "--env.task=libero_spatial",
+        "--env.init_states=true",
+        "--env.hard_reset=true",
+        "--eval.batch_size=1",
+        "--eval.n_episodes=10",
+        "--seed=274001",
+        "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/featcal-spatial-object-goal/pretrained_model",
+        "--policy.device=cuda",
+        "--policy.compile_model=false",
+        "--policy.gradient_checkpointing=false",
+        "--policy.n_action_steps=10"
+      ],
+      "episodes": 100,
+      "id": "featcal-spatial-object-goal-libero_spatial",
+      "method": "featcal",
+      "needs_build": "featcal-spatial-object-goal",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/featcal-spatial-object-goal/repeat-01/libero_spatial/eval",
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "status": "blocked_until_checkpoint_native_acceptance_and_resource_claim",
+      "subset": "spatial-object-goal",
+      "suite": "libero_spatial"
+    },
+    {
+      "command_template": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+        "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+        "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+        "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/featcal-spatial-object-goal/repeat-01/libero_object/eval",
+        "--env.type=libero",
+        "--env.task=libero_object",
+        "--env.init_states=true",
+        "--env.hard_reset=true",
+        "--eval.batch_size=1",
+        "--eval.n_episodes=10",
+        "--seed=274001",
+        "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/featcal-spatial-object-goal/pretrained_model",
+        "--policy.device=cuda",
+        "--policy.compile_model=false",
+        "--policy.gradient_checkpointing=false",
+        "--policy.n_action_steps=10"
+      ],
+      "episodes": 100,
+      "id": "featcal-spatial-object-goal-libero_object",
+      "method": "featcal",
+      "needs_build": "featcal-spatial-object-goal",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/featcal-spatial-object-goal/repeat-01/libero_object/eval",
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "status": "blocked_until_checkpoint_native_acceptance_and_resource_claim",
+      "subset": "spatial-object-goal",
+      "suite": "libero_object"
+    },
+    {
+      "command_template": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+        "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+        "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+        "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/featcal-spatial-object-goal/repeat-01/libero_goal/eval",
+        "--env.type=libero",
+        "--env.task=libero_goal",
+        "--env.init_states=true",
+        "--env.hard_reset=true",
+        "--eval.batch_size=1",
+        "--eval.n_episodes=10",
+        "--seed=274001",
+        "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/featcal-spatial-object-goal/pretrained_model",
+        "--policy.device=cuda",
+        "--policy.compile_model=false",
+        "--policy.gradient_checkpointing=false",
+        "--policy.n_action_steps=10"
+      ],
+      "episodes": 100,
+      "id": "featcal-spatial-object-goal-libero_goal",
+      "method": "featcal",
+      "needs_build": "featcal-spatial-object-goal",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/featcal-spatial-object-goal/repeat-01/libero_goal/eval",
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "status": "blocked_until_checkpoint_native_acceptance_and_resource_claim",
+      "subset": "spatial-object-goal",
+      "suite": "libero_goal"
+    },
+    {
+      "command_template": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+        "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+        "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+        "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/regmeanpp-spatial-goal/repeat-01/libero_spatial/eval",
+        "--env.type=libero",
+        "--env.task=libero_spatial",
+        "--env.init_states=true",
+        "--env.hard_reset=true",
+        "--eval.batch_size=1",
+        "--eval.n_episodes=10",
+        "--seed=274001",
+        "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/regmeanpp-spatial-goal/pretrained_model",
+        "--policy.device=cuda",
+        "--policy.compile_model=false",
+        "--policy.gradient_checkpointing=false",
+        "--policy.n_action_steps=10"
+      ],
+      "episodes": 100,
+      "id": "regmeanpp-spatial-goal-libero_spatial",
+      "method": "regmeanpp",
+      "needs_build": "regmeanpp-spatial-goal",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/regmeanpp-spatial-goal/repeat-01/libero_spatial/eval",
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "status": "blocked_until_checkpoint_native_acceptance_and_resource_claim",
+      "subset": "spatial-goal",
+      "suite": "libero_spatial"
+    },
+    {
+      "command_template": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+        "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+        "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+        "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/regmeanpp-spatial-goal/repeat-01/libero_goal/eval",
+        "--env.type=libero",
+        "--env.task=libero_goal",
+        "--env.init_states=true",
+        "--env.hard_reset=true",
+        "--eval.batch_size=1",
+        "--eval.n_episodes=10",
+        "--seed=274001",
+        "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/regmeanpp-spatial-goal/pretrained_model",
+        "--policy.device=cuda",
+        "--policy.compile_model=false",
+        "--policy.gradient_checkpointing=false",
+        "--policy.n_action_steps=10"
+      ],
+      "episodes": 100,
+      "id": "regmeanpp-spatial-goal-libero_goal",
+      "method": "regmeanpp",
+      "needs_build": "regmeanpp-spatial-goal",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/regmeanpp-spatial-goal/repeat-01/libero_goal/eval",
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "status": "blocked_until_checkpoint_native_acceptance_and_resource_claim",
+      "subset": "spatial-goal",
+      "suite": "libero_goal"
+    },
+    {
+      "command_template": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+        "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+        "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+        "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/regmeanpp-spatial-object-goal/repeat-01/libero_spatial/eval",
+        "--env.type=libero",
+        "--env.task=libero_spatial",
+        "--env.init_states=true",
+        "--env.hard_reset=true",
+        "--eval.batch_size=1",
+        "--eval.n_episodes=10",
+        "--seed=274001",
+        "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/regmeanpp-spatial-object-goal/pretrained_model",
+        "--policy.device=cuda",
+        "--policy.compile_model=false",
+        "--policy.gradient_checkpointing=false",
+        "--policy.n_action_steps=10"
+      ],
+      "episodes": 100,
+      "id": "regmeanpp-spatial-object-goal-libero_spatial",
+      "method": "regmeanpp",
+      "needs_build": "regmeanpp-spatial-object-goal",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/regmeanpp-spatial-object-goal/repeat-01/libero_spatial/eval",
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "status": "blocked_until_checkpoint_native_acceptance_and_resource_claim",
+      "subset": "spatial-object-goal",
+      "suite": "libero_spatial"
+    },
+    {
+      "command_template": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+        "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+        "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+        "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/regmeanpp-spatial-object-goal/repeat-01/libero_object/eval",
+        "--env.type=libero",
+        "--env.task=libero_object",
+        "--env.init_states=true",
+        "--env.hard_reset=true",
+        "--eval.batch_size=1",
+        "--eval.n_episodes=10",
+        "--seed=274001",
+        "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/regmeanpp-spatial-object-goal/pretrained_model",
+        "--policy.device=cuda",
+        "--policy.compile_model=false",
+        "--policy.gradient_checkpointing=false",
+        "--policy.n_action_steps=10"
+      ],
+      "episodes": 100,
+      "id": "regmeanpp-spatial-object-goal-libero_object",
+      "method": "regmeanpp",
+      "needs_build": "regmeanpp-spatial-object-goal",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/regmeanpp-spatial-object-goal/repeat-01/libero_object/eval",
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "status": "blocked_until_checkpoint_native_acceptance_and_resource_claim",
+      "subset": "spatial-object-goal",
+      "suite": "libero_object"
+    },
+    {
+      "command_template": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+        "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+        "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+        "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/regmeanpp-spatial-object-goal/repeat-01/libero_goal/eval",
+        "--env.type=libero",
+        "--env.task=libero_goal",
+        "--env.init_states=true",
+        "--env.hard_reset=true",
+        "--eval.batch_size=1",
+        "--eval.n_episodes=10",
+        "--seed=274001",
+        "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/regmeanpp-spatial-object-goal/pretrained_model",
+        "--policy.device=cuda",
+        "--policy.compile_model=false",
+        "--policy.gradient_checkpointing=false",
+        "--policy.n_action_steps=10"
+      ],
+      "episodes": 100,
+      "id": "regmeanpp-spatial-object-goal-libero_goal",
+      "method": "regmeanpp",
+      "needs_build": "regmeanpp-spatial-object-goal",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/regmeanpp-spatial-object-goal/repeat-01/libero_goal/eval",
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "status": "blocked_until_checkpoint_native_acceptance_and_resource_claim",
+      "subset": "spatial-object-goal",
+      "suite": "libero_goal"
+    },
+    {
+      "command_template": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+        "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+        "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+        "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/ties-spatial-goal/repeat-01/libero_spatial/eval",
+        "--env.type=libero",
+        "--env.task=libero_spatial",
+        "--env.init_states=true",
+        "--env.hard_reset=true",
+        "--eval.batch_size=1",
+        "--eval.n_episodes=10",
+        "--seed=274001",
+        "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-goal/pretrained_model",
+        "--policy.device=cuda",
+        "--policy.compile_model=false",
+        "--policy.gradient_checkpointing=false",
+        "--policy.n_action_steps=10"
+      ],
+      "episodes": 100,
+      "id": "ties-spatial-goal-libero_spatial",
+      "method": "ties",
+      "needs_build": "ties-spatial-goal",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/ties-spatial-goal/repeat-01/libero_spatial/eval",
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "status": "blocked_until_checkpoint_native_acceptance_and_resource_claim",
+      "subset": "spatial-goal",
+      "suite": "libero_spatial"
+    },
+    {
+      "command_template": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+        "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+        "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+        "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/ties-spatial-goal/repeat-01/libero_goal/eval",
+        "--env.type=libero",
+        "--env.task=libero_goal",
+        "--env.init_states=true",
+        "--env.hard_reset=true",
+        "--eval.batch_size=1",
+        "--eval.n_episodes=10",
+        "--seed=274001",
+        "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-goal/pretrained_model",
+        "--policy.device=cuda",
+        "--policy.compile_model=false",
+        "--policy.gradient_checkpointing=false",
+        "--policy.n_action_steps=10"
+      ],
+      "episodes": 100,
+      "id": "ties-spatial-goal-libero_goal",
+      "method": "ties",
+      "needs_build": "ties-spatial-goal",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/ties-spatial-goal/repeat-01/libero_goal/eval",
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "status": "blocked_until_checkpoint_native_acceptance_and_resource_claim",
+      "subset": "spatial-goal",
+      "suite": "libero_goal"
+    },
+    {
+      "command_template": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+        "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+        "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+        "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/ties-spatial-object-goal/repeat-01/libero_spatial/eval",
+        "--env.type=libero",
+        "--env.task=libero_spatial",
+        "--env.init_states=true",
+        "--env.hard_reset=true",
+        "--eval.batch_size=1",
+        "--eval.n_episodes=10",
+        "--seed=274001",
+        "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-object-goal/pretrained_model",
+        "--policy.device=cuda",
+        "--policy.compile_model=false",
+        "--policy.gradient_checkpointing=false",
+        "--policy.n_action_steps=10"
+      ],
+      "episodes": 100,
+      "id": "ties-spatial-object-goal-libero_spatial",
+      "method": "ties",
+      "needs_build": "ties-spatial-object-goal",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/ties-spatial-object-goal/repeat-01/libero_spatial/eval",
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "status": "blocked_until_checkpoint_native_acceptance_and_resource_claim",
+      "subset": "spatial-object-goal",
+      "suite": "libero_spatial"
+    },
+    {
+      "command_template": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+        "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+        "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+        "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/ties-spatial-object-goal/repeat-01/libero_object/eval",
+        "--env.type=libero",
+        "--env.task=libero_object",
+        "--env.init_states=true",
+        "--env.hard_reset=true",
+        "--eval.batch_size=1",
+        "--eval.n_episodes=10",
+        "--seed=274001",
+        "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-object-goal/pretrained_model",
+        "--policy.device=cuda",
+        "--policy.compile_model=false",
+        "--policy.gradient_checkpointing=false",
+        "--policy.n_action_steps=10"
+      ],
+      "episodes": 100,
+      "id": "ties-spatial-object-goal-libero_object",
+      "method": "ties",
+      "needs_build": "ties-spatial-object-goal",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/ties-spatial-object-goal/repeat-01/libero_object/eval",
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "status": "blocked_until_checkpoint_native_acceptance_and_resource_claim",
+      "subset": "spatial-object-goal",
+      "suite": "libero_object"
+    },
+    {
+      "command_template": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+        "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+        "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+        "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/ties-spatial-object-goal/repeat-01/libero_goal/eval",
+        "--env.type=libero",
+        "--env.task=libero_goal",
+        "--env.init_states=true",
+        "--env.hard_reset=true",
+        "--eval.batch_size=1",
+        "--eval.n_episodes=10",
+        "--seed=274001",
+        "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-object-goal/pretrained_model",
+        "--policy.device=cuda",
+        "--policy.compile_model=false",
+        "--policy.gradient_checkpointing=false",
+        "--policy.n_action_steps=10"
+      ],
+      "episodes": 100,
+      "id": "ties-spatial-object-goal-libero_goal",
+      "method": "ties",
+      "needs_build": "ties-spatial-object-goal",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/ties-spatial-object-goal/repeat-01/libero_goal/eval",
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "status": "blocked_until_checkpoint_native_acceptance_and_resource_claim",
+      "subset": "spatial-object-goal",
+      "suite": "libero_goal"
+    }
+  ],
+  "no_parameter_search": true,
+  "no_score_based_scheduling": true,
+  "no_training": true,
+  "ownership": "Exclusive CPU plan prepared by root/gpu_audit delegation; no GPU manager or card reservation created.",
+  "request": "FIG4-BASELINES-215",
+  "resource_snapshot_not_reservation": {
+    "candidate_gpus": [
+      1,
+      4,
+      5,
+      6
+    ],
+    "do_not_launch_new_work_on_1023_owned_queues": true,
+    "preferred_host_port": 1016,
+    "require_fresh_process_training_and_dual_lease_check_before_launch": true
+  },
+  "reused_existing_episodes": 3600,
+  "reused_existing_jobs": 36,
+  "reused_four_expert_points": 3,
+  "runtime_root": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925",
+  "schema": "fig4_three_baseline_subset_cpu_plan_v1",
+  "shortest_route": [
+    "Reuse the three already-complete four-expert endpoints; do not rebuild or re-evaluate them.",
+    "Prepare subset TIES on CPU from existing global task-vector cache in parallel with isolated RegMean++ and FeatCal subset port work.",
+    "Reuse verified subset Soup initialization and expert-only FeatCal teacher factors; do not reuse four-expert student states.",
+    "After each of six exports passes finite/identity/native-action acceptance, run only its fixed two or three suites; no score-based gate or parameter change.",
+    "All GPU dispatch waits for an independently accepted execution plan and explicit owner/card allocation; existing queues retain their jobs."
+  ],
+  "source_binding": {
+    "current_figure_endpoint_convention": {
+      "bytes": 1664,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/coordination/2026-09-25/figure4-main-table-alignment.md",
+      "sha256": "5c06525892d6808046348c5ca3cabaed04a96e59f30d2774a75b56ebc6f5f63c",
+      "verification": "sha256_recomputed"
+    },
+    "dense_bank": {
+      "bytes": 7945,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/expert-dense-bank-peft-v2.json",
+      "sha256": "d61a5f9e56bb0f76d8186a33dc26fe283cf8cfab220e903a460f92e4507f209b",
+      "verification": "sha256_recomputed"
+    },
+    "featcal_plan": {
+      "bytes": 8101,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/plan.json",
+      "sha256": "89002c4ba14f26e1addccc2928c6a04d950e543f9ddc2cc51ae82430d69fb96d",
+      "verification": "sha256_recomputed"
+    },
+    "main_table": {
+      "bytes": 2444,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/paper/iclr2027/tabs/main_baselines.tex",
+      "sha256": "84b4515da7620791ccbd6cd93ebb5d5cfb843d16c8768e7cd65385fc22642e76",
+      "verification": "sha256_recomputed"
+    },
+    "original_request": {
+      "bytes": 4213,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/coordination/2026-09-25/figure4-baseline-expansion-215.md",
+      "sha256": "e86513137be44204c9b48d5ae1d32d069761b1a25e85f4e2b9c2e370e643db6d",
+      "verification": "sha256_recomputed"
+    },
+    "regmeanpp_plan": {
+      "bytes": 11375,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing/attempt-01/plan.json",
+      "sha256": "6592d206d4a0ff0cb063b3a3de923471c4abaf44e41c76850d4ad549713ee814",
+      "verification": "sha256_recomputed"
+    },
+    "subset_plan": {
+      "bytes": 11346,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/plan-v1/plan.json",
+      "sha256": "31bce45d344617ea5830645c1ad128355398a39c187f1263fe9949ed648ceefe",
+      "verification": "sha256_recomputed"
+    }
+  },
+  "source_root": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925",
+  "status": "cpu_plan_frozen_gpu_blocked_missing_ports"
+}

@@ -1,0 +1,2016 @@
+{
+  "assets": [
+    {
+      "bytes": 10735,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-subset-cpu-v1/spatial-goal/plan.json",
+      "sha256": "d52e39fcf4b8f5469c5a1290d4ab589739c73bb0e95e299c94538df520860cbd"
+    },
+    {
+      "bytes": 216262,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/plan-v1/bank-spatial-goal.json",
+      "sha256": "1d13140fc74567e03e1c5e8a861775e3ec754a371f895be72c995289578aa429"
+    },
+    {
+      "bytes": 7945,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/expert-dense-bank-peft-v2.json",
+      "sha256": "d61a5f9e56bb0f76d8186a33dc26fe283cf8cfab220e903a460f92e4507f209b"
+    },
+    {
+      "bytes": 9354050784,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model/model.safetensors",
+      "sha256": "f2165fad32a4b431ca1488a5b886f6738be9e8b480298ecc9e0b55d87d26f365"
+    },
+    {
+      "bytes": 97068,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/spatial/replay.json",
+      "sha256": "7c57bf7bb4b4a71d78005cc171556b0e796e74da4f5cc4b8997fb58a01318e77"
+    },
+    {
+      "bytes": 4414199704,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/spatial/replay.safetensors",
+      "sha256": "0f7b773d5569ba52afb79965d1d0b69632b707225b2da391c3316508939b0e3a"
+    },
+    {
+      "bytes": 9354050784,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/pretrained_model/model.safetensors",
+      "sha256": "008cb4a76898edbb70edb83bd54cb472722ba49b2760acfde24381e6d14fc75f"
+    },
+    {
+      "bytes": 572620000,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/spatial_lora_s0/checkpoints/010000/pretrained_model/adapter_model.safetensors",
+      "sha256": "c3e3abf25fc8c7331bbb1632369e572ad7b7bea788cbd4cdc763312b8c9292b6"
+    },
+    {
+      "bytes": 1946,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/pretrained_model/dense_equivalent_manifest.json",
+      "sha256": "88c6f4773af427ce4b20ac19b1f6163478bd19e799116520d0445b8b8352c3ee"
+    },
+    {
+      "bytes": 3911,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/dense-content-verification-peft-v2.json",
+      "sha256": "4dc290bcb5e2506d21196787ee127b89c2e0826c740f161a03b42d6c7c1ae8c7"
+    },
+    {
+      "bytes": 95456,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/goal/replay.json",
+      "sha256": "8e781b5a91bd526ff2ccc66c78c834dabce73d3b98ff993af9d0bb7b05d359b5"
+    },
+    {
+      "bytes": 4414199704,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/goal/replay.safetensors",
+      "sha256": "772d7b88b670a7ed70e92c7a15fb54276907b7c29ea837292195ce57a312176d"
+    },
+    {
+      "bytes": 9354050784,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/pretrained_model/model.safetensors",
+      "sha256": "af9e258354d759710d04f13d40ac6e2e4377d5063f56fa8e0ef574f8c96e2732"
+    },
+    {
+      "bytes": 572620000,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/goal_lora_s0/checkpoints/010000/pretrained_model/adapter_model.safetensors",
+      "sha256": "5541940979994997d1bc9bd28521f6689b84a91e9dbb8af0e0f8a120ee9f5bdc"
+    },
+    {
+      "bytes": 1940,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/pretrained_model/dense_equivalent_manifest.json",
+      "sha256": "bde83c327f78f36efb3966c6a092ee9f5f376582cf4f5104b8751de5dba984af"
+    },
+    {
+      "bytes": 3899,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/dense-content-verification-peft-v2.json",
+      "sha256": "6a8da3d6c771b0ff19182526f64ca079d1df1491028f9166942f55962175b7a0"
+    },
+    {
+      "bytes": 9759,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/fig4_regmeanpp_contract.py",
+      "sha256": "252140bb33973f4ad3e01f84427760591a9cf71f7224e5353acda8b6d700bd46"
+    },
+    {
+      "bytes": 101629,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/materialize_regmeanpp_subset.py",
+      "sha256": "2ef3f76e312b1aab7eb0290ddaceb84ac6bc92d707e2ebd5009af98680b3557c"
+    },
+    {
+      "bytes": 5924,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/prepare_regmeanpp_subset.py",
+      "sha256": "2136e938bb3035e73a8e4e5b06f155cb2c140eb5baac5924bc7f810fe313099d"
+    },
+    {
+      "bytes": 101205,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/materialize_smoothed.py",
+      "sha256": "c393ef3bc65a6b881b29b77cdf77eb5c1cea18bf755ffcac9535ee3ad53708b6"
+    },
+    {
+      "bytes": 7284,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/run_build.py",
+      "sha256": "e583dacedc4923806baf7a4ada0a52d0bf0c96f44189292e6283fe309128d261"
+    },
+    {
+      "bytes": 2177,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/smoothing_adapter.py",
+      "sha256": "f3c39af099296d7d95007b35d5603d6b4338a12bf1773d48f5e245b8fd93ad3a"
+    },
+    {
+      "bytes": 6226,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/smoothing_contract.py",
+      "sha256": "2faa6853bd638ddaa285d8e8535f8190d3070e075c53fb76ce1160437ff6b71c"
+    },
+    {
+      "bytes": 9150,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/regmeanpp_spectral_smoothing_v1/spectral_smoothing.py",
+      "sha256": "55b06cc4b6a43c029ade1a5471e3ca1259eb5ec1234420a454333b98411ee3fc"
+    },
+    {
+      "bytes": 52911,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/materialize_pi05_block_regmeanpp.py",
+      "sha256": "22449eafe9afa5ca0b35a40c1b105e088e5bb777bf60e19bfd5c9626b73754aa"
+    },
+    {
+      "bytes": 863,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/pi05_replay_prefix.py",
+      "sha256": "fcfc11854c866ecda4f0b22b0a3f0d0e5b912db01f1b0a9239c37a1296d46a3a"
+    },
+    {
+      "bytes": 4778,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/pi05_tcr_e_dense_contract.py",
+      "sha256": "f1aea2b7122d8e9d886b0b06d864ac69c73d3df7828ae931a68997a4b35d451c"
+    },
+    {
+      "bytes": 8634,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/original_regmeanpp_v2.py",
+      "sha256": "3ce966b6f7d55a271127c34684200cec60ad9688e19f9ceb0ae1bdd6cad0811d"
+    },
+    {
+      "bytes": 13304,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-subset-cpu-v1/spatial-object-goal/plan.json",
+      "sha256": "8ba2f74c51409e0c061e69085407eef2032a705bd8b47139bac9215aec6fe19f"
+    },
+    {
+      "bytes": 219425,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-pi05-expert-count-20260923/plan-v1/bank-spatial-object-goal.json",
+      "sha256": "2ca0e2bf0c56e8cf600c08bbf2e817f76aa52523a2918cf1cc81cc51cd9769e8"
+    },
+    {
+      "bytes": 95890,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/object/replay.json",
+      "sha256": "c557c9144d5fca0464bd21d35e8e8b0ee56862fd8cb7bb933b1808f5f9201263"
+    },
+    {
+      "bytes": 4414199704,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/object/replay.safetensors",
+      "sha256": "695a6cdd40c838dcf8b68795677f89117a385498fdb81504396415ff04b83532"
+    },
+    {
+      "bytes": 9354050784,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/pretrained_model/model.safetensors",
+      "sha256": "a74c9349a78e122ecf9799e404ad748ffebba0b814b95e3dae4a7b32837f1510"
+    },
+    {
+      "bytes": 572620000,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/object_lora_s0/checkpoints/010000/pretrained_model/adapter_model.safetensors",
+      "sha256": "4cb91287d099daf536af96de8eeda5767f9f575be6111c8dd841bbce9e9e130b"
+    },
+    {
+      "bytes": 1944,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/pretrained_model/dense_equivalent_manifest.json",
+      "sha256": "a47478fbfb57cae00b16f314026d87b75cfd1baf3e6f67fa7a69845b157e24d8"
+    },
+    {
+      "bytes": 3907,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/dense-content-verification-peft-v2.json",
+      "sha256": "42342233b7076f8ce28a98bb3b626c0d21def2ca865d4a2f6c04d1c3fd20b1b9"
+    },
+    {
+      "bytes": 90444942,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/spatial/observations.safetensors",
+      "sha256": "8ff070b010f27a278b44e3f655969df111e7a843e1eb4e439ed9cea4ddf21190"
+    },
+    {
+      "bytes": 67719,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/spatial/manifest.json",
+      "sha256": "6ded802341017e8e97f86b11f326bf969f3fe8ada6c33d8e9fe4e9087bf539f4"
+    },
+    {
+      "bytes": 1191035,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/manifest.json",
+      "sha256": "16fb4a0331b552c211bcb92ed3c81c7f4232c4eec88330d52056131e26d04be8"
+    },
+    {
+      "bytes": 5054,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+      "sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0"
+    },
+    {
+      "bytes": 21301,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/queue_regmeanpp_subset.py",
+      "sha256": "52bbb0fe099ca2e757e331d8f60a518a6c0364cd84ad562a7c77c561e43ade6c"
+    },
+    {
+      "bytes": 5355,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/accept_subset_checkpoint.py",
+      "sha256": "95d3afc1eaa228c1c1a8ecd2ccd8cc477b5c41370478f5d101b3edfc5da9fdc6"
+    },
+    {
+      "bytes": 5708,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-firstpass-cause-20260920/card_flock.py",
+      "sha256": "50c150a929abf5ccbbba29e2ac650f5bab207e23a2f19667206819b195538da9"
+    },
+    {
+      "bytes": 2093,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+      "sha256": "178417fee375e94b0fc7f1919d47dc1249a904ff62b3aa01e04ff5c046cd80b1"
+    },
+    {
+      "bytes": 8812,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_pi05_policy_with_procedural_bank.py",
+      "sha256": "0d725da47958f62c1dc8b6ad5841ee684b3468a2eb7a04eb3bee74a016fee24c"
+    },
+    {
+      "bytes": 11254,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_pi05_generation_path_probe.py",
+      "sha256": "2a9f496b6080e8199aedaf179b81c73fb6b3423bd00b04cc440e5edbbfaec0e9"
+    },
+    {
+      "bytes": 1249,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/src/eval_with_local_tokenizer.py",
+      "sha256": "9288fde98be549bfb7f5d5f2c4ef3744c80897c771641bcdf4e7cd549520fcaf"
+    }
+  ],
+  "authorization": "A separate single-use allowed execution permit must bind this exact queue plan SHA before scheduling; permit may wait without GPU while PRO owns every card.",
+  "bank": {
+    "bytes": 1191035,
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/manifest.json",
+    "sha256": "16fb4a0331b552c211bcb92ed3c81c7f4232c4eec88330d52056131e26d04be8"
+  },
+  "build_count": 2,
+  "builds": [
+    {
+      "build_plan": {
+        "bytes": 10735,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-subset-cpu-v1/spatial-goal/plan.json",
+        "sha256": "d52e39fcf4b8f5469c5a1290d4ab589739c73bb0e95e299c94538df520860cbd"
+      },
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/regmeanpp-spatial-goal/pretrained_model",
+      "command": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/materialize_regmeanpp_subset.py",
+        "--experiment-manifest=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-subset-cpu-v1/spatial-goal/plan.json",
+        "--expected-experiment-sha256=d52e39fcf4b8f5469c5a1290d4ab589739c73bb0e95e299c94538df520860cbd",
+        "--dense-expert-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/expert-dense-bank-peft-v2.json",
+        "--base-model=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+        "--output=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/regmeanpp-spatial-goal/pretrained_model",
+        "--offdiag-scale=.3",
+        "--ridge-ratio=0",
+        "--max-correction-ratio=0",
+        "--max-rows-per-sample=16",
+        "--expert-loss-normalization=none",
+        "--replay-prefix=merged",
+        "--allow-mixed-calibration-policies",
+        "--device=cuda",
+        "--expert=spatial=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/spatial_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=spatial=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/spatial/replay.safetensors",
+        "--manifest=spatial=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/spatial/replay.json",
+        "--expert=goal=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/goal_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=goal=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/goal/replay.safetensors",
+        "--manifest=goal=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/goal/replay.json"
+      ],
+      "experts": [
+        "spatial",
+        "goal"
+      ],
+      "id": "regmeanpp-spatial-goal",
+      "observations": 100,
+      "rows": 1184200,
+      "subset": "spatial-goal"
+    },
+    {
+      "build_plan": {
+        "bytes": 13304,
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-subset-cpu-v1/spatial-object-goal/plan.json",
+        "sha256": "8ba2f74c51409e0c061e69085407eef2032a705bd8b47139bac9215aec6fe19f"
+      },
+      "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/regmeanpp-spatial-object-goal/pretrained_model",
+      "command": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/materialize_regmeanpp_subset.py",
+        "--experiment-manifest=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-subset-cpu-v1/spatial-object-goal/plan.json",
+        "--expected-experiment-sha256=8ba2f74c51409e0c061e69085407eef2032a705bd8b47139bac9215aec6fe19f",
+        "--dense-expert-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/expert-dense-bank-peft-v2.json",
+        "--base-model=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+        "--output=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/regmeanpp-spatial-object-goal/pretrained_model",
+        "--offdiag-scale=.3",
+        "--ridge-ratio=0",
+        "--max-correction-ratio=0",
+        "--max-rows-per-sample=16",
+        "--expert-loss-normalization=none",
+        "--replay-prefix=merged",
+        "--allow-mixed-calibration-policies",
+        "--device=cuda",
+        "--expert=spatial=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/spatial_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=spatial=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/spatial/replay.safetensors",
+        "--manifest=spatial=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/spatial/replay.json",
+        "--expert=object=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/object_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=object=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/object/replay.safetensors",
+        "--manifest=object=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/object/replay.json",
+        "--expert=goal=/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/experts/goal_lora_s0/checkpoints/010000/pretrained_model",
+        "--calibration=goal=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/goal/replay.safetensors",
+        "--manifest=goal=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/goal/replay.json"
+      ],
+      "experts": [
+        "spatial",
+        "object",
+        "goal"
+      ],
+      "id": "regmeanpp-spatial-object-goal",
+      "observations": 150,
+      "rows": 1776300,
+      "subset": "spatial-object-goal"
+    }
+  ],
+  "episodes": 500,
+  "evaluation_jobs": 5,
+  "evaluations": [
+    {
+      "command_template": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+        "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+        "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+        "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/regmeanpp-spatial-goal/repeat-01/libero_spatial/eval",
+        "--env.type=libero",
+        "--env.task=libero_spatial",
+        "--env.init_states=true",
+        "--env.hard_reset=true",
+        "--eval.batch_size=1",
+        "--eval.n_episodes=10",
+        "--seed=274001",
+        "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/regmeanpp-spatial-goal/pretrained_model",
+        "--policy.device=cuda",
+        "--policy.compile_model=false",
+        "--policy.gradient_checkpointing=false",
+        "--policy.n_action_steps=10"
+      ],
+      "episodes": 100,
+      "expected_tasks": {
+        "libero_spatial/00": {
+          "raw_state_sha256": [
+            "8653c23883d773a0d0fe4681bb17be219003c61f5ab19700ad988a6bfd2e9256",
+            "a1015637c91465012b5072973c221ac218e33f8fb31f0894b34c67fff2591e54",
+            "760fe79b51d9e1bb2b2c493149f1863950eae0a5fa902578d56379209c58ff8e",
+            "e1dcfaa79907a2e0681984c06f90d793790d0154a81b05bb5192a91523c1ad2e",
+            "0040f71dd4a6ecac1ba94a10ca0cea6bdedfa3252fe19615a47c29ef228d6a47",
+            "b16c02f2be431512236e2847cb86c0c1cc7178d96059396c21bf2cbd5a35c45e",
+            "4639a2d6c8297d33e9bc97c69d43042e25e747dfd65e2d888acc1d7494f05369",
+            "b3ef9154198d4c8f41f83bd89154d72d3770ad64aec57b50fc8943c0015b9625",
+            "a016e214c375fb1ce615702e0a803828bddda483ea42c7a9b60fe8c7cc6cd5f3",
+            "46557f1695aa8fbdbd1b591027960288dbe73d95235df33e9db2dc2f9ae1bf4b"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_spatial",
+          "task_id": 0,
+          "task_name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate"
+        },
+        "libero_spatial/01": {
+          "raw_state_sha256": [
+            "1204e963d3dc74ca5c5ae4301e180f5c4fd4b48d2e3f3f32427be5aedbbd1181",
+            "0d53cdc87a86c65a424841a02f596b4bd745f7dda1041d3517d097db8e3b8949",
+            "a372071d43dc5afe28d267918d67de784f666929d2f846035da323a1c4d4c07d",
+            "cb40551c6797310d465b93b3e667e479aa095d46eb62699529e4df9381b8d768",
+            "e11ead4d4f7a5d051b8583641248e05397f67d3cefefb415a8855660c998e683",
+            "6e5a61acf109cf41349a0a1386401579fff57b6d919517d10de86f2f2d0447ba",
+            "55968e500d03c8c6e5868efc53113899c2177106cdee4c932306f3269de0af22",
+            "e27f12964c4ac239373807901b0e958d4b21ddcb7245c729712c25eaebb1a56e",
+            "9cb276c77d47e9af9c9592f8f90501f1ac9282cb820eb33e2e388798a899cbcb",
+            "6f4e225d05d10aece047ae9421898cf8766c62ce1e47113d72ff2d8ab65a506f"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_spatial",
+          "task_id": 1,
+          "task_name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate"
+        },
+        "libero_spatial/02": {
+          "raw_state_sha256": [
+            "26f66edf03f7a31f18d2b37e75f305d4d9dcc683224fa51887a2a72ff8a51db5",
+            "f18b343ac408f52479d9b8ddf057b369990015f1f0d2efa6fcaa5fff7668e8c9",
+            "357284c3a42e639d3ed7d49ee54270b87bbde784fef0885fb13667695d5b9afa",
+            "2b3887b3313fc6964cfb5f2e479d6f95aec61b81cceacfd698fab08b81cdb462",
+            "c02d0cb60f5e549bca18ece1441752fe693284c6929a5664178ffd468aa48dde",
+            "1c4983f2f5e7e6fe69d7a2f110c127b874182d326e55847ba6995ef6ca09ba3e",
+            "2532e014d37bfa7f9e40ad7239513dbea05f47c731b8eef32c32ba6032cfcb0d",
+            "bddd2a52591a2afe8e4d0c3fe8e93d064d44f51682b9cc778837e255df9cfd9a",
+            "2dc6d68d5200b45bd0efe844205ae58f4728e4fbe84a6b1cefcb7b46db809973",
+            "ae1627c0e8c36cf9312f4964e26dbd4acbc181efe3b4fc5fafc65461ced57fcc"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_spatial",
+          "task_id": 2,
+          "task_name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate"
+        },
+        "libero_spatial/03": {
+          "raw_state_sha256": [
+            "c5e7c47cb2b26735698ecf54afaca3dfc999f166760cd7f7f0c0affb7e8ddd5a",
+            "1aedebbce1956be8c31b144fdb0472b8d64995ca0a8264ff62d5a0e8f85c87e5",
+            "1af3ddb301ee0bf13d9a0e53104159986f8659453199184a66cefd768880bc0b",
+            "9d02bd1ee4542d5d9d9dbdda641ff4a66748c35baf0b32b5398d8ff2954f6c89",
+            "366509726e17ea20158ec708aa45e720abd04d9cec960fae277194279e5f5fee",
+            "6f17a5e2d9efadd7da785d7d370d6ee6dc6d7f7d4f86c4e14547ba83fb26b8ed",
+            "a209284cbdf21b5aadf30a1d6ef6bcb582e2aad25f65570185dfcf51c03d5bf1",
+            "57d5c45f711a2a1a65433970ff38186069e776316e116054b55a3c269811f31a",
+            "605df423c81acb39c247d44cd542d66abc79c40c022cd6205351a99326a4e916",
+            "0e963dc2d8547cb6b383ac2202a2bc6933f34d53e8eeed7da97f234c2d3e5e99"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_spatial",
+          "task_id": 3,
+          "task_name": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate"
+        },
+        "libero_spatial/04": {
+          "raw_state_sha256": [
+            "98f1c4fab49220344ca2defabc5f86e31c3589c286b3be4524f57b22d790743a",
+            "7b20172a098c2e298f31f00525fc36f25dd95733450f901c2bce917bcd6c09a2",
+            "32dac38f79fd15b36a6c89abf962cc58f67416a79a39f2e41af1f34d7abd2837",
+            "7afc5df3ced927f4a72a9f330d715143c3f213d8bc6d6e0df61a7fce27e0be9f",
+            "c6b762dc9482ee3d2512c01530aa0fd95d694499faa85aa7da45380e919e9415",
+            "2112a84315cd2791a2c8b915b185abb2a56b516efe1d385933fa1b079a52fd81",
+            "c4e7ed7b9e710c07441e9206d714ee4a74fa7936e33f00b2d00af5ea27fbc89e",
+            "5e54934d242a3d6dd03d18282bcb4bf321215a9b79ad5136da5e476bdda4dff0",
+            "e92230936beca9998d5b4228ff6e7bf30d2a087f8b859709b16d3f258510489a",
+            "ccb62c2b8ac5b1fcb503f834f4d42a84c8082c28717ef7985b84fd5d7e1f5b40"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_spatial",
+          "task_id": 4,
+          "task_name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate"
+        },
+        "libero_spatial/05": {
+          "raw_state_sha256": [
+            "79c94d94fe032771f294ebad548a05aa9dc51935e28fd9371295927978faef7f",
+            "05ba06f4ab73e2da55cd3aee35ad778c7662c7a825f3415c436e2efd7bc137a1",
+            "1f28fc6c2c846a15f4b5ede1c0e7f498ba5f91e8a893836393b73348e4d81d8a",
+            "2dda34e842a5624a6e569582ddc774cd069ef6528d7de4dd334527b50819c200",
+            "e616b2e22f98d04942cc90462a7f030f6889e152a046b950e97985a04e169bfb",
+            "3da20b884cfc45ae22ee3227dc40578bb053d43d885b241fd0d0163c2eb4a522",
+            "11f2dd3ffe1e4cebcbb96b3178f18423ac1bdb1d537a03c25254386819ea0525",
+            "675e0f540ee42e8ab54ad1399fbfeea89a18b67e5ee26ec9c8a10281cf7e2bff",
+            "c94363bb7d564b68f9319098540ac678f353221823dfcbc5e93ec1e39744bda7",
+            "5604ddb316ee22bd1782afb5df620b86e0e90b92607cfb0998287ac9a5b2b68a"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_spatial",
+          "task_id": 5,
+          "task_name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate"
+        },
+        "libero_spatial/06": {
+          "raw_state_sha256": [
+            "ee38168c8d7d66aec31c01bde6c73d7689963c5051394bae867b49316c00818b",
+            "17ddaf49673d8fec9f1a65f591da1c7a492d00f2300651c65cf142e10bc4e0e3",
+            "be2ab72e16b9639d9c339eca98d74a98dad3e611ca47c8a4d5346c1469b8a7a9",
+            "ca4c782fb0ac2bdedb9b0e1d93aa62c445b85f3023c2a42b8c7aab4f1cbcc567",
+            "a9686a4c94b612421616070ea5615acb0223cea5e9891cce25f4925b1a6e2251",
+            "8e41e1cb68c4298b93bcadd1376c8afe16aaac7d62748d6866dfdaaafbd272a7",
+            "d1fb522ef830b3fcd281719afa36511e7c88a151b047345687317405a4c30005",
+            "12381f3e1485cb0cbf552febcc16f965461ca84f3d6d5952df73f722fcfde937",
+            "af8e56178ada9d4638e05125becacbba52b3eb012be8794415066b470e4e4d28",
+            "1610b9a6244ecaf4d8742dfe7f650e376b98f4514dc8aad4f467b2100b91c9be"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_spatial",
+          "task_id": 6,
+          "task_name": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate"
+        },
+        "libero_spatial/07": {
+          "raw_state_sha256": [
+            "3a6e999f1e16aa165bbe4120473b621611f14b23e039c8919d30fe429a632284",
+            "983ca88e9a89f0d99fd5d8c58711f2067530fdbb4e5edb3c677074856adf1817",
+            "a155c5790666a640ea7cb049ba243ff79f8fcae4536018eb09a76005fcc10448",
+            "5330964208ff3452a55b1f1e7aa8e4970f8186c441da6b7146b61df2388e20cd",
+            "41b00caa245fb6187bba562904fa71e717c9ee1f68f23ed86e2fe0fea8e2c77b",
+            "6a2873443de70a4c6ee5b7e3230b6721c4007c647645cc59b5d7036c8914b9d4",
+            "050bd4940204c099e3643dd1687a025ace9482574dba78151b6ffd981978cfff",
+            "b75c3614e8077cbe488145b153b985ae51d71efabbb2b17ae5b0c1566168964a",
+            "fec34a68a866173040b30041eeb3ee4d59ba9b09beff59d58a51c9bc37caec80",
+            "4d81803b70860bd5ad21acbf6b6337ac5c497a786b6341a423c2e394390056fa"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_spatial",
+          "task_id": 7,
+          "task_name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate"
+        },
+        "libero_spatial/08": {
+          "raw_state_sha256": [
+            "a8aaa9f60b112f733f7a42ce28422e60c9b23396490c25d88189caaed796369d",
+            "f24ee5c32d9462362d8a8c7e958eccdfca6c1d4345d56e98c6cd181460533a7d",
+            "4a50c609e17699f91aee9afdcdc2043086470767377bcf156004cbaf80badce6",
+            "b5e4dfd426335cbfc4bf1b49367435338f64292d6b5e6313565871bb5c5f3d63",
+            "181aa4974b866d450a7137ff7c32622d82fb8126976d3c176223cf94390b8f66",
+            "0a3ea22916bd7afe055bf78731eb6b496813953e6869a50f533fcb4ba86a6286",
+            "8f8c28e852dfd2ef9771f0a196dce037f1fb495c4e8cbe8655884903a390de1f",
+            "124363a32a70209a863a3c813e398b0223b960c0b768132f708c17144988c66b",
+            "98eed09d3e9434720407869847a5b874be582578b2186ae5872567f3a251585f",
+            "3461ae07a4616aa042d21709b101b9db0661ab355f550c9d237aa2b93ff13326"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_spatial",
+          "task_id": 8,
+          "task_name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate"
+        },
+        "libero_spatial/09": {
+          "raw_state_sha256": [
+            "367c388a2456328636dc3451c4f405a4ad7cb4952321d1c683c4bc26b3376d10",
+            "8977dbffb001f56f3332f1397d54414e0b8c9bbc84f33bcf03530fbd2845b35f",
+            "0da8b31286a73d4309c51dd2a1d33c78b7a45897628276070555e8f4b18e9f3f",
+            "76d9b168f6a988aeda91a84b7c795b917b7063f10fed14c703a5564df579cf94",
+            "4422f2c125dac12835e386b302495ff03ba9d6b008bc0f97ce022b99995a49a9",
+            "11711ded92d75e31ba38e2227eaf25674b81e217852cb23f7a316208b8cf04c5",
+            "6780c2508abb6338420e0fcca0556bf5e6ce3f1619d0d57c14c7e5532cee8fcc",
+            "690f65b362a83318dec189f933a820111ee088b5d259cb3d56c440dfa82d6b73",
+            "7518c4b638523815f6f766c831f904673c5454862c8b6bd41416b129140c114c",
+            "ce24dc9dafcff03753323eae3e654b103420c70df8bd81f23c8d045e75907ebe"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_spatial",
+          "task_id": 9,
+          "task_name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate"
+        }
+      },
+      "id": "regmeanpp-spatial-goal-libero_spatial",
+      "method": "regmeanpp",
+      "needs_build": "regmeanpp-spatial-goal",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/regmeanpp-spatial-goal/repeat-01/libero_spatial/eval",
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "status": "blocked_until_checkpoint_native_acceptance_and_resource_claim",
+      "subset": "spatial-goal",
+      "suite": "libero_spatial"
+    },
+    {
+      "command_template": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+        "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+        "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+        "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/regmeanpp-spatial-goal/repeat-01/libero_goal/eval",
+        "--env.type=libero",
+        "--env.task=libero_goal",
+        "--env.init_states=true",
+        "--env.hard_reset=true",
+        "--eval.batch_size=1",
+        "--eval.n_episodes=10",
+        "--seed=274001",
+        "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/regmeanpp-spatial-goal/pretrained_model",
+        "--policy.device=cuda",
+        "--policy.compile_model=false",
+        "--policy.gradient_checkpointing=false",
+        "--policy.n_action_steps=10"
+      ],
+      "episodes": 100,
+      "expected_tasks": {
+        "libero_goal/00": {
+          "raw_state_sha256": [
+            "8fa7cee8a7809e57a29ec31b529a09ad0abffe70114ff748a80bb452f7001baf",
+            "7f222dd0f0dc2045d4690a13c7b16c9f710ae6ecb91dad09d5201ca55a2b47f7",
+            "201c0c6ef64e91eceff9ef9c3c07f488a36179e30a7a8371e2f3bf70677db11b",
+            "05f52307ae01529db6410cb8666edb46fcaf6d5cba05aff5c25a862cbe9ec2c7",
+            "5cac8117d61d6278c84da20acbcf70cf9506bce3691ac7fbe04656d8f6ab782e",
+            "9d7f7d11c31da2d314b74b02db39586fbec87d02b8b94f5c90810630500975b4",
+            "b4deea40e9c580c7d2d61144904f2cd23b2e17c50e78dfbe5b240db60c4f46b1",
+            "5eae947d26eb1bd0efb9c82c95b83536137b92a0f9bf172118ff426ade17ce29",
+            "ca0738b298d923d2d99e3e28222c131081cb37ff20021bba22199ec67fd55878",
+            "9b8ff8b55e2373f298b266ba20e0583dd2639fb836879c7231521ff8a06bebe9"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_goal",
+          "task_id": 0,
+          "task_name": "open_the_middle_drawer_of_the_cabinet"
+        },
+        "libero_goal/01": {
+          "raw_state_sha256": [
+            "411cdc0d19763a342b6c2115cee4a75790bff9db4ae507567f3311529028bfd8",
+            "2f1d522fd76347748c5e53633faf91bf0151a455ab22f30d1578b461d8cfacb0",
+            "a113a03a481d4ee1d9b8d29dfb86781f2931349c9a93f0d3b3fc18b17395437a",
+            "af2e46ffd81ff7406652e8330b5ae438f36e05d007ca2826cabc31b054203a8a",
+            "ee07c0d9b2e00759a974e12a7ff9d70c5534dd60b0a4446fc8e897e2304dcb25",
+            "913174afd96dc51ccaccd0531d5d006358dec01cf9361296ed791945a94a3fd2",
+            "8c8ab56650f3d33aa39f174375f88e10e9b20f562d23889e1b33b2c45e46bf74",
+            "4dfe93737096523da8029aae2d8cda4938ee7296eedf0c56c7d2a8c318b2807b",
+            "4b5d405fc4550f060447320b5cd75b8d0b3f2418c31111e6ef4b285e0fe80c1d",
+            "6a74c5c88d3f9ab437a9d990f4fca245fa62e0a84fa492b9d7330ba414a6b361"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_goal",
+          "task_id": 1,
+          "task_name": "put_the_bowl_on_the_stove"
+        },
+        "libero_goal/02": {
+          "raw_state_sha256": [
+            "01a99824ed3bd0cb10e611f3e8f57e0dace24ec63061c9efe4d7c1d7a526f074",
+            "bc0480520f4727c318572bb8b1b88a71db738e019bbdb751212fd30fc1830ea3",
+            "0881a064d1a23a8eff5bcc8b2c8c7ac3644ad74ddac8395ef1e502d531076742",
+            "ed0a5ad3f4c6febb543a179c7040cd7b3314d5ea035fda36fb156a0eb6a3bbc5",
+            "5d82be7f5a4d0b2df229d6f635e49b56eeed781ed8fd6f086307ea8f3998dd67",
+            "57470affa9d7084a712b2bd039d5fb801c744f24f8eb66d65ddca30b404dbfa9",
+            "86d2da739a40c7a7aed7ae77c49cff3e811597a703a7f8ca9bc1a34d3bc2b550",
+            "4641fce58248bda42a296d554926b92446c8a473a5925b819292d929bf2928cf",
+            "a9f3add553dbd8af2f6bd443c883772ac88668835bbbe8dccd6666a077924dfb",
+            "7dba1bfdc54124811527179e664e1c11ee0ff3cfbbd35df15de50f5eae2254c1"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_goal",
+          "task_id": 2,
+          "task_name": "put_the_wine_bottle_on_top_of_the_cabinet"
+        },
+        "libero_goal/03": {
+          "raw_state_sha256": [
+            "9ef7f66c726a36a1448ba5e83985e42df2fd3d3b9738566733d5e8b24d7e353e",
+            "15791007a6af8b03a45ca688bacb49405e8a88a2dc0aa51ae21a319f67d5d2d2",
+            "2f14ca1a0ddded14521dedcf5b1ab7f22cafe24db3e55ab52ee020ee01ea3c9f",
+            "823e1ee2192c6a2e516acae1c74021ad94dd28027a1cf47f36b3a12be91ff171",
+            "cfa7fa4283817a7cf1c6e0758a7cc8597c428754923b7d4ea4dd8ff65cb8e41f",
+            "495ad683d62c63c5fa1b6d562f05d1202d72c023d3544cc4120b956bc341f152",
+            "67b9031bf3a2c2c5bc7f81a9147de0a553e706f21bfe513fcb3ccbe0d4bfc055",
+            "99f0ccd21c112b62cd012e498d905a9b58354efe37db84c09386ebf8b00d4754",
+            "06a1c3c934e5dc228284455b20e49d7a5bc4ceda0bb3ff23cf37f7af492d058a",
+            "adb40bbd15d7bb2221430d65b92e5d660c1ae3f766ea9b8b55d310642f456822"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_goal",
+          "task_id": 3,
+          "task_name": "open_the_top_drawer_and_put_the_bowl_inside"
+        },
+        "libero_goal/04": {
+          "raw_state_sha256": [
+            "79616c78595c67a3f7317d5813b44c3efdbcfe500a99bed566807fd4fd31f7ae",
+            "a6fc56c9f7566f5a8d6e3350a245b4f36b607697abe1a76ce06d11e394505d46",
+            "0563a0387b2787634b4c865d7aff210203b8a39731490701a7ee62ea8ef98eeb",
+            "7cceca92ce450691c9752f9d2bdf0a068ca0d021c3f6ccfaa4eeeb978c5c3499",
+            "49188de682f041b18d6f6f42e72cf53a75dfcb2462c2de328a3c56476ed67147",
+            "22329dab8a8b8fa0126519382db7a1dd0c2684996ff7633245a17f990a71e4e4",
+            "92bd668bd06fbe24c7e54a650b10aa2704fb10a56c69e7122e6ea268fcd83c64",
+            "999a0a4ea34a2270f0ccce1b94c3e361f28f07866625642adbc7733ca4e10ad5",
+            "92af06c28dbb7ba14664febfc483e1f8cc248f694f69e269e53c7557cbb5dff1",
+            "a540a327f41c39ceac451c89066d283cec937baa1ee2f043e19cb78706959a96"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_goal",
+          "task_id": 4,
+          "task_name": "put_the_bowl_on_top_of_the_cabinet"
+        },
+        "libero_goal/05": {
+          "raw_state_sha256": [
+            "e2989a42fb80957245b32a1a87208eaef10e2fcc6d244cdeba0c1f2278674e16",
+            "0bc842dfc3e4c856fdd0a7fc3b57df0a9d5a56a72b471f1139d69b4537eca886",
+            "9f18a6557cd3c227320b4d2e9a00ce7a5ca951b53840d2eeec3028d26fbe188d",
+            "32c2261f2d8b33268c5fcfe447a7686c67eeb0b43f8ee9eef96718f3f8dc645b",
+            "60ea90168c51afae959802783ee514d9dd2045b653ffef259b730146627dc9be",
+            "52276b25de5c86478271a191cd04b60bb44e058298df368868e7469e8734a87a",
+            "7976cf8ae7369182200721f6eb8a05be92ae28f2fa8ff89181b949cb6fc4b388",
+            "d7c34eb40b72ea67fd0df79c73431db99d667b9b6cd0d11ea0716bb3bd5940ea",
+            "884a81d0e7037088e9136d917c83528d3dd1d40de1cfdd4c23c2044df507fb82",
+            "dcbfc4bb8529437f5c1ec4571421eb3a81d0b941b0b580d65e2344cf7d93198c"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_goal",
+          "task_id": 5,
+          "task_name": "push_the_plate_to_the_front_of_the_stove"
+        },
+        "libero_goal/06": {
+          "raw_state_sha256": [
+            "b70965ed406777dcec4b19b690f7383fa7961b3e0217675555dad57c9be5182c",
+            "ff614a85085972a5f578228d9cbd1e485b3c56ad99d5abd57e1edc985fe137f2",
+            "fd64c0f8d0ca94d37f84c61e4f2efa1453d4844d3c6ee55dcb9c9a3b4671ed77",
+            "43248b3b541476e8ea3446b4b691775edf8c1a98124a82ce2479ea094496b331",
+            "4bb5d7cc170d686846bd9bcdb90ed9d13088cbfb04c856db5fc0b3dc43ad4b13",
+            "3eedae7453a0ca0c8455a9d6668c2624bf28297cd1055106a5e236f17f8b5d65",
+            "b190db3f8dacc3889569929e627167dacebff648578e95eddc1d98ce94f69718",
+            "2135af5d340885762f3f544fe4305c13c743c7ee84e05c5fdfe83c429c5eec0e",
+            "97f58ddd956688f9b12cf462137807fc09735bb3136c2186d5f069d62649b8c1",
+            "52342899b2b11378175dc2d4a3ca39098958645f7793f9472e9bcd9c71ff5a16"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_goal",
+          "task_id": 6,
+          "task_name": "put_the_cream_cheese_in_the_bowl"
+        },
+        "libero_goal/07": {
+          "raw_state_sha256": [
+            "35de1a126de2b68127c1e2a9bede6901fd185efea54e07266a55b3d7cda746ae",
+            "1a4232b8626be88ea54d40cef4f6c623339be14cef1aa7f3623b0a2db96e0d40",
+            "06b83565e0c955e95be33d523da74a0fc01bd8c7780f5bca9276f5b363211803",
+            "0cf4f9590454c5ae0c2f64ac4c8fd346d91bfc0a3f60f7cb6d155c6bd0d040af",
+            "dae6292e56b593eef6b14bc8e38a7cacffb72d266b5b660db0ed7339741e09c2",
+            "835408cb359852970beb5f901bfc7d90325687767dc32726a9fc799c8c0b4be7",
+            "e5932ec8a026c94334d360b47e5c16ec5b43ad250d26615dd1f9317c3fec98f5",
+            "d2a05b3cee0cac594ac6a9ced40f5d3840b5355734cab1281cd037c391b9b704",
+            "592eb38d9e6ed00cf175130ee70795deb963a891d1bb789bba0b7cce954952e5",
+            "a3d3ca581749958378480570f21ee515cd3c93d6434c6d912a7db807a0062e26"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_goal",
+          "task_id": 7,
+          "task_name": "turn_on_the_stove"
+        },
+        "libero_goal/08": {
+          "raw_state_sha256": [
+            "c6c2755354ca99d7a1a9e17daa53803141a0b11a78b8da6f8e9bbf2f849412b2",
+            "92af14ce5fbffc1d770a491af52b591fb4c93f67d6b047d93c9eb8c41ab998f5",
+            "b41f2a7e04f99010d81fe22dfc2e8e335aee7b3c2483ef5730142216c0e618de",
+            "049adfeccd5bcaaa77b23fd4c922a7d36686a2c2f49270c8038edd53b8134d83",
+            "4dec439db325455044e0283ab8311eaa1be563846f8f0105d705cf065e9e8ac8",
+            "81995a98bc1c5f7a7a4767ff30a3270bd12a8a21ceb1a701c689602f689d0d57",
+            "c6c91cc26cde15bb64ad0653f533911cb544cfa9df61676c7247abf7ed928f78",
+            "a37bc75b294656c8170bba59bfd9636ee80f6707d31e4231564dd293d3ca3256",
+            "7131cd36d34600b9f3e41f45dcba9252dbfa2a442ca79f2ffbda30d098bd140b",
+            "68e664ea3752c7e875ac48a2fc76c2a26ec9593f575547ccfe9e5b6fc9fe7c28"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_goal",
+          "task_id": 8,
+          "task_name": "put_the_bowl_on_the_plate"
+        },
+        "libero_goal/09": {
+          "raw_state_sha256": [
+            "62af3e2e85e2fd4affc1825f181bf6f33c5b1248299e723ab4be81c08461f7c3",
+            "0f04d20051fead300dd107198330c88a82a48f69d38912320aa724596e7e71c3",
+            "f00ee23bb7b0dfb585d7e181f349be944356724d746366cf4b67a9406a9c1cd6",
+            "a5dec9eb5be8a416fa0225efa5845ec76f433cd9447632af7de4d7a4563e8080",
+            "9db9ea46dfa7f600354560cf93d900b30156e5f91d7bedb5c12715119f8dc1d6",
+            "bab4ecde5e8cf760147c4330241596c483f915715ef922b8620bf85af3c8abdf",
+            "8cebb49313740806591eace5348554a5d72049f6da2fa40d578cfe6fb297f945",
+            "39ec16e547a550bc338cfa47f0d88a5de562d40079bba1a619b8f04ee131cc3c",
+            "c7b694326aa51bc1f4b349bb53ba2cf22cdbd5335912ddc1c87ed8bc7d5a8b55",
+            "e5f56fe4711831047617809f7f7479fafd04b2a33c6b9527e5fc03e630593804"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_goal",
+          "task_id": 9,
+          "task_name": "put_the_wine_bottle_on_the_rack"
+        }
+      },
+      "id": "regmeanpp-spatial-goal-libero_goal",
+      "method": "regmeanpp",
+      "needs_build": "regmeanpp-spatial-goal",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/regmeanpp-spatial-goal/repeat-01/libero_goal/eval",
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "status": "blocked_until_checkpoint_native_acceptance_and_resource_claim",
+      "subset": "spatial-goal",
+      "suite": "libero_goal"
+    },
+    {
+      "command_template": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+        "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+        "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+        "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/regmeanpp-spatial-object-goal/repeat-01/libero_spatial/eval",
+        "--env.type=libero",
+        "--env.task=libero_spatial",
+        "--env.init_states=true",
+        "--env.hard_reset=true",
+        "--eval.batch_size=1",
+        "--eval.n_episodes=10",
+        "--seed=274001",
+        "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/regmeanpp-spatial-object-goal/pretrained_model",
+        "--policy.device=cuda",
+        "--policy.compile_model=false",
+        "--policy.gradient_checkpointing=false",
+        "--policy.n_action_steps=10"
+      ],
+      "episodes": 100,
+      "expected_tasks": {
+        "libero_spatial/00": {
+          "raw_state_sha256": [
+            "8653c23883d773a0d0fe4681bb17be219003c61f5ab19700ad988a6bfd2e9256",
+            "a1015637c91465012b5072973c221ac218e33f8fb31f0894b34c67fff2591e54",
+            "760fe79b51d9e1bb2b2c493149f1863950eae0a5fa902578d56379209c58ff8e",
+            "e1dcfaa79907a2e0681984c06f90d793790d0154a81b05bb5192a91523c1ad2e",
+            "0040f71dd4a6ecac1ba94a10ca0cea6bdedfa3252fe19615a47c29ef228d6a47",
+            "b16c02f2be431512236e2847cb86c0c1cc7178d96059396c21bf2cbd5a35c45e",
+            "4639a2d6c8297d33e9bc97c69d43042e25e747dfd65e2d888acc1d7494f05369",
+            "b3ef9154198d4c8f41f83bd89154d72d3770ad64aec57b50fc8943c0015b9625",
+            "a016e214c375fb1ce615702e0a803828bddda483ea42c7a9b60fe8c7cc6cd5f3",
+            "46557f1695aa8fbdbd1b591027960288dbe73d95235df33e9db2dc2f9ae1bf4b"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_spatial",
+          "task_id": 0,
+          "task_name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate"
+        },
+        "libero_spatial/01": {
+          "raw_state_sha256": [
+            "1204e963d3dc74ca5c5ae4301e180f5c4fd4b48d2e3f3f32427be5aedbbd1181",
+            "0d53cdc87a86c65a424841a02f596b4bd745f7dda1041d3517d097db8e3b8949",
+            "a372071d43dc5afe28d267918d67de784f666929d2f846035da323a1c4d4c07d",
+            "cb40551c6797310d465b93b3e667e479aa095d46eb62699529e4df9381b8d768",
+            "e11ead4d4f7a5d051b8583641248e05397f67d3cefefb415a8855660c998e683",
+            "6e5a61acf109cf41349a0a1386401579fff57b6d919517d10de86f2f2d0447ba",
+            "55968e500d03c8c6e5868efc53113899c2177106cdee4c932306f3269de0af22",
+            "e27f12964c4ac239373807901b0e958d4b21ddcb7245c729712c25eaebb1a56e",
+            "9cb276c77d47e9af9c9592f8f90501f1ac9282cb820eb33e2e388798a899cbcb",
+            "6f4e225d05d10aece047ae9421898cf8766c62ce1e47113d72ff2d8ab65a506f"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_spatial",
+          "task_id": 1,
+          "task_name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate"
+        },
+        "libero_spatial/02": {
+          "raw_state_sha256": [
+            "26f66edf03f7a31f18d2b37e75f305d4d9dcc683224fa51887a2a72ff8a51db5",
+            "f18b343ac408f52479d9b8ddf057b369990015f1f0d2efa6fcaa5fff7668e8c9",
+            "357284c3a42e639d3ed7d49ee54270b87bbde784fef0885fb13667695d5b9afa",
+            "2b3887b3313fc6964cfb5f2e479d6f95aec61b81cceacfd698fab08b81cdb462",
+            "c02d0cb60f5e549bca18ece1441752fe693284c6929a5664178ffd468aa48dde",
+            "1c4983f2f5e7e6fe69d7a2f110c127b874182d326e55847ba6995ef6ca09ba3e",
+            "2532e014d37bfa7f9e40ad7239513dbea05f47c731b8eef32c32ba6032cfcb0d",
+            "bddd2a52591a2afe8e4d0c3fe8e93d064d44f51682b9cc778837e255df9cfd9a",
+            "2dc6d68d5200b45bd0efe844205ae58f4728e4fbe84a6b1cefcb7b46db809973",
+            "ae1627c0e8c36cf9312f4964e26dbd4acbc181efe3b4fc5fafc65461ced57fcc"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_spatial",
+          "task_id": 2,
+          "task_name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate"
+        },
+        "libero_spatial/03": {
+          "raw_state_sha256": [
+            "c5e7c47cb2b26735698ecf54afaca3dfc999f166760cd7f7f0c0affb7e8ddd5a",
+            "1aedebbce1956be8c31b144fdb0472b8d64995ca0a8264ff62d5a0e8f85c87e5",
+            "1af3ddb301ee0bf13d9a0e53104159986f8659453199184a66cefd768880bc0b",
+            "9d02bd1ee4542d5d9d9dbdda641ff4a66748c35baf0b32b5398d8ff2954f6c89",
+            "366509726e17ea20158ec708aa45e720abd04d9cec960fae277194279e5f5fee",
+            "6f17a5e2d9efadd7da785d7d370d6ee6dc6d7f7d4f86c4e14547ba83fb26b8ed",
+            "a209284cbdf21b5aadf30a1d6ef6bcb582e2aad25f65570185dfcf51c03d5bf1",
+            "57d5c45f711a2a1a65433970ff38186069e776316e116054b55a3c269811f31a",
+            "605df423c81acb39c247d44cd542d66abc79c40c022cd6205351a99326a4e916",
+            "0e963dc2d8547cb6b383ac2202a2bc6933f34d53e8eeed7da97f234c2d3e5e99"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_spatial",
+          "task_id": 3,
+          "task_name": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate"
+        },
+        "libero_spatial/04": {
+          "raw_state_sha256": [
+            "98f1c4fab49220344ca2defabc5f86e31c3589c286b3be4524f57b22d790743a",
+            "7b20172a098c2e298f31f00525fc36f25dd95733450f901c2bce917bcd6c09a2",
+            "32dac38f79fd15b36a6c89abf962cc58f67416a79a39f2e41af1f34d7abd2837",
+            "7afc5df3ced927f4a72a9f330d715143c3f213d8bc6d6e0df61a7fce27e0be9f",
+            "c6b762dc9482ee3d2512c01530aa0fd95d694499faa85aa7da45380e919e9415",
+            "2112a84315cd2791a2c8b915b185abb2a56b516efe1d385933fa1b079a52fd81",
+            "c4e7ed7b9e710c07441e9206d714ee4a74fa7936e33f00b2d00af5ea27fbc89e",
+            "5e54934d242a3d6dd03d18282bcb4bf321215a9b79ad5136da5e476bdda4dff0",
+            "e92230936beca9998d5b4228ff6e7bf30d2a087f8b859709b16d3f258510489a",
+            "ccb62c2b8ac5b1fcb503f834f4d42a84c8082c28717ef7985b84fd5d7e1f5b40"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_spatial",
+          "task_id": 4,
+          "task_name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate"
+        },
+        "libero_spatial/05": {
+          "raw_state_sha256": [
+            "79c94d94fe032771f294ebad548a05aa9dc51935e28fd9371295927978faef7f",
+            "05ba06f4ab73e2da55cd3aee35ad778c7662c7a825f3415c436e2efd7bc137a1",
+            "1f28fc6c2c846a15f4b5ede1c0e7f498ba5f91e8a893836393b73348e4d81d8a",
+            "2dda34e842a5624a6e569582ddc774cd069ef6528d7de4dd334527b50819c200",
+            "e616b2e22f98d04942cc90462a7f030f6889e152a046b950e97985a04e169bfb",
+            "3da20b884cfc45ae22ee3227dc40578bb053d43d885b241fd0d0163c2eb4a522",
+            "11f2dd3ffe1e4cebcbb96b3178f18423ac1bdb1d537a03c25254386819ea0525",
+            "675e0f540ee42e8ab54ad1399fbfeea89a18b67e5ee26ec9c8a10281cf7e2bff",
+            "c94363bb7d564b68f9319098540ac678f353221823dfcbc5e93ec1e39744bda7",
+            "5604ddb316ee22bd1782afb5df620b86e0e90b92607cfb0998287ac9a5b2b68a"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_spatial",
+          "task_id": 5,
+          "task_name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate"
+        },
+        "libero_spatial/06": {
+          "raw_state_sha256": [
+            "ee38168c8d7d66aec31c01bde6c73d7689963c5051394bae867b49316c00818b",
+            "17ddaf49673d8fec9f1a65f591da1c7a492d00f2300651c65cf142e10bc4e0e3",
+            "be2ab72e16b9639d9c339eca98d74a98dad3e611ca47c8a4d5346c1469b8a7a9",
+            "ca4c782fb0ac2bdedb9b0e1d93aa62c445b85f3023c2a42b8c7aab4f1cbcc567",
+            "a9686a4c94b612421616070ea5615acb0223cea5e9891cce25f4925b1a6e2251",
+            "8e41e1cb68c4298b93bcadd1376c8afe16aaac7d62748d6866dfdaaafbd272a7",
+            "d1fb522ef830b3fcd281719afa36511e7c88a151b047345687317405a4c30005",
+            "12381f3e1485cb0cbf552febcc16f965461ca84f3d6d5952df73f722fcfde937",
+            "af8e56178ada9d4638e05125becacbba52b3eb012be8794415066b470e4e4d28",
+            "1610b9a6244ecaf4d8742dfe7f650e376b98f4514dc8aad4f467b2100b91c9be"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_spatial",
+          "task_id": 6,
+          "task_name": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate"
+        },
+        "libero_spatial/07": {
+          "raw_state_sha256": [
+            "3a6e999f1e16aa165bbe4120473b621611f14b23e039c8919d30fe429a632284",
+            "983ca88e9a89f0d99fd5d8c58711f2067530fdbb4e5edb3c677074856adf1817",
+            "a155c5790666a640ea7cb049ba243ff79f8fcae4536018eb09a76005fcc10448",
+            "5330964208ff3452a55b1f1e7aa8e4970f8186c441da6b7146b61df2388e20cd",
+            "41b00caa245fb6187bba562904fa71e717c9ee1f68f23ed86e2fe0fea8e2c77b",
+            "6a2873443de70a4c6ee5b7e3230b6721c4007c647645cc59b5d7036c8914b9d4",
+            "050bd4940204c099e3643dd1687a025ace9482574dba78151b6ffd981978cfff",
+            "b75c3614e8077cbe488145b153b985ae51d71efabbb2b17ae5b0c1566168964a",
+            "fec34a68a866173040b30041eeb3ee4d59ba9b09beff59d58a51c9bc37caec80",
+            "4d81803b70860bd5ad21acbf6b6337ac5c497a786b6341a423c2e394390056fa"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_spatial",
+          "task_id": 7,
+          "task_name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate"
+        },
+        "libero_spatial/08": {
+          "raw_state_sha256": [
+            "a8aaa9f60b112f733f7a42ce28422e60c9b23396490c25d88189caaed796369d",
+            "f24ee5c32d9462362d8a8c7e958eccdfca6c1d4345d56e98c6cd181460533a7d",
+            "4a50c609e17699f91aee9afdcdc2043086470767377bcf156004cbaf80badce6",
+            "b5e4dfd426335cbfc4bf1b49367435338f64292d6b5e6313565871bb5c5f3d63",
+            "181aa4974b866d450a7137ff7c32622d82fb8126976d3c176223cf94390b8f66",
+            "0a3ea22916bd7afe055bf78731eb6b496813953e6869a50f533fcb4ba86a6286",
+            "8f8c28e852dfd2ef9771f0a196dce037f1fb495c4e8cbe8655884903a390de1f",
+            "124363a32a70209a863a3c813e398b0223b960c0b768132f708c17144988c66b",
+            "98eed09d3e9434720407869847a5b874be582578b2186ae5872567f3a251585f",
+            "3461ae07a4616aa042d21709b101b9db0661ab355f550c9d237aa2b93ff13326"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_spatial",
+          "task_id": 8,
+          "task_name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate"
+        },
+        "libero_spatial/09": {
+          "raw_state_sha256": [
+            "367c388a2456328636dc3451c4f405a4ad7cb4952321d1c683c4bc26b3376d10",
+            "8977dbffb001f56f3332f1397d54414e0b8c9bbc84f33bcf03530fbd2845b35f",
+            "0da8b31286a73d4309c51dd2a1d33c78b7a45897628276070555e8f4b18e9f3f",
+            "76d9b168f6a988aeda91a84b7c795b917b7063f10fed14c703a5564df579cf94",
+            "4422f2c125dac12835e386b302495ff03ba9d6b008bc0f97ce022b99995a49a9",
+            "11711ded92d75e31ba38e2227eaf25674b81e217852cb23f7a316208b8cf04c5",
+            "6780c2508abb6338420e0fcca0556bf5e6ce3f1619d0d57c14c7e5532cee8fcc",
+            "690f65b362a83318dec189f933a820111ee088b5d259cb3d56c440dfa82d6b73",
+            "7518c4b638523815f6f766c831f904673c5454862c8b6bd41416b129140c114c",
+            "ce24dc9dafcff03753323eae3e654b103420c70df8bd81f23c8d045e75907ebe"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_spatial",
+          "task_id": 9,
+          "task_name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate"
+        }
+      },
+      "id": "regmeanpp-spatial-object-goal-libero_spatial",
+      "method": "regmeanpp",
+      "needs_build": "regmeanpp-spatial-object-goal",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/regmeanpp-spatial-object-goal/repeat-01/libero_spatial/eval",
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "status": "blocked_until_checkpoint_native_acceptance_and_resource_claim",
+      "subset": "spatial-object-goal",
+      "suite": "libero_spatial"
+    },
+    {
+      "command_template": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+        "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+        "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+        "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/regmeanpp-spatial-object-goal/repeat-01/libero_object/eval",
+        "--env.type=libero",
+        "--env.task=libero_object",
+        "--env.init_states=true",
+        "--env.hard_reset=true",
+        "--eval.batch_size=1",
+        "--eval.n_episodes=10",
+        "--seed=274001",
+        "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/regmeanpp-spatial-object-goal/pretrained_model",
+        "--policy.device=cuda",
+        "--policy.compile_model=false",
+        "--policy.gradient_checkpointing=false",
+        "--policy.n_action_steps=10"
+      ],
+      "episodes": 100,
+      "expected_tasks": {
+        "libero_object/00": {
+          "raw_state_sha256": [
+            "ba178894acb30df7ca8649d66b55f018bb2288246914c579ee670ab826f86f35",
+            "36370fb5105474422398ff025178031e1d08aa8f7a6bf7cea8576f2e95d11e45",
+            "6d8e56711da74acfa93ee173c8a6e8718eb563e630a937d621ccf936bb0373d2",
+            "f109702b6458d3091a9da9b7f01bdea198803685193f8b547e10fca273548c54",
+            "82523c3b22a0ea683c81ea3e4b79cdfbe745a32a8d1e9a43227054387f43c61f",
+            "ee870d82911776658ea55a24a8e63b7c3527c5878830f96cb935381fa1590cd7",
+            "6bbb47a39668eecf2ed1f0dc7e4008466682b873b6fbffaa7c7beeffcf74b848",
+            "e9561e61d4f7148c7b2374bd5e3978f11a53c037dc77d6ae3495191837f9f497",
+            "aa09e9a5e11949d13e8152cb11f30753f0328f3a0a39b09b5d39ac1edfe9a0a1",
+            "404f8c91118e7c0c8d655af5c05d69416ae498d70e6a99a3db2bcde752011ebe"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_object",
+          "task_id": 0,
+          "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket"
+        },
+        "libero_object/01": {
+          "raw_state_sha256": [
+            "eba78f79f8caf2c5ac16c226d00aa711a8444b10b366d6dbea90c16e58aa54b1",
+            "dc8923f34134f8e752945ea762a8d1cec49ebdfe66fb425c2476d056d35ce571",
+            "a26b5c7c09eff7c992a2db809e42ba1e05ba75b34dffb8546d21c0afe6f9114f",
+            "3c12e07a8a25bcf2e02ac16e5ca8f2eee896f19d50294b1dcbfa535e746e66a1",
+            "edc6760ffa660855b81e8d3b68420ccf80e4f7b62a4fb1a85ca7fe04873ded80",
+            "cb57f086da26d32828fef2c3b221d9bb0c3f214b9c8d97c0f6dd59e3494f7fb6",
+            "c304990f4f7d5766569324430d79ef29b85c7da82ae2c1c2657123e2397663d4",
+            "88d8f62a1ec7c961acc114f40a9d9521ff66ee0a97347407f7bf9222b8955dff",
+            "5bc7c9f1ac6f5e0d4442c880962183b971c2b64ab19a910998c9adc0c3d1eeab",
+            "1d2b54bfd92039ad746cf74991c534b97ac00c6ced05720e081691a8ed3feb26"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_object",
+          "task_id": 1,
+          "task_name": "pick_up_the_cream_cheese_and_place_it_in_the_basket"
+        },
+        "libero_object/02": {
+          "raw_state_sha256": [
+            "cf69ccde8e3f1336e8f424a7c82d5aaa31576d2773b915339cae51f06d0786f4",
+            "c48c10538c37d5ee8b204402e16f0087ac41bbc9038f506137b11178b9b95b02",
+            "de8106ebf7a56e5351c6437ab2005ea013c5b1d57b600decf40d070c557cf02b",
+            "05ecfda1bb3ba022c946717c948d317b89f9d9a6a3fb4e28c56abbfecdc4b91b",
+            "c166fbe04dc199f00953db981f6d72a3e19da5fb84ee42a5aebf7f474f6395ce",
+            "a4f51ea2118d30054f067156b3ac97a19249865f6c94ebddeed0aba7196c7bf5",
+            "ed5c1b31caa0caccf709f18d6c928ac23cd24f50239e5a4222c8f85bf5711b1e",
+            "2480e54f9fddb26e32dea9996a1acc73ee5f518031f6207f39ae731060f64a6c",
+            "1cee37a01fd83316588813a512847b008446e6ce6d9993750d590f0efe649ed9",
+            "a0a20de3c43095f7d977d34758b9066d9d986df86f46b470d98ae2258d51c841"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_object",
+          "task_id": 2,
+          "task_name": "pick_up_the_salad_dressing_and_place_it_in_the_basket"
+        },
+        "libero_object/03": {
+          "raw_state_sha256": [
+            "5e8edb455221e98cb99d180d30d56b96e5280e5532fd591ba5c00c3fb9ad8039",
+            "f75cc36695498dc3e16ea3717ad706c371eea7d6e301f452073ff016fa84d3b2",
+            "c95e880961ff7c99fea86316e86fc4e8468094cb05cb5336ddd5c817105d96d5",
+            "def181e853b5b55bca2fe3f2348813d013099742041589a628820a90cc5a63cf",
+            "84b873f49c7a1d4e1cc6153ff7ddf3903977556dcd78e6baaf148402e23c601e",
+            "d30c30f9dfdd25428afc3f4bcd2eb8514b1cd838af75d2c08c3c6300e4994638",
+            "24f554c26c9c2bd619333c17dc48b0d5aebb4bc94b56cbc0cbab05612ad0935b",
+            "23d207feb3d479f2563eead5916d7085ac3197afb4ae8f023b5b9685895a723d",
+            "5323d55d6489b183f191ad8ff0d349988aa6861c85f7c550d161c19aad6ea60c",
+            "2e324b82a9eca8fd806aab177388be1c2d98579835a5b07f596f45eea311ca79"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_object",
+          "task_id": 3,
+          "task_name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket"
+        },
+        "libero_object/04": {
+          "raw_state_sha256": [
+            "e9380a6dc88ce93a69c9699946970c584676ccd68e98c1afccd35545747dc7e4",
+            "6d7a3f4f5299568bc1ffef61de240c54ca42a7921f988265c682ca6bae906131",
+            "ad9e248bc91acf8ec8e60d9b97c8d2e17c287d2f67fa3e01cc7ad34ccdb12c4f",
+            "9802437a1ad0a2fc4bcdfd683ab694b4691ccb545a150a1d69f38cf09f1c9444",
+            "051500a384392b289ff7c856581f2732fc24f9d38217e1fa77592439b21bcdfd",
+            "cb71a881ed8a1dfb5c6cf0d5851d557db964e0206ea3eb4b4de1e0de436524a9",
+            "b5986c0c37401f41f42ffbc7098c83a2ac48042c9542cdf1a2d91f4110b2616c",
+            "eed843152409b794bee7994634ccc19b07a5336b4d7a1f3868555a2de80fd167",
+            "324b228160452d651c178388617f19c69e80f1fc8690df46194c7a2bf8fc81d9",
+            "0a8333dd1bb86f0396edfa7bd78b6ca489297cea1f7a9bac9b465b9344f160b1"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_object",
+          "task_id": 4,
+          "task_name": "pick_up_the_ketchup_and_place_it_in_the_basket"
+        },
+        "libero_object/05": {
+          "raw_state_sha256": [
+            "e6aea3d19d17c00a09ddd480cb50da44789798375c42e1860006cb3072702ec5",
+            "f6f533f661c34c760cf0fbe897af0134654e01f0947e017758c7803b82758e7a",
+            "71c2805c56e9416fd9fc592c7b5e8e377fd28fe2d7c56f39a65351fa6b7793bb",
+            "cbf20b83b2e1fa6c1990a03a47925c98e5b0897f28686685c924be7154125031",
+            "a74a72715526d43dc5c43dee5208c0112a1f2f312414d92831a492424c94656b",
+            "43ee58e2f80286c1abc8b58f8d62b676924133b74d49f6eba52cb823c51c4739",
+            "dbca8f097eed7da132b3b12a8a8e9ccd62cc2b51f1c43b91659fe8a8e68e269c",
+            "c1b4ec1d08c617b62562f5d76e181900abc927926e75891fd7b015e978873427",
+            "ca45f4757d0808ba7a8a5d3f91fbcc1a4179feaa59b5fa9c949d96a3bd9438ef",
+            "f3407158294bfc072d4c491d64b87dd6ae9e8c674e4d6ae10ea448b092631df3"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_object",
+          "task_id": 5,
+          "task_name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket"
+        },
+        "libero_object/06": {
+          "raw_state_sha256": [
+            "f24b8e97f393d7e2bf0be1c24277a9f65f8719ebdd0a209553c00e03bcc07c20",
+            "357c1a226787155f4d675c6a0dbbc76240f593fd6556fa7a03a3aae8b2e3ae8a",
+            "4eff7f5cad540de946486aa296646c635cba57beda7208218cac86aef746c6b4",
+            "8e53cf5ebbf6978aefcd527bb608bdedeb995f0023a0eb74acefead396794008",
+            "751643f501524454e0afb4e84bfbc1fa3e0da9c594e4bf9d881f5df6439b1242",
+            "73b90e085b9862055ff03b546dfc6009ea43b362e31a2c871f4566b17d79ad4d",
+            "654cbef4f39f0b6d5b6c36c8f3de5445a3a34f57b1548dc71ebf26c8be1cfc9d",
+            "745bc5ed86bbdf55576199f3c8b74474d334693e7bc9426b87dbdc733a557f1b",
+            "d3ab6ffa57f51d94e2da20e22f247d268f947df3e25b9793aa0dd7903864ab17",
+            "281ddc4934daf9bc4449ac0c941207426cb35942dcc834421d44b4efef551999"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_object",
+          "task_id": 6,
+          "task_name": "pick_up_the_butter_and_place_it_in_the_basket"
+        },
+        "libero_object/07": {
+          "raw_state_sha256": [
+            "9a961fffdd807158bb074865bc63b166e694fa452cb54fc22ebad7661e5c1914",
+            "dd809e8151588b94a694e63ccb7724bf4bb5c058aac59365c6b1798b9881b622",
+            "4806d06811da265272233b8e7ae51fa3e4c40d0bf2d078c1ae8d61f60c596add",
+            "4da6d80d0c8cbf55ea6a221a0f919232acfa0672305ba9a3f4dfb02c727723ce",
+            "61cb06f67c1e6d0ac5f64e98903a7946e7ee5507085aeb476742170e8d3f6535",
+            "019e4d08b243e52a3b4dc2aa6e1f17cc7e2141ee647846c24856d812b7021d4c",
+            "8615b23cab1cdea4304f9dc7313f3ffe6b1d4a581eb6674ac459b5330f9da279",
+            "5a1f667d14875ac0b2362a8a4d6c601e1fb6b4eb23dcb205fd58f010ac24f1c7",
+            "cc5f1cbd1dbbdac22bc3ec82ffbf55c46aca45368cb88a0aa813b7a1bb15c464",
+            "6fead3699910c1e9eba2201b46e1c5f1dee5deca2cf6787f7d7426a3ceed51bd"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_object",
+          "task_id": 7,
+          "task_name": "pick_up_the_milk_and_place_it_in_the_basket"
+        },
+        "libero_object/08": {
+          "raw_state_sha256": [
+            "7b6593745833aa3e7732e5c03349dfb5fef6d59588276bf5ea6a0c401894baed",
+            "d3ce77c9bbb67380e541103b39a9a650ba7eb412f191ccfd74093cc8204a263d",
+            "a53d1f5269547197abf87c9c83d39ffc211c3dd0d6ae9f0fb053b78167e92eec",
+            "8182cc07960b31d49954d3067ee3639519ea38adde5190df0925305ff635710f",
+            "6493969b78fa48e5eb8bce53c082d425c411cdec3d179ad75eaa9a3107bf995c",
+            "7b06fd31004b977a8603e4852988c15a290a343e96e9bad29d0e3ed8ca07193b",
+            "ff4fca13273d514e38ddcbf012c2b54ba504e1961efe8af4fd5b6eddf11c51b1",
+            "982ceb2065d8a3e12a8a1fddf539913a5e11cf5d367b1b3b7f745d420fd19927",
+            "5d58f3284798e4a8fb9139c98138ff3ccf95f3f5ce0915fa13a1dd930d2ef7be",
+            "5097207df528c69c7153654ebcad78c4f3ae84d9eda177a5e10c7dd20e0100e9"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_object",
+          "task_id": 8,
+          "task_name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket"
+        },
+        "libero_object/09": {
+          "raw_state_sha256": [
+            "8b2b63d0ec27564ac639534ae0a2e7e48fe70416ad32bda170a93a326d8a6741",
+            "8a4df64606041eb96fc13abcd1aa2cd30bd78d1851df2db5f844b119ba48f025",
+            "66e9a6f47207188b00d0ee5d9157faa7f034cb8bb3b309aedbb7b5ca84005da5",
+            "440eb63f3c4974aba763c1b1c77692a450cd6d681eeb215628306aabd3d39abc",
+            "4928845e58b440fbfeb2d9e59ed97efd616bd6c52cf929c17643c2c733b5ce5d",
+            "8f788ea5ec82ef3f8b6e60e6c0f84c12b3ddfb2d181c7085713e9947d0c5fb67",
+            "88dc5a9721ba33787f212abb8be2cd9b22e42338b91523196c6245aa966e6c63",
+            "9fbc4f3d662c20302dee8439e4f12ae61677d5467add07a6fb0ff4cbe12cff5a",
+            "c169e9925ae283d11b5bb3b7d6fe9c5f8c20d98345467d62a847e7cd69f5e98b",
+            "837589b83dbc0d335f7cb9fb13d818eb63a4187d0ebc6ec9d2feb3c87ddb886b"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_object",
+          "task_id": 9,
+          "task_name": "pick_up_the_orange_juice_and_place_it_in_the_basket"
+        }
+      },
+      "id": "regmeanpp-spatial-object-goal-libero_object",
+      "method": "regmeanpp",
+      "needs_build": "regmeanpp-spatial-object-goal",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/regmeanpp-spatial-object-goal/repeat-01/libero_object/eval",
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "status": "blocked_until_checkpoint_native_acceptance_and_resource_claim",
+      "subset": "spatial-object-goal",
+      "suite": "libero_object"
+    },
+    {
+      "command_template": [
+        "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+        "-u",
+        "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/eval_tcr_10k_formal_bounded.py",
+        "--procedural-bank=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+        "--procedural-selection=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+        "--output_dir=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/regmeanpp-spatial-object-goal/repeat-01/libero_goal/eval",
+        "--env.type=libero",
+        "--env.task=libero_goal",
+        "--env.init_states=true",
+        "--env.hard_reset=true",
+        "--eval.batch_size=1",
+        "--eval.n_episodes=10",
+        "--seed=274001",
+        "--policy.path=/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/regmeanpp-spatial-object-goal/pretrained_model",
+        "--policy.device=cuda",
+        "--policy.compile_model=false",
+        "--policy.gradient_checkpointing=false",
+        "--policy.n_action_steps=10"
+      ],
+      "episodes": 100,
+      "expected_tasks": {
+        "libero_goal/00": {
+          "raw_state_sha256": [
+            "8fa7cee8a7809e57a29ec31b529a09ad0abffe70114ff748a80bb452f7001baf",
+            "7f222dd0f0dc2045d4690a13c7b16c9f710ae6ecb91dad09d5201ca55a2b47f7",
+            "201c0c6ef64e91eceff9ef9c3c07f488a36179e30a7a8371e2f3bf70677db11b",
+            "05f52307ae01529db6410cb8666edb46fcaf6d5cba05aff5c25a862cbe9ec2c7",
+            "5cac8117d61d6278c84da20acbcf70cf9506bce3691ac7fbe04656d8f6ab782e",
+            "9d7f7d11c31da2d314b74b02db39586fbec87d02b8b94f5c90810630500975b4",
+            "b4deea40e9c580c7d2d61144904f2cd23b2e17c50e78dfbe5b240db60c4f46b1",
+            "5eae947d26eb1bd0efb9c82c95b83536137b92a0f9bf172118ff426ade17ce29",
+            "ca0738b298d923d2d99e3e28222c131081cb37ff20021bba22199ec67fd55878",
+            "9b8ff8b55e2373f298b266ba20e0583dd2639fb836879c7231521ff8a06bebe9"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_goal",
+          "task_id": 0,
+          "task_name": "open_the_middle_drawer_of_the_cabinet"
+        },
+        "libero_goal/01": {
+          "raw_state_sha256": [
+            "411cdc0d19763a342b6c2115cee4a75790bff9db4ae507567f3311529028bfd8",
+            "2f1d522fd76347748c5e53633faf91bf0151a455ab22f30d1578b461d8cfacb0",
+            "a113a03a481d4ee1d9b8d29dfb86781f2931349c9a93f0d3b3fc18b17395437a",
+            "af2e46ffd81ff7406652e8330b5ae438f36e05d007ca2826cabc31b054203a8a",
+            "ee07c0d9b2e00759a974e12a7ff9d70c5534dd60b0a4446fc8e897e2304dcb25",
+            "913174afd96dc51ccaccd0531d5d006358dec01cf9361296ed791945a94a3fd2",
+            "8c8ab56650f3d33aa39f174375f88e10e9b20f562d23889e1b33b2c45e46bf74",
+            "4dfe93737096523da8029aae2d8cda4938ee7296eedf0c56c7d2a8c318b2807b",
+            "4b5d405fc4550f060447320b5cd75b8d0b3f2418c31111e6ef4b285e0fe80c1d",
+            "6a74c5c88d3f9ab437a9d990f4fca245fa62e0a84fa492b9d7330ba414a6b361"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_goal",
+          "task_id": 1,
+          "task_name": "put_the_bowl_on_the_stove"
+        },
+        "libero_goal/02": {
+          "raw_state_sha256": [
+            "01a99824ed3bd0cb10e611f3e8f57e0dace24ec63061c9efe4d7c1d7a526f074",
+            "bc0480520f4727c318572bb8b1b88a71db738e019bbdb751212fd30fc1830ea3",
+            "0881a064d1a23a8eff5bcc8b2c8c7ac3644ad74ddac8395ef1e502d531076742",
+            "ed0a5ad3f4c6febb543a179c7040cd7b3314d5ea035fda36fb156a0eb6a3bbc5",
+            "5d82be7f5a4d0b2df229d6f635e49b56eeed781ed8fd6f086307ea8f3998dd67",
+            "57470affa9d7084a712b2bd039d5fb801c744f24f8eb66d65ddca30b404dbfa9",
+            "86d2da739a40c7a7aed7ae77c49cff3e811597a703a7f8ca9bc1a34d3bc2b550",
+            "4641fce58248bda42a296d554926b92446c8a473a5925b819292d929bf2928cf",
+            "a9f3add553dbd8af2f6bd443c883772ac88668835bbbe8dccd6666a077924dfb",
+            "7dba1bfdc54124811527179e664e1c11ee0ff3cfbbd35df15de50f5eae2254c1"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_goal",
+          "task_id": 2,
+          "task_name": "put_the_wine_bottle_on_top_of_the_cabinet"
+        },
+        "libero_goal/03": {
+          "raw_state_sha256": [
+            "9ef7f66c726a36a1448ba5e83985e42df2fd3d3b9738566733d5e8b24d7e353e",
+            "15791007a6af8b03a45ca688bacb49405e8a88a2dc0aa51ae21a319f67d5d2d2",
+            "2f14ca1a0ddded14521dedcf5b1ab7f22cafe24db3e55ab52ee020ee01ea3c9f",
+            "823e1ee2192c6a2e516acae1c74021ad94dd28027a1cf47f36b3a12be91ff171",
+            "cfa7fa4283817a7cf1c6e0758a7cc8597c428754923b7d4ea4dd8ff65cb8e41f",
+            "495ad683d62c63c5fa1b6d562f05d1202d72c023d3544cc4120b956bc341f152",
+            "67b9031bf3a2c2c5bc7f81a9147de0a553e706f21bfe513fcb3ccbe0d4bfc055",
+            "99f0ccd21c112b62cd012e498d905a9b58354efe37db84c09386ebf8b00d4754",
+            "06a1c3c934e5dc228284455b20e49d7a5bc4ceda0bb3ff23cf37f7af492d058a",
+            "adb40bbd15d7bb2221430d65b92e5d660c1ae3f766ea9b8b55d310642f456822"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_goal",
+          "task_id": 3,
+          "task_name": "open_the_top_drawer_and_put_the_bowl_inside"
+        },
+        "libero_goal/04": {
+          "raw_state_sha256": [
+            "79616c78595c67a3f7317d5813b44c3efdbcfe500a99bed566807fd4fd31f7ae",
+            "a6fc56c9f7566f5a8d6e3350a245b4f36b607697abe1a76ce06d11e394505d46",
+            "0563a0387b2787634b4c865d7aff210203b8a39731490701a7ee62ea8ef98eeb",
+            "7cceca92ce450691c9752f9d2bdf0a068ca0d021c3f6ccfaa4eeeb978c5c3499",
+            "49188de682f041b18d6f6f42e72cf53a75dfcb2462c2de328a3c56476ed67147",
+            "22329dab8a8b8fa0126519382db7a1dd0c2684996ff7633245a17f990a71e4e4",
+            "92bd668bd06fbe24c7e54a650b10aa2704fb10a56c69e7122e6ea268fcd83c64",
+            "999a0a4ea34a2270f0ccce1b94c3e361f28f07866625642adbc7733ca4e10ad5",
+            "92af06c28dbb7ba14664febfc483e1f8cc248f694f69e269e53c7557cbb5dff1",
+            "a540a327f41c39ceac451c89066d283cec937baa1ee2f043e19cb78706959a96"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_goal",
+          "task_id": 4,
+          "task_name": "put_the_bowl_on_top_of_the_cabinet"
+        },
+        "libero_goal/05": {
+          "raw_state_sha256": [
+            "e2989a42fb80957245b32a1a87208eaef10e2fcc6d244cdeba0c1f2278674e16",
+            "0bc842dfc3e4c856fdd0a7fc3b57df0a9d5a56a72b471f1139d69b4537eca886",
+            "9f18a6557cd3c227320b4d2e9a00ce7a5ca951b53840d2eeec3028d26fbe188d",
+            "32c2261f2d8b33268c5fcfe447a7686c67eeb0b43f8ee9eef96718f3f8dc645b",
+            "60ea90168c51afae959802783ee514d9dd2045b653ffef259b730146627dc9be",
+            "52276b25de5c86478271a191cd04b60bb44e058298df368868e7469e8734a87a",
+            "7976cf8ae7369182200721f6eb8a05be92ae28f2fa8ff89181b949cb6fc4b388",
+            "d7c34eb40b72ea67fd0df79c73431db99d667b9b6cd0d11ea0716bb3bd5940ea",
+            "884a81d0e7037088e9136d917c83528d3dd1d40de1cfdd4c23c2044df507fb82",
+            "dcbfc4bb8529437f5c1ec4571421eb3a81d0b941b0b580d65e2344cf7d93198c"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_goal",
+          "task_id": 5,
+          "task_name": "push_the_plate_to_the_front_of_the_stove"
+        },
+        "libero_goal/06": {
+          "raw_state_sha256": [
+            "b70965ed406777dcec4b19b690f7383fa7961b3e0217675555dad57c9be5182c",
+            "ff614a85085972a5f578228d9cbd1e485b3c56ad99d5abd57e1edc985fe137f2",
+            "fd64c0f8d0ca94d37f84c61e4f2efa1453d4844d3c6ee55dcb9c9a3b4671ed77",
+            "43248b3b541476e8ea3446b4b691775edf8c1a98124a82ce2479ea094496b331",
+            "4bb5d7cc170d686846bd9bcdb90ed9d13088cbfb04c856db5fc0b3dc43ad4b13",
+            "3eedae7453a0ca0c8455a9d6668c2624bf28297cd1055106a5e236f17f8b5d65",
+            "b190db3f8dacc3889569929e627167dacebff648578e95eddc1d98ce94f69718",
+            "2135af5d340885762f3f544fe4305c13c743c7ee84e05c5fdfe83c429c5eec0e",
+            "97f58ddd956688f9b12cf462137807fc09735bb3136c2186d5f069d62649b8c1",
+            "52342899b2b11378175dc2d4a3ca39098958645f7793f9472e9bcd9c71ff5a16"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_goal",
+          "task_id": 6,
+          "task_name": "put_the_cream_cheese_in_the_bowl"
+        },
+        "libero_goal/07": {
+          "raw_state_sha256": [
+            "35de1a126de2b68127c1e2a9bede6901fd185efea54e07266a55b3d7cda746ae",
+            "1a4232b8626be88ea54d40cef4f6c623339be14cef1aa7f3623b0a2db96e0d40",
+            "06b83565e0c955e95be33d523da74a0fc01bd8c7780f5bca9276f5b363211803",
+            "0cf4f9590454c5ae0c2f64ac4c8fd346d91bfc0a3f60f7cb6d155c6bd0d040af",
+            "dae6292e56b593eef6b14bc8e38a7cacffb72d266b5b660db0ed7339741e09c2",
+            "835408cb359852970beb5f901bfc7d90325687767dc32726a9fc799c8c0b4be7",
+            "e5932ec8a026c94334d360b47e5c16ec5b43ad250d26615dd1f9317c3fec98f5",
+            "d2a05b3cee0cac594ac6a9ced40f5d3840b5355734cab1281cd037c391b9b704",
+            "592eb38d9e6ed00cf175130ee70795deb963a891d1bb789bba0b7cce954952e5",
+            "a3d3ca581749958378480570f21ee515cd3c93d6434c6d912a7db807a0062e26"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_goal",
+          "task_id": 7,
+          "task_name": "turn_on_the_stove"
+        },
+        "libero_goal/08": {
+          "raw_state_sha256": [
+            "c6c2755354ca99d7a1a9e17daa53803141a0b11a78b8da6f8e9bbf2f849412b2",
+            "92af14ce5fbffc1d770a491af52b591fb4c93f67d6b047d93c9eb8c41ab998f5",
+            "b41f2a7e04f99010d81fe22dfc2e8e335aee7b3c2483ef5730142216c0e618de",
+            "049adfeccd5bcaaa77b23fd4c922a7d36686a2c2f49270c8038edd53b8134d83",
+            "4dec439db325455044e0283ab8311eaa1be563846f8f0105d705cf065e9e8ac8",
+            "81995a98bc1c5f7a7a4767ff30a3270bd12a8a21ceb1a701c689602f689d0d57",
+            "c6c91cc26cde15bb64ad0653f533911cb544cfa9df61676c7247abf7ed928f78",
+            "a37bc75b294656c8170bba59bfd9636ee80f6707d31e4231564dd293d3ca3256",
+            "7131cd36d34600b9f3e41f45dcba9252dbfa2a442ca79f2ffbda30d098bd140b",
+            "68e664ea3752c7e875ac48a2fc76c2a26ec9593f575547ccfe9e5b6fc9fe7c28"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_goal",
+          "task_id": 8,
+          "task_name": "put_the_bowl_on_the_plate"
+        },
+        "libero_goal/09": {
+          "raw_state_sha256": [
+            "62af3e2e85e2fd4affc1825f181bf6f33c5b1248299e723ab4be81c08461f7c3",
+            "0f04d20051fead300dd107198330c88a82a48f69d38912320aa724596e7e71c3",
+            "f00ee23bb7b0dfb585d7e181f349be944356724d746366cf4b67a9406a9c1cd6",
+            "a5dec9eb5be8a416fa0225efa5845ec76f433cd9447632af7de4d7a4563e8080",
+            "9db9ea46dfa7f600354560cf93d900b30156e5f91d7bedb5c12715119f8dc1d6",
+            "bab4ecde5e8cf760147c4330241596c483f915715ef922b8620bf85af3c8abdf",
+            "8cebb49313740806591eace5348554a5d72049f6da2fa40d578cfe6fb297f945",
+            "39ec16e547a550bc338cfa47f0d88a5de562d40079bba1a619b8f04ee131cc3c",
+            "c7b694326aa51bc1f4b349bb53ba2cf22cdbd5335912ddc1c87ed8bc7d5a8b55",
+            "e5f56fe4711831047617809f7f7479fafd04b2a33c6b9527e5fc03e630593804"
+          ],
+          "state_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "suite": "libero_goal",
+          "task_id": 9,
+          "task_name": "put_the_wine_bottle_on_the_rack"
+        }
+      },
+      "id": "regmeanpp-spatial-object-goal-libero_goal",
+      "method": "regmeanpp",
+      "needs_build": "regmeanpp-spatial-object-goal",
+      "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/formal/regmeanpp-spatial-object-goal/repeat-01/libero_goal/eval",
+      "repeat": "repeat-01",
+      "seed": 274001,
+      "status": "blocked_until_checkpoint_native_acceptance_and_resource_claim",
+      "subset": "spatial-object-goal",
+      "suite": "libero_goal"
+    }
+  ],
+  "fig4_plan": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/plan.json",
+  "fig4_plan_sha256": "62ff0891df02a75d20a8b724f70f93a8373f75852a7385c88034993c326d7875",
+  "four_expert_endpoint_reused_not_queued": true,
+  "gpu_jobs_launched_by_preparation": 0,
+  "host": "dsw-824375-57c745db88-n6tv9",
+  "native_request": {
+    "manifest": {
+      "bytes": 67719,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/spatial/manifest.json",
+      "sha256": "6ded802341017e8e97f86b11f326bf969f3fe8ada6c33d8e9fe4e9087bf539f4",
+      "verification": "sha256_recomputed"
+    },
+    "observations": {
+      "bytes": 90444942,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/spatial/observations.safetensors",
+      "sha256": "8ff070b010f27a278b44e3f655969df111e7a843e1eb4e439ed9cea4ddf21190",
+      "verification": "sha256_recomputed"
+    },
+    "sample": {
+      "episode_index": 1261,
+      "flow_index": 0,
+      "frame_index": 0,
+      "index": 0,
+      "noise_replica": 0,
+      "noise_seed": 202609220000,
+      "observation_index": 0,
+      "task": "pick up the black bowl next to the cookie box and place it on the plate",
+      "task_ordinal": 0,
+      "task_slot": 0,
+      "timestep": 1.0,
+      "x_t_sha256": "1d28eb365ac9d248acb349a59d171846ecb4f8055c938ee60994b3a124aa9894"
+    },
+    "scope": "One preprocessed static observation for native export acceptance only; not an added regression sample or success gate"
+  },
+  "no_parameter_search": true,
+  "no_retry": true,
+  "no_score_based_gate": true,
+  "no_training": true,
+  "resource": {
+    "build_slot": "existing host-wide build slot; held through native acceptance",
+    "dual_leases": "existing host/UUID card_flock plus host/index resource lease",
+    "gpu_uuids": {
+      "1": "GPU-c18a3bf3-c47c-9a8a-75b0-5a0f37b33a65",
+      "4": "GPU-48baba1c-f0e7-93b7-4a30-b3c21d20e61a",
+      "5": "GPU-4ed28198-b742-ee3c-2acb-4183dc944c81",
+      "6": "GPU-da625da2-f504-7927-4025-907e876718aa"
+    },
+    "max_active": 4,
+    "max_idle_used_mib": 64,
+    "minimum_free_mib": 71680,
+    "require_no_compute_pid": true,
+    "require_zero_utilization": true,
+    "runtime_floor_mib": 12288
+  },
+  "schema": "fig4_regmeanpp_two_build_five_suite_queue_v1",
+  "selection": {
+    "bytes": 5054,
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+    "sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0"
+  }
+}

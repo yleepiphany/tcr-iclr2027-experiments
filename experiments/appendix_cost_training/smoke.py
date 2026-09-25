@@ -61,6 +61,11 @@ def main():
         except ValueError:pass
         else:raise ValueError('Duplicate cost record accepted')
     checks.append({'name':'cost_null_semantics_units_and_duplicate_guard','pass':True})
+    figure_path=HERE/'figure4/check.py'
+    spec=importlib.util.spec_from_file_location('figure4_release_check',figure_path)
+    figure_module=importlib.util.module_from_spec(spec);spec.loader.exec_module(figure_module)
+    figure_result=figure_module.check_release()
+    checks.append({'name':'figure4_source_plans_numpy_oracle_and_subset_contract','pass':figure_result['status']=='PASS','details':figure_result})
     blocked=training_status(HERE/'configs/continued_training.blocked.json')
     if blocked['status']!='BLOCKED' or not blocked['missing_protocol_fields']:raise ValueError('Missing training protocol was invented')
     assets=json.loads((HERE/'ASSETS.json').read_text())['assets'];root=args.workspace_root.resolve()

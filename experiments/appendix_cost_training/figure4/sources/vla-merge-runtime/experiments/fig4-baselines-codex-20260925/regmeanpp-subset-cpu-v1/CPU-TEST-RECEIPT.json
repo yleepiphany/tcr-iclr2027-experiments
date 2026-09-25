@@ -1,0 +1,30 @@
+{
+  "status": "PASS_CPU_ONLY",
+  "tests": 8,
+  "test_script": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/test_regmeanpp_subset_cpu.py",
+  "test_script_sha256": "e3c3581891ed6d09f0d8b97dc4c94556ceedf610bcc348da1ac5ce2d20cb4db4",
+  "source_files": {
+    "prepare_regmeanpp_subset.py": "2136e938bb3035e73a8e4e5b06f155cb2c140eb5baac5924bc7f810fe313099d",
+    "fig4_regmeanpp_contract.py": "252140bb33973f4ad3e01f84427760591a9cf71f7224e5353acda8b6d700bd46",
+    "materialize_regmeanpp_subset.py": "2ef3f76e312b1aab7eb0290ddaceb84ac6bc92d707e2ebd5009af98680b3557c",
+    "test_regmeanpp_subset_cpu.py": "e3c3581891ed6d09f0d8b97dc4c94556ceedf610bcc348da1ac5ce2d20cb4db4"
+  },
+  "cuda_initialized": false,
+  "gpu_jobs_launched": 0,
+  "parent_plan_unchanged_sha256": "62ff0891df02a75d20a8b724f70f93a8373f75852a7385c88034993c326d7875",
+  "checks": [
+    "selected dense bank projection",
+    "excluded expert rejection",
+    "expert-prefix rejection",
+    "subset row budgets and expert contamination",
+    "two/three-expert mean semantics and excluded weight invariance",
+    "unchanged numerical/capture helper AST",
+    "missing GPU execution permit refusal",
+    "parent/input/algorithm identities"
+  ],
+  "gpu_blockers": [
+    "Independent resource-allocated execution permit not provided",
+    "No native GPU model export/reload test yet; CPU-stage only"
+  ],
+  "large_model_and_replay_hashes": "Inherited frozen hashes plus present/replay-size checks during CPU stage; all selected replay and dense model bytes rehashed before execution"
+}

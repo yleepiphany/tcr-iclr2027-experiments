@@ -1,0 +1,8 @@
+{
+  "consumed_at": "2026-09-25T01:46:57.537545+00:00",
+  "host": "dsw-824375-57c745db88-n6tv9",
+  "permit_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/regmeanpp-queue-v3/EXECUTION-PERMIT.json",
+  "permit_sha256": "f52022536a546a2737c097c0e038e995586a08e6c04e2a8113fa02d83d7df81b",
+  "pid": 2883469,
+  "queue_plan_sha256": "c83cfbda79f58f12c322f58c0feac9e08b0109afbe815b005ce753ed7f10e88d"
+}

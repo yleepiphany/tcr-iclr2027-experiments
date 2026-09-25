@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "workspace_root_semantics": "Paths relative to the original parameter-fusion workspace; metadata only, no asset bytes bundled.",
+  "assets": [
+    {
+      "id": "fig4.ties.spatial-goal",
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-goal/pretrained_model/model.safetensors",
+      "bytes": 9354050784,
+      "sha256": "a925dfdb87a9eb0efd37857dbfdba24085df1f5a09212ceda8ac6d69dc38a5e9",
+      "role": "Figure4 generated TIES subset checkpoint, external weight bytes",
+      "required": false,
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "fig4.ties.spatial-object-goal",
+      "workspace_relative_path": "vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-object-goal/pretrained_model/model.safetensors",
+      "bytes": 9354050784,
+      "sha256": "6cf494c56f4cfaa9e18b984740c779c17de2008425dfdf8e002253ce11ced3d0",
+      "role": "Figure4 generated TIES subset checkpoint, external weight bytes",
+      "required": false,
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "fig4.ties.vector.goal",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/cache-v2/task-vectors-v2/goal.f32.bin",
+      "bytes": 10825887872,
+      "sha256": "1c19bb38c64201a78726d6a8c1ab70b70040fb11dac9c4690ced59bd5c8ca5a7",
+      "role": "Original global task-vector cache",
+      "required": true,
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "fig4.ties.vector.object",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/cache-v2/task-vectors-v2/object.f32.bin",
+      "bytes": 10825887872,
+      "sha256": "79df11655ea2fc48063a8b0ee64d7bf50266d8221d557971074d75c1be46eb52",
+      "role": "Original global task-vector cache",
+      "required": true,
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "fig4.ties.vector.spatial",
+      "workspace_relative_path": "vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/ta-ties-fastlane-v2/cache-v2/task-vectors-v2/spatial.f32.bin",
+      "bytes": 10825887872,
+      "sha256": "66baaafbdcf9e2a16561dfa23c7f1425d249e6352c22eee74ec68543e1362721",
+      "role": "Original global task-vector cache",
+      "required": true,
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "fig4.regmeanpp.replay.goal",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/goal/replay.safetensors",
+      "bytes": 4414199704,
+      "sha256": "772d7b88b670a7ed70e92c7a15fb54276907b7c29ea837292195ce57a312176d",
+      "role": "Original static flow0 source replay",
+      "required": true,
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "fig4.regmeanpp.replay.object",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/object/replay.safetensors",
+      "bytes": 4414199704,
+      "sha256": "695a6cdd40c838dcf8b68795677f89117a385498fdb81504396415ff04b83532",
+      "role": "Original static flow0 source replay",
+      "required": true,
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "fig4.regmeanpp.replay.spatial",
+      "workspace_relative_path": "vla-merge-runtime/experiments/claude-three-level-main-20260921/attempt-01/inputs/demo-A/repeat-01/spatial/replay.safetensors",
+      "bytes": 4414199704,
+      "sha256": "0f7b773d5569ba52afb79965d1d0b69632b707225b2da391c3316508939b0e3a",
+      "role": "Original static flow0 source replay",
+      "required": true,
+      "exists_at_snapshot": true
+    },
+    {
+      "id": "fig4.native.spatial_observation",
+      "workspace_relative_path": "vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/spatial/observations.safetensors",
+      "bytes": 90444942,
+      "sha256": "8ff070b010f27a278b44e3f655969df111e7a843e1eb4e439ed9cea4ddf21190",
+      "role": "Fixed native finite-action check input",
+      "required": true,
+      "exists_at_snapshot": true
+    }
+  ]
+}

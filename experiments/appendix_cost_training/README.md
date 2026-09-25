@@ -1,6 +1,6 @@
 # Appendix, action agreement, cost, and continued-training status
 
-This package covers Tables **8–10**, updated **Table11 RegMean α=.3 action agreement**, **Table14 construction accounting**, and the explicitly blocked **Tables6/15 continued-training design**. Real-robot experiments and model weights are excluded.
+This package covers Tables **8–10**, updated **Table11 RegMean α=.3 action agreement**, **Table14 construction accounting**, the [Figure 4 TIES/RegMean++ subset package](figure4/README.md), and the explicitly blocked **Tables6/15 continued-training design**. Real-robot experiments and model weights are excluded.
 
 ## What passed, and what remains incomplete
 
@@ -10,6 +10,7 @@ This package covers Tables **8–10**, updated **Table11 RegMean α=.3 action ag
 | Table11 RegMean α=.3 | Thin one-checkpoint adapter to the existing 400-request native-action implementation | New checkpoint action metrics have not been measured by this release; no success rerun is used |
 | Table14 cost | CPU receipt extractor and historical extraction sources included | Missing wall/memory measurements remain null; no extrapolated compute claims |
 | Tables6/15 continued training | Six-arm design template and fail-closed protocol preflight | **BLOCKED:** no reviewed common training budget/configuration exists; no training launcher is invented |
+| Figure 4 TIES/RegMean++ subsets | Exact source snapshots, small frozen plans and CPU/native/launch receipts; portable NumPy and contract tests | TIES CPU builds/native checks passed; RegMean++ CPU adapter/queue checks passed. Captured waiting queues do not establish complete formal points. |
 
 `PROVENANCE.json` binds copied sources/configs to their workspace-relative paths, SHA256 and byte counts. The original snapshot records its source Git HEAD and acquisition date; the five A∪B recovery additions are marked with their later creation date. Files under `sources/` are byte-preserved copies. Historical comments describe their original context; they are not new authorizations or current scientific claims. They may reference superseded runs.
 

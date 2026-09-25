@@ -1,0 +1,126 @@
+{
+  "adapter_plan_sha256": "e9b38b1e7793b31876c7c7804e0bc446e6287ec91f34d33444eca818432c407b",
+  "alpha": 0.9,
+  "base_sha256": "f2165fad32a4b431ca1488a5b886f6738be9e8b480298ecc9e0b55d87d26f365",
+  "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-object-goal/pretrained_model",
+  "coordinate_count": 2706471968,
+  "copy_strategy": "full_copy_fallback",
+  "cpu_only": true,
+  "density": 0.3,
+  "direction_sha256": "20a19091b651dfc9651ae377bb5af0d3173693c88a34c2cf9dd0b9c5fe5b5070",
+  "experts": [
+    "spatial",
+    "object",
+    "goal"
+  ],
+  "finite": true,
+  "full_policy_identity": {
+    "identity_sha256": "79b217f11d6212645089db62cb590e50aebe7b74ae4be65606012f607f31e27b",
+    "model": {
+      "bytes": 9354050784,
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-object-goal/pretrained_model/model.safetensors",
+      "sha256": "6cf494c56f4cfaa9e18b984740c779c17de2008425dfdf8e002253ce11ced3d0"
+    },
+    "root": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-object-goal/pretrained_model",
+    "sidecar_tree": {
+      "canonical_tree_sha256": "019e6c6b4ef09da0270ebd0027efb1549827daf2f38cbea4735ed5bb185edde0",
+      "ignored_nonruntime_provenance": [],
+      "raw_config_pretrained_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-object-goal/pretrained_model",
+      "raw_config_pretrained_path_matches_root": true,
+      "raw_tree_sha256": "eb72c47e2c792046eac89ea9dc6da6ba0f95c7a100db45cea4300ce2b4157dbd",
+      "root": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-object-goal/pretrained_model",
+      "sidecar_count": 8,
+      "sidecars": [
+        {
+          "bytes": 5211,
+          "canonical_sha256": "2003c7f342e78edd6048542cf83b3ce48a23c74483fe47a4659f47187440d7e9",
+          "canonicalization": "byte_exact",
+          "path": "README.md",
+          "sha256": "2003c7f342e78edd6048542cf83b3ce48a23c74483fe47a4659f47187440d7e9"
+        },
+        {
+          "bytes": 2391,
+          "canonical_sha256": "f5172f29c4710dfc5e211355fa08514b47549319a78f1200e6a328e78a81b948",
+          "canonicalization": "json_sorted_pretrained_path_normalized",
+          "path": "config.json",
+          "sha256": "10ac946fe4e11882383de42fcc054f8668e9d16069231601e50372ee1f5e7b38"
+        },
+        {
+          "bytes": 779,
+          "canonical_sha256": "e6e0c0371c2ea20b0a2f99feab26cea73a7d8994eccc4446c038958f285d68ff",
+          "canonicalization": "byte_exact",
+          "path": "policy_postprocessor.json",
+          "sha256": "e6e0c0371c2ea20b0a2f99feab26cea73a7d8994eccc4446c038958f285d68ff"
+        },
+        {
+          "bytes": 7668,
+          "canonical_sha256": "a002c0df7f79c5b169c5a899ad151d4ea1bed246c7d82bd93ed1556558d517a9",
+          "canonicalization": "byte_exact",
+          "path": "policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+          "sha256": "a002c0df7f79c5b169c5a899ad151d4ea1bed246c7d82bd93ed1556558d517a9"
+        },
+        {
+          "bytes": 2304,
+          "canonical_sha256": "d46dc51bc8f13d37eec4f3d8b0488e05d31dfe334d3ad24f96e841640743cc3c",
+          "canonicalization": "byte_exact",
+          "path": "policy_preprocessor.json",
+          "sha256": "d46dc51bc8f13d37eec4f3d8b0488e05d31dfe334d3ad24f96e841640743cc3c"
+        },
+        {
+          "bytes": 7676,
+          "canonical_sha256": "f98234b21ce8ffacf1b86657f3cf8e24ac6c31ebcd6a3b83cecd484439674306",
+          "canonicalization": "byte_exact",
+          "path": "policy_preprocessor_step_3_normalizer_processor.safetensors",
+          "sha256": "f98234b21ce8ffacf1b86657f3cf8e24ac6c31ebcd6a3b83cecd484439674306"
+        },
+        {
+          "bytes": 34387384,
+          "canonical_sha256": "7336bb4ce016bf8543de94e3a17c3d6ca502a6fc8628fec6ed88893639d7a296",
+          "canonicalization": "byte_exact",
+          "path": "tokenizer/tokenizer.json",
+          "sha256": "7336bb4ce016bf8543de94e3a17c3d6ca502a6fc8628fec6ed88893639d7a296"
+        },
+        {
+          "bytes": 693,
+          "canonical_sha256": "968bae7725ec965d9feb18214ed348a9203c857a32cd11ff6b9680f9e53bca77",
+          "canonicalization": "byte_exact",
+          "path": "tokenizer/tokenizer_config.json",
+          "sha256": "968bae7725ec965d9feb18214ed348a9203c857a32cd11ff6b9680f9e53bca77"
+        }
+      ]
+    }
+  },
+  "fusion_metadata": {
+    "chunk_size": 4194304,
+    "direction_reused_across_alpha": true,
+    "disjoint": "mean",
+    "keep_fraction": 0.3,
+    "merged_nonzero": 1616453373,
+    "retained_counts": [
+      828213405,
+      811963642,
+      813095968
+    ],
+    "selection": "exact_ieee_float32_radix_global",
+    "sign_balance": -6312,
+    "thresholds": [
+      0.003662109375,
+      0.0036468505859375,
+      0.003662109375
+    ],
+    "zero_sign_fallback": -1
+  },
+  "method": "ties",
+  "model_sha256": "6cf494c56f4cfaa9e18b984740c779c17de2008425dfdf8e002253ce11ced3d0",
+  "modified_tensor_count": 422,
+  "parent_plan_sha256": "62ff0891df02a75d20a8b724f70f93a8373f75852a7385c88034993c326d7875",
+  "schema": "fig4_ties_subset_checkpoint_v1",
+  "source_vector_sha256": {
+    "goal": "1c19bb38c64201a78726d6a8c1ab70b70040fb11dac9c4690ced59bd5c8ca5a7",
+    "object": "79df11655ea2fc48063a8b0ee64d7bf50266d8221d557971074d75c1be46eb52",
+    "spatial": "66baaafbdcf9e2a16561dfa23c7f1425d249e6352c22eee74ec68543e1362721"
+  },
+  "status": "complete_cpu_export_native_load_pending",
+  "subset": "spatial-object-goal",
+  "wall_seconds": 664.8288419144228
+}

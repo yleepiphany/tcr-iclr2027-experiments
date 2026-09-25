@@ -1,0 +1,12 @@
+{
+  "bank": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1",
+  "bank_manifest_sha256": "16fb4a0331b552c211bcb92ed3c81c7f4232c4eec88330d52056131e26d04be8",
+  "episodes": 500,
+  "gpu_jobs_launched": 0,
+  "jobs": 5,
+  "model_binding": "pending_cpu_queue_DONE",
+  "selection": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+  "selection_sha256": "39d8f7e566e69c09d564f846208e5930f106196e63b8f7378d1a47eba2ebadd0",
+  "status": "pass_cpu_native_reset_preflight",
+  "verify_source_files": true
+}

@@ -1,0 +1,30 @@
+{
+  "status": "PASS_CPU_QUEUE_PREPARATION",
+  "version": 3,
+  "queue_plan_sha256": "c83cfbda79f58f12c322f58c0feac9e08b0109afbe815b005ce753ed7f10e88d",
+  "source_files": {
+    "queue_regmeanpp_subset_v3.py": "9474687fd2210a3a1f969bbfc63f6f08e5f8df8ebb40b51f439dc73799b18c3f",
+    "accept_subset_checkpoint.py": "95d3afc1eaa228c1c1a8ecd2ccd8cc477b5c41370478f5d101b3edfc5da9fdc6",
+    "test_regmeanpp_queue_v3_cpu.py": "ae80b1d4e9d487416ddabe612642164bca5925f1cd35c4ba2e8639872d186502"
+  },
+  "cpu_tests_passed": 10,
+  "gpu_jobs_launched": 0,
+  "gpu_leases_taken": 0,
+  "execution_permit_consumed": false,
+  "builds": 2,
+  "native_action_acceptances": 2,
+  "formal_suites": 5,
+  "formal_episodes": 500,
+  "build_to_accept_transition": {
+    "maximum_wait_seconds": 60,
+    "poll_seconds": 2,
+    "same_dual_leases_and_build_slot_held": true,
+    "foreign_or_reused_pid_fails_closed": true,
+    "signals_sent_by_transition": 0
+  },
+  "state": "Prepared, not running; separate single-use permit required. After run is authorized, the queue waits safely for the PRO-owned cards to become idle.",
+  "previous_cpu_drafts_preserved": [
+    "regmeanpp-queue-v1",
+    "regmeanpp-queue-v2"
+  ]
+}

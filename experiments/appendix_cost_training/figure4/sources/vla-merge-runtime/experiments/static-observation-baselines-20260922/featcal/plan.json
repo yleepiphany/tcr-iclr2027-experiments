@@ -1,0 +1,112 @@
+{
+  "allocator_fraction": 0.8,
+  "alpha": 0.3,
+  "backend": {
+    "tf32_override": "1"
+  },
+  "bias_policy": "retain Soup, unchanged from earlier port",
+  "calls_per_expert": 150,
+  "claim_boundary": "VLA interface adaptation, not official PI0.5 code; removes future action labels; does not guarantee lower performance",
+  "covariance_eps": 1e-08,
+  "demonstration_actions_used": false,
+  "evaluation": {
+    "evaluation_repeats": 3,
+    "formal": "same checkpoint, paired formal bank, seeds 274001/274002/274003; 1200 episodes",
+    "gate": "40 fixed development episodes; stop on all-zero or numerical failure",
+    "independent_builds": 1
+  },
+  "experiment_kind": "preregistered_input_protocol_correction",
+  "gpus": [
+    0,
+    1,
+    3
+  ],
+  "host": "dsw-824375-57c745db88-n6tv9",
+  "implementations": {
+    "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/lerobot/src/lerobot/policies/pi05/modeling_pi05.py": "5746164601a3d5b958f8a88b75e8d9c6df6b3485a623246f07a024fea9fa2773",
+    "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/lerobot/src/lerobot/policies/pi_gemma.py": "faec69b28f74b42cfb6217898f9a5ee29a442a5f8275339eb2d4453d450dc412",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/featcal/featcal_observation_only.py": "365134335e1a010eed5ec85f76451e1ebed8efcae159c389714af477ac9283b4",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/static-observation-baselines-20260922/featcal/run_observation_only_featcal.py": "f199c7fe8eeec045b13bbb9fcfd36ca11e31ccea8c7dba81fa57e0468202a084",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/build_iclr2027_featcal_call_state_manifest.py": "cb61109fdff885f441da4240a9f576d21dfb118a2a96d6d0e2a53832ddbb2107",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_pi05_featcal_execution_pilot_v2.py": "fee67a8168e7522b6e6c94dca5336971826b140986032aabdd7cd677e2756d8c",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_pi05_featcal_formal_full.py": "515ee298cb800cd26bec9f803ff4fc39b8b32ba3e75179e2766b6379995b9fe4",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_pi05_featcal_forward_order_engineering.py": "32270f3e15b783738a0996ea1e5b118d43fa07ff882fb84d1fc4780708471ed7",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_pi05_featcal_teacher_mini_v2.py": "da4e8fc80953d645e09ecc1c230903c036491ba6ec39401411a3eb57fc0c35e3",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/verify_featcal_replay_identity.py": "731101616bf80c0ec4a6d3126809780edb9d84ddc2bee35bd3e02a66d5aea18d",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/featcal_cache_plan.py": "4b5aa596dd39b857b5da60fdd3a4080233153ce32f04cab660cc844e42f67d13",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/featcal_execution.py": "d50db5553d174c4e05bceaefceb14beb47a5558f955325d5a894f014bee82f73",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/featcal_forward_order.py": "712282ed7d9fad08c20f55e4330b2b29545ac5180f41a80301c36279762c9ede",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/featcal_hybrid_solve.py": "d44597ad37397dbb7ffd752891943644297fdd8224e09f7f106ff7e3ce93863d",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/src/vla_merge/featcal_prefix_chain.py": "7451aba3fd66e89b4c3b5c2318d54cd87fe7662eef7201acdc730910239af625"
+  },
+  "lambda": 0.05,
+  "method": "FeatCal (observation-only native t=1 VLA adaptation)",
+  "models": {
+    "base": {
+      "model_sha256": "f2165fad32a4b431ca1488a5b886f6738be9e8b480298ecc9e0b55d87d26f365",
+      "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/ckpt/theta0/checkpoints/000200/pretrained_model",
+      "tensor_count": 813
+    },
+    "base_file_sha256": "f2165fad32a4b431ca1488a5b886f6738be9e8b480298ecc9e0b55d87d26f365",
+    "experts": {
+      "goal": {
+        "model_sha256": "af9e258354d759710d04f13d40ac6e2e4377d5063f56fa8e0ef574f8c96e2732",
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/goal-10k-full-dense-peft-v2/pretrained_model"
+      },
+      "long": {
+        "model_sha256": "85ad87a5d9fbdcdee5d6ff9270a59355326b376f0d50fbc27ae606cbc9b7f8fc",
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/long-10k-full-dense-peft-v2/pretrained_model"
+      },
+      "object": {
+        "model_sha256": "a74c9349a78e122ecf9799e404ad748ffebba0b814b95e3dae4a7b32837f1510",
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/object-10k-full-dense-peft-v2/pretrained_model"
+      },
+      "spatial": {
+        "model_sha256": "008cb4a76898edbb70edb83bd54cb472722ba49b2760acfde24381e6d14fc75f",
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/preflight/spatial-10k-full-dense-peft-v2/pretrained_model"
+      }
+    },
+    "matching_expert": "spatial",
+    "uniform_soup": {
+      "manifest_sha256": "625400e9ec730ba16cbb123b0a2a7d03371c46467d2aaefdb9c4ffa8cb5c0bb4",
+      "model_sha256": "a92aacc43146dc41663c0057f2999bd90252fb3fb316ef963f165be67e1be01a",
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/libero/model-soups/repeat-shared/merge/attempt-02-peft-safe-v2/pretrained_model"
+    }
+  },
+  "no_hyperparameter_search": true,
+  "no_selection_by_success": true,
+  "noise_seed_base": 202609220000,
+  "raw": {
+    "goal": {
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/goal/manifest.json",
+      "manifest_sha256": "a38db754641d64c2b98efdc2266aaec2dcee84dfcdac048d29b8baee89d6bcd5",
+      "tensor_file": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/goal/observations.safetensors",
+      "tensor_sha256": "192c13c2e61d75f5e04f1753d6ae395cb3776357db99cc165076ddbac18bdbc0"
+    },
+    "long": {
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/long/manifest.json",
+      "manifest_sha256": "fb249a9761be583ba8a6088c22cdac34bece14e1ccdfce054a8c4f2796492613",
+      "tensor_file": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/long/observations.safetensors",
+      "tensor_sha256": "3e4322840891370d8ae7c2e95c90631cdee70059cdcc6f2edb14ef881a8bddc5"
+    },
+    "object": {
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/object/manifest.json",
+      "manifest_sha256": "5bf0c319c6e9f4da1cfac63bcc966fc50d55fd508f23b5ce8bda08570a741c18",
+      "tensor_file": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/object/observations.safetensors",
+      "tensor_sha256": "2be7ac04d5c72b27efa3633969de57c6b2e9adaac60c03b731e70f7a0e9417de"
+    },
+    "spatial": {
+      "manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/spatial/manifest.json",
+      "manifest_sha256": "6ded802341017e8e97f86b11f326bf969f3fe8ada6c33d8e9fe4e9087bf539f4",
+      "tensor_file": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/featcal/inputs/spatial/observations.safetensors",
+      "tensor_sha256": "8ff070b010f27a278b44e3f655969df111e7a843e1eb4e439ed9cea4ddf21190"
+    }
+  },
+  "realized_rows": 4441200,
+  "rho": 2.0,
+  "schema_version": 1,
+  "solved_weights": 418,
+  "source_intervention": "same 200 static observations; remove demonstration actions; 3 independent native Gaussian t=1 states per observation",
+  "stages": 47,
+  "timestep": 1.0
+}

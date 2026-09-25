@@ -1,0 +1,17 @@
+{
+  "cpu_only": true,
+  "cuda_visible_devices": "",
+  "max_active": 2,
+  "nice": 19,
+  "pid": 2863258,
+  "plan_sha256": "e9b38b1e7793b31876c7c7804e0bc446e6287ec91f34d33444eca818432c407b",
+  "resource_admission": {
+    "cpu_affinity_count": 86,
+    "disk_available_bytes": 55351726571520,
+    "load1": 43.31201171875,
+    "memory_available_bytes": 958054752256
+  },
+  "source_sha256": "ea35eabcd54af7d47e2f8cc9b9835dbf308e0248c137df04520d1bd00b3061e4",
+  "start_ticks": 489274316,
+  "started_at": "2026-09-25T01:17:41.295726+00:00"
+}

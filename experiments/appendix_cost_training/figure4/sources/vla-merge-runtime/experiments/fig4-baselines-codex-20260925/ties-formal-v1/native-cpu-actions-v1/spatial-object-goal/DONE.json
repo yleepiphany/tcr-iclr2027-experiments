@@ -1,0 +1,30 @@
+{
+  "all_finite": true,
+  "cpu_import_workaround": "Scoped optional Transformer Engine discovery suppression only",
+  "device": "cpu",
+  "formal_episodes": 0,
+  "formal_plan_sha256": "9aa487f1feabc70c6db5f0fb6525469e4be90d0018c94213b828b71df596a653",
+  "gpu_initialized": false,
+  "input_record": "spatial/observation_000",
+  "input_sha256": "8ff070b010f27a278b44e3f655969df111e7a843e1eb4e439ed9cea4ddf21190",
+  "model_sha256": "6cf494c56f4cfaa9e18b984740c779c17de2008425dfdf8e002253ce11ced3d0",
+  "native_denoising_calls": 10,
+  "native_execution_window": 10,
+  "native_num_inference_steps": 10,
+  "output_dtype": "torch.float32",
+  "output_sha256": "4072e99f7b45c93c1a1d8e8c5ae28261ca5eeaa9a30641fa4b4f334419c1032c",
+  "output_shape": [
+    1,
+    50,
+    32
+  ],
+  "policy_weights_changed": false,
+  "runtime_modules": "Original PI05 sample_actions/euler_integrate/denoise_step; count wrapper has no numerical modification",
+  "sample_actions_seconds": 72.68772585410625,
+  "seed": 274001,
+  "source_sha256": "43bb42e8a401ff4d5d1cbf23c1025681923c6501b598e1dbc4612bb73835d1d9",
+  "status": "pass_finite_native_actions",
+  "subset": "spatial-object-goal",
+  "success_values_used": false,
+  "time": "2026-09-25T01:41:44.728431+00:00"
+}

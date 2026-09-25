@@ -1,0 +1,46 @@
+{
+  "checked_at_utc": "2026-09-25T02:01:35.466707+00:00",
+  "status": "PASS",
+  "portable_checks": {
+    "status": "PASS",
+    "snapshot_files": 122,
+    "snapshot_bytes": 3346031,
+    "plan_and_recorded_readiness_bindings": "PASS",
+    "regmean_function_parity": {
+      "unchanged_functions": 37,
+      "changed_functions": [
+        "load_replay_states",
+        "main"
+      ]
+    },
+    "ties_kernel": {
+      "expert_counts": [
+        2,
+        3
+      ],
+      "independent_numpy_oracle": "bitwise_equal"
+    },
+    "regmean_contract": {
+      "rows": {
+        "2": 1184200,
+        "3": 1776300
+      },
+      "excluded_expert_and_ridge_rejected": true
+    },
+    "full_native_checks_rerun_locally": false,
+    "native_check_evidence": "Byte-preserved original CPU receipts; full PyTorch/safetensors/native assets required to rerun them.",
+    "gpu_or_training_started": false
+  },
+  "unittest": {
+    "tests": 4,
+    "passed": 4,
+    "command": "python3 -m unittest discover -s experiments/appendix_cost_training/figure4 -p test_release.py"
+  },
+  "doctor_code_only": "PASS",
+  "appendix_package_cpu_smoke": "PASS",
+  "doctor_all_native_families": "BLOCKED: local machine lacks external native environments and benchmark/model assets",
+  "torch_and_safetensors_native_tests_rerun_locally": false,
+  "git_diff_check": "PASS",
+  "remote_mutations": false,
+  "git_push": false
+}

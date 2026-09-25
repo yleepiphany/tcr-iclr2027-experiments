@@ -1,0 +1,396 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+    "tools/doctor.py",
+    "--workspace-root",
+    "/mnt/workspace/Wilson/parameter-fusion",
+    "--mode",
+    "cpu"
+  ],
+  "exit_code": 2,
+  "result": {
+    "status": "BLOCKED",
+    "workspace_root": "/mnt/workspace/Wilson/parameter-fusion",
+    "packages": {
+      "openvla_fastwam": {
+        "status": "BLOCKED",
+        "mode": "cpu",
+        "scope": "Table4 OpenVLA-OFT/Fast-WAM",
+        "checks": [
+          {
+            "status": "PASS",
+            "check": "snapshot SHA256 + Python syntax + JSON parse",
+            "files": 150,
+            "gpu_used": false,
+            "weights_in_git": false
+          },
+          {
+            "status": "BLOCKED",
+            "backend": "openvla",
+            "suite": "spatial",
+            "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt",
+            "missing": [
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/manifest.json",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/envs/mergevla/bin/python",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/references/LIBERO-MergeVLA",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/source",
+              "/mnt/workspace/Wilson/parameter-fusion/.datasets/LIBERO/20260919/config-standard/config.yaml",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/action_head--150000_checkpoint.pt",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/added_tokens.json",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/config.json",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/dataset_statistics.json",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/generation_config.json",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/model-00001-of-00004.safetensors",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/model-00002-of-00004.safetensors",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/model-00003-of-00004.safetensors",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/model-00004-of-00004.safetensors",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/model.safetensors.index.json",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/preprocessor_config.json",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/processor_config.json",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/proprio_projector--150000_checkpoint.pt",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/special_tokens_map.json",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/tokenizer.json",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/tokenizer.model",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/OpenVLA-OFT/weights/spatial/openvla-7b-oft-finetuned-libero-spatial--150000_chkpt/tokenizer_config.json"
+            ],
+            "verified_sha256_files": [],
+            "full_weight_hashes_verified": false,
+            "gpu_used": false
+          },
+          {
+            "status": "BLOCKED",
+            "backend": "fastwam",
+            "suite": "spatial",
+            "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/spatial/checkpoints/weights/step_012000.pt",
+            "missing": [
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/manifest.json",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table1-20260910/reset-banks/libero-procedural-clean-v1/selections/repeat-01.json",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/spatial/checkpoints/weights/step_012000.pt",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/envs/mergevla/bin/python",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/references/LIBERO-MergeVLA",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/weights/spatial/dataset_stats.json",
+              "/mnt/workspace/Wilson/parameter-fusion/vla-merge_table4/Fast-WAM/source/configs/sim_libero.yaml",
+              "/mnt/workspace/Wilson/parameter-fusion/.datasets/FastWAM/models"
+            ],
+            "verified_sha256_files": [
+              "vla-merge_table4/Fast-WAM/weights/spatial/dataset_stats.json"
+            ],
+            "full_weight_hashes_verified": false,
+            "gpu_used": false
+          }
+        ],
+        "output": "/var/folders/71/5g9613kj6q34dv3wmwqf236c0000gp/T/tcr-table4-smoke-__3ygdob"
+      },
+      "robotwin_pro": {
+        "schema": "robotwin_pro_release_smoke_v1",
+        "status": "BLOCKED",
+        "scope": "Package integrity and explicitly selected smoke mode; not a formal benchmark evaluation",
+        "package_files_verified": 118,
+        "methods": [
+          {
+            "method": "libero_pro/model_soups",
+            "status": "BLOCKED_MISSING_SELECTION",
+            "current_checkpoint_sha256": "a92aacc43146dc41663c0057f2999bd90252fb3fb316ef963f165be67e1be01a",
+            "selection_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-soup-codex-20260924/selection-v1/manifest.json",
+            "reason": "Selection manifest is unavailable; no implicit regeneration or substitute"
+          },
+          {
+            "method": "libero_pro/ties",
+            "status": "BLOCKED_MISSING_SELECTION",
+            "current_checkpoint_sha256": "9382c79c9a76dea4803d71484599ec16edb77ee3cf7ce3b861fb9f0296921847",
+            "selection_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/ties_merging/selection-v1/manifest.json",
+            "reason": "Selection manifest is unavailable; no implicit regeneration or substitute"
+          },
+          {
+            "method": "libero_pro/regmean_pp",
+            "status": "BLOCKED_STALE_SELECTION",
+            "current_checkpoint_sha256": "fea99a8c09f8ca16bf8a2889bac659aba86bcbf831ef422e8c0a30115bccffb2",
+            "reason": "Selection manifest is unavailable; no implicit regeneration or substitute",
+            "selection_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/regmean_pp/selection-v1/manifest.json",
+            "next_step": "Create a NEW current-model manifest and runner, validate all reset/task/config bindings, then review the catalog status; never edit a running historical selection in place."
+          },
+          {
+            "method": "libero_pro/featcal",
+            "status": "BLOCKED_STALE_SELECTION",
+            "current_checkpoint_sha256": "b0da07eda2a9ab4485f555f694d31afe08c40a39d6e3bfd44e9b9d8d006b0114",
+            "reason": "Selection manifest is unavailable; no implicit regeneration or substitute",
+            "selection_manifest": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/pi05-pro-baselines-codex-20260924/featcal/selection-v1/manifest.json",
+            "next_step": "Create a NEW current-model manifest and runner, validate all reset/task/config bindings, then review the catalog status; never edit a running historical selection in place."
+          },
+          {
+            "method": "robotwin/ties",
+            "status": "UNFINISHED",
+            "current_checkpoint_sha256": "1ce6509f169944ef01ab3efcc0976c885691e89732ff651507359de7813fefbc"
+          },
+          {
+            "method": "robotwin/tcr",
+            "status": "UNFINISHED",
+            "current_checkpoint_sha256": null
+          },
+          {
+            "method": "robotwin/regmean_pp",
+            "status": "BLOCKED_MISSING_NATIVE_ADAPTER",
+            "current_checkpoint_sha256": null,
+            "reason": "No accepted RoboTwin-specific activation cache, solver adapter, dense checkpoint, or 540-episode evaluation binding found. LIBERO checkpoints are invalid substitutes."
+          },
+          {
+            "method": "robotwin/featcal",
+            "status": "BLOCKED_MISSING_NATIVE_ADAPTER",
+            "current_checkpoint_sha256": null,
+            "reason": "No accepted RoboTwin-specific activation cache, solver adapter, dense checkpoint, or 540-episode evaluation binding found. LIBERO checkpoints are invalid substitutes."
+          }
+        ],
+        "gpu_tasks_started": 0,
+        "other_processes_signalled": 0,
+        "native_smoke": {
+          "status": "BLOCKED",
+          "checks": [
+            {
+              "name": "libero_pro",
+              "command": [
+                "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/envs/iclr2027-libero-pro-py312-v1/bin/python",
+                "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_pi05_libero_pro_evaluation.py",
+                "--help"
+              ],
+              "scope": "Native imports and CLI only; no model, simulator episode, or CUDA request",
+              "status": "BLOCKED",
+              "reason": "Native entrypoint/runtime absent"
+            },
+            {
+              "name": "robotwin_ties",
+              "command": [
+                "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/envs/iclr2027-robotwin2-py312-mplib-curobo-v3/bin/python",
+                "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/watch_robotwin_model_soups_formal_v1.py",
+                "--help"
+              ],
+              "scope": "Native imports and CLI only; no model, simulator episode, or CUDA request",
+              "status": "BLOCKED",
+              "reason": "Native entrypoint/runtime absent"
+            },
+            {
+              "name": "robotwin_tcr",
+              "command": [
+                "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/envs/iclr2027-robotwin2-py312-mplib-curobo-v3/bin/python",
+                "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/run_tcr_formal_local_v4.py",
+                "--help"
+              ],
+              "scope": "Native imports and CLI only; no model, simulator episode, or CUDA request",
+              "status": "BLOCKED",
+              "reason": "Native entrypoint/runtime absent"
+            }
+          ]
+        }
+      },
+      "appendix_cost_training": {
+        "status": "PASS",
+        "mode": "cpu",
+        "checks": [
+          {
+            "name": "actual_source_and_config_hashes",
+            "pass": true,
+            "files": 293
+          },
+          {
+            "name": "real_contract_imports_and_nested_row_budgets",
+            "pass": true,
+            "module_count": 418,
+            "second_pass_rows": {
+              "low": 666000,
+              "base": 1331600,
+              "high": 1997200
+            }
+          },
+          {
+            "name": "appendix_entrypoints_present",
+            "pass": true,
+            "workflows": 7
+          },
+          {
+            "name": "cost_null_semantics_units_and_duplicate_guard",
+            "pass": true
+          },
+          {
+            "name": "figure4_source_plans_numpy_oracle_and_subset_contract",
+            "pass": true,
+            "details": {
+              "status": "PASS",
+              "snapshot_files": 122,
+              "snapshot_bytes": 3346031,
+              "plan_and_recorded_readiness_bindings": "PASS",
+              "regmean_function_parity": {
+                "unchanged_functions": 37,
+                "changed_functions": [
+                  "load_replay_states",
+                  "main"
+                ]
+              },
+              "ties_kernel": {
+                "expert_counts": [
+                  2,
+                  3
+                ],
+                "independent_numpy_oracle": "bitwise_equal"
+              },
+              "regmean_contract": {
+                "rows": {
+                  "2": 1184200,
+                  "3": 1776300
+                },
+                "excluded_expert_and_ridge_rejected": true
+              },
+              "full_native_checks_rerun_locally": false,
+              "native_check_evidence": "Byte-preserved original CPU receipts; full PyTorch/safetensors/native assets required to rerun them.",
+              "gpu_or_training_started": false
+            }
+          }
+        ],
+        "gpu_started": false,
+        "training_started": false,
+        "source_repository_head": "d1686b81ff58bf7e74defc99aea1a20be30d5098",
+        "workspace_root": "/mnt/workspace/Wilson/parameter-fusion",
+        "external_asset_presence": {
+          "required": 68,
+          "missing": [
+            "appendix.dense_bank",
+            "appendix.expert.spatial",
+            "appendix.adapter.spatial",
+            "appendix.expert.object",
+            "appendix.adapter.object",
+            "appendix.expert.goal",
+            "appendix.adapter.goal",
+            "appendix.expert.long",
+            "appendix.adapter.long",
+            "appendix.pool.A_new.spatial.manifest",
+            "appendix.pool.A_new.spatial.tensors",
+            "appendix.pool.A_new.object.manifest",
+            "appendix.pool.A_new.object.tensors",
+            "appendix.pool.A_new.goal.manifest",
+            "appendix.pool.A_new.goal.tensors",
+            "appendix.pool.A_new.long.manifest",
+            "appendix.pool.A_new.long.tensors",
+            "appendix.pool.B_new.spatial.manifest",
+            "appendix.pool.B_new.spatial.tensors",
+            "appendix.pool.B_new.object.manifest",
+            "appendix.pool.B_new.object.tensors",
+            "appendix.pool.B_new.goal.manifest",
+            "appendix.pool.B_new.goal.tensors",
+            "appendix.pool.B_new.long.manifest",
+            "appendix.pool.B_new.long.tensors",
+            "appendix.pool.C_new.spatial.manifest",
+            "appendix.pool.C_new.spatial.tensors",
+            "appendix.pool.C_new.object.manifest",
+            "appendix.pool.C_new.object.tensors",
+            "appendix.pool.C_new.goal.manifest",
+            "appendix.pool.C_new.goal.tensors",
+            "appendix.pool.C_new.long.manifest",
+            "appendix.pool.C_new.long.tensors",
+            "appendix.action.raw_bank",
+            "appendix.action.raw.raw-heldout.d4cd57b1a9",
+            "appendix.action.raw.raw-heldout.a7b2c9294b",
+            "appendix.action.raw.raw-heldout.b8c3ccb000",
+            "appendix.action.raw.raw-heldout.b412ff3eed",
+            "appendix.action.raw.raw-heldout.81b735fa0d",
+            "appendix.action.raw.raw-heldout.6e3eac074c",
+            "appendix.action.raw.raw-heldout.0984d3e27d",
+            "appendix.action.raw.raw-heldout.85e236ddba",
+            "appendix.action.teacher.spatial.manifest",
+            "appendix.action.teacher.spatial.tensor",
+            "appendix.action.teacher.object.manifest",
+            "appendix.action.teacher.object.tensor",
+            "appendix.action.teacher.goal.manifest",
+            "appendix.action.teacher.goal.tensor",
+            "appendix.action.teacher.long.manifest",
+            "appendix.action.teacher.long.tensor",
+            "appendix.action.teacher_audit",
+            "appendix.action.regmean_a03",
+            "appendix.action.regmean_a03_manifest",
+            "appendix.native.pi05_source",
+            "appendix.native.python",
+            "appendix.native.tokenizer",
+            "appendix.common_base",
+            "appendix.uniform_soup",
+            "appendix.ridge_reference",
+            "appendix.formal_bank",
+            "appendix.training.source_dataset",
+            "fig4.ties.vector.goal",
+            "fig4.ties.vector.object",
+            "fig4.ties.vector.spatial",
+            "fig4.regmeanpp.replay.goal",
+            "fig4.regmeanpp.replay.object",
+            "fig4.regmeanpp.replay.spatial",
+            "fig4.native.spatial_observation"
+          ],
+          "large_asset_hashes_recomputed": false
+        },
+        "continued_training": {
+          "status": "BLOCKED",
+          "tables": [
+            6,
+            15
+          ],
+          "missing_protocol_fields": [
+            "budget_updates_B",
+            "source_dataset_revision_and_mixture",
+            "trainable_parameter_scope",
+            "optimizer_and_scheduler",
+            "global_batch_and_accumulation",
+            "random_seeds",
+            "evaluation_update_schedule",
+            "shared_success_threshold_tau",
+            "initialization_checkpoint_bindings",
+            "single_expert_development_selection_rule",
+            "restart_and_optimizer_state_semantics"
+          ],
+          "frozen_reviewed_protocol_exists": false,
+          "training_started": false,
+          "reason": "The paper contains an unfilled six-arm design; no reviewed shared training budget/configuration was found. A generic expert-training script is not a matched six-arm protocol.",
+          "required_next_step": "Freeze and independently review the missing scientific/training choices before implementing an executable trainer. Filling this template alone is not approval or validation."
+        },
+        "table11_regmean_a03": {
+          "status": "BLOCKED",
+          "model_name": "regmean_spectral_smoothing_a03",
+          "model_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmean_spectral_smoothing_a03/attempt-01/checkpoint",
+          "model_sha256": "2d7acd682ec0d242eaa8726338125b65fea282787c508c60073135dcea11f54b",
+          "run": "/mnt/workspace/Wilson/parameter-fusion/release-output/table11-regmean-a03",
+          "missing_assets": [
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/main-action-fidelity-20260921/run_candidate_actions.py",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmean_spectral_smoothing_a03/attempt-01/checkpoint/model.safetensors",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/static-observation-baselines-20260922/regmean_spectral_smoothing_a03/attempt-01/checkpoint/block_regmeanpp_manifest.json",
+            "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/main-action-fidelity-20260921/heldout-raw-attempt-02/bank-index.json",
+            "/mnt/workspace/Wilson/parameter-fusion/coordination/2026-09-21/c146-teacher-actions-audit.json"
+          ],
+          "heldout_requests": 400,
+          "native_denoising_steps": 10,
+          "executed_action_steps": 10,
+          "continuous_dimensions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "coordinate_scale": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "aggregation": "40-task macro, ten requests/task; report cosine coverage",
+          "success_episodes": 0,
+          "gpu_validation_performed_by_release": false
+        },
+        "claim_boundary": "PASS means packaged source/contracts and CPU extraction smoke passed. It does not claim GPU experiments, missing measurements or continued training have been completed."
+      }
+    }
+  },
+  "local_native_dependencies": {
+    "torch": false,
+    "safetensors": false
+  },
+  "scope": "Local release checks; no remote jobs modified or launched"
+}

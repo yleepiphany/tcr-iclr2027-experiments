@@ -1,0 +1,19 @@
+{
+  "accepted_builds": {},
+  "accepted_evaluations": {},
+  "active": {},
+  "failed": {},
+  "pending_builds": [
+    "regmeanpp-spatial-goal",
+    "regmeanpp-spatial-object-goal"
+  ],
+  "pending_evaluations": [
+    "regmeanpp-spatial-goal-libero_spatial",
+    "regmeanpp-spatial-goal-libero_goal",
+    "regmeanpp-spatial-object-goal-libero_spatial",
+    "regmeanpp-spatial-object-goal-libero_object",
+    "regmeanpp-spatial-object-goal-libero_goal"
+  ],
+  "stopped": false,
+  "updated_at": "2026-09-25T01:52:03.473942+00:00"
+}

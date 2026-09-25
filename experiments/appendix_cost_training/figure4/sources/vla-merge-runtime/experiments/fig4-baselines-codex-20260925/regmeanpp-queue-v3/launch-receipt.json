@@ -1,0 +1,19 @@
+{
+  "pid": 2883469,
+  "kernel_starttime": 489442403,
+  "started_at_utc": "2026-09-25T01:45:42.026630+00:00",
+  "source": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/regmeanpp_subset/queue_regmeanpp_subset_v3.py",
+  "source_sha256": "9474687fd2210a3a1f969bbfc63f6f08e5f8df8ebb40b51f439dc73799b18c3f",
+  "plan_sha256": "c83cfbda79f58f12c322f58c0feac9e08b0109afbe815b005ce753ed7f10e88d",
+  "permit_sha256": "f52022536a546a2737c097c0e038e995586a08e6c04e2a8113fa02d83d7df81b",
+  "builds": 2,
+  "native_checks": 2,
+  "formal_jobs": 5,
+  "formal_episodes": 500,
+  "allowed_gpus": [
+    1,
+    4,
+    5,
+    6
+  ]
+}

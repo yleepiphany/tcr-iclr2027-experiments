@@ -1,0 +1,36 @@
+{
+  "builds_started": 0,
+  "checked_at_utc": "2026-09-25T01:15:19.544238+00:00",
+  "coordinates": 2706471968,
+  "cpu_import_workaround": "Only optional transformer_engine discovery hidden during imports; original native dense modules and GPU evaluator unchanged",
+  "full_hash_gate": "Enforced by build before writing weights.",
+  "full_task_vector_hashes_rechecked": false,
+  "gpu_initialized": false,
+  "native_config_imports": [
+    {
+      "config_class": "PI05Config",
+      "device": "cpu",
+      "n_action_steps": 10,
+      "policy_class": "PI05Policy",
+      "subset": "spatial-goal",
+      "use_peft": false
+    },
+    {
+      "config_class": "PI05Config",
+      "device": "cpu",
+      "n_action_steps": 10,
+      "policy_class": "PI05Policy",
+      "subset": "spatial-object-goal",
+      "use_peft": false
+    }
+  ],
+  "native_load_pending_reason": "New subset checkpoints have not been built; native-load is implemented and must run after each CPU build.",
+  "native_model_weights_loaded": false,
+  "plan_sha256": "e9b38b1e7793b31876c7c7804e0bc446e6287ec91f34d33444eca818432c407b",
+  "status": "pass_cpu_preflight",
+  "subsets": [
+    "spatial-goal",
+    "spatial-object-goal"
+  ],
+  "tensor_count": 422
+}

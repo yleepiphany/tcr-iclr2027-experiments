@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+    "-u",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/fig4-baselines-codex-20260925/ties_subset_v2.py",
+    "native-load",
+    "--subset",
+    "spatial-goal"
+  ],
+  "cpu_only": true,
+  "pid": 2871239,
+  "resource_admission": {
+    "cpu_affinity_count": 86,
+    "disk_available_bytes": 55302699352064,
+    "load1": 33.94482421875,
+    "memory_available_bytes": 980012507136
+  },
+  "started_at": "2026-09-25T01:28:42.696654+00:00"
+}

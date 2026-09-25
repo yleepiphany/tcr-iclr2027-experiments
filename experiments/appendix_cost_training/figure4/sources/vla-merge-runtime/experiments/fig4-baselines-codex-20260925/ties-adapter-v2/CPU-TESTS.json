@@ -1,0 +1,10 @@
+{
+  "cases": [
+    "2/3-expert independent global-sort/sign/disjoint oracle",
+    "F32/BF16 safetensors exact export plus base/untouched tensor preservation"
+  ],
+  "cuda_initialized": false,
+  "status": "pass",
+  "test_source_sha256": "32638ee4efc6082b331f94cb17a03334932db585647c51eb7fad4a2f208153be",
+  "tests": 2
+}

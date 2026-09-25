@@ -624,6 +624,134 @@
       "bytes": 510,
       "added_utc": "2026-09-25",
       "origin": "current_static_v2_1016_transfer"
+    },
+    {
+      "path": "native_sources/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1/README.md",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1/README.md",
+      "sha256": "43a21dcfdfd485fcff63a68c8e31747f92e2dbade5f3ae539e68e71c94df52e9",
+      "bytes": 7724,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_static_CPU_readiness"
+    },
+    {
+      "path": "native_sources/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1/check_m3_kernels_cpu.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1/check_m3_kernels_cpu.py",
+      "sha256": "77489aaa2cbf34883f3b7d33ba2eed1b78465be67743ca6ca673cea58b95c922",
+      "bytes": 4007,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_static_CPU_readiness"
+    },
+    {
+      "path": "native_sources/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1/collect_static_bank_cpu.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1/collect_static_bank_cpu.py",
+      "sha256": "9d13939bdb4c46cdf53c6279cfe0be84adaac04e659b568540384bfdfd2b9f74",
+      "bytes": 12346,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_static_CPU_readiness"
+    },
+    {
+      "path": "native_sources/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1/featcal_m3.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1/featcal_m3.py",
+      "sha256": "c7258a4f1d9cb6d843207d932009700974b9d073481825ec8d1768fb35e3e9b9",
+      "bytes": 24356,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_static_CPU_readiness"
+    },
+    {
+      "path": "native_sources/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1/prepare_readiness.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1/prepare_readiness.py",
+      "sha256": "b2e6ef4b4cd039046b0d64fbd1fc08c05b0c9026dad0499edf16906a4afd7084",
+      "bytes": 10712,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_static_CPU_readiness"
+    },
+    {
+      "path": "native_sources/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1/static_bank.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1/static_bank.py",
+      "sha256": "852036fced1508f043927ba315b6f50ad0c18d02a7aef095dee3234e64901f12",
+      "bytes": 3069,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_static_CPU_readiness"
+    },
+    {
+      "path": "native_sources/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1/test_featcal_m3_graph_cpu.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1/test_featcal_m3_graph_cpu.py",
+      "sha256": "00f21342420c581d24d875511203ad6e9ba49b589abf5c102030907191d74265",
+      "bytes": 9300,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_static_CPU_readiness"
+    },
+    {
+      "path": "native_sources/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1/test_readiness.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1/test_readiness.py",
+      "sha256": "25510286dfc9db55b412a623082d8fcac36d9e2ffa3fb0d723bf1e781ecc42dc",
+      "bytes": 1926,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_static_CPU_readiness"
+    },
+    {
+      "path": "native_sources/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1/test_static_bank.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/source-v1/test_static_bank.py",
+      "sha256": "11aa1e71f8f4d5f8349afed37334ec99baa8095c018c08cd24e893c1f5a71ae9",
+      "bytes": 1453,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_static_CPU_readiness"
+    },
+    {
+      "path": "evidence/ROBOTWIN-STATIC-CPU-READINESS-PLAN.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/cpu-readiness-plan.json",
+      "sha256": "b925cacea32778d91218fa0af315565a37ecefac2a5336ccdb57ca72131f8a03",
+      "bytes": 345956,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_static_CPU_readiness"
+    },
+    {
+      "path": "evidence/ROBOTWIN-STATIC-BANK-MANIFEST.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/static-bank-v1/bank.json",
+      "sha256": "4c04affedb0f85622df565f77e6b03f8d67259ffa1b0fa3f5822ec5e08fa3bf5",
+      "bytes": 662929,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_static_CPU_readiness"
+    },
+    {
+      "path": "evidence/ROBOTWIN-M3-KERNEL-CPU-CHECK.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/m3-kernel-cpu-check.json",
+      "sha256": "e4491b9b6a61da335f97bab3623085846556d9c3d4dd264cf7a9048fbc4878f2",
+      "bytes": 1093,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_static_CPU_readiness"
+    },
+    {
+      "path": "evidence/ROBOTWIN-FEATCAL-M3-CPU-PLAN.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/plan.json",
+      "sha256": "f9fbc255cf37f5bec14fc2ba36d1b7c147b2d7205e6999f3a6a007df331c7eb5",
+      "bytes": 18009,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_static_CPU_readiness"
+    },
+    {
+      "path": "evidence/ROBOTWIN-FEATCAL-M3-QUOTAS.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-cpu-plan-v1/quotas.json",
+      "sha256": "e53aeddad4a81e129a81c898e9d0e8812cb90b3cf15d5ce040c05b65ddc5fd2f",
+      "bytes": 180194,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_static_CPU_readiness"
+    },
+    {
+      "path": "evidence/ROBOTWIN-M3-CPU-FINAL-TESTS.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/cpu-final-test-report.json",
+      "sha256": "09899d3b071af1e5de801591dbf4ceedafdbd86d9d31a8443a14aab1de832e3f",
+      "bytes": 681,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_static_CPU_readiness"
+    },
+    {
+      "path": "evidence/ROBOTWIN-M3-CPU-FINAL-TESTS.log",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/cpu-final-tests.log",
+      "sha256": "acd3369a85e6718f4c3c6f1d2458ddfddc612ba7ab4fea341e69de8cfd81faf8",
+      "bytes": 1527,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_static_CPU_readiness"
     }
   ]
 }

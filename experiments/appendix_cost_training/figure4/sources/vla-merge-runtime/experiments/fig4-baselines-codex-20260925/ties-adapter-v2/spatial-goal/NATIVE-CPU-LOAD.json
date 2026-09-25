@@ -1,0 +1,10 @@
+{
+  "all_state_tensors_finite": true,
+  "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/fig4-baselines-codex-20260925/checkpoints/ties-spatial-goal/pretrained_model",
+  "gpu_initialized": false,
+  "model_sha256": "a925dfdb87a9eb0efd37857dbfdba24085df1f5a09212ceda8ac6d69dc38a5e9",
+  "native_action_forward_checked": false,
+  "remaining_before_formal": "One native action/velocity finite check on an allocated GPU or CPU, plus exact model/sidecar/reset binding and owned resource lease.",
+  "status": "pass_native_cpu_load",
+  "strict_native_loader": true
+}

@@ -1,0 +1,20 @@
+{
+  "allowed": false,
+  "build_ids": [
+    "regmeanpp-spatial-goal",
+    "regmeanpp-spatial-object-goal"
+  ],
+  "episodes": 500,
+  "evaluation_jobs": 5,
+  "fig4_plan_sha256": "62ff0891df02a75d20a8b724f70f93a8373f75852a7385c88034993c326d7875",
+  "gpu_uuids": {
+    "1": "GPU-c18a3bf3-c47c-9a8a-75b0-5a0f37b33a65",
+    "4": "GPU-48baba1c-f0e7-93b7-4a30-b3c21d20e61a",
+    "5": "GPU-4ed28198-b742-ee3c-2acb-4183dc944c81",
+    "6": "GPU-da625da2-f504-7927-4025-907e876718aa"
+  },
+  "host": "dsw-824375-57c745db88-n6tv9",
+  "note": "Review-only template, not execution authorization. A coordinating owner must create an independently approved allowed permit.",
+  "queue_plan_sha256": "c83cfbda79f58f12c322f58c0feac9e08b0109afbe815b005ce753ed7f10e88d",
+  "schema": "fig4_regmeanpp_queue_execution_permit_v1"
+}
