@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "at_utc": "2026-09-25T13:45:40.754454+00:00",
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "experiments/robotwin_pro/preflight.py",
+        "--mode",
+        "cpu",
+        "--json-output",
+        "experiments/robotwin_pro/evidence/ROBOTWIN-FEATCAL-SHARED-FORMAL-PREFLIGHT.json"
+      ],
+      "exit_code": 0,
+      "output_sha256": "f55e7342f627896b39c0276e1b1e86b3c371a2415001cac2eda64284bbbfb036",
+      "summary": {
+        "status": "PASS",
+        "package_files_verified": 281,
+        "gpu_tasks_started": 0,
+        "other_processes_signalled": 0
+      }
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "experiments/robotwin_pro/tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output_sha256": "d32f774dd3132058dd17fdefd2098a390e102b79402045005b4d0759370b0441",
+      "summary": "22 portable package tests PASS, including 6 shared-formal CPU tests; original runner functions used only with synthetic inputs/mocked /proc"
+    },
+    {
+      "command": [
+        "python3",
+        "tools/doctor.py",
+        "--code-only"
+      ],
+      "exit_code": 0,
+      "output_sha256": "7711b236e7425b17c2209a45645ac5c08900f0f0d8484696712fef0d5ee0f8cc",
+      "summary": {
+        "status": "PASS",
+        "scope": "Python syntax and root manifest schema",
+        "packages": [
+          "openvla_fastwam",
+          "robotwin_pro",
+          "appendix_cost_training"
+        ]
+      }
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "summary": "No whitespace errors"
+    }
+  ],
+  "original_provenance_rows_unchanged": 246,
+  "new_exact_files": 35,
+  "new_source_bytes": 660693,
+  "package_provenance_files": 281,
+  "package_tests": 22,
+  "new_shared_formal_cpu_tests": 6,
+  "historical_cpu_evidence": "Coordination note reports remote tests; no separate original test receipt found. These are separately recorded local package CPU checks.",
+  "new_paths_all_unignored": true,
+  "model_weights_included": false,
+  "native_simulator_executed": false,
+  "gpu_tasks_started": 0,
+  "remote_mutations": false,
+  "overleaf_mutations": false,
+  "git_push": false
+}

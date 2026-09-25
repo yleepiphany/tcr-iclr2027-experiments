@@ -1,0 +1,572 @@
+{
+  "episodes": 60,
+  "group": "receptacle",
+  "horizons": {
+    "place_bread_basket": 700,
+    "place_bread_skillet": 500,
+    "place_burger_fries": 500,
+    "place_can_basket": 700,
+    "place_cans_plasticbox": 800,
+    "place_container_plate": 400,
+    "place_empty_cup": 500,
+    "place_object_basket": 700,
+    "put_bottles_dustbin": 1700,
+    "put_object_cabinet": 700
+  },
+  "id": "receptacle-repeat-02",
+  "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/jobs/receptacle-repeat-02/attempt-01",
+  "reference_reset_sha256": {
+    "22:1188231856": "9ea7c7db7aea665a621094cffba16309bacc699f0b1ac592b330503a6fe1cf51",
+    "22:1424466170": "30576e663520df684d2ec9e13b0c6408e3b5ccd4b06f9947c0b6196349f23653",
+    "22:1616595389": "f3a2f73fb38cd39c97be7328f36876d55788014dfd2ca82baeb3d5e2497d8bee",
+    "22:1838813534": "ec18646b2039b1298a9d4f59d1273e6bf8c9ef3d3390a45878aca1d86d03540d",
+    "22:1974143556": "e761bb0942813c2a4f4ec1c1ffe571bc650448854fd4534b5179db624c18b533",
+    "22:607688674": "aa8b0c4b692e5b5a8221d05b5257678658ed1592aed168361bd8f5d24a8661b9",
+    "23:1142679125": "5830b3e1dc6dc2e23a19c24dedcecfb32a7c7f27e59b5970971483d88e6af72d",
+    "23:1691134275": "d8fca4789c06da8b8289840edb20597c031097c556eaf40a614fc89574b671bd",
+    "23:1953050713": "644a51a27b40493dc4ba674d0f6e3f14cb4961b55ee833027d703b0a6085588e",
+    "23:21597488": "39ce60063c001829d4a354c9d7d13b39114ce8ecb9b583248e656062b376f2a3",
+    "23:327723838": "6e0128149b1286e88a9a2e354514390d62cac49f9dff565e764eb04d28b18da5",
+    "23:997775181": "05b7f9c0c106b481d01cfe852f3e505c7ce64ac3314f7df322454c03a0acb1da",
+    "24:1257688127": "62f48c032bdf3226d0866e84b538470315d80e562f4478cd692a73957f94ab2d",
+    "24:1818984321": "96b1cd8daa347300d0b4470b51aa617dc0d8f2778d80e7bf52aac92421ab7cae",
+    "24:1912689746": "9eec797a25399d55a367c0299225c1e7762b30cf93b06b12973222248e7ff016",
+    "24:1915664648": "6327ecdcdc467defa5a5d240389a3c22412ca4aa048665c795580b54031bf9ad",
+    "24:509142308": "5b3a9489e12acfbfc2d84a50da7efe6edd08f98426a768d039c0d307b89d48cc",
+    "24:773188683": "f152277a7d1a20a847f605f7ef75add0d01da2eb05365100e827889ec308a394",
+    "25:1094540999": "0c1c88e3d1d53caf5590a8a8db0f2d552a4d55f0f67376899fd3876f7b2df569",
+    "25:1653378884": "b5783c5760793a47a9a6e0b9af2424f0eac9d3a28bbbec540d32431140cdaa8c",
+    "25:1704758076": "bb073eab599aa9b2a230ce4e149ec266b2a3c741305e9b53858e074cd65bb8b1",
+    "25:1791292139": "dd217dc3901bc8ecbb3d24e3da25a927c3e0ec8c417cb6fe2d8986d910677479",
+    "25:1854060859": "05351719c6623dab07c64c45346c31d770069c7d6acd0e05539d989a4b6c91e9",
+    "25:34492864": "fa2624626795dd0baeb412b9197eb6c57535e65044ea7423bcfe5fe0eb43f401",
+    "26:1200280651": "449933281ba707090cad7d9769415de428f100d39d2d55d185fd167a8662ee70",
+    "26:139088048": "288236e9bcade72431aac37bd6bb6818a0269d2bb1ee2d40e3b8a6a1d015ae72",
+    "26:1642277142": "87e73f718ce42e2c6b68a5ea3ce61fb67bb713886194d84aa0096d4c0c30b09b",
+    "26:1807523293": "e9a71c62feb139c8a83d6b4bec32fb34fa5e8119ad39701d918a0b27b31e1363",
+    "26:507512895": "2a10d4bf35856b0185883f3434c0d4fdb0f26056537e7a8533ae496de56512cc",
+    "26:616941114": "13cd10da29e2e388e8c7e3d1ea7a9c5362464f816722821e0671dfaa849653b3",
+    "27:1765295868": "31eb672a4a735d306716e311557f1e28896b47db11d8cfa848b42b1ff7c3f4d8",
+    "27:1969036289": "624b39946d29f0ee3acb5937dc6c2d3918798465b26d9393d97045bf813e0a2d",
+    "27:1988527425": "85cdb4ab0b03d62cb3077b61554c5649e23d9d68b7ac2099274fcb12d34b094e",
+    "27:2039857703": "c55791dfcefef7f114b16ada9833e70695fd28c01b7ab8d817163371909c0d8c",
+    "27:759026783": "af275b54b14bc2b4b70507c700eda250dc5cf3f363ad26e7aa8f28e56ca4c8e5",
+    "27:877886121": "b63ca61a26221b7d39445c5c72d1d906b61f3ea0f7ab9f386e2d568b779b180e",
+    "29:1187114630": "321d5eee7119c5a36dd2a6a3814039c065386ec0f98298174fd367b05b0cfcdd",
+    "29:1838488701": "30dc3c91f7645a0be64ed62c0383405c1e1185667b7c1990588103c8ab8323d8",
+    "29:390068791": "4fc54c9e8d9881b5a73d789e713d228065ee72489cbe67a0f2fa0e877cb6fb6e",
+    "29:519570245": "11c75acfca01ecf9b6299e358ee96edc5be3ff0bfdd66c0159860f064a67f810",
+    "29:631300543": "6e687c4dcdb775edd75f7d785a72bb032e1be246e2ac2abd739242755065d257",
+    "29:665737527": "aa17194ddb53ae01fb38a32b8f76218c7ac2dbe80df6046dffed6c26b5073f8e",
+    "32:1225288435": "57c529ef84b0525615c70ae3cb97f30354588a508ccee5d298b40ddd4c7094df",
+    "32:1475249725": "0fda8b8287afd6a8b2399844824e9593ef2b00596cc6687171f4b719dd2746da",
+    "32:178506160": "53028264894543735fbed12a396b107d1e88b1fd3ae65fe380a41b06d06124ea",
+    "32:1925327417": "8a12f5ab344c3c38e8300b73c5f3a8890598b687ad024dc7ffd19a45fcbad38f",
+    "32:75822803": "74094400c4c3dd9c359baf36ab91e64fb1e02803bc325836642009b64065f40d",
+    "32:921449918": "16cbfb30ceaae024f6a7b4a622cbfc5eec951841bb0aee4c99a1dba486d30ad9",
+    "38:1430345402": "37f567dca0b8b1c4e5b613acf3f647700276787513fc571b7edf2779cdb79a18",
+    "38:276387526": "d073b7a04bda25f40bf7bbbfd6e7d4d5f75370ad1d59836b2edf768977871228",
+    "38:603435305": "15059365226fa29ec80042545dbbe05893f69a98cf2ab939bffb596e677ca3a7",
+    "38:68560527": "1d2b1b17b20dd87e9fcd4374702c31982010c8d18db1f78ae366b95c474c9d4c",
+    "38:73708525": "aa4895a9c4735c110a80eb3de439f1fe257b4dcad21751a05bd150bde962621d",
+    "38:97133042": "e169263f75e1b678a71b3f7239f61296030e02fc58f15f02d725d2f18440994f",
+    "39:1257912992": "bf8603014e87bcbc0d01c19d8816619d5a265b786d69626ebdb6e31620154735",
+    "39:1917503353": "589bf4b080f6c76c4584ba6d40e597789606c08b79cc883bb30972c1a081a949",
+    "39:472754271": "e25e46e718b446631a2d1f2be4bff790a58d9f11ef64050e55f3e6ef7646378c",
+    "39:505507714": "21f0d751f719556eb5ec63d315a79578d84b0725b06ef014cbab97b1638f8def",
+    "39:731575495": "6fd2f30c7c2552d3d1c65f64289e270aee5fe68c9e87c761e1ed5eef2f88d99c",
+    "39:750052935": "c6be65e7f6810e5a3ceed8bd420deadf563e761e48c9d193ce6999a00c97dc7c"
+  },
+  "repeat": 2,
+  "reset_bank": {
+    "bytes": 38079,
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/reset-banks/repeat-02.json",
+    "sha256": "451925ba55b3812dcb5f57a6acb24d94cb596b21b5d659b0a45a67a4e6aaf793"
+  },
+  "runtime": {
+    "bindings": [
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/dataset-splits/robotwin-clean50-content-hash-40-5-5-v1.json",
+        "sha256": "7e3823f16902541e5acc5510fedde263eebea455c53b990c83c9b3028f1c5868"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-plans/robotwin-pi05-train40-full-expert-plan-v3/receptacle/sampling_plan.json",
+        "sha256": "346dac0577efd83d0f5a2a1efbb0ac2db116db0aa681415b3133a171fa1619e8"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-plans/robotwin-pi05-train40-full-expert-plan-v3/receptacle/train_config.json",
+        "sha256": "fae1a2692a908abcfaba95ae3fdf1b871bd3db391f44d8b6501495ba4cf1b140"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_iclr2027_robotwin_checkpoint_development.py",
+        "sha256": "d156e3d9f3553131e46d88ea35885708d1fb6c0c5d501b219c4ded0ff5b86a15"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/run_iclr2027_robotwin_native_pi05_smoke_v2.py",
+        "sha256": "4a46efa92776f0ad0caa3fd664be4cb582dd6e5ed9a4504b18c665d17c908971"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/scripts/train_pi05_robotwin_task_balanced.py",
+        "sha256": "bd196003a0449f1db4952c423978364b9baf39311ebc61203f964f00dc588ccc"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model/README.md",
+        "sha256": "835fdcb5acfbdc7a2454561b7c9593b6ef1a794a75a655ec25fad7389840f73b"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model/adapter_config.json",
+        "sha256": "19b943cb02cc6007814952226624f479d557b6c5cbe5b33d6cba5667e8ea9a3d"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model/adapter_model.safetensors",
+        "sha256": "8baab5546f4a8ddb621846d5e94d6571b7c37926e2c7b6924f67847e960a51bb"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model/config.json",
+        "sha256": "2c9f7e509edbb27ca135a86bc2448781fdd084fa94d4f73910cd76a3092b2ea3"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model/policy_postprocessor.json",
+        "sha256": "9f2a2c28bd3d3ba779477b84586fec0efc98522bf4286f77ae24e1b167e42a39"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+        "sha256": "b8ba9b84423b717d05abcbc2999e0b2ff89f8b1c82d2232a37d1f37c14253948"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model/policy_preprocessor.json",
+        "sha256": "714723707403f6a5d1c18ccfa287c16c7b36e13fa1b6447a24431398a241e424"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors",
+        "sha256": "792f8ad0cba252068cc6f2acaaa2a6d7fa0494a29a08426ffff3ad61c7a56b81"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model/train_config.json",
+        "sha256": "5c1dc1b0284ab3616cb50024a49a5fe12725e69af6db2564354ace64b9ac08d2"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model/adapter_model.safetensors",
+        "sha256": "8baab5546f4a8ddb621846d5e94d6571b7c37926e2c7b6924f67847e960a51bb"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model/adapter_config.json",
+        "sha256": "19b943cb02cc6007814952226624f479d557b6c5cbe5b33d6cba5667e8ea9a3d"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model/config.json",
+        "sha256": "2c9f7e509edbb27ca135a86bc2448781fdd084fa94d4f73910cd76a3092b2ea3"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/pretrained_model/train_config.json",
+        "sha256": "5c1dc1b0284ab3616cb50024a49a5fe12725e69af6db2564354ace64b9ac08d2"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-pi05-train40-v3/receptacle/run/checkpoints/015000/training_state/training_step.json",
+        "sha256": "7092b5ba50681a9285759495d9d86ffd753b39af2b631fabd5bfc528e88b7a62"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/datasets/robotwin_unified-1287871839fa-clean50-alltasks-train40-quantiles-chw-v4/meta/info.json",
+        "sha256": "cf15442829d1d65374151f066812d89273b08f32ee1e88f1d9266d02f02d8d3b"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/datasets/robotwin_unified-1287871839fa-clean50-alltasks-train40-quantiles-chw-v4/meta/stats.json",
+        "sha256": "1488d47da939323ef54a6f6227a8c072ee0da6db158282b70fdb7104b6840cac"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/lerobot/src/lerobot/envs/robotwin.py",
+        "sha256": "0cc323afae6cc5cd0f92f51c395c103585dbd136377d47963f9b9f97c4bce5be"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/environments/robotwin2-0aee-open3d-optional-v2/task_config/_eval_step_limit.yml",
+        "sha256": "41c62bd26184977bae45aee555edd0cc21de5cddf560c2595921fc23a1e3b551"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/envs/iclr2027-robotwin2-py312-mplib-curobo-v3/bin/robotwin-python",
+        "sha256": "3d570ab9d9466133902357b5cee04f3ee83d74fae94de17520f707f483d54c7e"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/environments/robotwin2-0aee-open3d-optional-v2/task_config/demo_clean.yml",
+        "sha256": "8ee5d0d07daecf7599b8d89b44776b700c7c60da24cd6317e176e6798d8cb11e"
+      },
+      {
+        "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/environments/robotwin2-0aee-open3d-optional-v2/task_config/_camera_config.yml",
+        "sha256": "dc80a40552e0fad25d58cf0141302ceba66d22409b5091bed235ad2f10cbce7f"
+      }
+    ],
+    "candidate_steps": [
+      5000,
+      10000,
+      15000
+    ],
+    "checkpoint": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/checkpoint",
+    "checkpoint_selection": "five experts, common checkpoint, two consecutive intervals",
+    "dataset_root": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/datasets/robotwin_unified-1287871839fa-clean50-alltasks-train40-quantiles-chw-v4",
+    "diagnostic_steps": [
+      7500
+    ],
+    "expected_world_size": null,
+    "formal_result": true,
+    "group": "receptacle",
+    "heldout_loss": {
+      "aggregation": "frame mean within task, then macro over 10 tasks",
+      "batch_size": 1,
+      "frames": "all development frames",
+      "image_augmentation": false,
+      "random_seed": "SHA256(namespace, converted_episode, frame_index)"
+    },
+    "lerobot": {
+      "head": "bf31dd794ffb4f87380aba3912f64421e8352d3c",
+      "root": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/lerobot"
+    },
+    "plateau_eligible": false,
+    "purpose": "robotwin_featcal_m3_formal_evaluation",
+    "robotwin": {
+      "commit": "0aeea2d669c0f8516f4d5785f0aa33ba812c14b4",
+      "root": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/environments/robotwin2-0aee-open3d-optional-v2"
+    },
+    "runtime_environment": {
+      "CUROBO_TORCH_COMPILE_DISABLE": "1",
+      "MAX_JOBS": "8",
+      "PYTHONNOUSERSITE": "1",
+      "TORCH_CUDA_ARCH_LIST": "8.0",
+      "TORCH_EXTENSIONS_DIR": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/build/curobo-v0.7.8-py312-torch2.11-cu128-sm80-jit-v1/extensions"
+    },
+    "sampling_plan": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-plans/robotwin-pi05-train40-full-expert-plan-v3/receptacle/sampling_plan.json",
+    "schema_version": 1,
+    "simulator": {
+      "action_mode": "joint",
+      "episodes_per_task": 20,
+      "full_horizon": true,
+      "invalid_seed_policy": "fail attempt; never replace seed",
+      "task_config": "demo_clean"
+    },
+    "step": 15000,
+    "tasks": [
+      {
+        "episode_ids": [
+          12113,
+          12116,
+          12117,
+          12120,
+          12146
+        ],
+        "seeds": [
+          607688674,
+          1188231856,
+          1424466170,
+          1616595389,
+          1838813534,
+          1974143556
+        ],
+        "task": "place_bread_basket",
+        "task_index": 22
+      },
+      {
+        "episode_ids": [
+          12660,
+          12662,
+          12677,
+          12685,
+          12698
+        ],
+        "seeds": [
+          21597488,
+          327723838,
+          997775181,
+          1142679125,
+          1691134275,
+          1953050713
+        ],
+        "task": "place_bread_skillet",
+        "task_index": 23
+      },
+      {
+        "episode_ids": [
+          13209,
+          13211,
+          13212,
+          13228,
+          13235
+        ],
+        "seeds": [
+          509142308,
+          773188683,
+          1257688127,
+          1818984321,
+          1912689746,
+          1915664648
+        ],
+        "task": "place_burger_fries",
+        "task_index": 24
+      },
+      {
+        "episode_ids": [
+          13753,
+          13768,
+          13770,
+          13772,
+          13782
+        ],
+        "seeds": [
+          34492864,
+          1094540999,
+          1653378884,
+          1704758076,
+          1791292139,
+          1854060859
+        ],
+        "task": "place_can_basket",
+        "task_index": 25
+      },
+      {
+        "episode_ids": [
+          14302,
+          14332,
+          14333,
+          14334,
+          14335
+        ],
+        "seeds": [
+          139088048,
+          507512895,
+          616941114,
+          1200280651,
+          1642277142,
+          1807523293
+        ],
+        "task": "place_cans_plasticbox",
+        "task_index": 26
+      },
+      {
+        "episode_ids": [
+          14867,
+          14877,
+          14882,
+          14886,
+          14888
+        ],
+        "seeds": [
+          759026783,
+          877886121,
+          1765295868,
+          1969036289,
+          1988527425,
+          2039857703
+        ],
+        "task": "place_container_plate",
+        "task_index": 27
+      },
+      {
+        "episode_ids": [
+          15952,
+          15953,
+          15973,
+          15994,
+          15998
+        ],
+        "seeds": [
+          390068791,
+          519570245,
+          631300543,
+          665737527,
+          1187114630,
+          1838488701
+        ],
+        "task": "place_empty_cup",
+        "task_index": 29
+      },
+      {
+        "episode_ids": [
+          17615,
+          17625,
+          17628,
+          17644,
+          17648
+        ],
+        "seeds": [
+          75822803,
+          178506160,
+          921449918,
+          1225288435,
+          1475249725,
+          1925327417
+        ],
+        "task": "place_object_basket",
+        "task_index": 32
+      },
+      {
+        "episode_ids": [
+          20901,
+          20908,
+          20918,
+          20932,
+          20948
+        ],
+        "seeds": [
+          68560527,
+          73708525,
+          97133042,
+          276387526,
+          603435305,
+          1430345402
+        ],
+        "task": "put_bottles_dustbin",
+        "task_index": 38
+      },
+      {
+        "episode_ids": [
+          21456,
+          21457,
+          21485,
+          21487,
+          21499
+        ],
+        "seeds": [
+          472754271,
+          505507714,
+          731575495,
+          750052935,
+          1257912992,
+          1917503353
+        ],
+        "task": "put_object_cabinet",
+        "task_index": 39
+      }
+    ],
+    "train_config": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-plans/robotwin-pi05-train40-full-expert-plan-v3/receptacle/train_config.json",
+    "training_source": "legacy_world3_v3"
+  },
+  "source_job": {
+    "bytes": 3633,
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/evaluation-queues/robotwin-three-expert-formal-v2/manifests/receptacle/repeat-02.json",
+    "sha256": "4139c511138ae115e99fd2d27d6f059fec6583720a3dbdbb3adca500b46f463c"
+  },
+  "source_parent": {
+    "bytes": 16042,
+    "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/iclr2027-table5-20260910/expert-training/robotwin-three-expert-15k-sequence-v1/receptacle/evaluation-015000/parent.json",
+    "sha256": "83489ed53a52225f66bf03012b6548d040b8c73e02dca6273488eea903f50838"
+  },
+  "tasks": [
+    {
+      "seeds": [
+        1616595389,
+        1188231856,
+        1838813534,
+        1424466170,
+        1974143556,
+        607688674
+      ],
+      "task": "place_bread_basket",
+      "task_index": 22
+    },
+    {
+      "seeds": [
+        34492864,
+        1854060859,
+        1791292139,
+        1094540999,
+        1653378884,
+        1704758076
+      ],
+      "task": "place_can_basket",
+      "task_index": 25
+    },
+    {
+      "seeds": [
+        1642277142,
+        1807523293,
+        616941114,
+        507512895,
+        139088048,
+        1200280651
+      ],
+      "task": "place_cans_plasticbox",
+      "task_index": 26
+    },
+    {
+      "seeds": [
+        877886121,
+        1988527425,
+        2039857703,
+        1765295868,
+        759026783,
+        1969036289
+      ],
+      "task": "place_container_plate",
+      "task_index": 27
+    },
+    {
+      "seeds": [
+        178506160,
+        75822803,
+        1925327417,
+        1475249725,
+        1225288435,
+        921449918
+      ],
+      "task": "place_object_basket",
+      "task_index": 32
+    },
+    {
+      "seeds": [
+        1430345402,
+        276387526,
+        68560527,
+        603435305,
+        73708525,
+        97133042
+      ],
+      "task": "put_bottles_dustbin",
+      "task_index": 38
+    },
+    {
+      "seeds": [
+        750052935,
+        472754271,
+        731575495,
+        1917503353,
+        1257912992,
+        505507714
+      ],
+      "task": "put_object_cabinet",
+      "task_index": 39
+    },
+    {
+      "seeds": [
+        631300543,
+        390068791,
+        665737527,
+        1838488701,
+        519570245,
+        1187114630
+      ],
+      "task": "place_empty_cup",
+      "task_index": 29
+    },
+    {
+      "seeds": [
+        1142679125,
+        21597488,
+        1691134275,
+        997775181,
+        1953050713,
+        327723838
+      ],
+      "task": "place_bread_skillet",
+      "task_index": 23
+    },
+    {
+      "seeds": [
+        773188683,
+        1257688127,
+        1915664648,
+        509142308,
+        1912689746,
+        1818984321
+      ],
+      "task": "place_burger_fries",
+      "task_index": 24
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "biases_and_other_tensors": "preserve initial Soup",
+  "final_prefix_sha256": "2803e9dda128fd5bcf5f16ce29c748a3f31cbb78e60c73b547f56f5c99b7f3df",
+  "formal_result": false,
+  "input_bank_sha256": "4c04affedb0f85622df565f77e6b03f8d67259ffa1b0fa3f5822ec5e08fa3bf5",
+  "linear_weights": 418,
+  "method": "RoboTwin M3 static-observation FeatCal",
+  "model_sha256": "d2b6d99abcea01877045b98c6e704b552a0dee804c70bebdbb1519a0b71e0228",
+  "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/checkpoint/pretrained_model",
+  "plan_sha256": "987e95f0db4708079fbfab59e96e5147181619f6ebf9e337b9abb4c0e691495f",
+  "tensor_count": 813
+}

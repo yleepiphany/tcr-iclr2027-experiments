@@ -1,0 +1,25 @@
+{
+  "accepted": {},
+  "active": {
+    "coordination-repeat-01": {
+      "gpu": 5,
+      "pid": 2147127
+    },
+    "receptacle-repeat-01": {
+      "gpu": 7,
+      "pid": 2147156
+    }
+  },
+  "failed": {},
+  "pending": [
+    "precision-repeat-01",
+    "coordination-repeat-02",
+    "receptacle-repeat-02",
+    "precision-repeat-02",
+    "coordination-repeat-03",
+    "receptacle-repeat-03",
+    "precision-repeat-03"
+  ],
+  "stopped": false,
+  "updated_at": "2026-09-25T13:42:44.253157+00:00"
+}

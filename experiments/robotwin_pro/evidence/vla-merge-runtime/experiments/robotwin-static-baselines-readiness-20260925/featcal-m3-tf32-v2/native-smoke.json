@@ -1,0 +1,52 @@
+{
+  "formal_episodes": 0,
+  "models": [
+    {
+      "all_target_modules": 418,
+      "hook_trace_events": 742,
+      "model": "soup",
+      "native_full_joint_bitwise_equal": true,
+      "velocity_shape": [
+        5,
+        50,
+        32
+      ]
+    },
+    {
+      "all_target_modules": 418,
+      "hook_trace_events": 742,
+      "model": "coordination",
+      "native_full_joint_bitwise_equal": true,
+      "velocity_shape": [
+        5,
+        50,
+        32
+      ]
+    },
+    {
+      "all_target_modules": 418,
+      "hook_trace_events": 742,
+      "model": "receptacle",
+      "native_full_joint_bitwise_equal": true,
+      "velocity_shape": [
+        5,
+        50,
+        32
+      ]
+    },
+    {
+      "all_target_modules": 418,
+      "hook_trace_events": 742,
+      "model": "precision",
+      "native_full_joint_bitwise_equal": true,
+      "velocity_shape": [
+        5,
+        50,
+        32
+      ]
+    }
+  ],
+  "peak_allocated_mib": 9700.42236328125,
+  "plan_sha256": "987e95f0db4708079fbfab59e96e5147181619f6ebf9e337b9abb4c0e691495f",
+  "status": "PASS"
+}

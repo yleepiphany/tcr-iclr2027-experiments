@@ -1,0 +1,109 @@
+{
+    "type": "pi05",
+    "n_obs_steps": 1,
+    "input_features": {
+        "observation.state": {
+            "type": "STATE",
+            "shape": [
+                14
+            ]
+        },
+        "observation.images.cam_high": {
+            "type": "VISUAL",
+            "shape": [
+                3,
+                480,
+                640
+            ]
+        },
+        "observation.images.cam_left_wrist": {
+            "type": "VISUAL",
+            "shape": [
+                3,
+                480,
+                640
+            ]
+        },
+        "observation.images.cam_right_wrist": {
+            "type": "VISUAL",
+            "shape": [
+                3,
+                480,
+                640
+            ]
+        }
+    },
+    "output_features": {
+        "action": {
+            "type": "ACTION",
+            "shape": [
+                14
+            ]
+        }
+    },
+    "device": "cuda",
+    "use_amp": false,
+    "use_peft": false,
+    "push_to_hub": false,
+    "repo_id": null,
+    "private": null,
+    "tags": null,
+    "license": null,
+    "pretrained_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-robotwin-tcr-20260923/dense-soup-v1/pretrained_model",
+    "pretrained_revision": null,
+    "paligemma_variant": "gemma_2b",
+    "action_expert_variant": "gemma_300m",
+    "dtype": "bfloat16",
+    "chunk_size": 50,
+    "n_action_steps": 10,
+    "use_visual_memory": false,
+    "use_proprioceptive_memory": false,
+    "memory_frames": 6,
+    "memory_stride": 30,
+    "memory_temporal_attention_every": 4,
+    "max_state_dim": 32,
+    "max_action_dim": 32,
+    "num_inference_steps": 10,
+    "time_sampling_beta_alpha": 1.5,
+    "time_sampling_beta_beta": 1.0,
+    "time_sampling_scale": 0.999,
+    "time_sampling_offset": 0.001,
+    "min_period": 0.004,
+    "max_period": 4.0,
+    "use_relative_actions": false,
+    "relative_exclude_joints": [
+        "gripper"
+    ],
+    "action_feature_names": [
+        "motors"
+    ],
+    "rtc_config": null,
+    "rtc_training_max_delay": 0,
+    "image_resolution": [
+        224,
+        224
+    ],
+    "empty_cameras": 0,
+    "tokenizer_max_length": 200,
+    "normalization_mapping": {
+        "ACTION": "QUANTILES",
+        "STATE": "QUANTILES",
+        "VISUAL": "IDENTITY"
+    },
+    "gradient_checkpointing": true,
+    "compile_model": false,
+    "compile_mode": "max-autotune",
+    "freeze_vision_encoder": false,
+    "train_expert_only": false,
+    "optimizer_lr": 0.0003,
+    "optimizer_betas": [
+        0.9,
+        0.95
+    ],
+    "optimizer_eps": 1e-08,
+    "optimizer_weight_decay": 0.01,
+    "optimizer_grad_clip_norm": 1.0,
+    "scheduler_warmup_steps": 500,
+    "scheduler_decay_steps": 15000,
+    "scheduler_decay_lr": 2.5e-06
+}

@@ -1,0 +1,75 @@
+{
+  "status": "exact_followup_snapshot",
+  "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00",
+  "original_provenance_rows_preserved": 246,
+  "original_provenance_sha256": "cad544f4b83ac60e98acedbb37992590dd9b714158dbb198a200e52d8138cf3f",
+  "files_added": 35,
+  "bytes_added": 660693,
+  "source_paths": [
+    "/mnt/workspace/Wilson/parameter-fusion/coordination/2026-09-25/robotwin-featcal-local-shared-formal.md",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/PLAN-SHA256.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/STARTED.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/jobs/coordination-repeat-01/LEASE.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/jobs/coordination-repeat-01/STARTED.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/jobs/receptacle-repeat-01/LEASE.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/jobs/receptacle-repeat-01/STARTED.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/launches/coordination-repeat-01.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/launches/receptacle-repeat-01.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/coordination-repeat-01.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/coordination-repeat-02.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/coordination-repeat-03.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/precision-repeat-01.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/precision-repeat-02.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/precision-repeat-03.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/receptacle-repeat-01.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/receptacle-repeat-02.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/receptacle-repeat-03.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/plan.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/state.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/backend-stage-receipts/smoke.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/backend-stage-receipts/solve.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/backend-stage-receipts/teachers-coordination.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/backend-stage-receipts/teachers-precision.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/backend-stage-receipts/teachers-receptacle.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/checkpoint/pretrained_model/config.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/checkpoint/pretrained_model/featcal_m3_manifest.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/checkpoint/pretrained_model/policy_postprocessor.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/checkpoint/pretrained_model/policy_preprocessor.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/complete.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/native-smoke.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/teachers-coordination.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/teachers-precision.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/teachers-receptacle.json",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/featcal_shared_formal.py"
+  ],
+  "queue_state": {
+    "accepted": {},
+    "active": {
+      "coordination-repeat-01": {
+        "gpu": 5,
+        "pid": 2147127
+      },
+      "receptacle-repeat-01": {
+        "gpu": 7,
+        "pid": 2147156
+      }
+    },
+    "failed": {},
+    "pending": [
+      "precision-repeat-01",
+      "coordination-repeat-02",
+      "receptacle-repeat-02",
+      "precision-repeat-02",
+      "coordination-repeat-03",
+      "receptacle-repeat-03",
+      "precision-repeat-03"
+    ],
+    "stopped": false,
+    "updated_at": "2026-09-25T13:42:44.253157+00:00"
+  },
+  "native_cpu_evidence": "Coordination document states CPU checks passed; no standalone original shared-formal CPU receipt or test source was found. Portable local CPU tests are recorded separately.",
+  "model_weights_included": false,
+  "remote_mutations": false,
+  "gpu_tasks_started": 0,
+  "ownership_precheck": "Other two sibling agents completed; local Git clean; no shared-formal rows existed; exclusive robotwin_pro ownership communicated to parent."
+}

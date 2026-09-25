@@ -1,0 +1,36 @@
+{
+  "gpu": 7,
+  "leases": [
+    {
+      "fd": 8,
+      "identity": [
+        101,
+        147487826
+      ],
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-card-flocks/dsw-967394-56ffd4897d-42wft/gpu-7-GPU-e027de95-4c80-d8ec-d650-30da9b6eb135.lock"
+    },
+    {
+      "fd": 9,
+      "identity": [
+        101,
+        159523054
+      ],
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/resource-leases/dsw-967394-56ffd4897d-42wft-gpu-7.lock"
+    },
+    {
+      "fd": 10,
+      "identity": [
+        101,
+        106886528
+      ],
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/resource-leases/dsw-967394-56ffd4897d-42wft/gpu-7-featcal-shared.lock"
+    }
+  ],
+  "owner": {
+    "method": "ties",
+    "pid": 3309292,
+    "startticks": 406588354
+  },
+  "shared_known_pro": true,
+  "uuid": "GPU-e027de95-4c80-d8ec-d650-30da9b6eb135"
+}

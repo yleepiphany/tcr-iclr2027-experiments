@@ -1,0 +1,16 @@
+{
+  "at": "2026-09-25T12:44:28.697357+00:00",
+  "command": [
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/envs/iclr2027-robotwin2-py312-mplib-curobo-v3/bin/python",
+    "-u",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/featcal_shared_formal.py",
+    "worker",
+    "--job-id",
+    "coordination-repeat-01",
+    "--gpu",
+    "5"
+  ],
+  "gpu": 5,
+  "pid": 2147127,
+  "shared_known_pro": true
+}

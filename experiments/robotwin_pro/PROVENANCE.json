@@ -1668,6 +1668,251 @@
       "sha256": "cd5e27cd63a8d79069e316e4b1ea155c18e1177d81014c6b1dfcb331ca3fa7c6",
       "bytes": 19730,
       "retrieved_at_utc": "2026-09-25T07:27:35.754477+00:00"
+    },
+    {
+      "path": "evidence/coordination/2026-09-25/robotwin-featcal-local-shared-formal.md",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/coordination/2026-09-25/robotwin-featcal-local-shared-formal.md",
+      "sha256": "fd33f12aa8b97ce21be5c8ef2468d2b8e96772e0bca4f08df77360005c8a01f7",
+      "bytes": 3251,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/PLAN-SHA256.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/PLAN-SHA256.json",
+      "sha256": "4efb8d09c46906a5119a802382727c9a4769a53a16679930502d579c60a46c25",
+      "bytes": 83,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/STARTED.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/STARTED.json",
+      "sha256": "6a6505ba55601b6136415b3cdf2290e37b4ddbd82176ae08d0ad2143704f7fa7",
+      "bytes": 65,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/jobs/coordination-repeat-01/LEASE.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/jobs/coordination-repeat-01/LEASE.json",
+      "sha256": "b1987617aa21418ba8ecdd6d3ec356c30d30098f548dd0688f21809073d74fe9",
+      "bytes": 922,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/jobs/coordination-repeat-01/STARTED.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/jobs/coordination-repeat-01/STARTED.json",
+      "sha256": "aab2b0beea3eb0b7723e1fb085b40094de942b2d2e3da9b71011b7cd717141e4",
+      "bytes": 198,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/jobs/receptacle-repeat-01/LEASE.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/jobs/receptacle-repeat-01/LEASE.json",
+      "sha256": "5cdf661071dded651ab0a215fb253640f0daaba78b4b57bb2b5df2d843e1fb82",
+      "bytes": 923,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/jobs/receptacle-repeat-01/STARTED.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/jobs/receptacle-repeat-01/STARTED.json",
+      "sha256": "076ba19486b632d16244aad1d8e6772a47377de2c052bf309d60007bbd75cdb9",
+      "bytes": 196,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/launches/coordination-repeat-01.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/launches/coordination-repeat-01.json",
+      "sha256": "f3e26de11e927c99741da208998812cb492e821634b482bf90a772ab39ed640f",
+      "bytes": 464,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/launches/receptacle-repeat-01.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/launches/receptacle-repeat-01.json",
+      "sha256": "877416bd0a65243ce107c0c8b25986fa6c87c7bebaf8b9ddb50d9b210a9f08ca",
+      "bytes": 462,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/coordination-repeat-01.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/coordination-repeat-01.json",
+      "sha256": "03923014efce85f1e7a7c35ba68ca23c504290b4823d86bb57f2b1a73c56b71c",
+      "bytes": 23004,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/coordination-repeat-02.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/coordination-repeat-02.json",
+      "sha256": "1c92dd91a9ec3dda331a7e1a853539d8bc2f27d08f1d5485977b37b620e66c03",
+      "bytes": 22989,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/coordination-repeat-03.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/coordination-repeat-03.json",
+      "sha256": "dcbf0989e7505478df989074b0b290284d88d2c74ebf85b5a60d2f610c2cbe7a",
+      "bytes": 22998,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/precision-repeat-01.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/precision-repeat-01.json",
+      "sha256": "b261ad8dbbaff1bb625eee8d34a457fcade9c0a19bbe0742e33ca400b18a0dfb",
+      "bytes": 26615,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/precision-repeat-02.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/precision-repeat-02.json",
+      "sha256": "1bb23f1756f8e5ef411ecdc9175e39edc571ac1a059e4ede70b977df6e384f83",
+      "bytes": 26621,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/precision-repeat-03.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/precision-repeat-03.json",
+      "sha256": "da88bcb2de4c7949086c967defb27cebae5ff56bd0a6ef5e73f7c1da61192a04",
+      "bytes": 26609,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/receptacle-repeat-01.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/receptacle-repeat-01.json",
+      "sha256": "17d2eb61844783e4a8b4013a1933573ce8d966e4b59e79d652420d81ca42b8bd",
+      "bytes": 23074,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/receptacle-repeat-02.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/receptacle-repeat-02.json",
+      "sha256": "a83539172ac24f6719ff48ea08d633def740df01ec10075725630aa28a7c37fd",
+      "bytes": 23056,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/receptacle-repeat-03.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/manifests/receptacle-repeat-03.json",
+      "sha256": "09dbf4b73e7b67a878482c89a2b2c7d1f4d5635c9333be0a5ceaf1d9ac3af67e",
+      "bytes": 23068,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/plan.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/plan.json",
+      "sha256": "c432ea4eec8abec6a96b9b531ae5d6f9c20a52207bf179ddc74016b3d150472c",
+      "bytes": 410375,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/state.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-featcal-local-20260925/formal-v1/state.json",
+      "sha256": "c9023c23d688088ac61c1bf2061db0b5409bd64be7816b04923701cde7fae123",
+      "bytes": 493,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/backend-stage-receipts/smoke.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/backend-stage-receipts/smoke.json",
+      "sha256": "4cde798c0b33146f1ad71e53a6a182af40c1994076dc0d4fb38d5905f54ddfcc",
+      "bytes": 798,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/backend-stage-receipts/solve.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/backend-stage-receipts/solve.json",
+      "sha256": "bf4a28ea5fdb190fc6cfc463f3e7c993c8438dcc2db8b157875915839a151c93",
+      "bytes": 794,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/backend-stage-receipts/teachers-coordination.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/backend-stage-receipts/teachers-coordination.json",
+      "sha256": "c033570001a0dedabda611d63601dcb2c58258218142e7e660dde282d59a8519",
+      "bytes": 823,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/backend-stage-receipts/teachers-precision.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/backend-stage-receipts/teachers-precision.json",
+      "sha256": "fafa4f66ec4a2c5dadaf86c05e78dd67b9dfe85b99fd0405c697fd54f050fd75",
+      "bytes": 817,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/backend-stage-receipts/teachers-receptacle.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/backend-stage-receipts/teachers-receptacle.json",
+      "sha256": "948ba3732c09cf802a59a7b4eba845db56bf1b36eea50ce46ce97d07901156cb",
+      "bytes": 819,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/checkpoint/pretrained_model/config.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/checkpoint/pretrained_model/config.json",
+      "sha256": "401a1e646ce0bd17f7b085db4995fedbe8956d2208f7ad3a0d500bb1cc80f57f",
+      "bytes": 2758,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/checkpoint/pretrained_model/featcal_m3_manifest.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/checkpoint/pretrained_model/featcal_m3_manifest.json",
+      "sha256": "4e150df740b7b9858fd2390c90fdeb2fdad4ad20adc483bdc139cd7f11fe763d",
+      "bytes": 715,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/checkpoint/pretrained_model/policy_postprocessor.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/checkpoint/pretrained_model/policy_postprocessor.json",
+      "sha256": "9f2a2c28bd3d3ba779477b84586fec0efc98522bf4286f77ae24e1b167e42a39",
+      "bytes": 780,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/checkpoint/pretrained_model/policy_preprocessor.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/checkpoint/pretrained_model/policy_preprocessor.json",
+      "sha256": "714723707403f6a5d1c18ccfa287c16c7b36e13fa1b6447a24431398a241e424",
+      "bytes": 2176,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/complete.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/complete.json",
+      "sha256": "831e4b815db60b73b6588bd82bf64ce77d4ce39004985367415f127d3d4de822",
+      "bytes": 837,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/native-smoke.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/native-smoke.json",
+      "sha256": "1272dc395c632f5eba1fa0cd83090a28de05bd837c0284d6b82dae9769874b5c",
+      "bytes": 1075,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/teachers-coordination.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/teachers-coordination.json",
+      "sha256": "6bd7298080038f7d0aac81f021aae81734047732e2c36e4a461cae22bb35c12a",
+      "bytes": 139,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/teachers-precision.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/teachers-precision.json",
+      "sha256": "3238d42350cd9293a7699011a45edec5a350b9138e39afb403c79204af2e0ad4",
+      "bytes": 136,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "evidence/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/teachers-receptacle.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/teachers-receptacle.json",
+      "sha256": "799747ee53506d806981070041277addb59eb390ee96d84079f3b7acf174cc5e",
+      "bytes": 137,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
+    },
+    {
+      "path": "native_sources/experiments/robotwin-tcr-local-codex-20260924/featcal_shared_formal.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-tcr-local-codex-20260924/featcal_shared_formal.py",
+      "sha256": "b35f28ae79c7cf6a81fb4fe897709a3d81eab91d47ce30c61c61c888b99259d5",
+      "bytes": 12423,
+      "retrieved_at_utc": "2026-09-25T13:42:59.068103+00:00"
     }
   ]
 }

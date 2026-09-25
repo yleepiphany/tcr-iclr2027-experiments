@@ -1,0 +1,36 @@
+{
+  "gpu": 5,
+  "leases": [
+    {
+      "fd": 4,
+      "identity": [
+        101,
+        146962156
+      ],
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/claude-card-flocks/dsw-967394-56ffd4897d-42wft/gpu-5-GPU-059c0ed7-bcd0-3a71-69c1-2282316cddc8.lock"
+    },
+    {
+      "fd": 5,
+      "identity": [
+        101,
+        159523310
+      ],
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/resource-leases/dsw-967394-56ffd4897d-42wft-gpu-5.lock"
+    },
+    {
+      "fd": 6,
+      "identity": [
+        101,
+        106886527
+      ],
+      "path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/resource-leases/dsw-967394-56ffd4897d-42wft/gpu-5-featcal-shared.lock"
+    }
+  ],
+  "owner": {
+    "method": "soup",
+    "pid": 3307656,
+    "startticks": 406583987
+  },
+  "shared_known_pro": true,
+  "uuid": "GPU-059c0ed7-bcd0-3a71-69c1-2282316cddc8"
+}

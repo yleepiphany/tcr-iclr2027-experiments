@@ -436,6 +436,17 @@
       "sha256": "e6bfc510ed2188ce8e74dc7f62950b5cb2772b877e6049289a1e8c8b87ad0240",
       "sha256_verification": "recomputed",
       "exists_at_snapshot": true
+    },
+    {
+      "id": "robotwin-featcal-m3-tf32-v2-accepted-weights",
+      "workspace_relative_path": "vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/featcal-m3-tf32-v2/checkpoint/pretrained_model/model.safetensors",
+      "kind": "file",
+      "required": true,
+      "role": "Completed TF32-bound M3 FeatCal model used by shared 540-episode formal queue; performance unfinished at snapshot",
+      "bytes": 9354050784,
+      "sha256": "d2b6d99abcea01877045b98c6e704b552a0dee804c70bebdbb1519a0b71e0228",
+      "sha256_verification": "Build completion, backend solve receipt and formal plan binding; weight file not reread during packaging",
+      "exists_at_snapshot": true
     }
   ]
 }
