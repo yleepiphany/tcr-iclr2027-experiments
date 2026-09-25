@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "tests": 10,
+  "failures": 0,
+  "errors": 0,
+  "exit_code": 0,
+  "gpu_used": false,
+  "gpu_queries": false,
+  "children_launched": 0,
+  "signals_sent": 0,
+  "local_cpu_command": "python3 /Users/Zhuanz/Documents/robotwin-regmeanpp-m3-cpu-20260925/native_smoke_supervisor_v1/test_supervisor_cpu.py",
+  "remote_frozen_plan_validation": "PASS",
+  "supervisor_sha256": "95e84d136c8d94569b4e1f8910ae2f89f7c6f9b9bcaf7560e73bbeb200bc4986",
+  "test_sha256": "21c0c3db4bcf149668482d9af093a6c7c8cdc3566e475f163dc166c9bbb16d6a",
+  "supervisor_plan_sha256": "99786198dac0e61cb594714c0854675b04cca03a3a2c6acf573cc08ef847538d",
+  "original_plan_sha256": "bb25730b256669eecd1180026f1339cbb6b52d16342d9e65750e521e1b39ad0b",
+  "started": false,
+  "external_permit_created": false
+}

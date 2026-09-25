@@ -1,0 +1,82 @@
+{
+  "status": "READY_FOR_OWNER_CONFIGURED_WAIT",
+  "at": "2026-09-25T02:12:23.004557+00:00",
+  "cpu_tests_passed": 7,
+  "source": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/safe-successor-v1/safe_successor.py",
+  "runner_sha256": "5bc9cd6c137d79f7716b9cf441e82f3c32f67802733d8167791ebbea20b63c1b",
+  "test_log": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/safe-successor-v1/cpu-tests-final.log",
+  "preflight": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/gpu-successor-v1/preflight.json",
+  "preflight_sha256": "7a9b63567a633eeacefc5768f01972acaf5643a80a46652ed84b4c41f9c2b487",
+  "no_gpu_torch_imported": true,
+  "wait_supervisor_started": false,
+  "gpu_worker_started": false,
+  "formal_episodes": 0,
+  "resource_snapshot": [
+    {
+      "gpu": 0,
+      "uuid": "GPU-2c67b6c1-0cc2-9dbe-0e5c-00dfea7be3e2",
+      "free_mib": 61513,
+      "compute_pids": [
+        "2752756",
+        "711514"
+      ]
+    },
+    {
+      "gpu": 1,
+      "uuid": "GPU-c18a3bf3-c47c-9a8a-75b0-5a0f37b33a65",
+      "free_mib": 81150,
+      "compute_pids": []
+    },
+    {
+      "gpu": 2,
+      "uuid": "GPU-4466064b-48ab-bc29-c275-ce172788e2a6",
+      "free_mib": 74551,
+      "compute_pids": [
+        "711507"
+      ]
+    },
+    {
+      "gpu": 3,
+      "uuid": "GPU-11e3fd57-cee9-f647-c043-ec44f9c798da",
+      "free_mib": 61417,
+      "compute_pids": [
+        "2752758",
+        "711513"
+      ]
+    },
+    {
+      "gpu": 4,
+      "uuid": "GPU-48baba1c-f0e7-93b7-4a30-b3c21d20e61a",
+      "free_mib": 81150,
+      "compute_pids": []
+    },
+    {
+      "gpu": 5,
+      "uuid": "GPU-4ed28198-b742-ee3c-2acb-4183dc944c81",
+      "free_mib": 80731,
+      "compute_pids": [
+        "69561"
+      ]
+    },
+    {
+      "gpu": 6,
+      "uuid": "GPU-da625da2-f504-7927-4025-907e876718aa",
+      "free_mib": 80730,
+      "compute_pids": [
+        "68889"
+      ]
+    },
+    {
+      "gpu": 7,
+      "uuid": "GPU-dbecf220-5094-c2fc-6e18-52483a9b2c50",
+      "free_mib": 74686,
+      "compute_pids": [
+        "711512"
+      ]
+    }
+  ],
+  "eligible_empty_cards": [
+    1,
+    4
+  ]
+}

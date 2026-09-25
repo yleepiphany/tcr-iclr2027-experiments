@@ -752,6 +752,158 @@
       "bytes": 1527,
       "added_utc": "2026-09-25",
       "origin": "RoboTwin_M3_static_CPU_readiness"
+    },
+    {
+      "path": "native_sources/experiments/robotwin-regmeanpp-m3-codex-20260925/CPU-TEST-RECEIPT.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/CPU-TEST-RECEIPT.json",
+      "sha256": "395fa5bf94e7ddbf86e7467f017b4c1fc16c148c96647fb21b472b3476f021de",
+      "bytes": 922,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_native_smoke_readiness"
+    },
+    {
+      "path": "native_sources/experiments/robotwin-regmeanpp-m3-codex-20260925/README.md",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/README.md",
+      "sha256": "69ba2fe343f1846bd2103a7dded402b20bc28611ee506b26b6479b46936c4182",
+      "bytes": 8124,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_native_smoke_readiness"
+    },
+    {
+      "path": "native_sources/experiments/robotwin-regmeanpp-m3-codex-20260925/contract_regmeanpp_m3.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/contract_regmeanpp_m3.py",
+      "sha256": "6f0f9e8f7ca4e2900a1d190f09823ae3313b1d9b01cdf35583c35a3f486d47a1",
+      "bytes": 11287,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_native_smoke_readiness"
+    },
+    {
+      "path": "native_sources/experiments/robotwin-regmeanpp-m3-codex-20260925/graph_regmeanpp_m3.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/graph_regmeanpp_m3.py",
+      "sha256": "dd81772ce0bfdef7269940a3717707f169d41acc1e18160c4d367012075a41d4",
+      "bytes": 8238,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_native_smoke_readiness"
+    },
+    {
+      "path": "native_sources/experiments/robotwin-regmeanpp-m3-codex-20260925/materialize_regmeanpp_m3.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/materialize_regmeanpp_m3.py",
+      "sha256": "1c1dcf97f127aba17ce1c98b65b6999f60c59c04b081db04822fb31d0969eee4",
+      "bytes": 11567,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_native_smoke_readiness"
+    },
+    {
+      "path": "native_sources/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v1/CPU-TEST-RECEIPT.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v1/CPU-TEST-RECEIPT.json",
+      "sha256": "3eca493c8e629ae905c7e5241e0ee043de7c31221ca3b5bc61cd5e9e1f4d757f",
+      "bytes": 788,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_native_smoke_readiness"
+    },
+    {
+      "path": "native_sources/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v1/README.md",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v1/README.md",
+      "sha256": "626e4a079007fbcae5c53a6bfd698bb0d4a4ac893d4d82aa3c9a6d857105a5de",
+      "bytes": 3964,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_native_smoke_readiness"
+    },
+    {
+      "path": "native_sources/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v1/supervisor.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v1/supervisor.py",
+      "sha256": "95e84d136c8d94569b4e1f8910ae2f89f7c6f9b9bcaf7560e73bbeb200bc4986",
+      "bytes": 11689,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_native_smoke_readiness"
+    },
+    {
+      "path": "native_sources/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v1/test_supervisor_cpu.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v1/test_supervisor_cpu.py",
+      "sha256": "21c0c3db4bcf149668482d9af093a6c7c8cdc3566e475f163dc166c9bbb16d6a",
+      "bytes": 4410,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_native_smoke_readiness"
+    },
+    {
+      "path": "native_sources/experiments/robotwin-regmeanpp-m3-codex-20260925/run_regmeanpp_m3.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/run_regmeanpp_m3.py",
+      "sha256": "97e25742cd878d3b4dbabfc80bb71a8f094d7707d2b9fa35961a3c2aa4423926",
+      "bytes": 5446,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_native_smoke_readiness"
+    },
+    {
+      "path": "native_sources/experiments/robotwin-regmeanpp-m3-codex-20260925/test_regmeanpp_m3_cpu.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/test_regmeanpp_m3_cpu.py",
+      "sha256": "246810a1f6153896e639cd8b735126767c89051561d58e0d2947ad98f691c578",
+      "bytes": 7634,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_native_smoke_readiness"
+    },
+    {
+      "path": "native_sources/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/safe-successor-v1/README.md",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/safe-successor-v1/README.md",
+      "sha256": "88630d5250358c4380bdea1cbd9fe09a1a83771fd996859f9c2e966293020b3d",
+      "bytes": 4341,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_native_smoke_readiness"
+    },
+    {
+      "path": "native_sources/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/safe-successor-v1/cpu-delivery-receipt.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/safe-successor-v1/cpu-delivery-receipt.json",
+      "sha256": "509ca44f6b5be2a80de15bc5137161940cd37a957fcd7cb2c86fe323ad4ea8cf",
+      "bytes": 2269,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_native_smoke_readiness"
+    },
+    {
+      "path": "native_sources/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/safe-successor-v1/safe_successor.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/safe-successor-v1/safe_successor.py",
+      "sha256": "5bc9cd6c137d79f7716b9cf441e82f3c32f67802733d8167791ebbea20b63c1b",
+      "bytes": 12759,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_native_smoke_readiness"
+    },
+    {
+      "path": "native_sources/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/safe-successor-v1/test_safe_successor_cpu.py",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/safe-successor-v1/test_safe_successor_cpu.py",
+      "sha256": "48ecefd0656722b820090945cf37a3bd66baefc937b8005069416ce1154d54ce",
+      "bytes": 4770,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_native_smoke_readiness"
+    },
+    {
+      "path": "evidence/ROBOTWIN-REGMEANPP-M3-CPU-PLAN.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/cpu-plan-v1/plan.json",
+      "sha256": "bb25730b256669eecd1180026f1339cbb6b52d16342d9e65750e521e1b39ad0b",
+      "bytes": 261349,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_native_smoke_readiness"
+    },
+    {
+      "path": "evidence/ROBOTWIN-REGMEANPP-M3-SMOKE-SUPERVISOR-PLAN.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/plan.json",
+      "sha256": "99786198dac0e61cb594714c0854675b04cca03a3a2c6acf573cc08ef847538d",
+      "bytes": 2711,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_native_smoke_readiness"
+    },
+    {
+      "path": "evidence/ROBOTWIN-REGMEANPP-M3-SMOKE-LAUNCH.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1/launch-receipt.json",
+      "sha256": "5cf1482bb515ab6411dbf0424dae1d0e87e6ffece78020bc4fa07ffea82f7c92",
+      "bytes": 1089,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_native_smoke_readiness"
+    },
+    {
+      "path": "evidence/ROBOTWIN-FEATCAL-M3-SMOKE-LAUNCH.json",
+      "source_path": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-static-baselines-readiness-20260925/gpu-successor-v1/smoke-wait-attempt-01/launch-receipt.json",
+      "sha256": "fd7fb78fa3d57a964ce61aa3c2d3e5afece7ffaf3107a09d322ae8d701d6d06c",
+      "bytes": 1099,
+      "added_utc": "2026-09-25",
+      "origin": "RoboTwin_M3_native_smoke_readiness"
     }
   ]
 }

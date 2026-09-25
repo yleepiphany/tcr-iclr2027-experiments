@@ -1,0 +1,42 @@
+{
+  "allowed_gpus": {
+    "1": "GPU-c18a3bf3-c47c-9a8a-75b0-5a0f37b33a65",
+    "4": "GPU-48baba1c-f0e7-93b7-4a30-b3c21d20e61a",
+    "5": "GPU-4ed28198-b742-ee3c-2acb-4183dc944c81",
+    "6": "GPU-da625da2-f504-7927-4025-907e876718aa"
+  },
+  "core_plan_sha256": "bb25730b256669eecd1180026f1339cbb6b52d16342d9e65750e521e1b39ad0b",
+  "core_run": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/cpu-plan-v1",
+  "created_at": "2026-09-25T02:11:04.278598+00:00",
+  "gpu_used": false,
+  "host": "dsw-824375-57c745db88-n6tv9",
+  "materialize_after_success": false,
+  "maximum_child_launches": 1,
+  "maximum_wait_seconds": 86400,
+  "only_stage": "smoke",
+  "output": "/mnt/workspace/Wilson/parameter-fusion/vla-merge-runtime/experiments/robotwin-regmeanpp-m3-codex-20260925/native-smoke-supervisor-v1",
+  "permit_rule": "External single-use smoke permit binds original plan SHA, core run, host, chosen GPU and UUID; never generated here",
+  "poll_seconds": 15,
+  "python": "/mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python",
+  "race_policy": "Supervisor probes all leases then releases them; child independently reacquires all leases and rechecks. Any child rejection is a recorded single failure, never retried.",
+  "resource_gate": {
+    "build_slot": true,
+    "final_atomic_admission": "original guarded child runner",
+    "maximum_used_mib": 64,
+    "minimum_free_mib": 71680,
+    "no_compute_pids": true,
+    "utilization": 0,
+    "uuid_and_legacy_flocks": true
+  },
+  "retry_after_failure": false,
+  "runner": "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/run_regmeanpp_m3.py",
+  "schema": "robotwin_regmeanpp_m3_one_shot_native_smoke_supervisor_v1",
+  "signals_sent": 0,
+  "sources_sha256": {
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/claude-firstpass-cause-20260920/card_flock.py": "50c150a929abf5ccbbba29e2ac650f5bab207e23a2f19667206819b195538da9",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v1/supervisor.py": "95e84d136c8d94569b4e1f8910ae2f89f7c6f9b9bcaf7560e73bbeb200bc4986",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/native_smoke_supervisor_v1/test_supervisor_cpu.py": "21c0c3db4bcf149668482d9af093a6c7c8cdc3566e475f163dc166c9bbb16d6a",
+    "/mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/run_regmeanpp_m3.py": "97e25742cd878d3b4dbabfc80bb71a8f094d7707d2b9fa35961a3c2aa4423926"
+  },
+  "status": "CPU_PREPARED_REQUIRES_EXTERNAL_PERMIT"
+}

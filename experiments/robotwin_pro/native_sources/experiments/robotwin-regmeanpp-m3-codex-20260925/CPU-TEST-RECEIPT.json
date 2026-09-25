@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "tests": 10,
+  "failures": 0,
+  "errors": 0,
+  "exit_code": 0,
+  "gpu_used": false,
+  "cuda_initialized": false,
+  "command": "CUDA_VISIBLE_DEVICES='' PYTHONDONTWRITEBYTECODE=1 /mnt/workspace/Wilson/parameter-fusion/pi05_lora_finetune_v2_20260826/.venv/bin/python /mnt/workspace/Wilson/parameter-fusion/vla-merge/experiments/robotwin-regmeanpp-m3-codex-20260925/test_regmeanpp_m3_cpu.py",
+  "test_source_sha256": "246810a1f6153896e639cd8b735126767c89051561d58e0d2947ad98f691c578",
+  "kernel_sha256": "55b06cc4b6a43c029ade1a5471e3ca1259eb5ec1234420a454333b98411ee3fc",
+  "oracles": ["independent complex shifted direct solve", "independent Hermitian eigendecomposition"],
+  "cases": ["dense regular", "dense rank-deficient/weak", "Woodbury regular", "Woodbury rank-deficient/weak"],
+  "scope": "CPU synthetic graph/numerical and resource-contract tests; no native GPU parity or performance claim"
+}
